@@ -26,3 +26,82 @@
 #Roadmap2013 @zzleila: Henry Evans had a stroke, he's quadraplegic. He used our robot teleoperated to scratch his own face and shave himself
 #Roadmap2013 @zzleila: our remote coworker Dallas used to be a voice in a plastic box, until we put a camera on a robot for him
 #Roadmap2013 @zzleila: A lot of the people using our robots at the moment are universities - they're like mainframes now. We need startups
+#Roadmap2013 @espiekermann: it might be arrogant to presume that people have seen what I do - some typeface Meta Sans, Economist Newtype
+#Roadmap2013 @espiekermann: I used to draw by hand with pen and ink - there were only 126 characters to a font then, not 600 like now
+#Roadmap2013 @espiekermann: Now there's drawing on screen which I'm lousy at , whcih si why I hire young designers who can do that for me
+#Roadmap2013 @veen: in 2009 we were finally able to do good type on the web- you were quick to embrace it with your huge collection
+#Roadmap2013 @espiekermann: for me it was very obvious - you don't have to be a fan of the screen to see people reading onscreen
+#Roadmap2013 @espiekermann: It was obvious that it had to move in 2009 - Georgia+Helvetica are nice, but it's like eating dry bread + water
+#Roadmap2013 @veen: I remember making the pitch to VCs as type being ripe for disruption "people pay for the shapes of letters?"
+#Roadmap2013 @espiekermann: I'd rather have the 10% of people who pay rather than 100% of the people who don't pay
+#Roadmap2013 @espiekermann: There is a human need to compose music, write books and to design typefaces
+#Roadmap2013 @veen: a lot of people don't see the nuances in the expressiveness of type. Why is that?
+#Roadmap2013 @espiekermann: You're not supposed to think about type - it's like water or air - if you notice it it's wrong
+#Roadmap2013 @espiekermann: why are there thousands of vineyards when you have white and red? Type is in the few percent improvement
+#Roadmap2013 @espiekermann: Whatever my shirt is in RGB I don't know, I'm an old print gut - it's 80% Cyan in CMYK
+#Roadmap2013 @veen: Erik, you said the typography in iOS7 is the folly of youth
+#Roadmap2013 @espiekermann: In Clarkenwell everyone has discovered Helvetica like you discovered salt
+#Roadmap2013 @espiekermann: Everyone found you can reduce helvetica by 2 pixels. It's a beautiful typeface but it sucks for an interface
+#Roadmap2013 @espiekermann: whan you're a user interface designer you have to forget your vanity and think about the user
+#Roadmap2013 @espiekermann: when you're young you want to make a splash so you use a typeface to stand out, rather than for use
+#Roadmap2013 @espiekermann: what we do in typefaces is design the 5% - 95% is a given set of rules for what letter shapes look like
+#Roadmap2013 @espiekermann: it's almost like music - you have 8 notes in music - we design the sound of a word played with strings or brass
+#Roadmap2013 @espiekermann: if you're showing the world what a great designer you are, it will probably become illegible or get annoying
+#Roadmap2013 @veen: I enjoyed meeting type designers - there aren't a lot of them in the world
+#Roadmap2013 @espiekermann: FontLab has about 2000 licensees, so there are that many. Full time ones maybe 200. It's incredibly boring.
+#Roadmap2013 @espiekermann: Making a typeface is tedious and incredibly boring - it takes a very long time to go from an idea to a typeface
+#Roadmap2013 @espiekermann: I sketch it out and then I have all these minions who work on the processes - I'm an art director
+#Roadmap2013 @veen: what we did with TypeKit was open up a much broader market with Wordpress Themes etc -very controversial
+#Roadmap2013 @espiekermann: You don't buy a typeface, you buy a font - we have to adapt everything for print, screen and TV, which is worst
+#Roadmap2013 @veen: a lot of people feel insecure abut choosing wine in a restaurant, it's the same with choosing typefaces
+#Roadmap2013 @espiekermann: in my office we have 60 people, and I go round and everyone ends up using the same typefaces as each other
+#Roadmap2013 @espiekermann: as you say, it's like spotify - you use what you've used before, and keep using more of it
+#Roadmap2013 @espiekermann: you wouldn't use the same images for every project, why would you use the same typeface?
+#Roadmap2013 @espiekermann: Does it need to be muscular or feminine? Does it need to work at small sizes and big? Cyrillic or Greek?
+#Roadmap2013 @veen: its no secret in the design community that the second link in a search will be a bittorrent site for a typeface
+#Roadmap2013 @espiekermann: I want everyone to have  typefaces, but if you've spent 100s of hours designing it, it would be nice to honoured
+#Roadmap2013 @espiekermann: of course no-one asked me to spend hundreds of hours designing the typeface in the first place...
+#Roadmap2013 @espiekermann: We're designing a typeface for Firefox that will be open sourced, and I'm in two minds
+#Roadmap2013 @espiekermann: my worry is that people will take it and mess it up and then I may get blamed for it
+#Roadmap2013 @espiekermann: If you write a pop song you can't sue people for singing it out of tune. Don't blame me for your design
+#Roadmap2013 @espiekermann: what we do as designers is interpret - we are the interface, making it easier for people to make it work
+#Roadmap2013 @espiekermann: computers and technology are complex. We don't make them simpler, we make them more complex for people
+#Roadmap2013 @espiekermann: I'm getting paid to make things look good. Isn't that fantastic?
+#Roadmap2013 @katiefehren: Tinder is a year-old mobile dating app. You swipe people you like, and if they do it too, it puts you in touch
+#Roadmap2013 @seanrad: We have a lot of frustrations with making new relationships. There's a lack of efficiency in meeting new people 
+#Roadmap2013 @seanrad: you're either a hunter out there being rejected, or your being pursued and feeling overexposed
+#Roadmap2013 @seanrad: when your friend in high school tells you that your crush also has a crush on you, that's what Tinder does
+#Roadmap2013 @seanrad: we got the information right originally - tapping and waiting felt slow. Swiping felt faster
+#Roadmap2013 @katiefehren: you went to great lengths to make it more female friendly - not a sausage fest
+#Roadmap2013 @seanrad: we talked to women, and found that the guys that approach them are the creeps, not the good guys
+#Roadmap2013 @seanrad: we're putting control back in the hands of women to decide who to interact with
+#Roadmap2013 @seanrad: we wanted to make sure we were solving a core human issue. So we tested on college students
+#Roadmap2013 @seanrad: the context of how you use these tools is  learned behaviour - we needed our users to show each other that
+#Roadmap2013 @seanrad: It worked on a college campus where everyone has that shared context; expanding beyond that was harder
+#Roadmap2013 @seanrad: everyone always says that problems of success are fun to have, but they're still hard and not that fun really.
+#Roadmap2013 @seanrad: it's very worrying when you have everything to lose - you have prototype code so you're hanging by a thread
+#Roadmap2013 @seanrad: If you create this double-opt-in relationship you can add a lot of efficiency to marketplaces [he still means dating]
+#Roadmap2013 @om: I'm bummed out that you're doing this smoke alarm now that I've quit smoking
+#Roadmap2013 @om: you're designing things that have been left unloved for decades
+#Roadmap2013 @om: would you do locks? there are lot of locks on kickstarter
+#Roadmap2013 @tfadell: You have to have a smoke alarm and a thermostat; locks and sprinklers you don't have to have.
+#Roadmap2013 @tfadell: you can buy one that just goes BEEP or you can have one that is well designed
+#Roadmap2013 @om: How about a smoke alarm that plays Justin Bieber? Ringtones for smoke alarms!
+#Roadmap2013 @om: you should redesign the garage door opener next - that the most broken product I have
+#Roadmap2013 @tfadell: In hardware now there are a lot of blot together things now - you don't have to call motorola for a cpu
+#Roadmap2013 @tfadell: you can learn with that open hardware model, but to build a true hardware product you do need a lot of money
+#Roadmap2013 @tfadell: when you do something that si atoms based you need a lot of money and a lot of time before the first customer
+#Roadmap2013 @tfadell: Kickstarter and indiegogo are kind of for making beta products - to go mass market takes a lot more
+#Roadmap2013 @om: Apple started with great hardware and then layered software on top of it. What should you start with?
+#Roadmap2013 @tfadell: you have to optimise all along the chain -you need to look at the cost of the device and include the service and apps
+#Roadmap2013 @tfadell: I'm an old school guy - I need to know how I'm going to get to profitability sooner or later
+#Roadmap2013 @om: a lot of these products don't seem fully network aware - not as part of the brain of the device
+#Roadmap2013 @tfadell: It reminds me of web 1.0 - it was like digital versions of magazines or albums. Internet of things is now 1.0
+#Roadmap2013 @tfadell: Refrigerators with tablets on is Internet of Things 1.0 - they don't rethink the experience from top to bottom
+#Roadmap2013 @tfadell: just because it can be connected doesn't mean it should. It should be reinvented *with* connection
+#Roadmap2013 @tfadell: You need the right balance of rational and emotional features - Kahneman's thinking fast and slow model fits
+#Roadmap2013 @tfadell: we started to see all kinds of data coming though the thermostat, and realised we could save them money
+#Roadmap2013 @tfadell: these products aren't like cellphones that last 18 months - we have to create moments over 10 years
+#Roadmap2013 @tfadell: Instagram created magical moments by adding filters - everyone said 'wow!' = emotional impact
+#Roadmap2013 @tfadell: in 1999 I started a company no-one wanted to hear about hardware. Now they want to give me money
+#Roadmap2013 @tfadell: there are so many more opportunities to be entrepreneurs now, but do work with your heroes first if you can
