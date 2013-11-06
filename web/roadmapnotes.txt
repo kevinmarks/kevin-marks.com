@@ -141,3 +141,39 @@
 #roadmap2013 @bethcomstock: a good thing about being in many industries is that we see trends across engineering, healthcare, aerospace etc
 #roadmap2013 @bethcomstock: We have a connected wall oven that you can pre-heat before you get home or check you turned it off
 #roadmap2013 @bethcomstock: We have things with Quirky - a net connected power strip so you can turn anything on and off remotely
+
+Day 2
+
+#roadmap2013 Franz Von Holzhausen: The Tesla design team was originally in the back of a rocket factory, which felt appropriate
+#roadmap2013 Franz Von Holzhausen: a big flat battery meant we could come up with a 'skateboard' design, without the lump of metal in front
+#roadmap2013 Franz Von Holzhausen: everything on the Tesla S prototype made it into production, becasue we made sure it was buildable
+#roadmap2013 Franz Von Holzhausen: there is the idea of a minivan that is seen as a car you buy because you're forced to
+#roadmap2013 Franz Von Holzhausen: conventional sliding doors aren't great for getting into the second and third row of seats, hence the gull wing
+#roadmap2013 Franz Von Holzhausen: conventional sliding doors aren't good for getting into the 2nd and 3rd row of seats, hence the gull wing
+#roadmap2013 Franz Von Holzhausen: the 3rd gen Tesla will be on a brand new platform, not based on the Model S
+#roadmap2013 Franz Von Holzhausen: with the range of the Model S, you don't have to find a plug everywhere you go
+#roadmap2013 @btaylor: we launched Quip 3 months ago - it's a mobile-focused word processor. We started from scratch
+#roadmap2013 @btaylor: our documents aren't on virtual 8.5" by 11" bits of paper like most word processors, but on collaboration
+#roadmap2013 @btaylor: Quip is the first time I've ever sold a product in my life - everything else I've made has been as supported
+#roadmap2013 @btaylor: 35% of people use Quip on mobile only; 48% use it on tablets
+#roadmap2013 @btaylor: we only added printing a week before launch, because we realised people might want thnt
+#roadmap2013 @btaylor: there is a depth to word processing that will take a while to catch up - very specific keyboard shortcuts
+#roadmap2013 @btaylor: even our biggest fans gave us a big list of particularr ways they had learned to use Word
+#roadmap2013 @btaylor: price hasn't been the focal point of our sales discussions, as the product will be part of the core use of business
+#roadmap2013 @btaylor: we charge $12/month, which is small compared to most business expenses. They key is experience
+#roadmap2013 @btaylor: there was an arc of happiness that people had on friendfeed - initially too few friends; then enough; then too many
+#roadmap2013 @btaylor: we lost a lot of people at both ends of this curve - the too few updates and the too many
+#roadmap2013 @btaylor: I really like seeing photos in my twitter stream. I like the restraint they have in keeping the 140 char limit
+#roadmap2013 @btaylor: the challenge for twitter is will they retain the soul of the product - the terseness that is their main story
+#roadmap2013 @om: facebook now feels rather laborious - dealing with the feed feels like doing work
+#roadmap2013 @btaylor: social isn't the product, it's what you design a product around
+#roadmap2013 @btaylor: facebook's product design challenge is that it has so many different modes of interaction- photo, video etc
+#roadmap2013 @btaylor: a lot of design patterns are moving from the mobile/tablet UI to the desktop. As usage changes this is key
+#roadmap2013 @btaylor: one of the humbling things going from friendfeed to facebook was how formally they handled kinds of interaction
+#roadmap2013 @btaylor: how to break down product design into different communication channels is a good way to think about things
+#roadmap2013 @btaylor: the first time someone adds you to a document it sends a push notification, so most communication happens in realtime
+#roadmap2013 @btaylor: because people's phones are full-featured computers, and you can bring people in via a push notification in real time
+#roadmap2013 @btaylor: I think notifications need to be kept as a high signal channel and people will do that by choosing apps
+#roadmap2013 @btaylor: now that the norm in an office is that you have a phone, a tablet and a pc, how does that change design choices?
+#roadmap2013 @ScottBelsey: the internet should be the greatest thing for creativity - wherever you are in the world you can reach everyone
+#roadmap2013 @ScottBelsey: 15,000 designers entered a design contest for a $1500 dollar prize - that's 4 years of wasted effort
