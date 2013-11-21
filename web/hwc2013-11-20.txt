@@ -1,0 +1,60 @@
+
+#indieweb We're webcasting the Homebrew Website Club at https://talky.io/hwc
+#indieweb @t: Homebrew computer club started when microprocessors got cheap enough for individuals - in 1975
+#indieweb @t: I have a software update pending on my Mac and iPod that will force me to use iCloud - timesharing returns
+#indieweb @t: Lee woudl say "welcome to the Homebrew Website Club, which does not exist"
+#indieweb @jf: I host my own domain using the github tool Jekyll, but I want OpenStreetMap, Wikipedia et al on my computer
+#indieweb @kevinmarks: I hack on indieweb stuff. I have my stuff at kevinmarks.com on a static site
+#indieweb @benwerd: I've been running my own domain on wordpress but I wanted to make my own, hence idno
+#indieweb @benwerd: I was really interested in POSSE - lots of people don't understand sending things out from your own site
+#indieweb @benwerd: I care about giving people meaningful control without losing functionality
+#indieweb @benwerd: I'm also interested in how indieweb and POSSE applies to companies as well as individuals
+#indieweb @_pius: I'm at pius.me I'm interested in the domain name as the new phone number - I want to get a domain+services for non-tech
+#indieweb @iboxifoo: I used @al3x's Sovereign to set up a lot of services on my own domain using ansible
+#indieweb @iboxifoo: this gets me ownCloud - like dropbox, calendar, webserver, etc - paying $20/mo + an SSL cert for $100
+#indieweb @t: I like that people are taking different approaches and solving different problems
+#indieweb @t: Wordpress and Drupal are like minicomputers - the expense is not money but time learning how to hack
+#indieweb @t: each has community, but there is almost an initiation rite that make you commit to 1 codebase to rule them all
+#indieweb @t: this monoculture antipattern is getting repeated over and over - appreciate we're doing different things
+#indieweb @t: there are different technical skills, and we appreciate that. Building blocks at indiewebcamp.com
+#indieweb @t: I want to solve how to do good event posts - seems like a hard problem, especially design and UX
+#indieweb @benwerd: the invitations associated with an event are also important- we don't have a mechanism for that
+#indieweb @jaylovespie: I'm a UI designer. I have my own website at http://www.jaywong.co/ but I'm not happy with wordpress
+#indieweb @jaylovespie: wordpress seems a lot heavier - everyone is trying to use it for ecommerce
+#indieweb @matthewlevine: My site is matthewlevine.com-  it's mostly placeholder and pointers to other presences. It runs on appengine
+#indieweb @matthewlevine: I'm interested in the UX of publishing itself, and in better ways to tell stories through websites
+#indieweb @matthewlevine: I'm interested in the PESOS stuff, where POSSE falls short - fitbit does that will, but I want it on my site
+#indieweb @matthewlevine: I want to use these other things to tell my own story on my own website
+#indieweb @matthewlevine: it would be great to have activity stream compatible updates form all these devices, but it doesn't exist
+#indieweb @matthewlevine: I'd like a proxy that translates the fitbit, Up etc sites into activity streams
+#indieweb @snarfed_org: I have a proxy that turns facebook, twitter g+ etc into activity streams, @matthewlevine we should talk
+#indieweb @snarfed_org: everyone who makes self-tracking things has a different api
+#indieweb @kevinmarks: hardware people tend to make up their own formats even more than software people
+#indieweb @t: it's handy when laziness and self-interest combine to make lockin
+#indieweb @jaylovespie: I want to have all my stuff in one place that is co-ordinated and under my control
+#indieweb @jaylovespie: I want to have a website to organise my life
+#indieweb @benwerd: the Personal Cloud movement seem to not want it to be a website, but more of a box
+#indieweb @benwerd: I want to say 'these are mine, these are visible to you too'
+#indieweb @t: by globally accsessible I want accsessibel to me
+#indieweb @snarfed_org: when indieweb we focus on sharing to people first; personal cloud on things just for ourselves
+#indieweb @t: we start from the simpler problem, because public is simpler
+#indieweb @t: you'll get to private faster if you do public first
+#indieweb @matthewlevine: all the stuff that I want to be private, I want a record of every spend, but maybe a public summary
+#indieweb @t: your transactions on VenMo by default are not private - your friends can favorite and comment on them
+#indieweb @matthewlevine: I want to share with some people, not with everyone
+#indieweb @_pius: Path is trying to be the place that you share everything with a few people.
+#indieweb @jaylovespie: path is trying to build a narrative of your life, intertwined with friends, but reality, not public stuff
+#indieweb @jaylovespie: with path I have to narrate my own story; if I have a feed of expenses under my control I can do more
+#indieweb @benwerd: if I'm looking at my life I want something like Mint, but under my control
+#indieweb @kevinmarks: I find Mint frustrating because it tells me things I already know and give bad pie charts
+#indieweb @kevinmarks: Path I have stopped using because I wasn't sure what I had I wanted to share with that group specifically
+#indieweb @t: the trap is 'why can't one person solve it' is false -we need a plurality of approaches
+#indieweb @snarfed_org: the other extreme is everyone has to write their own stack for themselves - we want a collection
+#indieweb @snarfed_org: we don't want everyone to write code, but 
+#indieweb @t: open source communities are engrained in there being only one service
+#indieweb @_pius: we have these high level things like medium, wordpress and low level like AWS we need things inbetween
+#indieweb @matthewlevine: I like having a lot of examples that we learn from, with a curve people can climb up
+#indieweb @jaylovespie: I like tumblr - it's like if Blogger 2005 had updated to 2013 - it's easy to make it nice.
+#indieweb @matthewlevine: tumblr makes it too easy to make nice themes - MySpace forced you to copy and paste HTML
+#indieweb @iboxifoo: you do worry if these thinsg are going to survive - tumblr, blogger will all rot.
+#indieweb @kevinmarks: I've been live tweeting with my indieweb tool www.noterlive,com
