@@ -147,3 +147,80 @@
 #leweb @garrickhileman: we don't know what the price of bitcoin is now. Coindesk's price info is valuable here
 #leweb @JamesCurrier: should the audience be investing in bitcoin?
 #leweb @shak: only if you have money you are prepared to lose you can lose all you put in.
+
+Day 2
+
+#leweb @dinakaplan: I say this not to sound boastful or American, if those are really two different things, but because I was full of fear.
+#leweb @dinakaplan: I realise now that I was afraid to ask for help- that people would think I was not capable
+#leweb @dinakaplan: I had no women role models to look up to, so I had to emulate men. I suppressed every single emotion that I felt
+#leweb @dinakaplan: I felt like an actress playing the role of an entrepreneur. This was imposter syndrome.
+#leweb @dinakaplan: I was afraid that I'd collapse when crossing the street in New York. I quit my job + booked a 1 way ticket to Indonesia
+#leweb @dinakaplan: After trevelling the world, collecting countries for the facebook photos, I took a ten day meditation retreat.
+#leweb @dinakaplan: I realised that I had only wanted to be liked. 
+#leweb @briansolis: The next 10 years are either going to happen to us, or because of us.
+#leweb @briansolis: this woman took a selfie in front of someone committing suicide on the Brooklyn Bridge. This is your customer
+#leweb @elatable: I have tremendous respect for Snapchat - they have obviously tapped into a key human behaviour there
+#leweb @elatable: very few companies have the resources to think in ten year timeframes like Google can, so we have a responsibility
+#leweb @loic: why don't you wear google glass? @elatable: I need these glasses [not eligible for Lasic? as a googler asked me]
+#leweb @elatable: as well as self-driving cars and Glass, other moonshots are Chrome and Android - which now seem obvious
+#leweb @elatable: We're not afraid at google of doing things that are technologically significant and take a while
+#leweb @elatable: we don't just backup and upload your photos, we use the compute power of Google to smooth wrinkles on people's faces
+#leweb @elatable: Plus Post Ads promote brands google plus posts out to the rest of the web.
+#leweb @elatable: we've introduced a new google ad format which is a G+ post that users can comment on and engage with elsewhere on the web
+#leweb @elatable: YouTube now uses Google+ for commenting, so you can go to a billion view video like Gangnam style and see friends comments
+#leweb @elatable: we had a lot of problems with ranking of g+ comments on YouTube, but we have made changes to make them better
+#leweb @elatable: Google Plus has never been about Facebook - it solves a very different use case as it is private
+#leweb @elatable: Google Hangouts taps into the same use case as Snapchat - its ephemeral and easy and has recording protections
+#leweb @elatable: YouTube integration, Google Drive and all the other G+ integrations were part of the plan, and there will be more
+#leweb @elatable: we have a lot of apis and services available for developers to work with, it's not just about us buying companies
+#leweb @elatable: you don't want to optimise your company to be bought by google, build a great company and it's a side effect
+#leweb @pre_me: Scoble's jacket is like a clown car of gadgets - things keep coming out of his pockets
+#leweb @Scobleizer: the Oakley ski goggles are full of sensors that can measure your hang time on the mountain: everything has sensors
+#leweb @Scobleizer: Location and Social data is growing all the time. 500M tweets/day now
+#leweb @Scobleizer: Data is being used everywhere - with Hadoop and machine learning to make sense of it
+#leweb @Scobleizer: Context means anticipatory software that knows what you're going to do - Google Now is an example
+#leweb @Scobleizer: smart bluetooth beacons sit there and spit a number into the air every few seconds and we can find where they are
+#leweb @pre_me: eightly is a product that builds on what we made with Dashboard - let anyone make apps foriOS
+#leweb @pre_me: back in the day there was a crazy thing called Hypercard that let you put buttons on things, we want that everywhere
+#leweb @pre_me: we have cards for each thing and you join them together to make up a story
+#leweb @pre_me: we automate all the layout so you don't have to worry about that.
+#leweb @hbarra: I've been in China 2 months but it feels like a lot longer than that - my mind is blown every single day
+#leweb @hbarra: China is a parallel universe - when it comes to tech. China has 8 million college graduates a year vs 3 million in the US
+#leweb @hbarra: 600 million internet users in China - 500 million smartphone users that has doubled in 6 months
+#leweb @hbarra: there is not one Western app in the top ten of apps in China, QQ has 5 of them QQ 600m users
+#leweb @hbarra: Taobao - is more than twice ebay and amazon combined - you can buy anything on Taobao
+#leweb @hbarra: China's Singles Day is like the opposite of Valentines Day - you celebrate by buying things for yourself online
+#leweb @hbarra: Singles Day was $5.7B = over $1B from phones. 
+#leweb @hbarra: JD (formerly 360buy) will deliver same day from thousands of things - 3 hour delivery
+#leweb @hbarra: Alipay is about 1/3 of all chinese payments $1000B vs $180B for paypal
+#leweb @hbarra: Weibo looks a lot like twitter, but I got 200,000 followers in 2 months
+#leweb @hbarra: my entire social life in China revolves about Wechat - no phone, text or email.
+#leweb @hbarra: Wechat has an instagram-like feature for photos too
+#leweb @hbarra: DIDI is like the chinese version of Uber - but chinese addresses don't make sense so you record them instructions
+#leweb @hbarra: most of the chinese taxi drivers bought smartphones so they can run the DiDI app
+#leweb @hbarra: there are over 100 android app stores in china because google's app store is banned by the govt
+#leweb @hbarra: taiwanese android devices can have the actual google app store, but not mainland one.
+#leweb @hbarra: my job is to take Xiaomi's phones outside of china - we're starting in south-east asia
+#leweb @brady: I spend about a week a month in China, getting to know what startups need- and it's mostly more tools
+#leweb @brady: The Arduino happened almost by accident- it was designed by an italian professor for his students, open sourced and spread
+#leweb @brady: I run Highway1 because I believe that hardware is the future - we take startups to china to learn to manufacture
+#leweb @brady: our first incubated compay, birdi, launched on indiegogo today: http://www.indiegogo.com/projects/birdi
+#leweb @brady: hardware prototyping can be done easily now, raising dollars on kickstarter can be done, but shipping thousands is a dark art
+#leweb @brady: Scale requires rigor - you need partners in Huaqiangbei - hardware flows like software
+#leweb @brady: Bunny Hwang's http://circuitstickers.com/ was built on a field trip to china
+#leweb @brady: Manufacturing informs your product- you can't just hit go on the 3D printer and have it work in the factory
+#leweb @brady: Software matters - its what makes the product make sense and makes your users love you.
+#leweb @brady: We're going to be inundated with connected gadgets that don't talk to each other. We need an OS for IoT
+#leweb @brady: Big box retailers need to be made startup friendly - they currently demand too much inventory
+#leweb @brady: applications are now open at angel.co/highway1 
+#leweb @rhyme_andreason: I'm wearing 3D printed shoes - this is a revolution as shoemaking hasn't changed in a century
+#leweb @rhyme_andreason: there is a new 3D printer launched every week on kickstarter, and they're big enough to print shoes
+#leweb @rhyme_andreason: any thermoplastic can be put into a 3D printer, which means many different possible materials for shoes
+#leweb @rhyme_andreason: unlike a cellphone, you have to make sizes for shoes - 3D printing makes this easier
+#leweb @rhyme_andreason: We don't sell printers, we sell shoes as they have more margin and more speed for fashion 
+#leweb @rhyme_andreason: it takes several hours to print a shoe, but we can just get more machines, and we can still turnround in a  day
+#leweb @rhyme_andreason: you can see the printer not making solid shoes but a subtle honeycombed interior space
+#leweb @rhyme_andreason: we optimize the machine path file for a specific design, making it smoother and 25% faster
+#leweb @rhyme_andreason: we can make different designs from a basic ballet flat by using images as bump maps to emboss them
+#leweb @rhyme_andreason: we're going to make ready-to-wear 3D printed shoes, not just for the runway
+#leweb @rhyme_andreason: we need slightly bigger printers for mens shoes, @brady
