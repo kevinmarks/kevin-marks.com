@@ -1,0 +1,26 @@
+
+#indieweb @edrex: Working on collaborative creative writing - currently a silo, but built on couchdb so can potentially sync
+#indieweb @aaronpk: I now have a couple of iPhone apps that login via IndieAuth that will post to my own site without third parties
+#indieweb @edrex: pillowfork is an experiment in discoursive social interactions, using content addressable storage
+#indieweb @benwerd: the big achievement last year was the webcomment thread that became a gateway to connect people to the indieweb
+#indieweb @snarfed_org: this year lots of people have heard about IndieWeb, now we are connecting to non-coders and have to handle spam
+#indieweb @benwerd: this thread of webcomments has become a gateway: https://eschnou.com/entry/testing-indieweb-federation-with-waterpigscouk-aaronpareckicom-and--62-24908.html
+#indieweb @t: The number of questions being asked in this community encourage me - do we want unique sites or an indieweb install
+#indieweb @t: the question "how many implementations do we need?" stumped me. 1 is clearly too few; Millions is clearly too many. Thousands!
+#indieweb @t: when the building blocks are simple enough that we have thousands of implementations, we have the right building blocks
+#indieweb @t: Thousands mean we have made things easy enough for anyone skilled in the craft to implement. You can't shut down thousands
+#indieweb @Johannes_Ernst: If we're going to get to thousands, we are going to need marketing, much as I hate it
+#indieweb @benwerd: The usability of the social layer itself that we are building is key: none of us are typical users. Indieweb needs memes
+#indieweb @snarfed_org: indiewebcamp.com/why is the best answer: own your data; self dogfood; rough consensus and running code
+#indieweb @snarfed_org: Have your own domain is key - you can then move it. POSSE is next
+#indieweb Scott: The indieweb Why page is mostly based on fear - you look like survivalists or a militia
+#indieweb @t: Bret Slatkin encouraged us to have positive reasons: http://indiewebcamp.com/2012/Positive_Arguments
+#indieweb @t: Bret Slatkin's original positive post: http://www.onebigfluke.com/2012/07/focusing-on-positives-why-i-have-my-own.html
+#indieweb @aaronpk: my motivation is not survivalist, but connecting to other people
+#indieweb @Johannes_Ernst: POSSE use case for banks - you send money on your own site between banks, and POSSEs to the financial world
+#indieweb @t: POSSE banking is like personal electronic mattress. [did Johannes just invent POSSEcoin]
+#indieweb @mathpunk: I want my website to be at least as useful as paper - I can tell my mood from handwriting and sketchiness
+#indieweb @mathpunk: I don't want everything chronological, I want to make my own piles of information 
+#indieweb @snarfed_org: people were driven to snapchat by a pain - because they were scared of persistence of data
+#indieweb @t: we're falling into the 'design for the masses' antipattern. Barnaby said build what it takes to stop you using facebook
+#indieweb @t: until you have it working for yourself, forget marketing. Build it, do it, only then speak it.
