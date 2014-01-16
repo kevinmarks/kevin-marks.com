@@ -24,3 +24,5 @@
 #indieweb @snarfed_org: people were driven to snapchat by a pain - because they were scared of persistence of data
 #indieweb @t: we're falling into the 'design for the masses' antipattern. Barnaby said build what it takes to stop you using facebook
 #indieweb @t: until you have it working for yourself, forget marketing. Build it, do it, only then speak it.
+#indieweb @Johannes_Ernst: I want to build a product. I want to make an Altair for indieweb.
+#indieweb @benwerd: I want something for my family. I want to plug it into a wall and have it working.
