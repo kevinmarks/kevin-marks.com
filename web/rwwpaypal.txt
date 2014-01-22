@@ -1,0 +1,73 @@
+
+#futureofmoney @owenthomas: here tonight we have @davidmarcus President of Paypa [Using the futureofmoney hashtag as rww didn't define one]
+#futureofmoney @davidmarcus: Zong got acquired by Paypal in summer 2011 - we built a small merchant swipe system for Paypal.
+#futureofmoney @owenthomas: the common scenario is "big company buys small company, then the entrepreneur leaves. What's different for you?"
+#futureofmoney @davidmarcus: The difference is that scaling a payments company is hard. It's not like consumer internet. 
+#futureofmoney @davidmarcus: we need to be legally compliant in hundreds of countries, we need to scale, we need fraud detection
+#futureofmoney @davidmarcus: I saw a lot of upside opportunity in the Paypal I took over and you can see it growing now
+#futureofmoney @owenthomas: I see a wasteland of online payment startups that none of us remember. What %age is on ebay.com?
+#futureofmoney @davidmarcus: ebay is about 30% of paypal. For pure pay startups to succeed, you need a parasite/host relationship
+#futureofmoney @davidmarcus: if you think about people on ebay mailing checks to each other across the country, that seems crazy now
+#futureofmoney @owenthomas: we see that replicated - Google is most successful in payments in the Google Play Store
+#futureofmoney @davidmarcus: it's significantly harder to do payments in an environment that you don't control: to do refunds at 140M payers
+#futureofmoney @davidmarcus: the compliance burden is not going to get any lighter at any point in the future. Banks have 5000 people on it
+#futureofmoney @owenthomas: there's Square that a lot of people talk about, braintree that was less talked about but you bought them
+#futureofmoney @davidmarcus: Square exists because we fell asleep at the wheel for a few years. They exist because we sucked for a while
+#futureofmoney @davidmarcus: Now we're committed to being best in class for developers - thats why we bought Braintree.
+#futureofmoney @davidmarcus: Braintree jumped on the mobile bandwagon very early on. We want to lead on mobile
+#futureofmoney @davidmarcus: there are more startups that can be built now that everyone has broadband mobile devices with them
+#futureofmoney @davidmarcus: I needed to know I'd have enough leeway at paypal to drive the change I wanted to. I got that.
+#futureofmoney @davidmarcus: We had 9 different product groups; we were an IT shop with no craftmanship. We now have 1 agile product group
+#futureofmoney @davidmarcus: we now have small groups of engineers, product people and designers working on projects. No more waterfall
+#futureofmoney @davidmarcus: our old process meant that PM's never got to iterate, as engineers were reassigned after launch
+#futureofmoney @davidmarcus: The reason startups can disrupt large companies is because they can iterate faster. We need to iterate at scale
+#futureofmoney @davidmarcus: our existing checkout experience that most people see is still pretty outdated.
+#futureofmoney @owenthomas: I always feel that Paypal is trying to trick me @davidmarcus: that's over.
+#futureofmoney @davidmarcus: In the past we used to annoy our best customers by making them connect their bank accounts
+#futureofmoney @davidmarcus: you cannot win for along period of time by making your customers do things against their will. We stopped 
+#futureofmoney @davidmarcus: if you don't want to add your bank account, you don't have to. It costs more, but you can choose.
+#futureofmoney @davidmarcus: We will offer a line of credit, but we won't force it on consumers like we did
+#futureofmoney @davidmarcus: 2 months ago we started doing small biz lending. Small biz are great people. It's really hard to run a store
+#futureofmoney @davidmarcus: one thing small biz needs is working capital. It's very hard for them to get loans from traditional banks
+#futureofmoney @davidmarcus: we know the small biz, we see their transactions, we know that they can afford to borrow
+#futureofmoney @davidmarcus: We had a wedding dress company - they had a small biz loan, and their brides could borrow to buy dresses
+#futureofmoney @owenthomas: How do you define mobile payments? taking an Uber? it could be swiping a card on a phone
+#futureofmoney @davidmarcus: eventually mobile will be everything, and at that point it will become really easily
+#futureofmoney @davidmarcus: eventually you'll authenticate high value transactions on your mobile even if you're using your computer
+#futureofmoney @davidmarcus: now we have 2 categories of payments: buying things online using mobile; in-store mobile trnasactions.
+#futureofmoney @davidmarcus: last year I said that within 5 years you wouldn't have to carry your wallet in a dense urban area. 4 years now
+#futureofmoney @davidmarcus: We have earnings tomorrow, so I can't share numbers, but 2013 was spectacular on mobile
+#futureofmoney @davidmarcus: we made some great acquisitions last year. It's like inoculating a large company with a virus to make it safer
+#futureofmoney @davidmarcus: If Target had taken paypal, those customers would not have had data compromised
+#futureofmoney @davidmarcus: we have 140 million customers who trust us with their financial data. Biometrics need even more trust
+#futureofmoney @davidmarcus: Target being hacked will lead to Chip and Pin in the US faster. a worse consumer experience, but more secure
+#futureofmoney @davidmarcus: we're working with VISA and MC to pass hashes instead of in the clear numbers so customers protected
+#futureofmoney @owenthomas: What happened with Uber today? How do you respond on twitter like that
+#futureofmoney @davidmarcus: it doesn't take that much time to respond on twitter - you can do it 15-20 mins a day, when team can resolve
+#futureofmoney @davidmarcus: any corporate CEO who says they don't have time for twitter customers is bullshitting - control your own time
+#futureofmoney @davidmarcus: we need to be fanatical about making our customers love us. Money is emotional, we need the right emotion
+#futureofmoney @davidmarcus: I don't know what happened with Uber today, but we will protect our customers 100% of the time. We'll fix it.
+#futureofmoney @davidmarcus: Bitcoin is a ledger - it's a store of value. That can be interesting if you're somewhere like venezuala
+#futureofmoney @davidmarcus: Bitcoin may become a currency in future, but it's not there due to volatility
+#futureofmoney @davidmarcus: all the payment processors now don't settle in Bitcoin, they do it in fiat currency - it
+#futureofmoney @davidmarcus: Paypal is like TCP/IP I encourage you to read @pmarca's NYT piece today: http://dealbook.nytimes.com/2014/01/21/why-bitcoin-matters/
+#futureofmoney @davidmarcus: governments have very different attitudes to bitcoin. China banned it, Norway taxes capital gains. 
+#futureofmoney @davidmarcus: Bitcoin will shake out legally this year. We're paying attention.
+#futureofmoney @davidmarcus: There's no buyer protection with Bitcoin. Paypal offers that
+#futureofmoney q: we sell electricity in developing markets. How do you move money without broadband?
+#futureofmoney @davidmarcus: we've done this in Brazil, data plans are 10%, smartphones 30% on wifi. We built a flow on *21# - 2M customers
+#futureofmoney @davidmarcus: the hard part of being a global company is adapting to these local conditions
+#futureofmoney @owenthomas: How do you compete with SF based startups for talent?
+#futureofmoney @davidmarcus: We have a lot of people who commute, which is a pain in the neck, because the opportunity is there
+#futureofmoney @davidmarcus: we need ot find a way for people in the city to work too. Nothing to announce today
+#futureofmoney @davidmarcus: Cash was money 1.0 - plastic is money 2.0; consumer credit and all these great things this country was built on
+#futureofmoney @davidmarcus: Mobile is Money 3.0. I think all of this will be mobile in time, but cash is very hard to get rid of.
+#futureofmoney @davidmarcus: I went door to door with small businesses - they say they still want their old cash register. 
+#futureofmoney @davidmarcus: Businesses don't want to declare every transaction for tax, or pay fees for each small one.
+#futureofmoney @davidmarcus: our relationship with banks is the best its been in years - we are very complementary
+#futureofmoney @davidmarcus: our lending is single digit billions of dollars, whereas banks have 100s of billions of lending
+#futureofmoney @davidmarcus: we have data the banks don't have. That means we can make underwriting decisions that they can't
+#futureofmoney @davidmarcus: [asked about insureance] Focus is important. There is a curse in large biz of doing too much
+#futureofmoney @owenthomas: Paypal used to sell mutual funds - they sued to overreach
+#futureofmoney @davidmarcus: We've killed so many things. You have no idea. We're going to deprecate a lot of products this year
+#futureofmoney @davidmarcus: [asked about M-PESA] we have partnerships with carriers when we can, but they need to make it easier
