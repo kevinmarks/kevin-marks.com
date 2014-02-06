@@ -1,0 +1,70 @@
+
+#moneyandtech @rebexahn: welcome to the launch of moneyandtech.com - I get to work in the basement with @jeredkenna and @tylorbohlman
+#moneyandtech @JeredKenna: I ran the first US bitcoin exchange, but theres a lot of regulation it got shut down. 
+#moneyandtech @JeredKenna: there's a big gap between techy forums and mainstream media, so we're in it
+#moneyandtech @JeredKenna: I started out with bitcoin in 2009 - I got sent 10,000 bitcoins, which I sent to someone else who deleted them
+#moneyandtech @nym: we were the first outlet to accept bitcoins in our cupcake shop, because we had an iPad in the shop
+#moneyandtech @nym: we're launching GogoCoin in the bakery - it's a pre-paid bitcoin card like a startbucks card
+#moneyandtech @paigefreeman: I'm VP of sales for BitPay, headquartered in Atlanta, but out here to get companies to accept bitcoin
+#moneyandtech @JeredKenna: Chris Larsen is trying to kill Bitcoin, but we still love him
+#moneyandtech @chrislarsensf: Ripple is using the same technology that made bitcoin possible, but to build an internet for value exchange
+#moneyandtech @chrislarsensf: we think we're entering the age of the internet for value exchange, not just for file exchange
+#moneyandtech @JeredKenna: bitcoin has been relatively stable recently. Will this last?
+#moneyandtech @paigefreeman: Bitcoin's going to go up and down, but when people ask if they should invest I say yes
+#moneyandtech @nym: There aren't enough onramps into the bitcoin currently - it's a highway for money that we need to get on
+#moneyandtech @nym: I encourage you t sell things for bitcoin as that is an easy way to get in compared to buying them
+#moneyandtech @chrislarsensf: there is a ton of pent-up demand in this whole space - Wall Street is gearing up for it
+#moneyandtech @chrislarsensf: it's still too hard to get funds into these protocols because of the reputational risk for big players
+#moneyandtech @JeredKenna: now you have got major companies and banks interested, what's going to be the next big shift?
+#moneyandtech @chrislarsensf: as these get accepted and the reputationla risk goes down, it'll bridge into SWIFT and VISA and so on
+#moneyandtech @chrislarsensf: a lot fo big players are making PR announcements - we need fiundamental bridging
+#moneyandtech @nym: videogames and videogame credits have been a bridge into this - buying Steam credits at 7/11
+#moneyandtech @nym: Banks are the most conservative investors of all. I expect a bank within a year
+#moneyandtech @paigefreeman: once more merchants accept bitcoin, that will drive the banks into it too
+#moneyandtech @paigefreeman: I think airlines and travel are a natural fit for Bitcoin because of the currency exchange savings
+#moneyandtech @nym: of course I'm going to say pre-paid cards, but it is the last mile. I still invest in litecoin and ripple
+#moneyandtech @nym: suddenly you don't need armoured cars to move money. I think a tipping point is inevitable
+#moneyandtech @paigefreeman: we need to help people to buy bitcoin. That is the next big thing.
+#moneyandtech @chrislarsensf: more front-end ways of getting money into the system, like coinbase are needed.
+#moneyandtech @chrislarsensf: Security is going to be a service too - as funds look into the space they want that
+#moneyandtech @JeredKenna: when we started there was no regulation - now people are talking about it. What does that imply?
+#moneyandtech @nym: ben Bernanke writing a memo in favour of it was  a big move. So far it has been encouraging
+#moneyandtech @paigefreeman: Our CEO testified before Congress, so far it has been positive.
+#moneyandtech @chrislarsensf: we testified to the Senate and banking - explaining that it isn't anonymous helps
+#moneyandtech @chrislarsensf: there is goign to be more fraud, and then more regulation. If a bank steps in regulation will respond
+#moneyandtech @JeredKenna: I like all the things that you can do with bitcoin that don't involve money - sending message etc
+#moneyandtech @chrislarsensf: there is a lot being worked on that is super-exciting - building outside the blockchain may make more sense
+#moneyandtech @chrislarsensf: we're working on contracts and a scripting language within Ripple to use non-monetary tasks and utilities
+#moneyandtech @nym: there is an opportunity for distribution of information in different ways - notarizing documents for example
+#moneyandtech @nym: you can get rid of that third-party trust and do more dynamic things with money and value
+#moneyandtech @nym: I'd like to talk to anyone in the banking industry who is serious
+#moneyandtech Q: regulators are viewing bitcoin as a hybrid between gold and currency. how ill that change?
+#moneyandtech @nym: as long as you aren;t working towards money laundering, regulators will be happy
+#moneyandtech @paigefreeman: as we're not holding onto bitcoin, but just passing ti though, we don't have so much regulation
+#moneyandtech @chrislarsensf: regulation is not logical - it depends who grabs it first, whether the fed or the SEC
+#moneyandtech q: the biggest concern is how people can keep bitcoins safely - maybe coinbase, maybe an offline wallet?
+#moneyandtech @JeredKenna: everybody says you should start with a new linux laptop that never touches the net. Too hard.
+#moneyandtech @JeredKenna: There's a company called paperwallet that is a black box that prints out a key pair that never touched the internet.
+#moneyandtech @JeredKenna: if you lose that printout you're screwed, so keep copies. as time goes by it gets scarier
+#moneyandtech @paigefreeman: I tell everybody to use blockchain.info, even if you use coinbase move it there. [keyloggers?]
+#moneyandtech @JeredKenna: if you're going to go online use blockchain.info, but you're better off doing it offline
+#moneyandtech q: I'm fascinated by the altcoins - these are interesting. Beercoin went up 4000% in the last 2 days
+#moneyandtech q: arbitrage is getting noticable - there are big opportunities between the different altcoins
+#moneyandtech @nym: are these bringing something different from bitcoin - do they have merchants or are they a clone?
+#moneyandtech @nym: ripple and litecoin have good shots because they are doing different things from bitcoin
+#moneyandtech @chrislarsensf: I think we're going to see an explosion of these currencies - as long as they get a following they can work
+#moneyandtech q: multisignature transactions got added in 2013 - Bitgo can hold one key, you have two so you are safer 
+#moneyandtech q: I looked at the Bitpay website and saw benefits for them and miners and speculators. What do purchasers get?
+#moneyandtech q: in addition to the benefits for the person - what is the benefit for holding them?
+#moneyandtech @paigefreeman: one thing is that companies that accept bitcoins will offer discounts for bitcoin, as there is for cash
+#moneyandtech @chrislarsensf: as bitcoin gets seamlessly integrated, vendors won't know that they are receiving it
+#moneyandtech q: over time. more bitcoin will go out of circulation - how will you handle that?
+#moneyandtech @JeredKenna: there are rooms full of dollar bills that aren't in circulation too. I don't see big dumping
+#moneyandtech @JeredKenna: anything that spooks people cna take a lot more of a hit than one guy cashing out
+#moneyandtech @nym: you can predict that most won't be cashed out - with a large system you can predict that [hah ask Taleb]
+#moneyandtech q: where does bitcoin replace where money fails?
+#moneyandtech @nym: minimum purchase 5 dollars is one place; capital controls is another - both happen organically
+#moneyandtech @JeredKenna: anything that requires settlement or remittance - why does that take 3 days?
+#moneyandtech @JeredKenna: sending money to Honduras should not cost 25%
+#moneyandtech @nym: once people realise there is a system that is cheaper it'll do to money what Craiglist did to Newspapers
+#moneyandtech @paigefreeman: just becasue credit cards came out in 1950s, we don't have to use them forever
