@@ -1,0 +1,51 @@
+
+#indieweb @kevinmarks: getting ready for Homebrew Website Club - our video link is too hard to configure
+#indieweb @t: we should spend our time talking rather than doing IT
+#indieweb Brian: I'm Brian, I worked for USGS, got bored. now I'm building my own site, because making HTML from FORTRAN got old
+#indieweb @jedahan: I work at the Museum of Art, and I have an image for every object in the collection
+#indieweb @jedahan: I found it easier to scrape our own website to get the images than to work on internal politics
+#indieweb @jedahan: I have a little box called "Occupy Here" which creates a local network to upload and share
+#indieweb @jedahan: Occupy Here will connect to an uplink if there is one, if not it works locally as a host
+#indieweb @jedahan: Alan Kay started a new research lab with Vi Hart and some other interesting people
+#indieweb Brian: there was a Stanford vis group site based on census data that you could visualize. I want to do this with seismic data
+#indieweb Brian: Maps are what I'm most interested in; I want very specific comments with permalinks
+#indieweb Brian: After an earthquake the USGS updates the event
+#indieweb Brian: there a projects looking at getting reports form twitter- I'd like to mesh them all together
+#indieweb Brian: I'm just glad to not be using FORTRAN
+#indieweb @snarfed_org: I run a service called brid,gy  check it out. I switched my personal site to SSL for everyone
+#indieweb @snarfed_org: mainly people who use privacy tools are a minority. We should make encryption the default
+#indieweb @snarfed_org: mainly people who use privacy tools are a minority. We should make encryption the default
+#indieweb @snarfed_org: the more people using SSL, the less suspicious it is by default
+#indieweb @snarfed_org: for whatever stack you use, there is a write-up. You can get free certs for open source projects
+#indieweb @t: there are good writeups on the indiewebcamp wiki for Apache and nginx for SSL
+#indieweb @snarfed_org: turning on SSL is an hour to  a half day of work, but it's a break from coding
+#indieweb @joshuajuran: I am intrigued by everything being a file, and how far I could push that
+#indieweb @joshuajuran: FreeMount https://github.com/jjuran/freemount is my codebase for distributing apps in file-based way
+#indieweb @joshuajuran: the bytecode I have selected is the Motorola 68K machine [sounds like QTOS - @peterkinoma]
+#indieweb @jedahan: they redefined the syllables to be pronounced by runes, and they built a system based on that
+#indieweb @joshuajuran: more of my code is up at http://www.metamage.com/ I plan to merge this into a useful git repo
+#indieweb Zack: I've been doing contract work at a law firm, and I need to find people who speak my language a bit more
+#indieweb @ZSsDesign: It's been a culture shock moving here from Dallas, especially living in Marin County
+#indieweb @t: I'd like to bring up webmentions of homepages
+#indieweb @t: webmention is simplified pingback where you cna tell if there is  post, a reply, an RSVP etc. 
+#indieweb @t: webmentions have mostly been used for permalink to permalink, but we do mention people by name
+#indieweb @t: on Twitter and Facebook you have mentions pages for when people refer to you
+#indieweb @t: Invitations are interesting for this too - you can webmention their homepage to invite them
+#indieweb @kevinmarks: inviting people to a chatroom - mentioning them so they come to a place. would a webmention work?
+#indieweb @snarfed_org: would a webmention per message work, or is this for inviting them into a conversation?
+#indieweb @benwerd: webmention may be a bit heavyweight - it would work for starting a conversation
+#indieweb @t: @aaronpk has built a model for keeping conversations live over websockets using replies
+#indieweb @jedahan: webmentions work as conversations between client and host? 2 hosts are involved
+#indieweb @snarfed_org: using webmention for email-like conversations could work, with address by url not email
+#indieweb @benwerd: what we're looking at with idno is that there are keys embedded in the page that can be used to sign
+#indieweb @t: on the receiving side, none of us know what to do with homepage mentions 
+#indieweb @benwerd: I have the backend for homepage mentions, but not the frontpage yet Sochi is keeping me busy
+#indieweb @kevinmarks: Happy 10th Birthday to microformats!
+#indieweb @t: the problem with search engines is they have secret sauce and we don't know how it got there.
+#indieweb @t: I've seen images show up from indieweb pages that are form other pages entirely
+#indieweb @jedahan: you can't run the silo's crawlers is the problem - adding Twitter cards to the Gallery is tricky
+#indieweb @jedahan: If you use a CDN, the tools don't always reflect your site well
+#indieweb @jedahan: we now have a lot of redundant data on our site fro twitter, facebook and google
+#indieweb Brian: how do you extend microformats? What if I want geopoints? - you can use gel lat long, structured address.
+#indieweb @t: if we don't know how to do something, we look at published examples in the wold
+#indieweb @kevinmarks: a point with #microformats is that they are composable - you can add new elements
