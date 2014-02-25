@@ -1,0 +1,25 @@
+#launch @PerformanceCI: sees commits to a git repository and runs load tests and shows a performance graph. Open Source, hosted and enterprise
+#launch @cyantist: how many performance issues were you able to see? @performanceci: we were profiling our own ruby code
+#launch @tryripple: an open real-time anonymous platform to share messages with the people around you. Swipe up to spread, down to ignore
+#launch @tryripple: messages spread in a non-rigid way conducive to virality - each one forces you to vote before seeing the next one
+#launch @pauljudge: is you mesh based strictly on geography? @tryripple: we could associate through correlated likes
+#launch @cyantist: I live in San Francisco, so sometimes I have to check twitter to see why helicopters are over my house
+#launch @hiloapp: A spontaneous marketplace for exchanging tickets to cut out the scalpers. for people who don't want to deal with Craigslist
+#launch @hiloapp: they hold up a HiLo logo on their phone to find each other. They can pay cash or bitcoin
+#launch @daneglasgow: how would you tackle a cold start for this market? @hiloapp: people could trade things other than tickets at festivals
+#launch @Jason: Could you buy and sell something with sketchy people? they often have the best stuff
+#launch @GetVUE: this shows traffic logs for mobile apps, and send feedback questions to users of the app to find out the problem
+#launch @Addmein: overlays your image on top of famous people's photos by doing a quick matte from your phone photo
+#launch @Addmein: The app is free - we put our logo in every picture. If you want the logo removed you pay 25 cents
+#launch @blushmessenger: type a message to someone and record their reaction to it a word at a time, and sends that back to you.
+#launch @blushmessenger: it's text enhanced by video to create intimacy
+#launch @daneglasgow: why send text rather than sending a video? @blushmessenger: it's easier to send text than a video
+#launch @habarifit: this shows all your fitness tracking apps into a single dashboard, and lets them communicate to her friends
+#launch @BleepBleeps: how many people think having kids is easy? [having them is easy, raising them is hard]
+#launch @BleepBleeps: sammy screamer you attach to your bag, and set sensitivity so it can warn you when ti is moved
+#launch @BleepBleeps: you can put sammy screamer on the cookie jar or the fridge, swimming pool gate or your stroller
+#launch @BleepBleeps: Tony Tempa is a digital thermometer that sends its reading to your phone so you can get context
+#launch @BleepBleeps: David Camera is a video monitor that sends t your phone
+#launch @BleepBleeps: Olivia P Sticks - pee on a stick and it sees if you're ovulating; Master Bates - measures your sperm count
+#launch @msavino: is this all one app? @bleepbleeps: currently discreet app for each device
+#launch @pauljudge: what si the range of this? @bleepbleeps: it's bluetooth so a 90' range; we're working on wifi support
