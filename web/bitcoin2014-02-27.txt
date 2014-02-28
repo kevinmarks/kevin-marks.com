@@ -1,0 +1,79 @@
+
+#bitcoin @schwentker: I do startup relations for PayPal - we do forward-looking meetups, including currencies, social impact + bluetooth LE
+#bitcoin @schwentker: Brian Zisk runs the future of money conference - the best palce to meet and talk about this
+#bitcoin @brianzisk: a bunch of the Bitcoin foundation met at the Future of Money conference - even some of the now-disgraced ones
+#bitcoin @brianzisk: You don't want to hear me talk, so introduce yourself to your neighbour
+#bitcoin @martindale: At Bitpay we ant every company to be abel to accept bitcoin. We released the open source bitcore library for bitcoin
+#bitcoin @Percival: I'm a venture partner at 500 startups and I do marketing for blockchain.info - we are doing a bitcoin focused incubator
+#bitcoin @Percival: I was in a failing startups, so after layoffs I had leftover computers, which I set to mining bitcoin
+#bitcoin @Percival: there is a lot of room in the space to grow the ecosystem, and indeed to fund it - we do $100k seed investments 
+#bitcoin @SkyeElijah: @coinbeyond is a bitcoin-based debit card you can use at retail
+#bitcoin @BTCJams: btcjam is a bitocin based way to invest in other people's loans in the developing world
+#bitcoin @joinsnapCard: buying things on the internet with bitcoin takes too long. we have a bookmarklet that translates for you using bitpay 
+#bitcoin @CrowdCurity: we do crowd-sourced web security. We are focused on bitcoin exchanges and lending platforms. We set bounty in bitcoin
+#bitcoin @coincove: coincove is the way to buy and sell bitcoins in mexico eventually to accept remittances. We trade bitcoins for pesos
+#bitcoin @SkyeElijah: we have a point of sale payment card so you can spend bitcoins in the real world - CoinBeyond
+#bitcoin @Percival: disclosure: we incubated BTC Jams, and I'd like to invest in some of these companies
+#bitcoin @Percival: what does it take to start a bitcoin startup?
+#bitcoin @CrowdCurity: we started in argentina and got things going in a couple fo week
+#bitcoin @BTCJams: we never touch any fiat currency, so we are not regulated, we can go from country to country. 
+#bitcoin @joinsnapCard: as well as the regulatory issues, trust is the hardest thing, Bitcoin doesn't have it now, so you need it in your co
+#bitcoin @SkyeElijah: work out what part of bitcoin you're obsessed with. We're obsessed with usability for normal people
+#bitcoin @SkyeElijah: the regulatory side is a dark and scary place but we have strategies to work with this
+#bitcoin @coincove: if you can start in a jurisdiction outside the US you'll find it easier than here
+#bitcoin @Percival: how do you explain this to ordinary people?
+#bitcoin @coincove: Hannah, my co-founder is a psychology major so we work on explainign things in human terms
+#bitcoin @coincove: latin american currencies are inflationary and not strong so bitcoin is more attractive if you can make it easy to use
+#bitcoin @BTCJams: there are existing geeks who already have bitcoin; the second is people in countries like mexico or brazil who need loans
+#bitcoin @BTCJams: the borrower can chose what to denominate loans in - whether dollars or bitcoins. BTC income, BTC loans
+#bitcoin @Percival: lets talk about security -I'm already seeing spearfishing attacks trying to get my bitcoin
+#bitcoin @CrowdCurity: we hear all the time about bitcoin exchanges getting hacked, so we do outside testing and probing
+#bitcoin @Percival: at blockchain we open source everything - we see this as the best path to security
+#bitcoin @CrowdCurity: we'd rather use libraries that are open source as there are more eyes on the code
+#bitcoin @Percival: I bought a telescope at overstock because I could. What are people buying?
+#bitcoin @joinsnapCard: I wish I wasn't seeing so many Fleshlights, but there it is
+#bitcoin @joinsnapCard: we server the tech community, so mostly graphics cards and tech gear. 1st product was gummi bears through amazon
+#bitcoin @coincove: in 5 years, bitcoin will allow latin america send money to their families without losing 10%. 1 in 5 households in mx 
+#bitcoin @SkyeElijah: Bitcoin is going to spur a massive social revolution in 5 years - our industries will change to adapt
+#bitcoin @SkyeElijah: companies that depend on money transfer margins will need to strategise
+#bitcoin @SkyeElijah: I think bitcoin is going to save capitalism
+#bitcoin @joinsnapCard: digital currency is going to happen, but it may not be bitcoin that is the answer in 5 years
+#bitcoin @joinsnapCard: the contracts and voting system that is created through the blockchain is going to be interesting in 5 years
+#bitcoin @BTCJams: I'm still debating on what use cases matter. I don't make bitcoin purchases because credit cards work well
+#bitcoin @BTCJams: I see bitcoin as a store of value in the developing world to insulate your savings from governments
+#bitcoin @BTCJams: its a long way to go before the average joe will prefer to use bitcoin over a credit card. Dollars work well
+#bitcoin @CrowdCurity: dollars don't work for people in Argentina. This is going to change the world by taking power form banks, govts
+#bitcoin @CrowdCurity: It's not going to be about money but about distributed trust - not just for money but contracts, bonds, etc
+#bitcoin @CrowdCurity: it's very sad when we saw MtGox vanish. I'd rather see the people with money in the bank lose than everyone else
+#bitcoin @coincove: we tried to set up here, but ti was too complex, so we set up in mexico, as they said it wasn't a currency
+#bitcoin @coincove: form the mexican govt point of view, the 10% fees not staying in the US and coming to mx is a better outcome
+#bitcoin @coincove: the big concern is that we are not laundering money for the cartels, so we don't do that
+#bitcoin @Percival: MtGox went to all the leaders of bitcoin and asked them to bail them out, and they didn't - they went to regulators
+#bitcoin @joinsnapCard: we are registered as a money services business
+#bitcoin @CoinBeyond: we have started a dialog with regulators in Washington State, who recognise bitcoin as a currency
+#bitcoin @CoinBeyond: there are ongoing hearings in New york on bitcoin regulation. Landscape is uncharted. Attempt compliance early.
+#bitcoin @Percival: blockchain doesn't have  a bank account do yours?
+#bitcoin @coincove: our mexican bank knows we are moving in and out of bitcoin
+#bitcoin @Percival: question is would it make sense to open a bitcoin business in british virgin islands, caymans etc?
+#bitcoin @coincove: mexico has very nice weather too, it's like the virgin islands with better reputation
+#bitcoin @Percival: there aren't a lot of examples of practical bonds or contracts
+#bitcoin @Percival: you used touse the postal system to prove a date -the blockchain can work to attest dates too
+#bitcoin @coincove: there are projects that tag bitcoins as bearer bonds, so they cna indicate who owns what
+#bitcoin @SkyeElijah: we are interested in protocol overlays on bitcoin. We want to build a trust list on bitcoin protected by blockchain
+#bitcoin @SkyeElijah: we want to build contingencies on each transaction to enable more control, and make this usable
+#bitcoin @brianzisk: as far as virtual currencies go, will bitcoin win? will another one take over?
+#bitcoin @Percival: I'm asked about dogecoin a lot. Remember that bitcoin can add features to respond
+#bitcoin @brianzisk: the way that we mine bitcoins is by cracking hashes. Could a coin sequence DNS instead?
+#bitcoin @brianzisk:  the way that we mine bitcoins is by cracking hashes. Could a coin sequence DNA instead?
+#bitcoin @brianzisk: could we get it to do something productive?
+#bitcoin @coincove: bitcoin is not consuming more electricity than banks right now. But being more efficient would be interesting
+#bitcoin @Percival: has anyone on the panel mined a coin?
+#bitcoin @CrowdCurity: I got a fraction of a coin, but my mac got too hot
+#bitcoin @Percival: I had to get electricians to help stop my bitcoin mining rig from overheating
+#bitcoin @BTCJams: the worst use case I've seen is viruses that encrypt your machine and you have to send bitcoin to unlock it
+#bitcoin @SkyeElijah: we pivoted a lot to get to point of sale - it wasn't our first love
+#bitcoin @SkyeElijah: every month things change completely in bitcoin
+#bitcoin @coincove: our trickiest problem with getting people to hold bitcoinss was for people buying them, so we made that easier
+#bitcoin @coincove: the most promising market for bitcoin now is the developing world, so $25 firefox phones really help
+#bitcoin @SkyeElijah: bitcoin s a seriously risky investment. I would't advise putting money into bitcoin
+#bitcoin @Percival: when american companies go to other countries they often fail - look to local companies to succed
