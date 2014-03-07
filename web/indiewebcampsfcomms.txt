@@ -1,0 +1,34 @@
+
+#indiecomms @t: I keep the to-do list for my site code  Falcon on http://indiewebcamp.com/falcon so it's public domain
+#indiecomms @t: I have contact, create&meet and elsewhere. I'd like to add "pay me" too
+#indiecomms @t: If you go via my site I can vary what contact method to show when
+#indiecomms @wavis: I think this is the problem - knowing how to contact people when
+#indiecomms @schnarfed: the high cognitive load is that everyone's "contact me" UX will be different, whicg creates cognitive load too
+#indiecomms @schnarfed: I want to have the visual muscle memory to do the same
+#indiecomms @aaronpk: if we use microformats, hCard, we can have a plugin that converges these for any given site
+#indiecomms @schnarfed: I have a half-finished user style for hCard that does this, but I need someone better with CSS and JS
+#indiecomms @t: If we get the markup right, we can share a CSS style that does this well.
+#indiecomms @t: usually I'm OK with "ship something crappy and iterate it" but this needs to be at least as good as native
+#indiecomms @wavis: can we take out the grid? can it just try automatically?
+#indiecomms @aaronpk: getting the user preferences is tricky because you are matching both sides' preferences
+#indiecomms @t: I have some friends who only use AIM, others who only use gTalk you need to meet their UX
+#indiecomms @wavis: I want to add multiplexing - I want to read and or send with one interface
+#indiecomms @wavis: we want status messaging too - know what is possible then
+#indiecomms @t: that is what is done live on the server - my apps can update the availability of the server
+#indiecomms @t: if you look at a Windows phone it is based on people centric UI, but ti just expresses your addressbook 
+#indiecomms @schnarfed: silos have started to do this- they can route preferences but they are silo'd
+#indiecomms @t: can we collect the URI schemes for launching all these apps?
+#indiecomms @schnarfed: there are fairly well-documented ways to find the URLs for iOS/Android etc
+#indiecomms @t: i want to hack on this tomorrow morning. The stretch goal is to do it doing purely with web standards websockets/WebRTC
+#indiecomms @adambrault: we have a way to do peer to peer but fall back on silos 
+#indiecomms @adambrault: the challenge of WebRTC is it it peer to peer and you have to bring your own signalling
+#indiecomms @adambrault: it should be the most federated example - this is why we combine xmpp with WebRTC
+#indiecomms @aaronpk: could I do signalling that is not XMPP?
+#indiecomms @adambrault: yes you don't have to use XMPP, we can build a signalling mechanism
+#indiecomms @aaronpk: as long as we have servers, we can do the discovery right?
+#indiecomms @kevinmarks: the challenge is routing between clients and discovering IP+port - if you have a server you can make this work
+#indiecomms @adambrault:   github.com/andyet/signalmaster is a signal server that talky.io uses, you could run this
+#indiecomms @kevinmarks: if you want a shim, you can detect facebook and twitter with client-side iframes if they aren't logged in
+#indiecomms @dariusdunlap: if it's blue you're in iMessage, if it's green it's SMS
+#indiecomms @dariusdunlap: this is a cool idea - it's  piece of doing the next step of bringing them to my website first
+#indiecomms @dariusdunlap: at least it's a nascar that it is situationally aware
