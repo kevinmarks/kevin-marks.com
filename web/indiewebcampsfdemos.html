@@ -1,0 +1,144 @@
+<article class="h-entry">
+<h1 class="p-name">IndieWebCamp SF Demos <time class="dt-published">2014-03-07</time></h1>
+<div class="e-content">
+[ I lost a few here, will restore later]
+<p><a class='h-card' href='http://aaronparecki.com'>Aaron Parecki</a>:  <blockquote><p>if you're not on irc yet it's #indiewebcamp on freenode.net, instructions at indiewebcamp.org/irc
+<p>demo what you have made so far
+<p></blockquote>
+<a class='h-card' href='http://tantek.com/'>Tantek Çelik</a>:  <blockquote><p>one thing I got working since last indiewebcamp is a somewhat responsive design on my homepage tantek.com
+<p>the other thing I changed is the favicon to an icon so it puts your face on your homescreen http://indiewebcamp.com/icon
+<p></blockquote>
+<a class='h-card' href='http://caseorganic.com/'>Amber Case</a>:  <blockquote><p>let me show you haw you auth to your own site using your own site delegating via indieauth
+<p>I just logged in using my domain name, redirecting via github
+<p>I am posting on my own site, and syndicating it out to twitter - this is called POSSE http://indiewebcamp.com/POSSE
+<p></blockquote>
+<a class='h-card' href='https://snarfed.org/'>Ryan Barrett</a>:  <blockquote><p>people used to discuss in blog comments, but now they do it where they see it. brid.gy propogates these back
+<p></blockquote>
+<a class='h-card' href='http://caseorganic.com/'>Amber Case</a>:  <blockquote><p>barnaby responded directly from his site, from iceland and this shows up here 
+<p>now all the comments on other sites come back to your site
+<p></blockquote>
+<a class='h-card' href='http://aaronparecki.com'>Aaron Parecki</a>:  <blockquote><p>these ideas are all based on webmentions - brid.gy is sending webmentions for twitter and facebook
+<p></blockquote>
+<a class='h-card' href='http://tantek.com/'>Tantek Çelik</a>:  <blockquote><p>aaron has implemented this in p3k, and the only other site that does this is facebook [also friendfeed]
+<p>you can't get the live comment updates on twitter - we're out innovating the twitter silos
+<p></blockquote>
+<a class='h-card' href='http://dangillmor.com/'>Dan Gillmor</a>:  <blockquote><p>with a third party client like hootsuite, I can see replies
+<p></blockquote>
+<a class='h-card' href='http://tantek.com/'>Tantek Çelik</a>:  <blockquote><p>You don't see that on an individual post on twitter, but we have this working
+<p></blockquote>
+<a class='h-card' href='http://caseorganic.com/'>Amber Case</a>:  <blockquote><p>in order to work on a wiki you have to improve the content that is there; this is like that
+<p>there are some things that haven't been fully solved - private notes are harder than public
+<p></blockquote>
+<a class='h-card' href='http://aaronparecki.com'>Aaron Parecki</a>:  <blockquote><p>I want to have a discussion about private messaging as that build on indieauth
+<p></blockquote>
+<a class='h-card' href='http://tantek.com/'>Tantek Çelik</a>:  <blockquote><p>I keep being asked "how can you compete with facebook with thousands of devs?" the answer is, we are
+<p>"do you really expect everyone to have their own domain?" - we used to ask this about cellphones and email addresses
+<p>when you buy a cell number you are renting it, and domain names are the same - you can move from host to host
+<p>you used to ask "why would everyone have their own computer?" now it's "why only one? Why not in your pocket?"
+<p>we're at the 1970s Apple I stage - you have to build it yourself but you can get the kit
+<p></blockquote>
+<a class='h-card' href='http://caseorganic.com/'>Amber Case</a>:  <blockquote><p>social silos are like that greek myth where once you eat from the table you are there forever eating at the table
+<p></blockquote>
+<a class='h-card' href='http://tantek.com/'>Tantek Çelik</a>:  <blockquote><p>mail has been largely abandoned by the hacker community - it's too hard to maintain a mailserver
+<p></blockquote>
+<a class='h-card' href='http://aaronparecki.com'>Aaron Parecki</a>:  <blockquote><p>the main idea is that it your own domain so you can move the thing behind it ,
+<p></blockquote>
+<a class='h-card' href='http://dangillmor.com/'>Dan Gillmor</a>:  <blockquote><p>I'm teaching a class, and one requirement is that they get their own domain.
+<p></blockquote>
+<a class='h-card' href='http://caseorganic.com/'>Amber Case</a>:  <blockquote><p>I was trying to explain this to someone, and the stages that you go through are hard
+<p></blockquote>
+<a class='h-card' href='http://dangillmor.com/'>Dan Gillmor</a>:  <blockquote><p>I'm working on a new book which will include a chapter about this - say if you're on background
+<p></blockquote>
+<a class='h-card' href='http://aaronparecki.com'>Aaron Parecki</a>:  <blockquote><p>what if I want to post from my phone, but don't have responsive UI?
+<p>we should be able to post to our domains from each others' apps
+<p>my demo is ownyourgram.com to see how to PESOS from instagram, as they don't have a posting API
+<p>this site is requesting posting rights via OAuth, but authorization is separate from the token
+<p>please don't all stomp on http://ownyourgram.com/ at once, it's still experimental
+<p>with IndieAuth, your domain name is your identity 
+<p></blockquote>
+<a class='h-card' href='http://tantek.com/'>Tantek Çelik</a>:  <blockquote><p>indieauth is like an email address but without the bit before the @
+<p></blockquote>
+<a class='h-card' href='http://aaronparecki.com'>Aaron Parecki</a>:  <blockquote><p>there are many ways you can show that you have editing control over your page - you can link back+forth to twitter, G+
+<p>anything that has html and OAuth can  be made to work. Facebook does this wrong by hiding the HTML in comments
+<p>I have implemented SMS and email auth as well as OAUth. I want to get fax working but I don't have a fax machine
+<p>indieauth is sending me an SMS with a 4 digit code
+<p>I was considering letting the indieauth page be asked for 2 factors and make the user click 2
+<p>IndieAuth.com is one authorization sever - there can be many of these - it's not required to be centralised
+<p></blockquote>
+<a class='h-card' href='http://www.jenson.org'>Scott Jenson</a>:  <blockquote><p>I've been experimenting with bluetooth LE chips that broadcast URLs that you can click on from your devices
+<p>I'm intentionally making it very visible now, we can make it more discreet
+<p>eventually we can put these on zipcars, bikes, museum exhibits easily
+<p>once we have bluetooth beaconing on your phones, we can broadcast our indieweb page URLs from our phones
+<p>it's a bit like an invisible QR code that doesn't need cameras
+<p></blockquote>
+<a class='h-card' href='http://caseorganic.com/'>Amber Case</a>:  <blockquote><p>I was wondering about making a  messageboard you can access when you are in the area of The Embassy [ping @xeeliz]
+<p></blockquote>
+<a class='h-card' href='http://www.jenson.org'>Scott Jenson</a>:  <blockquote><p>there is no party that can't be ruined by security specialists - how do we make public website have varying accessibility
+<p></blockquote>
+<a class='h-card' href='https://snarfed.org/'>Ryan Barrett</a>:  <blockquote><p>this is a blogpost on my websites - the comments come from brid.gy - if I hover over their name it gives their facebook
+<p>with twitter comments, I extract their real URL instead of twitter links
+<p>look at the comments on https://snarfed.org/2014-03-01_indiewebcamp-sf-next-weekend and twitter accounts will have real URLs
+<p>I'm OK with twitter run things behind the scenes - but we can prefer URLs to twitter handles
+<p>the silos do a lot of hard stuff doing massively distributed scalable stuff. we can use them for that
+<p></blockquote>
+<a class='h-card' href='http://tantek.com/'>Tantek Çelik</a>:  <blockquote><p>when Tim BL designed http, URLs and HTML he didn't make them only work with each other, they interoperated with existing tech
+<p>it makes a nice slogan "damn the man, fight the silos" but they are handy as plumbing
+<p></blockquote>
+<a class='h-card' href='https://willnorris.com/'>Will Norris</a>:  <blockquote><p>this is something I needed for my site which runs on wordpress. I have a love/hate relationship with jetpack
+<p>I like jetpacks Photon API that does image mirroring and crawling, but only works with their plugin
+<p>so I made my own version of the Photon image API with things that work better for me - mine is all https
+<p>they don't support https properly, and use URL query params for resizing which don't cache well, so I made it paths
+<p>it lets me resize and flip images and cache the URLs well on my own domain
+<p>it was reading @doctorow's Littel Brother that got me to use https for everything
+<p>Amazon announced that CloudFront CDN supports SNI so you can do https broadly for free
+<p></blockquote>
+<a class='h-card' href='https://snarfed.org/'>Ryan Barrett</a>:  <blockquote><p>I did the all SSL thing a few months ago, and it takes a few hours but is worth it
+<p></blockquote>
+<a class='h-card' href='http://upon2020.com/'>Johannes Ernst</a>:  <blockquote><p>I work on a thing that is box you plug into your network at home except it runs a webserver in your house
+<p>I have bunch of apps running on my server in the house - own wordpress, our own calendar, not google calendar
+<p>when we're not running on a cloud server, people put the truth in their calendars
+<p>indiebox provisions databases, configs firewalls it's just one command to install
+<p>I want to start a kickstarter project that will deliver 1000 indieboxes that get automated update
+<p>i've been running this at home since christmas, haven't lost any data yet. In the longer term I'll add an apps
+<p>I want to add a way fro people with indieboxes to install your apps too
+<p>i finally got a guy from comcast legal, and he said I can do any webserving as long as it is not commercial
+<p>one thing I want to do is VPN, and thus we can then talk to each other over indiebox
+<p>one of the scars I carry form OpenID is that we could never get people to upgrade their code at once
+<p></blockquote>
+<a class='h-card' href='https://snarfed.org/'>Ryan Barrett</a>:  <blockquote><p>companies don't write ToS and follow to the letter, they use them as an enforcement mechanism
+<p>most of the things we want to do the isp's don't care about so we have to establish norms now
+<p></blockquote>
+<a class='h-card' href='http://upon2020.com/'>Johannes Ernst</a>:  <blockquote><p>in a few years it will be chromecast sized devices that do this
+<p></blockquote>
+<a class='h-card' href='http://kevinmarks.com'>Kevin Marks</a>:  <blockquote><p>demoing noterlive.com for the gang
+<p></blockquote>
+<a class='h-card' href='http://aaronparecki.com'>Aaron Parecki</a>:  <blockquote><p>micropub is the inverse of microformats - instead of consuming the data on the page, you can use an app to create a post
+<p></blockquote>
+<a class='h-card' href='http://tantek.com/'>Tantek Çelik</a>:  <blockquote><p>micropub is s replacement for atompub and the metaweblog API, but much simpler indiewebcamp.org/micropub
+<p></blockquote>
+<a class='h-card' href='http://adambrault.com'>Adam Brault</a>:  <blockquote><p>one of the things we've being working on is meshing web with xmpp
+<p>stanza.io is a simple JSON api for working with XMPP in the browser and with jingle for Web RTC
+<p>we have a few tools, for example talky.io lets you do a videoconference over WebRTC
+<p>we also have simplewebrtc.com which makes it easy to add your WebRTC to your page
+<p>what we want to do is make it possible to run chat and videochat from your own domain
+<p>otalk.im lets you sign in with jabber and build a chat github.com/andyet/otalk
+<p>you can make these calls now on android because they have WebRTC, but we have to make tools for iOS 'cos they don't
+<p>it's a lot of work in progress, but we have a lot of usable tools for hacking on now
+<p></blockquote>
+<a class='h-card' href='http://tantek.com/'>Tantek Çelik</a>:  <blockquote><p>I want to do a session on indiecoms - how we contact each other without getting lost in tools
+<p></blockquote>
+<a class='h-card' href='http://caseorganic.com/'>Amber Case</a>:  <blockquote><p>I want to make a comic to explain indieweb to people and get them started
+<p></blockquote>
+<a class='h-card' href='http://upon2020.com/'>Johannes Ernst</a>:  <blockquote><p>I'd like to talk about what software is ready to use for people who don't want to hack their own stuff [response: nothing]
+<p>I want to do a conversation "from 10 to 10 billion" - how we change the whole web to be indie
+<p></blockquote>
+<a class='h-card' href='http://aaronparecki.com'>Aaron Parecki</a>:  <blockquote><p>I want to do a  talk on apps for the indieweb - how micropub can be a basis for apps
+<p></blockquote>
+<a class='h-card' href='http://www.jenson.org'>Scott Jenson</a>:  <blockquote><p>I'd like to have a wordpress therapy session- I'm fighting it constantly. I'm hoping to get tips
+<p></blockquote>
+<a class='h-card' href='http://tantek.com/'>Tantek Çelik</a>:  <blockquote><p>I've been running into a problem with non-cash payments - google wallet, paypal, square - how do we do this easily 'pay' verb
+<p>no-one has yet asked me to pay by bitcoin or even dogecoin
+</blockquote>
+</div>
+</article>
+</body>
