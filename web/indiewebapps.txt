@@ -1,0 +1,27 @@
+#indiewebapps @aaronpk: it's not reasonable for everyone to build interfaces for everything on their site - you may want to share photo UI
+#indiewebapps @aaronpk: if you go to aaronparecki.com/metrics you can see my pushups; I wrote an iPhone app that counts pushups with my nose
+#indiewebapps @aaronpk: as an app developer I get to write an iPhone app without a backend service as it just post to your site
+#indiewebapps @Johannes_Ernst: you just have to enter a URL, not a username and password too
+#indiewebapps @Johannes_Ernst: if your phone knew your domain, it could auth this without even entering a domain
+#indiewebapps @aaronpk: this enables data ownership as well as identity onine
+#indiewebapps @aaronpk: the next one is ownyourgram.com that treats instagram as a client to your site
+#indiewebapps @pauloppenheim: so you can use instagram effectively as a camera app?
+#indiewebapps @aaronpk: I think there are benefits for developers to do just the app, not the backend too
+#indiewebapps @aaronpk: the Feltron logging app will save locally, and sync to either email or dropbox - bring your own backend
+#indiewebapps @pauloppenheim: pushups with your nose -that's something nobody has seen - it's innovative
+#indiewebapps @pauloppenheim: there's the Locker project...
+#indiewebapps @aaronpk: there are a lot of apps that pull your info back from silos and aggregate them for you - locker, narrato etc
+#indiewebapps @aaronpk: one of the challenges is that companies want to be the home for your data, not just a creation app
+#indiewebapps @aaronpk: the point of having a cloud service for fitbit/jawbone is to process the raw data into a useful form
+#indiewebapps @pauloppenheim: the philips hue doesn't have a base station; some services did have this
+#indiewebapps @pauloppenheim: it depends if they want to make money from selling you the device or from a service
+#indiewebapps @aaronpk: these gadgets sell for $150 because they run a cloud service and don't want to bill you monthly
+#indiewebapps @aaronpk: philips don't want to run a cloud service - the only thing they do is autodiscovery of the IP address for the hub
+#indiewebapps @aaronpk: if you look at micropub, it's a way to create h-entry - published; category; content; name; summary -can add more 
+#indiewebapps @aaronpk: http://indiewebcamp.com/micropub specifies how to send arbitrary properties to the server for a post, with html fallback
+#indiewebapps @pauloppenheim: there is an idea that log and a database are dual - logs between applications and components
+#indiewebapps @pauloppenheim: The Log: What every software engineer should know about real-time data http://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying
+#indiewebapps @kevinmarks: a stream API means you don't have to deal with CRUD directly, you can create a view of current state
+#indiewebapps @kevinmarks: we have an endless debate about database vs json vs flat file; defining a log stream makes this moot
+#indiewebapps @pauloppenheim: I have a static page on my domain, and IndieAuth means I can be part of a conversation without code
+#indiewebapps @Johannes_Ernst: so the IndieWeb is the AirBnB of social networking
