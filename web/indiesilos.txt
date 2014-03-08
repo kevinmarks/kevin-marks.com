@@ -1,0 +1,20 @@
+#indiesilos @schnarfed: brid,gy will talk indieweb stuff - if you markup your post with microformats as a like, it can post back to FB
+#indiesilos @scottjenson: can you explain the mechanics if I have wordpress blog? do I run code on my site?
+#indiesilos @schnarfed: the 2 things are microformats to mark up your content for structure and webmention to tell another site about it
+#indiesilos @schnarfed: brid.gy accepts those webmentions, adn if you say in reply to a tweet, brid.gy sees that and posts it as a tweet
+#indiesilos @scottjenson: so there is one category where you have co-operating servers, and magic when you connect to a silo
+#indiesilos @schnarfed: brid.gy transaltes from theis common protocol to each of the silos own APIs - you need to know to send webmentions
+#indiesilos @schnarfed: the original brid.gy translates the facebook or twitter content into a microformatted block, that links back to FB
+#indiesilos @scottros: I'm imagining disasters and problems -I remember trackback drowning in spam
+#indiesilos @schnarfed: silos fight spam hard, so they are likely to be less spammy
+#indiesilos @schnarfed: spam filtering and fighting is part of any communication system you'll run something that helps this
+#indiesilos @schnarfed: right now there is no way to POSSE to instagram - so we use a trick to add a link to your site from IG
+#indiesilos @schnarfed: securing login is fundamentally hard - the great idea of IndieAuth is to use the big companies' hard work for that
+#indiesilos @scottjenson: do we have to bring back their river to our site?
+#indiesilos @schnarfed: now the silos have a good reading experience - they do the feedreader well
+#indiesilos @schnarfed: you can plug your friends sites into a feedreader and follow that way
+#indiesilos @willnorris: one thing that friendfeed did well was let you make a ghost version of your friends from feeds to follow
+#indiesilos @dariusdunlap: keeping track of your own posts is valuable for yourself and letting you look at yourself.
+#indiesilos @dariusdunlap: the big thing that facebook has is they are the one place where everyone is. What do they do when they aren't?
+#indiesilos @schnarfed: one of the things I can do easily with twitter or facebook is fave, share, comment - we need to make indie as easy
+#indiesilos @willnorris: if we build a good micropub client for android and ios and web, it doesn't matter so much about each site

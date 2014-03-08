@@ -1,0 +1,52 @@
+#indiecomic @caseorganic: we used to have feeds, but they got out of date from the HTML, and then got truncated to get people back to the site
+#indiecomic @caseorganic: back in 2004, @kevinmarks and @t proposed #microformats - marking up the HTML of the site rather than a separate feed
+#indiecomic @scottros: You don't want to tell people history, I've tried that and it doesn't work
+#indiecomic @scottjenson: you want to tell people what the benefits are, not the history, that comes later
+#indiecomic @dangillmor: understanding what microformats are and why is not important - tell us how to do it, not what
+#indiecomic @t: a lot of what blogging got stalled on was an overemphasis of the underlying plumbing - the XML button was confusing
+#indiecomic @caseorganic: where to put microformats on your site, put links to your social profiles
+#indiecomic @dangillmor: we enjoy twitter -we don't want to give up the fun part of the silo app
+#indiecomic @dangillmor: we want the decentralsied web back when we were bloggers and we do want that back
+#indiecomic @dangillmor: our use case is that we like creating stuff on the web, we are conversant with domain hosting to cpanel
+#indiecomic @dangillmor: It's a starter audience between you adn teh public
+#indiecomic @caseorganic: if we give you a way to do POSEE and brid.gy, you'll be happy?
+#indiecomic @dangillmor: we'd be ecstatic with that
+#indiecomic @caseorganic: I find it easier to make a comic than to write a long pdf rather than a post
+#indiecomic @dangillmor: the good side of a comic is it can be visual, the bad side of it is a pdf is not weblike
+#indiecomic @anselm: opening panels discussing frustrations with silos - that is attention getting
+#indiecomic @kevinmarks: the opening explanation of losing things you put up online is strong
+#indiecomic @dangillmor: I want to make sure that the old Well adage of "you own your words" applies on the web
+#indiecomic @caseorganic: there are a lot of people who want to get back to what they had on the web
+#indiecomic @dangillmor: but without losing the value of the new stuff brid.gy is very exciting from that point of view
+#indiecomic @scottjenson: people will attack us wiht the existing communities volume - can we grow to their size?
+#indiecomic @caseorganic: we don't need to - the point is to connect to them too so that people there can see it too
+#indiecomic @scottjenson: we still play nice with all your friends on Facebook and twitter
+#indiecomic @scottjenson: I don't want to lose my existing following on twitter and facebook
+#indiecomic @anselm: have a look at the Why The Lucky Stiff comics too
+#indiecomic @caseorganic: do you remember when your stuff disappeared? Or when there was a redesign that made the thing you liked vanish?
+#indiecomic @caseorganic: we're trying to find our way back to the old web, without losing the new world of twitter and facebook
+#indiecomic @caseorganic: here are 2 thinsg we do: first POSSE - publish on your site first, share on the social networks
+#indiecomic @caseorganic: second, brid.gy will being back the comments from twitter and facebook to your site too
+#indiecomic @scottjenson: just make sure we describe it as a high level value for you and your friends
+#indiecomic @dangillmor: the conversations you create live on your site even though people participate from lots of other places
+#indiecomic @caseorganic: should we have a "what's next?" where you don't have a 3rd party any more, or what?
+#indiecomic @caseorganic: think of all the data you produce, could you have that in once place too?
+#indiecomic @anselm: there are so many things you can't put inside facebook; an art project, a wiki - you can be more expressive
+#indiecomic @kevinmarks: what about people deliberately segmenting their postings to different silos?
+#indiecomic @scottjenson: I'm a big user of plex - I can invite anyone into it to see the videos I have within my home
+#indiecomic @scottjenson: the new way of thinking is without posting to any silos, can you talk from one site to another
+#indiecomic @caseorganic: you can have a future conversation without routing through the silos
+#indiecomic @anselm: even roughly emulating facebook in the open is a good thing - a blended mix of yourself and others
+#indiecomic @dangillmor: it's community plus freedom, not an either or
+#indiecomic @caseorganic: there aren't many blogs that accept webmention yet. we need to have more of that
+#indiecomic @kevinmarks: would something like indienews help to bootstrap web mentions - like RSS pingservers were
+#indiecomic @scottjenson: it's a comic book - lets use diagrams - rise above twitter and facebook and linkedin?
+#indiecomic @caseorganic: how about side by side and within? we're not saying we're better than them
+#indiecomic @kevinmarks: a metaphor that works is the city versus the suburb, like this: http://grist.org/list/everything-thats-wrong-with-the-suburbs-in-one-image/ more than one route through in indieweb
+#indiecomic @kevinmarks: a metaphor that works is the city versus the suburb, like this: http://grist.org/list/everything-thats-wrong-with-the-suburbs-in-one-image/ more than one route through 
+#indiecomic @kevinmarks: just realised we've been talking about comics for ages and I haven't linked to http://imgur.com/eWjDz yet
+#indiecomic @anselm: on facebook nothing is real - I can't even link to my stuff; some get it some don't, it might be erased - a dreamworld
+#indiecomic @caseorganic: start with human stories - I'm Dan and I had lots of my work disappear
+#indiecomic @anselm: content of mine is often zapped - and it's not racy
+#indiecomic @scottjenson: we want to have some catchy intellectual catchphrase
+#indiecomic @scottjenson: not so much a catchphrase as a statement of value
