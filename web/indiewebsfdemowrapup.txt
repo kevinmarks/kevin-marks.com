@@ -1,0 +1,64 @@
+
+#indieweb @scottjenson: I have achieved a lot this weekend - I have cleaned up http://www.jenson.org in wordpress and got indie stuff working
+#indieweb @scottjenson: I redesigned 'what is the indieweb' with: your content is safe; you are better connected; you are in control
+#indieweb @dariusdunlap: I got evil tantek with full roundtrip POSSE on http://dunlaps.net/darius http://dariusdunlap.smugmug.com/TechEvents/IndieWebCamp/i-RDzWk8K/0/M/DSC_3347-M.jpg
+#indieweb @dariusdunlap: I am working on SSL setup and makeing notes on how to do it on the wiki as I go http://indiewebcamp.com/https
+#indieweb @schnarfed: we've been talking about people focused communication - so instead of having apps you have website with contacts
+#indieweb @schnarfed: we are all going to choose different formatting for the 'contact me these ways' but I want consistent design
+#indieweb @schnarfed: I have a browser user script and user style that gives the same icons everywhere on everyone's sites
+#indieweb @schnarfed: most of you know brid.gy - it pulls comments and likes back to your site - I want to do the other direction too
+#indieweb @schnarfed: so at brid.gy/publish I have a webmention handler it will figure out your post and POSSE into silos
+#indieweb @schnarfed: I am making a like on my site that points to a a tweet and add a link to brid.gy/publish/twitter
+#indieweb @schnarfed: similarly I can publish an RSVP link back to Facebook
+#indieweb @schnarfed: so I favorited this tweet and RSVP
+#indieweb @schnarfed: and I RSVP'd to this facebook event via posting on my own site
+#indieweb @schnarfed: if you send a webmention for this post URL you will cause a favorite on twitter or like/RSVP on FB
+#indieweb @schnarfed: this is alpha, I have no docs yet. try it on brid.gy/publish
+#indieweb @wavis: I want to demo addressibility - this is an http server in 14 lines
+#indieweb @wavis: by addressing the SHA384 sum off the file I get the file itself back
+#indieweb @markymark: I have a project asheville.io that backs up your posts from silos like twitter and fb, and foursquare
+#indieweb @markymark: first asheville syncs your content on a server like dropbox, google drive, then makes an API for it for you
+#indieweb @markymark: I'm using the APIs that they provide to download your content onto your dropbox
+#indieweb @markymark: you can create a centralising machine to get your content back home http://indiewebcamp.com/PESOS
+#indieweb @markymark: I want to make my website powered by asheville to show all my stuff
+#indieweb @scottjenson: mobiles aren't always ready, so occasionally I'll post to twitter in a moment of weakness, so asheville will tidy up
+#indieweb @caseorganic: I had a really fun time making comics about the indieweb
+#indieweb @caseorganic: the first session we had was about different indieweb generations - people complaining about wht went wrong
+#indieweb @caseorganic: how I made a comic in a few hours - I used toonlet.com/comic which has character libraries to use
+#indieweb @caseorganic: then I imported the characters into omnigraffle and imported some comic bubbles
+#indieweb @caseorganic: also I made a new wiki page called Barriers to categorise people and their approch to the indieweb http://indiewebcamp.com/barriers
+#indieweb @caseorganic: I think of it as 4 generations - from coder to end-user and map through the stages for each
+#indieweb @caseorganic: generation 1 is the developers like us who make custom blogging systems and can spawn code
+#indieweb @caseorganic: generation 2 is people like @dangillmor and @scottros who own their domains and post, now they get the conversation
+#indieweb @caseorganic: Generation 3 have a domain and 3rd party hosting - setting up a name server
+#indieweb @caseorganic: Generation 4 have never bought a domain, and only used 3rd party software. you're slinging zipfiles at their brain
+#indieweb @caseorganic: we need each of these generations to explain to the next one down - we want an incremental approach
+#indieweb @dariusdunlap: I'm thinking about what it would be like to do a full posse for the non-profit my wife runs, as she does it by hand
+#indieweb @scottjenson: I set up POSSE, but ti was on a hair-trigger - every edit sent a new update
+#indieweb @t: we should look at things that are successful - how do you make buying and using a domain as easy as a cellphone?
+#indieweb @kevinmarks: that squarespace.com put a superbowl ad up to buy a domain and configure is a marker for this - reach out 
+#indieweb @dariusdunlap: squarespace have a dev api - not sure what it is
+#indieweb @aaronpk:  I now have a live demo of ownyourgram.com - it does one test photo
+#indieweb @aaronpk: first you authorize your own domain with indieauth and micropub, then you auth in with instagram, and it gets 1 photo
+#indieweb @aaronpk: at this point you need to handle posting a photo to your site
+#indieweb @aaronpk: and it made this post: http://aaronparecki.com/notes/2014/03/08/4/indiewebcamp-indieweb-sf of this photo http://aaronparecki.com/notes/2014/03/08/4/files/photo.jpg
+#indieweb @aaronpk: once I get this working I can make any photo I post on Instagram come back to my site
+#indieweb @aaronpk: I'm waiting for instagram to whitelist me to post comments to make this work fully
+#indieweb @kyle_wm: I'm new to this - I came to the wiki and then tried to implement it from scratch from the wiki
+#indieweb @kyle_wm: i was working with brid,gy, trying to get things done within each 10 minute update cycle
+#indieweb @schnarfed: @kyle_wm is the first brid.gy contributor other than me -he added support for Show Original on facebook
+#indieweb @t: I started out with this blogpost http://tantek.com/2013/338/b1/people-focused-mobile-communication-experience I have a habit of writing before building - must be w3c habits
+#indieweb @t: I then made anew blogpost documenting my idea http://tantek.com/2014/067/b1/building-blocks-people-focused-mobile-communication then mockups to tell a story http://tantek.com/2014/067/b1/building-blocks-people-focused-mobile-communication 
+#indieweb @t: a lor of this work was already on the wiki, so I made a narrative flow to help explain it
+#indieweb @t: we do work on our own sites, but narrating it for other people too is also useful
+#indieweb @kevinmarks: I tried to use the activitystrea.ms site today, and it was far to dry to make sense of. this narrative is needed
+#indieweb @kevinmarks: I have a number showing how many characters are left noterlive.com
+#indieweb @t: kevin is the first person to run the cassis code in javascript not php
+#indieweb @kevinmarks: I started making noterlive.com work with micropub, but I didn't get it potted from PHP to node yet
+#indieweb @pauloppenheim: I like the indieweb, but I am a curmudgeon who doesn't want to post online. But can I be involved in private messaging
+#indieweb @pauloppenheim: with a static site of my own, I can sign into aaronparecki.com and see a private message for me
+#indieweb @pauloppenheim: I don't have anything on my site. this is like receiving a dm on twitter without a twitter account at all
+#indieweb @pauloppenheim: I'd like to receive webmentions, but I don't have a thing to receive them
+#indieweb @pauloppenheim: If I curl with a source and a target to me webmention url, it outputs to standard error and I can check notifications
+#indieweb @pauloppenheim: I can parse the error log of my webhost to notify myself 
+#indieweb @t: the next indiewebcamp is April 26-27 in NYC, hosted by the New York Times - we need sponsors
