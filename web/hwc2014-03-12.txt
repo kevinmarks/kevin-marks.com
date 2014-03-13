@@ -1,0 +1,30 @@
+#indieweb @t: The Homebrew Website Club is based on the Homebrew Computer Club ideas - 20 minutes of broadcast first
+#indieweb @t: I'm tantek çelik co-founder of INdiewebcamp and my website is tantek.com
+#indieweb @pauloppenheim: I'm at pauloppenheim.com - I'm implementing simplest possible webmention
+#indieweb @iboxifoo: I was at indiewebcamp too - I managed to POSSE locally, but i need to deploy it
+#indieweb @schnarfed: I'm at snarfed.org and known for brid,gy
+#indieweb @skinny: I'm Crystal Beasley at http://crystalbeasley.com and I'm working on github deploying [@t also co-founded indiewebcamp]
+#indieweb @t: we had a good turnout at indiewebcamp SF last weekend, and managed to get @dangillmor connected to indieweb using plugins
+#indieweb @schnarfed: I ran some stats on brid.gy: 155 users, 50% twitter 25% G+ 25% FB - sent 4500 sucesssfully received webmentions 
+#indieweb @schnarfed: NLNet support and sponsor open web work eg unhosted and sockethub - if  you want support tell me
+#indieweb @schnarfed: that URL is NLnet.nl - they're in the netherlands?
+#indieweb @schnarfed: I made a userscript called letstalk that displays comms icons in the browser
+#indieweb @schnarfed: also brid.gy got a POSSE outbound mode which you trigger jusy by marking up your site
+#indieweb @naomiyaki: My domain is http://www.naomiyaki.com 
+#indieweb @notenoughneon: My site is http://notenoughneon.com
+#indieweb @Strabd: I just got my site set up for indieweb at indiewebcamp this weekend http://strabd.com
+#indieweb @pauloppenheim: having seen private messaging snap together at indiewebcamp this weekend, I'd like to get those plugged together
+#indieweb @t: something @notenoughneon poseted this week was querying microformats like xpath: http://notenoughneon.com/p/201403062000-query-microformats-like-xpath
+#indieweb @notenoughneon: I want to talk about images - I have a lot of images with text in - the image but also the text inside the image
+#indieweb @notenoughneon: I'd like to have a way to embed microfomats in images well [km SVG might help]
+#indieweb @naomiyaki: when you put japanese text into word balloons everything gets flipped, so that makes it harder
+#indieweb @t: it that text mixed script or multiple translations?
+#indieweb @naomiyaki: I've done both  - mixed text and translations
+#indieweb @t: @caseorganic was working on an indieweb comic to explain indieweb, not an indieweb-expressed comic
+#indieweb @t: we have some comic types expressed in indieweb and how to represent these - see http://indiewebcamp.com/comics
+#indieweb @schnarfed: we're largely useless but we know people who are useful
+#indieweb @nitot: I''m Tristan, here from Mozilla Paris and am interested in startign an indieweb event in paris
+#indieweb @nitot: my site is at http://standblog.org/blog/
+#indieweb @t: thank you @skinny for setting up the video link
+#indieweb @Strabd: I heard @caseorganic on a the InBeta podcast talking about Indieweb: http://5by5.tv/inbeta/90
+#indieweb Pierre: my site is at http://kerolic.net though it's not very interesting [he's being modest, it looks very fancy]
