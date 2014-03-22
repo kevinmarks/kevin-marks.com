@@ -1,0 +1,71 @@
+#fixpatents  @adikamdar: EFF is a digital rights organization, and we're doing a lot of work with patents at the moment 
+#fixpatents  @adikamdar: Engine advocacy has a new executive director @juliepsamuels 
+#fixpatents  @danielnazer: I'm the mark Cuban chair to eliminate stupid patents 
+#fixpatents  @jzieger: I'm the chief counsel for stripe 
+#fixpatents  @KateDoerksen: I run a startup doing visualization 
+#fixpatents  @PeterPappasDC: I used to work for the patent office causing these problems, now I work with engine
+#fixpatents  @danielnazer: A patent  troll typically buys patents and uses lawyers on contingency to extract money from productive companies
+#fixpatents  @danielnazer: The poor quality of patents has thrown fuel on the fire of patent trolling 
+#fixpatents  @danielnazer: There is a patent on filming a yoga class, for example 
+#fixpatents  @danielnazer: There are about 10000 patents on  basic e-commerce and they are lurking everywhere 
+#fixpatents  @danielnazer: Findthebest was sued by a troll for $50000, publicized the settlement amount, and won. Cost $300,000
+#fixpatents  @adikamdar: Startups are between a rock and a hard place -  they can't afford litigation fees
+#fixpatents  @danielnazer: We had a startup sued in East Texas and the preliminary phase will cost $25-50,000
+#fixpatents  @jzieger: Stripe is a larger startup, we do have attorneys, but we haven't had any claims to date
+#fixpatents  @jzieger: The government granted monopoly in patents s applied to software does not promote invention or discovery 
+#fixpatents  @jzieger: It takes money from people who do invent and give it to those who file lawsuits 
+#fixpatents  @jzieger: In a world where technology and software is iterating in real time, patents are outmoded
+#fixpatents  @danielnazer: 60% of trolls are software patents. If you Jackie hardware it gets over 80%
+#fixpatents  @KateDoerksen: 2 or 3 years ago we looked at augmented reality, and ditto had something different 
+#fixpatents  @KateDoerksen: Most augmented reality patents were filed in 2001when they would grant anything 
+#fixpatents  @KateDoerksen: We had a patent asserted against us for "putting one thing on another thing" - compositing
+#fixpatents  @KateDoerksen: A few weeks later 1 800 contacts decided to sue us and bought a patent to do so
+#fixpatents  @KateDoerksen: You can't raise vc money if you have patent lawsuits pending against you
+#fixpatents  @KateDoerksen: So we went to indiegogo and raised money to fight the patents 
+#fixpatents  @KateDoerksen: A bug patent troll told me there was an arbitrage opportunity - he'd fight them for equity in the biz
+#fixpatents  @KateDoerksen: The deal was sell the company for less than money invested or do the deal with the troll, so I did it
+#fixpatents  @KateDoerksen: Today the uspto rejected all the claims in their patent, but this is still going on 
+#fixpatents  @KateDoerksen: I think the system is fundamentally flawed, and I hope my story can change things
+#fixpatents  @adikamdar: There is the troll problem, and the software patent problem of broad vague patents 
+#fixpatents  @adikamdar: Do we need to think about the bigger problem of software patents
+#fixpatents  @PeterPappasDC: Software patents are the poster child for broad ambiguous patents, but business model patents are bad too
+#fixpatents  @PeterPappasDC: Clearly many of these software and business model patches a should not have been issued they're extortion 
+#fixpatents  @PeterPappasDC: The claims are broad and vague and the infringement is not even clear 
+#fixpatents  @PeterPappasDC: The patent office doesn't do this in a vacuum, they rely on the courts to and they have been lax on specificity
+#fixpatents  @PeterPappasDC: The patent reform act makes it easier to challenge new patents prospectively, but not existing bad patents
+#fixpatents  @danielnazer: The innovation act passed the house 325 to 90. It has fee shifting and specificity of claims 
+#fixpatents  @danielnazer: Innovation act also lowers discovery cost, and helps end users get out of claims 
+#fixpatents  @danielnazer: There is a troll suing cafes and hotels for providing wifi. That's extortion 
+#fixpatents  @danielnazer: The Senate had some bills floating around that aren't as strong as the innovation act 
+#fixpatents  @danielnazer: There was a provision in the last law enabling overturning patents more easily, but financial only 
+#fixpatents  @PeterPappasDC: We need to expand patent review to get rid of these bad patents that are sold to trolls 
+#fixpatents  @PeterPappasDC: The proceedings that the pto have just initiated are revoking lots of patents
+#fixpatents  @PeterPappasDC: The Federal circuit chief judge is calling the pto a killing field of property rights 
+#fixpatents  @KateDoerksen: We filed a reexamine, our litigation was stayed, we crowd sourced prior art and revoked their claims 
+#fixpatents  @jzieger: Patents are like the weather, bad, benign, indifferent. They are orthogonal to innovation 
+#fixpatents  @jzieger: For most companies, a patent won't cause them to succeed. Some defense against practicing entities 
+#fixpatents  @jzieger: There is a shortage of engineer horsepower. Should they be spending time with lawyers or coding? 
+#fixpatents  @KateDoerksen: I'm obviously pretty negative on the topic. Before patents issue your really vulnerable even if you file 
+#fixpatents  @KateDoerksen: Maybe I should have raised money faster, but it's really risky 
+#fixpatents  @PeterPappasDC: There are industries where patents provide some value, but patent thickets impede innovation 
+#fixpatents  @PeterPappasDC: The patent process is attacked in favor of some claims being issued 
+#fixpatents  @PeterPappasDC: There is no advocate for the consumer, just the patent lawyer and the examiner 
+#fixpatents  @PeterPappasDC: There is not a common lexicon in software like there is in Pharma
+#fixpatents  @PeterPappasDC: Patient trolls have nothing to lose, it's a shakedown, they don't pay attorneys fees 
+#fixpatents  @danielnazer: There are sins options for patenting ethically, like twitters IPA and defensive patents 
+#fixpatents  @danielnazer: If you have a personal story, call your senator. Call Diane Feinstein 
+#fixpatents  @danielnazer: There are several cases pending in the Supreme Court, one of which may strike down over abstract patents 
+#fixpatents  @adikamdar: Soon we'll have a site fixpatents.org and fixpatents.org to help you take action 
+#fixpatents  @adikamdar: I want to turn this to you guys to fix patents 
+#fixpatents  @danielnazer: There are provisions the innovation act to force the underlying company behind the shells to join he sit 
+#fixpatents  @adikamdar: The pto makes money when it grans patents. Does it have a perverse incentive? 
+#fixpatents  @PeterPappasDC: The patent office gets fees for examining and for maintenance fees, the fees may drop off 
+#fixpatents  @PeterPappasDC: I don't think there is a financial interest in granting patents, but as Kagan says they're "patent happy'
+#fixpatents  @PeterPappasDC: There is an element of regulatory capture, there is a presumption of validity. The system is stacked
+#fixpatents  @danielnazer: The pto had only seen a constituency of applicants only, that is slowly changing 
+#fixpatents  @danielnazer: If the pto puts out requests for comments, and comments so it is not only IBM and Qualcomm 
+#fixpatents  @danielnazer: Wild tangent is an even stupider patent than cls - we wanted a better precedent 
+#fixpatents  @danielnazer: The wild Tangent patent is showing an ad before showing the content "on the Internet" it's clearly obvious 
+#fixpatents  @KateDoerksen: Would we have launched outside us jurisdiction? My end team is Russian. We did consider St Petersburg 
+#fixpatents  @kevinmarks: No engineer looks at the pto for ideas. Pto should search w3c, IETF, and open source first for prior art 
+#fixpatents  @adikamdar: Let's create a process that supports science rather than history
