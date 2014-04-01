@@ -6,6 +6,7 @@
 <link rel="openid.delegate" href="http://www.kevinmarks.com" />
 <link rel="openid.server" href="https://indieauth.com/openid" />
 <link rel="shortcut icon" href="km.jpg" />
+<link rel="webmention" href="https://webmention.herokuapp.com/api/webmention" />
 <meta name="mobile-web-app-capable" content="yes" />
 <link rel="apple-touch-icon" href="km.jpg" /></head>
 <body class="h-feed">
@@ -43,6 +44,17 @@
 <h3><a href="sfmusictech.html">SF Music Tech Notes</a></h3>
 <h3><a href="demo13notes.html">Demo Fall 2013 Notes</a></h3>
 <h3><a href="roadmapnotes.html">GigaOm Roadmap 2013 Notes</a></h3>
+<h2>webmentions</h2>
+<script id="webmention-hosted">
+  (function () {
+    var sn = document.createElement("script"), s = document.getElementsByTagName("script")[0], url;
+    url = document.querySelectorAll ? document.querySelectorAll("link[rel~=canonical]") : false;
+    url = url && url[0] ? url[0].href : false;
+    sn.type = "text/javascript"; sn.async = true;
+    sn.src = "//webmention.herokuapp.com/api/embed?url=" + encodeURIComponent(url || window.location);
+    s.parentNode.insertBefore(sn, s);
+  }());
+</script>
 <h2>Me elsewhere</h2>
 <ul class="xoxo">
 	<li><a href="http://epeus.blogspot.com" rel="me">Blog</a></li>
