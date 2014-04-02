@@ -1,6 +1,7 @@
 <article class="h-entry">
 <h1 class="p-name">w3c Annotations meeting <time class="dt-published">2014-04-02</time></h1>
 <div class="e-content">
+
 <p><a class='h-card' href='http://bleeds.info/'>Randall Leeds</a>:  <blockquote><p>Annotations are additions - links, block quotes, inline - microformats and microdata; out of band webmention + pingback
 <p>we want annotations to be decentralized, so they need to interoperate with a data model and component models
 <p>We are going to need syndication and discovery for annotations 
@@ -27,6 +28,77 @@
 <p>our app is not out on the web, but a desktop app you download.
 <p>Bible has book/chapter/verse and we add word, but they are different between some bibles
 <p>we care about cross-lingual word alignment for annotations, which requires extra standardizations
+<p></blockquote>
+<a class='h-card' href='https://whiteink.com'>Nick Stenning</a>:  <blockquote><p>data models are simple; protocols harder, but user interactions are hard enough that we'd take us years to agree
+<p>a bookmarklet is basically a cross-site scripting attack. A standard known as content security policy breaks them
+<p>Browser extensions are not standardised - every user agent has its own extension model
+<p>Does anyone know for proposals to allow user-trusted code to run in the DOM in a standard way? Nope
+<p>we either need to spec ALL the things, or build for pluralism so there are many ways to do it
+<p></blockquote>
+<a class='h-card' href='http://www.linkedin.com/pub/james-williamson/4/324/66b'>James Williamson</a>:  <blockquote><p>As a publisher, having notes you take on Kindle not translating to ibooks is really annoying
+<p>we get complaints from readers all the time about the "1000 people marked this page" stuff in Kindle 
+<p>we do pop-ups of footnotes and publication history in our online journals
+<p>we have third party annotations from reference management and social media crawling
+<p>the only way to annotate our works is with the "contact us" button that emails the publisher- can take 2 years
+<p>we have multiple different annotations at different levels of the publishing process paper/Word/PDF
+<p>we have extensive annotations in our new journals online product , and for assignments and quizzes
+<p>what happens to annotations when content has been deleted? Or out of print? [odd concept for web]
+<p></blockquote>
+<a class='h-card' href='http://www.fjhirsch.com/'>Frederick Hirsch</a>:  <blockquote><p>people annotate books but also movies and sound too where you have to point at timestamps
+<p>teachers comment on student assignments and students can respond inline
+<p>provenance of annotations is important - this brings in identity issues. Iterating them is also hard
+<p>I don't think we should rework the Open Annotation data model, but we need RESTful search and JSON-LD output
+<p></blockquote>
+<a class='h-card' href='https://github.com/AnnaGerber'>Anna Gerber</a>:  <blockquote><p>we have covered the data model but not the protocol. 
+<p></blockquote>
+<a class='h-card' href='#'>Timothy Cole</a>:  <blockquote><p>for scholarly text we need individual words and phrases as anchors, even when adjacent content is updated
+<p>correction of OCR and manual transcriptions, and of automated part-of-speech tagging
+<p>we need proposed corrections to be able to be reviewed and annotated themselves
+<p>for example we annotate the scan with the original OCR and the OCR with the corrections
+<p></blockquote>
+<a class='h-card' href='https://twitter.com/@EricAubourg'>Eric Aubourg</a>:  <blockquote><p>STM is a small publisher with complex texts including arabic, hebrew and heiroglyphics
+<p>our policy is ePub firts, no DRM, one purchase for all formats
+<p>we have ePub with interactive maps of the Karnak temple that link to images of the wall paintings
+<p>referencing other works is required for scholarly publications, but page number doesn't work across editions
+<p>for epub we need something user-raedable and reader-processable - people like "page 23" not ids
+<p>we need it to be independent of paper, pdf, epub that can survive reflowing, and human readable
+<p>in epub you can mark the page boundaries of the original document in the HTML but doesn't go the other way
+<p>numbered paragraphs within chapters can work for finished works -  easy to quote
+<p>we need readable shortcuts, not 64-character hashes - like link shorteners
+<p>we want the target refernce to be human processable
+<p></blockquote>
+<a class='h-card' href='http://kevinmarks.com'>Kevin Marks</a>:  <blockquote><p>q: isn't a quotation from the work the most robust reference across paper+ edocs 10 words are unique?
+<p></blockquote>
+<a class='h-card' href='https://twitter.com/@EricAubourg'>Eric Aubourg</a>:  <blockquote><p>yes, quotation is good and robust, and human readable, but it can be a bit long 
+<p></blockquote>
+<a class='h-card' href='http://fchasen.com'>Fred Chasen</a>:  <blockquote><p>the interactions in the various different document viewers are cumbersome and inconsistent
+<p>creating the notes content first and then anchoring to the document makes more sense
+<p>robust note authoring shouldn't block what you are annotating. It should let you re-anchor after composition
+<p>we need to account for longer notes, that may be longer than the entire text
+<p>also define print styles for CSS so that users can print out the whole thing
+<p></blockquote>
+<a class='h-card' href='https://twitter.com/@KristofCsillag'>Kristof Csillag</a>:  <blockquote><p>at <a class="auto-link" href="http://Hypothes.is">Hypothes.is</a> we're working on an annotation system for the web and we have proposed solutions
+<p> annotating web documentsnis good, but we added PDF, Epub and would like to add scribd and google docs too
+<p>we define a target with generic selectors xpath, but also text position and text content selectors 
+<p>by having multiple selectors we can use fuzzy matching to find the parts we want
+<p>there is a problem with dynamic sites, we need dynamic anchoring - comments can be oprhaned
+<p>knowing what is actually the target across documents can be very hard
+<p></blockquote>
+<a class='h-card' href='http://kevinmarks.com'>Kevin Marks</a>:  <blockquote><p>if you remove annotations when the document referenced is edited can't unfavourable ones be removed?
+<p></blockquote>
+<a class='h-card' href='https://twitter.com/@KristofCsillag'>Kristof Csillag</a>:  <blockquote><p>yes, but we can keep orphaned annotations and possibly keep old versions
+<p></blockquote>
+<a class='h-card' href='https://github.com/AnnaGerber'>Anna Gerber</a>:  <blockquote><p>how do you cope with copyright issues of keeping quotations?
+<p></blockquote>
+<a class='h-card' href='https://twitter.com/@KristofCsillag'>Kristof Csillag</a>:  <blockquote><p>right now we don't care about copyright - we are focused on making the annotations robust
+<p></blockquote>
+<a class='h-card' href='https://whiteink.com'>Nick Stenning</a>:  <blockquote><p>there are difficult problems around how you display disappeared content to the user, and how to reanchor
+<p></blockquote>
+<a class='h-card' href='http://tantek.com/'>Tantek Çelik</a>:  <blockquote><p>the anchoring problem is important - cool URLs don't change
+<p>question the assumption of annotation providers, how about self-hosted annotation, anchor and context too
+<a class='h-card' href='http://kevinmarks.com'>Kevin Marks</a>:  <blockquote><p>we should standardize multiple anchor formats - link, cite, text, image, audio snippet rather than how to be fuzzy
+<p></blockquote>
+<a class='h-card' href='https://github.com/AnnaGerber'>Anna Gerber</a>:  <blockquote><p>when thinking about anchoring, focus on the content, not just the document format
 </blockquote>
 </div>
 </article>
