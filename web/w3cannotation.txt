@@ -76,3 +76,42 @@
 #annotation @t: question the assumption of annotation providers, how about self-hosted annotation, anchor and context too
 #annotation @kevinmarks: we should standardize multiple anchor formats - link, cite, text, image, audio snippet rather than how to be fuzzy
 #annotation @AnnaGerber: when thinking about anchoring, focus on the content, not just the document format
+#annotation @robertcasties: At the Max Planck Institute for the History of Science, we have historical sources in many forms
+#annotation @robertcasties: we want to weave a web of knowledge as Jürgen Renn says
+#annotation @robertcasties: when you can collect of all the annotations on a source you get a semantic network of the source
+#annotation @robertcasties: we want to annotate images in a resolution independent way, we also want to show relationships and provenance
+#annotation @robertcasties: we want more complex co-ordinates and representations [why not use http://dev.w3.org/html5/spec-preview/image-maps.html] ?
+#annotation @robertcasties: we could use GeoJSON to point to images how would we add this as selectors?
+#annotation @raquelalegre: at University of Reading, I work on CHARMe which annotates climate datasets
+#annotation @raquelalegre: Scientists get huge numbers of options for data from data providers, but the annotations aren't lined
+#annotation @raquelalegre: A climate Dataset may be a table, a time series, a map a 3d model or an animation
+#annotation @raquelalegre: climate data users reserach timing, specific areas of the world, and comparing datasets
+#annotation @raquelalegre: climate data comes in 2d, 3d and 4d formats - layers of images at different res or sensors 
+#annotation @raquelalegre: we need ways to point to space and time -we have geolocation and time units for most of this
+#annotation @Gkellogg: how can I use an API without coding for it? Define operations on classes and properties
+#annotation @Gkellogg: annotations are the results of operations acting on entities
+#annotation @mobilejson: I'm from the IEEE Learning Technology Standards Committee and we are working on storage APIs
+#annotation @mobilejson: our Tin Can API is based on activitystrea.ms - Actor, Verb, Object 
+#annotation @mobilejson: the xAPI records learning experiences using activites
+#annotation @mobilejson: IEEE wants to use EPUB3 as sustainable format for technical content, with action tracking by xAPI
+#annotation @JakeHartnell: I'm a science fiction writer - heres a shameless plug for my book a 23rd century romance
+#annotation @JakeHartnell: in 2018, web annotation will be implemented in the browser we can refer to anything
+#annotation @JakeHartnell: the annotation document needs to be stored somewhere - think of it as channels
+#annotation @JakeHartnell: the browser queries all the channels the user subscribes to, kinda like rss feeds and they load in a sidebar
+#annotation @JakeHartnell: Annotation is a kind of advanced linking
+#annotation @JakeHartnell: the browser should provide a space for these attached documents to live and be viewed
+#annotation @gcapiel: annotation is a powerful tool for accessibility of non-textual content when authors forget to put it in
+#annotation @gcapiel: images tend to lack proper descriptions and mathematics is often done as images, not MathML
+#annotation @gcapiel: Video description has even less support
+#annotation @gcapiel: today, Blind and vision impaired students get support by others annotating video and images
+#annotation @gcapiel: we need unified standards for annotation so that the efforts of people who do accessible annotation this can spread
+#annotation Puneet Kishor: Copyright is a rats nest. I'm not a lawyer, I want to avoid unleashing the rats. I work at Creative Commons
+#annotation Puneet Kishor: our job at Creative Commons is to keep this unfettered by the law
+#annotation Puneet Kishor: annotations may not start out with enough original material to be copyrightable, but could grow into cliffs notes
+#annotation Puneet Kishor: every annotation should carry the information with it to determine legal status [presumably cc license]
+#annotation Puneet Kishor: people can assert what they want in the way of attribution and commercial use with CC license
+#annotation Puneet Kishor: our latest version of Creative Commons, CC4 will cover database licences too, Should be stable to use now
+#annotation Puneet Kishor: Creative Commons don't restrict people, they enable people. That's always the goal.
+#annotation Puneet Kishor: you can only licence what you create, not someone else's stuff. The snippets [anchors] should be fair use
+#annotation Puneet Kishor: copyright attaches to original authorship fixed in a tangible medium - CC lets you disclaim
+#annotation @t: both APA and MLA citation styles for tweets include the entire text of the tweet - they don't mention licensing
