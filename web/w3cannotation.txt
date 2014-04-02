@@ -1,0 +1,24 @@
+
+#annotation @tilgovi: Annotations are additions - links, block quotes, inline - microformats and microdata; out of band webmention + pingback
+#annotation @tilgovi: we want annotations to be decentralized, so they need to interoperate with a data model and component models
+#annotation @tilgovi: We are going to need syndication and discovery for annotations 
+#annotation @tilgovi: we want a more read/write web - we deserve the freedom to reference, not overload URI syntax forever
+#annotation @tilgovi: how do we go from out of band to inline? How do you show a remote annotation in the text you're reading
+#annotation @tilgovi: existing event targets are DOM element, but we want to target the data -the text of the page idea: event.dataTarget
+#annotation @tilgovi: how about a selection pseudo element - can we describe a selection, style it and not modify the DOM - like a:visited
+#annotation @tilgovi: we need feed discovery - Activity Streams. Also we need to publish locally and use WebMention http://indiewebcamp.com/webmention
+#annotation @cgallello: I'm PM on Office Online, working on accessibility - we have annotations in Office and visual studio already
+#annotation @cgallello: red underlines in Word and breakpoints in Visual Studio are annotations form our point of view [machine generated]
+#annotation @cgallello: we've been thinking about how to connect screen readers to annotations - to know there is one, to jump in and out
+#annotation @cgallello: we can use an aria.annotationtype of "comment" and point to the element with the comment with aria.annotatedby
+#annotation @AnnaGerber: Annotation is used throughout the research process, and for teaching not just as part of publications
+#annotation @AnnaGerber: researchers need to annotate maps, 3D spaces, protein models, sensor data streams , textual variants
+#annotation @AnnaGerber: scholary annotation requirements: citable; precise; of segments/regions; many data types; within dynamic web apps
+#annotation @AnnaGerber: we need to migrate annotations across multiple copies of identical resources, or modified ones
+#annotation @AnnaGerber: stand-off annotation is needed to maintain integrity of original resources
+#annotation @AnnaGerber: we use the Annotea, OA model so have shared generic backend, but need protocols and APIs too
+#annotation @AnnaGerber: the OA model is extremely flexible, but diffciult to implement as the queries are hard to write
+#annotation @seanboisen: Logos is a digital library for biblical studies, with very rich annotation and cross referencing tools
+#annotation @seanboisen: our app is not out on the web, but a desktop app you download.
+#annotation @seanboisen: Bible has book/chapter/verse and we add word, but they are different between some bibles
+#annotation @seanboisen: we care about cross-lingual word alignment for annotations, which requires extra standardizations
