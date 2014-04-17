@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head><title>Fragmentions - linking to any text</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="fragmention.js"></script>
+</head>
+<body>
+<article class="h-entry">
+<h1 class="p-name">Fragmentions - linking to any text <time class="dt-published">2014-04-17 05:25</time></h1>
+<div class="e-content">
+<p>A couple of weeks ago, I went to a <a href="http://www.w3.org/2014/04/annotation/">w3c workshop</a> about annotations on the web. It was an interesting day, hearing from academics, implementers, archivists and publishers about the ways they want to annotate things on the web, in the world, and in libraries. The more I listened, the more I realised that this was what the web is about. Each page that links to another one is an annotation on it.
+<p>Tim Berners-Lee's invention of the URL was a brilliant generalisation that means we can refer to anything, anywhere. But it has had a few problems over time. The original "<a href="http://www.kevinmarks.com/w3cannotation.html##cool+URLs">Cool URLs don't change</a>" has given way to Tim's "eventually every URL ends up as a porn site".
+<p>Instead of using URLs, Google's huge success means that searching for text can be more robust than linking. If I want to point you to <a href="https://www.google.com/search?q=%22If+you+get+the+right+ones+in+the+right+order%22">Tom Stoppard's quote</a> from The Real Thing:
+<blockquote><p>I don’t think writers are sacred, but words are. They deserve respect. If you get the right ones in the right order, you can nudge the world a little or make a poem which children will speak for you when you’re dead.</p></blockquote> 
+the <a href="https://www.google.com/search?q=%22If+you+get+the+right+ones+in+the+right+order%22">search link</a> is more resilient than linking to Mark Pilgrim's deleted post about it, which I <a href="http://epeus.blogspot.com/2010/09/if-google-predicts-your-future-will-it.html##the+right+ones+in+the+right+order">linked to in 2011</a>.
+<p>Another problem is that linking in HTML is defined to address pages as a whole, or fragments within them, but only if the fragments are marked up as an id on an element. I can link to <a href="http://epeus.blogspot.com/2003_02_01_archive.html#post-body-90336631">a blog post within a page</a> by using the link:
+<p><code>http://epeus.blogspot.com/2003_02_01_archive.html#post-body-90336631</code>
+<p>because the page contains markup:
+<p><code>&lt;div class="post-body entry-content" id="post-body-90336631" &gt;</code>
+<p>But to do that I had to go and inspect the HTML and find the id, and make a link specially, by hand. 
+<p>What if instead we combined these two ideas:
+<ul><li>use a fragment to identify part of a page</li>
+<li>mention words in the page as the identifier</li></ul>
+<p>I've named these "fragmentions"</a>
+<p>To tell these apart from an id link, I suggest using a double hash - ## for the fragment, and then words that identify the text. For example:
+<p><code><a href="http://epeus.blogspot.com/2003_02_01_archive.html##annotate+the+web">http://epeus.blogspot.com/2003_02_01_archive.html##annotate+the+web</a></code> 
+<p>means "go to that page and find the words 'annotate the web' and scroll to show them"
+<p>If you click the link, you'll see that it works. That's because when I mentioned this idea <a href="http://indiewebcamp.com/irc/2014-04-16/line/1397696273">in the indiewebcamp IRC channel</a>, <a href="http://www.jonathantneal.com/">Jonathan Neal</a> wrote a <a href="https://github.com/chapmanu/fragmentions">script</a> to implement this, and I added it to <a href="http://epeus.blogspot.com">my blog</a> and to <a href="http://kevinmarks.com" >kevinmarks.com</a>. You can add it to your site too.
+<p>However, we can't get every site to add this script. So, Jonathan also made a <a href="https://chrome.google.com/webstore/detail/fragmentions/pgajkeekgcmgglngchhmcmnkffnhihck">Chrome Extension</a> so that these links will work on any site if you're running Chrome. (They degrade safely to linking to the page on other browsers).
+<p>So, try it out. Contribute to the discussion on the <a href="http://indiewebcamp.com/fragmention##Challenges">Indiewebcamp Fragmentions page</a>, or annotate this page by linking to it with a fragmention from your own blog or website.
+<p>Maybe we can persuade browser writers that fragmentions should be included everywhere.
+</div>
+<a href="http://kevinmarks.com" class="p-author h-card" rel="author" title="Kevin Marks">Kevin Marks</a>
+</article>
+</body>
+</html>
