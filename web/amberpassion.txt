@@ -1,0 +1,63 @@
+#indieweb @nrrrdcore: watch @caseorganic talk live at http://passion-projects.github.io/live
+#indieweb @nrrrdcore: Amber is my superhero for stepping in at the last minute to take over from a  cancelled speaker
+#indieweb @caseorganic: I'm going to talk about the IndieWeb - the independent Web
+#indieweb @caseorganic: I want to demonstrate POSSE - post on your own site, syndicate elsewhere.
+#indieweb @caseorganic: it used to be when you shared to twitter or facebook, all comments were stuck there but brid.gy brings them back 
+#indieweb @caseorganic: I'm going to log in with my own domain name - this uses IndieAuth - it's like oAuth but indie
+#indieweb @caseorganic: I'm going to make a note on my site and syndicate to twitter and facebook, or even to medium
+#indieweb @caseorganic: here is my post on my site: http://caseorganic.com/notes/2014/04/17/4/indieweb
+#indieweb @caseorganic: oh wow, look at all these people responding! The demo works.
+#indieweb @caseorganic: it uses my short url anth.ro which I had to talk to a Romanian bank to get
+#indieweb @caseorganic: IndieAuth works by linking form your own site to twitter github etc and back, to prove it is you
+#indieweb @caseorganic: this presentation is hosted on my own site, so I don't have to worry about someone deleting it
+#indieweb @caseorganic: Do you remember geocities? Myspace? Upcoming? posterous? Gowalla? Lavabit? did your stuff vanish?
+#indieweb @caseorganic: when sites die, they can be nice like posterous, and let you get your data back. Or they can be like AOL hometoen
+#indieweb @caseorganic: When AOL Hometown shut down they didn't email people, they put a notice on the Hometown site, which no-one went to
+#indieweb @caseorganic: one poor AOL hometown user posted "fortunately I saved my website to geocities"
+#indieweb @caseorganic: we're all sharecropping on these sites like facebook indiewebcamp.com/sharecropping
+#indieweb @caseorganic: here is my favourite version of twitter ( c. 2008) - when the site UI changes it's like my house being rearranged
+#indieweb @caseorganic: We're losing ownership up Maslow's hierarchy- we're now renting out self actualization from social networks
+#indieweb @caseorganic: back in 2003 people were making their own (weird, quirky) websites, and learning about the web
+#indieweb @caseorganic: back in 2003 we had blogs and our own domains to host our identity, and they learned to code with their blogs
+#indieweb @caseorganic: blog software let you adapt your site if you knew how to code, or write if you didn't
+#indieweb @caseorganic: the RSS and Atom wars happened, and we ended up with Friendster, facebook, myspace and twitter
+#indieweb @caseorganic: these social network sites unified the reading and writing experiences, because reading feeds got hard
+#indieweb @caseorganic: there was a thing called pingback and trackback that was machine-generated to show links - it got full of spam
+#indieweb @caseorganic: there is not a lot of personal blog activity - WordPress is dominant, medium has some too
+#indieweb @caseorganic: Medium did have some terms of service that were worrying - they could use your content forever, that got fixed
+#indieweb @caseorganic: now short status update are an acceptable form of content, but we need to own our own data
+#indieweb @caseorganic: back in 2008 @blaine and Ralph Meijer stayed up all night at Foo camp and got twitter talking to jaiku
+#indieweb @caseorganic: in 2010 at the Federeted Social Web Summit, @aaronpk and @t and I realised that standards came after working code
+#indieweb @caseorganic: A lot of times standards happen because somebody makes a temporary solution, and then get lost in committees
+#indieweb @caseorganic: @t and @aaronpk and I decided to make IndieWebCamp - show don't tell; creators only; your own domain name to come
+#indieweb @caseorganic: to register for IndieWebCamp, you had to have your own domain name, log in with OpenID and use mediawiki
+#indieweb @caseorganic: this meant we had people who came who could cope with things that were messy
+#indieweb @caseorganic: The problem with all the standards people is that they fight on mailing lists, so IndieWeb has no mailing lists
+#indieweb @caseorganic: instead of a mailing list we have IRC, so we can use the Loqi bot to send them a message for later
+#indieweb @caseorganic: when there is enough stuff in the IRC, someone will document it on a wiki page
+#indieweb @caseorganic: I asked Brad Cunningham why wikis work and he said that error pages become opportunities to fix things
+#indieweb @caseorganic: @baline says when stories win over implementations, the best storyteller wins, not the best solution
+#indieweb @caseorganic: Principles: POSSE Publish Own Site, Share Elsewhere
+#indieweb @caseorganic: if POSSE isn't possible, use PESOS - Post Elsewhere, Share to Own Site - it's a bandaid
+#indieweb @caseorganic: Sandeep.io created WebMention - if you mention a post you can tell them to look it up and show it on their site
+#indieweb @caseorganic: We added IndieWeb Event RSVP so we can get RSVPs back from facebook too
+#indieweb @caseorganic: We need an IndieWeb because you might lose photos and files, if the site shuts down, gets bought or changes ToS
+#indieweb @caseorganic: IndieWeb is Freedom - to decide what to post and where to share it
+#indieweb @caseorganic: Homestead, don't Sharecrop! - have a home for your own data, that can't be taken from you
+#indieweb @caseorganic: the community has built a lot of tools, many open source so you cna set these up
+#indieweb @caseorganic: What to do? Own your Own domain - they're cheap
+#indieweb @caseorganic: Join the indieweb IRC channel: http://indiewebcamp.com/IRC
+#indieweb @caseorganic: come to an indiewebcamp next is in NYC april 26-27 http://indiewebcamp.com/2014/NYC/Guest_List
+#indieweb @nrrrdcore: putting your content in silos is like having a bunch of ex-boyfriends who won't give your stuff back
+#indieweb @nrrrdcore: we're going to take questions from the audience, I'll repeat
+#indieweb @nrrrdcore: where did you get your socks?
+#indieweb @nrrrdcore: they're from japan, and they feature capybaras which are awesome animals in a hottub in japan
+#indieweb @caseorganic: they're from japan, and they feature capybaras which are awesome animals in a hottub in japan
+#indieweb @nrrrdcore: audience q: are these technologies at the point where your grandmother could use them?
+#indieweb @caseorganic: I'm glad you asked, I prepared an answer at http://indiewebcamp.com/generations for people who cna join in
+#indieweb @caseorganic: as we go through these generations of communities, we grow more people and make it more formal and easier
+#indieweb @caseorganic: I'm giving you a sneak peek into an immature technology that is growing slowly
+#indieweb @nrrrdcore: audience q: how do terms of service handle pulling comments form other sites?
+#indieweb @caseorganic: it can get complicated - we are trying to get comments back from instagram at the moment, and they don't let us yet
+#indieweb @caseorganic: it works on most sites, but they can change the terms of service to stop you getting it back
+#indieweb @caseorganic: The web is a big mess - it always has been, but ToS makes it a worse mess
