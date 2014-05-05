@@ -1,0 +1,28 @@
+
+#f8 @finkd: this is going to be a different kind of f8 - in the past we did it when we had a new product to make you change your apps
+#f8 @finkd: we're here to provide a stable mobile platform to build grow and monetize your apps [bye bye Open Graph?]
+#f8 @finkd: The mobile ecosystem is so siloed - the mobile platformsa are all competing #indieweb
+#f8 @finkd: as devs we want tools that work across all these mobile platforms. FB's goal is to build the cross-platform platform
+#f8 @finkd: all our mobile apps are built on the same platform and APIs that you use for mobile platforms [one thing twitter stopped]
+#f8 @finkd: we used to have this famous mantra "move fast and break things" but fixing bugs was slowing us down
+#f8 @finkd: now it's "move fast with stable infra" [translation I want to be Microsoft not Yahoo, dammit]
+#f8 @finkd: we're introducing a 2 year API stability guarantee [he's not discontinuing Facebook XP]
+#f8 @finkd: we're putting People First - we serve Developers, Advertisers, but themost important people are 
+our users
+#f8 @finkd: People want more control over how apps use their data [read FB wants more vetos over apps using your data]
+#f8 @finkd: we know some people are scared of pressing the "Login with Facebook" button because an app might do something bad
+#f8 @finkd: from now on when you log into an app with facebook you can change line by line what you share with this app
+#f8 @finkd: in the past, apps could see not just your data but data friends have shared with you. That will change
+#f8 @finkd: for apps to see your friends info, they need to login too [making sure your app can't grow too fast for FB]
+#f8 @finkd: We added anonymous login so you can try apps without sharing your identity right away
+#f8 @ilyasu is doing a huge pitch for facebook as a backend for your mobile app, and pretending to be excited about analytics
+#f8 @ilyasu: there are times when you connection is really flaky and your phone falls apart, it's just a calculator
+#f8 @ilyasu: we need to make it easier to build offline apps so we added Parse local data store so your queries work well offline
+#f8 @ilyasu: I've been working with the URL for as long as I can remember. It's the fundamental unit of sharing #indieweb
+#f8 @ilyasu: it's a shame that the URL is not really a big deal on mobile  [it is on android]
+#f8 @ilyasu: All these apps on mobile are stuck in their own silos [so put them in our silo instead]
+#f8 @ilyasu: when I open up links on my iPad I get stuck in a mobile web browser, why is that?
+#f8 @ilyasu: the world of mobile has no unified way to discover links across platforms [it does, it's called the web]
+#f8 @ilyasu: I'mmannouncing AppLinks an open standard with open source SDKs to discover and navigate deep links on mobile
+#f8 @ilyasu: got to applinks.org and mark your website up to say what your app URLs are, and we crawl them
+#f8 @ilyasu: The iOS and Android apps we ship now have applinks, so we can deep link into your apps from FB now

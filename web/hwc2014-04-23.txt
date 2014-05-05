@@ -1,0 +1,30 @@
+
+#indieweb @t: welcome Sf and portland to Homebrew Website Club
+#indieweb @t: we have 3 new people here in SF and 2 new ones in portland
+#indieweb @marihuertas: my domain is http://marihuertas.com
+#indieweb Brian: my site is http://boozybrowser.com/ that simulates being drink online
+#indieweb @erinjo: My domain is http://erinjorichey.com 
+#indieweb @benwerd: idno didn't use to support subdirectories for @erinjo, but it does now
+#indieweb @t: IndieWebCamp NYC is this weekend - tell your NT friends to come http://indiewebcamp.com/2014/NYC
+#indieweb @t: we added a new category for IndieWebCamp NY - Blogger, so you can sign up without being a coder or apprentice
+#indieweb @bretolius: I improved my replies and webmention displays, with makes it easier on Jekyl sites
+#indieweb @bretolius: also working on implementing a micropub endpoint for github pages, which will need an external server
+#indieweb Andy: I'm brand new to all of this. I don't have a personal site yet, but am learning to code.
+#indieweb @marihuertas: I have a ton of tech education resources on twitter
+#indieweb @kyle_wm: I'm working on http://indiewebcamp.com/posse-post-discovery to find the original for a POSSE'd post without a link
+#indieweb @kevinmarks: I have been working on fragmentions this week - more info at kevinmarks.com/fragmentions.html
+#indieweb @benwerd: showing off idno implementions of POSSE using brid.gy
+#indieweb @marihuertas: I go back and forth between wanting to tie things together and to keep them separate. It's hard
+#indieweb @benwerd: I find I want to share some things with some groups, but not necessarily filtered by silo
+#indieweb @benwerd: Google+ reminds me of livejournal - it has some tight communities that live on it
+#indieweb Paul Munday: I have tool that lets you put a markdown file in a directory which becomes a URL
+#indieweb Paul Munday: every page on my site has a view source link http://paulmunday.net/source?page=index
+#indieweb @alexlinsker: I am trying to make a three-level cell based organisation to find peoplel in base 3
+#indieweb @psyhigh: My site is a story writing one where people tell stories set in the Psychic High School http://psyhigh.com
+#indieweb @psyhigh: You're posting stores for fictional characters in a fictional space, so identity questions are trickier
+#indieweb @benwerd: I love the idea of a fictional identity - your page doesn't need a real name
+#indieweb @marihuertas: can you toggle between logins in Psyhigh? So characters can talk to each other? Cool
+#indieweb @benwerd: Idno is a multi-user system and I'd love to help you do this. I now know how I'll do my NaNoWriMo this year
+#indieweb @psyhigh: everyone can be a storyteller - I want them to own their characters, and spin-offs too
+#indieweb @t: twitter lets you create all kinds of identities
+#indieweb @marihuertas: twitter stalks you mercilessly to make you use the fake accounts you create 
