@@ -1,0 +1,33 @@
+#iiw @dsearls: this is an unconference, so we don't have panels, and yet here we are with a VC panel because someone made it
+#iiw @dsearls: identity is rock that the computer industry has been pushing up a hill for years
+#iiw @dsearls: How can we solve problems in the marketplace by focusing on the individual rather than the institution?
+#iiw @kteare: I have got many bruises from identity, and I don't know how to solve it. Real Names was meant for non-english name mapping
+#iiw @kteare: we built a startup called Contact Card that was supposed to let people be contacted without email everyone as a url
+#iiw @kteare: I have my own URL at teare.com/keith where you can chat with me - but the chat service is centralised
+#iiw @DerekjAndersen: I don't trust anyone to centralise my identity, not google, not facebook. we're seeing more anonymous sites #indieweb
+#iiw @DerekjAndersen: When somebody has that much power over our identities, they will en dup using it for evil #indieweb
+#iiw @noahventure: we have an investment in a company called spike that puts a browser in the cloud that goes away when you stop using it
+#iiw @dsearls: has the investment environment changed after Snowden?
+#iiw @kteare: there's an app called cover.me that is a cloaking app that wraps chat and photo-sharing in encryption, based in China
+#iiw @kteare: I used to be a Trotskyist - you read all the books and repeat the quotes and a good idea becomes dogma
+#iiw @DerekjAndersen: if you pay for something you immediately think it is worth more than something for free
+#iiw @DerekjAndersen: ask customers "how much would you pay for this?" so you have a biz model on the first day
+#iiw @kteare: systems that depend on attention form people to grow are hard to combine with payment - eg app.net, just.me
+#iiw @kteare: Twitter is popular and free, but they put crap in front of you all the time, to get your attention
+#iiw @kteare: I'm forced into crowd funding. We have 14 companies at Archimedes Labs and they all had trouble being funded
+#iiw @kteare: there are now 3 kinds of seed: Family Seed, Pre-Seed and Seed
+#iiw @kteare: No-one funds an idea any more, you have to get it up and running for free
+#iiw @kteare: you can get a little bit of money for a prototype, maybe $100k, but then you need to get traction
+#iiw @kteare: If you get traction, the growth capital is unlimited - you'll get $100M
+#iiw @kteare: This encourages small ideas done quickly, not things that take tome to groe.
+#iiw @dsearls: You could poison an idea with a bad implementation?
+#iiw @kteare: After Yuri Milner invested in Facebook late, he made all the VCs switch to Growth Funds and be Private Equity
+#iiw @DerekjAndersen: there are lots of indicators for traction - eg Y Combinator counts as traction. 
+#iiw @DerekjAndersen: You can get funding if you have a track record, but never if you're unknown
+#iiw @kteare: if someone takes 10% of your company and expects something in 3 months, you will build a small idea
+#iiw Amit Shah: there is not a true distributed net. The routers are controlled by a few people.
+#iiw Amit Shah: I'm not worried by the advertising model - that is dying a natural death. we're moving to real solutions
+#iiw @kteare: Google's biz model depends on searches from laptops and desktops - we do less searching on mobile it's an app world there
+#iiw @kteare: we're beginning to see infrastructure as a service for mobile like Parse, Urban Airship take off
+#iiw Anandan Jayaraman: finding liquidity is the hard thing for these models - can it be embedded elsewhere to grow?
+#iiw Amit Shah: we're looking for ideas that are unique, not me too ideas. We like defensibility, so don't do apps
