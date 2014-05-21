@@ -31,3 +31,4 @@
 #iiw @kteare: we're beginning to see infrastructure as a service for mobile like Parse, Urban Airship take off
 #iiw Anandan Jayaraman: finding liquidity is the hard thing for these models - can it be embedded elsewhere to grow?
 #iiw Amit Shah: we're looking for ideas that are unique, not me too ideas. We like defensibility, so don't do apps
+#iiw Don Gordon: I have an interest in SMB apps and there is a lot of VRM there, if you can give then new independence from big vendors

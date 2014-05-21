@@ -1,0 +1,16 @@
+
+#matter @GoLocalData: we provide a platform for data gathering by mobile devices for city planning with live updates http://localdata.com
+#matter @benwerd: I'm co-founder of withknown.com with @erinjo
+#matter @benwerd: example: Graphic Scotland have a website, but the CMS has not kept up with social, so they are stuck with Facebook
+#matter @benwerd: Medium, Findery, Ghost and Tumblr are pushing new UI in personal publishing - we need this in community publishing
+#matter @benwerd: Known is a group publishing platform that applies the best of personal publishing to community sites
+#matter @benwerd: You can get your own site up and hosted with your own URL in 30 seconds, or host yourself
+#matter @benwerd: You can get enterprise support for your own site, it's also available as open source
+#matter @benwerd: on stream.withknown.com you can see what we have made - @erinjo just posted a photo of you all
+#matter @benwerd: here's an event: http://werd.io/2014/homebrew-website-club-5 that has RSVPs form across the web
+#matter @CratePlayer: Roger is a teacher and his students are typical screenagers - they'd prefer video to his lessons
+#matter @CratePlayer: EduCrate is an education-focused tool built on CratePlayer - curated videos for educators
+#matter @Museyapp: we think there is s a blurring between galleries, art events and things that happen in public
+#matter @Museyapp: we use both geolocation and beacons to add information to offline space [meaning physical space]
+#matter @Museyapp: navigating through festivals, faires and galleries is hard, we can guide people through them
+#matter @louder: if you want to share things more widely, we help you contribute points to buy promotion on facebook

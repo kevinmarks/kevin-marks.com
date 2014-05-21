@@ -1,0 +1,14 @@
+
+#SFMusicTech @brewster_kahle: We want to build an archive of CDs before they disappear audio+ also inserts- if you're interested contact me
+#SFMusicTech @brewster_kahle: We're launching the Authors Alliance tomorrow night at the Archive - free event https://blog.archive.org/2014/05/15/authors-alliance-launch-at-internet-archive-may-21/
+#SFMusicTech @FretPen: we have a practice instrument you can take anywhere, that plays guitar, violin through your phone 
+#SFMusicTech @slydeapp: we have an app that replaces singles with a social follow inside our app with music, pix and lyrics
+#SFMusicTech Julian Colbeck: If you'd told me in 1995 that I'd pay five quid for a coffee + music would be free I'd have what you're smoking
+#SFMusicTech @Axwave_Inc: we listen to sound all the time on your device and identify what is on TV giving you information about it
+#SFMusicTech @Axwave_Inc: music and sound recognition can be used for free, but we will target ads based on them for you
+#SFMusicTech @Axwave_Inc: we have a server farm in SJ that records every TV station and radio channel int he US so we can recognise them
+#SFMusicTech @KatieMc___: SoundHound listens to audio and tells you what it is, even if you just sing-hum it to us
+#SFMusicTech @KatieMc___: you can now get the earworm out of your head and into a link to share with friends
+#SFMusicTech @J2Jeff: who here collected vinyl? CDs? Tapes? [lots of hands] there's a generation now who won't have this joy of collection
+#SFMusicTech @J2Jeff: what we do is sell shares in songs so fans can collect them. They aren't actual stock certs but are limited editions
+#SFMusicTech @makeaudioapps: we have an open source toolkit that lets you wire up an audio app in HTML and generate an xcode app 
