@@ -1,0 +1,20 @@
+
+#indieweb @t: if you have anything  new, put your hand up and we'll talk about it - SF or Portland
+#indieweb @t: if you're an AT&T cellphone account user, people can create an account there and see your SMSs, and have stolen @j @x accounts
+#indieweb @t: if you report a security bug to AT&T they ask you to file a police report for identity theft
+#indieweb @benwerd: I'm Ben, formerly of idno, which is now @withknown and I'm the CEO - we're the first indieweb company
+#indieweb @benwerd: what we really need is to talk to people interested in indieweb, owning your own data, but not tehcnical - talk to us.
+#indieweb @aaronpk: I've been documenting IndieAuth and putting tools for it together so other people can make sense of it
+#indieweb @alexlinkser: I am looking into teaching people about technloogy
+#indieweb @Johannes_Ernst: I launched IndieBox 2 weeks ago and has had a lot of uptake. it's about 25% funded, and has a lot of press take off
+#indieweb @Johannes_Ernst: IndieBox is a home server that has a geek mode and a human mode  - http://indieboxproject.org/blog/
+#indieweb @Johannes_Ernst: as the box is quite expensive, I want to set up a virtual Indie box for people on Amazon, and need help with that 
+#indieweb Matt Martelles: I left my job 'cos my old employer was very draconian about websites. If you want a better web you have to build i
+#indieweb Ben Morrow: my site is childoftv.com I edit it in google docs using a spreadsheet and some archaic XSLT
+#indieweb Ben Morrow: I also bought dotpirate.ninja recently
+#indieweb @katelosse: My site is katelosse.tv - I used to work at facebook and wrote a book about that.
+#indieweb @katelosse: now I most enjoy writing on my own site and want to own that -both facebook and being a book author constrains you
+#indieweb Zack Fischmann: I have http://www.zackfischmann.com and I'm here to work on new projects with people
+#indieweb @Johannes_Ernst: This word Indie is claimed by lots of people for different things - is there a way to decide how to use this
+#indieweb @andigalpern: I do event hosting for UX nights - I want to work on a blog to share information, I want to write without worrying
+#indieweb @t: earlier today in Dusseldorf there was a session on IndieMark - I want to talk about improving http://indiewebcamp.com/indiemark
