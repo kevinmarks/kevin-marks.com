@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head><title>Typography and the web</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="fragmention.js"></script>
+<link href="style.css" media="all" rel="stylesheet" type="text/css" />
+<link rel="webmention" href="https://webmention.herokuapp.com/api/webmention" />
+<script type="text/javascript" src="//use.typekit.net/rgm7yyi.js"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+</head>
+<body>
+<article class="h-entry">
+<h1 class="p-name">Typography and the web <time class="dt-published">2014-04-17 05:25</time></h1>
+<div class="e-content">
+<p>
+</div>
+<a href="http://kevinmarks.com" class="p-author h-card" rel="author" title="Kevin Marks">Kevin Marks</a>
+</article>
+<h2>webmentions</h2>
+<script id="webmention-hosted">
+  (function () {
+    var sn = document.createElement("script"), s = document.getElementsByTagName("script")[0], url;
+    url = document.querySelectorAll ? document.querySelectorAll("link[rel~=canonical]") : false;
+    url = url && url[0] ? url[0].href : false;
+    sn.type = "text/javascript"; sn.async = true;
+    sn.src = "//webmention.herokuapp.com/api/embed?url=" + encodeURIComponent(url || window.location);
+    s.parentNode.insertBefore(sn, s);
+  }());
+</script>
+</body>
+</html>
