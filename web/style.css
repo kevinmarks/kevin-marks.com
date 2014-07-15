@@ -1,4 +1,6 @@
 [fragmention] { background-color: gold; outline: 0.375em solid gold; }
 body {font-family: "Hoefler Text", Georgia, serif; background-color: white; max-width: 40em;}
-.h-card { font-family: "Gill Sans", Roboto,Verdana, sans-serif; }
+.h-card, .webmention-author { font-family: "Gill Sans", Roboto,Verdana, sans-serif; }
 h1,h2,h3 { font-family: "Gill Sans", Roboto,Verdana, sans-serif; }
+.webmention-author img {height: 3em; float:left;}
+.webmention-mention { margin:.5em; background-color: ivory;}
