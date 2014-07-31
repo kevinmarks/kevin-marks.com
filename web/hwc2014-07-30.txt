@@ -1,0 +1,17 @@
+#indieweb @benwerd: what we've changed @withknown this week is onboarding - now you get something that explains what you can do instead of a blank screen
+#indieweb @JonPincus: how does a community site change when you want to engage in private conversations?
+#indieweb @JonPincus: you can now log onto our site Tapestries using indieauth, and can use a public profile to log into other indieauth sites
+#indieweb @JonPincus: you can now log onto our site Tapestries using indieauth, and can use a public profile to log into indieauth sites
+#indieweb @JonPincus: there is a problem of how you block or mute bad actors in conversations
+#indieweb @t: I added a mute page to the wiki, but we don't have implementations yet
+#indieweb @t: I've been adding to the wiki what all the features you would need to build a twitter for yourself
+#indieweb @t: I made a list at http://indiewebcamp.com/twitter#features of things I'd need to build to stop using twitter.com
+#indieweb @kevinmarks: I'm fascinated by @iroc's flaminga that filters twitter client side: http://madebycori.com/flaminga/
+#indieweb @JonPincus: when I was doing politcal activism on twitter people tried to shout me down, I used block then
+#indieweb @t: if you look at @ladygaga's or @barackobama's replies they are mostly requests to follow or crap
+#indieweb @kevinmarks: twitter have special features for the verified users that show them a cleaner twitter - verified users only mode
+#indieweb @t: but everyone else still sees the noise and crap on famous people's posts
+#indieweb @t: the best block implementation was @flickr's - when you block someone the history becomes invisible to you
+#indieweb @benwerd: twitter is getting a lot of flak for their abuse policies in general - I expect they will review this
+#indieweb @t: we only get less webmention spam than trackbacks and twitter spam because it has a higher barrier to entry
+#indieweb @benwerd: the cool thing when everyone has their own readers is that there is no place to centrally spam
