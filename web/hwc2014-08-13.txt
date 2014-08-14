@@ -1,0 +1,75 @@
+#indieweb @katelosse: I really like having my own website - you have access to analytics directly and who sees it 
+#indieweb @erinjo: I hear from a lot of the journalists I interview that seeing traffic on their own sites is really important
+#indieweb @katelosse: without your analytics you have to track google alerts - squarespace shows me my referrrals directly
+#indieweb @katelosse: I used to have google analytics on tumblr, but they removed a lot of the search terms unless you pay them
+#indieweb @kevinmarks: when gogole changed to https default for search the referer links went away - they show some of it to advertisers
+#indieweb @katelosse: analytics is what has fallen down since 5 years ago - people are slowly adding it back in
+#indieweb @katelosse: medium used to have a lot of information on referrers, and it went down over time
+#indieweb @kevinmarks: some of the loss of referrer info is due to mobile apps not sending them
+#indieweb @katelosse: if you sign up for ads on twitter they will give you analytics, so they're using it as bait
+#indieweb @katelosse: it's nice to publish at places that pay you, but you don;t always know who has seen it
+#indieweb @katelosse: there is a weight to writing on your own space that has more permanence than posting on medium or facebook
+#indieweb @katelosse: there is something safer about putting writing on your own space first and then sharing it on silos
+#indieweb @benwerd: you usually assign a license to silos to republish your work
+#indieweb @t: the one I have seen is that deviant art has the right to reassign your work to someone else
+#indieweb @erinjo: tos-dr.org shows the terms of service reduced to icons that explain what rights they are trying to claim from you
+#indieweb @schnarfed: we have seen more of companies rebalancing their terms of service recently
+#indieweb @erinjo: I have done some usability testing where people read the terms of service as part of signing up and object
+#indieweb @erinjo: a lot of the founders had not read the ToS before the user experiment, and they then referred back to lawyers to fix
+#indieweb @kevinmarks: there has been a backlash against facebook messenger asking for more permissions on mobile now
+#indieweb @t:  we have hugely upgraded irc logs by @aaronpk https://indiewebcamp.com/irc/2014-08-13 - faces, sans-serif not monospace and wiki edit faces
+#indieweb @t: these are the nicest IRC logs on the web - I think they're even nicer than @slackhq
+#indieweb @andigalpern: can I suggest css fixes? @t @aaronpk posted a link to the github for changes https://github.com/aaronpk/indiewebcamp-irc-logs
+#indieweb @t: I don't add google analytics to my site because I see slowdown on major sites 
+#indieweb @kevinmarks: I remember techcrunch taking 250MB of RAM to load as they kept adding more and more js
+#indieweb @t: we used to use @techcrunch as a test page on mozilla for performance because they were such "button sluts" as @erinjo says
+#indieweb @benwerd: analytics is one of the things that people have talked to us about for @withknown - understanding the audience for their own site
+#indieweb @benwerd: when you're getting webmentions via brid,gy and elsewhere to your @withknown site there is a huge analytics opportunity
+#indieweb @benwerd: it would be good for @indiewebcamp to know what pages people are coming into and finding out about us
+#indieweb @schnarfed: there is a lot of information that matter more to corporations than individuals, but for writers and photographers too
+#indieweb @andigalpern: being able to change how you present information, or look at youtube dropoff rates over time is really useful
+#indieweb @erinjo: we've talked a lot about data ownership as the first step, but understanding how people use it can be the second step
+#indieweb @erinjo: what people care about, what they find interesting can be part of this flow and connection to the web
+#indieweb @karaem: you want to see where they are coming from too, so you can see what is effective over time
+#indieweb @andigalpern: I get the same thing for sponsors, they use tracking links to confirm that we sent the info
+#indieweb @katelosse: you already know some kind of information how people heard, but having that summarized matters
+#indieweb @andigalpern: there was a TED talk on knowing the data about your own body - and knowing it better than your doctors
+#indieweb @t: Aaron has been tracking himself - see aaronparecki.com/metrics for what he has found
+#indieweb @karaem: I like this tool by visual.ly that will make a useful rendition of your google analytics data
+#indieweb @t: another general announcement over the last 2 weeks is that the w3c opened up the social web working group covering our topics 
+#indieweb @t: there are companies wanting to work on standards for this - if you're a w3c member join, or apply as an invited expert
+#indieweb @t: the w3c working group is at w3.org/wiki/socialwg and I'm one of the chairs form #indieweb along with @evanpro 
+#indieweb @t: I have chosen to use purely IRC and wiki as the social web working group and ignoring the mailing list 
+#indieweb @kyle_wm: aaron wrote about how to collect data easily: http://aaronparecki.com/articles/2012/10/28/1/low-friction-personal-data-collection
+#indieweb @karaem: I would like a great photo plugin for my personal site (which is on wordpress)
+#indieweb @katelosse: my next step is to syndicate out to silos - I would like to know how to do that more easily
+#indieweb @karaem: I need to find a good font for my logo too, so it works for cards too
+#indieweb @kyle_wm: do you have control of the HTML in Squarespace?
+#indieweb @andigalpern: you have some control in developer mode on squarespace but you have to use !important a lot
+#indieweb @schnarfed: does squarespace have space for people to comment?
+#indieweb @katelosse: I'm not a big pro-comments person because I'm female and they tend to be "you're a slut"
+#indieweb @andigalpern: I've heard that a lot from women writing in public - they don't find comments worth the pain 
+#indieweb @katelosse: I had a post on the New Yorker and they moderate their comments really well so it is less full of hate
+#indieweb @katelosse: I write things on my site that I don't want to take the trouble of pitching an editor about, which can take a month
+#indieweb @kyle_wm: I undertook taking jquery out of my site so there are fewer things to download because I wasn't using it much
+#indieweb @kyle_wm: I've been using barnaby's script to only download what is needed for each page
+#indieweb @schnarfed: Nick put up a section called bcc on his site where any non-trivial mailing lists mails he sends he puts there too
+#indieweb @schnarfed: this is up at bcc.npdoty.name to see his public emails
+#indieweb @t: public email list are basically just silos of another sort, so owning our own public posts see http://indiewebcamp.com/email_list
+#indieweb @schnarfed: another thing we have working in brid,gy is posting a comment on your own site and using webmention
+#indieweb @katelosse: the drama on twitter is that guys can create accounts all day and post slurs at people; a domain might limit that
+#indieweb @schnarfed: seeing the reply chain like you do on twitter is not something we have working well on indieweb yet
+#indieweb @katelosse: twitter is now the easiest place on the web to go and harass people, because it is so easy to create an account
+#indieweb @katelosse: people are making ad hoc twitter tools that adjust who can reply to you when and give you more control
+#indieweb @benwerd: the nice thing about the indieweb is that everyone gets to make their own algorithm for spam control
+#indieweb @benwerd: harassment is something that we are going to have to deal with, and using your social graph is going to be key
+#indieweb @kevinmarks: Twitter used to prioritize people you follow, now it prioritizes @-replies, gives trolls direct access to your phone
+#indieweb @t: we have been talking about this in the channel and made indiewebcamp.com/block and indiewebcamp.com/mute
+#indieweb @t: I got some mundane things working on my site that I documented on the PHP page
+#indieweb @benwerd: the indieweb PHP webmention client uses deprecated php features so it throws massive errors
+#indieweb @t: I started POSSEing directly to facebook using brid.gy publish rather than going via twitter, and got more interaction
+#indieweb @schnarfed: do everything manually until it hurts - then change it
+#indieweb @benwerd: we have themes now on known and I built a new one on my site werd.io
+#indieweb @erinjo: we keep hearing that nobody wants to have their own websites, but educators keep asking for it for their students
+#indieweb @kevinmarks: my son @andrewjohnmarks has an indieweb site now: http://www.andrewmarks.media/profile/andrewmarks
+#indieweb @kevinmarks: Andrew also made an indieweb comment on my site kevinmarks.com "nice website noob"
