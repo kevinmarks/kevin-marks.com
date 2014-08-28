@@ -1,0 +1,23 @@
+
+#indieweb @kevinmarks: heading up to homebrew website club now at Mozilla
+#indieweb @t: I'm tantek, my site is tantek.com
+#indieweb @lucas_gonze: I'm Lucas and my site is gonze.com
+#indieweb @michaelverdi: I'm at michaelverdi.com and I blog sometimes at michaelverdi.com
+#indieweb @lizasperling: I'm new here and I'm at http://lizasperling.com and here to learn
+#indieweb @benwerd: my site is werd.io, and I work at Known - withknown.com - the first indieweb startup
+#indieweb @t: if you go to https://indiewebcamp.com/irc/today?beta#bottom you get the new IRC with the ability to post
+#indieweb @t: basically a bunch of us trolled @aaronpk into writing a web-based irc client that is better then any actual client
+#indieweb @lucas_gonze: usually web irc clients are horrible, but https://indiewebcamp.com/irc/today?beta#bottom is really light and clean
+#indieweb @t: if you add your nickname, your url and your avatar image to http://indiewebcamp.com/IRC-people your face will show in the irc logs
+#indieweb @kevinmarks: I'm at kevinmarks.com but also now at known.kevinmarks.com running @benwerd's software
+#indieweb @lucas_gonze: I finally made aa url shortener for myself, and here's a gist for how https://gist.github.com/lucasgonze/c5d935823ef17f5ffa3f
+#indieweb @lucas_gonze: a wholly static URL shortener that just uses prexisting random strings https://gist.github.com/lucasgonze/c5d935823ef17f5ffa3f
+#indieweb @t: I need help with fixing the rel-me auth PHP library doing rel-me auth handling with twitter. I added http://indiewebcamp.com/User:Tantek.com#need_help_with
+#indieweb @t: never mind saving the world, fix your own site first. Sometimes you need to ask for help
+#indieweb @benwerd: Ineed help with posting audio on known - we have the ability to upload audio, but on mobile it fails a lot.
+#indieweb @benwerd: chrome on android strips out the file extension of the mp3 so I have to use Firefox
+#indieweb @benwerd: If I use GetUserMedia it saves as Wav files - I'd rather it was mp3 files
+#indieweb @benwerd: I also made the software on my site between 3 and 20 times faster yesterday, so thats good.
+#indieweb @t: do you have links to your profile on your site? You should be able to login
+#indieweb @lucas_gonze: I disabled a blog that I haven't touched for a few years; embrace the transient nature of the web.
+#indieweb @kevinmarks: what @pinboard said was to run wordpress locally and use wget to make a static site from it
