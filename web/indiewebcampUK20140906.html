@@ -1,0 +1,126 @@
+<html>
+<head><title>IndieWebCamp UK 2014-09-06</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="fragmention.js"></script>
+<link href="style.css" media="all" rel="stylesheet" type="text/css" />
+<link rel="webmention" href="https://webmention.herokuapp.com/api/webmention" />
+</head>
+<body>
+<article class="h-entry">
+<h1 class="p-name">IndieWebCamp UK <time class="dt-published">2014-09-06</time></h1>
+<div class="e-content">
+<p><a class='h-card' href='http://www.andrewmarks.media/'>Andrew Marks</a>:  <blockquote><p>has arrived in brighton safely
+<p></blockquote>
+<a class='h-card' href='http://tantek.com/'>Tantek Çelik</a>:  <blockquote><p>I'm the host here, as well as <a class="auto-link h-x-username" href="https://twitter.com/adactio">@adactio</a> and <a class="auto-link h-x-username" href="https://twitter.com/tommorris">@tommorris</a> - [plays squarespace video with indiewebcamp]
+<p>in 2011 at a meeting discussing federated protocols, me, <a class="auto-link h-x-username" href="https://twitter.com/caseorganic">@caseorganic</a>, <a class="auto-link h-x-username" href="https://twitter.com/aaronpk">@aaronpk</a> <a class="auto-link h-x-username" href="https://twitter.com/skinny">@skinny</a> started indiewebcamp to build things
+<p>day 1 is discussion sessions, day 2 is hack sessions
+<p>day 1 is discussion sessions - what we want to build, day 2 is hack sessions - actually building it
+<p>if you go to <a class="auto-link" href="https://indiewebcamp.com/irc/">https://indiewebcamp.com/irc/</a> you can see what we're saying; <a class="auto-link" href="https://talky.io/indiewebcamp">https://talky.io/indiewebcamp</a> you can hear us
+<p>now it's time for introductions and demos - show us your website and how you are using it
+<p>the newest thing I did was adding https to my site <a class="auto-link" href="https://tantek.com">https://tantek.com</a> so I can post securely
+<p>I need help fixing my rel-me auth now, so if anyone wants to help find me
+<p></blockquote>
+<a class='h-card' href='http://adactio.com/'>Jeremy Keith</a>:  <blockquote><p>If you post a comment to my site using webmention I can work out which post you are using with h-entry
+<p>after webmentions I got notes working and copying to twitter via POSSE
+<p>I am using <a class="auto-link" href="http://brid.gy">brid.gy</a> to propagate to twitter and get  comments back on my own posts
+<p>I added photo posting, which I upload to my site and make various sizes for different screens viewing it
+<p>I post photos to my own site, but send copies to twitter so there is a backup there and to flickr too
+<p>this saves the monolithic task of posting to multiple places, but I haven't brought my old pix back from flickr yet
+<p>I would like to also POSSE to Instagram but there is no API call to post to instagram except from their app
+<p>there is <a class="auto-link" href="http://ownyourgram.com">ownyourgram.com</a> that lets you copy back photos from instagram, which is almost what I want, but my site should be the true one
+<p></blockquote>
+<a class='h-card' href='http://tommorris.org/'>Tom Morris</a>:  <blockquote><p>this is my site, <a class="auto-link" href="http://tommorris.org/">http://tommorris.org/</a> , which is not as responsive as it could be; it's primarily text-based
+<p>
+<p>
+<p>I use Mozilla Persona to sign in as it didn't need me to pretend to be an app to sign in
+<p>when I'm logged in it just shows my posting interface at the top of the page, with title, content, POSSE boxes+license
+<p>the feature I have added recently is location <a class="auto-link" href="http://tommorris.org/places">tommorris.org/places</a> - which has London AND Brighton
+<p>I use <a class="auto-link" href="http://geodienste.lyrk.de">geodienste.lyrk.de</a> for map tiles that serve over https, and use OpenStreetMap place objects with lat long
+<p></blockquote>
+<a class='h-card' href='http://sammachin.com'>Sam Machin</a>:  <blockquote><p>at indiewebcmap last year I showed a really early hack of owning my own communications
+<p>the problem is that I don't own my phone number, but i can connect to it over WebRTC
+<p>the idea is that we can replace all forms of contact - phone, chat, whatever with URLs
+<p>you can call me by going to my page - <a class="auto-link" href="http://sammachin.github.io/talk/">sammachin.github.io/talk/</a> is frontend; a lot of backend I am running
+<p>you go to my URL to call me, and I decide how you connect depending on where I am 
+<p>voicemail is shit - everyone hates it, so give better alternatives
+<p>If you log into my site with indieauth, I can show you more ways to contact me, based on how I know you
+<p></blockquote>
+<a class='h-card' href='http://natwelch.com'>Nat Welch</a>:  <blockquote><p>I have a bunch of different sites that did webmentions and such, and it got annoying, so on the train ride I changed it 
+<p>my old sites were <a class="auto-link" href="http://pseudoweb.net">pseudoweb.net</a> (long form) <a class="auto-link" href="http://sadnet.com">sadnet.com</a> to be tweeted at and now at /natnatnat
+<p></blockquote>
+<a class='h-card' href='http://voxpelli.com'>Pelle Wessman</a>:  <blockquote><p>I got tired of hosting my own server so I move to Jekyll on github pages for everything at <a class="auto-link" href="http://voxpelli.com">http://voxpelli.com</a>
+<p>I have javascript that embeds webmentions using <a class="auto-link" href="http://webmention.herokuapp.com">webmention.herokuapp.com</a> to show them on a static site
+<p>you add a rel=webmention link to point to this and some javascript to copy to your page embed the webmentions
+<p>I also wrote a tool to test webmentions + make sure you aren't allowing script injections called webmention-testpinger
+<p></blockquote>
+<a class='h-card' href='http://glennjones.net/'>Glenn Jones</a>:  <blockquote><p>last year I showed my posts written in HTML in a folder, but now I use my phone to take pictures and checkin
+<p>I built a new system <a class="auto-link" href="http://transmat.io">transmat.io</a> that is broken into sections that make sense on a phone
+<p>if you look at <a class="auto-link" href="http://transmat.io/glennjones">transmat.io/glennjones</a> you can see what I have posted
+<p>contenteditable is very hard to work with. I have to link URLs, @'s and #'s myself to make it usable
+<p>I added a UI to set up POSSE so it will then post to other sites like Twitter as well
+<p>everything  on the site, if you add /json to a URL will parse the microformats of the page and make JSON form it
+<p>All the HTML is stored locally so even if <a class="auto-link" href="http://transmat.io">transmat.io</a> goes down I could staticly host it somewhere else
+<p>I've built this up experimentally, but am considering running this as a service like <a class="auto-link" href="http://brid.gy">brid.gy</a>
+<p>I have a "reclaim your tweets" feature where you download the zipfile from twitter and it adds only the new ones
+<p>the twitter archive doesn't give you all the context info you need, so I scrape twitter to fix that
+<p><a class="auto-link" href="http://transmat.io">transmat.io</a> is all built on node.js - it imports account info for each person I interact with so I have context
+<p>I generate an hCard for each person including twitter, name and website, and have started adding places too
+<p>see <a class="auto-link" href="http://transmat.io/glennjones/places">transmat.io/glennjones/places</a> for what I have found from my tweets, but I snap to fences in places I know
+<p>I have my own near.html page that shows me the places I have been to before to snap to common ones
+<p></blockquote>
+<a class='h-card' href='http://www.ShaneHudson.net'>Shane Hudson</a>:  <blockquote><p>my site  <a class="auto-link" href="http://www.ShaneHudson.net">http://www.ShaneHudson.net</a> is running wordpress; I tried to write my own CMS, also tried Craft
+<p>craft is at <a class="auto-link" href="http://buildwithcraft.com">http://buildwithcraft.com</a> - I added a geolocation plugin to craft
+<p>somebody already wrote webmention sending for craft; I added reciving them
+<p></blockquote>
+<a class='h-card' href='http://www.andrewmarks.media/'>Andrew Marks</a>:  <blockquote><p>I'm Andrew Marks- my dad is on that computer there -wave to him
+<p>I have my own site at andrewmarks.media running on Known - I use soundcloud and wordpress mainly
+<p>I can post a photo of my dad and it will webmention him if I link it
+<p>I can checkin here using Known and get an openstreetmap link http://www.andrewmarks.media/2014/checked-into-68-middle-street
+<p>I also have a site at <a class="auto-link" href="http://kcltheatre.com">kcltheatre.com</a> on Known and I'm working out how to use this for actors too
+<p></blockquote>
+<a class='h-card' href='http://retout.co.uk/'>Tim Retout</a>:  <blockquote><p>I discovered indieweb 2 weeks ago and have <a class="auto-link" href="http://pump.io">pump.io</a> hosed on my website now
+<p></blockquote>
+<a class='h-card' href='http://www.techfox.co.uk'>Rosa Emerald Fox</a>:  <blockquote><p>I have been a web developer for 7 months, I have a static site with wordpress for blogging at <a class="auto-link" href="http://www.techfox.co.uk">http://www.techfox.co.uk</a>
+<p>I am building my own site in rails on heroku and plan to make it more indieweb compatible
+<p></blockquote>
+<a class='h-card' href='http://waterpigs.co.uk'>Barnaby Walters</a>:  <blockquote><p>I'm Barnaby Walters at <a class="auto-link" href="http://waterpigs.co.uk">http://waterpigs.co.uk</a> and I've been building a reader since last year
+<p>I got distracted by building intertubes based on yahoo pipes which is a reader construction kit
+<p>but then I made <a class="auto-link" href="http://shrewdness.waterpigs.co.uk/">http://shrewdness.waterpigs.co.uk/</a> which looks like tweetdeck but only parses microformats 2
+<p>I get twitter info via a twitter to microformats 2 proxy converter too
+<p>I also have a search column that works via elasticsearch on whatever it has seen already
+<p>you can also reply to things - I support <a class="auto-link" href="http://indiewebcamp.com/micropub">indiewebcamp.com/micropub</a> so you can post replies on your own site
+<p>if you log in to shrewdness with your site using indieauth you can post to it in reply by micropub
+<p></blockquote>
+<a class='h-card' href='http://alpower.com'>Al Power</a>:  <blockquote><p>If i'd spent as much time creating content as tinkering with CMS's I'd have a multi-thousand page blog
+<p>I want to make photo uploading really easy - trying out kirby and perch
+<p></blockquote>
+<a class='h-card' href='http://jkphl.is'>Joschi Kuphal 吉</a>:  <blockquote><p>I have implemented webmentions on my site <a class="auto-link" href="http://jkphl.is">http://jkphl.is</a> using TYPO3, a popular CMS in eastern europe
+<p>I want to add photo and note posting and implement these in typo3 too
+<p></blockquote>
+<a class='h-card' href='http://calumryan.com'>Calum Ryan</a>:  <blockquote><p>my site is <a class="auto-link" href="http://calumryan.com">http://calumryan.com</a> I've been building a way for tour guides to access at <a class="auto-link" href="http://culturebook.co.uk">culturebook.co.uk</a>
+<p>I want to use my front end designs with an indieweb-based backend
+<p></blockquote>
+<a class='h-card' href='http://tantek.com/'>Tantek Çelik</a>:  <blockquote><p>I need a volunteer who has an iPad, as I want to show Icon use.
+<p>by adding an icon to your homepage, your friends can add your face to their homescreens and get to you clickly
+<p>so I've been thinking about how to make the person first and the contact secondly see <a class="auto-link" href="http://tantek.com/2014/120/b1/markup-people-focused-mobile-communication">http://tantek.com/2014/120/b1/markup-people-focused-mobile-communication</a>
+<p>if you go to <a class="auto-link" href="http://tantek.com/contact.html">http://tantek.com/contact.html</a> you can click through to contact me directly
+<p>this is all built in html+css, no javascript, so it is faster than native applications
+<p>the other part of this is communicating how you want to be contacted to people in a way that looks like apps
+<p>I need to add a time-based version so if I'm asleep it will turn off facetime, for example
+</blockquote>
+</div>
+</article>
+<script id="webmention-hosted">
+  (function () {
+    var sn = document.createElement("script"), s = document.getElementsByTagName("script")[0], url;
+    url = document.querySelectorAll ? document.querySelectorAll("link[rel~=canonical]") : false;
+    url = url && url[0] ? url[0].href : false;
+    sn.type = "text/javascript"; sn.async = true;
+    sn.src = "//webmention.herokuapp.com/api/embed?url=" + encodeURIComponent(url || window.location);
+    s.parentNode.insertBefore(sn, s);
+  }());
+</script>
+
+</body>
+</html>

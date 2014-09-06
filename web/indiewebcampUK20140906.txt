@@ -1,0 +1,83 @@
+
+#indieweb @AndrewJohnMarks has arrived in brighton safely
+#indieweb @t: I'm the host here, as well as @adactio and @tommorris - [plays squarespace video with indiewebcamp]
+#indieweb @t: in 2011 at a meeting discussing federated protocols, me, @caseorganic, @aaronpk @skinny started indiewebcamp to build things
+#indieweb @t: day 1 is discussion sessions - what we want to build, day 2 is hack sessions - actually building it
+#indieweb @t: day 1 is discussion sessions - what we want to build, day 2 is hack sessions - actually building it
+#indieweb @t: if you go to https://indiewebcamp.com/irc/ you can see what we're saying; https://talky.io/indiewebcamp you can hear us
+#indieweb @t: now it's time for introductions and demos - show us your website and how you are using it
+#indieweb @t: the newest thing I did was adding https to my site https://tantek.com so I can post securely
+#indieweb @t: I need help fixing my rel-me auth now, so if anyone wants to help find me
+#indieweb @adactio: If you post a comment to my site using webmention I can work out which post you are using with h-entry
+#indieweb @adactio: after webmentions I got notes working and copying to twitter via POSSE
+#indieweb @adactio: I am using brid.gy to propagate to twitter and get  comments back on my own posts
+#indieweb @adactio: I added photo posting, which I upload to my site and make various sizes for different screens viewing it
+#indieweb @adactio: I post photos to my own site, but send copies to twitter so there is a backup there and to flickr too
+#indieweb @adactio: this saves the monolithic task of posting to multiple places, but I haven't brought my old pix back from flickr yet
+#indieweb @adactio: I would like to also POSSE to Instagram but there is no API call to post to instagram except from their app
+#indieweb @adactio: there is ownyourgram.com that lets you copy back photos from instagram, which is almost what I want, but my site should be the true one
+#indieweb @tommorris: this is my site, http://tommorris.org/ , which is not as responsive as it could be; it's primarily text-based
+#indieweb @tommorris: this is my site, http://tommorris.org/ , which is not as responsive as it could be; it's primarily text-based
+#indieweb @tommorris: this is my site, http://tommorris.org/ , which is not as responsive as it could be; it's primarily text-based
+#indieweb @tommorris: I use Mozilla Persona to sign in as it didn't need me to pretend to be an app to sign in
+#indieweb @tommorris: when I'm logged in it just shows my posting interface at the top of the page, with title, content, POSSE boxes+license
+#indieweb @tommorris: the feature I have added recently is location tommorris.org/places - which has London AND Brighton
+#indieweb @tommorris: I use geodienste.lyrk.de for map tiles that serve over https, and use OpenStreetMap place objects with lat long
+#indieweb @sammachin: at indiewebcmap last year I showed a really early hack of owning my own communications
+#indieweb @sammachin: the problem is that I don't own my phone number, but i can connect to it over WebRTC
+#indieweb @sammachin: the idea is that we can replace all forms of contact - phone, chat, whatever with URLs
+#indieweb @sammachin: you can call me by going to my page - sammachin.github.io/talk/ is frontend; a lot of backend I am running
+#indieweb @sammachin: you go to my URL to call me, and I decide how you connect depending on where I am 
+#indieweb @sammachin: voicemail is shit - everyone hates it, so give better alternatives
+#indieweb @sammachin: If you log into my site with indieauth, I can show you more ways to contact me, based on how I know you
+#indieweb @icco: I have a bunch of different sites that did webmentions and such, and it got annoying, so on the train ride I changed it 
+#indieweb @icco: my old sites were pseudoweb.net (long form) sadnet.com to be tweeted at and now at /natnatnat
+#indieweb @voxpelli: I got tired of hosting my own server so I move to Jekyll on github pages for everything at http://voxpelli.com
+#indieweb @voxpelli: I have javascript that embeds webmentions using webmention.herokuapp.com to show them on a static site
+#indieweb @voxpelli: you add a rel=webmention link to point to this and some javascript to copy to your page embed the webmentions
+#indieweb @voxpelli: I also wrote a tool to test webmentions + make sure you aren't allowing script injections called webmention-testpinger
+#indieweb @glennjones: last year I showed my posts written in HTML in a folder, but now I use my phone to take pictures and checkin
+#indieweb @glennjones: I built a new system transmat.io that is broken into sections that make sense on a phone
+#indieweb @glennjones: if you look at transmat.io/glennjones you can see what I have posted
+#indieweb @glennjones: contenteditable is very hard to work with. I have to link URLs, @'s and #'s myself to make it usable
+#indieweb @glennjones: I added a UI to set up POSSE so it will then post to other sites like Twitter as well
+#indieweb @glennjones: everything  on the site, if you add /json to a UR,L will parse the microformats of the page and make JSON form it
+#indieweb @glennjones: All the HTML is stored locally so even if transmat.io goes down I could staticly host it somewhere else
+#indieweb @glennjones: I've built this up experimentally, but am considering running this as a service like brid.gy
+#indieweb @glennjones: I have a "reclaim your tweets" feature where you download the zipfile from twitter and it adds only the new ones
+#indieweb @glennjones: the twitter archive doesn't give you all the context info you need, so I scrape twitter to fix that
+#indieweb @glennjones: transmat.io is all built on node.js - it imports account info for each person I interact with so I have context
+#indieweb @glennjones: I generate an hCard for each person including twitter, name and website, and have started adding places too
+#indieweb @glennjones: see transmat.io/glennjones/places for what I have found from my tweets, but I snap to fences in places I know
+#indieweb @glennjones: I have my own near.html page that shows me the places I have been to before to snap to common ones
+#indieweb @ShaneHudson: my site  http://www.ShaneHudson.net is running wordpress; I tried to write my own CMS, also tried Craft
+#indieweb @ShaneHudson: craft is at http://buildwithcraft.com - I added a geolocation plugin to craft
+#indieweb @ShaneHudson: somebody already wrote webmention sending for craft; I added reciving them
+#indieweb @AndrewJohnMarks: I'm Andrew Marks- my dad is on that computer there -wave to him
+#indieweb @AndrewJohnMarks: I have my own site at andrewmarks.media running on Known - I use soundcloud and wordpress mainly
+#indieweb @AndrewJohnMarks: I can post a photo of my dad and it will webmention him if I link it
+#indieweb @AndrewJohnMarks: I can checkin here using Known and get an openstreetmap link http://www.andrewmarks.media/2014/checked-into-68-middle-street
+#indieweb @AndrewJohnMarks: I also have a site at kcltheatre.com on Known and I'm working out how to use this for actors too
+#indieweb Tim Retout: I discovered indieweb 2 weeks ago and have pump.io hosed on my website now
+#indieweb @Rosaemerald: I have been a web developer for 7 months, I have a static site with wordpress for blogging at http://www.techfox.co.uk
+#indieweb @Rosaemerald: I am building my own site in rails on heroku and plan to make it more indieweb compatible
+#indieweb @BarnabyWalters: I'm Barnaby Walters at http://waterpigs.co.uk and I've been building a reader since last year
+#indieweb @BarnabyWalters: I got distracted by building intertubes based on yahoo pipes which is a reader construction kit
+#indieweb @BarnabyWalters: but then I made http://shrewdness.waterpigs.co.uk/ which looks like tweetdeck but only parses microformats 2
+#indieweb @BarnabyWalters: I get twitter info via a twitter to microformats 2 proxy converter too
+#indieweb @BarnabyWalters: I also have a search column that works via elasticsearch on whatever it has seen already
+#indieweb @BarnabyWalters: you can also reply to things - I support indiewebcamp.com/micropub so you can post replies on your own site
+#indieweb @BarnabyWalters: if you log in to shrewdness with your site using indieauth you can post to it in reply by micropub
+#indieweb @alpower: If i'd spent as much time creating content as tinkering with CMS's I'd have a multi-thousand page blog
+#indieweb @alpower: I want to make photo uploading really easy - trying out kirby and perch
+#indieweb @jkphl: I have implemented webmentions on my site http://jkphl.is using TYPO3, a popular CMS in eastern europe
+#indieweb @jkphl: I want to add photo and note posting and implement these in typo3 too
+#indieweb @calum_ryan: my site is http://calumryan.com I've been building a way for tour guides to access at culturebook.co.uk
+#indieweb @calum_ryan: I want to use my front end designs with an indieweb-based backend
+#indieweb @t: I need a volunteer who has an iPad, as I want to show Icon use.
+#indieweb @t: by adding an icon to your homepage, your friends can add your face to their homescreens and get to you clickly
+#indieweb @t: so I've been thinking about how to make the person first and the contact secondly see http://tantek.com/2014/120/b1/markup-people-focused-mobile-communication
+#indieweb @t: if you go to http://tantek.com/contact.html you can click through to contact me directly
+#indieweb @t: this is all built in html+css, no javascript, so it is faster than native applications
+#indieweb @t: the other part of this is communicating how you want to be contacted to people in a way that looks like apps
+#indieweb @t: I need to add a time-based version so if I'm asleep it will turn off facetime, for example
