@@ -1,0 +1,29 @@
+
+#indieweb @glennjones: my site http://glennjones.net/ shows me the nearest places to me so I can check in
+#indieweb @glennjones: I found an HTML5 JS open source pedometer! @tommorris:  so, Glenn Jones has been working on indie-fitbit.js
+#indieweb @glennjones: by having this javscript pedometer, I can make my phone only look for locations when I am walking
+#indieweb @BarnabyWalters: on install of taproot, it registers as a handler for indie actions
+#indieweb @BarnabyWalters: we can do cross-site commenting without a browser extension by having handlers on our site
+#indieweb @BarnabyWalters: I added in intermediate certificates so we can use SSL with all our tools
+#indieweb @BarnabyWalters:  I also added a way to track people's posts who use shrewdness
+#indieweb @Gfrichmond: I got a new domain, grant.codes and set up transmat.io on it and also made a contact page grant.codes/contact
+#indieweb @adactio: my demo is that adactio.com is now all https
+#indieweb @adactio: I now have support indie-actions on adactio.com and connect to bridgy
+#indieweb @ShaneHudson: I don't have much to demo, but I do have ssl working on my site and got an A grade
+#indieweb @icco: my goal this weekend was to rewrite everything, but I did get my blog running in go on AppEngine
+#indieweb @icco: currently using appengine auth, but I want to switch to indieauth for this
+#indieweb @tommorris: my current site is not very responsive
+#indieweb @tommorris: mf2py now has a way to quickly parse and generate microfromats 2
+#indieweb @kevinbeynon: I set up indieuth on my own site to log in as admin so I can end password sharing
+#indieweb @jkphl: I also got my site up on SSL, and fixed my webmention interop
+#indieweb @digitalblissltd: my site http://digitalbliss.uk.com is fairly new so I'm going thtough IndieMark
+#indieweb @t: I've been working on indie actions too, and doing UI analysis on silos answers
+#indieweb @aral: I also got my site fully SSL+working with forward secrey
+#indieweb @Rosaemerald: I wanted to make my own CMS, and have images and tags working
+#indieweb @aaronpk: I've been publishing bookmarks elsewhere and want to move back to my own site
+#indieweb @aaronpk: now I have aaron.pk/bookmarks which I imported from wordpress and they're now all microformatted
+#indieweb @aaronpk: you can comment on my bookmarks now
+#indieweb @kevinmarks: I built feed.unmung.com whihc takes legacy atom+rss feeds and makes microformats 2 hfeed pages
+#indieweb @kevinmarks: so you can now read xkcd: http://feed.unmung.com/feed?feed=http%3A%2F%2Fxkcd.com%2Frss.xml and see it in shrewdness  http://shrewdness.waterpigs.co.uk/test/?url=http%3A%2F%2Ffeed.unmung.com%2Ffeed%3Ffeed%3Dhttp%253A%252F%252Fxkcd.com%252Frss.xml
+#indieweb @kevinmarks: I also made it work with podcasts like @onthemedia to generate <audio> embeds like so http://feed.unmung.com/feed?feed=http://feeds.wnyc.org/onthemedia
+#indieweb @kevinmarks: unmung is running on appengine, the code is up at https://github.com/kevinmarks/unmung
