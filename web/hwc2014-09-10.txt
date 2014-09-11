@@ -1,0 +1,22 @@
+
+#indieweb @t: IndieWebCamp UK was amazing - I've never seen so many people go from 0 to 5 HTTPS in one weekend
+#indieweb @t: the documentation on the wiki helped a lot, Also Tim Retout was interpreting the crypto error messages everyone was getting
+#indieweb @t: @adactio had a great socratic dialog with Tim drawing out the complexities of https
+#indieweb @t: on Monday Google said they will deprecate SHA-1 in a year, so the HTTPS effort gets to be redone for SHA-2
+#indieweb @t: also at indiewebcamp UK was a complete user flow for going to someone else's site, clicking a reply button and post it to you
+#indieweb @t: by using an indie-action tag, which delegates via a protocol handler that you register for your own site to your site
+#indieweb @t: have you seen Barnaby's shrewdness.waterpigs.co.uk reader? it subscribes only to h-entry markup
+#indieweb @t: to subscribe to a legacy RSS or Atom feed via shrewdness use @kevinmarks's feed.unmung.com to convert them to h-entry
+#indieweb @benwerd: I need to dash back as we're launching @withknown tomorrow, go to withknown.com to get your own indieweb site
+#indieweb @aaronpk: new member Joe Myer with http://sportsdatabase.com/ - here to learn
+#indieweb @aaronpk: next new member is at yourmom.io 
+#indieweb @aaronpk: I got some new things working - I added video posts to my site as I had to post a screen recording
+#indieweb @aaronpk: I have a new thing that plays an mp4 fiel if you post it, and I'm just using the <video> tag so it just works
+#indieweb @aaronpk: also this week I got bookmarks working on my site - go to quill.p3k.io you can use it to post bookmarks too
+#indieweb @kevinmarks: today @benwerd @erinjo and I went on This Week In Google to talk about indieweb and Known
+#indieweb @t: Leo was very excited to be able to post photos from his phone to known
+#indieweb @aaronpk: it was also great to show comments from multiple implementations on the Known site to show interop
+#indieweb @t: the nice thing about this #indieweb demo was that previous monoculture implmentations only interoperated with themselves
+#indieweb @t: the nice thing about this #indieweb demo was that previous monoculture implmentations only interoperated with themselves
+#indieweb @Johannes_Ernst: we have changed indiebox into a project ubos.net  to deploy services on various different servers on demand
+#indieweb @Johannes_Ernst: what we have not built in the indie world is products that people can buy 
