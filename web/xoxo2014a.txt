@@ -1,0 +1,151 @@
+#xoxo @waxpancake: I was having so much fun last night I forgot to eat, so I ended up making ramen noodles in Plaid Pantry at 3am
+#xoxo @waxpancake: Ben Purdy, @purdybot, made all our projected visualisations - hire him to do things for you
+#xoxo @waxpancake: @stewart Butterfield from @slackhq bought a lot of fans from chinatown - grab one to cool yourself
+#xoxo @waxpancake: Erin McKean is a lexicographer, former editor of the Oxford American Dictionary and founded wordnik
+#xoxo @emckean: I am the female founder of a Silicon Valley VC-backed startup that has nothing to do with fashion
+#xoxo @emckean: become an expert in a mundane object that is made in an arcane way
+#xoxo @emckean: give a talk at conference you haven't heard of and use the word synecdoche in it
+#xoxo @emckean: Independence is a myth - we valorize it, but in the vacuum of space no-one can help you make
+#xoxo @emckean: unless you're independently wealthy and incredibly reclusive, you're dependent on somobody
+#xoxo @emckean: when I started wordnik I knew a lot of things, but those things were mostly about dictionaries
+#xoxo @emckean: I wanted every word, with meaning shown by usage and yes, EVERY word
+#xoxo @emckean: wordnik's  business model 1. Collect words 2. ? 3. Profit
+#xoxo @emckean: I didn't think there would be a thousand twitter bots like @metaphorminute
+#xoxo @emckean: we built reverb which finds things you are interested in based on word knowledge
+#xoxo @emckean: when you fall in love with someone you need to look at them and say "this is the problem I want to have"
+#xoxo @emckean: investors want you to get big. I want to build a map of the English language at a scale of 1:1 so that  fits
+#xoxo @emckean: I had a bias that I liked people with strong opinions, but it took a while to realize that assholes have them too
+#xoxo @emckean: when you have a little kid you are "I control your universe" but as they get older they get more indpendent
+#xoxo @emckean: it can be hard to realise that something that can't have a life without you is a parasite
+#xoxo @emckean: I dream of running away to Portland where I can write artisanal javascript and work on my 2nd novel…
+#xoxo @emckean: If I've learned something in a day, the day is not a total waste. Even if it is Baconadoes
+#xoxo @emckean: Feeling incompetent is exhausting. Occasionally indulge in meaningless competence
+#xoxo @emckean: There's no words involved in Sudoku - what's the actual point?
+#xoxo @emckean: my meaningless competence is making dresses - I don't want them to become a job
+#xoxo @emckean: People like to tell me "you're too nice" -so  I attempted to have a bitch face for a while
+#xoxo @emckean: I reached back into my ancestral knowledge and realised you can weaponize nice
+#xoxo @emckean: if you weaponize nice you can tell someone to go to hell and they'll enjoy the trip
+#xoxo @emckean: it's entirely possible to be empathetic to someone but not put their needs above your own
+#xoxo @waxpancake: there is a Gamergate truther guy handing out his Jack Chick pamphlets over by the goats 
+#xoxo @waxpancake: I have a metric for a healthy community - how quickly do they self-organise and meet offline?
+#xoxo @ednapiranha: I will tell you the story of how meatspace started
+#xoxo @ednapiranha: I work on a lot of chat experiments, and my friend was doing WebRTC stuff, so we got animated gifs of users faces
+#xoxo @ednapiranha: so you have a chat with a looping animated gif of your face underneath the text
+#xoxo @ednapiranha: we got 3000 users in 1 day, it was a single channel, it was a mess and everyone was saying they were addicted
+#xoxo @ednapiranha: we were expecting a lot of genitalia, yet I've only seen 3 penises on there, which isn't bad
+#xoxo @ednapiranha: I didn't want to build an irc clone with channels, and I didn't want authentication
+#xoxo @ednapiranha: your face being on there is your identification
+#xoxo @ednapiranha: I forced everybody to be in a single room so everyone has to deal with it
+#xoxo @ednapiranha: human relationships don't scale, you can't have 5000 close friends
+#xoxo @ednapiranha: to get rid of the trolly people who taped over their cams and abuse you, so we added muting
+#xoxo @ednapiranha: the users hung out together and got to know one another and met up in SF and NY
+#xoxo @ednapiranha: there was an article in a French womens magazine so it filled up with French college girls and worried the Americans
+#xoxo @ednapiranha: so I made a separate space for the French women, and an international one
+#xoxo @ednapiranha: there was then a Paris-based meet up too
+#xoxo @ednapiranha: I started paying attention to the communities and working on how to deal with trolly people by muting them
+#xoxo @ednapiranha: we had some problems with regular trolls who came back and abuse people, so we added a temporary hellban
+#xoxo @ednapiranha: trusted admins can ban them for 1 hour - no-one sees them but themselves
+#xoxo @ednapiranha: we make it an hour so people can get a second chance, because sometimes they're just scared and acting up. I used to.
+#xoxo @ednapiranha: Its an open source system, so if you ran your own copy I don't know if you would get the same community - try it
+#xoxo @ednapiranha: the messages last 10 minutes, so it is ephemeral like conversation, though anyone could copy it
+#xoxo @ednapiranha: people made games with the gifs where they completed each others bodies
+#xoxo @ednapiranha: I'm doing a new project that applies glitch filters to images, and we all got ourselves glitched up twitter avatars
+#xoxo @ednapiranha: things can grow from something that you didn't expect. Once you get that growth it's about maintaining the community
+#xoxo @ednapiranha: having pods of communities and sub-communities and letting do their own thing is important
+#xoxo @ednapiranha: if you want to check it out its meatspac.es - if you're shy you don't have to show your face
+#xoxo @tinysubversions: the next speaker has done a lot of clever hacks and twitter bots - Darius Kazemi
+#xoxo @tinysubversions: ever since I was a child, I wanted to win the lottery. 
+#xoxo @tinysubversions: At my grandma's we watched the news for the pennsylvania lottery and watched the ball be revealed. She never one
+#xoxo @tinysubversions: the lottery became a way for processing what happened every day
+#xoxo @tinysubversions: I got into a fender bender, and used the number of the other guys car
+#xoxo @tinysubversions: If I got a girls number in a bar, I would play her phone number
+#xoxo @tinysubversions: I started to share my lottery numbers with my daily lottery blog
+#xoxo @tinysubversions: by being a content creator like this I built up a community of fans
+#xoxo @tinysubversions: at the time none of us could get a gig - we weren't well-known lottery players
+#xoxo @tinysubversions: I worked at The Lottery Collective for a few years. It wasa 1 in a million experience
+#xoxo @tinysubversions: a lot of people in the creative world don't like to talk numbers
+#xoxo @tinysubversions: here are my numbers 03 09 19 23 29 39 - you'll see a lot of 9s and a surprising number of 3s
+#xoxo @tinysubversions: I'm not saying you should play 9s and 3s. They worked for me, but they might not work for you. Try something wild 
+#xoxo @tinysubversions: I wrote this talk on the flight home from XOXO last year
+#xoxo @tinysubversions: beyond a certain threshold of work you put in, success is entirely out of your hands
+#xoxo @tinysubversions: creative work and putting it online is buying the lottery ticket
+#xoxo @tinysubversions: I made @MiraculousPics which si a parody of those annoying picture accounts
+#xoxo @tinysubversions: It grabs captions from those scummy photo sites and does a google image search and posts it
+#xoxo @tinysubversions: @AU_prompts creates crossover alternate universe fanfic prompts by taking 2 characters and an aspiration
+#xoxo @tinysubversions: @4myrealfriends uses @wordnik - thanks Erin - to get bigrams to get tuernabout quotes
+#xoxo @tinysubversions: @twoheadlines mixes 2 headlines from 2 google news categories "China to remain an American company"
+#xoxo @tinysubversions: I buy a lot of lottery tickets - I make a lot of these bots 112 recently, and got about 9 well-known ones
+#xoxo @tinysubversions: creative recognition is largely a matter of luck. Marketing, PR is just buying more lottery tickets
+#xoxo @tinysubversions: the most successful kickstarter ever raised $13M for the coolest cooler. 
+#xoxo @tinysubversions: this may seem like fatalism, and in a sense it is.
+#xoxo @tinysubversions: 2 kinds of creative advice: how to buy more lottery tickets, and how to win the lottery. The 1st is useful the 2nd is nonsense
+#xoxo @waxpancake: we flew Leigh Alexander in from London because we love her - she writes about games but draws on other genres
+#xoxo @leighalexander: my work focuses on the way technology interacts with storytelling and play and fantasy
+#xoxo @leighalexander: I have an acting degree, I ended up an office assistant, and writing was a way out of that
+#xoxo @leighalexander: the market for games writing is very challenging, as many people want to write about video games all day
+#xoxo @leighalexander: I feel lucky as an exception to many rules - I make a living from being freelance; as a women in gaming
+#xoxo @leighalexander: most writing about gaming is technology products reviews - buyers guides
+#xoxo @leighalexander: around the turn of the millennium writing about games as culture started happening
+#xoxo @leighalexander: if you look at what you commonly hear and read about video games, it doesn't represent all the games I love
+#xoxo @leighalexander: my first blog sexyvideogameland.blogspot.com - I wrote every day covering games with a broader perspective
+#xoxo @leighalexander: it became important to me to always maintain a blog and have my own voice as well as a corporate byline
+#xoxo @leighalexander: I want everyone to see games the way I see them as beautiful and wonderful
+#xoxo @leighalexander: I want people to stop thinking of writing about gaming as being an arrested child
+#xoxo @leighalexander: I knew that games were not going to have a healthy community until we solved the diversity and inclusivity problems
+#xoxo @leighalexander: I write about the things I'm interested in the games I care about and what I think should succeed. That's the agenda
+#xoxo @leighalexander: my approach puts me at extreme odds with the gamer fan-type figure - despite this I find an audience fro my work
+#xoxo @leighalexander: I'm facing the same economic constraints as anyone else who writes for a living
+#xoxo @leighalexander: after a abad experience with Thought Catalog with Breathing Machines, I decided to publish my own books
+#xoxo @leighalexander: I published my own book Clipping Through https://gumroad.com/l/aisCU and have made more from that already than tha last
+#xoxo @leighalexander: I have my book up at $5 or pay what you want and most people are paying more than $5 for it
+#xoxo @leighalexander: games are just starting to reach their full potential now - reaching the mainstream
+#xoxo @hankgreen: I make internet video. We started about 8 years ago, when there wasn't a way to monetize or many people to watch it
+#xoxo @hankgreen: our videos have been viewed about 800,000 times, at 5 mins each that is four billion minutes
+#xoxo @hankgreen: I have killed four billion minutes of human lifetimes, which is about 85 lives.
+#xoxo @hankgreen: Have I done 85 human lifetimes of good? that's that keeps me up.
+#xoxo @hankgreen: if you want to get a popular youtube channel, go back in time 8 years and start one then
+#xoxo @hankgreen: I have a 2 step process: 1. get a community of 200,000 fans who agree with you 2. use them for everything else
+#xoxo @hankgreen: I want to talk about your dreams. [slide with giant text FUCK YOUR DREAMS]
+#xoxo @hankgreen: when I was in 8th grade I somehow decided that I wanted to be an oceanographer
+#xoxo @hankgreen: they got us to write haikus in school and I wrote "Oceanographer/that's what I want to be/Oceanographer"
+#xoxo @hankgreen: it was 5 years into the process of making video blogs I realised I loved editing video
+#xoxo @hankgreen: i do a lot of science video stuff, and I recently got the chance of a TV show explaining science, which 4 years ago Hank
+#xoxo @hankgreen: there is one person objectively I can say that I am smarter than, and that is me 4 years ago
+#xoxo @hankgreen: I wanted to be the guy who solved death. Being that guy would be a kind of immortality. Along with the real immortality.
+#xoxo @hankgreen: moments of extreme success are depression triggers for me. 3 days later I can't get out of bed. WHAT THE FUCK?
+#xoxo @hankgreen: dreams decrease the total number of potential paths - you miss other directions
+#xoxo @hankgreen: you don't really want an Oscar, you want recognition from your peers
+#xoxo @hankgreen: you don't want to be bought by Google, you want a big fucking pile of money
+#xoxo @hankgreen: Dreams shouldl fuel you, not define you
+#xoxo @waxpancake: Paul, like, writes stuff and knows computers pretty good.
+#xoxo @ftrain: I'm going to talk about 5 websites that I have built of the last 18 years
+#xoxo @ftrain: This talk is called "building your personal platform." I'm sorry.
+#xoxo @ftrain: the first site I built was ftrain.com: from 1997 to today it has been hanging out. I haven't updated it in a year
+#xoxo @ftrain: you put a bunch of stuff up on line and give it away for free and people scream at you
+#xoxo @ftrain: I got an email one day asking if I would like to make a website for Harpers magazine
+#xoxo @ftrain: the thing Harpers didn't tell me is the publisher hates the internet
+#xoxo @ftrain: Harpers softball shirts have "fuck the internet" on the back - and I was the web guy
+#xoxo @ftrain: the best rule of editing I learned at Harpers is "keep like with like"
+#xoxo @ftrain: I scanned the archives of Harpers and tagged the keywords in the stories so we could compile timelines
+#xoxo @ftrain: I realised I was having a major depressive episode when I looked at the train and thought I should be in front of it
+#xoxo @ftrain: I built another site ohlih.com and made a diary and enabled me to track calories
+#xoxo @ftrain: another secret website - anxietybox.com - you put in your name, your email and your anxiety, and it emails you mean notes
+#xoxo @ftrain: then you can email back and discipline your anxiety,.
+#xoxo @ftrain: your worst anxieties make great bots because they are shrieking monsters saying the same thing over and over
+#xoxo @ftrain: Poetry break: http://www.gratefulness.org/poetry/guest_house.htm by Rumi
+#xoxo @ftrain: I looked back at these sites and wondered what they have in common, and it is change over time
+#xoxo @ftrain: I did that thing you should never do - I thought "i'll just make a note taking app"
+#xoxo @ftrain: this unscroll.com is a timeline and it shows me things I searcg for over time egold radio shows
+#xoxo @ftrain: my friend Leslie Harpold died.  I imported her blog into unscroll.com so I an take notes on her posts
+#xoxo @ftrain: The goal of this site is to work on it for 20 years
+#xoxo @waxpancake: I had described this as a consensual hallucination
+#xoxo @andymcmillan: I'mm announcing the xoxo diet plan - it's two days over a weekend and you lose 2 inches off your waistband
+#xoxo @waxpancake: the question we always get is "will there be another on next year?" we don't know yet
+#xoxo @waxpancake: we'd like to dedicate this festival to someone that we lost this year, to Chloe Weil.
+#xoxo @waxpancake: independence is hard and independence is lonely. 
+#xoxo @waxpancake: we just want you to know that you are not alone. Everyone of you needs to know that.
+#xoxo @waxpancake: when you are being pummeled by morons out there, the lone commenter, push on and keep doing your work
+#xoxo @andymcmillan: someone asked me how I know @waxpancake - we met properly to work on XOXO
+#xoxo @waxpancake: this is the first time we've had a real security team and they have been great
+#xoxo @andymcmillan: my family is here - my mum and my dad are here and my brother
+#xoxo @waxpancake: thank you to every single one of you - lets get out and go have drinks somewhere else
