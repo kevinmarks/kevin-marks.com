@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head><title>My First Website</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="fragmention.js"></script>
+<link href="style.css" media="all" rel="stylesheet" type="text/css" />
+<link rel="webmention" href="https://webmention.herokuapp.com/api/webmention" />
+</head>
+<body>
+<article class="h-entry">
+<h1 class="p-name">My First Website <time class="dt-published">2014-10-29</time></h1>
+<div class="e-content">
+<p>The first packets sent on wat was to become the Internet happened 45 years ago <a href="http://www.sri.com/work/timeline-innovation/timeline.php?timeline=computing-digital#!&innovation=arpanet">today</a>:
+<blockquote> The very first transmission on the ARPANET, on October 29, 1969, was the logon from UCLA to SRI.</blockquote>
+<p>The <a href="http://info.cern.ch/hypertext/WWW/TheProject.html">first website</a> was posted 20 years ago today too., and there is a <a href="http://www.w3.org/20/">gala celebration</a> this afternoon.
+<p>This made me think about my first website, so I went looking in the Internet Archive (which was <a href="archive.org/v2">redesigned</a> for the first time in years today too).
+I found the <a href="https://web.archive.org/web/19970220031543/http://www.mmcorp.com/">company website for MultiMedia Corporation</a> from 1997 - note the stylish design by Nikki Barton, 
+the trendy monospaced text and the manually constructed <a href="https://web.archive.org/web/19970220031543/http://www.mmcorp.com/">company news blog</a>.
+<p>However, hidden away were <a href="https://web.archive.org/web/19970605021938/http://www.mmcorp.com/mmcsite/company/personal.html">staff homepages</a> - under tilde as recently revived by <a href="http://tilde.club">tilde.club</a>, and in there is <a href="https://web.archive.org/web/19970605014347/http://www.mmcorp.com/~kevin/">my first webpage</a>:
+<p><iframe src="firsthomepage.html" width=640px height=1400px ></iframe>
+<p>Now archived <a href="firsthomepage.html">here too.</a> 
+<p>I put this up sometime after <a href="http://andrewmarks.media">Andrew's</a> birth in April 1995, before <a href="http://christophermarks.me">Christopher's</a> in December 1996, and never did update it, despite the promise there.
+<p>What was your first website?
+</div>
+</article>
+<h2>webmentions</h2>
+<script id="webmention-hosted">
+  (function () {
+    var sn = document.createElement("script"), s = document.getElementsByTagName("script")[0], url;
+    url = document.querySelectorAll ? document.querySelectorAll("link[rel~=canonical]") : false;
+    url = url && url[0] ? url[0].href : false;
+    sn.type = "text/javascript"; sn.async = true;
+    sn.src = "//webmention.herokuapp.com/api/embed?url=" + encodeURIComponent(url || window.location);
+    s.parentNode.insertBefore(sn, s);
+  }());
+</script>
+
+</body>
+</html>
