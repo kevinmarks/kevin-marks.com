@@ -1,0 +1,159 @@
+<html>
+<head><title>Homebrew Website Club 2014-11-19</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="fragmention.js"></script>
+<link href="style.css" media="all" rel="stylesheet" type="text/css" />
+<link rel="webmention" href="https://webmention.herokuapp.com/api/webmention" />
+</head>
+<body>
+<article class="h-entry">
+<h1 class="p-name">Homebrew Website Club <time class="dt-published">2014-11-19</time></h1>
+<div class="e-content">
+
+<p><a class='h-card p-category' href='http://tantek.com/'>Tantek Çelik</a>:  <blockquote><p>this week I got a really dumb thing working  - serving a file extensionless url from a file using Apache rewrite
+<p>people say "you're using an iPod? how is that a phone" and I send them to my contact page to understand it
+<p>user testing shows that when you add a link to your website on their homescreen, they think they're installing an app of you
+<p>Ben Roberts took the contacts idea and added a login using indieauth to give more contact modes if he knows you
+<p>Amy did a contact page with her own look, and also included her personal irc channell
+<p>handing out the prototype to non-techy people has been really useful
+<p></blockquote>
+<a class='h-card p-category' href='https://dunlaps.net/darius'>Darius Dunlap</a>:  <blockquote><p>I'd like to make the contact.html idea my actual homepage
+<p></blockquote>
+<a class='h-card p-category' href='http://werd.io/'>Ben Werdmüller</a>:  <blockquote><p>trying it on android lollipop with chrome, tantek's 'add to homescreen' popup works 
+<p></blockquote>
+<a class='h-card p-category' href='http://tantek.com/'>Tantek Çelik</a>:  <blockquote><p>this is simple, dumb and useful, but it impresses your friends
+<p>the harder thing I got worked out was how to tag people in photos or other posts in an indieweb way
+<p>if ben posts a photo of kevin on ben's site, I can post a reply that says 'in this rectangle of the image is kevinmarks'
+<p>you send a webmention to the photo post to say there is a person there, and you send a webmention to the people you tag too
+<p>the reply context for a person tag post on a photo is the entire photo - you should see the rect that is you
+<p>the point is that treating a person tag as a first class post type works with all the other flows we have
+<p></blockquote>
+<a class='h-card p-category' href='http://npdoty.name'>Nick Doty</a>:  <blockquote><p>one process is that you can let the person who has been tagged veto the tag, or remove it
+<p></blockquote>
+<a class='h-card p-category' href='http://tantek.com/'>Tantek Çelik</a>:  <blockquote><p>one answer would be a vouch requirement that shows you have linked to each other before
+<p></blockquote>
+<a class='h-card p-category' href='http://werd.io/'>Ben Werdmüller</a>:  <blockquote><p>can I quarantine the webmention until it has been approved?
+<p></blockquote>
+<a class='h-card p-category' href='http://tantek.com/'>Tantek Çelik</a>:  <blockquote><p>a rel=status link in a webmention will make this work
+<p></blockquote>
+<a class='h-card p-category' href='http://werd.io/'>Ben Werdmüller</a>:  <blockquote><p>tagging people is one of the major sources of abuse on facebook - this lets us head that off before it happens
+<p></blockquote>
+<a class='h-card p-category' href='http://kevinmarks.com'>Kevin Marks</a>:  <blockquote><p>this would not delete the tagging assertion from the source, but would prevent it propagating to the photo 
+<p></blockquote>
+<a class='h-card p-category' href='http://tantek.com/'>Tantek Çelik</a>:  <blockquote><p>if ben says "where's the vouch?" I then have to show that I actually know them with a link
+<p>the basic solution is that you use a p-category tag with a h-card to say it is a person - you could use a geolocation or adr
+<p>you could even use a h-event to say that the photo was time  bounded too
+<p></blockquote>
+<a class='h-card p-category' href='http://npdoty.name'>Nick Doty</a>:  <blockquote><p>you could use a like as an approval mechanism for these 
+<p></blockquote>
+<a class='h-card p-category' href='http://tantek.com/'>Tantek Çelik</a>:  <blockquote><p>foursquare has the ability to check other people in  - it can say 'no, yes, auto'
+<p></blockquote>
+<a class='h-card p-category' href='http://npdoty.name'>Nick Doty</a>:  <blockquote><p>it's an important part of foursquare to check into palces you aren't really at
+<p></blockquote>
+<a class='h-card p-category' href='http://werd.io/'>Ben Werdmüller</a>:  <blockquote><p>I was mayor of chez panisse for a while as my soul was there
+<p></blockquote>
+<a class='h-card p-category' href='http://4c4d.com/?twitter'>CAT PUNCHER</a>:  <blockquote><p>I change my profile every few months
+<p>I've been securing things - eg VPN my phone traffic to my home internet
+<p>I'm not sure I should be running my phone traffic through comcast; I've been desiloing stuff mostly off of google
+<p></blockquote>
+<a class='h-card p-category' href='http://npdoty.name'>Nick Doty</a>:  <blockquote><p>I've been working on 2 things - one is citations - I went to a citations hackathon
+<p>I want my academic work to be on the web wiht proper citations
+<p>I forked <a class="auto-link" href="http://citeproc.py">citeproc.py</a> which creates official citations in various formats
+<p>the output of the citation usually loses the semantics; I am modifying this to create h-cite markup
+<p>harassment stuff: I posted to <a class="auto-link" href="http://bcc.npdoty.name">bcc.npdoty.name</a> on how to proactively deal with harassment
+<p>if someone has to buy a new domain name every time they want to harass me that's good
+<p></blockquote>
+<a class='h-card p-category' href='http://werd.io/'>Ben Werdmüller</a>:  <blockquote><p>there are also irritating free services that hand out subdomains to people
+<p></blockquote>
+<a class='h-card p-category' href='http://npdoty.name'>Nick Doty</a>:  <blockquote><p>if you're doing that you should take some responsibility for your actions
+<p></blockquote>
+<a class='h-card p-category' href='http://kevinmarks.com'>Kevin Marks</a>:  <blockquote><p>using rel=me you can get more information about a subdomain and possible twitter accounts etc
+<p></blockquote>
+<a class='h-card p-category' href='http://npdoty.name'>Nick Doty</a>:  <blockquote><p>the twitter thing I saw was blocktogether which collates lists of twitter accounts to block - do this for domains
+<p></blockquote>
+<a class='h-card p-category' href='https://dunlaps.net/darius'>Darius Dunlap</a>:  <blockquote><p>I have somebody pretending to be me on a facebook thread with my name and avatar
+<p>I reported it to facebook and it was gone in a shot
+<p></blockquote>
+<a class='h-card p-category' href='http://tantek.com/'>Tantek Çelik</a>:  <blockquote><p>twitter does not make removing cloned profiles as easy you have to give govt id
+<p>there is a question of paraody accounts -eg the new gap logo
+<p>are we trying to fight parody or preserve that?
+<p></blockquote>
+<a class='h-card p-category' href='http://kevinmarks.com'>Kevin Marks</a>:  <blockquote><p>ICANN has a procedure for impersonating domains in place
+<p></blockquote>
+<a class='h-card p-category' href='https://dunlaps.net/darius'>Darius Dunlap</a>:  <blockquote><p>slander and defamation have very long histories and legal defintions
+<p></blockquote>
+<a class='h-card p-category' href='http://werd.io/'>Ben Werdmüller</a>:  <blockquote><p>there are existing trust models that could be used as possibilities for vouch
+<p></blockquote>
+<a class='h-card p-category' href='https://dunlaps.net/darius'>Darius Dunlap</a>:  <blockquote><p>what if someone uses the wrong name in a webmention
+<p></blockquote>
+<a class='h-card p-category' href='http://tantek.com/'>Tantek Çelik</a>:  <blockquote><p>there is a service called <a class="auto-link" href="http://checkmention.appspot.com">checkmention.appspot.com</a> that sends spoofed webmentions so you cna decide how to handle them
+<p></blockquote>
+<a class='h-card p-category' href='http://syncmotion.co'>Shing Wong</a>:  <blockquote><p>I have <a class="auto-link" href="http://shingw.com">shingw.com</a> as well as <a class="auto-link" href="http://syncmotion.co">syncmotion.co</a>
+<p>how would you approach presentations - that could livestream or tweet out a slide?
+<p></blockquote>
+<a class='h-card p-category' href='http://4c4d.com/?twitter'>CAT PUNCHER</a>:  <blockquote><p>reveal.js is a good way of doing presentations that lets you add css+js on top and could tweet too
+<p></blockquote>
+<a class='h-card p-category' href='http://kevinmarks.com'>Kevin Marks</a>:  <blockquote><p>I use reveal.js for my slides - <a class="auto-link" href="http://slides.kevinmark.com">slides.kevinmark.com</a>
+<p></blockquote>
+<a class='h-card p-category' href='http://tantek.com/'>Tantek Çelik</a>:  <blockquote><p>I use shower.js pronounced as show-er
+<p></blockquote>
+<a class='h-card p-category' href='http://syncmotion.co'>Shing Wong</a>:  <blockquote><p>I want to share that particular slide as I speak - screengrab or URL?
+<p></blockquote>
+<a class='h-card p-category' href='http://kevinmarks.com'>Kevin Marks</a>:  <blockquote><p><a class="auto-link" href="http://slides.com">slides.com</a> lets you generate reveal.js files by hand
+<p></blockquote>
+<a class='h-card p-category' href='http://syncmotion.co'>Shing Wong</a>:  <blockquote><p>if I'm doing presentations it would be great to be abel to tweet out a particular slide
+<p></blockquote>
+<a class='h-card p-category' href='https://dunlaps.net/darius'>Darius Dunlap</a>:  <blockquote><p>if you have a short url for your own site for every slide you can do your own URL
+<p></blockquote>
+<a class='h-card p-category' href='http://kevinmarks.com'>Kevin Marks</a>:  <blockquote><p>the problem with twitter is getting them to approve you as a card provider -you could use flickr
+<p></blockquote>
+<a class='h-card p-category' href='http://tantek.com/'>Tantek Çelik</a>:  <blockquote><p>don't try and deal with the twitter cards markup - post an image to them. let them eat bitmaps
+<p></blockquote>
+<a class='h-card p-category' href='http://4c4d.com/?twitter'>CAT PUNCHER</a>:  <blockquote><p>I wonder how many twitter apps I have authorized. Oh wow, twitter for every platform
+<p></blockquote>
+<a class='h-card p-category' href='http://tantek.com/'>Tantek Çelik</a>:  <blockquote><p>Ben, you made <a class="auto-link" href="http://freemydata.co/">http://freemydata.co/</a> to get your data out- could you have free your tokens too?
+<p></blockquote>
+<a class='h-card p-category' href='http://werd.io/'>Ben Werdmüller</a>:  <blockquote><p><a class="auto-link h-x-username" href="https://twitter.com/erinjo">@erinjo</a> made <a class="auto-link" href="http://freemydata.co">freemydata.co</a> with links to how to get your data out, but they're all different
+<p>being able to unmung the data from <a class="auto-link" href="http://freemydata.co">freemydata.co</a> into microformats would be very useful
+<p></blockquote>
+<a class='h-card p-category' href='http://tantek.com/'>Tantek Çelik</a>:  <blockquote><p>if you go to <a class="auto-link" href="http://www.google.com/accounts/IssuedAuthSubTokens">www.google.com/accounts/IssuedAuthSubTokens</a> you can see what can see your google
+<p></blockquote>
+<a class='h-card p-category' href='http://kevinmarks.com'>Kevin Marks</a>:  <blockquote><p>I implemented the person tagging markup in the noterlive archives - They'll show up when I post these notes
+<p></blockquote>
+<a class='h-card p-category' href='http://werd.io/'>Ben Werdmüller</a>:  <blockquote><p>I rewrote my API code to use micropub, and also rewrote my POSSE code to post to multiple accounts
+<p>on my to do list is to try POSSE to webhooks so I can work with <a class="auto-link h-x-username" href="https://twitter.com/slackhq">@slackhq</a>
+<p>I also did a lot of work on the reader but there is nothing to show yet
+<p>I also worked on a thorough Wordpress importer which we are testing
+<p>we receive homepage webmentions but don't show them yet -would notify
+<p></blockquote>
+<a class='h-card p-category' href='http://kevinmarks.com'>Kevin Marks</a>:  <blockquote><p>I'm receiving webmentions at <a class="auto-link" href="http://kevinmarks.com">kevinmarks.com</a>, and embedding them with the same app as other pages
+<p></blockquote>
+<a class='h-card p-category' href='http://tantek.com/'>Tantek Çelik</a>:  <blockquote><p>you could tell the distinction between being mentioned and explictly tagged in a post
+<p></blockquote>
+<a class='h-card p-category' href='http://werd.io/'>Ben Werdmüller</a>:  <blockquote><p>webmentioning your homepages woudl also work well for an invitation to an event
+<p></blockquote>
+<a class='h-card p-category' href='https://dunlaps.net/darius'>Darius Dunlap</a>:  <blockquote><p>it feels like this is getting close to the point where we can build things that normal people can use
+<p></blockquote>
+<a class='h-card p-category' href='http://tantek.com/'>Tantek Çelik</a>:  <blockquote><p>if we can use them ourselves, then implementing them in bridges to silos is also easy
+<p>Aaron finally started POSSEing email like <a class="auto-link h-x-username" href="https://twitter.com/npdoty">@npdoty</a> does too
+<p>it is easy to POSSE to email because email is so insecure you can spoof as yourself
+<p></blockquote>
+<a class='h-card p-category' href='https://dunlaps.net/darius'>Darius Dunlap</a>:  <blockquote><p>I have upgraded my site to A- on SSL, and I moved house
+<p>I now have a very fast connection to the local ISP in my new house - now 150Mbit WiFi link
+<p>If I can use my house as an event space for an indiewebcamp I could lift the ISP cap for a few days
+<p></blockquote>
+</div>
+</article>
+<script id="webmention-hosted">
+  (function () {
+    var sn = document.createElement("script"), s = document.getElementsByTagName("script")[0], url;
+    url = document.querySelectorAll ? document.querySelectorAll("link[rel~=canonical]") : false;
+    url = url && url[0] ? url[0].href : false;
+    sn.type = "text/javascript"; sn.async = true;
+    sn.src = "//webmention.herokuapp.com/api/embed?url=" + encodeURIComponent(url || window.location);
+    s.parentNode.insertBefore(sn, s);
+  }());
+</script>
+
+</body>
