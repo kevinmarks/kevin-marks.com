@@ -1,0 +1,115 @@
+#FutureofMoney  @joyce: 47% of the million people who signed up for Stellar had not used digital currency before so we created 500K users
+#FutureofMoney  @joyce: developing world countries like the Philippines, Indonesia and Vietnam were huge sign-ups for Stellar
+#FutureofMoney  @joyce: we had a huge take-off in Vietnam before we had translated our site because 1 local tech celeb translated it for us
+#FutureofMoney  @joyce: we have the thesis that money is culture - it is different in the US, Asia and europe. we took off worldwide
+#FutureofMoney  @joyce: in Indonesia <15% of the population have credit cards: we found arbitrage of pre-paid top-ups online through Stellar
+#FutureofMoney  @joyce: We're seeing a lot of people building to stellar in the developing world as we have more users in their country
+#FutureofMoney  @thegdb: 90% of the work of building something is little grungy details that you don't want to hear about
+#FutureofMoney  @thegdb: the world is a chaotic system and it is not clear how it will respond to things - say what you're doing and execute
+#FutureofMoney  @thegdb: bitcoin has been this iterated process over many years to get people used to it. Stellar addresses its shortcomings
+#FutureofMoney  @venturedan: every panel about cryptocurrencies we ask about mainstream adoption - where are we?
+#FutureofMoney  @thegdb: we're still a couple of hops off mainstream adoption - there's always hobbyists first
+#FutureofMoney  @thegdb: we have yet to show that cryptocurrency makes people's lives better - which feature matters?
+#FutureofMoney  @thegdb: there is also the problem of trust - cryptography doesn't solve the trust problems
+#FutureofMoney  @joyce: we're really far off - the biggest problems are access and user experience—my friends think it's a crazy tech thing
+#FutureofMoney  @joyce: when it become the backend and they don't have to think about ti to transact with it, then we'll have made it work
+#FutureofMoney  @venturedan: excluding Stellar and Stripe, which company has the most potential to affect the future of money
+#FutureofMoney  Jed McCaleb: some cryptocurrency we haven't heard of yet will likely have the impace
+#FutureofMoney  @thegdb: The US government or other world governments could make cryptocurrency stop dead or take off
+#FutureofMoney  @joyce: telco's - we see them acting as the other bank - they're in a different regulatory world than banks
+#FutureofMoney  @joyce: In tanzania the govt mandated interoperability between different mobile payment companies - that is key
+#FutureofMoney  Jed McCaleb: you can monitor a a bitcoin address for receiving, but stellar is easier
+#FutureofMoney  @joyce: stellar as a currency should not be as significant as bitcoin because people transact in their own currency mostly
+#FutureofMoney  @joyce: our board is 3: @collision, Jed McCaleb and @rabois - we're expanding to 5
+#FutureofMoney  @joyce: Stripe's role is the same as every other important advisor - no specific veto
+#FutureofMoney  @thegdb: we gave $3m for 2% of the stellars - we'll auction off half our stake to other companies to spread this out
+#FutureofMoney  @thegdb: the $10 in stellar per user for 1 million users - the value comes from the people on the exchanges trading
+#FutureofMoney  @thegdb: a lot of people with bitcoin are trading them into stellar so we see value defined by that
+#FutureofMoney  Jed McCaleb: we're not being a payment provider but a common language for payment providers to use
+#FutureofMoney  @joyce: there is always a sender and a receiver in any given market so we will work through those in each country
+#FutureofMoney  @joyce: I'm fascinated with healthcare - most people on < $2/day are temporarily there because of illness
+#FutureofMoney  @thegdb: if a govt got behind a cryptocurrency - the question would be how they interoperated, which is odd today already
+#FutureofMoney  @thegdb: in order to get this more valuable than what we have today, we need cross-border operation. Stellar is the layer
+#FutureofMoney  @thegdb: countries could make a cryptocurrency successful in their region by law, but interoperation is still key
+#FutureofMoney  @joyce: if they make their own currency it could run on stellar as it is currency agnostic. A protocol could translate
+#FutureofMoney  @johnshinal: what investments are most exciting right now in money?
+#FutureofMoney  @KiteVC: I'm excited about a mining company called BitFury: they started as an open source community and migrated to silicon
+#FutureofMoney  @KiteVC: BitFury have proprietary silicon designed perfectly for bitcoin and experience in efficient data centres
+#FutureofMoney  @nshalek: we invest in lending and personal finance, accounting and insurance built. I see Coinbase as an example in Bitcoin
+#FutureofMoney  @dan_pantera: Bitcoin isn't a category killer it's a serial killer- it ca do so many things - we invested in ChangeTip
+#FutureofMoney  @dan_pantera: Bitcoin is fantastic for very small transactions and @changetip is a way to do this easily
+#FutureofMoney  @nshalek: the last 20 years of innovation in financial servcies have been slow compared to eg media - bitcoin triggers more
+#FutureofMoney  @nshalek: there has been more innovation on top of bitcoin in the last 2 years than there has in banking in 20 years
+#FutureofMoney  @dan_pantera: blockstream and sidechains are important innovations - altcoins a way to test compared to bitcoin conservatism
+#FutureofMoney  @dan_pantera: bitcoin is likely to win out over altcoins because of the network effect
+#FutureofMoney  @KiteVC: I follow communities rather than technologies, and the Bitcoin community has developed further than the others
+#FutureofMoney  @KiteVC: BitFury has evolved to one of the worlds largest transaction processing engines, not just in bitcoins
+#FutureofMoney  @KiteVC: the features of the blockchain that allow services to be built on top of the protocol still need the infrastructure
+#FutureofMoney  @KiteVC: Bitfury building operations at scale that run on hydro electricity gives an advantage, and bitcoin mining is mature
+#FutureofMoney  @KiteVC: a lot fo otehr mining companies are making money by taking cash and selling machines, not mining directly
+#FutureofMoney  @johnshinal: you mentioned community - this only works if a lot more people start using cryptocurrencies what about Stellar?
+#FutureofMoney  @nshalek: it doesn't need to be stellar versus bitcoin: there are several trillion to be solved in financial services
+#FutureofMoney  @nshalek: the competition is not to create the most efficeint technology, but the one with the most users
+#FutureofMoney  @dan_pantera: we have a foot in both camps - we invested in Ripple and partnered with Caleb of Stellar
+#FutureofMoney  @dan_pantera: they are providing a payments layer that is independent of payment processor
+#FutureofMoney  @nshalek: it's easy to mock mining, but it has worked very well so far: there are unknown unknowns, but this has been robust
+#FutureofMoney  @nshalek: efficiency can be solved at a higher level in the stack than mining
+#FutureofMoney  @dan_pantera: Paul Krugman's thesis that bitcoin consumed $60bn of electricity is bogus as eg the fed spend $4bn on money
+#FutureofMoney  @johnshinal: you said Bitcoin is worth roughly $5B - is it too late to invest in bitcoin?
+#FutureofMoney  @nshalek: it is still very early in bitcoin - we are at the top of the 1st inning 10M people use it now
+#FutureofMoney  @nshalek: bitcoin has a value because it is scarce and useful - the upside is very high - it's a good asymmetric bet
+#FutureofMoney  @KiteVC: Nick is 99.9% right - I'd be wary fo investing in new infrastructure companies because it is a scale game
+#FutureofMoney  @dan_pantera: Bill is talking about companies, like bitfury, but you also have the ability to own bitcoin itself
+#FutureofMoney  @dan_pantera: you couldn't buy a chunk of TCP/IP in the 1990s, but you can buy shares in bitcoin the protocol directly
+#FutureofMoney  @nshalek: we invested in BTCjam - a global lending club denominated in bitcoin
+#FutureofMoney  @johnshinal: what about things like smart contracts or markets that should exist
+#FutureofMoney  @KiteVC: what has been successful in tech has been reducing the friction of things that matter. Financial system is ripe
+#FutureofMoney  @KiteVC: with bitcoin trust is built into the tech, so financial services overhead goes away and can remake the industry
+#FutureofMoney  @KiteVC: getting rid of the overhead of trust can reduce the cost of financing and lower the friction
+#FutureofMoney  @KiteVC: in the Philippines legislature is the e-peso initiative - I think that could be important
+#FutureofMoney  @johnshinal: lets talk about some of the limiting factors: consolidation of mining or efficiency costs? what puts you off?
+#FutureofMoney  @nshalek: the speed at which developers and entrepreneurs move is much faster than regulators and banks do - need a standard
+#FutureofMoney  @nshalek: we need a way for bitcoin businesses to find a path to regulation
+#FutureofMoney  @nshalek: what worries me is the incumbents moving too slowly and missing the long term upside
+#FutureofMoney  @nshalek: if you were the NYT in 1994 you wouldn't shut off the presses then, but you would have invested in the net
+#FutureofMoney  @dan_pantera: banking regulation around bitcoin is key so entrepreneurs can open accounts and pump money through the system
+#FutureofMoney  @johnshinal: you didn't mention security - given Mt Gox, knowing bitcoin can be stolen, or quantum computing?
+#FutureofMoney  @nshalek: there are some existential questions you can ask about bitcoin security - we don't really know but 6 years
+#FutureofMoney  @nshalek: I don't spend a lot of time thinking about quantum computers becasue they would affect many other things too
+#FutureofMoney  @nshalek: I keep all of my bitcoin in companies like coinbase and feel fairly secure. I don't worry about their ability
+#FutureofMoney  @dan_pantera: the current alternatives have serious security problems too - you can't buy burritos with $100 bills
+#FutureofMoney  @dan_pantera: credit cards were the last major advance and that's just plastic with 8-track tape on the back
+#FutureofMoney  @nshalek: our current payment systems are incredibly insecure, and the breaches we have seen over the last few years show it
+#FutureofMoney  @dan_pantera: brute force attacks on our current simple authentication protocols are very easy to do
+#FutureofMoney  @dan_pantera: centralising the authentication is not a good idea as it creates a target
+#FutureofMoney  @KiteVC: fiat and bitcoin are going to coexist as long as I'm alive, though govts may start crypto currencies
+#FutureofMoney  @dan_pantera: fiat currency to manage money supply has been adopted by most countries, but bitcoin is like gold or credit
+#FutureofMoney  @nshalek: email didn't set out to disrupt the post office - but it did as well as expanding use
+#FutureofMoney  @KiteVC: banks still require faxes for money transfers, so technology can coexist for a while
+#FutureofMoney  @dan_pantera: I can see lower tier fiat currencies vanishing - Kenya already has most of its economy in M-PESA
+#FutureofMoney  @johnshinal: what do you need to do to educate about the difference in investing in crypto currency?
+#FutureofMoney  @KiteVC: you feel like you want to explain it to them, but the most important point is asymmetric risk
+#FutureofMoney  @KiteVC: in normal investing you have to spread out the money to cover your losses; bitcoin does that
+#FutureofMoney  @nshalek: in the last 10 years there was a "triumph" of financial engineering and we're all still paying for it
+#FutureofMoney  @dan_pantera: I spent the first half of my career investing in bonds, currency and investments, not bitcoin is all we do
+#FutureofMoney  @dan_pantera: bitcoin doesn't fit in anyone's organisational chart 
+#FutureofMoney  @nshalek: if some people did't think it was too early Bitcoin wouldn't be an investment opprtunity
+#FutureofMoney  @dan_pantera: I think tipping is going to be the next phase of this and is a seamless way to use bitcoin 
+#FutureofMoney  @nshalek: the use cases have been very mixed and varied - Amazon used to be for obscure books, ebay for pez dispensers
+#FutureofMoney  @nshalek: microtransactions, machine to machine, small international payments, but don't dismiss a store of value
+#FutureofMoney  @nshalek: more will be mined but there is a limit to how many will exist
+#FutureofMoney  @KiteVC: the youth market matters -my 15 year old doesn't see it as different form other payemnts
+#FutureofMoney  @nshalek: in 1994 we might have talked about email the way we talk about microtransactions now, but Google and FB came too
+#FutureofMoney  @dan_pantera: bitcoin is at a pre Mosaic browser inflection point - VC in bitcoin tripled in 2014, 
+#FutureofMoney  @dan_pantera: you have the choice with bitcoin to invest in the protocol or the companies—more leverage in co's less diverse
+#FutureofMoney  @nshalek: lending is the worlds largest market - we expect digital currency to take this over
+#FutureofMoney  @nshalek: generation Y is not going to invest in the same way their parents have
+#FutureofMoney  @IdentityWoman: you said authentication needs to be improved - the govt wants 2-factor auth too. What apart form bitcoin?
+#FutureofMoney  @nshalek: for us bitcoin is part of what we are doing, but the changing of the guard in financial services is key
+#FutureofMoney  @nshalek: we haven't invested in identity or authentication but solving compliance or know your customer is interesting
+#FutureofMoney  @nshalek: coinbase relies on a number of interesting startups that manage compliance for them as a service
+#FutureofMoney  @nshalek: Blockscore (stripe for compliance) coudl be interesting
+#FutureofMoney  @KiteVC: i have a lot of other investments but not in money related - big data in financial services is going to may
+#FutureofMoney  @kevinmarks: at what point do you start accounting in bitcoin yourselves rather than dollars?
+#FutureofMoney  @dan_pantera: not for a very long time-  people think in their own currency and translate
+#FutureofMoney  @KiteVC: my 15 year old can tell me how much he has in bitcoin to 2 decimal places, but has no idea how many dollars he has
