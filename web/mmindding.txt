@@ -1,0 +1,19 @@
+
+#mmindding  @dawnaballard: we don't like to think of technology as deterministic, as we only use things that we find value in
+#mmindding  @dawnaballard: the limitations of multitasking come from taking the tasking model and trying to split it up
+#mmindding  @dawnaballard: interaction quadrants defined by synchronous/asynchronous and colocated/remote
+#mmindding  @dawnaballard: Thompson described tasking as the more sophisticated, clock driven culture as opposed to the agrarian relational 
+#mmindding  Gilly Leshed: we have different spaces within our lives - work/home Apps tend to be in a single mindedness mindset
+#mmindding  Gilly Leshed: if you're on the phone while at home with the family, your mind is still at work
+#mmindding  Gilly Leshed: what happens when home and work merge? I interviewed a lot of small farmers about how it works together
+#mmindding  Gilly Leshed: We need to bring natural rhythms into the design space - seasonal cycles and longer
+#mmindding  Gilly Leshed: think about dividing spaces in a way that is not just home/work/school but different connected communities
+#mmindding  @fmc: I was initially working on mmindding tools in the perosnal space, but it applies to @firstrain ideas too
+#mmindding  @fmc: what @firstrain does is construct a business web graph - if you can read everything around the company you can model them
+#mmindding  @fmc: relationships are not linear - they are within a context and depend on perspective
+#mmindding  @fmc: what helps us keep on top of this is clustering concepts around a market - they may not be named, but the clusters exist
+#mmindding  @fmc: we teach our systems to be skeptical too and look for possible artefacts in the data
+#mmindding  @fmc: The Challenger Methodology: keep providing your customer with interesting insights into their industry over time
+#mmindding  @fmc: we help salespeople choose whom to call today and what to talk about by framing the news for them
+#mmindding  @fmc: we analyse our users too to see what kind of information density that they need - we adjust what we show accordingly
+#mmindding  @fmc: we look at your calender and generate a meeting brief just before you walk in
