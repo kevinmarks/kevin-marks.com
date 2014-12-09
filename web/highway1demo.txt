@@ -1,0 +1,122 @@
+
+#iDemoDay @liamcasey: if you ask big companies, they will tell you that making hardware is hard
+#iDemoDay @liamcasey: we believe in small companies, and that if you can imagine it , it can bemade
+#iDemoDay @liamcasey: these companies challenge us to find new ways to bring products to market in the fastest time
+#iDemoDay @brady: it was about 2 years ago, almost ot this week that Liam asked me out to breakfast, to help hardware companiee
+#iDemoDay @brady: we're on our 3rd class, we've had 35 companies and 10 female founders - and Ringly started shipping bluetooth rings today
+#iDemoDay @brady: Drop went from demo day to the Apple store in 10 months - we want to get that down to 6 months
+#iDemoDay @fingertipslab: we're in stealth mode, so don't share this online [oh well]
+#iDemoDay @delzerado: Moxxly is a consumer technology company designing for women - we're reimagining the breast pump experience
+#iDemoDay @delzerado: A breast pump is supposed to free a mom up, and instead it ties her down.
+#iDemoDay @delzerado: Moxxly has interviewed over 100  women and they said "pumping makes me feel like a cow"
+#iDemoDay @delzerado: our first product is a discreet pump that sits inside the bra with a collecting device under the blouse
+#iDemoDay @delzerado: the pump sends information via bluetooth to the mother's phone on flow rate and time
+#iDemoDay @delzerado: current pumps are built and sold as medical devices - Moxxly is a lifestyle device for the breastfeeding stage of life
+#iDemoDay @delzerado: we're in a design and engineering sprint, and we are raising a seed round right now - moxxly.com
+#iDemoDay @brady: I've been to those milk and cookies sessions - those moms want this pump
+#iDemoDay @brady: our next team is going after computer vision
+#iDemoDay @Mashgin: Can a computer understand what is on your lunch plate? No -because image recognition is hard. What if it could?
+#iDemoDay @Mashgin: computers cannot find everything in a scene, and may not be accurate
+#iDemoDay @Mashgin: current tech is a mixture of 2d camera tech and AI Now we can add 3D reconstruction
+#iDemoDay @Mashgin: by doing 3d reconstruction we can measure multiple simultaneous objects in any orientation
+#iDemoDay @Mashgin: we are going to apply this to the checkout line for cafeterias and small retail venues
+#iDemoDay @Mashgin: as well as recognising the objects we can capture weight and volume and calcualte calories
+#iDemoDay @Mashgin: we have a recognition accuracy of 98%
+#iDemoDay @Mashgin: Compass with 50,000 locations are interested in working with us
+#iDemoDay @Mashgin: there are billions spent annually on checkouts, for a process that customers hate. mashgin.com
+#iDemoDay @brady: this next team is trying to make the aquariam automated, and measure success in fish lives saved
+#iDemoDay @Naterock101: Aquariums are absolutely incredible - it's putting the best bits of the ocean in your living room
+#iDemoDay @Naterock101: it's common to get a fish and for it to die within the week
+#iDemoDay @Naterock101: fishbit monitors your tank and water quality in real time
+#iDemoDay @Naterock101: tank monitoring tools have been made by and for aquarium junkies, not normal people
+#iDemoDay @Naterock101: we're designing for the other 87% of the aquarium market, not the experts
+#iDemoDay @Naterock101: we have a suite of sensors that go in your tank in 15 minute sand connects to wifi to tell you what you need
+#iDemoDay @Naterock101: by sensing the tank we can correct some things immediately, or send you the info or product you need directly
+#iDemoDay @Naterock101: taking complicated water sensor data and simplifying it also applies to pools and hot-tubs
+#iDemoDay @brady: we look forward to having some of you help fishbit scale  [groans]
+#iDemoDay @myswitchmate: home automation has <2% adoption. Why? we asked people at home depot etc
+#iDemoDay @myswitchmate: the installation of these solutions is messy and complicated and people are put off
+#iDemoDay @myswitchmate: switchmate snaps on over the switch, meaning install is instant, and you can then control from your phone.
+#iDemoDay @myswitchmate: our other competitor is smart lightbulbs, but you probably have fewer switches than bulbs so we're cheaper
+#iDemoDay @myswitchmate: we have sent trial units out to paying users across the USA, to get out of the silicon valley bubble
+#iDemoDay @myswitchmate: one user originally wanted to control his porch lights, but found it was more useful for bedroom lights moved it
+#iDemoDay @myswitchmate: what if you could snap something over the vents in your house, and control them remotely
+#iDemoDay @brady: I'd like to welcome Doug CEO of @navdyinc - a recent alum
+#iDemoDay @navdyInc: since demoday we've grown the team to 17 and raised a seed round, and we now have $4.7M in preorders
+#iDemoDay @navdyInc: keep in touch with the Highway 1 alumni - it's a great group for advice
+#iDemoDay @pbljung: @lookseelabs makes jewellery wearables that display art images and notifciations
+#iDemoDay @pbljung: we've been standardised into using these little aalck boxes - phones. but we're not standard
+#iDemoDay @pbljung: we have flexible always on display jewellery (a bangle with a screen on)
+#iDemoDay @pbljung: you can match all your outfits and moods with a different image
+#iDemoDay @pbljung: bracelet has a black+white screen that you can update - with 1 year of battery life on a 10 minute charge (e-Ink?)
+#iDemoDay @pbljung: our target market is women who buy fine jewelery - they love our solid silver bracelets
+#iDemoDay @pbljung: our target market is women who buy fine jewelery - they love our solid silver bracelets
+#iDemoDay @pbljung: our target market is women who buy fine jewelery - they love our solid silver bracelets
+#iDemoDay @pbljung: our target market is women who buy fine jewelery - they love our solid silver bracelets
+#iDemoDay @pbljung: our target market is women who buy fine jewelery - they love our solid silver bracelets
+#iDemoDay @pbljung: our target market is women who buy fine jewelery - they love our solid silver bracelets
+#iDemoDay @pbljung: our target market is women who buy fine jewelery - they love our solid silver bracelets
+#iDemoDay @pbljung: our target market is women who buy fine jewelery - they love our solid silver bracelets
+#iDemoDay @pbljung: our target market is women who buy fine jewelery - they love our solid silver bracelets
+#iDemoDay @pbljung: our target market is women who buy fine jewelery - they love our solid silver bracelets
+#iDemoDay @pbljung: our target market is women who buy fine jewelery - they love our solid silver bracelets
+#iDemoDay @pbljung: our target market is women who buy fine jewelery - they love our solid silver bracelets
+#iDemoDay @pbljung: our target market is women who buy fine jewelery - they love our solid silver bracelets
+#iDemoDay @pbljung: our target market is women who buy fine jewelery - they love our solid silver bracelets
+#iDemoDay @pbljung: our target market is women who buy fine jewelery - they love our solid silver bracelets
+#iDemoDay @pbljung: our target market is women who buy fine jewelery - they love our solid silver bracelets
+#iDemoDay @Chris_Chuter: Peeple is a device that sits on the inside of your door and looks through the peephole adn sends it to your phone
+#DemoDay @Chris_Chuter: you will never miss a delivery again as we detect knocks on the door
+#DemoDay @Chris_Chuter: we can screen who is on the door
+#DemoDay @Chris_Chuter: we have simple install and a passive sensor - much lees intrusive than a dropcam
+#DemoDay @Chris_Chuter: according to building code 94-153 - peepholes are required - it's the law, even in Texas
+#DemoDay @Chris_Chuter: Peeple can unwarp the fisheye lens to give you a clear view of who is at the door
+#DemoDay @Chris_Chuter: your door is no longer a blind spot
+#DemoDay @brady: Cool Chip has reinvented the heat sink
+#DemoDay @CoolChipTech: everything in computing has increased at exponential rates over the last decades, except the fan cooler
+#DemoDay @CoolChipTech: fans are loud,  inefficient and a bottleneck on CPU speed 
+#DemoDay @CoolChipTech: the technology is rooted in Darpa tech from Sandia labs, now on our team
+#DemoDay @CoolChipTech: we made cooling smaller, cooler and 100x quieter
+#DemoDay @CoolChipTech: throughout this talk our kinetic cooling engine has been running. but you can't hear it 
+#DemoDay @CoolChipTech: if I turn on the competitive fan that extracts the same amount of heat [sudden loud fan noise]
+#DemoDay @CoolChipTech: we're showcasing out first product samples at CES and are interested in gamers to help quiet the xbox
+#DemoDay @brady: I think @coolchiptech should be called WhisperChip, but I'm not a branding expert
+#DemoDay @brady: our next team @golagoon is going after water - it's hard to track personal usage
+#DemoDay @EricElias: water is a precious resource in the country, and it's getting more scarce because of the drought
+#DemoDay @EricElias: another story we hear is about leaks destroying posessions and houses - millions a year
+#DemoDay @EricElias: @golagoon answers the questions about what the water uses
+#DemoDay @EricElias: water meters are dumb. we wrap a sensor around the meter and give it to your mobile app in real time
+#DemoDay @EricElias: following our customised water plan can save hundreds
+#DemoDay @EricElias: there are >70m single detached homes in the US with >1m already in connected homes
+#DemoDay @EricElias: there are 41M rentals in the US with 2m impacted with drought
+#DemoDay @EricElias: we're also working with water authorities to track their customers usage for them
+#DemoDay @philippi: @cargolabs is a connected car platform to make it easy to bring apps to market for older cars
+#DemoDay @philippi: only 3% of cars are connected now, but people want to connect the car they have not buy a new one 
+#DemoDay @philippi: there is a ODBII port standard, but only 1 per car so you have to choose, we give a platform instead
+#DemoDay @philippi: I can see where my confounder is driving my car, and trip history as well as service status
+#DemoDay @philippi: cargo connects to your car but also to your dashcam and other sensors, like a baby seat
+#DemoDay @philippi: we work with car-sharing apps, but also with Dash - garages will give them for free for maintenance opportunities
+#DemoDay @brady: our goal is to get companies to a fundable prototype - one that can be manufactured
+#DemoDay @SaraJChipps: @jewliebots is going to get girls coding - teenage girls love tech but they aren't building it
+#DemoDay @SaraJChipps: STEm jobs are growing at 77% but girls are missing out
+#DemoDay @SaraJChipps: I'm from the generation of people who became software developers because they didn't have any friends
+#DemoDay @SaraJChipps: I was a 12 year old homeschooled child who dascovered coding through BBS
+#DemoDay @SaraJChipps: we've talked to over 50 girls in the bay area -they want beauty, simplicity and friendship
+#DemoDay @SaraJChipps: @jewliebots are programmable jewellery - a mesh network of jewellery that sues lights and vibrations
+#DemoDay @SaraJChipps: we have worked with a high school class in berkeley and they have done our product design
+#DemoDay @SaraJChipps: using basic logic, we can say "if I'm with julie behave this way" "if I'm at home with mum behave this way"
+#DemoDay @SaraJChipps: we think this is an amazing mission, but also a big market - teenage girls spend $450/month
+#DemoDay @SaraJChipps: jewliebots being together fashion community and customisation
+#DemoDay @SaraJChipps: we want to have jewliebots ready for holiday season next year
+#DemoDay @SaraJChipps: in 2010 I started Girl Develop It - we've taught over 6000 women to code alreadt
+#DemoDay @brady: a couple of weeks ago we announced that we are teaming up with 500 startups and ZPG to make a show on startups
+#DemoDay @WeAreROLI: I'm roland lamb of ROLI - we have made a new musical instrument called the seaboard 
+#DemoDay @WeAreROLI: it remimagines the piano keyboard as a series of waves you can play, but slide between the notes
+#DemoDay @WeAreROLI: using this elastic material you can play like a piano but also bend the note
+#DemoDay @WeAreROLI: it's not just about simulating instruments, but synthesising new instruments
+#DemoDay @WeAreROLI: film composers are loving this caapcity to create an expressive orchestral sound
+#DemoDay @WeAreROLI: we're based in London - we make Seaboards in railway arches in Dalston
+#DemoDay @WeAreROLI: Seaboards are from $2000 to $9000, so not cheaper but very popular with film composers and many recording artists
+#DemoDay @WeAreROLI: we're building an interface technology toolchain - keyboards are a 400 year old tehcnology
+#DemoDay @WeAreROLI: we have acquired Juce - a C++ framework in use by many music companies to integrate with our sensors
+#DemoDay @brady: Our next class is Feb to May - we're accepting applications for awesome hardware startups for it
