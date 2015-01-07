@@ -2,7 +2,7 @@
 body {font-family: "Hoefler Text", Georgia, serif; background-color: white;}
 .h-card, .webmention-author { font-family: "Gill Sans", Roboto,Verdana, sans-serif; }
 .h-entry, .webmention-summary {max-width: 40em; }
-h1,h2,h3 { font-family: "Gill Sans", Roboto,Verdana, sans-serif; }
+h1,h2,h3,.webmention-name { font-family: "Gill Sans", Roboto,Verdana, sans-serif; }
 .webmention-author img {height: 3em; float:left; margin:.25em;}
 .webmention-mention { margin:.5em; background-color: linen;}
 .webmention-facepile > li {
