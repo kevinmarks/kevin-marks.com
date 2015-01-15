@@ -1,0 +1,28 @@
+
+#indieweb @t: welcom everyone  to the 1st homebrew meetup of 2015
+#indieweb @t: we've been doing it backwards this week with trying to set up sites first; now we can do the whole group thing
+#indieweb @t: I'm Tantek Çelik - my site is tantek.com and I recently got working was posting likes to my own site, not twitter
+#indieweb @t: I post likes to my own site and I use a service called brid.gy to send likes to the twitter and facebook likes 
+#indieweb @dariusdunlap: how do you find something to like?
+#indieweb @t: I like stuff by URL - so the tweet URL or facebook URL can be liked too
+#indieweb @t: if you look at tantek.com, instead of every like as a separate post they show up as  list of likes in one post
+#indieweb @LonnieRae: I have lonnierae.com - I have been trying to work out some dev stuff; wordpress, squarespace, and ionic
+#indieweb @LonnieRae: now I'm trying to work out ftp adn move things around
+#indieweb @explain_analyze: I'm James and my site is explainanalyse.net
+#indieweb @benwerd: It'e been ages since I've been to Homebrew in November - I've been in london and paris
+#indieweb @benwerd: I build withknown.com - indieweb startup. Now enabled multiple accounts on twitter, facebook and linkedin
+#indieweb @benwerd: we don't have @googleplus support because they don't approve us
+#indieweb @benwerd: we have an export button on every page that exports HTML, JSON and a full database dump to migrate easily
+#indieweb @benwerd: It includes comments, it includes he works - every item and every interaction on the items
+#indieweb @benwerd: I also set up animated gif backgrounds and I have big animated gif of tom baker as the background of my test site
+#indieweb @finnern: I work for SAP and work on the developer network there. I work with SAP mentors - top community influencers
+#indieweb @finnern: I also run the Future Salon, which used to meet monthly - most recently with David Brin of davidbrin.com
+#indieweb @finnern: My website is http://finnern.com/ also futuresalon.org
+#indieweb @TinaGillmor: I produce tech shows Gillmor Gang and G3 - I used to code HTML pages and want to get back to having a web presence
+#indieweb @dariusdunlap: my site is https://dunlaps.net/darius and squarepegfoundation.org where we work with kids and horses
+#indieweb @dariusdunlap: My personal site is up for hosting renewal, and I can't do HTTPS on my current host, so help needed there
+#indieweb @NurtureGirl: I'm Jean Russell - I live in Illinois and here part time- I work with @IdentityWoman and also write books
+#indieweb @NurtureGirl: I wrote @thrivability over the past few years; and also now publishing Designing Social Flows
+#indieweb @NurtureGirl: I have thrivability.net and also jeanmrussell.com and am trying to set up indieweb and brid,gy support 
+#indieweb @NurtureGirl: I used to run a web design company back in 2002 and know web but not code code
+#indieweb @NurtureGirl: CORRECTION I have http://thrivable.net  htttp://thrivable.org as well as jeanmrussell.com
