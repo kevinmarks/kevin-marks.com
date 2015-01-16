@@ -49,3 +49,4 @@ h1,h2,h3,.webmention-name { font-family: "Gill Sans", Roboto,Verdana, sans-serif
   top: 0;
   width: 100%;
 }
+.webmention-facepile :link,.webmention-facepile :visited { text-decoration:none; }
