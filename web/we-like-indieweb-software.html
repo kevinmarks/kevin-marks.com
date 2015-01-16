@@ -11,7 +11,7 @@
 <h1 class="p-name">We Like IndieWeb Software <time class="dt-published">2015-01-14</time></h1>
 <h2>a response to Anil Dash's <a href="http://dashes.com/anil/2013/04/i-like-blogging-software.htmls">I Like Blogging Software</a></h2>
 <div class="e-content">
-Yesterday on Twitter Anil Dash and I had a bit of a back and forth:
+Recently on Twitter Anil Dash and I had a bit of a back and forth:
 <blockquote class="twitter-tweet h-cite" lang="en" data-conversation="none"><p class="e-content">Hi, it&#39;s been two years, will somebody go build this set of tools and go make millions of dollars please? <a href="http://t.co/jLX0Dp5DxI">http://t.co/jLX0Dp5DxI</a></p>&mdash; Anil Dash Dot Com (@anildash) <a class="u-url" href="https://twitter.com/anildash/status/555408559450906624">January 14, 2015</a></blockquote>
 <blockquote class="twitter-tweet h-cite" lang="en" data-conversation="none"><p class="e-content"><a href="https://twitter.com/anildash">@anildash</a> all that&#39;s been shipped as <a href="https://twitter.com/hashtag/indieweb?src=hash">#indieweb</a> tools, except we use html instead of json because web. Try it.</p>&mdash; Kevin Marks (@kevinmarks) <a class="u-url" href="https://twitter.com/kevinmarks/status/555418088456605696">January 14, 2015</a></blockquote>
 (<i>told</i> for <i>tools</i> there is an autocorrect failure)
@@ -33,7 +33,7 @@ This is a fair point, and so here is a post going into more detail.
 <li>The system renders those plain files into <span class="caps">JSON </span>assets in a documented format.</li>
 </ul></blockquote>
 There are lots of indieweb tools that work in this kind of way; but Anil is very focused on the specifics of formats. <a href="http://indiewebcamp.com/Markdown">Markdown</a> is one popular way of writing text for posts; indeed many indieweb tools support it. <a href="http://indiewebcamp.com/JSON">JSON</a> is handy as an interchange format between programming languages, but as Anil says, having a documented common format is useful. What we realised working on indieweb is thet we already have a lingua franca for webpages and blogs, and that is HTML. Ultimately all sites publish in this format, so using that and adjusting it minimally to make interop easier is the approach we took. 
-<p>Our documented format is <a href="http://microformats.org/wiki/microformats-2">Microformats 2</a>, which for blog posts involves h-entry and h-feed as common structure, with additional microformats to label other reusable features. Generating HTML from Markdown is relatively straightforward, if <a href="http://johnmacfarlane.net/babelmark2/">not always deterministic</a>, as that was its design goal. Generating JSON from HTML formatted with <a href="http://indiewebcamp.com/microformats2">microformats 2</a> is also <a href="http://pin13.net/mf2/?url=http%3A%2F%2Fwww.kevinmarks.com%2Ftoolsandproducts.html">straightforward</a> and <a href="http://microformats.org/wiki/validators">more deterministic</a>.
+<p>Our documented format is <a href="http://microformats.org/wiki/microformats-2">Microformats 2</a>, which for blog posts involves h-entry and h-feed as common structure, with additional microformats to label other reusable features. Generating HTML from Markdown is relatively straightforward, if <a href="http://johnmacfarlane.net/babelmark2/">not always deterministic</a>, as that was its design goal. Generating JSON from HTML formatted with <a href="http://indiewebcamp.com/microformats2">microformats 2</a> is also <a href="http://pin13.net/mf2/?url=http%3A%2F%2Fwww.kevinmarks.com%2Fwe-like-indieweb-software.html">straightforward</a> and <a href="http://microformats.org/wiki/validators">more deterministic</a>.
 <p>Storing source files in various cloud services is practical and indeed done by many indieweb tools, but requiring a specific cloud service's file system is less flexible and general than using HTML on the web itself, so that's what we do.
 <blockquote class="h-cite">
 <ul><li>A Bootstrap-themed reading client app lives at my site, on my domain, and reads a single simple config file to learn how to display and navigate between those <span class="caps">JSON </span>assets. This client app would also have to handle <span class="caps">URL </span>routing and persisting states, while ideally also keeping preferences and reading history for readers.</li>
@@ -57,7 +57,7 @@ There are lots of indieweb tools that work in this kind of way; but Anil is very
 <blockquote class="h-cite">
 <p><ul>
 <li>"Themes" would largely be implemented as Bootstrap <span class="caps">CSS </span>stylesheets, with some affordance for separate content modules. By default, themes are public so I would just be able to tell an admin app to import a theme from your site so I could remix it.</li></ul></blockquote>
-<p>By using HTML as the source interchange format, styling can be done by CSS directly; also it is relatively easy to process and parse HTML and inject it into a site - see the <a href="#webmentions">webmentions</a> below that are added by a service.
+<p>By using HTML as the source interchange format, styling can be done by CSS directly; also it is relatively easy to process and parse HTML and inject it into a site - see the <a href="#webmentions">webmentions</a> below that are <a href="https://webmention.herokuapp.com/">added by an indieweb service</a>.
 <blockquote class="h-cite">
 <p><ul>
 <li>The <span class="caps">API </span>endpoint for discovering the json representations of content would double as the <span class="caps">API </span>for others to access my data to build around it; Eventually a posting app which saved <span class="caps">POST</span>s of that json format as fiels in dropbox would allow a write <span class="caps">API.</</li></ul></blockquote>
@@ -68,9 +68,10 @@ There are lots of indieweb tools that work in this kind of way; but Anil is very
 <p>Anil's assumption that the reader app is harder is <a href="https://indiewebcamp.com/Shrewdness">shrewd</a>, though it has also been less necessary as the browser enables reading of pages in any case. Indieweb readers are being built now with varying UI based on these underlying protocols, so we should have all the pieces soon.
 <p>The closest thing to a single platform that supports this is <a href="http://withknown.com">Known</a>, an open source indieweb-<a href="http://indiewebcamp.com/friendly">friendly</a> blogging tool that can be installed on your own site or hosted by Known for you.
 <p>There's even a <a href="https://withknown.com/pro/"> Pro version of Known</a> if you want to help make <a href="https://twitter.com/anildash/status/555408559450906624">Anil's prediction</a> come true.
-<p>If these indieweb ideas sound interesting, come along to the next <a href="http://indiewebcamp.com/Homebrew_Website_Club">Homebrew Website Club</a>, or <a href="https://indiewebcamp.com/irc/today?beta#bottom">join us in IRC.</a>
+<p>If these indieweb ideas sound interesting, come along to the next <a href="https://indiewebcamp.com/events/next-hwc">Homebrew Website Club</a>, or <a href="https://indiewebcamp.com/irc/today?beta#bottom">join us in IRC.</a>
 </div>
 </article>
+<a href="http://news.indiewebcamp.com/post/http://www.kevinmarks.com/we-like-indieweb-software.html" class="u-syndication">also on IndieNews</a>
 <h2>webmentions</h2>
 <script id="webmention-hosted">
   (function () {
