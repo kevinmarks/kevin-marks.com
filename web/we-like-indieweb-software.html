@@ -1,0 +1,84 @@
+<html>
+<head><title>We Like IndieWeb Software</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="fragmention.js"></script>
+<link rel="webmention" href="https://webmention.herokuapp.com/api/webmention" />
+<link href="style.css" media="all" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<article class="h-entry">
+<h1 class="p-name">We Like IndieWeb Software <time class="dt-published">2015-01-14</time></h1>
+<h2>a response to Anil Dash's <a href="http://dashes.com/anil/2013/04/i-like-blogging-software.htmls">I Like Blogging Software</a></h2>
+<div class="e-content">
+Yesterday on Twitter Anil Dash and I had a bit of a back and forth:
+<blockquote class="twitter-tweet h-cite" lang="en" data-conversation="none"><p class="e-content">Hi, it&#39;s been two years, will somebody go build this set of tools and go make millions of dollars please? <a href="http://t.co/jLX0Dp5DxI">http://t.co/jLX0Dp5DxI</a></p>&mdash; Anil Dash Dot Com (@anildash) <a class="u-url" href="https://twitter.com/anildash/status/555408559450906624">January 14, 2015</a></blockquote>
+<blockquote class="twitter-tweet h-cite" lang="en" data-conversation="none"><p class="e-content"><a href="https://twitter.com/anildash">@anildash</a> all that&#39;s been shipped as <a href="https://twitter.com/hashtag/indieweb?src=hash">#indieweb</a> tools, except we use html instead of json because web. Try it.</p>&mdash; Kevin Marks (@kevinmarks) <a class="u-url" href="https://twitter.com/kevinmarks/status/555418088456605696">January 14, 2015</a></blockquote>
+(<i>told</i> for <i>tools</i> there is an autocorrect failure)
+<blockquote class="twitter-tweet h-cite" lang="en" data-conversation="none"><p class="e-content"><a href="https://twitter.com/kevinmarks">@kevinmarks</a> I want products, not toolkits. Cobbling stuff together is too time-consuming &amp; this stuff isn&#39;t all in one place.</p>&mdash; Anil Dash Dot Com (@anildash) <a class="u-url" href="https://twitter.com/anildash/status/555418790713098240">January 14, 2015</a></blockquote>
+<blockquote class="twitter-tweet h-cite" lang="en" data-conversation="none"><p class="e-content"><a href="https://twitter.com/anildash">@anildash</a> then use <a href="https://twitter.com/withknown">@withknown</a> and send feature requests. Build tools, not specs.</p>&mdash; Kevin Marks (@kevinmarks) <a class="u-url" href="https://twitter.com/kevinmarks/status/555419201104789505">January 14, 2015</a></blockquote>
+Marco Rogers chided me for being short with Anil:
+<blockquote class="twitter-tweet h-cite" lang="en" data-conversation="none"><p class="e-content"><a href="https://twitter.com/kevinmarks">@kevinmarks</a> <a href="https://twitter.com/anildash">@anildash</a> these are feature requests. From a potential customer. Listening is a good strategy. Berating, less so.</p>&mdash; Marco Rogers (@polotek) <a class="u-url" href="https://twitter.com/polotek/status/555420768423522306">January 14, 2015</a></blockquote>
+This is a fair point, and so here is a post going into more detail. 
+<p>The quoted parts are from <a href="http://dashes.com/anil/2013/04/i-like-blogging-software.html">Anil's blog post</a> - I'll respond inline:
+<blockquote class="h-cite">
+<p>So, my contribution is to collect some of the notes I've been gathering for the last few years about what I'd like to see in a blogging tool. I know there are apps with many, perhaps even all, of these features, but I'd like to see <b>one</b> emerge as a leading platform for doing innovative work. </blockquote>
+(emphasis added)
+<p>Here Anil is explicitly calling out for a <a href="http://indiewebcamp.com/monoculture">monoculture</a>, rather than a set of interoperable  tools and protocols. As Anil mentions, he used to work at Six Apart, which built <a href="http://indiewebcamp.com/site-deaths#Vox+shut">several</a> <a href="http://indiewebcamp.com/site-deaths#Pownce.com">blogging</a> tools in that way, each hoping to be the one. Indeed seeing the success of <a href="http://indiewebcamp.com/silos">silos</a>, their monolithic nature can be seen as contributing to this; their widespread adoption coming from focusing on innovating and improving user experience rather than interoperability with others.<p>With indieweb we are trying a different approach by working through our own <a href="http://indiewebcamp.com/itches">wishlists</a>, reusing common components, and making sure we interoperate along the way. This gives us a composable set of tools that do plug together - the toolkit Anil both is and isn't asking for.
+<blockquote class="h-cite">
+<p>My blogging features wishlist:</p>
+
+<ul>
+<li>I enter markdown in plain text files; these are stored on Dropbox/Google Drive/Skydrive and/or S3 and/or GitHub.</li>
+<li>The system renders those plain files into <span class="caps">JSON </span>assets in a documented format.</li>
+</ul></blockquote>
+There are lots of indieweb tools that work in this kind of way; but Anil is very focused on the specifics of formats. <a href="http://indiewebcamp.com/Markdown">Markdown</a> is one popular way of writing text for posts; indeed many indieweb tools support it. <a href="http://indiewebcamp.com/JSON">JSON</a> is handy as an interchange format between programming languages, but as Anil says, having a documented common format is useful. What we realised working on indieweb is thet we already have a lingua franca for webpages and blogs, and that is HTML. Ultimately all sites publish in this format, so using that and adjusting it minimally to make interop easier is the approach we took. 
+<p>Our documented format is <a href="http://microformats.org/wiki/microformats-2">Microformats 2</a>, which for blog posts involves h-entry and h-feed as common structure, with additional microformats to label other reusable features. Generating HTML from Markdown is relatively straightforward, if <a href="http://johnmacfarlane.net/babelmark2/">not always deterministic</a>, as that was its design goal. Generating JSON from HTML formatted with <a href="http://indiewebcamp.com/Microformats">microformats 2</a> is also <a href="http://pin13.net/mf2/?url=http%3A%2F%2Fwww.kevinmarks.com%2Ftoolsandproducts.html">straightforward</a> and <a href="http://microformats.org/wiki/validators">more deterministic</a>.
+<p>Storing source files in various cloud services is practical and indeed done by many indieweb tools, but requiring a specific cloud service's file system is less flexible and general than using HTML on the web itself, so that's what we do.
+<blockquote class="h-cite">
+<ul><li>A Bootstrap-themed reading client app lives at my site, on my domain, and reads a single simple config file to learn how to display and navigate between those <span class="caps">JSON </span>assets. This client app would also have to handle <span class="caps">URL </span>routing and persisting states, while ideally also keeping preferences and reading history for readers.</li>
+<li>The default theme offers a YouTube-style browsing view of all my content, where people can make playlists of posts (this is equivalent to navigating my archives by tag), embed my posts on their own sites, and easily explore by traditional groupings like category or date.</li></ul></blockquote>
+<p>This is a lot of fragility - the default Blogger template switched to a JSON model like this and consequently fails to render a lot of the time. Twitter too used an all-JSON web app for a while, before reverting to HTML+json enhancements. The fragility comes from JSON being much less resilient to encoding or writing errors than HTML - HTML5 specifies how to consistently handle even invalid or poorly marked-up HTML pages, whereas with JSON you will get a parse error and lose the whole page, <a href="http://htmlcssjavascript.com/web/youre-so-smart-you-turned-javascript-into-xhtml/">just like XML</a>. By using HTML instead for your format, the page can be read on every platform by default. Now, behind the scenes JSON can be useful - indeed Known uses a JSON store for its posts database, but exposing this publicly will likely lead to incompatibility over time. 
+<p>We are beginning to see indieweb <a href="http://indiewebcamp.com/reader">reader</a> apps that work by parsing the h-feed and h-entry markup published, and give the remixability that Anil mentions, but they are an augmentation to the basic page, not a required path along the way. 
+<blockquote class="h-cite">
+<p><ul>
+<li>There might be an optional administration interface separate for me, just for editing the markdown files through a plain text in-browser editor; In this case, it should be a responsive app that works in all my browsers.</li></ul></blockquote>
+<p>On the indieweb, this is handled by two protocols: Micropub and IndieAuth. 
+<p><a href="http://indiewebcamp.com/indieauth">IndieAuth</a> lets you prove that you are the owner of the site by logging in, so you can get editing privileges or other enhanced versions.
+<p><a href="http://indiewebcamp.com/micropub">Micropub</a> is a simple protocol, based on HTML forms, to let you edit and publish posts and notes. By using these two it is possible to have multiple different tools to create and edit posts, independent of the mechanics of their storage, as they also use HTML for interchange.
+<blockquote class="h-cite">
+<p><ul>
+<li>Ideally comments are handled as small messages in a documented json format, sent between instances of this blogging application. Of course in the short term I would just embed Disqus/Facebook/Google-style comments until that infrastructure was further along.</li></ul></blockquote>
+<p>For <a href="http://indiewebcamp.com/comments">comments</a> we use the same documented HTML format, but add the idea of a <a href="http://indiewebcamp.com/webmention">webmention</a>. This is a simple protocol that enables you to send a link to your post or comment that responds to (mentions) another post. The webmention receiver can parse this, check it does indeed link to it, and interpret it as a comment, a <a href="http://indiewebcamp.com/reply">reply</a>, a <a href="http://indiewebcamp.com/repost">repost</a>, a <a href="http://indiewebcamp.com/like">like</a> or an <a href="http://indiewebcamp.com/RSVP">RSVP</a> depending on the microformats markup used. 
+<blockquote class="h-cite">
+<p><ul>
+<li>Having a documented format for the json objects which represent posts and comments would permit transclusion and sending of posts between sites, in a manner analogous to how <a href="http://fargo.io/">Fargo</a> does this for outliners, and in a way that would bring back some of the positives of TrackBack in the early blogosphere.</li></ul></blockquote>
+<p>Exactly! Webmention does this, but with verification and context, which means that it can be used for reposting, but also for threaded comments, per-paragraph <a href="http://indiewebcamp.com/annotations">annotations</a> and other things we haven't thought of yet.
+<blockquote class="h-cite">
+<p><ul>
+<li>"Themes" would largely be implemented as Bootstrap <span class="caps">CSS </span>stylesheets, with some affordance for separate content modules. By default, themes are public so I would just be able to tell an admin app to import a theme from your site so I could remix it.</li></ul></blockquote>
+<p>By using HTML as the source interchange format, styling can be done by CSS directly; also it is relatively easy to process and parse HTML and inject it into a site - see the <a href="#webmentions">webmentions</a> below that are added by a service.
+<blockquote class="h-cite">
+<p><ul>
+<li>The <span class="caps">API </span>endpoint for discovering the json representations of content would double as the <span class="caps">API </span>for others to access my data to build around it; Eventually a posting app which saved <span class="caps">POST</span>s of that json format as fiels in dropbox would allow a write <span class="caps">API.</</li></ul></blockquote>
+<p>The webpage itself is the HTML representation of the content; you get the json version by parsing that, using existing parsers - for example:
+<p>A posting app can look for the micropub endpoint in the page and the indieauth endpoint and work with that, as tools like <a href="https://quill.p3k.io/">Quill</a>, <a href="http://ownyourgram.com/">ownyourgram</a> and <a href="https://ben.thatmustbe.me/new">Postly</a> do now.
+<blockquote class="h-cite"><p>I think that's it for now. Let me know if somebody's got all these boxes checked on their platform today, but I suspect the hardest part is the client app for readers, which works in a way analogous to an <span class="caps">RSS </span>reader or email client, but would have to support a new format and would be optimized for clean reading and subsequent discovery, rather than the three-pane model which has dominated those apps for the last decade or two.</p>
+</blockquote>
+<p>Anil's assumption that the reader app is harder is <a href="https://indiewebcamp.com/Shrewdness">shrewd</a>, though it has also been less necessary as the browser enables reading of pages in any case. Indieweb readers are being built now with varying UI based on these underlying protocols, so we should have all the pieces soon.
+<p>The closest thing to a single platform that supports this is <a href="http://withknown.com">Known</a>, an open source indieweb-<a href="http://indiewebcamp.com/friendly">friendly</a> blogging tool that can be installed on your own site or hosted by Known for you.
+</div>
+</article>
+<h2>webmentions</h2>
+<script id="webmention-hosted">
+  (function () {
+    var sn = document.createElement("script"), s = document.getElementsByTagName("script")[0], url;
+    url = document.querySelectorAll ? document.querySelectorAll("link[rel~=canonical]") : false;
+    url = url && url[0] ? url[0].href : false;
+    sn.type = "text/javascript"; sn.async = true;
+    sn.src = "//webmention.herokuapp.com/api/embed?version=cutting-edge&url=" + encodeURIComponent(url || window.location);
+    s.parentNode.insertBefore(sn, s);
+  }());
+</script>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+</body>
