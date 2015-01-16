@@ -1,0 +1,91 @@
+
+#hackshackers @erinjo: I built my first website in notepad. It was 1999, I'd just finished a powerpoint class and my dad wanted a website
+#hackshackers @erinjo: I made my own website shortly after - I include my college course and a blog and the rainbow gifs I liked at the time
+#hackshackers @erinjo: you should be your own platform because you desebve to control your own content
+#hackshackers @erinjo: rather than post to places like facebook or twitter, post to your own site adn be your own platform
+#hackshackers @erinjo: 
+#hackshackers @erinjo: 
+#hackshackers @erinjo: 
+#hackshackers @erinjo: 
+#hackshackers @erinjo: 
+#hackshackers @erinjo: 
+#hackshackers @erinjo: 
+#hackshackers @erinjo: 
+#hackshackers @erinjo: when youa re your own platform you have the freedom to choose and to change
+#hackshackers @erinjo: if you don't like your hosting company or your posting platform, you can change
+#hackshackers @erinjo: I know it is 2015, and you can't ignore social networks, but you deserve to have the original record
+#hackshackers @erinjo: social networks come and go -do you remember these? (shows ~50 that died)
+#hackshackers @erinjo: if you want to establish yourself as a writer, photographer, film-maker, be your own platform
+#hackshackers @erinjo: if youwant to be paid or attract an audience, you owe it to yourself to be your own platform
+#hackshackers @erinjo: this is my platform: erinjorichey.com
+#hackshackers @TheCreativeAct: we set up site where anyone can contribute art, and anyone can publish it as shirt 
+#hackshackers @https://twitter.com/maxslavkin: you're saying "wait max, isn't crowdsourcing terrible?" we found not 
+#hackshackers @https://twitter.com/maxslavkin: constraints matter: don't give broad goals, give specific ones 
+#hackshackers @https://twitter.com/maxslavkin: be positive: call people by their name, have them participate, don't be like a machine
+#hackshackers @https://twitter.com/maxslavkin: have contests: but don't pick the one winner - we need a lot, not just one answer, so make sure al can see
+#hackshackers @activefree: hands up if you really love ads? (not many hands) 37% of the internet have downloaded blocking software
+#hackshackers @activefree: in 1999 I hated ads enough that I wrote on one on the subway, and got busted by the cops
+#hackshackers @activefree: maybe a revolution did happen with help from these platforms, but did anything fundamentally changed?
+#hackshackers @activefree: investors put money into facebook & twitter to make a return, so it shouldn't be surprising that we now see ads
+#hackshackers @activefree: we are trying to remake advertising for good - we got an Occupy Wallstreet ad on Fox News
+#hackshackers @activefree: to convince regular people to advertise, don't use the word, say "help this artist reach an audience" 
+#hackshackers @activefree: frame advertising as a gift - his friend wants to give the gift of reach to Steve the artist - a human gift
+#hackshackers @activefree: Will the internet survive? I'm not sure. if it is going to be different it is because humans fund attention
+#hackshackers @netaustin: Alley Interactive is a digital firm in NY - sorry
+#hackshackers @netaustin: even though New York is 3 hours ahead we're a year behind tech-wise
+#hackshackers @netaustin: publishers are protective of their audiences and want to engage with them directly
+#hackshackers @netaustin: don't try and get between the audience and the publisher  - media companies are wising up to this
+#hackshackers @netaustin: if you want a publisher to pay, solve their problem not readers' problems
+#hackshackers @netaustin: if building a product for journalists, make it open source - training journalist to operate CMS's is no fun
+#hackshackers @netaustin: journalist operate on a news cycle, the business people don't - journalist won't use it if they don't have a need
+#hackshackers @netaustin: to keep publishing clients, don't let content marketers use your software. At least rename it
+#hackshackers @netaustin: 2 products news organisations want to buy: 1. Solve Web to Print
+#hackshackers @netaustin: no publisher is good at doing web first then print - everything doing this is some huge janky thing
+#hackshackers @netaustin: 2nd ideafor publishers: Dsta managemnt and print subscriptions combined
+#hackshackers @benwerd: i work with @erinjo on @withknown and we'll get on integrating indesign tomorrow
+#hackshackers @benwerd: recently a man in NY posted a photo of him kissing his husband on his wedding day, and instagram removed
+#hackshackers @benwerd: it's very easy to flag things as inappropriate on social networks - breastfeeding and drag queens every day
+#hackshackers @benwerd: when Mark Zuckerberg posted about Charlie Hebdo, many of the comments were marked inapproriate
+#hackshackers @benwerd: we've all heard of Snowden and the NSA, but we are all spying on each other as well
+#hackshackers @benwerd: the PEN American center reported that > 1/3 of writers in democratic countries self-censor because of NSA fears
+#hackshackers @benwerd: the cloud sounds fluffy, but it is actually someone else hard drive, and it can be easily deleted
+#hackshackers @benwerd: the internet was designed for resiliency - unlike the silos we pour content into now, it was decentralised
+#hackshackers @benwerd: what if we wer all service, we were all platforms, and stored our data on servers that we controlled
+#hackshackers @benwerd: what if our servers were in our living rooms and newsrooms?
+#hackshackers @benwerd: look at intel compute sticks and sandstorm.io as ways to store this
+#hackshackers @benwerd: there are other platforms too, like @withknown that @erinjo and I work on
+#hackshackers @benwerd: back int he day Microsoft freed us by giving computers on our desks; our dat shoudl be ours too
+#hackshackers @rsingel: At Contextly we think about evergreen stories a lot - stories that aren't just current
+#hackshackers @rsingel: an example from a publisher we work with - more than 40% of views went to content published before 2014
+#hackshackers @rsingel: we wrote a story about Silk Road, and I got notifications that it was a top ten story every day for years
+#hackshackers @rsingel: Mother Jones published a series of charst showing inequality in america, and it got more views than the Romney leak
+#hackshackers @rsingel: there are seasonal evergreen stories - valentines, st patricks day and xmas recipes
+#hackshackers @rsingel: there are also definitive stories that people refer to over time
+#hackshackers @rsingel: to identify evergreens - look at referrals over long timelines, but also talk to your staff
+#hackshackers @rsingel: evergreen stories are those that your community tells you that they are right for them
+#hackshackers @rsingel: NPR indentified their evergreen stories and share one very day between 3am and 6am
+#hackshackers @rsingel: publications should have an evergreen strategy
+#hackshackers q: we shoudl do evergreens and was told "ad team saysadvertisers hate that"
+#hackshackers @rsingel: you can use the evergreens to build audience, and can sell a package around valentines day when ad buyers show up
+#hackshackers q: having your own server? open source will get more usage? what?
+#hackshackers @netaustin: I'm talking about the journalist/biz/tech relationship at the company - selling that is hard; 
+#hackshackers @netaustin: journalists don't have buying power - give them an open source thing with a SaaS platform that helps them now
+#hackshackers @netaustin: businesses are bout results - if journalists can say "lots of people came here for this, can we pay for it now?" 
+#hackshackers @benwerd: open source is a process as well as a licence - it's a way to involve your users more directly in your product
+#hackshackers @benwerd: we work with education a lot and they work with open source software too
+#hackshackers q: whenever I watch cable news we see lots of people funded by defence contractors; not by peace activists
+#hackshackers @maxslavkin: we got one artists on CNN ever, maybe we can get more over time
+#hackshackers @activefree: what trends in media changes all the time - the #OscarsSoWhite tag today is an example; they force TV to talk
+#hackshackers @activefree: if you do it with money it can go quicker. It depends on the issue and who owns the channel
+#hackshackers q: people switch from selling to journalist to selling to brands - is this a bad thing?
+#hackshackers @netaustin: brands have different needs from publishers so if you chase them you'll lose the publishers
+#hackshackers @netaustin: brands have an ultimate goal; publishers just want people to keep reading
+#hackshackers @netaustin: verizon built an undercover news site, but they wouldn't let journalists cover net neutrality
+#hackshackers @netaustin: I know this is weird from a new yorker but you need some shred of idealism to be in the news business, even in2015
+#hackshackers @coreyford: do you have advice to publishers to be better customers for innovators?
+#hackshackers @netaustin: publishers need to have more money
+#hackshackers @netaustin: publishers and biz people pit themselves against their editorial staff. They need long-range perspective
+#hackshackers @netaustin: it's hard to ask a dying news media brand to take a long term perspective
+#hackshackers @erinjo: our platform is open source and we'd very much like to have journalists and media companies working with us
+#hackshackers @erinjo: we are working with educators, and they like open source too, so we recognise the tension between use and sales
+#hackshackers @erinjo: a lot of people told us to talk to marketing and brands as they have moneys
