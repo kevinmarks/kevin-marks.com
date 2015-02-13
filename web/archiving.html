@@ -1,1 +1,33 @@
-We will archive all information and make this knowledge accessible by putting it onto the web, in HTML. The history of information has been a tension between storage, organisation and distribution. Each of these is solved elegantly by HTML on the Web. Every computer, phone, tablet can read and display HTML. It can be stored anywhere and addressed by URL, without having to be put into a single repository. It can be copied, indexed and annotated so no longer needs to be organised by indexes based on shelving. The work that has been done in open standards bodies and open source implementations means we should not lose the ability to read, index and repurpose all such knowledge. The challenge is to ensure that we don't abandon the distributed model of the web for silos that end up choosing what we see, and what is archived. We need our own websites and links to preserve our stories. That is why we need the IndieWeb. 
+<html>
+<head><title>Archiving - Netgain Challenge</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="fragmention.js"></script>
+<link href="style.css" media="all" rel="stylesheet" type="text/css" />
+<link rel="webmention" href="https://webmention.herokuapp.com/api/webmention" />
+</head>
+<body>
+<article class="h-entry">
+<h1 class="p-name">Archiving - Netgain Challenge <time class="dt-published">2015-02-10</time></h1>
+<div class="e-content">
+
+<p>A post written for the <a href="http://netgainchallenge.org/">NetGain Challenge</a> 
+<h2>How will we archive all information and make this knowledge accessible? </h2>
+
+<p>We will archive all information and make this knowledge accessible by putting it onto the web, in HTML. The history of information has been a tension between storage, organisation and distribution. Each of these is solved elegantly by HTML on the Web. Every computer, phone, tablet can read and display HTML. It can be stored anywhere and addressed by URL, without having to be put into a single repository. It can be copied, indexed and annotated so no longer needs to be organised by indexes based on shelving. 
+<p>The work that has been done in open standards bodies and open source implementations means we should not lose the ability to read, index and repurpose all such knowledge. The challenge is to ensure that we don't abandon the distributed model of the web for silos that end up choosing what we see, and what is archived. <p>We need our own websites and links to preserve our stories. <p>That is why we need the IndieWeb. 
+
+</div>
+</article>
+<script id="webmention-hosted">
+  (function () {
+    var sn = document.createElement("script"), s = document.getElementsByTagName("script")[0], url;
+    url = document.querySelectorAll ? document.querySelectorAll("link[rel~=canonical]") : false;
+    url = url && url[0] ? url[0].href : false;
+    sn.type = "text/javascript"; sn.async = true;
+    sn.src = "//webmention.herokuapp.com/api/embed?version=cutting-edge&url=" + encodeURIComponent(url || window.location);
+    s.parentNode.insertBefore(sn, s);
+  }());
+</script>
+
+</body>
