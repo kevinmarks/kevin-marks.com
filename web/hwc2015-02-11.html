@@ -1,0 +1,68 @@
+<html>
+<head><title>Homebrew Website Club 2015-02-11</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="fragmention.js"></script>
+<link href="style.css" media="all" rel="stylesheet" type="text/css" />
+<link rel="webmention" href="https://webmention.herokuapp.com/api/webmention" />
+</head>
+<body>
+<article class="h-entry">
+<h1 class="p-name">Homebrew Website Club <time class="dt-published">2015-02-11</time></h1>
+<div class="e-content">
+
+<p><a class='h-card p-category' href='https://kylewm.com'>KyleWm</a>:  <blockquote><p>I'm at <a class="auto-link" href="http://kylewm.com">kylewm.com</a> - I've been working on a reader at <a class="auto-link" href="http://reader.kylewm.com">reader.kylewm.com</a> which was just for but got users
+<p>it's a basic reader that only polls once an hour, but I'm finding it useful
+<p>I was thinking about adopting publishing your subscriptions on your own site so you could move between readers
+<p></blockquote>
+<a class='h-card p-category' href='http://kevinmarks.com'>Kevin Marks</a>:  <blockquote><p>I'm still hacking on <a class="auto-link" href="http://svgur.com">svgur.com</a> which lets you uplaod svg's to embed.
+<p></blockquote>
+<a class='h-card p-category' href='https://snarfed.org/'>Ryan Barrett</a>:  <blockquote><p>I shipped a few things - micropub for wordpress being one - I'm not good at PHP or wordpress, but it works
+<p>I shipped ownyourcheckins like ownyourgram, to PESOS checkins
+<p>we may need to remove facebook publish from <a class="auto-link" href="http://brid.gy">brid.gy</a> as we don't get consistent facebook post ids from API 2.0
+<p>The Indieweb assumption is that POSSE is the 'right' way to do it - PESOS is 2nd class - for likes/retweets this is less true - 1 or 2 taps for them
+<p>to do an indie like or retweet is noticably more effort than the silo way, especially if it's just a silo post
+<p>so ownyourresponses pulls the silo likes and responses and posts via micropub 
+<p>if you do the action in the silo and the indiepost shows up in seconds is that bad?
+<p></blockquote>
+<a class='h-card p-category' href='http://kevinmarks.com'>Kevin Marks</a>:  <blockquote><p>it may discourage you from liking non-silo posts though?
+<p></blockquote>
+<a class='h-card p-category' href='http://werd.io/'>Ben Werdmüller</a>:  <blockquote><p>I don't end up interacting with google+ posts because it is effort, I'd like it in a reader ui that is shared
+<p></blockquote>
+<a class='h-card p-category' href='https://snarfed.org/'>Ryan Barrett</a>:  <blockquote><p>if you see an instagram photo that you want to like in your reader, it is still a lot of taps
+<p>in principle the indiereader could do one tap likes, but in practice it is harder.
+<p></blockquote>
+<a class='h-card p-category' href='http://kevinmarks.com'>Kevin Marks</a>:  <blockquote><p>i use the twitter client more than the known client, so this is a useful thing to do.
+<p></blockquote>
+<a class='h-card p-category' href='http://werd.io/'>Ben Werdmüller</a>:  <blockquote><p>fun with APIs - since last time we can connect to infinite accounts on each silo -users on twitter, accounts+pages on fb
+<p>having an enormous amount of fun with the facebook api - trying to get OG tags to share an image from the post
+<p>we have to prime the fb cache with the image to know that it will show up - but it is not deterministic
+<p>we got whitelisted for twitter cards too, which is positive
+<p>our free users will get twitter cards but the whitelisting is per domain so won't work for custom domain users
+<p>every time I remember to post to google+ I get great responses
+<p></blockquote>
+<a class='h-card p-category' href='https://twitter.com/@JoshuaDuran'>Joshua Duran</a>:  <blockquote><p>I want to promote <a class="auto-link" href="http://freemount.com">freemount.com</a> - I can now tell the user running the fileserver and an anon user, 
+<p>you will be able to use the filesystem as an API too
+<p></blockquote>
+<a class='h-card p-category' href='http://erinjo.is'>Erin Jo Richey</a>:  <blockquote><p>People were asking me why I have so many domains - I deleted a lot of things that I need to bring back
+<p>my site is <a class="auto-link" href="http://erinjo.is">erinjo.is</a> because at the time Known didn't support other domains, so I can fix this soon
+<p>I learned that adblock can kill fonts - the adblockers destroy the social icons font we are using
+<p>when we have the buttons to connect to social networks, adblockers remove the twitter/fb buttons
+<p></blockquote>
+<a class='h-card p-category' href='http://werd.io/'>Ben Werdmüller</a>:  <blockquote><p>the block lists are published by the adblockers and they charge to be removed
+<p>we need to change the way syndication works with a preview and post ui
+
+</div>
+</article>
+<script id="webmention-hosted">
+  (function () {
+    var sn = document.createElement("script"), s = document.getElementsByTagName("script")[0], url;
+    url = document.querySelectorAll ? document.querySelectorAll("link[rel~=canonical]") : false;
+    url = url && url[0] ? url[0].href : false;
+    sn.type = "text/javascript"; sn.async = true;
+    sn.src = "//webmention.herokuapp.com/api/embed?version=cutting-edge&url=" + encodeURIComponent(url || window.location);
+    s.parentNode.insertBefore(sn, s);
+  }());
+</script>
+
+</body>

@@ -1,0 +1,30 @@
+#indieweb @kylewm2: I'm at kylewm.com - I've been working on a reader at reader.kylewm.com which was just for but got users
+#indieweb @kylewm2: it's a basic reader that only polls once an hour, but i'm finding it useful
+#indieweb @kylewm2: I was thinking about adopting publishing your subscriptions on your own site so you could move between readers
+#indieweb @kevinmarks: I'm still hacking on svgur.com which lets you uplaod svg's to embed.
+#indieweb @schnarfed: shipped a few things - micropub for wordpress being one - I'm not good at PHP or wordpress, but it works
+#indieweb @schnarfed: I shipped ownyourcheckins like ownyourgram, to PESOS checkins
+#indieweb @schnarfed: we may need to remove facebook publish from brid.gy as we don't get consistent facebook post ids form API 2.0
+#indieweb @schnarfed: POSSE is the 'right' way to do it - PESOS is 2nd class - for likes/retweets this is less true - 1 or 2 taps for them
+#indieweb @schnarfed: to do an indie like or retweet is noticably more effort than the silo way, especially if it's just a silo post
+#indieweb @schnarfed: so ownyourresponses pulls the silo likes and responses and posts via micropub 
+#indieweb @schnarfed: if you do the action in the silo and the indiepost shows up in seconds is that bad?
+#indieweb @kevinmarks: it may discourage you from likeing non-silo posts though?
+#indieweb @benwerd: I don't end up interacting with google+ posts because ti is effort, i'd liek it in a reader ui that is shared
+#indieweb @schnarfed: if you see an instagram photo that you want to like in your reader, it is still a lot of taps
+#indieweb @schnarfed: in principle the indiereader could do one tap likes, but in practice it is harder.
+#indieweb @kevinmarks: i use the twitter client more than the known client, so this is a useful thing to do.
+#indieweb @benwerd: fun with APIs - since last time we can connect to infinite accounts on each silo -users on twitter, accounts+pages on fb
+#indieweb @benwerd: having an enormous amount of fun with the facebook api - trying to get OG tags to share an image from the post
+#indieweb @benwerd: we have to prime the fb cache with the image to know that it will show up - but it is not deterministic
+#indieweb @benwerd: we got whitelisted for twitter cards too, which is positive
+#indieweb @benwerd: our free users will get twitter cards but the whtelisting is per domain
+#indieweb @benwerd: every time I remember to post to google+ I get great responses
+#indieweb @JoshuaDuran: I want to promote freemount.com - I can now tell the user running the fileserver and an anon user, 
+#indieweb @JoshuaDuran: you will be able to use the filesystem as an API too
+#indieweb @erinjo: People were asking me why I have so many domains - I deleted a lot of things that I need to bring back
+#indieweb @erinjo: my site is erinjo.is because at the time Known didn't support otehr domains, so I can fix this soon
+#indieweb @erinjo: I learned that adblock can kill fonts - the adblockers destroy the social icons font we are using
+#indieweb @erinjo: when we have the buttons to connect to social networks, adblockers remove the twitter/fb buttons
+#indieweb @benwerd: the block lists are published by the adblockers and they charge to be removed
+#indieweb @benwerd: we need to change the way syndication works with a preview and post ui
