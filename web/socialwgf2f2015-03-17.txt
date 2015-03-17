@@ -1,0 +1,16 @@
+#indieweb @aaronpk: I am posting to my site using the micropub client at https://quill.p3k.io/new - it will post to any micropub site
+#indieweb @kevinmarks: I just posted to my site http://known.kevinmarks.com/2015/responding-to-aarons-note-using-his-tool-at-new using  https://quill.p3k.io/new too
+#indieweb @dissolve333: I'm demoing reader.kylewm.com whcih is not my app but kyles - it reads feeds, and posts to my site via micropub
+#indieweb @dissolve333: the post on my site sends webmentions which will show up on aaron's post
+#indieweb @aaronpk: I just got the webmention by the way: https://aaronparecki.com/notes/2015/03/17/1/socialwg
+#indieweb @dissolve333: this also allows liking or starring of posts to my site
+#indieweb @kevinmarks: and I posted to my site using http://reader.kylewm.com/ too http://known.kevinmarks.com/2015/good-to-see-the-w3c-meeting
+#indieweb @dissolve333: I wrote my own little micropub app on my android phone in Cordova so it's a web app compiled to android
+#indieweb @dissolve333: I can syndicate to facebook and twitter - the list is pulled form my site via micropub as targets
+#indieweb @dissolve333: and here is the photo post: https://ben.thatmustbe.me/photo/2015/3/17/4/
+#indieweb @aaronpk: Here's my feed reader at https://monocle.p3k.io/ I'm adding tantek.com
+#indieweb @aaronpk: I may want to post on my site that I followed someone, btu I haven't done that in the app yet
+#indieweb @aaronpk: if I like a post it shows up on my own site under likes - for example http://aaronparecki.com/likes/2015/03/17/1/
+#indieweb Chris Webber: I'm demoing posting a photo using https://identi.ca/cwebber
+#indieweb Chris Webber: the public image post is at https://identi.ca/cwebber/image/d3Hv4RJzRKOJTVdw2PHYXw but the private note is at https://identi.ca/cwebber/note/XYDqJKmYR6OCDImGC0roxg
+#indieweb @t: the point of indieweb was to replace our own use of Facebook and twitter first
