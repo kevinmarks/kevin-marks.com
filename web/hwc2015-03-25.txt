@@ -1,0 +1,51 @@
+
+#indieweb @t: welcome to SF homebrew website club where it's all about what you want to put up on your own domain or on the web
+#indieweb @kylewmahan: I just changed my twitter id - I can't be @kylewm on twitter so I got this one
+#indieweb @bengo: if you file a support ticket you can reclaim an unused twitter handle - that's how I got @bengo
+#indieweb @t: if you do change your twitter handle, do reclaim the old one, as otherwise external links will fail
+#indieweb @t: AOL and Yahoo have both started reissuing email addresses, which can get confusing
+#indieweb @kevinmarks: all external links to twitter go to handles, not userids
+#indieweb @bengo: at livefyre we store the twitter id, not the handle so that it does persist across changes
+#indieweb @bengo: i've looked into the process of getting TLD this week, and it is very expensive
+#indieweb @t: the twitter linking in general goes to the @ name not the userid which is fragile
+#indieweb @bengo: at livefyre we have to do an api call to get the persistent id - there was an external url before, not sure now
+#indieweb @bengo: we had to remove all facebook @ mentions because of the api 2.0 changes
+#indieweb @kylewmahan: we had the same issue with brid.gy and unable to link to facebook users reliably
+#indieweb @bengo: you can link to twitter userids via twitter intents - eg @t is https://twitter.com/intent/user?user_id=11628
+#indieweb @kevinmarks: I'm https://twitter.com/intent/user?user_id=57203 on twitter - clearly low numbers have bragging rights like short handles, eh @t
+#indieweb @kevinmarks: noterlive.com uses twitter to look up names and URLs - if you don't have a url set it uses a twitter url
+#indieweb @t: Indiewebcamp cambridge was last week, and had more people than last year and more diverse in terms of users
+#indieweb @t: one guy got drupal webmentions working. Drupal is a CMS like wordpress, and he made a webmention plugin
+#indieweb @t: supporting webmentions is one of the best ways to make a CMS indieweb friendly
+#indieweb @t: webmention was made by Sandeep Shetty http://www.sandeep.io/webmention/ - he's in india and none of us here  have met him
+#indieweb @t: at indiewebcamp we did a lot of demos at the end of what people got working over the 2 days
+#indieweb @t: someone built an implementation of the http LINK verb - but no-one responds to it. You have to start somewhere
+#indieweb @t: tilde.club is @ftrain's social hack reframing a single unix server as a social network - you have a url at /~username
+#indieweb @t: someone got a demo of tilde.club running indieweb sites
+#indieweb @t: someone else got @withknown working on a tor onion address 
+#indieweb @t: @rhiaro got posts working on her own website, and event RSVPs to indie events - webmentions for RSVPs
+#indieweb @t: a lot of people worked on locations of a note versus location checkins explicitly into a venue
+#indieweb @t: in microformats there is no inheritance, just top-level objects that can have properties, so you don't get implied oddness
+#indieweb @kevinmarks: hierarchies go back to Aristotle, and make sense for filing books that have to be in one place, but not how we think
+#indieweb @kevinmarks: we instead think of things relative to prototypes - robins have more birdness than penguins or emus
+#indieweb @Eliservescent: twitter having @foursquare will make it more interesting to check in to places and it gets around the character
+#indieweb @Eliservescent: I want to post a location to twitter to add context or irony to a location
+#indieweb @bengo: we take advantage of twitter geocoding to see what tweets are where at @livefyre
+#indieweb @t: I went to a @gigaom conference and learned that they are running tons of geolocation anlaytics
+#indieweb @kevinmarks: geolocation has population density issues - it is hard because population density is a fractal
+#indieweb @t: that reminds me of xkcd.com/1138
+#indieweb @t: a lot of us worked on event support at indiewebcamp cambridge - redwind does it and known
+#indieweb @bengo: what do you need as well as a posting of an event on your site?
+#indieweb @t: you then need to send invitations and accept RSVPs too, and they expect comments too - lots of  thinsg involved
+#indieweb @bengo: I've been setting up my domain as an excuse to learn things like google compute engine and docker
+#indieweb @bengo: if you have your own domain ideally it's pretty cheap -what happens if it is bigger than you can handle?
+#indieweb @bengo: I have set up my dns record to go to a google load balancer so it can go across multiple sites
+#indieweb @kevinmarks: it's easier to migrate things across a redundant array of inexpensive clouds with static files
+#indieweb @bengo: I am using docker to migrate images between different cloud services
+#indieweb @kevinmarks: don't forget to ask the internet archive to index your urls as you post them, and they will host CCd audio and video
+#indieweb @t: scaling is an interesting problem - one of the things we do is make it as dirt simple as possible
+#indieweb @t: a personal blog is well suited to flat files - you don't run out of database connection
+#indieweb @bengo: kafka is good at queueing a lot of links in response to a twitter-like burst of queues
+#indieweb @bengo: google used to have a pubsubhubbub part in analytics
+#indieweb @t: I deployed PuSH 0.4 for updates from my homepage - I switched from google's hub to superfeeder
+#indieweb @t: we now have multiple people implementing PuSH 0.4 posting and reading
