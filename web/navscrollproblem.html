@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head><title>Fragmentions for poets</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://raw.githubusercontent.com/chapmanu/fragmentions/master/fragmention.min.js"></script>
+<link href="style.css" media="all" rel="stylesheet" type="text/css" />
+<link rel="webmention" href="https://webmention.herokuapp.com/api/webmention" />
+<style>
+nav {position: fixed; top:0; height:2em; background-color: darkgray; width:100%;}
+nav a {font-size:1.5em; font-style: bold; background-color: lavender; padding: .25em .25em .25em .25em ; text-decoration:none;}
+article {margin-top: 2.5em;}
+</style>
+</head>
+<body>
+<nav><a href="#">top</a> <a href="#text%20changes">changes</a> <a href="#more%20than%20once">twice</a> <a href="#combine%20an%20id">combine</a> <a href="#get%20rid%20of">just #</a> <a href="#go%20gentle">poem</a></nav>
+<article class="h-entry">
+<h1 class="p-name">Fragmentions for poets <time class="dt-published">2014-04-23</time></h1>
+<div class="e-content">
+<p>Since the original fragmention <a href="https://github.com/chapmanu/fragmentions">implementation</a> and <a href="http://www.kevinmarks.com/fragmentions.html">discussion</a>, we've been trying it out in various contexts, including <a href="https://christiaanconover.com/code/wp-fragmention##any+text">any wordpress blog</a>, Shakespeare's <a href="http://shakespeare.sayit.mysociety.org/much-ado-about-nothing/act-iv/scene-i-a-church##link+my+dear+friend">complete works</a> and <a href="http://indiewebcamp.com/fragmention##this+wiki">even the indiewebcamp wiki</a>. Also there have been a lot of reactions and suggestions. Some of these occur often enough that I thought I'd write some responses down.
+<h2>What if the linked-to text changes?</h2>
+<p>Several people pointed to the New York Times <a href="http://open.blogs.nytimes.com/2011/01/11/emphasis-update-and-source/">Emphasis</a> project, which builds IDs from initial letters of sentences in a paragraph to provide some degree of resilience against the linked-to text being changed. It also tries using edit distances if it can't find the text.
+<p>Whether you still want to link to changed text is a tricky problem - if it has completely been removed, then the annotation or point of linking may have gone (pointing out a typo, or misstatement). Even a small change (adding the word 'not' for example) can mean that the point of linking has changed, so my first thought is that changing the text breaking the link can be reasonable.
+<p>If you want some fuzzy matching to go on, having more of the linked-to text in the fragment can only help the linked-to page identify where in the text was intended. Indeed, if enough is included, you could show the difference between what was linked to and what is there now.
+
+<h2>What if the linked-to text occurs more than once?</h2>
+<p>By default, go to the first instance. If you want a different link, use more words to create a unique reference. While there have been proposals to <a href="http://indiewebcamp.com/irc/2014-04-22/line/1398233800">link to the nth occurrence</a> using more <a href="http://www.gerv.net/software/fragment-search/">complex syntax</a>, I don't think this is actually a natural choice, and likely to be more fragile. The NYT Emphasis tool mentioned above switched from a nth sentence type model to a content dependent one for this reason; fragmentions simplify and extend this idea.
+<p>I have tried to come up with a use case that fits this goal - the closest I can think of is referring to a particular repetition of a line of poetry, for example in a villanelle.
+<p> I can link to <a href="##rage+against+the+dying+of+the+light">the 3rd line of the 1st verse</a> by citing it in full. If I wanted the final line, linking to <a href="##Do+not+go+gentle+into+that+good+night.+Rage,+rage+against+the+dying+of+the+light.">it and the line before</a> would work. I think this is clear, though linking to <a href="##night.+Rage">night & Rage</a> would be enough.
+<p>The only reason I can think of to link to specific lines would be to discuss them in the context of surrounding lines, so I think this works adequately.
+<p>If a tool is made to allow readers to construct a link to a specific phrase, indicating that that phrase is not unique to encourage them to choose a longer phrase may be worth it.
+
+<h2>Could you combine an id and a fragmention?</h2>
+<p>A link of form #id##some+words has been suggested, but again I'm not sure I see the utility. This is the nth occurrence idea in a different guise. It combines two addressing models in one, making it harder to construct and more fragile to resolve.
+<h2>Can we get rid of ## and just use #?</h2>
+<p>The other thought, based on closer reading of the <a href="http://www.whatwg.org/specs/web-apps/current-work/multipage/elements.html#the-id-attribute">HTML5 spec ID attribute</a>:
+<blockquote><p>The <code>id</code> attribute specifies its element's unique identifier (ID). [DOM]
+<p>The value must be unique amongst all the IDs in the element's home subtree and must contain at least one character. The value must not contain any space characters.
+<p>There are no other restrictions on what form an ID can take; in particular, IDs can consist of just digits, start with a digit, start with an underscore, consist of just punctuation, etc </blockquote>
+is that we may not need the ## (which technically makes an invalid URL) at all.
+<p>If an HTML5 <code>id</code> cannot contain a space, then a fragment that contains one like <code>#two+words</code> can never match an <code>id</code> (as <code>id="two words"</code> would be invalid). If it can't be an <code>id</code> it should be treated as a fragmention.
+<p>If you really want a one-word fragmention a trailing space like <code>#word+</code> could be used.
+<p>This means that the idea of fragmention could be simplified: if a fragment contains a space it MUST be a fragmention, and should be searched for in the text. If it doesn't match any IDs in the page, it COULD be a fragmention and should be searched for in the text anyway.
+<p>Fragmentions become a fallback to be used when an id can't be found.
+
+<h3>Do not go gentle into that good night</h3>
+<p>Do not go gentle into that good night, 
+<br>Old age should burn and rave at close of day; 
+<br>Rage, rage against the dying of the light. 
+<p>Though wise men at their end know dark is right, 
+<br>Because their words had forked no lightning they 
+<br>Do not go gentle into that good night. 
+<p>Good men, the last wave by, crying how bright 
+<br>Their frail deeds might have danced in a green bay, 
+<br>Rage, rage against the dying of the light. 
+<p>Wild men who caught and sang the sun in flight, 
+<br>And learn, too late, they grieved it on its way, 
+<br>Do not go gentle into that good night. 
+<p>Grave men, near death, who see with blinding sight 
+<br>Blind eyes could blaze like meteors and be gay, 
+<br>Rage, rage against the dying of the light. 
+<p>And you, my father, there on the sad height, 
+<br>Curse, bless, me now with your fierce tears, I pray. 
+<br>Do not go gentle into that good night. 
+<br>Rage, rage against the dying of the light.
+<p> by Dylan Thomas
+<p><a href="http://www.poets.org/viewmedia.php/prmMID/15377">hear him read it</a>
+</div>
+<p><a href="http://epeus.blogspot.com/2014/04/fragmentions-for-poets.html" rel="syndication">Also on my Blog</a>
+<p><a href="https://medium.com/p/fb8b535eb1f8" rel="syndication"> also on Medium</a>
+<a href="http://kevinmarks.com" class="p-author h-card" rel="author" title="Kevin Marks">Kevin Marks</a>
+</article>
+<script id="webmention-hosted">
+  (function () {
+    var sn = document.createElement("script"), s = document.getElementsByTagName("script")[0], url;
+    url = document.querySelectorAll ? document.querySelectorAll("link[rel~=canonical]") : false;
+    url = url && url[0] ? url[0].href : false;
+    sn.type = "text/javascript"; sn.async = true;
+    sn.src = "//webmention.herokuapp.com/api/embed?version=cutting-edge&url=" + encodeURIComponent(url || window.location);
+    s.parentNode.insertBefore(sn, s);
+  }());
+</script>
+</body>
+</html>
