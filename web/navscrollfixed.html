@@ -9,12 +9,12 @@
 <style>
 nav {position: fixed; top:0; height:2em; width:100%;}
 nav a {font-size:1.5em; font-style: bold; background-color: lavender; padding: .25em .25em .25em .25em ; text-decoration:none;}
-article {position: fixed; top:2em ;width:100%; height: calc(100% - 2em); display:block-inline; overflow:auto;}
+article {position: fixed; top:2em ; height: calc(100% - 2em); width:100%; display:block-inline; overflow:auto;}
 </style>
 </head>
 <body>
 <nav><a href="#a%20repost">top</a> <a href="#text%20changes">changes</a> <a href="#more%20than%20once">twice</a> <a href="#combine%20an%20id">combine</a> <a href="#get%20rid%20of">just #</a> <a href="#go%20gentle">poem</a></nav>
-<article class="h-entry">
+<article><div class="h-entry">
 <p>This is a repost of my fragmentions for poets post, with a nav bar added to the top, to illustrate the problem with scrolling and nav bars -that the scrolled text is hidden by the fixed-position navbar, so when I click on the header links they are under the navbar.
 <p>This is the fixed version. <a href="navscrollproblem.html">Broken version</a>
 <h1 class="p-name">Fragmentions for poets <time class="dt-published">2014-04-23</time></h1>
@@ -71,7 +71,7 @@ is that we may not need the ## (which technically makes an invalid URL) at all.
 <p><a href="http://epeus.blogspot.com/2014/04/fragmentions-for-poets.html" rel="syndication">Also on my Blog</a>
 <p><a href="https://medium.com/p/fb8b535eb1f8" rel="syndication"> also on Medium</a>
 <a href="http://kevinmarks.com" class="p-author h-card" rel="author" title="Kevin Marks">Kevin Marks</a>
-</article>
+</div></article>
 <script id="webmention-hosted">
   (function () {
     var sn = document.createElement("script"), s = document.getElementsByTagName("script")[0], url;
