@@ -1,0 +1,26 @@
+
+#indieweb @benwerd: if you want to have astatic site you can use what you want then use @aaronpk's spiderpig to make a static version
+#indieweb @kevinmarks: spiderpig is at https://github.com/esripdx/spiderpig and will staticise any site
+#indieweb @benwerd: personal website update: I am fed up with maintaining all the little api links - twitter, Facebook etc
+#indieweb @benwerd: I built something new that lets me use the with known syndication system with my personal Known site
+#indieweb @benwerd: twitter,  Facebook, linked in etc make you build an app for each domain - what I've built lets you have one app on Known
+#indieweb @webrecorder_io: I work in the fired of web archiving and wonder if it can be helpful to what you are doing
+#indieweb @webrecorder_io: I used to work on internet archive's wayback machine, now I have webrecorder.io
+#indieweb @webrecorder_io: it is a high fidelity archive of what you are browsing and caches client side
+#indieweb @webrecorder_io: this could be useful to archive what you read
+#indieweb @webrecorder_io: just by loading a url it can archive it.
+#indieweb @kevinmarks: this could be useful for caching copies of things you link to as you post - so you get a stashed copy of what you saw
+#indieweb @t: there was a wordpress 0-day attack today - millions of websites running wp-supercache has an XSS exploit
+#indieweb @LaurenJBuchman: is this an example of everyone running the same thing and it being a widespread problem
+#indieweb @t: yes this is the monoculture problem
+#indieweb @t: @benward discovered that he had a cache of #microformats t-shirts - I want to give one to @benwerd and @kylewmahan as thanks
+#indieweb @t: ben coded an open source CMS called idno which is now Known at withknown.com
+#indieweb @t: @kylewmahan has built redwind, woodwind his reader and now brid.gy with @schnarfed
+#indieweb @joshuajuran: I'm working on free mount which is a hybrid file access and now a language called V
+#indieweb @kevinmarks: I've been at #iiw this week and it was nice to demo withknown.com & reader.kylewm.com and have it work
+#indieweb @kevinmarks: and have the #iiw people understand what we were getting at with indieweb protocols
+#indieweb @t: I have now made my likes on my site POSSE to twitter
+#indieweb @benwerd: twitter now has comments on tweets by creating a link to a tweet and displaying the tweet
+#indieweb @benwerd: @rhiaro got micro pub working on her own site and then got likes, reposts and bookmarks working in a few days
+#indieweb @benwerd: @rhiaro is the tenth server codebase that implements micro pub, which is a good number
+#indieweb @kevinmarks: also, @Schnarfed wrote a post explaining how we could bridge micro pub to other hosts https://t.co/xjcu9WGxQM

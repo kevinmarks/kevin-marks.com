@@ -1,0 +1,21 @@
+
+#iiw @dsearls: this whole event started at a Giants game - Kaliya was on her laptop looking at things about identity
+#iiw @dsearls: I used to give despairing keynotes at Identity World, but Kaliya gave me hope
+#iiw @dsearls: @stevegillmor wanted a subject for a gillmor gang, so I pulled togther the Identity Gang to talk about it
+#iiw @dsearls: then identitygang.org  at the Berkman Center, and then we made the first Internet Identity Workshop
+#iiw @windley: I fell into this because Doug Kaye said "the world needs a book on digital identity, who wants to write one?" so I did
+#iiw @windley: I have a tremendous group of friends all over the world that grew out of internet identity—discussions here enrich my life
+#iiw @IdentityWoman: I would love to have an anthology of the things that this community have produced as an anthology book
+#iiw @IdentityWoman: what I want is not for giant corporations to give you an identity that they can take away, but to have our own
+#iiw @IdentityWoman: Heidi co-facilitates and does a lot of the background work; Cass collects the notes from each session
+#iiw @kevinmarks: I'm proposing 2 #indieweb sessions - a Principles and Protocols one, and Get On the Indieweb in minutes
+#iiw @heathervescent: the way people are making money today don't work for me because I'm from the future - lets talk about reputation
+#iiw @IdentityWoman: short roundups from different sessions
+#iiw @heathervescent: intimate wearables was about pacemakers and other medical devices - exploring who controls data
+#iiw @IdentityWoman: trust and consent explored the idea of consent receipts
+#iiw @kevinmarks: @dariusdunlap took notes on the indieweb principles and protocols session - check the wiki
+#iiw @heathervescent: we discussed aspects of reputation and how to build a biz model on them  - part 2 tomorrow
+#iiw @dariusdunlap: we took a handful of people through getting started on being the indieweb indiewebify.me is where to start
+#iiw @dariusdunlap: Matt says he got on the indieweb in minutes
+#iiw @windley: the world is full of ledgers, registries etc - historically they have been centralised. blockchain disributes these
+#iiw @dsearls: when we started VRM is was understood as the opponent of CRM - Nitin has made them fit together so CRM peopl understand it
