@@ -1,0 +1,32 @@
+#indieweb @t: welcome to homebrew website club!
+#indieweb @t: I deployed https embeds of vimeo videos - when I post a note on my site it does an autoembed of the video
+#indieweb @t: it uses their magic vimeo embed markup without doing any network queries
+#indieweb @t: cassis autoembed is in my library cassis.js that compiles as PHP and JS
+#indieweb @kevinmarks: we now have a python version of the cassis autoembed  thanks to Kyle https://github.com/kylewm/cassis-autolink-py
+#indieweb @t: Jay: what would it take for you to tweet from your own site like tantek.com
+#indieweb @jayzalowitz: why would you do it that way?
+#indieweb @jayzalowitz: because that way I have more control over it
+#indieweb @t: rather than use my website code I'd recommend using withknown.com  - I've open sourced some of it as cassis.js
+#indieweb @jayzalowitz: the site I have that works best is http://setonia.com/
+#indieweb @meyerweb: I don't have much to say, I'm here to listen - I recently got my admins to fix my wordpress install
+#indieweb @obiwankimberly: my known site is kimberly.withknown,com -something is afoot at the circle K
+#indieweb @dpg: I'm still confused about indieweb vs corporate web - I read indiewebcamp.com about 10 minutes before i started
+#indieweb @dpg: techendo was blogging for founders - and they were too busy, now it is bootcamp reviews
+#indieweb @dpg: now working on channelpie which works on all my social systems
+#indieweb @dpg: now I'm working on a robotics meetup and a way for bootstrappers to find money from smart investors
+#indieweb @t: by corporate web we are referring to social media silos like facebook, twitter g+ instagram etc
+#indieweb @t: rather than create an account on some corporation's site, have your own domain, but be able to do the same things
+#indieweb @t: we do the things like tweets or likes or invites and rsvps on our sites, and send copies to the corporate sites
+#indieweb @t: see http://indiewebcamp.com/site-deaths for all the corporate sites that have lost people's data
+#indieweb @jayzalowitz: why not use the blockchain?
+#indieweb @dpg: I don't like polluting the blockchain
+#indieweb @dpg: we find tat urls and websites keep working
+#indieweb @t: we find that URLs and websites keep working and  other things don't
+#indieweb @t: I can post an RSVP to my site and have a copy on facebook- it's peer to peer, but facebook is distribution
+#indieweb @t: with indieweb we see these corporate silos as distribution mechanisms - we don't shun thme, we use thm
+#indieweb @kevinmarks: also new is feverdream.herokuapp.com which lets you post to wordpress.com, tumblr and blogger using micropub
+#indieweb @t: we figured out the likely candidate date for indiewebcamp 2015
+#indieweb @t: we spend the first day starting with demos, then brainstorms. the 2nd day is a hack day, then it ends with new demos
+#indieweb @t: last year we did indiewebcamp simultaneously in berlin, new york and portland
+#indieweb @t: this year we're looking at July 11th and 12th in Portland, and potentially adding other cities in parallel
+#indieweb @t: if anyone wants to do another location at the same time as Portland do please step up and make one on the wiki
