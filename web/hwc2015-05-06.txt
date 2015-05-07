@@ -1,0 +1,35 @@
+
+#indieweb @bengo: I found the indie.js repository and am going through the IndiewMark process and trying to make my tools usable by other
+#indieweb @bengo: the github repository is at https://github.com/gobengo/indieweb
+#indieweb @bengo: I'm trying to make the place where it posts to pluggable too so you can change where it posts to
+#indieweb @benwerd: I went back and analysed everything I posted on werd.io - a tiny fraction had not been syndicated elsewhere
+#indieweb @benwerd: I realised I have been using werd.io as a client for twitter and facebook, so I wrote a post that wasn't POSSE'd http://werd.io/2015/publish-on-your-own-site-reflect-inwardly
+#indieweb @benwerd: so what happens if we take away the social newtworks
+#indieweb @benwerd: seperately I'm also preparing to start a podcast, so I'm looking at the tags needed to make a podcast work right
+#indieweb @benwerd: the process of publishing a podcast seems really archaic
+#indieweb @benwerd: a lot of people use soundcloud so they can have a nice player to embed on their own site 
+#indieweb @benwerd: I have lost count of the number of times I have crashed all of the browsers using the audio tag over the last few weeks
+#indieweb @bengo: twitter added native video a couple of months ago, and the video that we are getting from twitter is not playable
+#indieweb @benwerd: I've also made http://wavelist.xyz/ which is a way to easily curate and discover playlist of podcast episodes as a test
+#indieweb @benwerd: it's not completely different form huffduffer, but it is more thematic - it is a playback list around a theme
+#indieweb @benwerd: we have  Convoy at Known that is designed to connect your blog to other sites, and we'll make it for wordpress too
+#indieweb @kylewmahan: wordpress is a convenient unauthenticated shell that happens to have a blogging tool attached
+#indieweb @kylewmahan: I worked on http://feverdream.herokuapp.com/ which lets you post to wordpress, blogger, tumblr with mciropub
+#indieweb @kevinmarks: I was able to post to my tumblr (Which I forgot I had) with feverdream
+#indieweb @kylewmahan: I have been working on brid.gy support for known and tumblr integration
+#indieweb @kylewmahan: brid.gy doesn't currently give enough feedback for known users so I'm working on this
+#indieweb @webrecorder_io: I work on a tool called webrecorder.io to build a new archiving service for everyone to use
+#indieweb @webrecorder_io: beta.webrecorder.io is an updated version of the archiving software
+#indieweb @webrecorder_io: flash is always difficult to archive - I was wondering if mozilla shumway could help with that
+#indieweb @webrecorder_io: the proxy runs as a separate app that rewrite them to localhost
+#indieweb @webrecorder_io: unlike internet archive this is more personal - you don't have to put it on a server
+#indieweb @webrecorder_io: all the core functionality is on github in Python if you want ot look at it, and the archive player
+#indieweb @webrecorder_io: you need to go through a browser or a headless browser to be sure that you catch all the links 
+#indieweb @dpg: I just launched a social network for makers - so now we have to scale it
+#indieweb @dpg: I come here for inspiration - having coding as my job means I don't get to hack shit for fun anymore
+#indieweb @dpg: makerspace.com is the site I just launched and people are telling me what they think of my baby
+#indieweb @dpg: I'm starting a robotics meetup at the Palace of Fine Arts every weekend
+#indieweb @bengo: I just got an epsarino computer on a board, and I want to learn to hack it
+#indieweb @bengo: I wrote a post about how to do fuzzy matching in text annotations: http://blog.livefyre.com/architecting-sidenotes/
+#indieweb @kevinmarks: in trying to make feedparser support microformats again, I updated mf2py to give more information about URLs for rels
+#indieweb @kevinmarks: I also made noterlive.com have better twitter previews by brute forcing the twitter embedded iframe layout
