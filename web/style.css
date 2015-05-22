@@ -5,6 +5,8 @@ body {font-family: "Hoefler Text", Georgia, serif; background-color: white;}
 h1,h2,h3,.webmention-name { font-family: "Gill Sans", Roboto,Verdana, sans-serif; }
 .h-cite { background-color: linen;}
 
+blockquote.auto-mention {font-size:.8em; border: 1px solid gray; border-radius: 4px; max-width: 25em; padding: .8em; text-decoration:none; color:black;}
+blockquote.auto-mention cite {font-style:bold; }
 .webmention-author img {height: 3em; float:left; margin:.25em;}
 .webmention-mention { margin:.5em; background-color: linen;}
 .webmention-facepile > li {
