@@ -1,4 +1,4 @@
-<head><title>Mentions as quotes and highlights</title>
+<head><title>Mentions as quotes</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <script src="fragmention.js"></script>
@@ -7,16 +7,21 @@
 </head>
 <body>
 <article class="h-entry">
-<h1 class="p-name">Mentions as quotes  and highlights<time class="dt-published">2015-05-22</time></h1>
+<h1 class="p-name">Mentions as quotes <time class="dt-published">2015-05-22</time></h1>
 <div class="e-content">
 A posting style I use a lot on twitter is to extract a quote from an article and tweet that with a link to the article, for example:
 <blockquote class="twitter-tweet" data-cards="hidden" lang="en"><p lang="en" dir="ltr">“The web doesn’t suck. Your websites suck. All of your websites suck.” <a href="https://twitter.com/fakebaldur">@fakebaldur</a> <a href="https://t.co/OunZre0KAI">https://t.co/OunZre0KAI</a></p>&mdash; Kevin Marks (@kevinmarks) <a href="https://twitter.com/kevinmarks/status/601178851541061633">May 21, 2015</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-Something twitter has started to do with tweets is that if you link to one inside a tweet, it will display the tweet inline in your tweet, like so:
+Something twitter has started to do with tweets is that if you link to one inside a tweet, it will display the tweet indented after your tweet, hiding the URL like so:
 <div><img src="jeffquote.png" /></div>
 I was wondering how to do this as a part of auto-linking URLs, and realised that with a fragmention, we potentially have a quote from the source in the link itself. Thus we could turn a link like this: <code>https://kartikprabhu.com/article/marginalia#In%20the%20case%20of%20digital%20content,%20the%20artifact,%20once%20created%20and%20published,%20is%20not%20static.</code>
 into an inline embed like this:
 <blockquote class="auto-mention"><a class="auto-link" href="https://kartikprabhu.com/article/marginalia#In%20the%20case%20of%20digital%20content,%20the%20artifact,%20once%20created%20and%20published,%20is%20not%20static"><cite>kartikprabhu.com</cite><p>In the case of digital content, the artifact, once created and published, is not static</p></a></blockquote>
+
+I updated <a href="https://github.com/kevinmarks/cassis-autolink-py">my fork</a> of cassis-autolink.py to have this behaviour. Do let me know what you think.
+
+
+
 
 
 
