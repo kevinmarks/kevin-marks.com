@@ -24,14 +24,14 @@ article {position: fixed; top:2em ; height: calc(100% - 2em); width:100%; displa
 <p>Several people pointed to the New York Times <a href="http://open.blogs.nytimes.com/2011/01/11/emphasis-update-and-source/">Emphasis</a> project, which builds IDs from initial letters of sentences in a paragraph to provide some degree of resilience against the linked-to text being changed. It also tries using edit distances if it can't find the text.
 <p>Whether you still want to link to changed text is a tricky problem - if it has completely been removed, then the annotation or point of linking may have gone (pointing out a typo, or misstatement). Even a small change (adding the word 'not' for example) can mean that the point of linking has changed, so my first thought is that changing the text breaking the link can be reasonable.
 <p>If you want some fuzzy matching to go on, having more of the linked-to text in the fragment can only help the linked-to page identify where in the text was intended. Indeed, if enough is included, you could show the difference between what was linked to and what is there now.
-
+<details><summary>Recurring text</summary>
 <h2 id="more">What if the linked-to text occurs more than once?</h2>
 <p>By default, go to the first instance. If you want a different link, use more words to create a unique reference. While there have been proposals to <a href="http://indiewebcamp.com/irc/2014-04-22/line/1398233800">link to the nth occurrence</a> using more <a href="http://www.gerv.net/software/fragment-search/">complex syntax</a>, I don't think this is actually a natural choice, and likely to be more fragile. The NYT Emphasis tool mentioned above switched from a nth sentence type model to a content dependent one for this reason; fragmentions simplify and extend this idea.
 <p>I have tried to come up with a use case that fits this goal - the closest I can think of is referring to a particular repetition of a line of poetry, for example in a villanelle.
 <p> I can link to <a href="##rage+against+the+dying+of+the+light">the 3rd line of the 1st verse</a> by citing it in full. If I wanted the final line, linking to <a href="##Do+not+go+gentle+into+that+good+night.+Rage,+rage+against+the+dying+of+the+light.">it and the line before</a> would work. I think this is clear, though linking to <a href="##night.+Rage">night & Rage</a> would be enough.
 <p>The only reason I can think of to link to specific lines would be to discuss them in the context of surrounding lines, so I think this works adequately.
 <p>If a tool is made to allow readers to construct a link to a specific phrase, indicating that that phrase is not unique to encourage them to choose a longer phrase may be worth it.
-
+</details>
 <h2>Could you combine an id and a fragmention?</h2>
 <p>A link of form #id##some+words has been suggested, but again I'm not sure I see the utility. This is the nth occurrence idea in a different guise. It combines two addressing models in one, making it harder to construct and more fragile to resolve.
 <h2>Can we get rid of ## and just use #?</h2>
