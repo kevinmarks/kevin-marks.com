@@ -1,0 +1,28 @@
+
+#indieweb @t: welcome to Homebrew Website Club and Mozilla
+#indieweb @t: on tantek.com I got one thing done - when I post an RSVP to an event, I now use bridgy publish to POSSE that to FB
+#indieweb @t: I write in either cassis or PHP - cassis is the intersection of javascript and PHP, I made code that runs in both
+#indieweb @benwerd: search on my site has been a pain because I was using MySQL full text indexes, which prevents stopwords like 'known'
+#indieweb @benwerd: I was trying to link to a hashtag with 2 characters, and soeon else was searching for god on their site
+#indieweb @benwerd: so now you can use known to find God
+#indieweb @benwerd: I've also been extracting bootstrap 2 from the site so we can replace it with bootstrap 3 or foundation or polymer
+#indieweb @t: search has been a pain point for me - google search has been less specific over time
+#indieweb @bengo: I am a fan of elasticsearch (in reference to ranking.ninja)
+#indieweb @kylewmahan: I had a service running on heroku that posts to tumblr, wordpress and blogger which now runs on silo.pub 
+#indieweb @kylewmahan: as I did this while Kevin was going on the TWiG show, @leolaporte was the first person to sign into silo.pub
+#indieweb @joshuajuran: http://www.vcode.org/ is the new site that I just launched for my new programming language V
+#indieweb @joshuajuran: freemount is a remote file access protocol that runs over ssh, which works well with virtual file systems 
+#indieweb @bengo: I got some microprocessors recently, so am experimenting with webservers running on small CPUs in your house
+#indieweb @schnarfed: there is a similar project called unhosted that stores users data in their dropbox accounts
+#indieweb @bengo: Google announced the physical web repo so that small devices that could broadcast their URL to nearby devices
+#indieweb @t: Scott Jensen is behind the physical web ideas at Google
+#indieweb @bengo: you could make a raspberry pi attached to a tv that hears the devices URL and greets you by name by parsing hcard
+#indieweb @bengo: I ran into Dan Gillmor at the annotation workshop in NYC recently, but there is a tension between company and journalist
+#indieweb @schnarfed: there is a big graveyard of web annotation projects
+#indieweb @KuraFire: Hi I'm Faruk designer/developer made modernizr - has anyone written here an html5 app for windows 8?
+#indieweb @t: all of our websites are html5 apps, so why not have them on the windows store?
+#indieweb @KuraFire: the goal it to make it possible to sell web apps to Windows Store users, but have not seen much uptake
+#indieweb @t: this sounds a lot like the firefox micromarketplace (as well as the chrome store)
+#indieweb @t: everyone has their own manifest format - chrome, firefox and windows store because the w3c standard isn't final yet
+#indieweb @schnarfed: I work on brid.gy with @kylewmahan
+#indieweb @schnarfed: one thing that resonated with me was that using the indieweb from your phone does not work well now- no great setup
