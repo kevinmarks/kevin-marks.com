@@ -1,0 +1,72 @@
+<html>
+<head><title>Homebrew Website Club 2015-06-17</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="fragmention.js"></script>
+<link href="style.css" media="all" rel="stylesheet" type="text/css" />
+<link rel="webmention" href="https://webmention.herokuapp.com/api/webmention" />
+</head>
+<body>
+<article class="h-entry">
+<h1 class="p-name">Homebrew Website Club <time class="dt-published">2015-06-17</time></h1>
+<div class="e-content">
+
+<p><a class='h-card p-category' href='http://tantek.com/'>Tantek Çelik</a>:  <blockquote><p>I finally got automatic sending of webmentions in my replay posts working instead of using curl
+<p>the same one click that says "publish this, call pubsubhubbub, send to twitter" now sends webmentions
+<p>in the preview UI that I have, it also now shows who will get webmentions when I post
+<p>My CMS is called Falcon, and the open source part is Cassis
+<p>a later iteration would be to do these asynchronously and update the UI as they happen.
+<p></blockquote>
+<a class='h-card p-category' href='http://kevinmarks.com'>Kevin Marks</a>:  <blockquote><p>you can curl <a class="auto-link" href="http://web.archive.org/web/">http://web.archive.org/web/</a>[url] to archive a post
+<p>#indieweb <a class="auto-link h-x-username" href="https://twitter.com/kevinmarks">@kevinmarks</a>: you can curl <a class="auto-link" href="http://web.archive.org/save/">http://web.archive.org/save/</a>[url] to archive a post
+<p>medium is being indieweb friendly by creating 'originally on' links per <a class="auto-link" href="http://tantek.com/2015/168/t2/five-words-permalink-that-make-silo-post">http://tantek.com/2015/168/t2/five-words-permalink-that-make-silo-post</a>
+<p></blockquote>
+<a class='h-card p-category' href='http://tantek.com/'>Tantek Çelik</a>:  <blockquote><p>there's 2 forces working against feeds —laziness in that we already have html pages that everyone can see; a feed is more work
+<p>from the large company perspective they don't see the RoI on feeds - why are we making these?
+<p></blockquote>
+<a class='h-card p-category' href='http://jdavid.net'>Justin Kruger</a>:  <blockquote><p>doesn't the code for a feed come for free with a CMS?
+<p></blockquote>
+<a class='h-card p-category' href='http://tantek.com/'>Tantek Çelik</a>:  <blockquote><p>No code is free - if you add a feature to your CMS the feed now needs changing too
+<p></blockquote>
+<a class='h-card p-category' href='http://werd.io/'>Ben Werdmüller</a>:  <blockquote><p>Apple just announced a news app, but the publishers can't do the bizdev deals with feeds
+<p></blockquote>
+<a class='h-card p-category' href='http://jdavid.net'>Justin Kruger</a>:  <blockquote><p>How do we provide economic incentive to keep the web open?
+<p>I'm going to lose Yahoo pipes soon, and I use it
+<p>Yahoo pipes can take a while to render the pipe
+<p></blockquote>
+<a class='h-card p-category' href='http://kevinmarks.com'>Kevin Marks</a>:  <blockquote><p>could you use Pubsubhubbub  to provide a Pipes equivalent without the lag?
+<p></blockquote>
+<a class='h-card p-category' href='http://tantek.com/'>Tantek Çelik</a>:  <blockquote><p>barnaby built a pipes competitor a while ago at <a class="auto-link" href="https://waterpigs.co.uk/intertubes/">https://waterpigs.co.uk/intertubes/</a>
+<p></blockquote>
+<a class='h-card p-category' href='http://werd.io/'>Ben Werdmüller</a>:  <blockquote><p>google has a thing that bids against google ads for you to pay the site directly
+<p></blockquote>
+<a class='h-card p-category' href='http://kevinmarks.com'>Kevin Marks</a>:  <blockquote><p>I saw <a class="auto-link h-x-username" href="https://twitter.com/ftrain">@ftrain</a>'s wonderful article on code this week and I'd love to send him $5 for it
+<p></blockquote>
+<a class='h-card p-category' href='http://tantek.com/'>Tantek Çelik</a>:  <blockquote><p>I've suggested a "pay me" page that links to various payment services that you accept so you can use it to send money
+<p>the idea is to do it like this: <a class="auto-link" href="https://indiewebcamp.com/payment">https://indiewebcamp.com/payment</a>
+<p></blockquote>
+<a class='h-card p-category' href='http://jdavid.net'>Justin Kruger</a>:  <blockquote><p>one of the things that facebook does that twitter dowsn't is personalising the news feed
+<p></blockquote>
+<a class='h-card p-category' href='http://werd.io/'>Ben Werdmüller</a>:  <blockquote><p>micropub and indieauth are now on by default in <a class="auto-link" href="http://withknown.com">withknown.com</a> so ti is much easier
+<p>also <a class="auto-link h-x-username" href="https://twitter.com/erinjo">@erinjo</a> has built a new theme for Known that has a rich preview of photos and maps 
+<p>the other thing has been to publish out from Known with micropub to other sites, including othwr Known
+<p></blockquote>
+<a class='h-card p-category' href='http://kevinmarks.com'>Kevin Marks</a>:  <blockquote><p>will this also work with silo.pub ?
+<p></blockquote>
+<a class='h-card p-category' href='http://werd.io/'>Ben Werdmüller</a>:  <blockquote><p>yes we will make this work too
+
+</blockquote>
+</div>
+</article>
+<script id="webmention-hosted">
+  (function () {
+    var sn = document.createElement("script"), s = document.getElementsByTagName("script")[0], url;
+    url = document.querySelectorAll ? document.querySelectorAll("link[rel~=canonical]") : false;
+    url = url && url[0] ? url[0].href : false;
+    sn.type = "text/javascript"; sn.async = true;
+    sn.src = "//webmention.herokuapp.com/api/embed?version=cutting-edge&url=" + encodeURIComponent(url || window.location);
+    s.parentNode.insertBefore(sn, s);
+  }());
+</script>
+
+</body>

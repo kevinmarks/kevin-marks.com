@@ -1,0 +1,29 @@
+
+#indieweb @t: I finally got automatic sending of webmentions in my replay posts working instead of using curl
+#indieweb @t: the same one click that says "publish this, call pubsubhubbub, send to twitter" now sends webmentions
+#indieweb @t: in the preview UI that I have, it also now shows who will get webmentions when I post
+#indieweb @t: My CMS is called Falcon, and the open source part is Cassis
+#indieweb @t: a later iteration would be to do these asynchronously and update the UI as they happen.
+#indieweb @kevinmarks: you can curl http://web.archive.org/web/[url] to archive a post
+#indieweb @kevinmarks: #indieweb @kevinmarks: you can curl http://web.archive.org/save/[url] to archive a post
+#indieweb @kevinmarks: medium is being indieweb friendly by creating 'originally on' links per http://tantek.com/2015/168/t2/five-words-permalink-that-make-silo-post
+#indieweb @t: there's 2 forces working against feeds —laziness in that we already have html pages that everyone can see; a feed is more work
+#indieweb @t: from the large company perspective they don't see the RoI on feeds - why are we making these?
+#indieweb @jdavid: doesn't the code for a feed come for free with a CMS?
+#indieweb @t: No code is free - if you add a feature to your CMS the feed now needs changing too
+#indieweb @benwerd: Apple just announced a news app, but the publishers can't do the bizdev deals with feeds
+#indieweb @jdavid: How do we provide economic incentive to keep the web open?
+#indieweb @jdavid: I'm going to lose Yahoo pipes soon, and I use it
+#indieweb @jdavid: Yahoo pipes can take a while to render the pipe
+#indieweb @kevinmarks: could you use Pubsubhubbub  to provide a Pipes equivalent without the lag?
+#indieweb @t: barnaby built a pipes competitor a while ago at https://waterpigs.co.uk/intertubes/
+#indieweb @benwerd: google has a thing that bids against google ads for you to pay the site directly
+#indieweb @kevinmarks: I saw @ftrain's wonderful article on code this week and I'd love to send him $5 for it
+#indieweb @t: I've suggested a "pay me" page that links to various payment services that you accept so you can use it to send money
+#indieweb @t: the idea is to do it like this: https://indiewebcamp.com/payment
+#indieweb @jdavid: one of the things that facebook does that twitter dowsn't is personalising the news feed
+#indieweb @benwerd: micropub and indieauth are now on by default in withknown.com so ti is much easier
+#indieweb @benwerd: also @erinjo has built a new theme for Known that has a rich preview of photos and maps 
+#indieweb @benwerd: the other thing has been to publish out from Known with micropub to other sites, including othwr Known
+#indieweb @kevinmarks: will this also work with silo.pub ?
+#indieweb @benwerd: yes we will make this work too
