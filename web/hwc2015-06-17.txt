@@ -4,8 +4,7 @@
 #indieweb @t: in the preview UI that I have, it also now shows who will get webmentions when I post
 #indieweb @t: My CMS is called Falcon, and the open source part is Cassis
 #indieweb @t: a later iteration would be to do these asynchronously and update the UI as they happen.
-#indieweb @kevinmarks: you can curl http://web.archive.org/web/[url] to archive a post
-#indieweb @kevinmarks: #indieweb @kevinmarks: you can curl http://web.archive.org/save/[url] to archive a post
+#indieweb @kevinmarks: you can curl http://web.archive.org/save/[url] to archive a post
 #indieweb @kevinmarks: medium is being indieweb friendly by creating 'originally on' links per http://tantek.com/2015/168/t2/five-words-permalink-that-make-silo-post
 #indieweb @t: there's 2 forces working against feeds —laziness in that we already have html pages that everyone can see; a feed is more work
 #indieweb @t: from the large company perspective they don't see the RoI on feeds - why are we making these?
