@@ -95,87 +95,46 @@ body {font-size:100%; text-align:left; color:black; background-color:white}
 
 <pre class="prettyprint lang-html linenums microformats-parsed ">
 {
-    "rels": {}, 
-    "items": [
-        {
-            "type": [
-                "h-schema-RadioSeries"
-            ], 
-            "properties": {
-                "url": [
-                    "http://www.bbc.co.uk/programmes/b006qykl"
-                ], 
-                "schema-episode": [
-                    {
-                        "type": [
-                            "h-schema-RadioEpisode"
-                        ], 
+    "items": [{
+        "type": ["h-schema-RadioSeries"],
+        "properties": {
+            "name": ["In Our Time"],
+            "schema-episode": [{
+                "value": "Ordinary Language Philosophy",
+                "type": ["h-schema-RadioEpisode"],
+                "properties": {
+                    "name": ["Ordinary Language Philosophy"],
+                    "schema-position": ["604"],
+                    "schema-publication": [{
+                        "value": "BBC Radio 4\n      at 09:00, 7th of November 2013",
+                        "type": ["h-schema-BroadcastEvent"],
                         "properties": {
-                            "schema-position": [
-                                "604"
-                            ], 
-                            "url": [
-                                "http://www.bbc.co.uk/programmes/b03ggc19"
-                            ], 
-                            "schema-publication": [
-                                {
-                                    "type": [
-                                        "h-schema-BroadcastEvent"
-                                    ], 
-                                    "properties": {
-                                        "schema-publishedOn": [
-                                            {
-                                                "type": [
-                                                    "h-schema-BroadcastService"
-                                                ], 
-                                                "properties": {
-                                                    "url": [
-                                                        "http://bbc.co.uk/radio4"
-                                                    ], 
-                                                    "name": [
-                                                        "BBC Radio 4"
-                                                    ]
-                                                }, 
-                                                "value": "BBC Radio 4"
-                                            }
-                                        ], 
-                                        "schema-startDate": [
-                                            "2013-11-07T09:00:00+0100"
-                                        ], 
-                                        "name": [
-                                            "BBC Radio 4\n      at 09:00, 7th of November 2013"
-                                        ]
-                                    }, 
-                                    "value": "BBC Radio 4\n      at 09:00, 7th of November 2013"
-                                }, 
-                                {
-                                    "type": [
-                                        "h-schema-OnDemandEvent"
-                                    ], 
-                                    "properties": {
-                                        "schema-startDate": [
-                                            "2013-11-07T09:45:00+0100"
-                                        ], 
-                                        "name": [
-                                            "09:45 on the same day"
-                                        ]
-                                    }, 
-                                    "value": "09:45 on the same day"
+                            "schema-publishedOn": [{
+                                "value": "BBC Radio 4",
+                                "type": ["h-schema-BroadcastService"],
+                                "properties": {
+                                    "name": ["BBC Radio 4"],
+                                    "url": ["http://bbc.co.uk/radio4"]
                                 }
-                            ], 
-                            "name": [
-                                "Ordinary Language Philosophy"
-                            ]
-                        }, 
-                        "value": "Ordinary Language Philosophy"
-                    }
-                ], 
-                "name": [
-                    "In Our Time"
-                ]
-            }
+                            }],
+                            "schema-startDate": ["2013-11-07T09:00+0100"],
+                            "name": ["BBC Radio 4\n      at 09:00, 7th of November 2013"]
+                        }
+                    }, {
+                        "value": "09:45 on the same day",
+                        "type": ["h-schema-OnDemandEvent"],
+                        "properties": {
+                            "schema-startDate": ["2013-11-07T09:45+0100"],
+                            "name": ["09:45 on the same day"]
+                        }
+                    }],
+                    "url": ["http://www.bbc.co.uk/programmes/b03ggc19"]
+                }
+            }],
+            "url": ["http://www.bbc.co.uk/programmes/b006qykl"]
         }
-    ], 
+    }],
+    "rels": {},
     "rel-urls": {}
 }
 </pre>
@@ -258,7 +217,7 @@ body {font-size:100%; text-align:left; color:black; background-color:white}
 </div>
 <p>Things to note here:
 <ul><li>I've prefixed the schema-specific properties as a <a href="http://microformats.org/wiki/microformats2#VENDOR_EXTENSIONS">vendor vocabulary</a> ie <code>h-schema-RadioSeries</code> rather then <code>h-RadioSeries</code> to show it's an extension that hasn't been through the <a href="http://microformats.org/wiki/process">microformats process</a>
-<li>The Microformats JSON is <a href="http://www.unmung.com/?html=%3Cdiv+class%3D%22h-schema-RadioSeries%22%3E%0D%0A++%3Ca+class%3D%22p-name%22+href%3D%22http%3A%2F%2Fwww.bbc.co.uk%2Fprogrammes%2Fb006qykl%22%3EIn+Our+Time%3C%2Fa%3E%2C%0D%0A++%3Cdiv+class%3D%22p-schema-episode+h-schema-RadioEpisode%22%3E%0D%0A++++%3Ca+class%3D%22p-name%22+href%3D%22http%3A%2F%2Fwww.bbc.co.uk%2Fprogrammes%2Fb03ggc19%22%3EOrdinary+Language+Philosophy%3C%2Fa%3E%2C%0D%0A++++episode+%3Cspan+class%3D%22p-schema-position%22%3E604%3C%2Fspan%3E%2C%0D%0A++++broadcast+on+%0D%0A++++%3Cspan+class%3D%22p-schema-publication+h-schema-BroadcastEvent%22%3E%0D%0A++++++%3Ca+class%3D%22p-schema-publishedOn+h-schema-BroadcastService%22+href%3D%22http%3A%2F%2Fbbc.co.uk%2Fradio4%22%3EBBC+Radio+4%3C%2Fa%3E%0D%0A++++++at+%3Ctime+class%3D%22dt-schema-startDate%22+datetime%3D%222013-11-07T09%3A00%2B0100%22%3E09%3A00%2C+7th+of+November+2013%3C%2Ftime%3E%0D%0A++++%3C%2Fspan%3E%2C+available+online+from+%0D%0A++++%3Cspan+class%3D%22p-schema-publication+h-schema-OnDemandEvent%22%3E%0D%0A++++++%3Ctime+class%3D%22dt-schema-startDate%22+datetime%3D%222013-11-07T09%3A45%2B0100%22%3E09%3A45%3C%2Ftime%3E+on+the+same+day%0D%0A++++%3C%2Fspan%3E.%0D%0A++%3C%2Fdiv%3E%0D%0A%3C%2Fdiv%3E&pretty=on">parsed directly from the HTML</a>, and will be <a href="https://mf2j.herokuapp.com/?url=http://www.kevinmarks.com/inourtime.html">consistent</a> across <a href="http://www.unmung.com/mf2?url=http%3A%2F%2Fwww.kevinmarks.com%2Finourtime.html&html=&pretty=on">parsers</a> in <a href="http://pin13.net/mf2/?url=http://www.kevinmarks.com%2Finourtime.html">different</a> <a href="http://glennjones.net/tools/microformats/?url=http%3A%2F%2Fwww.kevinmarks.com%2Finourtime.html&callback=&dateformat=auto">languages</a>. Whereas the JSON-LD is a separate <a href="http://microformats.org/wiki/DRY">DRY</a> violating piece of data that goes out of sync with the information in the page (as the example from schema.org shows - not sure if that is a parsing failure or poor manual updating)
+<li>The Microformats JSON is <a href="http://www.unmung.com/?html=%3Cdiv+class%3D%22h-schema-RadioSeries%22%3E%0D%0A++%3Ca+class%3D%22p-name%22+href%3D%22http%3A%2F%2Fwww.bbc.co.uk%2Fprogrammes%2Fb006qykl%22%3EIn+Our+Time%3C%2Fa%3E%2C%0D%0A++%3Cdiv+class%3D%22p-schema-episode+h-schema-RadioEpisode%22%3E%0D%0A++++%3Ca+class%3D%22p-name%22+href%3D%22http%3A%2F%2Fwww.bbc.co.uk%2Fprogrammes%2Fb03ggc19%22%3EOrdinary+Language+Philosophy%3C%2Fa%3E%2C%0D%0A++++episode+%3Cspan+class%3D%22p-schema-position%22%3E604%3C%2Fspan%3E%2C%0D%0A++++broadcast+on+%0D%0A++++%3Cspan+class%3D%22p-schema-publication+h-schema-BroadcastEvent%22%3E%0D%0A++++++%3Ca+class%3D%22p-schema-publishedOn+h-schema-BroadcastService%22+href%3D%22http%3A%2F%2Fbbc.co.uk%2Fradio4%22%3EBBC+Radio+4%3C%2Fa%3E%0D%0A++++++at+%3Ctime+class%3D%22dt-schema-startDate%22+datetime%3D%222013-11-07T09%3A00%2B0100%22%3E09%3A00%2C+7th+of+November+2013%3C%2Ftime%3E%0D%0A++++%3C%2Fspan%3E%2C+available+online+from+%0D%0A++++%3Cspan+class%3D%22p-schema-publication+h-schema-OnDemandEvent%22%3E%0D%0A++++++%3Ctime+class%3D%22dt-schema-startDate%22+datetime%3D%222013-11-07T09%3A45%2B0100%22%3E09%3A45%3C%2Ftime%3E+on+the+same+day%0D%0A++++%3C%2Fspan%3E.%0D%0A++%3C%2Fdiv%3E%0D%0A%3C%2Fdiv%3E&pretty=on">parsed directly from the HTML</a>, and will be consistent across <a href="http://www.unmung.com/mf2?url=http%3A%2F%2Fwww.kevinmarks.com%2Finourtime.html&html=&pretty=on">parsers</a> in <a href="http://pin13.net/mf2/?url=http://www.kevinmarks.com%2Finourtime.html">different</a> <a href="http://glennjones.net/tools/microformats/?url=http%3A%2F%2Fwww.kevinmarks.com%2Finourtime.html&callback=&dateformat=auto">languages</a>. Whereas the JSON-LD is a separate <a href="http://microformats.org/wiki/DRY">DRY</a> violating piece of data that goes out of sync with the information in the page (as the example from schema.org shows - not sure if that is a parsing failure or poor manual updating)
 <li>The Microformats markup is more compact than either Microdata or RDFa because of the implied <code>url</code> and <code>name</code> properties.
 <li> Nesting other types inside a property is much more compact than microdata and simpler than RDFa
 <dl><dt>microformats<dd><code>&lt;div class="p-episode h-RadioEpisode"&gt;</code>
