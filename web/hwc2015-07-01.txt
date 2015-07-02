@@ -1,0 +1,30 @@
+
+#indieweb @t: I added a few things to the wiki - Indiewebcamp 2015 is only 10 day away in Portland Oregon and Brighton England
+#indieweb @t: barcamp was put together in fewer than 10 days so we could still add more cities
+#indieweb @t: Karthik Prabhu has put together custom style and script per post for his site. This sin something silos don't let you do
+#indieweb @t: what would it mean to put that kind of custom style/script in a post that a Reader could pull out and present to the user?
+#indieweb @t: There's lots of things indieweb users can do on their own sites that silos don't support
+#indieweb @kevinmarks:  I found with the http://www.kevinmarks.com/microformatschema.html post that being able to paste in tabs was useful
+#indieweb @t: there are posts that are like mini web apps, and it would be nice to use them in readers
+#indieweb @kylewmahan: there is reader.kylewm.com if you want an indieweb reader 
+
+#indieweb @t: for styles there is a way to express scoped-style that only applies to a parent and its subtree
+#indieweb @t: we can also say in microformats 'save this whole subtree' with an e- prefix which would keep the style and script
+#indieweb @t: as my post storage format is html I can experiment with scoped style sin it
+#indieweb @t: Karthik pointed out that @kylewmahan does deduplication of posts with their POSSE'd comments and shows the syndicated ones
+#indieweb @t: here's @kylewmahan's deduplicated post https://kylewm.com/2015/06/i-wonder-how-much-this-conversation-is-annoying-kartikprabhu
+#indieweb @t: it is the 2 year anniversary of Google Reader's site-death today
+#indieweb @schnarfed: what kind of reader do you use now?
+#indieweb @t: I read the irc channels fro indiewebcamp and social; I read facebook's events feed; I will occasionally check twitter
+#indieweb @t: I don't use push notifications for any of these; i deliberately browse instagram
+#indieweb @danlyke: I use rssyl which is a plugin for mail to do feed reading in email all my feeds show there - emailis my primary thing
+#indieweb @kylewmahan: I use reader.kylewm.com mostly, and brings in twitter and instagram via granary github.com/snarfed/granary
+#indieweb @kylewmahan: I subscribe to the full twitter feed on there it floods it so I use a list and still chekc twitter
+#indieweb @schnarfed: I use an rss reader called newsblur; my twitter, fb, github notifications go there but I want an offline mobile app
+#indieweb @kevinmarks: I have been hacking on indiecards and hovercards on unmung.com but nerd-sniped myself into doing layout
+#indieweb @kevinmarks: is pinch-out the mobile equivalent of hover for desktop?
+#indieweb @webrecorder_io: I have a new project that works with webrecorder at archivethis.website that you cna add a URL
+#indieweb @webrecorder_io: it runs Selenium so it is archiving with Chrome or Safari browser to crawl a website as ti is rendered
+#indieweb @webrecorder_io: this catches things that javascript instantiates on the page as well as the static elements
+#indieweb @webrecorder_io: the code is all on github linked from archivethis.website
+#indieweb @danlyke: the reason Kyle had to send a manual webmention is that I was looking for a vouch parameter and only accepting those
