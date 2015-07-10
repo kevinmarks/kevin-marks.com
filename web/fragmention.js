@@ -5,12 +5,12 @@ if (!('fragmention' in window.location)) (function () {
 	// populate fragmention
 	location.fragmention = location.fragmention || '';
 
-	// return first element in scope containing case-sensitive text 
+	// return first element in scope containing case-sensitive text
 	function getElementsByText(scope, text) {
 		// iterate descendants of scope
 		for (var all = scope.childNodes, index = 0, element, list = []; (element = all[index]); ++index) {
 			// conditionally return element containing visible, whitespace-insensitive, case-sensitive text (a match)
-			if (element.nodeType == 1 && (element.innerText || element.textContent || '').replace(/\s+/g, ' ').indexOf(text) !== -1) {
+			if (element.nodeType === 1 && (element.innerText || element.textContent || '').replace(/\s+/g, ' ').indexOf(text) !== -1) {
 				list = list.concat(getElementsByText(element, text));
 			}
 		}
@@ -19,13 +19,24 @@ if (!('fragmention' in window.location)) (function () {
 		return list.length ? list : scope;
 	}
 
+	function getAnchorableElementByName(fragment) {
+		var elements = document.getElementsByName(fragment), index = -1;
+
+		while (elements[++index] && !/^A(REA)?$/.test(elements[index].nodeName)) {}
+
+		return elements[index];
+	}
+
 	// on dom ready or hash change
 	function onHashChange() {
+		// do nothing if the dom is not ready
+		if (!/e/.test(document.readyState)) return;
+
 		// set location fragmention as uri-decoded text (from href, as hash may be decoded)
 		var
-		id = location.href.match(/#(#|%23)?(.+)/) || [0,'',''],
-		node = document.getElementById(id[1]+id[2]),
-		match = decodeURIComponent(id[2]).replace(/\+/g, ' ').split('  ');
+		id = location.href.match(/#((?:#|%23)?)(.+)/) || [0,'',''],
+		node = document.getElementById(id[1]+id[2]) || getAnchorableElementByName(id[1]+id[2]),
+		match = decodeURIComponent(id[2].replace(/\+/g, ' ')).split('  ');
 
 		location.fragmention = match[0];
 		location.fragmentionIndex = parseFloat(match[1]) || 0;
@@ -74,21 +85,16 @@ if (!('fragmention' in window.location)) (function () {
 		}
 	}
 
+	var
+	// DEPRECATED: configure listeners
+	defaultListener = 'addEventListener',
+	addEventListener = defaultListener in window ? [defaultListener, ''] : ['attachEvent', 'on'],
 	// set stashed element
 	var element;
 
 	// add listeners
-	if ('addEventListener' in window) {
-		window.addEventListener('hashchange', onHashChange);
-		document.addEventListener('DOMContentLoaded', onHashChange);
-	}
-	// DEPRECATED: otherwise use old IE attachEvent
-	else {
-		window.attachEvent('onhashchange', onHashChange);
-		document.attachEvent('onreadystatechange', function () {
-			if (document.readyState[0] === 'c') {
-				onHashChange();
-			}
-		});
-	}
+	window[addEventListener[0]](addEventListener[1] + 'hashchange', onHashChange);
+	document[addEventListener[0]](addEventListener[1] + 'readystatechange', onHashChange);
+
+	onHashChange();
 })();
