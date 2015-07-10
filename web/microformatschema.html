@@ -4,45 +4,42 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <script src="fragmention.js"></script>
 <link rel="webmention" href="https://webmention.herokuapp.com/api/webmention" />
-    <link rel="stylesheet" type="text/css" href="https://schema.org/docs/schemaorg.css" />
-    <link href="https://schema.org/docs/prettify.css" type="text/css" rel="stylesheet" />
+<link href="prettify.css" type="text/css" rel="stylesheet" />
 <link href="style.css" media="all" rel="stylesheet" type="text/css" />
 <style>
 body {font-size:100%; text-align:left; color:black; background-color:white}
 .h-entry {max-width: 100%; }
 .h-entry p {max-width: 40em; }
 .h-entry ul {max-width: 40em; }
-.ds-selector {font-size:75%;}
+dl {display:-webkit-flex; display:flex; -webkit-flex-wrap: wrap; flex-wrap: wrap; -webkit-justify-content: space-around; justify-content: space-around; }
+dt {-webkit-order:1; order:1; -webkit-flex-grow:1; flex-grow:1; padding:10px; font-family:sans-serif; background:#eee; border-left:10px solid #ccc;}
+dd {-webkit-order:2; order:2; width:100%; flex-basis:auto; font-size:.9em; display:none;}
+.tab-buttons .state{
+      position: absolute;
+      left: -10000px;
+    }
+#tab1:checked ~ dl #original-html-tab,
+#tab2:checked ~ dl #microformats-tab,
+#tab3:checked ~ dl #microformats-parsed-tab,
+#tab4:checked ~ dl #microdata-tab,
+#tab5:checked ~ dl #rdfa-tab,
+#tab6:checked ~ dl #jsonld-tab {
+    background-color: white;
+    cursor: default;
+    border-left-color: gold;
+}
+
+#tab1:checked ~ dl #original-html,
+#tab2:checked ~ dl #microformats,
+#tab3:checked ~ dl #microformats-parsed,
+#tab4:checked ~ dl #microdata,
+#tab5:checked ~ dl #rdfa,
+#tab6:checked ~ dl #jsonld {
+    display:block;
+}
+
 </style>
-    <script type="text/javascript" src="https://schema.org/docs/prettify.js"></script>
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
-<script type="text/javascript">
-      $(document).ready(function(){
-        prettyPrint();
-        setTimeout(function(){
-
-  $(".atn:contains(itemscope), .atn:contains(itemtype), .atn:contains(itemprop), .atn:contains(itemid), .atn:contains(time), .atn:contains(datetime), .atn:contains(datetime), .tag:contains(time) ").addClass('new');
-  $('.new + .pun + .atv').addClass('curl');
-
-        }, 500);
-        setTimeout(function(){
-
-  $(".atn:contains(property), .atn:contains(typeof) ").addClass('new');
-  $('.new + .pun + .atv').addClass('curl');
-
-        }, 500);
-        setTimeout(function() {
-          $('.ds-selector-tabs .selectors a').click(function() {
-            var $this = $(this);
-            var $p = $this.parents('.ds-selector-tabs');
-            $('.selected', $p).removeClass('selected');
-            $this.addClass('selected');
-            $('pre.' + $this.data('selects'), $p).addClass('selected');
-          });
-        }, 0);
-      });
-</script>
-</head>
+<script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js?skin=sunburst"></script></head>
 <body>
 <article class="h-entry">
 <h1 class="p-name">Microformats 2 and Schema  <time class="dt-published">2015-06-30</time></h1>
@@ -57,25 +54,26 @@ body {font-size:100%; text-align:left; color:black; background-color:white}
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 <p>For the sake of daftness, I'm going to show how to do this. I'm going to take the 2nd example of <a href="https://schema.org/BroadcastService"> BroadcastService</a>, about In Our Time and give a microformats2 markup for the arbitrary schema vocab.
 <p>Immediately, there is some confusion as the various examples given don't match (the JSON-LD is missing all of the episode name information, and has misparsed the dates as text; the microdata and RDFa have injected lots of extra div's that will relayout the page) but I'll see if I can match the microdata/RDFa examples:
-
-<div class='ds-selector-tabs ds-selector'>
-  <div class='selectors'>
-    <a value='original_html' data-selects='original_html' class='selected'>Without Markup</a>
-    <a value='microformats' data-selects='microformats' class=''>Microformats 2</a>
-    <a value='microformats-parsed' data-selects='microformats-parsed' class=''>Parsed microformats</a>
-    <a value='microdata' data-selects='microdata' class=''>Microdata</a>
-    <a value='rdfa' data-selects='rdfa' class=''>RDFa</a>
-    <a value='jsonld' data-selects='jsonld' class=''>JSON-LD</a>
-</div>
-
-<pre class="prettyprint lang-html linenums original_html selected">&lt;div&gt;
+<div class="tab-buttons">
+<input class="state" type="radio" name="tabs-state" id="tab1" checked />
+<input class="state" type="radio" name="tabs-state" id="tab2"  />
+<input class="state" type="radio" name="tabs-state" id="tab3"  />
+<input class="state" type="radio" name="tabs-state" id="tab4"  />
+<input class="state" type="radio" name="tabs-state" id="tab5"  />
+<input class="state" type="radio" name="tabs-state" id="tab6"  />
+<dl>
+<dt id="original-html-tab"><label for="tab1">Original HTML</label></dt>
+<dd id="original-html">
+<pre class="prettyprint lang-html linenums selected">&lt;div&gt;
  &lt;a href="http://www.bbc.co.uk/programmes/b006qykl"&gt;In Our Time&lt;/a&gt;,
  &lt;a href="http://www.bbc.co.uk/programmes/b03ggc19"&gt;Ordinary Language Philosophy&lt;/a&gt;, episode 604,
  broadcast on BBC Radio 4 at 09:00, 7th of November 2013, available online from 09:45 on the same day.
 &lt;/div&gt;
 </pre>
-
-<pre class="prettyprint lang-html linenums microformats ">
+</dd>
+<dt id="microformats-tab"><label for="tab2">Microformats 2</label></dt>
+<dd id="microformats">
+<pre class="prettyprint lang-html linenums ">
 &lt;div class="h-schema-RadioSeries"&gt;
   &lt;a class="p-name" href="http://www.bbc.co.uk/programmes/b006qykl"&gt;In Our Time&lt;/a&gt;,
   &lt;div class="p-schema-episode h-schema-RadioEpisode"&gt;
@@ -92,8 +90,10 @@ body {font-size:100%; text-align:left; color:black; background-color:white}
   &lt;/div&gt;
 &lt;/div&gt;
 </pre>
-
-<pre class="prettyprint lang-html linenums microformats-parsed ">
+</dd>
+<dt id="microformats-parsed-tab"><label for="tab3">Microformats Parsed</label></dt>
+<dd id="microformats-parsed">
+<pre class="prettyprint lang-yaml linenums">
 {
     "items": [{
         "type": ["h-schema-RadioSeries"],
@@ -138,8 +138,9 @@ body {font-size:100%; text-align:left; color:black; background-color:white}
     "rel-urls": {}
 }
 </pre>
-
-
+</dd>
+<dt id="microdata-tab"><label for="tab4">Microdata</label></dt>
+<dd id="microdata">
 <pre class="prettyprint lang-html linenums microdata ">&lt;div itemscope itemtype="http://schema.org/RadioSeries"&gt;
   &lt;a itemprop="url" href="http://www.bbc.co.uk/programmes/b006qykl"&gt;
    &lt;span itemprop="name"&gt;In Our Time&lt;/span&gt;&lt;/a&gt;,
@@ -162,8 +163,10 @@ body {font-size:100%; text-align:left; color:black; background-color:white}
   &lt;/div&gt;
 &lt;/div&gt;
 </pre>
-
-<pre class="prettyprint lang-html linenums rdfa ">&lt;div vocab="http://schema.org/" typeof="RadioSeries"&gt;
+</dd>
+<dt id="rdfa-tab"><label for="tab5">RDFa</label></dt>
+<dd id="rdfa">
+<pre class="prettyprint lang-html linenums ">&lt;div vocab="http://schema.org/" typeof="RadioSeries"&gt;
   &lt;a property="url" href="http://www.bbc.co.uk/programmes/b006qykl"&gt;
    &lt;span property="name"&gt;In Our Time&lt;/span&gt;&lt;/a&gt;,
   &lt;div property="episode"  typeof="RadioEpisode"&gt;
@@ -185,8 +188,10 @@ body {font-size:100%; text-align:left; color:black; background-color:white}
   &lt;/div&gt;
 &lt;/div&gt;
 </pre>
-
-<pre class="prettyprint lang-html linenums jsonld ">&lt;script type="application/ld+json"&gt;
+</dd>
+<dt id="jsonld-tab"><label for="tab6">JSON-LD</label></dt>
+<dd id="jsonld">
+<pre class="prettyprint lang-html linenums ">&lt;script type="application/ld+json"&gt;
 {
   "@context": "http://schema.org",
   "@type": "RadioSeries",
@@ -213,17 +218,14 @@ body {font-size:100%; text-align:left; color:black; background-color:white}
 }
 &lt;/script&gt;
 </pre>
-
+</dd>
+</dl>
 </div>
 <p>Things to note here:
 <ul><li>I've prefixed the schema-specific properties as a <a href="http://microformats.org/wiki/microformats2#VENDOR_EXTENSIONS">vendor vocabulary</a> ie <code>h-schema-RadioSeries</code> rather then <code>h-RadioSeries</code> to show it's an extension that hasn't been through the <a href="http://microformats.org/wiki/process">microformats process</a>
 <li>The Microformats JSON is <a href="http://www.unmung.com/?html=%3Cdiv+class%3D%22h-schema-RadioSeries%22%3E%0D%0A++%3Ca+class%3D%22p-name%22+href%3D%22http%3A%2F%2Fwww.bbc.co.uk%2Fprogrammes%2Fb006qykl%22%3EIn+Our+Time%3C%2Fa%3E%2C%0D%0A++%3Cdiv+class%3D%22p-schema-episode+h-schema-RadioEpisode%22%3E%0D%0A++++%3Ca+class%3D%22p-name%22+href%3D%22http%3A%2F%2Fwww.bbc.co.uk%2Fprogrammes%2Fb03ggc19%22%3EOrdinary+Language+Philosophy%3C%2Fa%3E%2C%0D%0A++++episode+%3Cspan+class%3D%22p-schema-position%22%3E604%3C%2Fspan%3E%2C%0D%0A++++broadcast+on+%0D%0A++++%3Cspan+class%3D%22p-schema-publication+h-schema-BroadcastEvent%22%3E%0D%0A++++++%3Ca+class%3D%22p-schema-publishedOn+h-schema-BroadcastService%22+href%3D%22http%3A%2F%2Fbbc.co.uk%2Fradio4%22%3EBBC+Radio+4%3C%2Fa%3E%0D%0A++++++at+%3Ctime+class%3D%22dt-schema-startDate%22+datetime%3D%222013-11-07T09%3A00%2B0100%22%3E09%3A00%2C+7th+of+November+2013%3C%2Ftime%3E%0D%0A++++%3C%2Fspan%3E%2C+available+online+from+%0D%0A++++%3Cspan+class%3D%22p-schema-publication+h-schema-OnDemandEvent%22%3E%0D%0A++++++%3Ctime+class%3D%22dt-schema-startDate%22+datetime%3D%222013-11-07T09%3A45%2B0100%22%3E09%3A45%3C%2Ftime%3E+on+the+same+day%0D%0A++++%3C%2Fspan%3E.%0D%0A++%3C%2Fdiv%3E%0D%0A%3C%2Fdiv%3E&pretty=on">parsed directly from the HTML</a>, and will be consistent across <a href="http://www.unmung.com/mf2?url=http%3A%2F%2Fwww.kevinmarks.com%2Finourtime.html&html=&pretty=on">parsers</a> in <a href="http://pin13.net/mf2/?url=http://www.kevinmarks.com%2Finourtime.html">different</a> <a href="http://glennjones.net/tools/microformats/?url=http%3A%2F%2Fwww.kevinmarks.com%2Finourtime.html&callback=&dateformat=auto">languages</a>. Whereas the JSON-LD is a separate <a href="http://microformats.org/wiki/DRY">DRY</a> violating piece of data that goes out of sync with the information in the page (as the example from schema.org shows - not sure if that is a parsing failure or poor manual updating)
 <li>The Microformats markup is more compact than either Microdata or RDFa because of the implied <code>url</code> and <code>name</code> properties.
 <li> Nesting other types inside a property is much more compact than microdata and simpler than RDFa
-<dl><dt>microformats<dd><code>&lt;div class="p-episode h-RadioEpisode"&gt;</code>
-<dt>microdata<dd><code>&lt;div itemprop="episode" itemscope itemtype="http://schema.org/RadioEpisode"&gt;</code>
-<dt>RDFa<dd><code>&lt;div property="episode"  typeof="RadioEpisode"&gt;</code>
-</dl>
 <li>This example also shows other issues with the schema.org vocabulary - why is the episode number a <a href="https://schema.org/CreativeWork">CreativeWork</a>:<a href="https://schema.org/position">position</a> and not a <a href="https://schema.org/RadioSeries">RadioSeries</a>:<a href="https://schema.org/Episode">episode</a>:<a href="https://schema.org/episodeNumber">episodeNumber</a> ? 
 </div>
 <a href="http://kevinmarks.com" class="p-author h-card" rel="author" title="Kevin Marks">Kevin Marks</a>
