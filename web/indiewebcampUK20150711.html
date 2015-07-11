@@ -1,0 +1,119 @@
+<html>
+<head><title>IndieWebCamp UK 2015-07-11</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="fragmention.js"></script>
+<link href="style.css" media="all" rel="stylesheet" type="text/css" />
+<link rel="webmention" href="https://webmention.herokuapp.com/api/webmention" />
+</head>
+<body>
+<article class="h-entry">
+<h1 class="p-name">IndieWebCamp UK <time class="dt-published">2015-07-11</time></h1>
+<div class="e-content">
+
+<p><a class='h-card p-category' href='https://adactio.com/'>Jeremy Keith</a>:  <blockquote><p>my website is <a class="auto-link" href="http://adactio.com">adactio.com</a> - it's 10 year old crappy PHP I'm not proud of, but it works
+<p>I own my own links. I used to use delicious, but it died, then I used magnolia… now I use my own site
+<p>at the last indiewebcamp in Dusseldorf, which was a lot of fun, I added sending webmentions to sites I link to
+<p>when I post a photo I send a copy to twitter - I highly recommend it - I'm no longer a slave to twitter
+<p>ideally I want to do with instagram what I do with twitter, but there is no posting api
+<p>instead I use <a class="auto-link" href="http://ownyourgram.com">ownyourgram.com</a> to get the photo back from instagram to my site with micropub
+<p>what I want to do is POSSE - Post Own Site Syndicate Elsewhere
+<p>but with instagram I have to do PESOS - Post Elsewhere Share Own Site - I'm not proud of these acronyms
+<p>It feels very good to be hosting my own photos - i have 10 years of flickr ones I should import
+<p></blockquote>
+<a class='h-card p-category' href='https://petermolnar.eu'>petermolnar</a>:  <blockquote><p>I used to have my own CMS, and I could run wordpress but that gets hacked a lot
+<p>so I have my own site with posts based on markdown <a class="auto-link" href="https://petermolnar.eu">https://petermolnar.eu</a>
+<p>wordpress has a lot of plugins that help with the indieweb that do webmentions and other indieweb apis
+<p>I wrote a little plugin called keyring reactions importer that brings in facebook, twitter etc without using <a class="auto-link" href="http://brid.gy">brid.gy</a>
+<p><a class="auto-link" href="http://brid.gy">brid.gy</a> is brilliant if you want to use it; I'm fed up with social networks so now I only post on my own site
+<p></blockquote>
+<a class='h-card p-category' href='https://adactio.com/'>Jeremy Keith</a>:  <blockquote><p>let me show <a class="auto-link" href="http://brid.gy">brid.gy</a> in action what happens when someone replies on twitter to one of my posts that I have shared there
+<p><a class="auto-link" href="http://brid.gy">brid.gy</a> sends a notification via webmention when you receive comments
+<p><a class="auto-link" href="http://Brid.gy">Brid.gy</a> is open source so you could run your own instance of it, but it runs really really well
+<p>you can also use <a class="auto-link" href="http://brid.gy">brid.gy</a> to publish to silos; I use it for the incoming 
+<p></blockquote>
+<a class='h-card p-category' href='http://www.rosa-fox.com'>Rosa Emerald Fox</a>:  <blockquote><p>I made my own site last year at indiewebcamp, using a template
+<p>I made my site by copying a lot of html in one giant page; now I want to make separate posts so you can link
+<p></blockquote>
+<a class='h-card p-category' href='https://adactio.com/'>Jeremy Keith</a>:  <blockquote><p>one thing is to add the h-entry microformat to your blog posts so it can make sense to other people you mention
+<p></blockquote>
+<a class='h-card p-category' href='http://john-ellison.com'>John Ellison</a>:  <blockquote><p>I have my own site at <a class="auto-link" href="http://john-ellison.com">http://john-ellison.com</a> based on ghost
+<p></blockquote>
+<a class='h-card p-category' href='http://rhiaro.co.uk'>just a guy</a>:  <blockquote><p>there is a service at <a class="auto-link" href="http://webmention.io">webmention.io</a> that will handle webmentions for you adn some hjs to embed in your site
+<p></blockquote>
+<a class='h-card p-category' href='http://john-ellison.com'>John Ellison</a>:  <blockquote><p>if i have Ghost self-hosted I can use webmentions?
+<p></blockquote>
+<a class='h-card p-category' href='https://adactio.com/'>Jeremy Keith</a>:  <blockquote><p>you can use 3rd parties like <a class="auto-link" href="http://webmention.io">webmention.io</a> and <a class="auto-link" href="http://webmention.herokuapp.com">webmention.herokuapp.com</a> to embed mentions by javascript
+<p></blockquote>
+<a class='h-card p-category' href='http://rhiaro.co.uk'>just a guy</a>:  <blockquote><p>I'm Amy - been involved in indieweb for about a year - my site is <a class="auto-link" href="http://rhiaro.co.uk">http://rhiaro.co.uk</a>
+<p>it's some PHP I wrote - I have a micropub endpoint so I can post using <a class="auto-link" href="http://quill.p3k.io">quill.p3k.io</a>
+<p>I post checkins, notes, longer articles, bookmarks, RSVPs and likes
+<p>I do a like using quill, and <a class="auto-link" href="http://brid.gy">brid.gy</a> sends it to twitter -i don't go near twitter myself
+<p>I don't have my own webmention endpoint at the moment so I use <a class="auto-link" href="http://webmention.io">webmention.io</a> for it
+<p>this is all the webmentions for my homepage on <a class="auto-link" href="http://webmention.io">webmention.io</a>
+<p></blockquote>
+<a class='h-card p-category' href='https://adactio.com/'>Jeremy Keith</a>:  <blockquote><p>what quill does is let you authenticate using indieauth with your own website, using the principle of being lazy
+<p>so I put in my URL, it looks for rel-me links to a sites with OAuth and logs me in there
+<p>If someone wants to make a beautiful posting interface, you can make it work for any site
+<p></blockquote>
+<a class='h-card p-category' href='http://rhiaro.co.uk'>just a guy</a>:  <blockquote><p>go to <a class="auto-link" href="http://quill.p3k.io/editor">quill.p3k.io/editor</a> for a nicer interface like medium
+<p></blockquote>
+<a class='h-card p-category' href='https://adactio.com/'>Jeremy Keith</a>:  <blockquote><p>with something like quill you can make it available for anyone to use to post to their site via micropub 
+<p>the idea is that instead of creating interfaces from scratch, you can share the interface to anyone
+<p>you could even make a native app that uses the micropub api to post to our sites
+<p></blockquote>
+<a class='h-card p-category' href='http://lewisnyman.co.uk'>Lewis Nyman</a>:  <blockquote><p>I switched my site <a class="auto-link" href="http://lewisnyman.co.uk">http://lewisnyman.co.uk</a> from Drupal  to Jekyl which felt greta as I was writing html again
+<p>as I started wanting to do more-  post images and so on, I found this more difficult
+<p>as I was writing flat files on my local machine, I couldn't use it from my phone
+<p></blockquote>
+<a class='h-card p-category' href='http://rhiaro.co.uk'>just a guy</a>:  <blockquote><p>there is something called Jekmentions for jekyll webmentions
+<p></blockquote>
+<a class='h-card p-category' href='https://adactio.com/'>Jeremy Keith</a>:  <blockquote><p>anyone using jekyll? (many hands go up)
+<p></blockquote>
+<a class='h-card p-category' href='http://giugee.com/blog'>Giulia</a>:  <blockquote><p>My site is at <a class="auto-link" href="http://giugee.com/blog">http://giugee.com/blog</a> but it is more of a set of static pages that I post on my own server and github
+<p>I connect to github with webhooks so there is always a mirror available
+<p></blockquote>
+<a class='h-card p-category' href='https://adactio.com/'>Jeremy Keith</a>:  <blockquote><p>I'd like to have static versions of my site somewhere safe in case my database goes down
+<p>I like having github to show me all the changes I have down
+<p>I'm not sure I would store markdown
+<p></blockquote>
+<a class='h-card p-category' href='http://www.tommorris.org/'>Tom Morris</a>:  <blockquote><p>I'm tom at <a class="auto-link" href="http://www.tommorris.org/">http://www.tommorris.org/</a> - the site is built in rails with a postgres backend; it's mostly posts
+<p>I have my own edit ui with posts and tags to add
+<p>I've been building a 'places' section which is foursquare/tripadvisor on my own site
+<p>I use OpenStreetMap for locations and Mozilla Persona to sign in
+<p>one thing I did a while back is using twilio to send an xml blob when I post a text message to blog
+<p>I'm in the process of switching over to django from rails for my site
+<p>also you get practical well-built libraries rather than hacked together crap
+<p>I hope to open source my new version and let the hacky rails nastiness die
+<p>I syndicate to twitter, and then use twitter to go to facebook
+<p>I'm getting webmentions back, but not displaying everything
+<p>vim is a nicer writing environment than web browsers as browsers have only had 20 years to write one
+<p></blockquote>
+<a class='h-card p-category' href='https://opensourcespecialist.co.uk/'>Raphael</a>:  <blockquote><p>I'm Raphael and my site is <a class="auto-link" href="https://opensourcespecialist.co.uk/">https://opensourcespecialist.co.uk/</a> 
+<p>I'm running my own server and my site is based on Jekyll
+<p></blockquote>
+<a class='h-card p-category' href='http://paulrobertlloyd.com'>Paul Lloyd</a>:  <blockquote><p>I have been using moveable type but switched to  jekyll hosted on my own site <a class="auto-link" href="http://paulrobertlloyd.com">http://paulrobertlloyd.com</a>
+<p>I use <a class="auto-link" href="http://webmention.io">webmention.io</a> for my site, and also post to github from my nice UI
+<p>I'm happier using other people's things and joining them together than coding it all
+<p></blockquote>
+<a class='h-card p-category' href='http://mey.vn/'>andrea rota manning</a>:  <blockquote><p>my interest in indieweb comes from a long time ago
+<p>other universities were using their own slos in a clunky way - why not let them use their own sites?
+<p>I have been waiting for something like the indieweb to happen
+</blockquote>
+</div>
+</article>
+
+<p>These notes were made while tired and watching via webcam from California <a href="https://github.com/kevinmarks/kevin-marks.com/edit/master/web/indiewebcampUK20150711.html">Corrections and improvements welcomed</a>
+<script id="webmention-hosted">
+  (function () {
+    var sn = document.createElement("script"), s = document.getElementsByTagName("script")[0], url;
+    url = document.querySelectorAll ? document.querySelectorAll("link[rel~=canonical]") : false;
+    url = url && url[0] ? url[0].href : false;
+    sn.type = "text/javascript"; sn.async = true;
+    sn.src = "//webmention.herokuapp.com/api/embed?version=cutting-edge&url=" + encodeURIComponent(url || window.location);
+    s.parentNode.insertBefore(sn, s);
+  }());
+</script>
+
+</body>
+</html>

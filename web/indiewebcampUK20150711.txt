@@ -1,0 +1,61 @@
+
+#indieweb @adactio: my website is adactio.com - it's 10 year old crappy PHP I'm not proud of, but it works
+#indieweb @adactio: I own my own links. I used to use delicious, but it died, then I used magnolia… now I use my own site
+#indieweb @adactio: at the last indiewebcamp in Dusseldorf, which was a lot of fun, I added sending webmentions to sites I link to
+#indieweb @adactio: when I post a photo I send a copy to twitter - I highly recommend it - I'm no longer a slave to twitter
+#indieweb @adactio: ideally I want to do with instagram what I do with twitter, but there is no posting api
+#indieweb @adactio: instead I use ownyourgram.com to get the photo back from instagram to my site with micropub
+#indieweb @adactio: what I want to do is POSSE - Post Own Site Syndicate Elsewhere
+#indieweb @adactio: but with instagram I have to do PESOS - Post Elsewhere Share Own Site - I'm not proud of these acronyms
+#indieweb @adactio: It feels very good to be hosting my own photos - i have 10 years of flickr ones I should import
+#indieweb @petermolnar: I used to have my own CMS, and I could run wordpress but that gets hacked a lot
+#indieweb @petermolnar: so I have my own site with posts based on markdown https://petermolnar.eu
+#indieweb @petermolnar: wordpress has a lot of plugins that help with the indieweb that do webmentions and other indieweb apis
+#indieweb @petermolnar: I wrote a little plugin called keyring reactions importer that brings in facebook, twitter etc without using brid.gy
+#indieweb @petermolnar: brid.gy is brilliant if you want to use it; I'm fed up with social networks so now I only post on my own site
+#indieweb @adactio: let me show brid.gy in action what happens when someone replies on twitter to one of my posts that I have shared there
+#indieweb @adactio: brid.gy sends a notification via webmention when you receive comments
+#indieweb @adactio: Brid.gy is open source so you could run your own instance of it, but it runs really really well
+#indieweb @adactio: you can also use brid.gy to publish to silos; I use it for the incoming 
+#indieweb @Rosaemerald: I made my own site last year at indiewebcamp, using a template
+#indieweb @Rosaemerald: I made my site by copying a lot of html in one giant page; now I want to make separate posts so you can link
+#indieweb @adactio: one thing is to add the h-entry microformat to your blog posts so it can make sense to other people you mention
+#indieweb @iamjohnellison: I have my own site at http://john-ellison.com based on ghost
+#indieweb @rhiaro: there is a service at webmention.io that will handle webmentions for you and some js to embed in your site
+#indieweb @iamjohnellison: if i have Ghost self-hosted I can use webmentions?
+#indieweb @adactio: you can use 3rd parties like webmention.io and webmention.herokuapp.com to embed mentions by javascript
+#indieweb @rhiaro: I'm Amy - been involved in indieweb for about a year - my site is http://rhiaro.co.uk
+#indieweb @rhiaro: it's some PHP I wrote - I have a micropub endpoint so I can post using quill.p3k.io
+#indieweb @rhiaro: I post checkins, notes, longer articles, bookmarks, RSVPs and likes
+#indieweb @rhiaro: I do a like using quill, and brid.gy sends it to twitter -i don't go near twitter myself
+#indieweb @rhiaro: I don't have my own webmention endpoint at the moment so I use webmention.io for it
+#indieweb @rhiaro: this is all the webmentions for my homepage on webmention.io
+#indieweb @adactio: what quill does is let you authenticate using indieauth with your own website, using the principle of being lazy
+#indieweb @adactio: so I put in my URL, it looks for rel-me links to a sites with OAuth and logs me in there
+#indieweb @adactio: If someone wants to make a beautiful posting interface, you can make it work for any site
+#indieweb @rhiaro: go to quill.p3k.io/editor for a nicer interface like medium
+#indieweb @adactio: with something like quill you can make it available for anyone to use to post to their site via micropub 
+#indieweb @adactio: the idea is that instead of creating interfaces from scratch, you can share the interface to anyone
+#indieweb @adactio: you could even make a native app that uses the micropub api to post to our sites
+#indieweb @lewisnyman: I switched my site http://lewisnyman.co.uk from Drupal  to Jekyl which felt greta as I was writing html again
+#indieweb @lewisnyman: as I started wanting to do more-  post images and so on, I found this more difficult
+#indieweb @lewisnyman: as I was writing flat files on my local machine, I couldn't use it from my phone
+#indieweb @rhiaro: there is something called Jekmentions for jekyll webmentions
+#indieweb @adactio: anyone using jekyll? (many hands go up)
+#indieweb Giulia: My site is at http://giugee.com/blog but it is more of a set of static pages that I post on my own server and github
+#indieweb Giulia: I connect to github with webhooks so there is always a mirror available
+#indieweb @adactio: I'd like to have static versions of my site somewhere safe in case my database goes down
+#indieweb @adactio: I like having github to show me all the changes I have down
+#indieweb @adactio: I'm not sure I would store markdown
+#indieweb @tommorris: I'm tom at http://www.tommorris.org/ - the site is built in rails with a postgres backend; it's mostly posts
+#indieweb @tommorris: I have my own edit ui with posts and tags to add
+#indieweb @tommorris: I've been building a 'places' section which is foursquare/tripadvisor on my own site
+#indieweb @tommorris: I use OpenStreetMap for locations and Mozilla Persona to sign in
+#indieweb @tommorris: one thing I did a while back is using twilio to send an xml blob when I post a text message to blog
+#indieweb @tommorris: I'm in the process of switching over to django from rails for my site
+#indieweb @tommorris: also you get practical well-built libraries rather than hacked together crap
+#indieweb @tommorris: I hope to open source my new version and let the hacky rails nastiness die
+#indieweb @tommorris: I syndicate to twitter, and then use twitter to go to facebook
+#indieweb @tommorris: I'm getting webmentions back, but not displaying everything
+#indieweb @tommorris: vim is a nicer writing environment than web browsers as browsers have only had 20 years to write one
+#indieweb Raphael: I'm Raphael and my site is https://opensourcespecialist.co.uk/ 
