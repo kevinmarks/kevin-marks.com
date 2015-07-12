@@ -90,7 +90,7 @@ if (!('fragmention' in window.location)) (function () {
 	defaultListener = 'addEventListener',
 	addEventListener = defaultListener in window ? [defaultListener, ''] : ['attachEvent', 'on'],
 	// set stashed element
-	var element;
+	element;
 
 	// add listeners
 	window[addEventListener[0]](addEventListener[1] + 'hashchange', onHashChange);
