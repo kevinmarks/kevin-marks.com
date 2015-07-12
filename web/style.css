@@ -3,9 +3,8 @@ body {font-family: "Hoefler Text", Georgia, serif; background-color: white;}
 .h-card, .webmention-author { font-family: "Gill Sans", Roboto,Verdana, sans-serif; }
 .h-entry, .webmention-summary {max-width: 40em; line-height: 1.2em;}
 h1,h2,h3,.webmention-name { font-family: "Gill Sans", Roboto,Verdana, sans-serif; }
-.h-cite { background-color: linen;}
-div .h-cite { display:flex;}
-
+div .h-cite {display:webkit-flex; display:flex;}
+div .h-cite a {min-width:256;}
 blockquote.auto-mention {font-size:.9em; border: 1px solid lightgray; border-radius: 4px; max-width: 25em; padding: .9em; }
 blockquote.auto-mention cite {font-style:normal; font-weight:bold;}
 blockquote.auto-mention p {margin:0;}
