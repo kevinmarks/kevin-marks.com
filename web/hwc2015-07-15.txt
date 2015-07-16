@@ -1,0 +1,49 @@
+
+#indieweb @t: I want to show off the demo of SWAT0 from indiewebcamp this weekend http://tantek.com/2015/193/t2/user-flow-permalinks-indieweb-swat0 video: https://aaronparecki.com/notes/2015/07/14/1/swat0
+#indieweb @t: this test was first suggested 5 years ago - before we started indiewebcamp - we thought it would use hosted services
+#indieweb @t: in fact it was realising that hosted services weren't goign to help that got us to set up indiewebcamp in the first place
+#indieweb @chrisheuer: how does this scale up across sites?
+#indieweb @t: it scales like the web - all this happens peer to peer across different sites
+#indieweb @debs: seeing it as notifications is really interesting - that makes a bridge beyond the web
+#indieweb @t: Aaron was using Prowl, but Ben is using web notifications which just shipped in Chrome and is in Firefox 42
+#indieweb @t: anything that ships in firefox 42 also ships in mobile on firefox android too. so you get mobile notifications
+#indieweb @t: Katie asks why it took so long - within 3 months in 2010 they had it working on statusnet and cliqset only, but didn't use it
+#indieweb @t: so we had a proof of concept, but within 6 months cliqset went offline, and recently statusnet went offline too
+#indieweb @t: so why did it take us so long to do this? We didn't start saying "we'll make things federate"
+#indieweb @t: we said we want to empower every individual to own their own website and spend time inproving it in ways they want to
+#indieweb @t: people built different things for their sites in an organic way - and we wrote up building blocks on how we solved problems
+#indieweb @t: because of this organic nature we can't predict when things will happen in indieweb, but they tend to last and grow over time
+#indieweb @t: what we realised this weekend was that we were very close to achieving this test, and we built the few missing bits
+#indieweb @t: we made the canonical example on the wiki note the people who had implemented it
+#indieweb @kevinmarks: my tool noterlive.com also posts person tags when you use it (and copy the html to your site)
+#indieweb @t: designing these notifications was interesting - getting the text right for @aaronpk's notifications worked
+#indieweb @debs: why use domain names rather than usernames?
+#indieweb @t: people use URLs to identify each other with blogs - and twitter shows the @ handle as well as the name as people play 
+#indieweb @t: the identity currency on twitter is the @ name; on the indieweb it is the URL
+#indieweb @debs: what is a webmention?
+#indieweb @t: a webmention is just the signal between the 2 sites that something on the web mentioned you
+#indieweb @kevinmarks: in order to know what the webmention means you have to look at the website that mentioned you and make sense of it
+#indieweb @kevinmarks: the webmention might be a like or a repost or an RSVP as well as a person tag
+#indieweb @t: the other thing that was implemented this weel was salmentions - mentions that go upstream like salmon do
+#indieweb @t: so when you receive comments you add them to your post and send a webmention upstream to the post you previously mentioned
+#indieweb @chrisheuer: the biggest problem with pingbacks was spam in the comment stream. How do we stop this getting flooded with crap too?
+#indieweb @t: you can get webmentions form anyone so they can be spammy now. So far we have seen some from brid.gy containing twitter spam
+#indieweb @t: there are 2 answers: for a webmention to mean something the sender has to do more markup work
+#indieweb @t: longer term we have an extension to webmention called 'vouch' which is another URL that vouches for you
+#indieweb @t: currently the kind of problem is like people showing up to your party and pitching you their startup
+#indieweb @t: each role in the SWAT0 challenge has different implementation requirements - currently no implementation has all 3 roles
+#indieweb @kevinmarks: each of the players was using more than one piece of software to achieve this; we can combine them to pass it
+#indieweb @t: what kartik has built is essentially medium on his own site - per paragraph comments https://kartikprabhu.com/articles/marginalia
+#indieweb @kevinmarks: a fragmention lets you link to a piece of text in any webpage; a webmention lets you annotate it too
+#indieweb @t: the fun thing is that us distributed developers can keep up with the big companies in innovation
+#indieweb @kevinmarks: I'm showing off noterlive.com and it is live tweeting this talk
+#indieweb @energyovertime: I have a domain, but no place to put it - what shoudl I use? there is thins think called Known
+#indieweb @benwerd: I hear known is pretty good… there are also lots of wordpress plugins
+#indieweb @energyovertime: I've been cryogenically frozen for 10 years - what do I use now?
+#indieweb @benwerd: Known is kind of like a tumblr - you can self-host it or go to withknown.com to get a hosted version
+#indieweb @kevinmarks: showing off reader.kylewm.com which supports webmentions and micropub, so https://aaronparecki.com/notes/2015/07/14/1/swat0 got my comment
+#indieweb @benwerd: Known also has native comments so it doesn't require webmentiosn but they look the same internally
+#indieweb @theguice: I had a static site, but I rebuilt it in flask http://giudici.us/blog
+#indieweb @theguice: and I got a webmention working and sent by hand with curl http://giudici.us/blog/0
+#indieweb @theguice: my next goal is to have my own endpoint to receive that
+#indieweb @t: it's great to see woodwind and known as it is like early blogging, except it has a facebook feed ui running on your site
