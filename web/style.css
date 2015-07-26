@@ -27,6 +27,7 @@ blockquote.auto-mention a {text-decoration:none; color:black;}
 	position: absolute;
 	top: 1.5em;
 	left: 0;
+	z-index:1;
 }
 
 
