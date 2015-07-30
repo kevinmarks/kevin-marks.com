@@ -1,0 +1,29 @@
+
+#indieweb @t: welcome to Homebrew Website Club Meetup SF at Mozilla - it's every 2 weeks
+#indieweb @t: we just completed Indiewebcamp Edinburgh - lots of people got their sites more functional
+#indieweb @t: we just had the first Homebrew Website Club earlier in Göteborg, Sweden https://jeena.net/notes/386
+#indieweb @benwerd: I got 2 things done today - after a very public round of user testing I fixed a bug in Known with IndieAuth
+#indieweb @benwerd: on my site I can now bookmark podcast episodes on my own website - now it will pick the mp3 and create a player
+#indieweb @andigalpern: what about soundcloud? Will that work
+#indieweb @benwerd: it hotlinks soundcloud but doesn't download it - copying the file doesn't happen but it could
+#indieweb @kevinmarks: I really want to be able to link to episodes of podcasts I do it now on twitter, but it doesn;t work well
+#indieweb @benwerd: new version of Known 0.8 - new interface, better handling of non-latin characters, being able to build new things
+#indieweb @benwerd: people have been building interesting plugins  - you can now syndicate to IRC from Known which I hadn't expected
+#indieweb @benwerd: we are making it work for institutions where the individual profiles are aggregated into a central space for reading
+#indieweb @benwerd: micropub and other indieweb support is on by default in Known 0.8, so publishing to Known is easier
+#indieweb @andigalpern: come to UX Night and get feedback on August 13th
+#indieweb @ageis: I am a sysadmin for freedom of the Press, working on whistleblowing and press freedom; I need to set up my own site
+#indieweb @ageis: mu domain name would be cointel.pro
+#indieweb @ageis: I don't liek the idea of being dependent on 3rd parties, so the indieweb principles fite
+#indieweb @KathyEms: I am an aspiring javascript developer; I have an app idea - I have built the uint tests, but not the front-end yet
+#indieweb @KathyEms: my other pet project is friendlyglutenfreefoods.com on wordpress - I want to make that my own site
+#indieweb @KathyEms: i want to add my own recipe cards and features, which is why I want my own site too
+#indieweb @ayyrickay: I'm interning on product design at salesforce this summer
+#indieweb @ayyrickay: I went all monchromatic last time I redesigned my site, but now I want to use colour theory instead
+#indieweb @ayyrickay: I'm improving my javascript - been learning React and working in Meteor at the moment t
+#indieweb @kateFaust: I don't have a website but I'm planning to build one for my portfolio
+#indieweb @t: there are event aggregators like http://calagator.org/ and lanyrd.com - we can look at feeding indieweb events 
+#indieweb @aStateofKate: I have my own website now at http://www.katiejohnson.me/whatimthinking.html and want to start using noterlive
+#indieweb @kevinmarks: I have made hovercards work on my site, but I need to improve the information layout of them: http://www.kevinmarks.com/hwc2015-07-15.html
+#indieweb @benwerd: 2 more things about Known 0.8 - you can install it in subdirectories and it works with SQLite now
+#indieweb @benwerd: and we added Postgres support thanks to the magic of opensource which helps with heroku and sandstorm
