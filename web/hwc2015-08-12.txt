@@ -1,0 +1,27 @@
+#indieweb @peteramckay: I just set up my site this week at http://pmckay.com - it's mostly just links to other sites, but I got https
+#indieweb @peteramckay: I'm excited about LetsEncrypt
+#indieweb @t: I want to steer people to letsEncrypt, but I want to dogfood it first
+#indieweb @peteramckay: LetsEncrypt is supposed to take the pain out of getting certs
+#indieweb @kevinmarks: I watched a lot of people set up https at indiewebcamp and it took half a day - that needs to scale better
+#indieweb @t: what I've done with my site is blogged a lot more- being disconnected is conducive to longer form wrintg
+#indieweb @t: If I want to write I turn off wifi and put mozilla into offline mode so I can write better, as most pages are cached
+#indieweb @t: when the Alphabet announcement happened I did an Alphabet of our building blocks on the wiki https://indiewebcamp.com/alphabet
+#indieweb @t: then afterwards I did a post on my own site with rainbow alphabet dropcaps: http://tantek.com/2015/224/b1/alphabet-indieweb
+#indieweb @t: custom post styling is a way to attach a custom scoped style sheet to a specific blogpost
+#indieweb @t: it's easy to do on the standalone page; doing it inline is harder, as only FF supports scoped styles
+#indieweb @t: how I cope with other browsers is creating a unique id per post serverside, and add the id as the root
+#indieweb @theguice: last time I showed my static blog; I redid it with markdown and persistent storage and resort the posts
+#indieweb @theguice: I used flask-blogging to build this. I'd like to get commenting working
+#indieweb @theguice: for people who want to comment but don't know how to send a webmention, what do you do
+#indieweb @t: known has native comments as well; I don't know if others have this
+#indieweb @t: on my posts there is a reply button, which launches twitter by default, and bridgy sends a webmention back
+#indieweb @theguice: does brid.gy work on facebook too?
+#indieweb @kevinmarks: bridgy works with facebook  until novemeber when the api changes
+#indieweb @t: by using twitter for comments, I get webmentions via bridgy
+#indieweb @t: setting u pyour own site is one barrier; using a twitter account is also one, so they get to handle spam
+#indieweb @theguice: is indieweb a company? 
+#indieweb @t: it's a community not a company - everything on the wiki is CC0
+#indieweb @theguice: I see a lot of people in the irc - how do they keep up with it?
+#indieweb @t: we try to make the IRC logs very readable http://indiewebcamp.com/irc/today is good to catch up on
+#indieweb @t: another thing that happened in the last 2 weeks is that @aaronpk improved the Slack/irc integration a lot
+#indieweb @kevinmarks: I'm now watching the chat on the web, in irc and in slack at once interesting order differences. great integration
