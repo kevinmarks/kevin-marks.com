@@ -1,0 +1,28 @@
+
+#indieweb @kylewmahan: I've been working on flickr integration with brid.gy - bridgy pulls content from socal sites and feeds it back to you
+#indieweb @schnarfed: commonly you will post an article then send a link to facebook or twitter, but people comment there - bridgy helps
+#indieweb @roombaghost: I've been using Kirby and the author was interested in webmentions
+#indieweb @kylewmahan: I'm adding twitter support to silo.pub now - that's working now
+#indieweb @kylewmahan: normally you add links to your blog to say how to do it, but I had to set up a proxy for twitter to get the endpoint
+#indieweb @kylewmahan: I want to do the same things for the other blogs so there is a url for them under silo.pub too
+#indieweb @kylewmahan: micropub is the other direction from webmention - it's an api for posting to a blogging site
+#indieweb @kylewmahan: silo.pub bridges from the micropub api to wordpress, tumblr, blogger and now twitter
+#indieweb @roombaghost: I want to use my site as a tool for myself and to publish for other people
+#indieweb @roombaghost: I use a tool called arena - it's like a research based pinterest and I have a collection of animals 
+#indieweb @roombaghost: I would like one of the things I post on my site is these kinds of collections - I'd like to dogfood it that way
+#indieweb @schnarfed: dogfooding is when you build somthing you should use it for a real task yourself to make sure it is useful
+#indieweb @roombaghost: I'm not sure how to build it - I am using the arena site to post ti to as well
+#indieweb @schnarfed: that's what we call POSSE- you post on your own site but bring back the community stuff to your own site
+#indieweb @kylewmahan: you need to decide whether you want to post your site first and then send it versus bring it back the other way
+#indieweb @kevinmarks: I'm thinking about slack integrations and what aaronpk was saying about replacing irc with webmentions
+#indieweb @schnarfed: other than constantly fixing facebook bugs in bridgy, I've been trying to rad more things in af eed reader
+#indieweb @schnarfed: facebook is now making it so that you can't read your news feed through the api any more, so I had to workaround
+#indieweb @kevinmarks: I also updated pestagram.com to have full size images and videos in as well, so you can subscribe to them
+#indieweb @schnarfed: I want to encourage people to author more raw html rather than waiting to tool up to make an indie event etc
+#indieweb @kevinmarks: I manually posse'd a post to buzzfeed and their editor is interesting as it has a series of blocks
+#indieweb @schnarfed: we kind of went astray with explicit post types - to decide what you are making
+#indieweb @kevinmarks: we could separate the authoring of special types from the posting using micropub
+#indieweb @roombaghost: I found a repost of this event before I found the original one, but it worked
+#indieweb @roombaghost: designers don't always post their past work, or have it viewable - I want things to be viewable
+#indieweb @kevinmarks: aaron has a tool spiderpig for archiving sites so they can be statically served to preserve design choices too
+#indieweb @roombaghost: I have a project called living aggregator that uses kimono to redisplay he content in a way the original design
