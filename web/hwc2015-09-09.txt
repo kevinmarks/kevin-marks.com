@@ -1,0 +1,23 @@
+#indieweb @ericnakagawa: my url http://xn--oq8hbce1ezj.xn--vi8hiv.ws/ is lingmoji - it has emoji in urls
+#indieweb @ericnakagawa: currently it autogenerates URLs, but we are working on making them custom
+#indieweb @ericnakagawa: I want to build more stuff and just share it and have fun with it
+#indieweb @ericnakagawa: i want to lower the bar to releasing things have less pressure
+#indieweb @aStateofKate: the problem with developer tools is that have terrible ux - people can't always use command lines
+#indieweb @ericnakagawa: my urls use punicode, which browsers use
+#indieweb @kevinmarks: I have updated svgur.com so it can share to facebook and twitter as png
+#indieweb @kevinmarks: so @theguice can upload http://svgur.com/s/2A and it shows up on twitter
+#indieweb @theguice: I worked on updating my site - I made a lot of wireframes for my portfolio site http://giudici.us and built it
+#indieweb @theguice: my site is a python flask site wih jinja HTML templates. I also fiexed some bugs with my hcard
+#indieweb @kevinmarks: the other thing I did was improve hovercards
+#indieweb Suhais Saqib Said: I have microformats on my site http://bit.ly/susyed
+#indieweb Suhais Saqib Said: I have some d3.js visualisations on my site. including a review of wearables: http://people.ischool.berkeley.edu/~suhaib/InfoViz_final_project/
+#indieweb @aStateofKate: I did an extensive data project about the SF city government into a node and edgy graph - the city genome project
+#indieweb @aStateofKate: having done it for SF, I wrote up how to do it for other cites to do the same kind of thing
+#indieweb @aStateofKate: it's hard to talk about how to improve something if you can't visualise it - it gives a concept to discuss
+#indieweb @aStateofKate: the Sf city government looks like a spaceship when you draw money as edges and groups as nodes
+#indieweb @benwerd: I've been scraping mp3's lately - we have a way to bookmark podcast episodes and recommend them
+#indieweb @benwerd: the lengths to which people will go to have their mp3's not be scraped by embedding things in the URL to break it
+#indieweb @benwerd: we have decided to look at the context of the mp3 file rather than the contents to make sense of it
+#indieweb @benwerd: podcasts have been growing steadily, but they are still a kind of geeky thing
+#indieweb @benwerd: there are 3 major podcasts about pencils that are really well-produced and very competitive with each other
+#indieweb @benwerd: I've also been dealing with internet explorer bugs, because I have users
