@@ -1,0 +1,32 @@
+
+#indieweb @kylewmahan: I had a flurry of activity on my site this week https://kylewm.com - I updated my tweet shortener to autolink
+#indieweb @kylewmahan: it has a list of all the new TLDs as of Sunday by getting them from ICANN
+#indieweb @t: I added .space for Lancey to my shortener too - I do it when someone has an indieweb site on a TLD that legitimises it
+#indieweb @t: at first the new TLDs were a layer violation so eg .tel was for vcards
+#indieweb @t: now the TLDs is a kind of passive aggressive takedown of large corporations, so apple had to get .apple
+#indieweb @kylewmahan: julien has river.news 
+#indieweb @kylewmahan: the other thing I added was the etag/last-modified stuff prompted by @kevinmarks
+#indieweb @kevinmarks: you could also just statically generate your atom feed and serve that from the filesystem to get etag/last-modified
+#indieweb @kevinmarks: I'm realising that my hovercards are pretty inefficient as they are loading lots of iframes statically
+#indieweb @kevinmarks: so if I have a lot of back and forth discussion they get slow as there is one per hcard link form noterlive
+#indieweb @t: indieweb updates this week: http://indiewebcamp.com/this-week/2015-09-18.html 
+#indieweb @t: one topic last week was abuse via bridgy as twitter via XOXO
+#indieweb @kylewmahan: the twitter API does not filter for blocks so you get all the noise in your feed
+#indieweb @t: and also twitter doesn't filter your own page's comments for your blocks, so you don't see what others do
+#indieweb @t: so my twitter URL is not me - I don't have agency over it as anyone can scribble on it by replying
+#indieweb @t: we're documenting comment problems
+#indieweb @t: as bridgy has access to your blocklist, so could in principle remove the replies you have blocked.
+#indieweb @kevinmarks: we have a chain from my site to webmention.herokuapp.com to brid.gy to twitter to work out where to block
+#indieweb @t: what if twitter refused to post replies that are from people who you have blocked?
+#indieweb @t: I also expanded the https://indiewebcamp.com/publics page that @kevinmarks started - understanding Publics
+#indieweb @t: on the indieweb when you post you think of the public of both the post and where it is POSSEd to
+#indieweb @t: but someone who replies to it does not have the sense of the other publics if they just see the POSSE copy of it
+#indieweb @kylewmahan: I've had that happen - "why is there a picture of my cat on Google plus?"
+#indieweb @kylewmahan: bridgy is trying to tell if someone else mentions your site then it is probably not a POSSE copy
+#indieweb @t: I started to document the specifications that we are implicitly building on at http://indiewebcamp.com/specifications
+#indieweb @kevinmarks: can we specify these tightly enough that we can have examples and tests for them?
+#indieweb @t: yes, that is the hope that we can make them consistent between implementations
+#indieweb @t: this is also a place to gather things that we can make consistent enough to submit to standards bodies
+#indieweb @t: we need to think about possible dates for indiewebcamp SF this year  https://indiewebcamp.com/2015/planning Nov 14-15?
+#indieweb @t: we're talking about how to reach out to silos and monocultures to make them indieweb friendly and solve problems for them
+#indieweb @t: our indieweb principles now go to 11, as I added Plurality https://indiewebcamp.com/plurality
