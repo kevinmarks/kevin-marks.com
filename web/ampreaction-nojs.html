@@ -1,0 +1,28 @@
+<html>
+<head><title>Accelerated Mobile Pages - a quick reaction</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="style.css" media="all" rel="stylesheet" type="text/css" />
+<link rel="webmention" href="https://webmention.herokuapp.com/api/webmention" />
+</head>
+<body>
+<article class="h-entry">
+<h1 class="p-name">Accelerated Mobile Pages - a quick reaction <time class="dt-published">2015-10-07</time></h1>
+<div class="e-content">
+<p>Today Google launched the <a href="https://www.ampproject.org/">Accelerated Mobile Pages Project</a>:<blockquote>The Accelerated Mobile Pages (AMP) Project is an open source initiative that embodies the vision that publishers can create mobile optimized content once and have it load instantly everywhere.</blockquote>
+<p>Which sounds very much in tune with indieweb goals, so I had a quick look. My first reaction was one of shock, as it said SVG was banned:
+<blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">Hang on a second, AMP claims to be about mobile responsiveness, but bans SVG? What fuckery is this? <a href="https://t.co/fF4q8SNPHZ">https://t.co/fF4q8SNPHZ</a></p>&mdash; Kevin Marks (@kevinmarks) <a href="https://twitter.com/kevinmarks/status/651785557786234880">October 7, 2015</a></blockquote>
+<p>However, google responded that they had forgotten to update the pubic spec and most SVG is supported.
+<blockquote class="twitter-tweet" data-conversation="none" lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/kevinmarks">@kevinmarks</a> a documentation bug! Will fix immediately. Related Github issue <a href="https://t.co/J8Kglgh2ki">https://t.co/J8Kglgh2ki</a></p>&mdash; Malte Ubl (@cramforce) <a href="https://twitter.com/cramforce/status/651787425052692481">October 7, 2015</a></blockquote>
+<p>Phew. Thanks, <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40"><path d="M 22,20 h15 a17,17 0 1,1 -8,-14" fill="none" stroke="#4885ed" stroke-width="6"/>G</svg>. 
+<p>The broad goal of this spec is to simplify pages, and they do this by banning  all javascript except their own (thereby confirming <a href="https://overcast.fm/+CdRc5hKc/18:00">Marco's precept</a> that 3rd party javascript is the worst). That fits in with <a href="http://tantek.com/2015/069/t1/js-dr-javascript-required-dead">Tantek's js;dr</a> point of view to some extent, except they leave loophole fro their own js code, which while fast and well written compared to most ad content, still breaks some things.
+<p>Specifically, they replace img, audio, video with their own versions implemented as custom elements and so requiring javascript to appear. They ban loaded style sheets, requiring inline styles, but oddly allow font-face, one of the slowest things on the mobile web. They also replace the twitter embed fallback markup with a custom type made up by themselves, which combined with the iframe ban means that you need their blessing to extend the web.
+<p>This means that if javascript is not loaded, images will disappear.
+<p>They also require a lot of <a href="https://github.com/ampproject/amphtml/blob/07c93880b73e6564de0d745d1072803ccc4c68a5/spec/amp-html-format.md#required-markup">arbitrary weird markup</a> (like emoji in the html element, which violates content encoding, a weird style incantation that makes the page opaque, and require the proprietary schema.org markup.
+<p>Now, my site is not very complex; indeed it loads very fast on mobile already, but it does use a few javascript enhancements: fragmention to let you link to a phrase; webmention injection for comments as seen below, and the twitter embed enhancement javascript. Without these, the page still renders and makes sense, and it is parseable as microformats. This is known as progressive enhancement; AMP looks more like graceless degradation.
+<p> Here's <a href="ampreaction-nojs.html"> version of this page with JS removed</a>, here's the <a href="ampreaction-amp.html">AMP version</a>, and here's the <a href="ampreaction-amp-nojs.html">AMP version without js</a>
+
+</div>
+</article>
+
+</body>
