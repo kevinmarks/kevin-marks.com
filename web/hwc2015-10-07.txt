@@ -1,0 +1,38 @@
+
+#indieweb @t: welcome to homebrew website club: what have you got working on your own site recently?
+#indieweb @t: I hit a bandwidth limit on my webhost and they turned my site off; I deliberately din't upigrade and reduced bandwidth
+#indieweb @t: if you're maintaining a website on shared hosting you're responsible for throttling bad robots. I now put 1 item in my feed
+#indieweb @t: I was also thinking about only putting 24 hours in the atom feed, so it would often be blank.
+#indieweb @t: my homepage has the h-ffed, the legacy atom feed is only there for existing subscriber so I'll just put that in there
+#indieweb @andigalpern: is your feed always chronological, or do they show the most popular?
+#indieweb @benwerd: having just a single item is very annoying when you first subcribe
+#indieweb @t: I'm trying to come up with techniques of how to publish your website to be the least work
+#indieweb @kevinmarks: another possibility is to make the atom feed static so that the server handles caching for you
+#indieweb @benwerd: I have a live dashboard on withknown.com and about 3/4 of it is bots -we're swimming in bots
+#indieweb @t: these aren't helpful robost, a lot of them are bad robots
+#indieweb @andigalpern: who sould study this kind of traffic? a sysadmin?
+#indieweb @t: after all the blocking and changes my bandwidth went from 2G a day to .5G a day
+#indieweb @t: I also blocked any bot that starts with Java
+#indieweb @t: imagine if 3/4 of all the phonecalls you get were from robots? all: they are t: I don't have a phone any more
+#indieweb @benwerd: I just broke ground on the AMP template for withknown.com - it's like instant articles but more open
+#indieweb @benwerd: AMP is a slightly nasty subset of HTML that is meant for mobile apps and is cached by google, twitter
+#indieweb @benwerd: as @benward said, AMP is like a publisher-supplied quick read version of the site.
+#indieweb @benwerd: I'm also going to add twitter cards to the next version of withknown.com
+#indieweb @benwerd: we now see that people are using open graph etc in the browser too, so we will embed it in all
+#indieweb @kevinmarks: AMP, Facebook Instant Articles and Apple News are like 3 new browsers that only support a subset of the web
+#indieweb @andigalpern: there is a big thing about user-centred design - we need to start viewing users as people
+#indieweb @andigalpern: designers need to make it easier for people to control what they publish
+#indieweb @andigalpern: my next event I'm interviewing @evacide - about how to do this
+#indieweb @t: we are doing a one day hackathon for indiewebcamp.com in SF on December 3rd
+#indieweb @aribadernatal: websites that I've been doing for myself where I pull in things I published elsewhere @t: we call that PESOS
+#indieweb @aribadernatal: I built a way to pull in all the feeds from places I have published elsewhere; 
+#indieweb @aribadernatal: now I'm making a distinction between thinsg I have posted and those that I have starred elsewhere 
+#indieweb @aribadernatal: I'm pulling the starred items in from pocket, github and twitter
+#indieweb @aribadernatal: it's a pinterest style view of the various things I starred elsewhere
+#indieweb @aribadernatal: the other site is a blog-like view of all the things that I have posted on other sites, youtube, tweets etc
+#indieweb @aribadernatal: I need to work out how these collection sites fit into to my main personal site - working on connecting pieces
+#indieweb @aribadernatal: the sites that I have been doing with students at KGI where they can all have websites, but few take advantage
+#indieweb @aribadernatal: there is a group of 25 students who are posting together - I was collating feeds, but now it is a group site 
+#indieweb @aribadernatal: once they have written on the closed site they can choose to share it out on their own sites
+#indieweb @energyovertime: I love the indiewebify.me implementation walking me through the different stages
+#indieweb @energyovertime: now I have a github pages site and am working through the pprocess
