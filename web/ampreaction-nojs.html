@@ -4,7 +4,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="style.css" media="all" rel="stylesheet" type="text/css" />
 <link rel="webmention" href="https://webmention.herokuapp.com/api/webmention" />
-</head>
+<link rel="amphtml" href="ampreaction-amp.html" /> </head>
 <body>
 <article class="h-entry">
 <h1 class="p-name">Accelerated Mobile Pages - a quick reaction (no js)<time class="dt-published">2015-10-07</time></h1>
@@ -15,12 +15,18 @@
 <p>However, google responded that they had forgotten to update the pubic spec and most SVG is supported.
 <blockquote class="twitter-tweet" data-conversation="none" lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/kevinmarks">@kevinmarks</a> a documentation bug! Will fix immediately. Related Github issue <a href="https://t.co/J8Kglgh2ki">https://t.co/J8Kglgh2ki</a></p>&mdash; Malte Ubl (@cramforce) <a href="https://twitter.com/cramforce/status/651787425052692481">October 7, 2015</a></blockquote>
 <p>Phew. Thanks, <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40"><path d="M 22,20 h15 a17,17 0 1,1 -8,-14" fill="none" stroke="#4885ed" stroke-width="6"/>G</svg>. 
-<p>The broad goal of this spec is to simplify pages, and they do this by banning  all javascript except their own (thereby confirming <a href="https://overcast.fm/+CdRc5hKc/18:00">Marco's precept</a> that 3rd party javascript is the worst). That fits in with <a href="http://tantek.com/2015/069/t1/js-dr-javascript-required-dead">Tantek's js;dr</a> point of view to some extent, except they leave loophole fro their own js code, which while fast and well written compared to most ad content, still breaks some things.
+<p>The broad goal of this spec is to simplify pages, and they do this by banning all javascript except their own (thereby confirming <a href="https://overcast.fm/+CdRc5hKc/18:00">Marco's precept</a> that blocking all 3rd party javascript is the answer).
+<p><audio class="u-audio" src="marcoblock.m4a" controls preload=none><a href="marcoblock.m4a">Marco on blocking</a></audio>
+<p>That fits in with <a href="http://tantek.com/2015/069/t1/js-dr-javascript-required-dead">Tantek's js;dr</a> point of view to some extent, except they leave loophole for their own js code, which while fast and well written compared to most ad content, still breaks some things.
 <p>Specifically, they replace img, audio, video with their own versions implemented as custom elements and so requiring javascript to appear. They ban loaded style sheets, requiring inline styles, but oddly allow font-face, one of the slowest things on the mobile web. They also replace the twitter embed fallback markup with a custom type made up by themselves, which combined with the iframe ban means that you need their blessing to extend the web.
 <p>This means that if javascript is not loaded, images will disappear.
 <p>They also require a lot of <a href="https://github.com/ampproject/amphtml/blob/07c93880b73e6564de0d745d1072803ccc4c68a5/spec/amp-html-format.md#required-markup">arbitrary weird markup</a> (like emoji in the html element, which violates content encoding, a weird style incantation that makes the page opaque, and require the proprietary schema.org markup.
-<p>Now, my site is not very complex; indeed it loads very fast on mobile already, but it does use a few javascript enhancements: fragmention to let you link to a phrase; webmention injection for comments as seen below, and the twitter embed enhancement javascript. Without these, the page still renders and makes sense, and it is parseable as microformats. This is known as progressive enhancement; AMP looks more like graceless degradation.
-<p> Here's the <a href="ampreaction.html">original version of this page </a>, here's the <a href="ampreaction-nojs.html">original version without js</a>, and here's the <a href="ampreaction-amp.html">AMP version with js</a>
+<p>Now, my site is not very complex; indeed it loads very fast on mobile already, but it does use a few javascript enhancements: fragmention to let you link to a phrase; webmention injection for comments as seen below, and the twitter embed enhancement javascript. Without these, the page still renders and makes sense, and it is parseable as microformats. This is known as progressive enhancement; AMP looks more like graceless degradation - the  <a href="ampreaction-amp-nojs.html">amp page without js</a> is entirely blank because of the required style tag that sets opacity to 0.
+<p>There is no good reason to use amp-video or amp-audio over video or audio tags- the reason given for img—that AMP want control over preloading—is already present in audio and video tags, as you can just set preload=none on the tag itself. Here's a <a href="http://www.unmung.com/feed?feed=http%3A%2F%2Ffeeds.twit.tv%2Ftwig_video_hd.xml"> page with lots of hi-def videos</a> that loads rapidly, and waits for you to hit play.
+<p>Talking of video, I discussed AMP with Jeff Jarvis and Leo Laporte on TWiG this week: 
+<p><video class="u-video splash" src="http://www.podtrac.com/pts/redirect.mp4/twit.cachefly.net/video/twig/twig0321/twig0321_h264m_1280x720_1872.mp4" controls="" preload="none" poster="vidpreview.jpg"><a href="http://www.podtrac.com/pts/redirect.mp4/twit.cachefly.net/video/twig/twig0321/twig0321_h264m_1280x720_1872.mp4">video</a></video>
+<p>Jeff's perspective that this is a way to get publishers out from under the weight of their accumulated adtech debt, and to get their articles out elsewhere on the web is a important one, as is Leo's reluctance as a publisher to change all his site templates again to conform to this.
+<p> Here's the <a href="ampreaction.html">original version of this page </a>, here's the <a href="ampreaction-amp.html">AMP version</a>, and here's the <a href="ampreaction-amp-nojs.html">AMP version with no js</a>
 
 </div>
 </article>
