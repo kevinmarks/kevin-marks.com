@@ -1,5 +1,5 @@
 <html>
-<head><title>Accelerated Mobile Pages - a quick reaction (no js)</title>
+<head><title>Accelerated Mobile Pages - a quick reaction</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <script src="fragmention.js"></script>
@@ -8,7 +8,7 @@
 <link rel="amphtml" href="ampreaction-amp.html" /> </head>
 <body>
 <article class="h-entry">
-<h1 class="p-name">Accelerated Mobile Pages - a quick reaction (no js)<time class="dt-published">2015-10-07</time></h1>
+<h1 class="p-name">Accelerated Mobile Pages - a quick reaction<time class="dt-published">2015-10-07</time></h1>
 <div class="e-content">
 <p>Today Google launched the <a href="https://www.ampproject.org/">Accelerated Mobile Pages Project</a>:<blockquote>The Accelerated Mobile Pages (AMP) Project is an open source initiative that embodies the vision that publishers can create mobile optimized content once and have it load instantly everywhere.</blockquote>
 <p>Which sounds very much in tune with indieweb goals, so I had a quick look. My first reaction was one of shock, as it said SVG was banned:
@@ -22,7 +22,7 @@
 <p>This means that if javascript is not loaded, images will disappear.
 <p>They also require a lot of <a href="https://github.com/ampproject/amphtml/blob/07c93880b73e6564de0d745d1072803ccc4c68a5/spec/amp-html-format.md#required-markup">arbitrary weird markup</a> (like emoji in the html element, which violates content encoding, a weird style incantation that makes the page opaque, and require the proprietary schema.org markup.
 <p>Now, my site is not very complex; indeed it loads very fast on mobile already, but it does use a few javascript enhancements: fragmention to let you link to a phrase; webmention injection for comments as seen below, and the twitter embed enhancement javascript. Without these, the page still renders and makes sense, and it is parseable as microformats. This is known as progressive enhancement; AMP looks more like graceless degradation.
-<p> Here's <a href="ampreaction-nojs.html"> version of this page with JS removed</a>, here's the <a href="ampreaction-amp.html">AMP version</a>, and here's the <a href="ampreaction-amp-nojs.html">AMP version without js</a>
+<p> Here's a <a href="ampreaction-nojs.html"> version of this page with JS removed</a>, here's the <a href="ampreaction-amp.html">AMP version</a>, and here's the <a href="ampreaction-amp-nojs.html">AMP version without js</a>
 
 </div>
 </article>
