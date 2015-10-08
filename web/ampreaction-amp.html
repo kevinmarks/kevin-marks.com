@@ -40,7 +40,7 @@ blockquote.auto-mention a {text-decoration:none; color:black;}
 </amp-twitter>
 <p>Phew. Thanks, <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40"><path d="M 22,20 h15 a17,17 0 1,1 -8,-14" fill="none" stroke="#4885ed" stroke-width="6"/>G</svg>. 
 <p>The broad goal of this spec is to simplify pages, and they do this by banning all javascript except their own (thereby confirming <a href="https://overcast.fm/+CdRc5hKc/18:00">Marco's precept</a> that blocking all 3rd party javascript is the answer).
-<p><amp-audio width=400 height=40 src="marcoblock.m4a">
+<p><amp-audio width=400 height=40 src="https://kevin-marks.herokuapp.com/marcoblock.m4a">
 <a href="marcoblock.m4a"><div class=fallback>Marco on blocking</a></div></amp-audio>
 <p>That fits in with <a href="http://tantek.com/2015/069/t1/js-dr-javascript-required-dead">Tantek's js;dr</a> point of view to some extent, except they leave loophole for their own js code, which while fast and well written compared to most ad content, still breaks some things.
 <p>Specifically, they replace img, audio, video with their own versions implemented as custom elements and so requiring javascript to appear. They ban loaded style sheets, requiring inline styles, but oddly allow font-face, one of the slowest things on the mobile web. They also replace the twitter embed fallback markup with a custom type made up by themselves, which combined with the iframe ban means that you need their blessing to extend the web.
