@@ -1,0 +1,23 @@
+
+#indieweb @dariusdunlap: I'm setting up a coworking and makerspace in Half Moon Bay, and I'm wondering if SF people would be interested
+#indieweb @t: welcome to homebrew website club - @kevimarks is taking notes with noterlive.com
+#indieweb @t: this also shows up in https://indiewebcamp.com/irc/today?beta#bottom because we collect the hashtag there
+#indieweb @t: almost the 2nd anniversary of the Homebrew Website Club, which was inspired by the 38th anniversary of Homebrew Computer Club
+#indieweb @t: there are meetups today in Brighton, UK; Göteborg Sweden and Portland & SF int he US
+#indieweb @t: in 2 weeks there is Indiewebcamp MIT November 7th/8th http://indiewebcamp.com/2015/MIT
+#indieweb @t: Indiewebcamp SF will be  a 1 day hack day on December 3rd http://indiewebcamp.com/2015/SF
+#indieweb @t: as of october 1st the t.co shortener always uses https, so it always takes 23 characters, so adjust your length calculations
+#indieweb @t: I updated my cassis library that estimates tweet length with URLs at @cassis.js
+#indieweb @t: we ran into a problem with indiewebify.me -the site that checks if your site is indie - only 1 person could deploy
+#indieweb @t: we had similar problems with h2vx.com, webmention.org -where the source is open but only some can deploy
+#indieweb @t: so we're coming up with ways to automatically deploy these projects when they are updated
+#indieweb @kevinmarks: I have worked on a thing called story cards http://indiewebcamp.com/storycards 
+#indieweb @jrob716: I don't really have my own website; I do work full time but only 3 days a week so I have some time to build a site
+#indieweb @dariusdunlap: I'm redesigning the square peg foundation site, which is currently wordpress, but working out the flow first
+#indieweb @dariusdunlap: that si going to end up turning into an indiwebified project when the design is done
+#indieweb @dariusdunlap: what are you using for your backends? flask. 
+#indieweb @kevinmarks: I tend to use appengine/python/jinja2 or node/express/jade
+#indieweb @t: I use PHP, based on my cassis project which is a hybrid PHP/javascript language
+#indieweb @kevinmarks: tantek's coding style in cassis looks more like C - when Kyle and I ported bits to python thats what it felt like
+#indieweb @t: there are a lot of bits where you have to parse urls and responses a lot which is the xkcd.com/927 problem 
+#indieweb @t: and I found all the ways people name the different parts of a URL http://tantek.com/2011/238/b1/many-ways-slice-url-name-pieces
