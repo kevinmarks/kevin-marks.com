@@ -1,0 +1,12 @@
+{
+  "type": "entry",
+  "author": {
+    "name": "A. Developer",
+    "url": "http://example.com"
+  },
+  "published": "2015-10-21T12:00:00-0700",
+  "url": "http://example.com/2015/10/21",
+  "name": "Hello World",
+  "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet ultrices pulvinar.",
+  "content": "Donec dapibus enim lacus, a vehicula magna bibendum non. Phasellus id lacinia felis, vitae pellentesque enim. Sed at quam dui. Suspendisse accumsan, est id pulvinar consequat, urna ex tincidunt enim, nec sodales lectus nulla et augue. Cras venenatis vehicula molestie. Donec sagittis elit orci, sit amet egestas ex pharetra in."
+}
