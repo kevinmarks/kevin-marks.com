@@ -1,0 +1,21 @@
+
+#indieweb @t: a small Homebrew Website Club tonight because we forgot to invite people…
+#indieweb @t: the lesson learned is that personal invitations to events make a measureable difference
+#indieweb @kevinmarks: #indieweb @kevinmarks: (lots of discussion of 💗and🌟and 😱discussions, thinking about emoji reactions
+#indieweb @t: we looked at emojitracker.com and noticed that most emoji there are used positively, with 😂at almost a billion
+#indieweb @t: then we looked at the least popular emoji and found Applebees trolling a PhD student 🍎🐝https://twitter.com/linguangst/status/662034582607421440 tip @techmeme
+#indieweb @kylewmahan: I've fixed some interesting brid.gy bugs this week with flickr and photo posse
+#indieweb @t: I used photo posse to twitter at TPAC and saw a brid.gy publish bug that kyle fixed
+#indieweb @kylewmahan: I started working on letting people login to my site with facebook and twitter as well as indieauth
+#indieweb @kevinmarks: I was trying to set up facebook login using oauthdropins and found you now need to do a lot of config to get an app
+#indieweb @kevinmarks: the hard problem of multiple logins is when the user forgets which one they used last time -was it facebook or google
+#indieweb @kevinmarks: can we rebind users via rel="me" links, via shared email addresses, via matching profile photos?
+#indieweb @t: in 2 weeks, our Homebrew Website Club celebrates its second anniversary, so I'll bring cake and we should invite more people
+#indieweb @kylewmahan: I'm thinking about making breaking changes to my own site software, and wondering about my users
+#indieweb @kevinmarks: the difference now is that you fork first and ask permission later - github changed this
+#indieweb @t: last night I updated @falcon to switch from star to heart on my icon that falls back to twitter
+#indieweb @kevinmarks: I realised that my site ahs been showing twitter likes as hearts for ages because of webmention.herokuapp.com
+#indieweb @t: I noticed yesterday that we have more people posting jams than rsvps in indieweb
+#indieweb @t: I ended up redoing all the layout on my site to make my post footers look better, now I need to test on mobile
+#indieweb @kevinmarks: there is an opportunity to replace bootstrap with a framework based on flexbox, instead of 1/12ths of width
+#indieweb @t: in 2 weeks it's the 2nd anniversary of Homebrew Website Club, so there will be cake—tell your friends https://indiewebcamp.com/events/2015-11-18-homebrew-website-club

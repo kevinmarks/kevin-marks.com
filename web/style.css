@@ -9,7 +9,8 @@ blockquote.auto-mention {font-size:.9em; border: 1px solid lightgray; border-rad
 blockquote.auto-mention cite {font-style:normal; font-weight:bold;}
 blockquote.auto-mention p {margin:0;}
 blockquote.auto-mention a {text-decoration:none; color:black;}
-.splash {width:100%; max-width:100%;}
+.splash {width:100%; max-width:100%; max-width: 100vw;}
+img,video {max-width: 100vw;} 
 
 *{
 	transition: all 0.25s ease-out;
