@@ -3,6 +3,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <script src="fragmention.js"></script>
 <link href="style.css" media="all" rel="stylesheet" type="text/css" />
+<link href="cmserif/cmun-serif.css" media="all" rel="stylesheet" type="text/css" />
 <link rel="webmention" href="https://webmention.herokuapp.com/api/webmention" />
 </head>
 <body>
@@ -14,6 +15,7 @@ Stuart notes Lee Phillips’s <a href="https://lwn.net/Articles/662053/">critiqu
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 <p>However Phillips’s idea of HTML is not quite up to date; he ignores how CSS and SVG combine with HTML to add richer typography. First he complains about hyphenation and ligatures. <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/hyphens">Hyphens</a> are in <a href="https://drafts.csswg.org/css-text-3/#hyphens-property">CSS Text Level 3</a> and are implemented in <a href="http://caniuse.com/#search=hyphens">many browsers</a> though not yet Chrome. <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/font-variant-ligatures">Ligatures</a> are in <a href="https://drafts.csswg.org/css-fonts-3/#propdef-font-variant-ligatures">CSS Fonts Level 3</a> and supported in <a href="http://caniuse.com/#search=font-variant-ligature">many browsers too</a> — Apple has done it for years. Here we have the T<sub>E</sub>Χ example, live rendering from your browser, and what Safari Mac made of it. Note the hyphenation and the ligatures. Also, I took out the spaces around the em-dashes that Lee Phillips oddly put in.
 <style>
+svg {    font-family:'Computer Modern Serif',"Hoefler Text", Georgia, Palatino, serif;}
 .mobydick {
     -webkit-hyphens: auto;
     -moz-hyphens: auto;
@@ -21,7 +23,7 @@ Stuart notes Lee Phillips’s <a href="https://lwn.net/Articles/662053/">critiqu
     hyphens: auto;
     font-variant-ligatures: common-ligatures;
     -webkit-font-variant-ligatures: common-ligatures;
-    font-family:"Hoefler Text", Georgia, Palatino, serif;
+    font-family: "Hoefler Text", 'Computer Modern Serif',Georgia, Palatino, serif;
     text-align: justify;
     width: 17.5em;
     max-width: 17.5em;
@@ -42,7 +44,7 @@ Stuart notes Lee Phillips’s <a href="https://lwn.net/Articles/662053/">critiqu
 <p><a href="#top">Go to top</a>
 <p>Now, the SVG there, though scalable, is not ideal - it renders as paths, not characters. If I use SVG text, I can get it selectable:
 <p><svg xmlns="http://www.w3.org/2000/svg" width="200" height="40" >
-<text x="0" y="27" style="line-height:125%; font-size:18px; font-family:Serif;">
+<text x="0" y="27" style="line-height:125%; font-size:18px; font-family:'Computer Modern Serif',Serif;">
  <tspan style="font-size:36px;">∫</tspan><tspan style="font-size:12px;" baseline-shift="sub">𝝨</tspan>∇×𝐅∙𝑑𝝨 = <tspan style="font-size:36px;">∮</tspan><tspan style="font-size:12px;" baseline-shift="sub" dx="-10px">∂𝝨</tspan> 𝐅∙𝑑𝐫
 </text>
 </svg>
@@ -57,7 +59,7 @@ Stuart notes Lee Phillips’s <a href="https://lwn.net/Articles/662053/">critiqu
 &lt;/svg&gt;</pre></code>
 <p>However, you may not see all the glyphs, as I am using the special unicode characters for Mathematical letters, and your browser or device may not have those. Here's a version with ordinary latin and greek letters:
 <p><svg xmlns="http://www.w3.org/2000/svg" width="200" height="40" >
-<text x="0" y="27" style="line-height:125%; font-size:18px; font-family:Serif;">
+<text x="0" y="27" style="line-height:125%; font-size:18px; font-family:'Computer Modern Serif',Serif;">
  <tspan style="font-size:36px;">∫</tspan><tspan style="font-size:12px;" baseline-shift="sub">Σ</tspan>∇×F∙dΣ = <tspan style="font-size:36px;">∮</tspan><tspan style="font-size:12px;" baseline-shift="sub" dx="-10px">∂Σ</tspan> F∙dr
 </text>
 </svg>
