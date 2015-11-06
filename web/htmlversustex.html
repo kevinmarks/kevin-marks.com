@@ -50,7 +50,7 @@ Stuart notes Lee Phillips’s <a href="https://lwn.net/Articles/662053/">critiqu
 <p><a href="#top">Go to top</a>
 <p>Now, the SVG there, though scalable, is not ideal - it renders as paths, not characters. If I use SVG text, I can get it selectable:
 <p><svg xmlns="http://www.w3.org/2000/svg" width="200" height="44" >
-<text x="0" y="30" style="line-height:125%; font-size:18px; font-family:'STIXGeneral-Regular',Serif; src: url('STIXGeneral-Regular.woff') format('woff');">
+<text x="0" y="30" style="line-height:125%; font-size:18px;" font-family="STIXGeneral-Regular">
  <tspan style="font-size:36px;">∫</tspan><tspan style="font-size:12px;" baseline-shift="sub" dx="-7px"  dy="2px">𝝨</tspan>∇×𝐅∙𝑑𝝨 = <tspan style="font-size:36px;">∮</tspan><tspan style="font-size:12px;" baseline-shift="sub" dx="-7px"  dy="2px">∂𝝨</tspan> 𝐅∙𝑑𝐫
 </text>
 </svg>
@@ -65,7 +65,7 @@ Stuart notes Lee Phillips’s <a href="https://lwn.net/Articles/662053/">critiqu
 &lt;/svg&gt;</pre></code>
 <p>However, you may not see all the glyphs, as I am using the special unicode characters for Mathematical letters, and your browser or device may not have those.(Update - I includes the STIX font so you should see them now). Here's a version with ordinary latin and greek letters:
 <p><svg xmlns="http://www.w3.org/2000/svg" width="200" height="44" >
-<text x="0" y="30" style="line-height:125%; font-size:18px; font-family:'STIXGeneral-Regular',Serif; src: url('STIXGeneral-Regular.woff') format('woff');">
+<text x="0" y="30" style="line-height:125%; font-size:18px;" font-family="STIXGeneral-Regular">
  <tspan style="font-size:36px;">∫</tspan><tspan style="font-size:12px;" baseline-shift="sub" dx="-7px" dy="2px">Σ</tspan>∇×F∙dΣ = <tspan style="font-size:36px;">∮</tspan><tspan style="font-size:12px;" baseline-shift="sub" dx="-7px"  dy="2px">∂Σ</tspan> F∙dr
 </text>
 </svg>
