@@ -65,12 +65,9 @@ img,video {max-width: 100vw;}
   text-align: center;
 
   color: #000;
-  background: #eee;
-  border: 1px solid #ccc;
-  border-radius: 50px;
 }
-.webmention-interaction-like .webmention-interaction-presentation:after {content: "♥"; color:red;}
-.webmention-interaction-repost .webmention-interaction-presentation:after {content: "♺"; color:green;}
+.webmention-interaction-like .webmention-interaction-presentation:after {content: "🌟"; color:gold;}
+.webmention-interaction-repost .webmention-interaction-presentation:after {content: "♻"; color:green;}
 
 .webmention-interaction-presentation > span {
   display: block;
