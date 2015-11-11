@@ -1,0 +1,92 @@
+
+#isfmusictech @iambfrank: We can't talk about streaming without discussing the biggest steaming service of all, YouTube
+#isfmusictech @iambfrank: with YouTube you can stream anything whether it has been released or not, 
+#isfmusictech @iambfrank: we're going to need to find other ways for revenue to come to artists without requiring paywalls
+#isfmusictech @FordmotoDaryl: I think spotify is going to convert the free tier to paid, but how are we going to deal with youtube
+#isfmusictech @FordmotoDaryl: there is a lot of argument about the per-play rate, but what matters is the size of the pool of money
+#isfmusictech @iambfrank: it's not just about the per play rate, it's about where else can the revenue come from to the artists
+#isfmusictech @iambfrank: where else can we make money within the streaming ecosystem - tickets, merch other ways
+#isfmusictech @FordmotoDaryl: Does anyone use Tidal? Anyone? Bueller?
+#isfmusictech @hanynada1: A lot of VCs are very down on music, but we have invested in a lot of music startups and made money on all of them
+#isfmusictech @hanynada1: I see a lot of seed stage music companies; taking VC money is an evil prospect. We will kill innovative businesses
+#isfmusictech @hanynada1: If you're going to make a 10 million dollar company, don't take VC money, take seed instead. 
+#isfmusictech @MadameGandhi: The arts have always been a place of inspiration, using each others work and building on it
+#isfmusictech @Dubset: so many artists put off creating the metadata until later. do it early, and establish who wrote it for the split
+#isfmusictech @Dubset: while they are waiting for the split you are not getting paid. have the discussion about what percentage that you own
+#isfmusictech @MichaelSimon48: if 2 people in this room make 1 song and make 1 recording it's not a problem, but if you have 30 million…
+#isfmusictech @MichaelSimon48: once you start committing data to multiple databases it gets messed up 
+#isfmusictech @MichaelSimon48: we spend the rest of our lives trying to make sense of all these poorly integrated databases
+#isfmusictech @rocknty: every music platform has its own database of content, people are typing stuff in, and computers are matching it
+#isfmusictech @rocknty: unlike the movie business you have to have a unique name, that isn't true of music
+#isfmusictech @rocknty: lost fo duplicate names, and then there is the band "the the"
+#isfmusictech @MadameGandhi: what we want to see is better tagging around remixes and derivative works
+#isfmusictech @Dubset: a big part of our platform is audio fingerprinting; but differentiating similar pieces of work is still hard
+#isfmusictech @rocknty: we can distinguish recordings if we here a complete recording, but making it work with remixes and mashups is harder
+#isfmusictech @Dubset: we take DJ mixes or remixed songs and break them down to 3 second or 6 second blocks and fingerprint those 
+#isfmusictech @Dubset: then we can clear those through the automated licensing, and then unlock monetisation for mixed content
+#isfmusictech @Dubset: the IFPI says 30 million listen to remixed music a week, primarily through unlicensed sites
+#isfmusictech @MadameGandhi: i'm an artist, I love soundcloud because I can put stiff up and people like me
+#isfmusictech @Dubset: only youtube has a contentid that works now, and soundcloud doesn't. it's hard to identify it
+#isfmusictech @Dubset: we believe strongly that it should be centralised so there is one place for creators to clear sound
+#isfmusictech @MadameGandhi: if I upload my content to soundcloud, how can I get paid, there is no money going there
+#isfmusictech @rocknty: instead they put a block system rather than a identification system - you need  people can leave the stuff up
+#isfmusictech @rocknty: 100 million views on a videogame montage, boom it's gone the next day
+#isfmusictech @MichaelSimon48: when you uploaded your drum track soundcloud you checked a box where you said you own it
+#isfmusictech @MichaelSimon48: we don't want to create millions of new infringers each year
+#isfmusictech @Dubset: we want to enable people to set rules on remixes, on sync or in certain territories
+#isfmusictech @MadameGandhi: I see a lot of my friends remixing their own and others work and having lots of fun
+#isfmusictech @MadameGandhi: I want 3 options: 1. put my name in the song - which is great if you're skrillex
+#isfmusictech @MadameGandhi: 2. or maybe I'd rather just sell the sample to the remixer
+#isfmusictech @MadameGandhi: or 2. I can take a percentage of royalties as that might be worth more. can you build it?
+#isfmusictech @MichaelSimon48: we can apply a robust set of rules eg it's on for hollywood records and off for epic records
+#isfmusictech @MichaelSimon48: the music industry has infrastcruture that runs in straight lines, but you can make a new route overnight
+#isfmusictech @MichaelSimon48: I spend years learning to play music, months recording and composing, and then 5 minutes on the ISRC bad data
+#isfmusictech @MichaelSimon48: that inaccurate data lasts forever. we need to remap those bad ISRC's back to better data
+#isfmusictech @MichaelSimon48: the asset won't phone home if it is not identified properly
+#isfmusictech @rocknty: the other thing that happens is that each service has their own database. if you can match 85% you're a magician
+#isfmusictech @rocknty: if you go overseas, you get a katakana appendage on your song name and the matches all break
+#isfmusictech @MichaelSimon48: and when that japanese company goes global, the metadata gets scrambled again
+#isfmusictech @MadameGandhi: the most obvious one is to enter your metadata correctly; what else?
+#isfmusictech @rocknty: you want to get your audio fingerprint into the Gracenote database with the right information
+#isfmusictech @rocknty: cover songs is a real interesting area - if they record it with an acoustic guitar on youtube we don't know
+#isfmusictech @MichaelSimon48: rumblefish has a technology called a radkey that shows that tghts have been obtained
+#isfmusictech @MichaelSimon48: I find it very satisfied to create recognition for people's creations
+#isfmusictech @MadameGandhi: is our goal to get people paid for recorded music through technology, or to unlock other sources of revenue?
+#isfmusictech @Dubset: we are migrating to a world where we are collecting pennies, and relying on a global scale for volume
+#isfmusictech @MadameGandhi: is bitcoin a viable solution for sending small amounts?
+#isfmusictech @Dubset: our system is blockchain based, which makes it transparent and works for small payments
+#isfmusictech @MichaelSimon48: it is odd that songwriters are more regulated than weapons manufacturers in this country
+#SFMusicTech q: you're living on an island - anyone can bittorrent anything; you need to make it easier to buy than to steal
+#SFMusicTech @MichaelSimon48: I find it a bit of a convenient pass to say that stealing is too easy
+#SFMusicTech q: itunes is a virus on my computer, it takes over the music. I refuse to use it
+#SFMusicTech @Dubset: it's erroneous to say we haven't made legal access to music easier
+#SFMusicTech q: it is easier to spotify than to torrent; youtube is easier still. A lot of artists give it away free and sell tickets
+#SFMusicTech @rocknty: the Ableton culture today is great you want a million kids making a million mixes and not being knocked down 
+#SFMusicTech @rocknty: we need to enable the ableton
+#SFMusicTech @Dubset: we made the mix transparency report today http://www.dubset.com/2015-mix-transparency-report/ that shows the most mixed songs
+#SFMusicTech @Dubset: we found David Guetta in 52% of mixes
+#SFMusicTech @Dubset: we want to make the registry open source and available to the public -now they are all private
+#SFMusicTech @Dubset: we're talking about opening up the walls and creating things that don't exist today
+#SFMusicTech @rocknty: at the moment all these platforms do it themselves behind their own walls. the plays are valuable statistics
+#SFMusicTech @rocknty: some of it is business people worried about competition
+#SFMusicTech @MichaelSimon48: transparency often means "i want what you have and I don't want to pay you"
+#SFMusicTech @MichaelSimon48: I think blockchain has a big role to play here to drive transparency
+#SFMusicTech q: why aren't we asking the copyright office to create the central registry?
+#SFMusicTech @MichaelSimon48: assume the copyright office was interested in that, it is woefully underfunded
+#SFMusicTech @MichaelSimon48: people file papers with the copyright office to stake their claims
+#SFMusicTech @MichaelSimon48: this si still paper, it is not digitised and I have to send 
+#SFMusicTech @rocknty: its very hard to do this.once I explain ti to people they realise how hard it is and run away
+#SFMusicTech @kevinmarks: was the Berne convention a mistake? should registration be statutory?
+#SFMusicTech @MichaelSimon48: we do register copyrights, but there is so much created nwo we can't keep up
+#SFMusicTech @MichaelSimon48: there was an initiative to create the global repertoire database, which collapsed last year. $100M 
+#SFMusicTech q: I'm hearing that artists should do more, but none of my bandmates want to talk about data. How do we do that?
+#SFMusicTech @Dubset: there is an initiative to capture credits from protools and so on directly - look into those and see what is up to it
+#SFMusicTech @rocknty: when you do your credits use actual words 'Producer' - the publishing compny copyright name is hard
+#SFMusicTech @MichaelSimon48: I work with a publishing company called p'twgs - that is hard to find
+#SFMusicTech q: one thing the music industry has been poor at is creating standards - we need to capture it at the point of creation
+#SFMusicTech q: there is an organisation called ddex to create data exchange standards ddex.net/rin is in protools etc 
+#SFMusicTech q: go and get an ISNI - international standard name identifier
+#SFMusicTech @MadameGandhi: one uplifiting thing each - go
+#SFMusicTech @Dubset: we're at the beginning of the second ecosystem of music - don't give up we want to help artists
+#SFMusicTech @rocknty: I've been in the data business for 18 years and I just figured out what I am doing now
+#SFMusicTech @MichaelSimon48: the tools for creation and distribution have been democratised. we have been behind. we are working on it
