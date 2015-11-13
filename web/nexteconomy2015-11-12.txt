@@ -1,0 +1,474 @@
+
+#NextEconomy James Manyika: there are still massive skill gaps - we are missing 40M high-skilled workers 23M in china
+#NextEconomy James Manyika: there is a surplus of low skilled workers in advanced economies - the returns to education are very high
+#NextEconomy James Manyika: if you take 15 indices of gender parity and look at it for work, it is $28 trillion of additional global GDP
+#NextEconomy James Manyika: If every country did as well as the best country in its region, that would add $12 Trillion to global GDP
+#NextEconomy James Manyika: 60-70% of people are no longer advancing in market income, ~30% in disposable income
+#NextEconomy James Manyika: wholesale automation of jobs is unlikely, but 30% of tasks in 60% of jobs will be automated
+#NextEconomy James Manyika: when ATMs happened, bank tellers jobs didn't go away, but the tasks they did changed
+#NextEconomy James Manyika: we need to move from thinking about Jobs to Work and from Wages to Income
+#NextEconomy James Manyika: instead of rejecting these new modes of work, we need to make them work better
+#NextEconomy @StevenLevy: What year will computers become smarter than people?
+#NextEconomy @StevenLevy: Sebastian Thrun, you started self-driving cars at google - that seemed outlandish then
+#NextEconomy @SebastianThrun: I need to credit Larry Page for putting self-driving cars on streets - he asked me and I said it can't be done
+#NextEconomy @SebastianThrun: Larry Page pushed back, and I realised if a 16-year-old drunk teenager can drive, maybe a computer can too
+#NextEconomy @StevenLevy: at what point did you think about self-driving cars and the economy?
+#NextEconomy @SebastianThrun: for me it is personal - I have lost so many people I know to deaths in traffic accidents.
+#NextEconomy @SebastianThrun: So saving lives is the most important but we can also reduce fuel consumption
+#NextEconomy @SebastianThrun: when people have an accident, they learn not to do ti again. With robots when a car learns, all cars do too
+#NextEconomy @SebastianThrun: once one robot makes a mistake an learns from it, no other robot will make that mistake again
+#NextEconomy @SebastianThrun: it is now actually illegal for commercial pilots to fly the plane themselves in bad weather
+#NextEconomy @SebastianThrun: A lot of jobs like lawyers and tax accountants can be done better by machines than humans. it will happen
+#NextEconomy @StevenLevy: we don't trust machines as much as we trust humans - you say we shouldn't trust people at all
+#NextEconomy @SebastianThrun: practically we trust machines a lot from diagnosis to banking
+#NextEconomy @SebastianThrun: we all depend on machines a lot
+#NextEconomy @SebastianThrun: 3d printing and drone delivery will disrupt truck driving more than self-driving cars will 
+#NextEconomy @StevenLevy: you started with a massive online AI course, but now you are moving udacity to lots of smaller courses
+#NextEconomy @SebastianThrun: we ask companies like google, facebook what it would take to get someone hired, and make courses to teach them
+#NextEconomy @SebastianThrun: so we have nanodegrees on things like Android development that get people hired when they complete
+#NextEconomy @SebastianThrun: we need Art Historians, but there are many more jobs for technologists
+#NextEconomy @StevenLevy: I heard that you became an Uber driver
+#NextEconomy @SebastianThrun: Try out becoming a Lyft or Uber driver - I recommend it to everyone to learn
+#NextEconomy @SebastianThrun: In the past you needed a medallion to be a cab driver, and it was hard
+#NextEconomy @SebastianThrun: Uber no longer sends me customers as a driver, so I have been invisibly fired by them
+#NextEconomy @SebastianThrun: There is a company called Folded that made a game for people to play at Protein folding
+#NextEconomy @SebastianThrun: the world's best protein folder is a secretary in London
+#NextEconomy @StevenLevy: if there is one course you suggest people should take, what that would be?
+#NextEconomy @SebastianThrun: we have once called 'tech entrepreneurship' which is well worth doing
+#NextEconomy @SebastianThrun: our most demanding course is android development which takes you up to Google Engineer standard
+#NextEconomy q: my daughter wants to be a historian and is not interested in technology
+#NextEconomy @SebastianThrun: I get on a slippery slope when I advise parents not to send their children to college
+#NextEconomy @SebastianThrun: there is a great deal of importance to studying history or art and then to bring that back to business 
+#NextEconomy @StevenLevy: what year will computers be smarter than humans?
+#NextEconomy @SebastianThrun: In my own case 1995
+#NextEconomy Adam Cheyer: 1st there was the web, and every business needed a web site, now every business needs an assistant you talk to
+#NextEconomy Adam Cheyer: viv is a cloud-based Siri or Cortana - rather than just having a few small tasks, you can ask anything
+#NextEconomy Adam Cheyer: eg 'on the way to my brothers house I need to pick up some good wine that goes with lasagna' can be answered
+#NextEconomy @lxbrun: Facebook M will handle all the mundane tasks for you, like arguing with your cable provider
+#NextEconomy @lxbrun: M is very hard to do - it is a combination of AI and human trainers and it learns from the humans as it is used
+#NextEconomy @StevenLevy: who are the humans involved in this, are they computer scientists?
+#NextEconomy @lxbrun: AI trainer is a new job, but the people are customer service people who perform the task and the AI learns from them
+#NextEconomy @StevenLevy: is tje idea you won't need the humans at all?
+#NextEconomy @lxbrun: the number of domains is very large, so we will be training the AIs for a very long time
+#NextEconomy @lxbrun: we are trying to machine learn everything from scratch- M learns how to use websites like a human
+#NextEconomy @StevenLevy: there is a theory that assistants like these give ordinary people the chance to have a butler
+#NextEconomy @lxbrun: natural language is a new UI - it as as important as keyboard and mouse were before
+#NextEconomy @StevenLevy: an you describe the personality of M?
+#NextEconomy @lxbrun: we are trying to have no personality
+#NextEconomy @lxbrun: eventually you would be able to customise your assistant as you want, but for now it is standardised
+#NextEconomy @StevenLevy: right now we make our way through the world with randomness - will these homogenise?
+#NextEconomy @markoff: there were 2 labs in Stanford McCarthy's AI lab and Englebart's Human Augmentation lab
+#NextEconomy @markoff: McCarthy thought AI was 10 years out in 1962, and it is still 10 years out
+#NextEconomy @markoff: designers have choices  - do you design people into systems or design them out?
+#NextEconomy @markoff: Tesla is running an alpha test with it's user base now - one bad crash and it sets autonomy back by a decade
+#NextEconomy @StevenLevy: Jerry, you talk about having a robot boss who delegates to you
+#NextEconomy @Jerry_Kaplan: we already are reporting to robots, adn they do a better job
+#NextEconomy @Jerry_Kaplan: we're ebaluated by systems watching us all the time, we're evaluated by systems for jobs and credit
+#NextEconomy @StevenLevy: you aregue we are going to give agency to these systems
+#NextEconomy @Jerry_Kaplan: the issue of agency is a red herring. we need ot get the gee whiz out of artificial intelligence
+#NextEconomy @Jerry_Kaplan: if we are delegating decisions to automated systems we have already given them agency
+#NextEconomy @StevenLevy: how far are we from the movie Her and that degree of conversation?
+#NextEconomy @StevenLevy: Machines are not male or female - there is no-one home
+#NextEconomy @markoff: the turing test is a test of gullibility - 10M chinese are in extended conversations wiht a bot 25% said I love you
+#NextEconomy @markoff: most conversations will be through proxies or with avatars
+#NextEconomy @markoff: when chinese people come to america it seems very culturally quiet- chatbots are private space
+#NextEconomy @Jerry_Kaplan: what I find annoying is when the machines are gratuitously friendly to me
+#NextEconomy @Jerry_Kaplan: they fool people into thinking it is a sentient being in there, and that si worrying
+#NextEconomy @StevenLevy: could a robot conduct this interview?
+#NextEconomy @lxbrun: yes because I have been trained by PR to speak like a robot
+#NextEconomy @Jerry_Kaplan: there is a misframing of the problem - automation doesn't replace people, but tasks
+#NextEconomy @Jerry_Kaplan: if your job is all tasks that can be automated, then you are out of a job
+#NextEconomy @Jerry_Kaplan: pedicurists don't just understand feet, there is an emotional connection there
+#NextEconomy @Jerry_Kaplan: so many jobs have a human connection  - no one wants a robot undertaker
+#NextEconomy @KJ_Hammond: I miss the old world when everything was simple when we'd build AIs in robot bodies and they'd kill us all
+#NextEconomy @KJ_Hammond: Narrative Science analyses data and generates a story as structure, then we turn that into language
+#NextEconomy @KJ_Hammond: if the data and analysis have meaning we can transform that into language
+#NextEconomy @KJ_Hammond: while we would like to have abolished the whole profession of journalism, we went a differnt way
+#NextEconomy @KJ_Hammond: what if we could write one story for every person instead of one read by thousands
+#NextEconomy @KJ_Hammond: we can generate a story for the owner of a restaurant based on the credit card statement
+#NextEconomy @KJ_Hammond: taking a real-time data stream from IOT sensors and providing a story about it is key
+#NextEconomy @KJ_Hammond: if anyone has the word analyst in their job title, something like our Quill will work with them
+#NextEconomy @KJ_Hammond: running algorithms against data gets new meaning, but if the meaning is there is can be transformed into language
+#NextEconomy @KJ_Hammond: for me, reasoning is not magic, but these systems need to explain themselves to us
+#NextEconomy @KJ_Hammond: I said a robot journalist will win a pulitzer in 5 years 3 years ago
+#NextEconomy @KJ_Hammond: i don't do a lot fo work in journalism any more
+#NextEconomy @StevenLevy: not paying enough?
+#NextEconomy @KJ_Hammond: there will be pulitzer quality stories, but we will not write them, someone will use quill to do them
+#NextEconomy @timoreilly: Kickstarter is an example of the new approach to funding from the crowd
+#NextEconomy @timoreilly: Clay Shirky said we moved from filter then pubish, to publish then filter, and Kickstarter does that for funding
+#NextEconomy @ystrickler: I want to talk about what is possible when you are not forced to be in the business of just making money
+#NextEconomy @ystrickler: There are 25,000 projects done by people who have already created projects 75% success rate for subsequent ones
+#NextEconomy @ystrickler: hardware makers used to need massive scale - before 2012 we were either handmaking or 100,000+ runs 
+#NextEconomy @ystrickler: that change to where someone can think about what they are doing fro 6 months and make 150 to 50,000 units
+#NextEconomy @ystrickler: Boardgames are one of the healthiest communities on kickstarter - $250M in aggregate, lots of small games
+#NextEconomy @ystrickler: Kickstarter is self-selecting groups of communities producing new kinds of creativity
+#NextEconomy @ystrickler: can hardware be an artful medium?
+#NextEconomy @ystrickler: on kickstarter ideas are funded because people think they are cool, not because they will make a profit
+#NextEconomy @ystrickler: they legalised crowd funded small investing recently, but Kickstarter is not going near that 
+#NextEconomy @ystrickler: at some point in the last 15 years it became OK to sell out. Don't Sell Out.
+#NextEconomy @ystrickler: It's very simple - we spend less money than we make at Kickstarter
+#NextEconomy @ystrickler: If you keep your independence you can call the shots. This is a challenge for creative people
+#NextEconomy @ystrickler: 
+#NextEconomy @ystrickler: 
+#NextEconomy @ystrickler: 
+#NextEconomy @ystrickler: 
+#NextEconomy @ystrickler: 
+#NextEconomy @ystrickler: 
+#NextEconomy @ystrickler: 
+#NextEconomy @ystrickler: 
+#NextEconomy @ystrickler: 
+#NextEconomy @ystrickler: 
+#NextEconomy @ystrickler: 
+#NextEconomy @ystrickler: 
+#NextEconomy @ystrickler: 
+#NextEconomy @ystrickler: 
+#NextEconomy @ystrickler: 
+#NextEconomy @ystrickler: creative people often feel guilt about making money, and underpay themselves
+#NextEconomy @ystrickler: You have to be idealistic and believe that it is possible to change that you aren't just screaming into the wind
+#NextEconomy @ystrickler: Patagonia,—a benefit company—says they will share proprietary information with competitors to help the environment
+#NextEconomy @ystrickler: basecamp, @pinboard these are self-sufficient companies that care about what they are doing
+#NextEconomy @ystrickler: Fugazi i see as punk rock heroes but they are also small business heroes who've kept it going for years
+#NextEconomy @ystrickler: Harvard Business Review sat to be paranoid, disrupt yourself, go to war - all very toxic ideas
+#NextEconomy @ystrickler: This language is anxiety inducing - it makes you want to behave badly
+#NextEconomy @ystrickler: it's harder because your tools of measurement are going to be handwavy, but easier as you can be principled
+#NextEconomy @ystrickler: Kickstarter became a Public Benefit Corporation - optimising for benefiting society, not shareholder value
+#NextEconomy @ystrickler: we are going to publicly report on what we have done to benefit society
+#NextEconomy @ystrickler: it is not a purity test of ideology, it is polyculture of many different ways of thinking
+#NextEconomy @ystrickler: we champion and celebrate the creation of art and culture. Fuck the monoculture
+#NextEconomy @adafruit: Adafruit is an open source hardware company based in manhattan
+#NextEconomy @adafruit: I design here in the factory and the manufacturing is right here - I have pick and place line in my Soho factory
+#NextEconomy @adafruit: I can design and manufacture 5 seconds apart
+#NextEconomy @timoreilly: I believe you are the last cellphone manufacturer in america
+#NextEconomy @adafruit: we have an open source cellphone that you can make yourself
+#NextEconomy @adafruit: components come on reels, they are picked up 12 at a time and put down on the board at superhuman speed
+#NextEconomy @adafruit: we have 1 50,000sq ft manuafacturing facility in Soho, about 100 people, grossed $33M last year
+#NextEconomy @adafruit: we haven't taken any VC, we are wholly self funded and build out on our own way
+#NextEconomy @adafruit: I grew up in culture that worshipped open source, and I have brought that over to the hardware side
+#NextEconomy @adafruit: we have a hangout every week for creators, and we have 'ask an engineer' live show
+#NextEconomy @adafruit: a 6 year old  who was watching my show asked her father 'are there male engineers too?'
+#NextEconomy @timoreilly: open source hardware is a big part of what you do
+#NextEconomy @adafruit: I have 500-600 github repositories, one for each project, and objects on thingiverse
+#NextEconomy @adafruit: we have a community that remixes and rebuilds what we make.
+#NextEconomy @adafruit: we're not going to do patents for the sake of it 17 years is too long, it changes in 6 months
+#NextEconomy @timoreilly: you said your pick and place machine documentation was terrible so you made video tutorials to teach it
+#NextEconomy @adafruit: last year we launched our learing site which has over 900 tutorials from stripping wire to making a laptop
+#NextEconomy @adafruit: good information is advertising - instead of buying ads we put up this inofrmation that leads people back to us
+#NextEconomy @adafruit: we're an education company with a gift shop at the end
+#NextEconomy @timoreilly: there are multiple ways to monetise - if you spread education and knowledge you find a way to make money
+#NextEconomy @timoreilly: I remember you having a strong opinion about different kinds of resistor or special vacuum tubes
+#NextEconomy @adafruit: electronics is a form of art, it is the artform I have chosen to express myself
+#NextEconomy @adafruit: historically electronics people have pushed fashion aside, but now we can bring them together
+#NextEconomy @adafruit: I went to a fashion show and sow clothes with LEDs in with the code written by girls from the Bronx
+#NextEconomy @timoreilly: there's a choice not just to be consumers but to be creators
+#NextEconomy @adafruit: now we see 3 year olds with iPads, but people don't know what is in them_what if you make your own with raspberry pi
+#NextEconomy @adafruit: if you have someone who you want to help, find a small project from our site and do it with her
+#NextEconomy @markhatch: I love revolutions - I am a former green beret and I love blowing things up
+#NextEconomy @MarkHatch: I get asked "has anything serious come out of the maker movement?"
+#NextEconomy @MarkHatch: when you put the tools of the industrial revolution into the hands of the middle class they do amazing things
+#NextEconomy @MarkHatch: this is the worlds fastest electric motorcycle - it was built in our Menlo Park techshop
+#NextEconomy @MarkHatch: Andy Filo is working on a jetpack - he is now consulting to NASA for their jetpacks
+#NextEconomy @MarkHatch: Michael Pinneo is building a desktop diamond manufacturing device 95% hydrogen, 5% methane create plasma, diamonds
+#NextEconomy @MarkHatch: Tina Albin-Lax came in and learned how to use a laser cutter, and cut out cupcake toppers for her nephews party
+#NextEconomy @MarkHatch: at the end of the party she had $400 worth of orders and then it became a business
+#NextEconomy @MarkHatch: David Lang wrote 'Zero to Maker' - he took 20 classes and 9 month later started an underwater robot company
+#NextEconomy @MarkHatch: Brit Morin came to Techshop, learned a bunch of tools and now has a huge lifestyle craft business 
+#NextEconomy @MarkHatch: Mark Roth was homeless, he came into Tech shop and built Tchotchkes and sold them, and built a business
+#NextEconomy @MarkHatch: James McKelvey made the prototypes for Square in our Menlo Park TEchShop
+#NextEconomy @MarkHatch: the fundamental question is when are you going to join the revolution?
+#NextEconomy Saul Griffith: July 1945 Vannevar Bush wrote 'As we may think' describing a vision for what we could be
+#NextEconomy Saul Griffith: in the same month he submitted to the president "Science, the endless frontier" which became the NSF
+#NextEconomy Saul Griffith: research is changing a lot  - Google spends $9B on R&D NSF is $6B, DARPA $3B this is a big shift
+#NextEconomy Saul Griffith: we have a solar powered plane that generates 35 KWh and flies forever
+#NextEconomy Saul Griffith: We have company called Sunfolding that tracks the sun to get 30% more out of solar panels
+#NextEconomy Saul Griffith: we have a precision pointing device made out of compressed soda bottles
+#NextEconomy Saul Griffith: the department of defence gave us money to build a walking inflatable elephant that walks 1mile in 8 hours
+#NextEconomy Saul Griffith: traditional industrial robots have to be kept in a cage, we're from california for cage-free robots
+#NextEconomy Saul Griffith: our pneumatic robots are the first ones that can lift their own weight
+#NextEconomy Saul Griffith: our elephant inspired Big Hero 6 - the future of soft robots
+#NextEconomy Saul Griffith: we built an exoskeleton that makes people run faster with less energy
+#NextEconomy Saul Griffith: I want this to run a marathon without training, but it's real purpose is stroke rehabilitation
+#NextEconomy Saul Griffith: For a million dollars you can now have very high precision measurement and manufacturing
+#NextEconomy Saul Griffith: so we will have a lot more independent labs, and more diversity of labs and people building them
+#NextEconomy Saul Griffith: we're not investing in solving the problem we know about - Energy
+#NextEconomy @timoreilly: the company founded by Edison, GE is also thinking about thse issues -here's Jeff Immelt
+#NextEconomy @JeffImmelt: I've been at GE for more than 30 years. For most of that era the role of CIO was not significant
+#NextEconomy @JeffImmelt: if you look at the innovation in the consumer space, most of that hasn't made it into the industrial sector yet
+#NextEconomy @timoreilly: You recently appointed GE's first Digital Office, but you got rid of the finance unit that was more digital
+#NextEconomy @JeffImmelt: We're $150B of making things - we are the worlds biggest industrial company
+#NextEconomy @JeffImmelt: a locomotive today is a rolling datacentre - it has 600 sensors of fuel efficency and motion
+#NextEconomy @JeffImmelt: for decades CIOs were doing the help desk, and seen as a cost centre. We want Digital Industrial
+#NextEconomy @timoreilly: will this industrial internet be open or closed? is it open source, is it like the web?
+#NextEconomy @JeffImmelt: I grew up  in a closed world, but it now needs to be an open system. That's not where I started from
+#NextEconomy @JeffImmelt: we do high tech big systems - Jet engines, turbines. Labour cost is 10-20%, materials science matters more
+#NextEconomy @JeffImmelt: manufacturing used to be an out-sourced labour market arbitrage business
+#NextEconomy @JeffImmelt: now it is more high skill and you are designing the manufacturing process as you design the jet engine
+#NextEconomy @JeffImmelt: Silicon Valley doesn't get that people and culture are even more important in big companies than small ones
+#NextEconomy @JeffImmelt: when you see an airplane engine that is 20 years old, you want the people who made it to still be working there
+#NextEconomy @JeffImmelt: we acquired a company called WorldTech that does cybersecurity, and we work to harden the electricity grid
+#NextEconomy @JeffImmelt: the number of manufacturing workers in the US is growing even as we improve productivity
+#NextEconomy @JeffImmelt: we are investing as much today in new material science that our supply chain can't do, there is a time lag
+#NextEconomy @estherbrooklyn: average earnings is $35k a year, but retail is $20k/year
+#NextEconomy @estherbrooklyn: within days or weeks of companies adopting electronic scheduling system we see changes in people's work
+#NextEconomy Darrion Sjoquist : My mother working at starbucks meant i had to get up at 5am to get my sister to school for 7am
+#NextEconomy Darrion Sjoquist : my mother would start at 3am and my schedule would depend on hers and I then had to take my sister to school
+#NextEconomy Darrion Sjoquist : I could not sign up for any clubs at school because I could not rely on my schedule being stable over time
+#NextEconomy Darrion Sjoquist : When my mother moved to a secretarial job with regular hours I was finally able to take up theatre
+#NextEconomy Darrion Sjoquist : Now I work at Starbucks too. We are perpetually operating at the minimum number of people possible there
+#NextEconomy Darrion Sjoquist : if you call in sick, you know that your co-workers will go through hell because there is no slack
+#NextEconomy Darrion Sjoquist : Starbucks said they would give people more advance notice 9 months ago we started seeing change 2 months ago
+#NextEconomy Darrion Sjoquist : while there is an official end to clopening (closing the store and reopening the next day)
+#NextEconomy Darrion Sjoquist : we still see people leaving at 9.30pm and needing to be back the next day at 6.30am
+#NextEconomy Darrion Sjoquist : for a shift supervisor, the concept of calling in sick is impossible - you can't get someone to cover it
+#NextEconomy Darrion Sjoquist : I've seen barista's come in with flu or pinkeye because the system doesn't allow for people to get sick
+#NextEconomy @GleasonCarrie: I have seen a shift to part-time employment since 2005 - people with fulltime jobs were asked fro more shifts
+#NextEconomy @GleasonCarrie: then shifts started to change from week to week, and employees had no input, the managers set them
+#NextEconomy @GleasonCarrie: 41% of all hourly workers get their schedule with under a weeks notice
+#NextEconomy @GleasonCarrie: when you don't know your schedule from week to week, you can't plan childcare or your life
+#NextEconomy @GleasonCarrie: workers are using facebook and setting up shift swapping groups to exchange shift hours
+#NextEconomy @GleasonCarrie: in san francisco workers are paying each other money to cover their shifts
+#NextEconomy @estherbrooklyn: people get scheduled for shifts with a start time but an undetermined end time
+#NextEconomy @GleasonCarrie: victoria's secret workers will get 4 hour shifts, then scheduled for 2-hour on-call shifts afterwards
+#NextEconomy @estherbrooklyn: in effect your whole life is on hold to get these 10-12 hour shifts each week
+#NextEconomy @GleasonCarrie: people who try to work retail and go to school at the same time end up being forced to choose between
+#NextEconomy @estherbrooklyn: the American myth of social mobility is being interrupted by these scheduling models
+#NextEconomy Charles DeWitt : You mentioned that wal-mart redefined retail in the mid 90s - it was a mindset change
+#NextEconomy Charles DeWitt : labour was seen as a bundle of costs and liabilities through ERP, and not the value of continuity
+#NextEconomy Charles DeWitt : in 2009 the national retail federation show people asked how to get more out of labour
+#NextEconomy Charles DeWitt : if you're good to employees, they will be good to you - if it is too lean you lose out
+#NextEconomy Charles DeWitt : a lot of longitudinal studies show that engaged employees are better employees
+#NextEconomy Charles DeWitt : firms are now asking us how to improve this - we need to model fairness and make it visible so they can fix it
+#NextEconomy Charles DeWitt : we are working to move from transactional systems to reflect these variables.
+#NextEconomy @GleasonCarrie: When I first started seeing these trends happen, the schedule was not created by the manager, but software was
+#NextEconomy @GleasonCarrie: then the manager role became cost containment - they could only show growth by shrinking labour
+#NextEconomy @GleasonCarrie: the managers would skim off hours - get sent home early, get hauled in last minute
+#NextEconomy @GleasonCarrie: the managers would blame the software for the schedules, but they were froced to squeeze the workers hours
+#NextEconomy Charles DeWitt : 10 years ago ti was all about cost containment and coverage, but the algortihm didn't consider hour stability
+#NextEconomy Charles DeWitt : scheduling is about getting people there are the right time - it is a policy and configuration issue
+#NextEconomy Charles DeWitt : there are mathematically right answers to allowing for sickness, but it needs to be built in
+#NextEconomy @estherbrooklyn: the interplay between turnover and staffing is not visible on the same chart or to the same people
+#NextEconomy @estherbrooklyn: is the technology there to show the full impact of this lean scheduling?
+#NextEconomy Charles DeWitt : there is an issue of it being a siloed organisation and information not flowing
+#NextEconomy Charles DeWitt : in our system, all of this data is here, but it is in a transactional database, not a reporting database
+#NextEconomy Charles DeWitt : Marsh Fisher wrote 'the new science of retailing' showed the correlation between labour in store and sales
+#NextEconomy Charles DeWitt : the CEO says 'you need to cut 5% labour' "lets close 5% of stores" 'we'd lose revenue' "exactly"
+#NextEconomy Charles DeWitt : the retailers I am talking to do want to change, so we can feed back this data to them to change
+#NextEconomy @GleasonCarrie: these problems have been around for a decade; legislation swept across the country
+#NextEconomy @GleasonCarrie: now 250,000 workers no longer have on-call scheduling - as retailers reform practices
+#NextEconomy Darrion Sjoquist : the reason that I am here is to make it apparent that we are people and we need consideration
+#NextEconomy @GleasonCarrie: @fairworkweek are launching the High Road Workweek partnership today
+#NextEconomy @GleasonCarrie: these practices have impact on community, economy and individuals
+#NextEconomy @GleasonCarrie: predicatability, adequate hours, employee input and flexibility, equal opportunity and mobility
+#NextEconomy @GleasonCarrie: Technology has a critical role to play in this, but the company needs to set the values and measure it 
+#NextEconomy @GleasonCarrie: managers need to be set up for success with metrics aligned to scheduling equity principles
+#NextEconomy @GleasonCarrie: go to fairworkweek.org to see this pledge
+#NextEconomy @laurensmiley: Respond on medium and tag with #wtfeconomy to discuss this
+#NextEconomy @laurensmiley: Leah Busque founded Taskrabbit long before Uber or Airbnb existed
+#NextEconomy @laurensmiley: when you started taskrabbit in 2008 it was a very different environment how did it come to you?
+#NextEconomy @labusque: I was a software engineer at IBM for 8 years. I had the idea when we realised we were out of dogfood in the snow
+#NextEconomy @labusque: wouldn't it be nice to ask if anyone nearby could pick up the dogfood and drop it off
+#NextEconomy @labusque: in 2008 the iphone had just come out, and facebook was only just getting out of colleges
+#NextEconomy @labusque: location data was not being used then. I came up with this idea as 'service networking' not 'social networking'
+#NextEconomy @labusque: when I launched taskrabbit in Boston Iived in Charlestown and I thought I'd get lots of college students
+#NextEconomy @labusque: I recruited 600 moms in chralesetown for the beta network; I thought i'd get students as taskers
+#NextEconomy @labusque: I din't get students, I got moms who were out and about, and retirees, and young professionals at weekends
+#NextEconomy @labusque: out of the 30,000 taskers the top 10% is doing it full time - 3 tasks a day, ~$7k a month the rest are casual
+#NextEconomy @labusque: a lot fo the most successful taskers are handymen or housecleaners who had a  background in that industry
+#NextEconomy @labusque: we have been in the market 5 years - when we started there was just craigslist
+#NextEconomy @labusque: after 5 years we saw the landscape shift - a lot of companies were specialising in differnt things
+#NextEconomy @labusque: we stepped back and said 'what if we were launching now?' and rebuilt in 2014 to focus on mobile, scheduling
+#NextEconomy @labusque: in the previous product there was an auction bidding model that would take 24 hours to resolve like ebay
+#NextEconomy @labusque: now we can schedule it more practically in advance - the taskers set their rates and availability & show up at once
+#NextEconomy @labusque: the great thing about this new platform is that taskers are making more money as they set their rates not bidding
+#NextEconomy @labusque: we tested this in London first before rolling out in US and taskers made 400% more monthly
+#NextEconomy @laurensmiley: you did lose some people after the change?
+#NextEconomy @labusque: some people loved the auction/bidding model but most who made money make more wiht the new system
+#NextEconomy @labusque: on average taskers make $35/hr and overall about $900/month - so part time
+#NextEconomy @labusque: that we allow taskers to set their own hourly rates, schedules and accept tasks on demand
+#NextEconomy @labusque: we have to make sure that both sides of the market are served by the system
+#NextEconomy @labusque: home services has been a very fragmented space in the past - we have put together a way to do it sytematically
+#NextEconomy @labusque: taskrabbit is a technology platform that enables this new generation of workers 
+#NextEconomy @labusque: taskrabbit.com is one place that could generate demand, but amazon can generate demand for installing TVs
+#NextEconomy @aweigend: how is this different from what we were hearing about Starbucks et al in the last panel?
+#NextEconomy @labusque: Many new companies sacrifice the supply side, the worker side in the race fro growth
+#NextEconomy @labusque: I think this model could be applied to other companies and industries
+#NextEconomy q: you do criminal records for the taskers but not for the people soliciting the tasks, how come?
+#NextEconomy @labusque: you have to think about the expectations and needs of the supplier and the consumer
+#NextEconomy @labusque: we ask for credit card upfront before a job can be posted to verify address and credit for the consumer
+#NextEconomy @labusque: we could do more there, but what we have in place has worked well so far
+#NextEconomy Jon Kessler: I was a cab driver, and my income was declining rapidly, there was a lot fo downtime. so I signed up for Lyft
+#NextEconomy Jon Kessler: before Uber and Lyft being a cab driver was good, passengers always said ti was hard to get a cab
+#NextEconomy Jon Kessler: there are a lot of drivers who do both, but the cab companies are very anti Lyft/Uber
+#NextEconomy Jon Kessler: I did not own a medallion - I did not purchase one
+#NextEconomy @piltdownlad: I started doing Lyft in Feb 2014, the pries were good, but the rates charged kept going down - 40% 
+#NextEconomy @piltdownlad: I found it wasn't good for the drivers - you're using your own personal car as a cab in SF
+#NextEconomy @piltdownlad: I did Lyft for 10 months and my back seat looks like I transported farm animals
+#NextEconomy @laurensmiley: you went to cab school - how many others were in your class?
+#NextEconomy @piltdownlad: one, but he went back to Lyft
+#NextEconomy @piltdownlad: taxi drivers are a community - we talk to each other. We all communicate through GroupMe
+#NextEconomy @piltdownlad: we talk on GroupMe about traffic and closed streets and where pick-ups are good
+#NextEconomy @piltdownlad: Lyft and Uber drivers are horrible drivers - very few live in San Francisco and they drive like tourists
+#NextEconomy @piltdownlad: I'm on Fell and a car is coming at me and all I see is a pink glow-stache and I hope he stops in time
+#NextEconomy @piltdownlad: I work public works Friday Saturday night on the cab rank, and I see 4-5 uber/lyft
+#NextEconomy Eric Barajas: I started part time driving Uber for a week, and I was able to make my own schedule. compared to my last job
+#NextEconomy Eric Barajas: I saw an ad on craigslist saying Uber was $35/hour and I didn't make that then
+#NextEconomy Eric Barajas: I've been at it 9 months and I feel trapped - I work 11 hours a day+ 2 hours commute
+#NextEconomy Eric Barajas: gross I make about $1050 a week  - the IRS deduction is 57¢ a mile so about $175/day gas is $40-50/day
+#NextEconomy Eric Barajas: my car lease from Uber is $170/week. Insurance was charged per mile and it came to $540/mo
+#NextEconomy Jon Kessler: my expense for car and insurance+ phone are less $488/mo - I drive between 7 and 30 hours/week
+#NextEconomy Jon Kessler: the more hours I work the more  I make - on average about $28/hour net before tax
+#NextEconomy @piltdownlad: I have no expenses besides my gate fees - thursday $111 friday $121 saturday $111 - that gets me car, everything
+#NextEconomy Eric Barajas: I like the flexibility and the app most, but I don't like how they treat the drivers
+#NextEconomy @laurensmiley: I met Eric at an Uber protest outside the company
+#NextEconomy Eric Barajas: what we want is tips and higher rates
+#NextEconomy Eric Barajas: airport is about $32 each I've never seen a  surge from the airport, $50 from union sq to airport
+#NextEconomy @piltdownlad: For a taxi, the airport is $55 so we don't get so many of those
+#NextEconomy @piltdownlad: at national we put out all the cars, deSoto puts fewer cabs out
+#NextEconomy @piltdownlad: we have specific guys who come in adn do the short trips
+#NextEconomy @piltdownlad: my friend Late Night Larry says you just say "you're out" and throw people out of the cab
+#NextEconomy Eric Barajas: I fear deactivation - you can get instantly fired
+#NextEconomy @piltdownlad: with cabs you get called down to the MTA to answer complaints, but no-one ever gets called in
+#NextEconomy Jon Kessler: a cab driver has more power than the uber/lyft driver as you are the cab companies customer
+#NextEconomy Jon Kessler: uber the passenger has all the power; lyft is more balanced; cabs the driver has it
+#NextEconomy @piltdownlad: if you are in a situation that you do not like, get out of the cab, keep it between you and them
+#NextEconomy @piltdownlad: you have a right of refusal over passengers - 
+#NextEconomy Jon Kessler: you can refuse if they leave the city, if you don't have time, they're dirty or belligerent
+#NextEconomy Jon Kessler: you are supposed to pick up drunk people so they don't drive
+#NextEconomy @piltdownlad: there are so many reasons you can not pick up a hail, you still have that control
+#NextEconomy @piltdownlad: if you don't pick them up, they don't have much sanction
+#NextEconomy @timoreilly: we think about these platforms from the user point of view, but what does it say about corporate structure?
+#NextEconomy @timoreilly: Coase said that the management overhead of the large firm was less than the transaction costs between small firms
+#NextEconomy @timoreilly: we are starting to see small core companies with a large network
+#NextEconomy @timoreilly: Esko Kilpi reminds me of a conference I did called 'building the internet operating system' before cloud existed
+#NextEconomy @timoreilly: I found someone then who was unknown - Clay Shirky-  Esko reminds me of that experience
+#NextEconomy @EskoKilpi: Lets pretend that we are in a conference about lifting things call it Next Lifting
+#NextEconomy @EskoKilpi: imagine we are discussing when the cranes will be able to lift as much as a human
+#NextEconomy @EskoKilpi: people are not clever, people have never been clever - we need all the help that we can get
+#NextEconomy @EskoKilpi: technology is a vital ingredient
+#NextEconomy @EskoKilpi: How can it be that we are more productive after retirement?
+#NextEconomy @EskoKilpi: the work systems we have are not only broken but are based on artificial scarcity
+#NextEconomy @EskoKilpi: when we talk about algorithms they are very different from how humans behave
+#NextEconomy @EskoKilpi: algorithms are discrete; humans are not discrete so modelling a human is impossible for the forseeable future
+#NextEconomy @EskoKilpi: we should understand the algorithmic economy as an absolute necessity, and it requires matehmatics
+#NextEconomy @EskoKilpi: in the old system your boss told you what the problem you are supposed to solve it
+#NextEconomy @EskoKilpi: in this new environment the problem has not been defined beforehand; work starts with problem definition
+#NextEconomy @EskoKilpi: we need to allow people to find ways to define problems, and ways to solve them by collborating with other people
+#NextEconomy @EskoKilpi: we need everything to be decentralised; without a network it won't work to solve problems
+#NextEconomy @EskoKilpi: the thinsg that are platforms now will become a commons in future
+#NextEconomy @EskoKilpi: work and learning have to become the same thing
+#NextEconomy @StevenLevy: we now have a panel of VCs
+#NextEconomy @simonrothman: I invested in Sprig - a startup that will bring food to you within 10 minutes, not from a restaurant
+#NextEconomy @simonrothman: it's obvious that I can press a button on my phone and have food brought to me in 10 minues
+#NextEconomy @garyswart: the single biggest lever companies have is talent and it is hard to get that oDesk, now UpWork is exactly that
+#NextEconomy @garyswart: it is B2B SaaS company 
+#NextEconomy @StevenLevy: can you explain what that means?
+#NextEconomy @garyswart: it's very hard to hire good sales people and ti takes 9 months to know when they got it right
+#NextEconomy @jamescham: one of the 1st investment we made was in a company called fieldwire that is construction software
+#NextEconomy @jamescham: when the line cook has an android phone that can take pictures of anything, everyone is a knowledge worker
+#NextEconomy @jamescham: there is a set of people who are introverts who are focused on tools that make tools - software developers
+#NextEconomy @jamescham: if you apply tools like make files to otehr fields lots can happen
+#NextEconomy @jamescham: if you're a software developer fieldwire looks like Jira, but it makes a difference in construction
+#NextEconomy @garyswart: we get excited about innovative technologies, but also about new business models
+#NextEconomy @garyswart: in a pure marketplace it is a beautiful thing, but many so-called marketplaces are managed services
+#NextEconomy @garyswart: then the goals are misaligned - you want the lowest quality at the highest price, the customer wants the opposite
+#NextEconomy @simonrothman: many people look at uber as if it is a service, but actually it is a marketplace
+#NextEconomy @simonrothman: regulation is an historic artefact - it models the past. I fyour idea is so big it will require new regulations
+#NextEconomy @jamescham: silicon valley is test lab fro the rest of the world
+#NextEconomy @simonrothman: in the early days of a startup you have to beg the media to write about you; when you grow you can't stop them
+#NextEconomy @StevenLevy: are these marketplaces essentially winner take all? the way you merged companies
+#NextEconomy @garyswart: if not a winner take all it is a winner take most - look at ebay buying Stubhub - you see some verticals
+#NextEconomy @nickgrossman: I learned a lot on the internet, and thank you all for that
+#NextEconomy @nickgrossman: I work at UNion Square Ventures, and we invest in networks - many of these help people become professionals
+#NextEconomy @nickgrossman: you can become a recording artist at Soundcloud wihtout a record label ,a  product designer on kickstarter
+#NextEconomy @nickgrossman: in the old days there was the firm and it defined what a job was
+#NextEconomy @nickgrossman: now there are lost of smaller possible firms
+#NextEconomy @nickgrossman: a lot of thinsg are attached to firms - healthcare, tax collections, unions 
+#NextEconomy @nickgrossman: these arenow becoming unbundled fromt he firm and attached to the individual worker
+#NextEconomy @nickgrossman: how can we rebundle these services around the worker in new ways
+#NextEconomy @nickgrossman: job discovery and scheduling; benefits and insurance; identity and reputation; community and organising
+#NextEconomy @nickgrossman: education and training; facilities and equipment; finance and admin
+#NextEconomy @nickgrossman: there are startups in all these sectors
+#NextEconomy @nickgrossman: who are these companies working for - the worker or the firm - we want the worker as customer
+#NextEconomy @nickgrossman: wheneveryon is their own tiny company, the benefits need to attach to the individual, not the companies
+#NextEconomy @nickgrossman: many startups end up as identity and reputation platforms - can on-demand workers move their identity around
+#NextEconomy @nickgrossman: in the networked economy, can workers have leverage?
+#NextEconomy @nickgrossman: the 2010s have been the decade of networked activism - we haven't seen this yet for the labour market
+#NextEconomy @StevenLevy: Stewart Butterfield is the founder of Slack, a way of improving conversations within firms
+#NextEconomy @stewart: Slack is a messaging app for teams
+#NextEconomy @stewart: most people have used ICQ, or AIM or IRC - messaging is a classic tech tool, but it is new to companies
+#NextEconomy @stewart: at another O'Reilly conference 11 years ago when I introduced Flickr Ben Ceverny talked about tarnstions
+#NextEconomy @stewart: computing used to be about applications; then it was about documents, now it is about relationships
+#NextEconomy @StevenLevy: Slack looks like it coudl eb a consumer product - it has whimsy in it
+#NextEconomy @stewart: we have a weird origin story -the company was founded to build a multiplayer game
+#NextEconomy @stewart: we had designed the proto-slack to deal with our internal communications building that game
+#NextEconomy @stewart: it was built incrementally to solve each problme in the smallest way possibel as we encoountered it
+#NextEconomy @StevenLevy: facebook was not at all the first example of socisl networks, they just got the dials right
+#NextEconomy @stewart: 1.7 million people use Slack every day around 500,000 paid subscribers  $8/mo $80/year
+#NextEconomy @stewart: using Slack for free is like a free trial that doesn't expire
+#NextEconomy @stewart: when ti is free you only have 10,000 message history and 5 integrations - by the time you hit those you want to pay
+#NextEconomy @StevenLevy: Slack is a very sneaky application - you use it naturally and gradually it takes over your work life 
+#NextEconomy @stewart: what slack does is make lots of the internal processes transparent
+#NextEconomy @stewart: when you join a team that is using Slack you can see the historical archive at once
+#NextEconomy @StevenLevy: Slack is a subversive way of opening up an organisation, whetehr they want to or not
+#NextEconomy @stewart: there are things people can do to hoard information, and Slack makes that a little bit harder to do
+#NextEconomy @stewart: this is a transformation that has been going on slowly for the last 20 years or so where you get more access to info
+#NextEconomy @stewart: It was always a fact that howard street was 1-way in that direction, but now I can see that by pinch zooming
+#NextEconomy @stewart: we don't even notice how much more powerful we are as signal processors as human beings over the last few years
+#NextEconomy @StevenLevy: slack sucks in information from all the other apps too is it the one app?
+#NextEconomy @stewart: slack becomes the one app you have open all day alongside whatever other app you have open like excel, photoshop
+#NextEconomy @stewart: we get about 15-20,000 tweets a month and they are all fed into the tweets channel
+#NextEconomy @stewart: anyone in the company can look at them, before only support people woudl see that
+#NextEconomy @stewart: we also make it a rule that everyone in the company has to do support too
+#NextEconomy @StevenLevy: are there plans for a consumer slack?
+#NextEconomy @stewart: we have no plans to do a consumer slack. A slack-like version fo Ning woudl make sense
+#NextEconomy @stewart: we do see a lot of family-based use of slack, at least in san francisco
+#NextEconomy @StevenLevy: we use slack with 1099 workers at medium - they have access to some channels
+#NextEconomy @stewart: we do not currently do a good job there with 1099 workers, but we need to do better
+#NextEconomy @stewart: at 8 people everyone knows everyone else really well; the amount of communication doesn't scale up
+#NextEconomy @stewart: we were 80% public when we were 8 people and at 100 people and it's now 70% private
+#NextEconomy @stewart: the challenge is that if all of it were public peopl would ahve to read too much
+#NextEconomy @stewart: there is value for a question to be asked and answered in public, but people can be hesitant about it
+#NextEconomy @stewart: we can give advice to people administering slacks, 
+#NextEconomy @timoreilly: the organisational unit for military for 1000s of years has been 8 people and that is a good size for slack groups
+#NextEconomy @timoreilly: why are so few people self-employed? 11.4% in 1990 10% today - why is the gig economy not showing up?
+#NextEconomy @IntuitBrad: when we started it looks liek about 6% were self employed - we now see 36% or so
+#NextEconomy @IntuitBrad: the Pew study measures people who own or are partners in a business - we measure the contingent workforce 50M
+#NextEconomy @IntuitBrad: where the 2 numbers get out of sync- 79% of the self-employed work part-time as well, so that gets counted
+#NextEconomy @IntuitBrad: if you expose the government to the data you can get them to change their thnking
+#NextEconomy @timoreilly: we work within these rules that were made up a lmng time ago and we don't think that we can rewrite the rules
+#NextEconomy @IntuitBrad: our entire system has been set up for people who have a regular paycheck
+#NextEconomy @IntuitBrad: in fact we find most people we see have 3 sources of income, and this doesn't match regulaion
+#NextEconomy @IntuitBrad: today if you're self employed and have 3 sources of income it is hard to know how much money you have
+#NextEconomy @IntuitBrad: QuickBooks self-employed lets you say which belongs to personal or business expenses
+#NextEconomy @IntuitBrad: when you're working for Uber, Lyft etc you are actually a small business, and we can file your business taxes
+#NextEconomy @IntuitBrad: The government requires paper copies of receipts as a business now
+#NextEconomy @IntuitBrad: our model at intuit is to find the biggest unsolved pain and solve it - tracking business vs personal was that
+#NextEconomy @timoreilly: Anne Marie Slaughter in "unfinished business" talks about how much is left to do to equalize men and women
+#NextEconomy @laurensmiley: when your story in the Atlantic came out it slayed me and all the women I know
+#NextEconomy @SlaughterAM: before I went to the state department I believed that if you want it enough you can make it work
+#NextEconomy @SlaughterAM: I thought that you can make work and family fit together, and realised that you can't
+#NextEconomy @SlaughterAM: people then thought that I wasn't a player in DC because I put my family ahead of my work
+#NextEconomy @timoreilly: we really undervalue care in our society - we have a masochistic work culture
+#NextEconomy @timoreilly: we have one class of people who are entitled to work harder, and another class that we put out of work
+#NextEconomy @SlaughterAM: this is a US problem. Other countries have an infrastructure of care - Sweden invests in the next generation
+#NextEconomy @SlaughterAM: in this society the fastest way to be devalued is when asked 'what do you do?' to say that you are a carer
+#NextEconomy @SlaughterAM: if you don't take care of your families or your workers you are paying an economic price too
+#NextEconomy @SlaughterAM: we are now below Japan comapred to the fraction of women in the workforce
+#NextEconomy @SlaughterAM: now daycare costs more than rent in almost all states so people stay home instead
+#NextEconomy @SlaughterAM: we pay people who care for our children the same as we pay people to park our cars that is incredible
+#NextEconomy @SlaughterAM: For parents and families the on-demand economy is a godsend. Care is unpredictable
+#NextEconomy @SlaughterAM: one ear infection can destroy a weeks worth of meetings
+#NextEconomy @SlaughterAM: when you can schedule your own work that is a solution to the care problem
+#NextEconomy @SlaughterAM: my son drew me as a laptop, not a person in a laptop, and my husband cooking.
+#NextEconomy @SlaughterAM: even if companies offer parental leave but the senior men don't take it, it doesn't make a difference
+#NextEconomy @SlaughterAM: in my foreign policy life, we see large groups of unemployed young people as the ingredients of revolution
+#NextEconomy @SlaughterAM: loss of family life leads to political turbulence and dysfunction, so we need to support it
+#NextEconomy @SlaughterAM: tomorrow the 'good work code' is rolling out 
+#NextEconomy @SlaughterAM: these are work issues, family issues, middle class issues, not just women's issues
+#NextEconomy @laurensmiley: was it hard to admit that you were not the lead parent?
+#NextEconomy @SlaughterAM: My husband said "you're not here" - parenting is a full time job and one of you is the lead. Value that
+#NextEconomy @SlaughterAM: by day I'm a feminist, by day I'm the worried mother of 2 boys - "when did girls get smarter than boys?"
+#NextEconomy @SlaughterAM: looking globally women are the vastly untapped resource
+#NextEconomy @SlaughterAM: in America women go into the workforce and do well until they are sideswiped by the caring issue
+#NextEconomy @SlaughterAM: we have a whole debate about short-termism and how it hurts the long term bottom line
+#NextEconomy @SlaughterAM: I think we are going to have to make legal changes to fix the tension between employment and caring
+#NextEconomy @SlaughterAM: the ability to live at home and be supported at home connected to a network of caregivers is going to be key
