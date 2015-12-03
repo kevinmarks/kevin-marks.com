@@ -1,0 +1,94 @@
+#indieweb @t: welcome everyone to indiewebcamp SF - I'm your host, @kylewmahan is too, and @andigalperin will be here too soon
+#indieweb @t: plays Squarespace's superbowl ad "a better web starts with your website" ending with the Indiewebcamp logo
+#indieweb @t: myself @aaronpk, @caseorganic and @crystaldbeasley in 2011 started this in Portland to make our own websites
+#indieweb @t: we're here to hack on our own websites and hope to build something to show off at the end fo today
+#indieweb @t: if you're curious what to work on, start with your personal website, and what the next important thing you want to do to it
+#indieweb @t: you will find people here have similar itches about their sites, and may already have things for you to use on yours
+#indieweb @t: we do have a code of conduct - if you have issues contact me, kyle or andi http://indiewebcamp.com/code_of_conduct
+#indieweb @t: next we are going to spend 30 minutes for people to show their own websites, what they have working, and what they want to fix
+#indieweb @andigalpern: did we find out who is a deisgner, a developer or whatever? 
+#indieweb @t: I'm tantek, my website is tantek.com, I post notes, pictures, I like to run, I like sunrises
+#indieweb @t: I post photos to my website, and then share copies to facebook and twitter using brid.gy
+#indieweb @schnarfed: I'm Ryan Barrett, my website is https://snarfed.org/ It's wordpress and does the indieweb stuff. I made brid.gy
+#indieweb @schnarfed: my raison d'être fro being here is interacting with the silos - brid.gy is the site that sends likes, retweets, etc 
+#indieweb @schnarfed: granary is a python library that si lower level to let you interatc wiht the silos
+#indieweb @schnarfed: silo.pub is kyles site that lets you publish to the silos and that is important too
+#indieweb @schnarfed: stats on brid.gy we have growth in listen, publish and blog webmentions, wiht listen being the biggest
+#indieweb @schnarfed: if you are on blogger, tumblr or wordpress you can use bridgy to post webmention to you as comments
+#indieweb @schnarfed: we have sent over 250,000 webmentions to about 850 sites
+#indieweb @schnarfed: users by silo: twitter is at the top, then facebook, the others have lower growth 
+#indieweb @schnarfed: whats surprising is that google+ is 3rd - who knew? I worked there for 10 years and wouldn't have known that
+#indieweb @schnarfed: we have multiple CMSs - Known withknown.com wordpress plugins, hosted wordpress and so on
+#indieweb @schnarfed: we have POSSE, backfeed, we have readers: woodwind, monocle - mentions, tagging notifications
+#indieweb @schnarfed: a lot of great stuff has happened - what should we do next? social graph, recommendations, driving growth
+#indieweb @schnarfed: The next big thing we want to work on is using your phone - they have surpassed computers
+#indieweb @schnarfed: we can read OK on phones, but posting on your phone is still hard - thats what I'd like to see get built
+#indieweb @andigalpern: I'm curious who's a designer here? 1,2,3,4,5 -we need designers to pair wiht deveolpers to make great things
+#indieweb @andigalpern: my site is andigalpern.com - I am going to work on creating content for my blog so I can post on my site
+#indieweb @andigalpern: my site isn't display how I want ti, and I know I have work to do on it today
+#indieweb @kylewmahan: my site is https://kylewm.com - it has notes, some longer replies - you can see the context I am replying to 
+#indieweb @kylewmahan: it will also show replies below the post as well
+#indieweb @kylewmahan: if you go to kylewm.com/new you can see my posting interface
+#indieweb @kylewmahan: I can person-tag people bases on a nickname cache on my site that autocompletes
+#indieweb @benwerd: Hi I'm ben, my site is werd.io - I originally built this for myself and that is now withknown.com
+#indieweb @benwerd: I can post lots of kinds of post and share them out to twitter and other sites
+#indieweb @benwerd: here's a question I asked about mince pies and lots of people replied, including @kevinmarks http://werd.io/2015/wheres-the-best-place-to-find-mince-pies-in-the
+#indieweb @benwerd: I can reply to kevin, and it shows on both our sites, and I can also reply to tweets on my site and share the replies
+#indieweb @benwerd: we're doing this on campuses with withknown.com and let students see posts campus wide
+#indieweb Bradley Allen: my site is http://bradleyallen.info - I am  designer dishwasher by training, I took a few years off to roast coffee
+#indieweb @Johannes_Ernst: I'm very interested in making it easy for a broader audience fo this stuff, so I have a UBOS linux install
+#indieweb @Johannes_Ernst: I can set up a ubos linux container and add Known to it easily, and easily add mediagoblin
+#indieweb @Johannes_Ernst: networking setup for servers tends to be really complicated; this sets it up easy and quickly with firewall, dns
+#indieweb @bengo: I'm ben, my site is bengo.is - I work at livefyre that does realtime comments
+#indieweb @bengo: my site is really simple; my notes are statically served - I added questions
+#indieweb @bengo: my posting interface is creating files in this notes directory on github, and then they get posted
+#indieweb @bengo: I'm goign to work on a webmention library for my site, then if you need help coding ask me
+#indieweb @aaronpk: I'm Aaron Parecki my current site is http://aaronparecki.com/ - I've been rebuilding it from the ground up
+#indieweb @aaronpk: it looks OK, but underneath it is a mess, it does a ton of stuff like what I eat and bikerides
+#indieweb @aaronpk: I'm splitting out my site into separate services - quill.p3k.io is a posting interface 
+#indieweb @aaronpk: teacup.p3k.io is for logging food and drink on my site
+#indieweb @aaronpk: indieauth.com is a project of mine - you use it to sign into the wiki
+#indieweb @aaronpk: webmention.io is my tool for receiving webmention on your behalf and embedding them in your site
+#indieweb @aaronpk: indiewebify.me is a guide to getting on the indieweb and helps you check your site is working OK
+#indieweb @aaronpk: my website is in testing - I'm trying to make it better my goal is that this site just displays posts- other tools post
+#indieweb @K80CON40: I'm Katie, I'm a deisgner. I moved to the bay area 2 yeras ago and built http://katieconforti.com then when I came here
+#indieweb @K80CON40: I want to redo everything as  my site is focused on print and I do much mroe coding now 
+#indieweb Bryn: I'm Bryn, my site is http://loveiswhoweare.com/ I do lots of things including singing opera but I want to learn this too
+#indieweb @obra: I'm jesse, and I was likely the first person to run known apart from ben and erin
+#indieweb @obra: I imported all my old blogspots into a new known instance from wordpress and livejournal, 
+#indieweb @obra: the importer doesn't bring in comments, so I might work on that
+#indieweb Judith Mayer: I'm Judith Mayer, and this is my site (blank screen)
+#indieweb Judith Mayer: There has been a ruling to allow people to work on sites with congressional staff
+#indieweb Judith Mayer: I want to set up a site for hack for congress so people can know what data is being used by congressional staff
+#indieweb Judith Mayer: I'm a non-technical person who wins hackathons
+#indieweb Lacey: I'm Lacey, I'm a ux designer, I have a site on squarespace which is not woth showing, and I can write sloppy js for you
+#indieweb Lacey: I am good at validating ideas and testing them
+#indieweb Danny: I'm Danny, a sociologist by training, and writing on distinguishing marketing and management encroachment in open source
+#indieweb Danny: I am a designer who has worked on print stuff, I have a site at peakagency.co which is basic wp
+#indieweb Sean: I have had a personal site sine 2000ish but i have let it languish a bit
+#indieweb Sean: I would like to post my physical notebook pages on a page
+#indieweb Sean: I post a lot of things on instagram and brign them in via tumblr
+#indieweb @kevinmarks: demoing reader.kylewm.com and known
+#indieweb @sandhawke: I had a personal site but I gave up in 1997 or so - I work at teh w3c on the social web workiing group
+#indieweb Gregorian: I have a personal site, but it's not up right now - I also work with an art centre and would like to improve their site
+#indieweb @rhiaro: I'm amy, my website is broken because apparently december is an edge case in my paging
+#indieweb @rhiaro: I post all kinds of things on my site, notes, tweets, likes and bookmarks, reposts
+#indieweb @rhiaro: I alos post whenever I follow someone on twitter or an indie site
+#indieweb @rhiaro: I receive webmentions through webmention.io, and get twitter oens through brid.gy
+#indieweb @rhiaro: what i want to do today is build my own webmention receiving
+#indieweb @rhiaro: I want to add features and I want the experience of building it myself
+#indieweb @t: we have 4 session slots, we have clusters of tables for people to collaborate on
+#indieweb @t: propose hack session, what people want to learn about, or what they want to teach
+#indieweb @t: put your session, and your name on a stickie and post ti on the board
+#indieweb @aaronpk: I am happy to lead a session on intro to the indieweb, getting set up from nothing - do it on your sites now
+#indieweb @kylewmahan: aaron showed briefly the indiewebify.me site - I would love to work on making this better with product and ux people
+#indieweb @aaronpk: on my own website I'm going to try to get automatic posting to facebook and twitter using silo.pub from my site
+#indieweb @t: I've been inspired by the work that kyle and ryan have done with person tagging
+#indieweb @t: I still post on instagram and manually post to my site. i want to add person tagging to my posts
+#indieweb @andigalpern: I'ma  designer but I also give talks on UK - I want to give you the recipe for celan easy to read beautiful websites
+#indieweb @andigalpern: it all comes down to science - there is a way to make your site readable  - designing for everybody
+#indieweb @sandhawke: to revive my personal site I would like to do wikipedia infor boxes where people can update each otehrs sites
+#indieweb @schnarfed: we need to work better on phones - we need to do better, and do an offline first app that works when we connect
+#indieweb @schnarfed: we want to sue silos as plumbing - ownyourgram.com is an example
+#indieweb Danny: I want a session on POSSE - I can't lead this session but I want to learn and explain it
+#indieweb @Johannes_Ernst: Ben and Erin and I are trying to make a business of this - I'd like to talk about how we market this too 
