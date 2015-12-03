@@ -1,0 +1,84 @@
+<html>
+<head><title>Homebrew Website Club 2015-12-02</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="fragmention.js"></script>
+<script src="hovercards.js"></script>
+<link href="style.css" media="all" rel="stylesheet" type="text/css" />
+<link rel="webmention" href="https://webmention.herokuapp.com/api/webmention" />
+</head>
+<body>
+<article class="h-entry">
+<h1 class="p-name">Homebrew Website Club <time class="dt-published">2015-12-02</time></h1>
+<div class="e-content">
+
+<div class='h-cite'><a class='h-card p-category' href='http://tantek.com/'>Tantek Çelik</a>:  <blockquote class='e-content'><p>welcome to the homebrew website club, come demo your websites and ask for help with your site
+<p>that last 2 days have been the #SocialWG meeting of the w3c on social web standards
+<p><a class="auto-link h-x-username" href="https://twitter.com/kylewmahan">@kylewmahan</a> posted about how silo.pub can now post to new silos
+<p>tomorrow is San Francisco indiewebcamp <a class="auto-link" href="http://indiewebcamp.com/2015/SF">http://indiewebcamp.com/2015/SF</a> - come to mozilla tomorrow morning and hack
+<p>and we are doing commitments to update our sites by the end of the year, like we did last year
+<p>one thing I am trying to get working is person tagging people in posts on my site so that <a class="auto-link" href="http://brid.gy">brid.gy</a> will tag them on FB too
+<p>I use instagram to post photos which PESOS in via <a class="auto-link" href="http://ownyourgram.com">ownyourgram.com</a> so I can POSSE back out to facebook
+<p>at first I'm going to have to manually person tag them with their personal urls and their fb and twitter urls
+<p>I will probably start with a manual nicknames cache on my site which has their URLs
+<p>correction: I am not using ownyourgram - I am manually PESOSing from instagram
+<p></blockquote></div>
+<div class='h-cite'><a class='h-card p-category' href='http://aaronparecki.com/'>Aaron Parecki</a>:  <blockquote class='e-content'><p>I'm at <a class="auto-link" href="http://aaronparecki.com/">http://aaronparecki.com/</a> - I'm based in Portland and this is my first Homebrew SF, though I run the portland one
+<p>many months ago I decided to rewrite my website from scratch, which is never a good idea
+<p>I'm in progress since April - my 2016 commitment is to finish this website rewrite
+<p>my site supports webmention sending and retrieving, it supports micropub and person tagging
+<p>what I am trying to do is make every feature of my site a service other people can use too
+<p>I am switching to use my other site <a class="auto-link" href="http://webmention.io">webmention.io</a> for webmentions on my own site. I recently added a webhook for data
+<p>so when <a class="auto-link" href="http://webmention.io">webmention.io</a> receives a webmention, I get a well-formed webhook notifying me of the mention
+<p>this payload format is jf2 - a simplified json representation of the microformats parsed result
+<p>there is a test suite for <a class="auto-link" href="http://webmention.io">webmention.io</a> now that passes. I am using this service for my new site
+<p>I have infinite scroll without the automation, but a load more link
+<p>I hope that these service will be useful for other people too
+<p>part of my new site is a nicknames cache so I can look up people that I mention, but they have their own page
+<p>I am getting homepage notifications from <a class="auto-link" href="http://brid.gy">brid.gy</a> from Kevin's tweets which are showing up on my screen and watch
+<p>I am expecting to make this a profile discovery service that other people can use as well
+<p>I have a venue on my site so I can say <a class="auto-link h-x-username" href="https://twitter.com/home">@home</a> as well as the nicknames I use for people
+<p>I'm going to be using Quill to post so I will use quill to use the name cache. 
+<p>I'm trying to not buld things into my site so I end up using these decentralised tools
+<p></blockquote></div>
+<div class='h-cite'><a class='h-card p-category' href='https://kylewm.com'>Kyle Mahan</a>:  <blockquote class='e-content'><p>this isn't on my site but it will be eventually. A while ago Kevin nerdsniped me into building silo.pub
+<p>you can use Quill to post to hosted sites. A week and a half ago I got excited about using it to POSSE to twitter
+<p>now I added facebook as well. So it gives me a proxy homepage for facebook so that I can use that with micropub
+<p>I have to use the ugly id that facebook gives me because it won't map the human readable name any more
+<p>as silo.pub already has authorization, I am only doing authentication this time
+<p>the difference between brid,gy publish and silo.pub is that bridgy just reads your site, but doesn't know to remap
+<p>ryan has been resisting making <a class="auto-link" href="http://brid.gy">brid.gy</a> do more smarts; silo.pub is more simple now, but you have mroe control
+<p></blockquote></div>
+<div class='h-cite'><a class='h-card p-category' href='http://tantek.com/'>Tantek Çelik</a>:  <blockquote class='e-content'><p>as much as POSSE is our way to federate with silos, you're now using micropub as a federation protocol
+<p></blockquote></div>
+<div class='h-cite'><a class='h-card p-category' href='http://www.w3.org/People/Sandro/'>Sandro Hawke</a>:  <blockquote class='e-content'><p>this is not quite federation in the #socialwg way as it is to another account of yours
+<p>maybe we need a use case for someone having more than one account on different sites
+<p></blockquote></div>
+<div class='h-cite'><a class='h-card p-category' href='https://kylewm.com'>Kyle Mahan</a>:  <blockquote class='e-content'><p>I could have 'add a micropub endpoint' so it proxies these for you
+<p></blockquote></div>
+<div class='h-cite'><a class='h-card p-category' href='http://kevinmarks.com'>Kevin Marks</a>:  <blockquote class='e-content'><p>Quill could look fro the rel-me links and suggest the silo.pub proxies
+<p></blockquote></div>
+<div class='h-cite'><a class='h-card p-category' href='http://aaronparecki.com/'>Aaron Parecki</a>:  <blockquote class='e-content'><p>that could be a fun thing to do tomorrow at indiewebcamp
+<p></blockquote></div>
+<div class='h-cite'><a class='h-card p-category' href='https://darius.dunlaps.net'>Darius Dunlap</a>:  <blockquote class='e-content'><p>My goal for the end of the year is to reimplement the square peg foundation website
+<p>I'm also planning to revive my food blog too
+<p></blockquote></div>
+<div class='h-cite'><a class='h-card p-category' href='http://kevinmarks.com'>Kevin Marks</a>:  <blockquote class='e-content'><p>I built a webmention endpoint at <a class="auto-link" href="http://mention-tech.appspot.com">http://mention-tech.appspot.com</a> that will receive webmentions for any site and verify them
+<p>if the source verifies it looks for a webmention endpoint in the target and sends it on to that site
+<p>I ended up doing this because when I showed <a class="auto-link h-x-username" href="https://twitter.com/t">@t</a> the site he thought hat was what it did, so I followed user testing
+</blockquote></div>
+</div>
+</article>
+<script id="webmention-hosted">
+  (function () {
+    var sn = document.createElement("script"), s = document.getElementsByTagName("script")[0], url;
+    url = document.querySelectorAll ? document.querySelectorAll("link[rel~=canonical]") : false;
+    url = url && url[0] ? url[0].href : false;
+    sn.type = "text/javascript"; sn.async = true;
+    sn.src = "//webmention.herokuapp.com/api/embed?version=cutting-edge&url=" + encodeURIComponent(url || window.location);
+    s.parentNode.insertBefore(sn, s);
+  }());
+</script>
+
+</body>
+</html>

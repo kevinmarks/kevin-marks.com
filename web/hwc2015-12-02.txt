@@ -1,0 +1,46 @@
+
+#indieweb @t: welcome to the homebrew website club, come demo your websites and ask for help with your site
+#indieweb @t: that last 2 days have been the #SocialWG meeting of the w3c on social web standards
+#indieweb @t: @kylewmahan posted about how silo.pub can now post to new silos
+#indieweb @t: tomorrow is San Francisco indiewebcamp http://indiewebcamp.com/2015/SF - come to mozilla tomorrow morning and hack
+#indieweb @t: and we are doing commitments to update our sites by the end of the year, like we did last year
+#indieweb @t: one thing I am trying to get working is person tagging people in posts on my site so that brid.gy will tag them on FB too
+#indieweb @t: I use instagram to post photos which PESOS in via ownyourgram.com so I can POSSE back out to facebook
+#indieweb @t: at first I'm going to have to manually person tag them with their personal urls and their fb and twitter urls
+#indieweb @t: I will probably start with a manual nicknames cache on my site which has their URLs
+#indieweb @t: correction: I am not using ownyourgram - I am manually PESOSing from instagram
+#indieweb @aaronpk: I'm at http://aaronparecki.com/ - I'm based in Portland and this is my first Homebrew SF, though I run the portland one
+#indieweb @aaronpk: many months ago I decided to rewrite my website from scratch, which is never a good idea
+#indieweb @aaronpk: I'm in progress since April - my 2016 commitment is to finish this website rewrite
+#indieweb @aaronpk: my site supports webmention sending and retrieving, it supports micropub and person tagging
+#indieweb @aaronpk: what I am trying to do is make every feature of my site a service other people can use too
+#indieweb @aaronpk: I am switching to use my other site webmention.io for webmentions on my own site. I recently added a webhook for data
+#indieweb @aaronpk: so when webmention.io receives a webmention, I get a well-formed webhook notifying me of the mention
+#indieweb @aaronpk: this payload format is jf2 - a simplified json representation of the microformats parsed result
+#indieweb @aaronpk: there is a test suite for webmention.io now that passes. I am using this service for my new site
+#indieweb @aaronpk: I have infinite scroll without the automation, but a load more link
+#indieweb @aaronpk: I hope that these service will be useful for other people too
+#indieweb @aaronpk: part of my new site is a nicknames cache so I can look up people that I mention, but they have their own page
+#indieweb @aaronpk: I am getting homepage notifications from brid.gy from Kevin's tweets which are showing up on my screen and watch
+#indieweb @aaronpk: I am expecting to make this a profile discovery service that other people can use as well
+#indieweb @aaronpk: I have a venue on my site so I can say @home as well as the nicknames I use for people
+#indieweb @aaronpk: I'm going to be using Quill to post so I will use quill to use the name cache. 
+#indieweb @aaronpk: I'm trying to not buld things into my site so I end up using these decentralised tools
+#indieweb @kylewmahan: this isn't on my site but it will be eventually. A while ago Kevin nerdsniped me into building silo.pub
+#indieweb @kylewmahan: you can use Quill to post to hosted sites. A week and a half ago I got excited about using it to POSSE to twitter
+#indieweb @kylewmahan: now I added facebook as well. So it gives me a proxy homepage for facebook so that I can use that with micropub
+#indieweb @kylewmahan: I have to use the ugly id that facebook gives me because it won't map the human readable name any more
+#indieweb @kylewmahan: as silo.pub already has authorization, I am only doing authentication this time
+#indieweb @kylewmahan: the difference between brid,gy publish and silo.pub is that bridgy just reads your site, but doesn't know to remap
+#indieweb @kylewmahan: ryan has been resisting making brid.gy do more smarts; silo.pub is more simple now, but you have mroe control
+#indieweb @t: as much as POSSE is our way to federate with silos, you're now using micropub as a federation protocol
+#indieweb @sandhawke: this is not quite federation in the #socialwg way as it is to another account of yours
+#indieweb @sandhawke: maybe we need a use case for someone having more than one account on different sites
+#indieweb @kylewmahan: I could have 'add a micropub endpoint' so it proxies these for you
+#indieweb @kevinmarks: Quill could look fro the rel-me links and suggest the silo.pub proxies
+#indieweb @aaronpk: that could be a fun thing to do tomorrow at indiewebcamp
+#indieweb @dariusdunlap: My goal for the end of the year is to reimplement the square peg foundation website
+#indieweb @dariusdunlap: I'm also planning to revive my food blog too
+#indieweb @kevinmarks: I built a webmention endpoint at http://mention-tech.appspot.com that will receive webmentions for any site and verify them
+#indieweb @kevinmarks: if the source verifies it looks for a webmention endpoint in the target and sends it on to that site
+#indieweb @kevinmarks: I ended up doing this because when I showed @t the site he thought hat was what it did, so I followed user testing
