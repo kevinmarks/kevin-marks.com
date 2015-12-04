@@ -1,0 +1,133 @@
+<html>
+<head><title>Indiewebcamp SF Demos 2015-12-03</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="fragmention.js"></script>
+<script src="hovercards.js"></script>
+<link href="style.css" media="all" rel="stylesheet" type="text/css" />
+<link rel="webmention" href="https://webmention.herokuapp.com/api/webmention" />
+</head>
+<body>
+<article class="h-entry">
+<h1 class="p-name">Indiewebcamp SF Demos<time class="dt-published">2015-12-03 18:30-0800</time></h1>
+<div class="e-content">
+
+
+<div class='h-cite'><a class='h-card p-category' href='http://aaronparecki.com/'>Aaron Parecki</a>:  <blockquote class='e-content'><p>what I decided to do today was get POSSE working with silo.pub on my site
+<p>I'm going to sign up for silo.pub with my temp account and authorize it
+<p>I added a setting for syndication destinations on my site, which takes micropub endpoints, so I can put the silo.pub in
+<p>I now have the micropub access token stored in my site
+<p>now I sign into my local site as me using Quill and quill has discovered this syndication endpoint of silo.pub
+<p>my post worked to my site and it sent it out to twitter too <a class="auto-link" href="https://twitter.com/pkdev/status/672590417548808193">https://twitter.com/pkdev/status/672590417548808193</a>
+<p>
+<p>
+<p>
+<p>
+<p>
+<p>
+<p>so I don't need to write twitter, facebook or flickr oath code any more, thanks kyle
+<p></blockquote></div>
+<div class='h-cite'><a class='h-card p-category' href='https://s.ly'>Jesse</a>:  <blockquote class='e-content'><p>I have been getting wordpress comments into Known, learning about php data structures
+<p>Comments came in great into known, and then I looked at my mail, and it was all comment notifications
+<p></blockquote></div>
+<div class='h-cite'><a class='h-card p-category' href='https://snarfed.org/'>Ryan Barrett</a>:  <blockquote class='e-content'><p>We talked about POSSE today - bridgy and silo.pub both will POSSE to your site
+<p>I have got a lot of requests to make bridgy publish have mroe features
+<p>I have now let you set up bridgy publish that lets you mark up your post for which part to twitter
+<p>I add a custom microformat p-bridgy-twitter-content to the post for the twitter excerpt
+<p>I customised it manually so I had to duplicate text
+<p>next, I want to talk about events. We had 4 different ways to RSVP today web site, eventbrite, mf post, fb
+<p></blockquote></div>
+<div class='h-cite'><a class='h-card p-category' href='https://cascadesf.com'>andi galpern</a>:  <blockquote class='e-content'><p>there was also a way to rsvp on my meetup
+<p></blockquote></div>
+<div class='h-cite'><a class='h-card p-category' href='https://snarfed.org/'>Ryan Barrett</a>:  <blockquote class='e-content'><p>if there is a known venue capacity, the event can keep track of the numbers and decide between waitlist and getting in
+<p>What if you issue tickets? you can give them a url to the ticket in the reply to their webmention
+<p>as people come in, you get people to indieauth into the website and see their RSVPs
+<p>then you don't need a ticket at all - you can just log in
+<p></blockquote></div>
+<div class='h-cite'><a class='h-card p-category' href='https://cascadesf.com'>andi galpern</a>:  <blockquote class='e-content'><p>I throw events for my job - you have to RSVP at eventbrite and pay to get a ticket
+<p></blockquote></div>
+<div class='h-cite'><a class='h-card p-category' href='https://snarfed.org/'>Ryan Barrett</a>:  <blockquote class='e-content'><p>theer are tones of unknown questions here - rsvping and checking tickets - payments are an open question
+<p></blockquote></div>
+<div class='h-cite'><a class='h-card p-category' href='https://cascadesf.com'>andi galpern</a>:  <blockquote class='e-content'><p>could you send the data from eventbrite to your site
+<p></blockquote></div>
+<div class='h-cite'><a class='h-card p-category' href='http://kevinmarks.com'>Kevin Marks</a>:  <blockquote class='e-content'><p>you could also use an indieweb checkin on arrival in lieu of a ticket
+<p></blockquote></div>
+<div class='h-cite'><a class='h-card p-category' href='http://loveiswhoweare.com'>Bryn Wolf</a>:  <blockquote class='e-content'><p>I worked out how to do a person tag all on one line - one using tantek who uses bridgy, one alex
+<p>I signed up with bridgy and sent a person tag to facebook, and tanetk was notified on facebook, but alex wasn't
+<p></blockquote></div>
+<div class='h-cite'><a class='h-card p-category' href='https://snarfed.org/'>Ryan Barrett</a>:  <blockquote class='e-content'><p>the bugs are entirely bridgy's not Bryn's
+<p></blockquote></div>
+<div class='h-cite'><a class='h-card p-category' href='http://aaronparecki.com/'>Aaron Parecki</a>:  <blockquote class='e-content'><p>I'm off  -see you in portland in june
+<p></blockquote></div>
+<div class='h-cite'><a class='h-card p-category' href='http://loveiswhoweare.com'>Bryn Wolf</a>:  <blockquote class='e-content'><p>I made a new blogpost and sent that to twitter via bridgy and that worked
+<p>and I set up rel-me so I can sign into the wiki
+<p></blockquote></div>
+<div class='h-cite'><a class='h-card p-category' href='http://werd.io/'>Ben Werdmüller</a>:  <blockquote class='e-content'><p>today I decided that I hate Known, so I'm going to export my known site to wordpress rss
+<p>then I go into wordpress-  I love wordpress - and import the RSS feed
+<p>and look all my posts are now live in wordpress instead of known (though the images are still on known)
+<p></blockquote></div>
+<div class='h-cite'><a class='h-card p-category' href='http://rhiaro.co.uk'>just a guy</a>:  <blockquote class='e-content'><p>I have a double demo: I started on my new webmention endpoint - it doesn't process them but queues them
+<p>it returns all the correct headers and status page for the webmention
+<p>anyone can sign into my site, but you can't do anything unless you are me
+<p>but I can see the queue of pending webmentions, which I may use for moderation
+<p>If you send em webmentions I will queue them in text files
+<p></blockquote></div>
+<div class='h-cite'><a class='h-card p-category' href='http://bradleyallen.info/'>Bradley Allen</a>:  <blockquote class='e-content'><p>My site this morning was a static page on github
+<p>now I'm running a node js server on heroku, and I'm posting notes
+<p>I have retroactively RSVPd to indiewebcamp
+<p>adn them I realised wiht bridgy I can tweet from my website
+<p>and so a monster has been created - now I'm running
+<p>I started out not thinking what to do from a design point of view
+<p>so I learned from tantek to use the day of the year instead of the month
+<p>thank you everybody for getting me up and running
+<p></blockquote></div>
+<div class='h-cite'><a class='h-card p-category' href='http://erinjo.xyz'>Erin Jo Richey</a>:  <blockquote class='e-content'><p>I don't have anything interactive to show you guys - I have erinjo.xyz known site and <a class="auto-link" href="http://erinjorichey.com">erinjorichey.com</a>
+<p>I haven't sat down and coded a homepage from scratch in ages, so I redesigned my homepage to show more
+<p></blockquote></div>
+<div class='h-cite'><a class='h-card p-category' href='https://twitter.com/@bengo'>Benjamin Goering</a>:  <blockquote class='e-content'><p>this is the page for the event and in order to send an RSVP I needed to do a webmention
+<p>so I made a new webmention-discovery tool in node 
+<p>it will show the endpoint on standard out
+<p>I also made a little htp server that will let you discover webmention endpoints
+<p>now it is at <a class="auto-link" href="http://webmention-utils.herokuapp.com">webmention-utils.herokuapp.com</a> if you want to try it out
+<p></blockquote></div>
+<div class='h-cite'><a class='h-card p-category' href='http://tantek.com/'>Tantek Çelik</a>:  <blockquote class='e-content'><p>I have something small to demo, so I'll do that
+<p>I try to get design work done by writing things down as I go along in irc or the wiki
+<p>while working with kyle and bryn on person tags I came up wiht a way to show how to markup
+<p>when you person tag someone with their indieweb site you may want to person tag them on other profiles as well
+<p>I made a person link wiht a person emoji and links with t and f, but they come out unlinked
+<p>instead I just used the favicons for twitter and facebook, so the person tags go through without the links
+<p>not everyone want their personal site and their facebook site correlated
+<p>so you should only link to their other profiles if they provide those links from their site
+<p>I am going to use those techniques on my site
+<p>these favicons are hotlinked from google plus's favicon cache
+<p></blockquote></div>
+<div class='h-cite'><a class='h-card p-category' href='http://kevinmarks.com'>Kevin Marks</a>:  <blockquote class='e-content'><p>I didn't complete my plan to have fragmention highlights today - I wrote up the plan at <a class="auto-link" href="https://indiewebcamp.com/User:Kevinmarks.com#distributed%20highlight%20posts">https://indiewebcamp.com/User:Kevinmarks.com#distributed%20highlight%20posts</a>
+<p>I do have my webmention endpoint up at <a class="auto-link" href="http://mention-tech.appspot.com/">http://mention-tech.appspot.com/</a>  and accepting fragmention webmentions
+<p>it will also retrive them for a page or domain eg <a class="auto-link" href="http://mention-tech.appspot.com/listmentions?target=http%3A%2F%2Fwww.kevinmarks.com%2Findiewebcampsf2015am.html">http://mention-tech.appspot.com/listmentions?target=http%3A%2F%2Fwww.kevinmarks.com%2Findiewebcampsf2015am.html</a> 
+<p>what I want to do is return a useful version of these in jf2 format so they can be shown on the site
+<p>So I started making a python microformats 2 to jf2 translator, which is up at <a class="auto-link" href="https://github.com/microformats/mf2tojf2.py">https://github.com/microformats/mf2tojf2.py</a>
+<p>making tests for it justified the jf2 simplification as not having to end lines with ]}}]}), <a class="auto-link" href="https://github.com/microformats/mf2tojf2.py/blob/master/mf2tojf2test.py#L42">https://github.com/microformats/mf2tojf2.py/blob/master/mf2tojf2test.py#L42</a>
+<p>as usual I added a live version to unmung,com right down the bottom, to try it out
+<p>this will simplify <a class="auto-link" href="http://www.unmung.com/mf2?url=http%3A%2F%2Fkevinmarks.com&html=&pretty=on">http://www.unmung.com/mf2?url=http%3A%2F%2Fkevinmarks.com&html=&pretty=on</a> to <a class="auto-link" href="http://www.unmung.com/mf2tojs2?url=http%3A%2F%2Fwww.unmung.com%2Fmf2%3Furl%3Dhttp%253A%252F%252Fkevinmarks.com%26html%3D%26pretty%3Don&pretty=on">http://www.unmung.com/mf2tojs2?url=http%3A%2F%2Fwww.unmung.com%2Fmf2%3Furl%3Dhttp%253A%252F%252Fkevinmarks.com%26html%3D%26pretty%3Don&pretty=on</a> though that is missing child objects
+<p></blockquote></div>
+<div class='h-cite'><a class='h-card p-category' href='https://snarfed.org/'>Ryan Barrett</a>:  <blockquote class='e-content'><p>I want to give tantek and kyle and andi a big hand for organising
+<p>and to tantek, amy, kevin, ben, sandro and the others working on the #socialwg to standardise this
+<p></blockquote></div>
+<div class='h-cite'><a class='h-card p-category' href='http://tantek.com/'>Tantek Çelik</a>:  <blockquote class='e-content'><p>next homebrew website club is december 16th, back here at mozilla
+
+</blockquote></div>
+</div>
+</article>
+<script id="webmention-hosted">
+  (function () {
+    var sn = document.createElement("script"), s = document.getElementsByTagName("script")[0], url;
+    url = document.querySelectorAll ? document.querySelectorAll("link[rel~=canonical]") : false;
+    url = url && url[0] ? url[0].href : false;
+    sn.type = "text/javascript"; sn.async = true;
+    sn.src = "//webmention.herokuapp.com/api/embed?version=cutting-edge&url=" + encodeURIComponent(url || window.location);
+    s.parentNode.insertBefore(sn, s);
+  }());
+</script>
+
+</body>
+</html>

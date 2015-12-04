@@ -1,0 +1,81 @@
+
+#indieweb @aaronpk: what I decided to do today was get POSSE working with silo.pub on my site
+#indieweb @aaronpk: I'm going to sign up for silo.pub with my temp account and authorize it
+#indieweb @aaronpk: I added a setting for syndication destinations on my site, which takes micropub endpoints, so I can put the silo.pub in
+#indieweb @aaronpk: I now have the micropub access token stored in my site
+#indieweb @aaronpk: now I sign into my local site as me using Quill and quill has discovered this syndication endpoint of silo.pub
+#indieweb @aaronpk: my post worked to my site and it sent it out to twitter too https://twitter.com/pkdev/status/672590417548808193
+#indieweb @aaronpk: 
+#indieweb @aaronpk: 
+#indieweb @aaronpk: 
+#indieweb @aaronpk: 
+#indieweb @aaronpk: 
+#indieweb @aaronpk: 
+#indieweb @aaronpk: so I don't need to write twitter, facebook or flickr oath code any more, thanks kyle
+#indieweb @obra: I have been getting wordpress comments into Known, learning about php data structures
+#indieweb @obra: Comments came in great into known, and then I looked at my mail, and it was all comment notifications
+#indieweb @schnarfed: We talked about POSSE today - bridgy and silo.pub both will POSSE to your site
+#indieweb @schnarfed: I have got a lot of requests to make bridgy publish have mroe features
+#indieweb @schnarfed: I have now let you set up bridgy publish that lets you mark up your post for which part to twitter
+#indieweb @schnarfed: I add a custom microformat p-bridgy-twitter-content to the post for the twitter excerpt
+#indieweb @schnarfed: I customised it manually so I had to duplicate text
+#indieweb @schnarfed: next, I want to talk about events. We had 4 different ways to RSVP today web site, eventbrite, mf post, fb
+#indieweb @andigalpern: there was also a way to rsvp on my meetup
+#indieweb @schnarfed: if there is a known venue capacity, the event can keep track of the numbers and decide between waitlist and getting in
+#indieweb @schnarfed: What if you issue tickets? you can give them a url to the ticket in the reply to their webmention
+#indieweb @schnarfed: as people come in, you get people to indieauth into the website and see their RSVPs
+#indieweb @schnarfed: then you don't need a ticket at all - you can just log in
+#indieweb @andigalpern: I throw events for my job - you have to RSVP at eventbrite and pay to get a ticket
+#indieweb @schnarfed: theer are tones of unknown questions here - rsvping and checking tickets - payments are an open question
+#indieweb @andigalpern: could you send the data from eventbrite to your site
+#indieweb @kevinmarks: you could also use an indieweb checkin on arrival in lieu of a ticket
+#indieweb @Bryn_Wolf: I worked out how to do a person tag all on one line - one using tantek who uses bridgy, one alex
+#indieweb @Bryn_Wolf: I signed up with bridgy and sent a person tag to facebook, and tanetk was notified on facebook, but alex wasn't
+#indieweb @schnarfed: the bugs are entirely bridgy's not Bryn's
+#indieweb @aaronpk: I'm off  -see you in portland in june
+#indieweb @Bryn_Wolf: I made a new blogpost and sent that to twitter via bridgy and that worked
+#indieweb @Bryn_Wolf: and I set up rel-me so I can sign into the wiki
+#indieweb @benwerd: today I decided that I hate Known, so I'm going to export my known site to wordpress rss
+#indieweb @benwerd: then I go into wordpress-  I love wordpress - and import the RSS feed
+#indieweb @benwerd: and look all my posts are now live in wordpress instead of known (though the images are still on known)
+#indieweb @rhiaro: I have a double demo: I started on my new webmention endpoint - it doesn't process them but queues them
+#indieweb @rhiaro: it returns all the correct headers and status page for the webmention
+#indieweb @rhiaro: anyone can sign into my site, but you can't do anything unless you are me
+#indieweb @rhiaro: but I can see the queue of pending webmentions, which I may use for moderation
+#indieweb @rhiaro: If you send em webmentions I will queue them in text files
+#indieweb Bradley Allen: My site this morning was a static page on github
+#indieweb Bradley Allen: now I'm running a node js server on heroku, and I'm posting notes
+#indieweb Bradley Allen: I have retroactively RSVPd to indiewebcamp
+#indieweb Bradley Allen: adn them I realised wiht bridgy I can tweet from my website
+#indieweb Bradley Allen: and so a monster has been created - now I'm running
+#indieweb Bradley Allen: I started out not thinking what to do from a design point of view
+#indieweb Bradley Allen: so I learned from tantek to use the day of the year instead of the month
+#indieweb Bradley Allen: thank you everybody for getting me up and running
+#indieweb @erinjo: I don't have anything interactive to show you guys - I have erinjo.xyz known site and erinjorichey.com
+#indieweb @erinjo: I haven't sat down and coded a homepage from scratch in ages, so I redesigned my homepage to show more
+#indieweb @bengo: this is the page for the event and in order to send an RSVP I needed to do a webmention
+#indieweb @bengo: so I made a new webmention-discovery tool in node 
+#indieweb @bengo: it will show the endpoint on standard out
+#indieweb @bengo: I also made a little htp server that will let you discover webmention endpoints
+#indieweb @bengo: now it is at webmention-utils.herokuapp.com if you want to try it out
+#indieweb @t: I have something small to demo, so I'll do that
+#indieweb @t: I try to get design work done by writing things down as I go along in irc or the wiki
+#indieweb @t: while working with kyle and bryn on person tags I came up wiht a way to show how to markup
+#indieweb @t: when you person tag someone with their indieweb site you may want to person tag them on other profiles as well
+#indieweb @t: I made a person link wiht a person emoji and links with t and f, but they come out unlinked
+#indieweb @t: instead I just used the favicons for twitter and facebook, so the person tags go through without the links
+#indieweb @t: not everyone want their personal site and their facebook site correlated
+#indieweb @t: so you should only link to their other profiles if they provide those links from their site
+#indieweb @t: I am going to use those techniques on my site
+#indieweb @t: these favicons are hotlinked from google plus's favicon cache
+#indieweb @kevinmarks: I didn't complete my plan to have fragmention highlights today - I wrote up the plan at https://indiewebcamp.com/User:Kevinmarks.com#distributed%20highlight%posts
+#indieweb @kevinmarks: I do have my webmention endpoint up at http://mention-tech.appspot.com/  and accepting fragmention webmentions
+#indieweb @kevinmarks: it will also retrive them for a page or domain eg http://mention-tech.appspot.com/listmentions?target=http%3A%2F%2Fwww.kevinmarks.com%2Findiewebcampsf2015am.html 
+#indieweb @kevinmarks: what I want to do is return a useful version of these in jf2 format so they can be shown on the site
+#indieweb @kevinmarks: So I started making a python microformats 2 to jf2 translator, which is up at https://github.com/microformats/mf2tojf2.py
+#indieweb @kevinmarks: making tests for it justified the jf2 simplification as not having to end lines with ]}}]}), https://github.com/microformats/mf2tojf2.py/blob/master/mf2tojf2test.py#L42
+#indieweb @kevinmarks: as usual I added a live version to unmung,com right down the bottom, to try it out
+#indieweb @kevinmarks: this will simplify http://www.unmung.com/mf2?url=http%3A%2F%2Fkevinmarks.com&html=&pretty=on to http://www.unmung.com/mf2tojs2?url=http%3A%2F%2Fwww.unmung.com%2Fmf2%3Furl%3Dhttp%253A%252F%252Fkevinmarks.com%26html%3D%26pretty%3Don&pretty=on though that is missing child objects
+#indieweb @schnarfed: I want to give tantek and kyle and andi a big hand for organising
+#indieweb @schnarfed: and to tantek, amy, kevin, ben, sandro and the others working on the #socialwg to standardise this
+#indieweb @t: next homebrew website club is december 16th, back here at mozilla

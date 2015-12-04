@@ -68,7 +68,13 @@
 #indieweb Sean: I have had a personal site sine 2000ish but i have let it languish a bit
 #indieweb Sean: I would like to post my physical notebook pages on a page
 #indieweb Sean: I post a lot of things on instagram and brign them in via tumblr
+#indieweb @kevinmarks: Hi, I'm Kevin; my site is http://kevinmarks.com/ . I also use http://known.kevinmarks.com  for shorter notes.
+#indieweb @kevinmarks: I use @kylewmahan's excellent Woodwind reader to post. http://reader.kylewm.com/ 
+#indieweb @kevinmarks: I post from Woodwind to reply to Ben's post; the reply shows up on my site, and on Ben's using webmention.
+#indieweb @kevinmarks: I've built my own tool, http://www.noterlive.com/ , for live-tweeting. 
 #indieweb @kevinmarks: demoing reader.kylewm.com and known
+#indieweb @kevinmarks: NoterLive is a tool you can use, too, if live-tweeting events appeals to you.
+#indieweb @kevinmarks: If a site doesn't provide microformats markup, hovercards just show a small preview of the site.
 #indieweb @sandhawke: I had a personal site but I gave up in 1997 or so - I work at teh w3c on the social web workiing group
 #indieweb Gregorian: I have a personal site, but it's not up right now - I also work with an art centre and would like to improve their site
 #indieweb @rhiaro: I'm amy, my website is broken because apparently december is an edge case in my paging
