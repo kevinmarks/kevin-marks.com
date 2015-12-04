@@ -74,6 +74,7 @@
 #indieweb @kevinmarks: I've built my own tool, http://www.noterlive.com/ , for live-tweeting. 
 #indieweb @kevinmarks: demoing reader.kylewm.com and known
 #indieweb @kevinmarks: NoterLive is a tool you can use, too, if live-tweeting events appeals to you.
+#indieweb @kevinmarks: I've also created hovercards that provide a preview for any indie website. It's a small JavaScript library.
 #indieweb @kevinmarks: If a site doesn't provide microformats markup, hovercards just show a small preview of the site.
 #indieweb @sandhawke: I had a personal site but I gave up in 1997 or so - I work at teh w3c on the social web workiing group
 #indieweb Gregorian: I have a personal site, but it's not up right now - I also work with an art centre and would like to improve their site
