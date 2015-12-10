@@ -1,0 +1,49 @@
+
+#sfnt @mylerdude: welcome to the last demo night of the year, and thank you for making it awesome
+#sfnt Laura Putnam: we love our chairs, but we are biologically programmed to move, which is a huge disconnect
+#sfnt Laura Putnam: We need to do more Non-exercise activity - that is what makes the difference
+#sfnt Laura Putnam: what happened with smoking was that we made it harder to smoke
+#sfnt Laura Putnam: what if every chair came with a warning label? what if we banned office chairs?
+#sfnt Laura Putnam: the more standing that you do the better - even 3 hours a day of sitting can be too much
+#sfnt @nassaraf: I'm Naomi of CloudHQ, and I want to show off our gmail sharing product
+#sfnt @nassaraf: we have a label sharing tool for gmail between accounts, so you can build workflow using it
+#sfnt @pemullen: we offer the gmail sync for free, but we charge for salesforce and live365 etc sync
+#sfnt @pemullen: Speakeasy was founded because the conference call was a broken dysfunctional business
+#sfnt @pemullen: you will never need a PIN because you all have your own number
+#sfnt @pemullen: you can have a backchannel based on email domain so you can chat without clients seeing you
+#sfnt @pemullen: when you're through with the call, it will hang up and log you into salesforce to tack the call
+#sfnt @pemullen: we're funded by bessemer ventures and salesforce and we're built on Twilio
+#sfnt @ali_rehan: ingrain.io does product logo embedding in videos that you can change after shooting
+#sfnt @ali_rehan: in the long run we want to create an ad network for it, now we are doing it as service to video producers
+#sfnt @ali_rehan: there are 2 parts - processing videos for space, then compositing over it
+#sfnt @brianmaggi: our phones stopped being phones a while ago, and are now messaging mainly
+#sfnt @brianmaggi: when you're having a chat back and forth the messages look like bubbles - we can add a meeting suggestion bubble
+#sfnt @brianmaggi: I can throw in a quick poll in a bubble too and they can choose which coffee shop
+#sfnt @brianmaggi: I can put 'where are you at?" in a bubble it will show you location and arrival time
+#sfnt @brianmaggi: you can still work with this without the app, you'll get an SMS with a web link to the bubble
+#sfnt @brianmaggi: this is a fremium productivity business like dropbox/evernote/slack not an ad business
+#sfnt @brianmaggi: go to cola.io/sfnewtech to sign up for the beta - promo code sfnewtech
+#sfnt @MassRoots: we're the worlds largest social network for cannabis users we have 600,000 users
+#sfnt @MassRoots: we got kicked out of the Apple store for being a social cannabis app, so we campaigned against Apple and got back in
+#sfnt @MassRoots: we were Parse's guinea pig for scaling -when we crossed 450,000 users it slowed down so we're moving to Amazon instead
+#sfnt @MassRoots: we provided weedmojis for people to try and 50,000 downloaded in 24 hours
+#sfnt @MassRoots: in 2013 we pitched VCs but they said cannabis was illegal under federal law, so we went public on our own
+#sfnt @MassRoots: Out stock ticker is $MSRT and our users have invested in us directly
+#sfnt @MassRoots: we collect user data and target ads based on users postings and can advertise dispensaries to them
+#sfnt @MassRoots: next year about 25% of voters will have cannabis legalization on the ballot, so we are working on voter registration
+#sfnt @MassRoots: If we can help change cannabis laws in various states, that will create great brand loyalty
+#sfnt @MassRoots: facebook started with college students and expanded to the mainstream, we started with the potheads and expand to medical
+#sfnt @MassRoots: q: do you have to be paid in cash? a number of community banks in colorado are now accepting cannabis accounts
+#sfnt @mylerdude: have you been asked for user data by law enforcement?
+#sfnt @MassRoots: we have not done that, and we work hard to stop people posting about usage from states where it is illegal
+#sfnt @greenrushdaily: I'm eddie miller, chief strategy officer of greenrush - we are a cannabis delivery platform
+#sfnt @greenrushdaily: we're not the Uber of cannabis, we're more like GrubHub where you can order cannabis from dispensaries
+#sfnt @greenrushdaily: you either upload your medical marijuana card, or wen can get you one online through our doctors
+#sfnt @greenrushdaily: the promo code sfnewtech will get you 25% off your order tonight
+#sfnt @greenrushdaily: there is an entire industry out there that delivers cannabis to patients for credit cards we're prop #215 compliant
+#sfnt @greenrushdaily: our app is not in the app store - apple has not let us in-  go to our mobile web interface
+#sfnt @greenrushdaily: if you don't have a credit card, we verify your drivers licence and medical marijuana card with photos
+#sfnt @brianmaggi: 60 second spots time coming up
+#sfnt @marccanter4real: I'm proud that you got to see the demo of Cola which I cofounded
+#sfnt @marccanter4real: but I now am founding a digital lifestyle service built on cola
+#sfnt @kevinmarks: Do you have a personal website? Do you want to have one? come to Homebrew Website Club http://indiewebcamp.com/Homebrew_Website_Club
