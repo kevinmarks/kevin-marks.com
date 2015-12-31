@@ -1,0 +1,24 @@
+
+#indieweb @t: welcoem to homebrew website club sf - the last of the year
+#indieweb @t: What I got built since last time is person tagging on my site, with POSSE to twitter and facebook
+#indieweb @t: I can tag someone in a photo on my site, and some of them make it over to facebook via brid.gy http://tantek.com/2015/350/t2/seasons-greetings-homebrew-website-club
+#indieweb @t: we can only map through tags of other people who have signed up for brid.gy as facebook give app specific userids
+#indieweb @t: I tag people with their official external facebook URLs but even that facebook won't map through
+#indieweb @t: you can tag people in any post - it's not just a mention - the person is in this photo
+#indieweb @kevinmarks: I person-tag people I quote in transcripts like this, as I see them as being in the room
+#indieweb @t: I got poster images on videos working, which I POSSE to facebook and twitter too - the poster isn't the first frame
+#indieweb @t: twitter shows my video with ugly black bars, and facebook doesn't show it without javascript
+#indieweb @t: I feel like I am now presenting posts better than the silos do, especially for videos
+#indieweb @t: Darius got his new site up at dariusdunlap.com on Boxing Day
+#indieweb @DickHardt: what is the purpose of indieweb?
+#indieweb @t: to post content on their own sites with as much or better quality as the silos do
+#indieweb @t: as more people start doing it, and share tools for doing it it makes more sense
+#indieweb @t: I've made the mobile view of my photos full-bleed on my own site like instagram, so it looks better than fb and twitter
+#indieweb @kylewmahan: I wanted to add book reviews to my site and POSSE those to goodreads.com
+#indieweb @kylewmahan: so to do that I added goodreads support to silo.pub so I can post to goodreads with micropub
+#indieweb @kylewmahan: Instead of implementing a new plugin to publish to goodreads, I just add a micropub target based on silo.pub
+#indieweb @kylewmahan: I want to publish a new review, so I do that here and hit publish and it is POSSEd to goodreads asynchronously
+#indieweb @kylewmahan: the micropub edit standard isn't stable yet so silo.pub doesn't pass it through
+#indieweb @t: we had a resurgence of interest in "read" posts - examples of people started and finishing reading posts
+#indieweb @t: 
+#indieweb @kevinmarks: I have been adding summaries and featured images to kevinmarks.com storycards show up http://www.unmung.com/storycard?url=http%3A%2F%2Fwww.kevinmarks.com
