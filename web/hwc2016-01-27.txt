@@ -1,0 +1,68 @@
+
+#indieweb @t: welcome to Homebrew Website Club - we just finished Indiewebcamp NYC last weekend- we extended it from friday to sunday
+#indieweb @t: David Shansky recorded al the sessions for us - that's GWG on irc
+#indieweb @t: we had a number of folks that didn't have a website and were non-technical, all 4 were set up with a domain and site
+#indieweb @t: we were told that we used so much jargon that it is like learning a foreign language, so we worked on that
+#indieweb @t: @tommorris created a really simple beginning of my webpage on github: https://github.com/indieweb/blank-gh-site that people can fork
+#indieweb @t: if you go to emmahodge.org you can see someone who used tom's template to get her own name as a domain
+#indieweb @t: sometimes something really small that is less than a page of code can really help someone understand
+#indieweb @t: Webmention being published as a w3c draft got a lot of attention on hacker news, which is the usual: https://news.ycombinator.com/item?id=10943261
+#indieweb @t: I had a problem with my iPod touch losing wifi, and the only answer was to wipe and reinstall, which would lose my data
+#indieweb @t: github has been down all afternoon. Which is ironic as it is 2 days since Google Code shut down- they broke all URLs
+#indieweb @t: note that while github.com was down, github.io static sites were still up
+#indieweb @t: Indiewebcamp MIT is on Gregorian Pi day - March 13th - so sign up if you are nearby http://indiewebcamp.com/2016/MIT
+#indieweb @benwerd: I'm ben though I look like evil tantek tonight - I run withknown.com which is an indieweb startup
+#indieweb @benwerd: I'd like to introduce you to Joshua  - I built my own Siri
+#indieweb @benwerd: this uses a web API for speech to text - it puts it through some stanford NLP technology, and looks for signatures
+#indieweb @benwerd: Siri is a black box, Google Now is a black box, wouldn't it be fun if we could plug our own data into them
+#indieweb @benwerd: Joshua, is it safe to leave Mozilla? "yes, there isn't a Giants game on"
+#indieweb @benwerd: The same engine can be attached to slack or whatever, but this runs in a web browser, it's not in a device
+#indieweb @benwerd: if someone wants to write a better joke API for it, please do it
+#indieweb @benwerd: the technology exists to parse text from speech  - we need a way to make it ours too
+#indieweb @scottros: what happens if you ask "what will the weather be tomorrow?"  
+#indieweb @benwerd: it gave me the weather for the server in Dallas - here's it from localhost
+#indieweb @kevinmarks: you need to hook Joshua up to @aaronpk's Loqi
+#indieweb @benwerd: yes, I really need to do that
+#indieweb @benwerd: I could make it post for me and tweet for me - or ask it "where should I be?"
+#indieweb @libertymadison: no-one wants to follow that
+#indieweb @kylewmahan: wow, it's not much javascript at all
+#indieweb @t: I have had hashtags on my site for a while, but they only got linked on the POSSE copies to twitter and facebook
+#indieweb @t: so now I markup hashtags with a category automatically on my site so when I POSSE to flickr they go through
+#indieweb @t: I have been POSSEing manually to flickr with brid.gy - because I added this, flickr has my tags https://www.flickr.com/photos/tantek/24345146530/in/dateposted/
+#indieweb @t: I took a photo at Indiewebcamp NYC - and tagged people. and brid.gy copied across the people who gave permission
+#indieweb @scottros: my site is http://www.wordyard.com which is a wordpress site
+#indieweb @scottros: So @libertymadison, @kevinmarks and I were at Hacks Hackers Connect #HHConnect this weekend and I started a group
+#indieweb @scottros: So I was frustrated with having to cross-post links and posts from my wordpress to lots of other sites, 
+#indieweb @scottros: so I proposed a write once, post many places tool - and I understand that withknown.com does a lot of this
+#indieweb @scottros: we brainstormed ideas on what would help with the problem of cross-posting longform content
+#indieweb @benwerd: so this was Lean Product Canvas?
+#indieweb @scottros: I had all sorts of quibbles and arguments with the nomenclature - why would the advantage be unfair?
+#indieweb @scottros: so the idea would be to create an ideal post with title, image content etc, and then see previews of it in each silo
+#indieweb @scottros: so on twitter, if your summary is over 140 you would truncate it
+#indieweb @benwerd: on twitter, you may need to publish it somewhere else first
+#indieweb @kevinmarks: the challenge I see is the longer form posts that have substructure
+#indieweb @libertymadison: so we liked the idea of being able to make sense of the post and use AI to map it to what the platform wants
+#indieweb @scottros: I was trying to keep it minimal, so when I hear AI I am a bit wary
+#indieweb @scottros: If we're doing the publish once, syndicate everywhere, I want the post to be in those places honoring their differences
+#indieweb @scottros: it's still hard to do that
+#indieweb @benwerd: the meme with, say, AMP is that the content comes to you - it gets imported by whichever system
+#indieweb @benwerd: you may have designed it for google search results, but @nuzzel sees the same thing
+#indieweb @kevinmarks: vine needs 6 seconds, instagram 15 seconds, flickr 120 seconds - video is harder
+#indieweb @libertymadison: I have to do this very day when I ma making video
+#indieweb @scottros: this was heavily publisher and journalist oriented - a lot of people are doing this within their employers systems
+#indieweb @scottros: part of being a journalist now is to crosspost your work to tumblr and twiitter and so on
+#indieweb @benwerd: the criticism I have always got is that people need to re-edit for different destinations
+#indieweb @benwerd: the trick is thta people
+#indieweb @benwerd: people's definition of viable varies - what people expect for audiences is tricky
+#indieweb @benwerd: I ma stubborn and I think of overlapping audiences, but each site does have
+#indieweb @kevinmarks: my take is that we can add substructure to posts that makes sense elsewhere
+#indieweb @benwerd: all the joke APIs on the internet I could find are terrible dad jokes from the 1970s - I need a better one
+#indieweb @benwerd: the journey of the entrepreneur is often like Sideshow Bob and the rakes
+#indieweb @rrrrrrrix: my domain is whatthefuck.computer which gets me more comment on the domain than the content
+#indieweb @rrrrrrrix: it also ends up as my indiewebcamp wiki username, which is a shame
+#indieweb @rrrrrrrix: my site is made from a bunch of emacs LISP that makes html pages
+#indieweb @rrrrrrrix: I built my own static site engine and started using indieweb stuff to get comments on my blog to automate with brid.gy
+#indieweb @rrrrrrrix: I connect the matrix chat system to the indieweb here http://whatthefuck.computer/blog/2015/12/19/matrix-and-indieweb/
+#indieweb @rrrrrrrix: matrix at matrix.org is a modern IRC, a json http API, but the rooms don't live in the same place
+#indieweb @rrrrrrrix: as long as someone is in the room on matrix it persists
+#indieweb @t: the next Homebrew Website Club is February 10th - post your photos on your own site so we can reuse them
