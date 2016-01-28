@@ -1,0 +1,53 @@
+
+#HHConnect @coreyford: Matter is a startup accelerator focused on the future of media and journalism with a 20 week design thinking model
+#HHConnect @coreyford: we help startups fail fast, get feedback, iterate on their venture to get to a demo day
+#HHConnect @coreyford: matter's focus is on getting to a pitch that will get VC's to invest in your startup
+#HHConnect @coreyford: we want teams that work together well, and have a functioning prototype of their project
+#HHConnect @coreyford: we have a design review every month - which is a simulated demo day so you can fail fast and iterate
+#HHConnect @coreyford: design review 0 is a baseline - it as an ass-kicking for you to get raw feedback for you to deconstruct
+#HHConnect @coreyford: you need top down. bottom up, MVP, money strategy, growth strategy all wrapped in a story
+#HHConnect @coreyford: top down is a view of big trends and how they will play out over 2 years. this is your "In a World…" intro
+#HHConnect @coreyford: Bottom Up means you need an actual problem to solve for a customer
+#HHConnect @coreyford: you have to do this funky ance between the super high level view and the clear problem you're solving
+#HHConnect @coreyford: the top down pitch can get too abstract - when you're an entrepreneur abstraction is your enemy. start concrete
+#HHConnect @coreyford: the more abstract you are in the beginning, the more people make stuff up about what you are talking about
+#HHConnect @coreyford: never organise your business around ideas; organise around problems
+#HHConnect @coreyford: You need a Minimum Viable Product, but it does need a way to make money and a growth hypothesis
+#HHConnect @coreyford: you need to wrap it all in a story - building a venture is a multivariate challenge
+#HHConnect @coreyford: what I learned from making documentary films is that a big issue is unlocked by character-driven narrative
+#HHConnect @coreyford: a good pitch is a 3 act structure that has 2 character driven narratives in it
+#HHConnect @coreyford: the first character is your user and their problem; the 2nd character is your team and how they resolve the problem
+#HHConnect @coreyford: your job is to sell the investor on the journey that they can come on with you to the next fundable lily pad
+#HHConnect @coreyford: don't confuse design review with pitch practice - a pitch sums up your current project state in a story for others
+#HHConnect @coreyford: as an entrepreneur you are the leader of a tribe that is building over time
+#HHConnect @coreyford: for each design review you are putting a stake in the ground and getting feedback on it
+#HHConnect @coreyford: we have a series of questions for each design review:
+#HHConnect @coreyford: 1. does your excitement outweigh your hesitation?
+#HHConnect @coreyford: 2. do the top-down trends make this space worth pursuing? (whether this is the right product or not)
+#HHConnect @coreyford: 3. Is there a clear bottom-up user point of view? Can you imagine a user doing this
+#HHConnect @coreyford: 4. does the product meet that need in a compelling way? Is the user journey clear
+#HHConnect @coreyford: 5. Is there a clear growth hypothesis?does it grow over time
+#HHConnect @coreyford: 6. Is there a a clear path to making money? not necessarily now
+#HHConnect @coreyford: 7. is there a strtegy for sustainable competitive advantage? Network effects
+#HHConnect @coreyford: 8. Is the storytelling clear and compelling?
+#HHConnect @coreyford: 9. what are the 3 critical things for this team to do next? key thing is to focus
+#HHConnect @coreyford: 10. Is this the team to do it?  - this is the hidden question, but investors always ask it
+#HHConnect @coreyford: when an entrepreneur has been building something in stealth mode for 18 months, there is often an obvious flaw
+#HHConnect @catherinecheney: Would you ever advise a team to create a  no-profit rather than a venture funded company?
+#HHConnect @coreyford: we are not set up for that, but this process can apply to a non-profit effort too
+#HHConnect @coreyford: most businesses have multiple possible users, but you need to choose the most important user to focus on
+#HHConnect @coreyford: average team size is 3, with a range of 1 to 8 (we don't like to bet on 1) - everyone is involved in everything
+#HHConnect @catherinecheney: are there media companies that followed this process that you can point to as success stories?
+#HHConnect @coreyford: there is always a drunken walk- you need prototyping and executing. Twitter started as a podcast company
+#HHConnect @coreyford: when a team has killed something precious to them in their initial pitch, they are likely doing well
+#HHConnect @danolsen: Lean Startup is about making explicit hypotheses; testing those assumptions; iterating quickly
+#HHConnect @danolsen: I wrote the "Lean Product Playbook" to make Lean Startup clearer from a product perspective
+#HHConnect @danolsen: Lean Canvas is a single sheet for you to articulate your product theory on
+#HHConnect @danolsen: 1 customer segments 2 problem 3 unique value 4 solution 5 channels 6 make money 7 costs 8 metrics 9 unfair advantage
+#HHConnect @danolsen: Product-Market Fit is a pyramid Market
+#HHConnect @danolsen: the number 1 mistake with MVP is to overbuild; the number 2 is to build a layer, not a slice
+#HHConnect @danolsen: my slides are online at http://www.slideshare.net/dan_o/a-playbook-for-achieving-productmarket-fit-by-dan-olsen-at-lean-startup-conference
+#HHConnect @iankennedy: team 1: I want a podcast discovery app for commuters
+#HHConnect @catherinecheney: 2. A way to encourage discussion of stories after publication
+#HHConnect @scottros: 5. I want a tool that makes writing once and publishing in multiple places really easy
+#HHConnect @scottros: what if we have a master editor that shows how it can work in twitter or other places it can be published to
