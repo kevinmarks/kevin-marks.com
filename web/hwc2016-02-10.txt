@@ -1,0 +1,21 @@
+#indieweb @t: welcome to homebrew website club - last time I shared the off the record URL for micropub
+#indieweb @t: since then the w3c has published the 1st public working draft of Micropub https://www.w3.org/TR/micropub/
+#indieweb @t: the Micropub spec is the 2nd result on google, which is good when it competes with small public houses https://en.wikipedia.org/wiki/Micropub
+#indieweb @t: which is an opportunity for someone to create a disambiguation page on wikipedia, as w3c is notable
+#indieweb @t: here is a suitable citation: https://www.w3.org/blog/news/archives/5286
+#indieweb @t: the indieweb summit dates are set for June 4th and 5th in Portland, OR
+#indieweb @t: who has something to share or something that they need help with
+#indieweb @benwerd: the open bot Trink I showed last meeting is now a real project for Withknown that we are building
+#indieweb @benwerd: the Known open source project is getting lots of pull requests now, and there is a Docker repo
+#indieweb @kylewmahan: on my known site I added a notification screen for things that would otherwise go to email from Known
+#indieweb @kylewmahan: I was trying out the HTML5 notifications today so it will show me notifications when things come in
+#indieweb @t: every browser has set up a behind the scenes push notification server for their browser, which will call your service worker
+#indieweb @t: having notifications is interesting anyway - maybe you can hook it up to the SWAT0 flow
+#indieweb @t: I got something minor done - automatic POSSE to flickr of Photos and maybe video
+#indieweb @t: I built this on brid.gy publish to flickr, which means I am publishing syndication URLs to flickr too
+#indieweb @t: we are now 100% on our January commitments as @aaronpk shipped his site https://indiewebcamp.com/2016-01-01-commitments
+#indieweb @t: we also have a new Indiewebcamp logo design from Shaners https://slack-files.com/T03QR2B2T-F0LFT9G3T-fe40b97474 http://indiewebcamp.com/logo
+#indieweb @rrrrrrrix: I built a webring - because I use it as an interview question
+#indieweb @rrrrrrrix: so I have a DHT based webring in javascript for matrix
+#indieweb @benwerd: I like the idea of a webring, and of a public timeline - as it shows 'here are the people"
+#indieweb @rrrrrrrix: instructions for adding your site to the distributed webring is at http://ring.whatthefuck.computer
