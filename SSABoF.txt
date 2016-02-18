@@ -1,0 +1,121 @@
+Social Software Association BoF Notes:
+
+Everyone sitting 'round the conference room, laptops on ~ %60 of the laps
+Jokes about sing-a-longs. Scared. :-O
+
+Peter is starting, explaining the the space is to bring social software people together.
+Ross is transcribing to the chat space
+The intro agenda is:
+    What do we mean by "social software"?
+
+Interruption (AKA our Social Software Alliance is diverse in goals, lexicons, and skills)
+    Marc Canter wants two lists, one for users and one for creators
+    Matt Jones, annoyed that the "meat" for Marc is software
+    (someone)Philosophy of social software is a given - the mechanics of software in action - how do we do that? Then technical. 
+    Dana Boyde: conversations should be intermingled and it is important that they stay that way
+    Why still mailinglists? Why not an adaptive one.
+    Greg Elin: try one for 2 months; then more. Maybe we get a better solution eventually
+    Jon: why a mailing list, why not a forum space?
+    Peter K: Multiple fora - different conferences.
+    Need a standards body - connect to IETF & WC3
+    Use QuickTopic for specific discussion
+    Sifry: Talk about it or do it? 
+    Do what?
+    Sifry: I don't care what - do something.  Do what we do then define it
+         (ready fire aim)
+    Monthly tryout of what is going on - test something per month 
+    Sifry: get sidetracked into nothing. Who are the toolbuilders? - make suggestions and be involved. 
+    Marc: that'll happen anyway... 
+        Rough consensus and running code?
+
+Peter moves us to the next topic...
+    Tries to sidestep the issue...
+
+    Dana: small tool group - reach out to people who should be involved and cluster them. Reach out to different groups - bring not just technologists. Bring users in. Having outreach people who are comitted 
+    Person: Why does't Marc Canter step up and publish infrastructure for ... builders, social accounting (Czar)
+    Ad-hocracy
+    David Weinberger wants a charter
+    Recap: Social software vendors need to be working together, reputation systems, trust systems, impossible without interoperability
+    add categories on the Wiki
+    Sifry: be more decentralised
+    Peter: the more social, even
+    Ben Hammersley: Ultimate goal: singles bar for SSA
+    Could become a scary standards body None has come down from on high. keep it emergent
+    Peter: sounds good to me!  lightweight is good, like the IETF 10 years ago
+    David Isenberg: Propose expanding definition of SS just a little bit: economics is a social science
+        Micropayments are social software
+    Stuart: want working groups on messaging, group structure and identity
+    Greg: At the SSA "gathering/summit" in November, we made a huge list of all of the interesting problems, and we identified areas in which each of us was interesting and which were tractable then we broke into groups.
+            We could paint the information under these topics, allowing people to know what they're interested in.
+            Post topics to chat using "topic: <something>"    
+Move on to others:
+    Sean McDowell: What are users going to do? Long term intent
+    Mark Pinkus: if in 3 years blogs grow up and semantic web grows up and take on ebay amazon etc. 'Here's what I want' (old intelligent agent thingy)
+    Dana: topic: be certain that social consequences are part of our frameworks, both on the part of developers and the part of users
+        What does it mean when all of your data is available on Google?
+        What are persistent data problems, temporal issues?
+    Peter: what do you want to hear from developers?
+    Dana: With developers, it's usually lack of knowledge.  We've made software that has effects...
+    Matt Jones: is it true that developers don't care how they use their stuff
+    Mark Canter: any generalizations are wrong, but the scope of this identity is so that we don't overlap, we don't need multiple identity systems... or the Borg will win.
+    Kevin : redundancy is good
+    ??:Costs of computer-mediated communication - alienation & frustration
+        the more time we spend blogging or wanking in a circle, the less time we're spending impacting society. need a social context for developing social software
+            it doesn't matter whether we convince people that our software won't impact people, if we don't know
+        All developers should care what their software will be used for.
+        All of us should have at least an interest in the social context in which software is produced, if not prediction
+    Peter: SSA pledge? "I pledge to..."    
+    ?: Make them fun. Not just typing text. Gaming
+    Greg: *stands* Plea: incredible frothing of tools and connections...I don't want to lose this moment.  We make our stuff as real, open, and as wise as we can... as Howard spoke about this morning.  "I just want to make sure that I'm not building them wrong, and that's why SSA is cool because we have critical mass to make this happen.  We should not lose out on the small or medium gains that we can make now because we haven't figured out the big problems."
+    Sean: Question about limiting things... consequences should be unimaginable
+    Greg: at least we should be informed
+    Jim: We've got one shot, lets not fuck it up
+    ?: Everyone is interested in taking ss outside of just the web env, into the future of intercommunication
+    Social software talks to other software - make it scriptable so it can talk to other code
+    Mark: action item - create sub Bofs
+        stick it on the wiki, or the BoFs board outside
+    Sean Blacksford: I work on messging in Windows shell what I'd like to see, (ssa is great), how can this community come up with a voice to MS and Verizon?
+        MS focus bof?  Tonight?
+    ?: I want a way to see into the different projects so that I can get involved (not intrusively)
+    Peter: go to socialsoftwarealliance.org and use that term on other pages
+        Wanted to move on to Kevin's stuff
+    Kevin: Vote links/opinion tags (add param to anchor with "agree,disagree,...")
+    Peter: suggest writing up a paper with a few supporters and post it to the list
+    Kevin Marks: zeroConf is powerful (Go Hydra! btw, Kevin, there is jRendezvous from strangeberry.com)
+    Peter: zeroconf is an IETF extension to existing standards for P2P slickness
+        [Rendezvous/ZeroConf is a wonderful supplement to social software.  iCommune is a Mac application that lets you share playlists and songs with people on the local network; there's rendezvous-enabled games, as well.  Lots of worthwhile stuff involving bringing people together on a local network.  Ties possible with the earlier-suggested FOAF-stuff, too -- imagine if you were notified when someone compatible (female, 20-35 :) signed onto iChat.  --rsoderberg]
+        [we use mDNS at PARC for our ubicomp framework -- Trevor]
+    Peter: want to rep EZN topics, which are categories in RSS feeds
+    Greg: it could be interesting to hear (in audio, even) what people are finding interesting
+    Mark: ThreadsML, ss interconnections, openidentity.org let different standards interconnect
+    Greg: manage images  as collections of objects, metadata inside (that stuff rocks...)
+    distributed metadata and personal ontologies
+    Meg: saving my interesting ideas until tomorrow
+    Ben: Bittorrent
+    Weinbereger: threadsML
+    RFID & Interactions with thousands of device that have IP addresses
+    
+        [FOAF RFID!  --rsoderberg]
+    Greg: namespaces, clouds (EZN), yahoo groups suddenly have these other tools (FOAF)
+    Sean: shared topics/ontologies
+?:modelling societal relationships and finding social structure
+    Mark C: force doc to say something
+    Doc: convergence of all of the open source efforts that depend on ID
+        [FOAF, RFID, GeoURL, Digital ID, Email address (perfect digital identity! see below)  --rsoderberg]
+ Dave sifry: digital identity pseudonyms etc. taking this cool shit out of intrenet space and into meatspace - meetup geourl and so on
+    A digital ID is an email address - unique, distributed, xml RPC interface needed. (Why not a URL?)
+    Weinberger: who wants a perfect digital identity system?
+    [I'd like to use recombinatant networks (from ubicomp research) for massively shared context in granules smaller than a blog post -- Trevor]
+        [Smart dust? Nanotech? Bigger?  (irrelevant!) --rsoderberg]
+    Jeff: appending a fairly long code to your email, which gives you equiv of an socket port, 
+    David Isenberg: if you have ID, its easy to do micropayments... disrupt the banking system (and the baking system, too!)
+        [mjd did this, check out the email addresses on http://www.plover.com/ --rsoderberg]a
+    Beer fund starts....
+
+========================
+[Leave your email and web if you want them to appear when this is posted]
+tfsmith@parc.com http://trevor.smith.name/
+kevin@epeus.com http://mediagora.com
+etcon@crystalflame.net http://crystalflame.net/
+allen@murray.net
+    (if you blog this, tell me and i'll link you  --rsoderberg)

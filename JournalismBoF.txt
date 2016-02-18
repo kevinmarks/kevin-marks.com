@@ -1,0 +1,259 @@
+[CHRIS DIBONA IS NO LONGER A SLASHDOT ASSOCIATED PERSON. THAT IS ALL.  --rsoderberg]
+
+------- begin content, metadata at the end -------
+Chris diBona
+Dan Gillmor: Journalism: receding technology 
+submerging technology
+
+Marc Canter: creating an outliner. Doesn't like sipping through a straw, wants lots of media in it. Don't come if you have dialup
+
+hey allen help us out transcribing
+
+Doc Searls: .. senior (geriatric) editor of linux journal .. Cluetrain (#722 today on Amazon), a blog
+Dan: Doc doen't have a blog - he has "the" Blog
+Doc: blogging is different from Journalism becasue you agonise of journalism, but blogging is public email, with copyediting by everyone else. "It's all about the least amount of energy you can put into it."
+
+Marc: freshly shoveled front walk using images
+
+"he was using images to communicate rather than words .. this nice little photograph was communicating more than all my words"
+    [they have a contest going as to who can make the least effort, most content stories]
+    
+Dave Sifry(of technorati): A question!  Journalism has a clearly defined boundary between personal and business; in the blog world, that's different, or maybe gone.  The rules seem to be different; are there things that you consider off limits?  What are your personal ethics?
+
+He posted a press release by a friend he knew to be false through personal contacts, but he posted it anyway as it would have shown up otherwise.
+
+Marc doesn't read the comments on slashdot. Journalists fact check before... maybe.
+
+(ponytail guy): People are always posting bullshit to slashdot -- sometimes it is very believable bullshit
+
+Glenn Fleishman: Warchalking - Glen is chatting to Matt, adn is getting calls from around the world about warchalking as an expert on WiFi; ended up doing a piece for circuits, very objective, third person, no mention of personal involvement.
+
+Marc: he most admires Scott Rosenberg from Salon - left-wing liberal jewish media
+every quarter he says we're not going out of business. Because he's using a blog, he can personally speak back, where as an editor, he might not be able to do that
+
+Scott: ethis are an individual matter - there are ethical and unethicla journalists and bloggers - with a blog if a regular reader you get to know the blogger
+..if someone is skirting edges, you'll figure it out..
+..cases of real deception (that one suicide thing)..
+..easier to read the reliability of a slash/blogger than otherwise..
+
+Editing and moderating the comments;
+Distributed comment system - slashdot has moderation system - don't delete comments.  It's hard to share logins across blogs, and no one's done that yet.
+    [suggest to social software to build cross-blog auth system --rsoderberg]
+
+Dan: much easier to blog if you're a columnist rather than a reporter. Journalists have been asked to shut down their blogs (or in one case, fired).
+
+A guy in hertford shut it down on orders of the editor. Henry Norr was fired.
+.. "How dare they? Do they own him?"
+.. "a lot of people sort of ignore the fact that their contract restricts them" -- does Henry's?
+
+Dan:went to editor "I'd like to do a weblog. What is that? Will it help? yes. good, do it.
+    Is it going to detract from what I do?
+    
+Glen: seattle times have set up blogs
+    How do we _____ the editorial part of it? How do we deal with actually filtering the stuff before it goes out on the wire?
+
+Dan: if i had even the tiniest, infinitesimal shadow of a doubt, I run it by an editor first. We're not going to put stuff out under our name if we weren't sure about it. It's a lot chattier than I put in the paper; I wouldn't put in my column a picture of my newborn niece as I did a couple years ago, but it was a great weblog entry.
+
+???: Don't you think that a lot of your instincts, if you have a question, check the editor, comes from your experience being a journalist prior to blogging?  You have these instincts where there's people who don't.
+
+Marc: Doc's instincts are not as a journalist?
+Doc: I think of myself as a journalist, always have. Always a struggle for those whoa re iconoclastic.  [.. an instinct to .. fuck with the system ..] "does this make sense to do or not to do?"
+
+???: Are weblogs journalism?
+(blue shirt): Are journalist weblogs journalism?
+Doc: I think the definition of journalism is changing right now.
+???: if you're writing a journal, you're weblogging
+Scott: American journalism is an edited product
+(blue shirt): "if movabletype doesn't force it, it's personal enforcement."
+Dan: editors save my butt from making stupid (or dumb) mistakes and from leaving stuff out. With the blog he hears it from readers, updates the entry.
+Marc: I learned from a master, Dave Winer - a unique voice - it is me
+Chris "I don't consider Dave and Scott of the same caliber"
+(bald guy): You get to have different kinds of masters.  What Scott's a master at is different from what Dave's a master at.
+Glenn: "If you believe you're creating an objective interpretation of the world around, that's journalism." truth with a capital T - a version of the world in your own terms
+
+slashdot chap: people are factually incorrect a lot fo the time
+
+People can *sound* authoritative, even be *perceived* as authoritative in their community, but that expertise doesn't necessarily translate elsewhere.
+
+Glen has to believe he belives it
+There must be some genuine truthfulness in what you're writing, that what I'm writing is factually accurate according to my filter of the universe.
+
+Dan: Yahoo laundering Weekly World News stories - Saddam Hussein in Porn etc.
+
+Marc: tanks pulling down statue - layers of context
+
+...: the latimes guy that admitting photoshopping.. probably did more for adobe sales [laughter]
+
+??? (brown coat, blonde, female): the journalists felt like they were blogging..
+whereas the real interest was from the baghdad blogger (Salam Pax)
+
+Dan: the likening of the embedded reporters to bloggers goes only a certain distance and stops; it's true that there are these posts occasionally, but they're missing the links, the definition of the phenomenon.  the second thing is that, when this history is written, there's going to be more actual data available to historians, maybe places with keyhole viewpoints, but there'll be more data than any other war has had available to it.
+
+Doc: Kevin Sites had a blog, told by employer to get rid of blog.  Later, captured, and the capture was reported on weblog.  "I watched television for hours; there was nothing about it.  It was like it never happened."
+
+(ponytail): A lot of people look at american journalism and don't call it that anymore.
+
+???: Do you feel that blogging is threatening or enriching the quality of journalism?
+
+Doc: totally enriching
+    ???: Does anyone disagree with him?  (one, asked to wait by Doc)
+
+Doc: Robert Siegel lamenting   the terrible thing that happened to journalism - all AP & Reuters - the source of all news
+
+Doc: "everybody's a stringer now. i use my blog, in part, to troll, in the fishing sense, for sources. i've got many more sources now."
+
+they're missing getting the story; the things that people are writing aren't news stories; how can people who want to take the role of journalists pick up that basic skill?
+
+Doc: I think that there are a lot of people who do have it, and there are a lot of people who.. don't.
+
+???: You said anybody can learn.. in 6 to 8 weeks.  You can learn to write as well as the average $20k/year starting out of college at a lousy vignette paper [Weekly World News].
+
+Dan: going to Korea to see a paper put together by volunteers
+
+Marc: why korea? Is it because they have the highest percentage of people with broadband connections?
+Chris: do they have that?
+??: 60% of Koreans have broadband.
+22,000 (peak) "baangs" (internet cafes) in Korea - the numbers are in decline.
+Marc: so it is a cultural issue.  They aren't limited, so they feel enabled to create this medium.
+dan: 
+
+kevin: had been at NAB, colleague went to PK, had equip locked in customs, purchased off-the-shelf Macs, and put together a system.  Then 2 months later, same system was 3rd largest in pk - was running off this same setup.
+
+???: problem of authenticity.  Wonders why there aren't more things like snopes.com.
+Dan: people want to chase down stuff.
+Kevin Lane: "We can fact check your ass"
+Fleishman: Paul Boutin chasing down libel in france about pentagon attack.  This aggressive take down remains authoritative. 
+Doc: He's also chasing the "Where's Raed" story (http://dear_raed.blogspot.com/), believes it authentic
+
+Dave sifry: distribution of ability to the edgewill there be a -renaissance of civics
+
+mr slashdot:the government doesn't care what you say
+
+???: it doesn't matter if the people in charge care what you say, it matters if a sufficient mass of people believe in what you say.
+
+Howard: point of smart mobs is collective action - the religious right pioneered the use of technology in collective action. Without blogs an email, all we would have is disinfotainment. Whether it has any effect on power or not, it creates incentives to interlink and debate, so it is healthier for the public sphere.
+
+Eric leshad from reuters: not to defend traditional media - want to work wiht bloggers. Blogs seem to propel anecdotes into news - anecdotes are are often the great victories of blogs - anecdotal retelling of feelgood events that became facts. News about blogging - first came out on blogs. Checked with political reporters about Trent Lott - blogs did do that. 
+Scott: it was in the Wapo first.
+    example?
+
+Dan: More voices finding more facts to check
+
+Anil Dash: "Blogdex is the re-editor"
+The concern I have is that the people in power that we worry about are the ones we can't elect out of office.
+who is in power and who can be elected out fo office.
+Kevin sites was shut down instead of moving ti to CNN.com -" they didn't want to give too much personal voice to any one reporter (http://www.kevinsites.net/)
+DG: they want to make stars of reporters - but they want to decide
+    [they want control over who becomes a star, same as the record industry. --rsoderberg]
+
+Does Google have too much power
+FCC holding hearings on 
+DG: media ownership is a really big deal
+
+David: News aggregators pull information from different sources - weblogs is more individual. branded news doesn't want stars to be portable
+    "they don't want those stars to be portable" -- disassociating journalists from their media parent seems to be undesirable
+
+Justin: argument for micropayments. Publications are collections of journalists
+    "stables" of journalists
+Wanted to get a press credential for his blogs? can't. He could bluff the blogs as like news.
+    "Journalists are not safe and reputable for conferences unless .."
+
+Tim O'Reilly: >> won't << if we let any blogger in as journalist we'd make no money [not that we make any money now]
+
+Macworld is about getting column inches; eTech isn't
+
+
+Marc: Regardless of legitimate, whatever, Howard is a walking talking expert in that field.  Whenver I see his byline I know that it's probably something that's going to be relevant to me. I don't care if it's Journalism, whatever, it's got value to me.
+Scott: That's because he built his own brand
+Kevin: Reputation! not brand
+Marc: O'Reilly is a brand
+
+:sends random people and they get in
+
+Tim O: it costs us money for every person who comes in, and we get scammed.
+approximately a quarter of the people here are on press passes.
+Steve Gillmor: there is nothing special about journalists, it happens to them too.
+Dan: bloggers should cover things that the mainstream press don't; cover the school board - and the city council
+
+TimO: "you get carded sometimes"; there are biases
+
+Greg Elin: blogging makes it easier for me to read the web. I read better content now I have a blog. Now I have a responsibility - writing clarifies. my family reads my blog, adn now they have conversatiosn about it.
+
+Justin: "mandatory blogging in grade school for journalism"
+
+?:specialisation - long indexes of blogs of 500 only 20% are people who know there shit. How that specialisation grows? An expert in Dog poop - if they specialise in fertilizer they'll get cited.
+
+Glen: I'm an ant following the pheremone of my own ego. he got all the contacts and ended up specialised because of all the feedback he gets. Now he is getting cold-called by CEOs and teh product managers have read his blog.
+
+Dan: one story authoritative blog he looks at is Glens. There si no trade publication 
+(and no model to support one)
+Steve: there is a parochial attitude to this dialog - he hired Glen F to Infoworld to make symbiotic relationship. This is a conscious evolution brought on by the barrier of entry being dropped. An exchange of authority. Pro-active nature - the progenitors are acting i the space. They realise that they can build a brand that way.
+Problem of Dave Winers weblog all in one - should be one per passion.
+
+Dave Sifry:empirical things - localisation is going to become a larger issue - you'd thin there would be sports bloggers - why don't we see them? Its starting to happen now. Much more locally oriented. Technorati cosmos of school board meeting.
+Not just the top 10 to 15. many locla maxima in small groups.
+
+Tim O:Pet peeve - tries to see through technology - blogs and mailing lists are different. A big part of what eh does is what bloggers do, but he does it in email. He blogs every day in connected groups - Dave Farber is one. Email is his primary mode - he has a mailing list. Passing on the links. he finds it frustrating thta blogging is now. reads slashdot byemail.
+
+Dave Sifry: had a mailing list, why not make a historical record too?
+
+Anil: we have to say its new and unique because it other people won't want to do it
+Marc: What about reviews? What if the music business got a clue? personal publishing si what this bof should be about.
+
+Glenn: traditionally journaism si reportage - first person experience or it is a bit second hand. The blogs are doing reportage. Others are often 3rd hand talking about second hand stuff. He was in Seattle when the earthquake happened.
+First-hand is coming - mobile phone. Most tedius when you get fourth order commentary. why are there 2700 reviews of harry potter.
+
+Dan: News of what people saw themselves. When there was an earthquake radio news took calls saying 'a jar fell off my shelf' - getting people from the edges to contribute to the middle.
+
+Banality of blogs/ trade show analogy - comdex got specialised to bits. Blogs taking away from centralised media.
+Justin: how do you centralise this. Where do I go to find amateur journalists about this topic.
+Journalist professional is to sort into useful from. CNN is a set of staggered loops.
+
+Lookin for headlines relevant to you?
+
+Marc: God bless RSS. Marc has the 25 years of history to add that in.
+
+Greg: difference between editorial and workflow versus blogging - absence of blogging workflow.
+Doc: totally different - professional workflow - very differetn processes - one is professional, one is avocational. Dan's is more tied in.
+Dan: Blogs saving a file in public,. An edited piece of journalism is a different leel of thought.
+Anil: reputation and credibility proportional to editing?
+Dan: No, not a direct correlation.
+
+Justin: copyediting and spellchecking go away, but link checking comes back indtead.
+Glen: part is the relationship with the editor. he writes for Seattle times, and he is writing for the one guy there. He gets an audience he hears from now. 
+slashdot chap:When you make a slip, you know at once.
+
+Glen: daily newspaper cartoons used to be the Maytag repairman job, but starting in 1995, the Frank and Ernest put his email in the newspaper - he got 1000 emails a week. Foxtrot now gets strip ideas from email.
+?:Corporations picking up on blogging - they have infrastructure who want to take old of this. They want to talk directly, but then they want it approved by legal and it becomes a joke:
+Doc: looking at companies or LinuxJournal WSJ is all about vendors, but what is really going on with Linux is inside companies. The companies doing the coolest stuff are the least managed, and marketing dept is not a factor. At Google yesterday - it looks like the 90s - Google have an internal weblog.
+Dan: Greg is writing about the software he is developing.
+
+Kevin: Nike decision could chill corporate blogging. 
+Dave Sifry: sputnik - limited availability - he'll blog it.
+
+Justin: found a voice on the web. he said 'hey wired - I have a voice - don't you want it?" There are very few professionals valued for their voice. There is a disjuncture - if you are a blogger you don't get to be a reporter.
+Glen: the NY times meatgrinder - they edit it to their voice. he learns to spek in their voice.
+Blogs capture people's lives. They need to get out more.
+
+Famous people are now first to destory stuff now 
+
+Who decides what is worth knowing now? What do the public like? what do librarians want?
+
+
+------- end content, begin metadata -------
+
+Want to havthis emailed to you when you're done?
+
+NOTE TO WHO SENDS THE EMAIL:
+    (1) BCC it
+    (2) Subject: [etcon] Journalism BoF collaborative notes
+
+ [[[email adresses redacted ]]]    
+
+Blogging about this when it's done?
+
+>> the dissenter to the left of the G3 black powerbook there across from the speakers has tried to speak twice now; has anyone heard his comment yet, either time?  I didn't hear it.  --rsoderberg
+<< No -es
+>> what's his name?
+>> dunno. The dissenter?
+<< yeah. eh. i'm going to leave this section in metadata, for doc'n'co to review later.
