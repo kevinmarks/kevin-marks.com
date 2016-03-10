@@ -1,0 +1,61 @@
+<html>
+<head><title>Homebrew Website Club 2016-03-09</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="fragmention.js"></script>
+<script src="hovercards.js"></script>
+<link href="style.css" media="all" rel="stylesheet" type="text/css" />
+<link rel="webmention" href="https://webmention.herokuapp.com/api/webmention" />
+</head>
+<body>
+<article class="h-entry">
+<h1 class="p-name">Homebrew Website Club <time class="dt-published">2016-03-09</time></h1>
+<div class="e-content">
+<p></blockquote></div>
+<div class='h-cite'><a class='h-card p-category' href='http://tantek.com/'>Tantek</a>:  <blockquote class='e-content'><p>welcome to the fortnightly Homebrew Website Club - if we have demos of new things, lets see them
+<p></blockquote></div>
+<div class='h-cite'><a class='h-card p-category' href='https://kylewm.com'>Kyle Mahan</a>:  <blockquote class='e-content'><p>this is woodwind.xyz my reader - when it detects that a post is an event, it adds 'interested' 'going' 'not going'
+<p>so I can see the events on <a class="auto-link" href="http://indiewebcamp.com">indiewebcamp.com</a> and go through accepting and replying them
+<p><a class="auto-link h-x-username" href="https://twitter.com/aaronpk">@aaronpk</a> asked me for this thins week, I'm not sure why
+<p></blockquote></div>
+<div class='h-cite'><a class='h-card p-category' href='http://tantek.com/'>Tantek</a>:  <blockquote class='e-content'><p>well, Aaron is demoing webmention to the w3c next week, so he wanted more examples
+<p></blockquote></div>
+<div class='h-cite'><a class='h-card p-category' href='https://snarfed.org/'>Ryan Barrett</a>:  <blockquote class='e-content'><p><a class="auto-link" href="http://brid.gy">brid.gy</a> has added a decent amount since I was last here - user mentions and link searches and sends those too
+<p><a class="auto-link" href="http://brid.gy">brid.gy</a> extends webmentions to the social networks so if people reply on twitter or facebook you see those too
+<p>tumblr switched to a link redirector like twitter's, which broke things and we ahd to rewrite
+<p>tantek took his twitter account private, which revealed a lot of extra cases fro us to handle
+<p></blockquote></div>
+<div class='h-cite'><a class='h-card p-category' href='http://tantek.com/'>Tantek</a>:  <blockquote class='e-content'><p>I found that having private posts meant people tweeted links to my site instead of retweeting
+<p></blockquote></div>
+<div class='h-cite'><a class='h-card p-category' href='https://snarfed.org/'>Ryan Barrett</a>:  <blockquote class='e-content'><p>we also added lots of microformats to the <a class="auto-link" href="http://brid.gy">brid.gy</a> user page and so it acts as an api
+<p>we also added syndication of video to facebook and twitter, which tantek has been using
+<p>we applied for permission to the new Instagram API, so we will have to switch to scraping html
+<p><a class="auto-link" href="http://brid.gy">brid.gy</a> costs 2-4¢ per user per month - we found that there were slow things which we improved
+<p>Kyle found some slow parts in mf2py, and improved it but there may be more to do
+<p></blockquote></div>
+<div class='h-cite'><a class='h-card p-category' href='https://kylewm.com'>Kyle Mahan</a>:  <blockquote class='e-content'><p>if you know what the final url looks like, we don't follow redirects; but we do that now 
+<p></blockquote></div>
+<div class='h-cite'><a class='h-card p-category' href='http://kevinmarks.com'>Kevin Marks</a>:  <blockquote class='e-content'><p>there is sgnodemapper that does that as part of  the old social graph api - we should revive it
+<p></blockquote></div>
+<div class='h-cite'><a class='h-card p-category' href='https://snarfed.org/'>Ryan Barrett</a>:  <blockquote class='e-content'><p>suprfeeder crawls a lot of websites and now we sendswebmentions from a lot of pages on the web to you
+<p></blockquote></div>
+<div class='h-cite'><a class='h-card p-category' href='http://kevinmarks.com'>Kevin Marks</a>:  <blockquote class='e-content'><p><a class="auto-link" href="http://webmention.herokuapp.com">webmention.herokuapp.com</a> keeps a thread open so if I webmention on my static site, the comment appears in real time
+<p>I've been expanding <a class="auto-link" href="http://mention-tech.appspot.com/">http://mention-tech.appspot.com/</a> to accept fragmentions as well, and show them as quotes
+<p>it also can show the post comments in context for the posts as it caches the jf2 from the source
+<p>because mention-tech accepts wm's to and from anything <a class="auto-link" href="http://indiewebcamp.com/irc/2016-03-09/line/1457580062556">http://indiewebcamp.com/irc/2016-03-09/line/1457580062556</a> shows in <a class="auto-link" href="http://mention-tech.appspot.com/listmentions?target=http%3A%2F%2Fmention-tech.appspot.com">http://mention-tech.appspot.com/listmentions?target=http%3A%2F%2Fmention-tech.appspot.com</a>
+</blockquote></div>
+</div>
+</article>
+<script id="webmention-hosted">
+  (function () {
+    var sn = document.createElement("script"), s = document.getElementsByTagName("script")[0], url;
+    url = document.querySelectorAll ? document.querySelectorAll("link[rel~=canonical]") : false;
+    url = url && url[0] ? url[0].href : false;
+    sn.type = "text/javascript"; sn.async = true;
+    sn.src = "//webmention.herokuapp.com/api/embed?version=cutting-edge&url=" + encodeURIComponent(url || window.location);
+    s.parentNode.insertBefore(sn, s);
+  }());
+</script>
+
+</body>
+</html>

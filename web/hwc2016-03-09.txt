@@ -1,0 +1,23 @@
+
+#indieweb @t: welcome to the fortnightly Homebrew Website Club - if we have demos of new things, lets see them
+#indieweb @kylewmahan: this is woodwind.xyz my reader - when it detects that a post is an event, it adds 'interested' 'going' 'not going'
+#indieweb @kylewmahan: so I can see the events on indiewebcamp.com and go through accepting and replying them
+#indieweb @kylewmahan: @aaronpk asked me for this thins week, I'm not sure why
+#indieweb @t: well, Aaron is demoing webmention to the w3c next week, so he wanted more examples
+#indieweb @schnarfed: brid.gy has added a decent amount since I was last here - user mentions and link searches and sends those too
+#indieweb @schnarfed: brid.gy extends webmentions to the social networks so if people reply on twitter or facebook you see those too
+#indieweb @schnarfed: tumblr switched to a link redirector like twitter's, which broke things and we ahd to rewrite
+#indieweb @schnarfed: tantek took his twitter account private, which revealed a lot of extra cases fro us to handle
+#indieweb @t: I found that having private posts meant people tweeted links to my site instead of retweeting
+#indieweb @schnarfed: we also added lots of microformats to the brid.gy user page and so it acts as an api
+#indieweb @schnarfed: we also added syndication of video to facebook and twitter, which tantek has been using
+#indieweb @schnarfed: we applied for permission to the new Instagram API, so we will have to switch to scraping html
+#indieweb @schnarfed: brid.gy costs 2-4¢ per user per month - we found that there were slow things which we improved
+#indieweb @schnarfed: Kyle found some slow parts in mf2py, and improved it but there may be more to do
+#indieweb @kylewmahan: if you know what the final url looks like, we don't follow redirects; but we do that now 
+#indieweb @kevinmarks: there is sgnodemapper that does that as part of  the old social graph api - we should revive it
+#indieweb @schnarfed: suprfeeder crawls a lot of websites and now we sendswebmentions from a lot of pages on the web to you
+#indieweb @kevinmarks: webmention.herokuapp.com keeps a thread open so if I webmention on my static site, the comment appears in real time
+#indieweb @kevinmarks: I've been expanding http://mention-tech.appspot.com/ to accept fragmentions as well, and show them as quotes
+#indieweb @kevinmarks: it also can show the post comments in context for the posts as it caches the jf2 from the source
+#indieweb @kevinmarks: because mention-tech accepts wm's to and from anything http://indiewebcamp.com/irc/2016-03-09/line/1457580062556 shows in http://mention-tech.appspot.com/listmentions?target=http%3A%2F%2Fmention-tech.appspot.com
