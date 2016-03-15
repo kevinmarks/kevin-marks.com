@@ -1,0 +1,77 @@
+
+#indieweb @aaronpk: Hello Indiewebcamp MIT - we're going to do demos now
+#indieweb @aaronpk: Kevin is going to livetweet this so if you have a phone you may get bombarded with @ mentions
+#indieweb @sandhawke: I'm Sandro Hawke I have lots of websites including hawke.org
+#indieweb @sandhawke: what stops me from having a website is that I have lots of different websites
+#indieweb @sandhawke: I migrated all my tweets from twitter to my w3 site http://www.w3.org/People/Sandro/
+#indieweb @sandhawke: on https://www.w3.org/People/Sandro/blog/ I load all my tweets from my export via javascript
+#indieweb @sandhawke: twitters data export is very nice, especially compared to facebook which I couldn't make sense of
+#indieweb @sandhawke: there is metadata in the link saying what the real link is so I converted it to use that
+#indieweb Cassie: I'm Cassie, my main site is cassie.wtf, but I have been working on sensible.mn 
+#indieweb Cassie: the blog is still running known, but the pages are now in wordpress
+#indieweb @annbass: I got my own site annbass.net up and running on Known, and hooked up to twitter @annbass
+#indieweb @annbass: I'm running my own instance of withknown.com on dreamhost
+#indieweb @annbass: I set up my own site so people can learn how to keep their own parent at home when they need assistance
+#indieweb @annbass: I'm using known and have brid.gy set up to connect to twitter
+#indieweb @annbass: I have a lot of posts to write, and I need to organise them, probably using tags
+#indieweb @dissolve333: I'm Ben and my site is https://ben.thatmustbe.me if you got ot https://ben.thatmustbe.us it picks a random ben for you
+#indieweb @dissolve333: I got fed up with Cordova's complete lack of documentation so worked on my web posting UI instead
+#indieweb @dissolve333: I added offline storage of drafts so I can edit things offline and then submit the stored post when I get online
+#indieweb @dissolve333: I can save multiple offline posts, and it stores the time when you hit save, not when you posted
+#indieweb @sandhawke: satra had to leave early, but  satra.cogitatum.org is built on the SoLiD platform
+#indieweb @sandhawke: it should allow other people to log in, but I don't have certificates. it looks pretty
+#indieweb @t: I'm tantek of tantek.com and I spent most of indiewebcamp documenting events and how to model them
+#indieweb @t: I wanted to model birthdays in a useful way as that is a strong case for facebook so we can make them distributed
+#indieweb @t: thre is information at http://indiewebcamp.com/birthday on our thinking on how to share these
+#indieweb @t: we also spent time working out how to model events with invitations, and the ui is tricky to get right
+#indieweb @t: if anyone has libraries for simple natural language event parsing I'd like to hear about them
+#indieweb @t: I took time to document how facebook's event mobile UI which has regressed from 2014 http://indiewebcamp.com/event#Facebook
+#indieweb @t: I have changed how photos work on my site - I want interactions on both silo copies to come to one post
+#indieweb @t: before I couldn't do multiple copies to the same silo; now there are 2 of them
+#indieweb @t: If it's the same content, I want it to be the same permalink
+#indieweb Jessica: I manage a website for a band, and I get it set up on Drupal, moving from Joomla 
+#indieweb Jessica: I found it really easy to put photos up with a block of text and customise it
+#indieweb @aaronpk: I'm Aaron of http://aaronparecki.com - I had intended to work onevent presentation and event UI
+#indieweb @aaronpk: but i got event presentation working
+#indieweb @aaronpk: on aaronparecki.com/events  I have events show for multi-day events  - it show start time, location and city
+#indieweb @aaronpk: if you click on an event you see more information, including RSVPs and mentions eg https://aaronparecki.com/2016/03/14/1/indiewebcamp
+#indieweb @aaronpk: the other thing I got working last night was getting iOS share action to behave
+#indieweb @aaronpk: so this post was sent from my iphone via a share extension to micropub: https://aaronparecki.com/2016/03/15/2/
+#indieweb @aaronpk: now I'm going to try a pano, just to make it harder
+#indieweb @aaronpk: what I learned last night was that id didn't work because the images were so big and I hit memory limits on iOS
+#indieweb @aaronpk: I found that I need to set the size of the viewport smaller so it doesn't run out of memory
+#indieweb @rhiaro: I made a service to send notification to SoLiD servers, which is like webmentions but can have more data
+#indieweb @rhiaro: I send a message to Dmitri from my site, the message gets stored in his inbox, and this reader shows it 
+#indieweb @rhiaro: I'm particuarly happy with this client becaude it works with javascript off, unlike the other SoLiD apps
+#indieweb @rhiaro: my page is apps.rhiaro.co.uk/errol and dmitri's is https://dzagidulin.databox.me
+#indieweb Dmitri: I have been the cobbler with no shoes as I work on web apps but I din't have my own site
+#indieweb Dmitri: I am setting up a wordpress site, but I have it locally now
+#indieweb Marty: I'm Marty McClearen, I've spent most of the day getting wordpress set up on http://mcclearen.net/
+#indieweb Marty: I've had this domain for a while and am glad to get it working, next is to add plugins
+#indieweb @shevski: I have had a website for really long time, but the content is 2 years out of date http://shevski.com
+#indieweb @shevski: the content is marked up with microformats, and linked so I can log into indiewebcamp with my site
+#indieweb @shevski: and I set up a user page on the wiki at http://indiewebcamp.com/User:Shevski.com
+#indieweb @shevski: you should all check out http://redecentralize.org/ which is another of my projects
+#indieweb @mlncn: I'm Benjamin - I was working on a webmention implementation for Drupal 8, which Jessica demoed
+#indieweb @mlncn: you make any kind of post, anyone should be able to comment by linking to it
+#indieweb @mlncn: Daniel got this working with Vinculum in Drupal 7, and I'm working on it for Drupal 8
+#indieweb @mlncn: you can follow progress on this at https://www.drupal.org/project/vinculum
+#indieweb Kurt: I set up my own site on http://freekurt.com using Known, but I had config problems with nginx
+#indieweb Kurt: I get letsencrypt installed, and so will have a cert ready soon
+#indieweb Chris: We are talking about platform cooperativism
+#indieweb Chris: so what if you had something like Uber but the drivers had ownership and a login on the platform
+#indieweb Chris: when it  comes to indiewebcamp there are barriers to entry for owning a domain name and paying for hosting
+#indieweb Chris: an example of platform cooperativism would be something like withknown.com where you can offer logins
+#indieweb Chris: another example would be eager on Drupal
+#indieweb Chris: I am a member of Agaric, http://agaric.com a worker owned cooperative with 5 owners at the moment
+#indieweb Chris: there is http://internetofownership.net/ which is collecting platforms that promote cooperatives 
+#indieweb Chris: we're also working on how to convert a startup like entity to members
+#indieweb @aaronpk: Thanks everybody for your demos
+#indieweb @harryhalpin: There's a lot going int he standards space at the moment, and we should agree on federation and syntax soon
+#indieweb @harryhalpin: in the pre-indieweb era of federation there was a lot of concern about security and privacy eg Salmon
+#indieweb @harryhalpin: We now have some cryptographers looking at the problem of communicating privately in distributed way
+#indieweb @harryhalpin: one part is key exchange - how you show keys and share changes, and we have  signed model with Merkle trees
+#indieweb @harryhalpin: we're sponsoring a blockchain summerschool too
+#indieweb @harryhalpin: and looking at a mix-network that is a Tor-like thing to prevent traffic monitoring
+#indieweb @harryhalpin: I will try to get an indieweb enabled site up over the next day or two
+#indieweb @aaronpk: thanks to everyone for coming, for MIT for hosting, and to NLNet and Sovrn for sponsoring food
