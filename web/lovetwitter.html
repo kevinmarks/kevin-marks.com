@@ -24,13 +24,31 @@
    from { background-position:    0px; }
      to { background-position: -15680px; }
 }
+.heart {
+    width: 100px;
+    height: 100px;
+    background-image: url("web_heart_animation.png");
 
+    -webkit-animation: playheart 2s steps(28) infinite;
+    animation: playheart 2s steps(28) infinite;
+}
+
+@-webkit-keyframes playheart {
+   from { background-position:    0px; }
+     to { background-position: -2800px; }
+}
+@keyframes playheart {
+   from { background-position:    0px; }
+     to { background-position: -2800px; }
+}
+.banner {display:flex; align-items:center; flex-wrap:wrap; width:100%; width:100vw;}
 </style>
 </head>
 <body>
 <article class="h-entry">
 <div class="e-content">
-<div class="birthday"></div><h1 class="p-name">Love Twitter or Leave it?</h1>
+<div class="banner"><div class="birthday"></div><h1 class="p-name">Love Twitter or Leave it?</h1><div class="heart"></div></div>
+</div>
 </article>
 <script id="webmention-hosted">
   (function () {
