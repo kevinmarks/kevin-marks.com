@@ -1,22 +1,13 @@
 <html>
-<head><title>Love Twitter</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<script src="fragmention.js"></script>
-<script src="hovercards.js"></script>
-<link href="style.css" media="all" rel="stylesheet" type="text/css" />
-<link rel="webmention" href="https://webmention.herokuapp.com/api/webmention" />
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<head><title>Love Twitter or Leave it?</title>
 <style>
 .birthday {
     width: 280px;
     height: 280px;
-    margin-left:-90px;
-    margin-right:-90px;
     background-image: url("web_birthday_heart_animation.png");
 
-    -webkit-animation: play 1s steps(56) infinite;
-    animation: play 1s steps(56) infinite;
+    -webkit-animation: play 2s steps(56) infinite;
+    animation: play 2s steps(56) infinite;
 }
 
 @-webkit-keyframes play {
@@ -27,31 +18,13 @@
    from { background-position:    0px; }
      to { background-position: -15680px; }
 }
-.heart {
-    width: 100px;
-    height: 100px;
-    background-image: url("web_heart_animation.png");
 
-    -webkit-animation: playheart 2s steps(28) infinite;
-    animation: playheart 2s steps(28) infinite;
-}
-
-@-webkit-keyframes playheart {
-   from { background-position:    0px; }
-     to { background-position: -2800px; }
-}
-@keyframes playheart {
-   from { background-position:    0px; }
-     to { background-position: -2800px; }
-}
-.banner {display:flex; align-items:center; justify-content:space-around; flex-wrap:wrap; width:100%; width:100vw;}
 </style>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 </head>
 <body>
-<article class="h-entry">
-<div class="e-content">
-<div class="banner"><div class="birthday"></div><h1 class="p-name">Love Twitter</h1><div class="heart"></div></div>
-</div>
+<div class="birthday"></div><h1> Love Twitter or Leave it?</h1>
+
 <p>Today is Twitter's tenth birthday, and we have a festooned heart and the hashtag #LoveTwitter to celebrate it.
 <p>Twitter is well worth celebrating - I joined up in the middle of the night some months after the launch: 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">sneezing and heading for bed</p>&mdash; Kevin Marks (@kevinmarks) <a href="https://twitter.com/kevinmarks/status/946993">December 11, 2006</a></blockquote> and quickly discovered the joy of twitter's asynchronous chatter on a trip home to London.
@@ -60,7 +33,7 @@ If you compare <a href="http://epeus.blogspot.com/#Blog%20Archive">my blog archi
 By 2008 I noted this <a href="http://epeus.blogspot.com/2008/04/digital-publics-conversations-and.html">myself</a>:
 <blockquote>
 I've been twittering more than blogging recently, and while immediacy is part of it, a far stronger thing is that I have a sense of public there - a public of people I choose to follow and who chose to follow me.</blockquote> 
-In 2009 I wrote about <a href="http://epeus.blogspot.com/2009/03/how-twitter-works-in-theory.html">Twitter Theory</a> and Twitter's phatic core:
+In 2009 I wrote about <a href="http://epeus.blogspot.com/2009/03/how-twitter-works-in-theory.html">Twitter Theory</a> twitter's phatic core:
 <blockquote>The key to Twitter is that it is phatic - full of social gestures that are like apes grooming each other. Both Google and Twitter have little boxes for you to type into, but on Google you're looking for information, and expecting a machine response, whereas on Twitter you're declaring an emotion and expecting a human response. </blockquote>
 In 2011 I was concerned about the proliferation of images used to extend tweets and asked for a way to put richer HTML <a href="http://epeus.blogspot.com/2011/12/facebook-twitter-and-google-plus-shun.html">with tweets</a>
 <blockquote>Image links, however — at least those from recognised partners — are given privileged treatment. Facebook and Google have emulated this too, leading to the 'trite quote as image' trope. The spillover of this to news organisations <a href="http://www.theatlantic.com/business/archive/2011/12/ending-the-infographic-plague/250474/">became complete this year</a>, with blogs and newspapers falling over themselves to link to often-tendentious information presented in all-caps and crude histogram form.</blockquote>
@@ -72,19 +45,16 @@ In 2011 I was concerned about the proliferation of images used to extend tweets 
 I wrote about this again <a href="http://known.kevinmarks.com/2016/twitters-tragedy-of-the-comments">recently</a>: 
 <blockquote>the Tragedy of the Comments occurred, just as it <a href="http://www.wired.com/1994/05/alt-tasteless/">has done from the dawn of time</a>. The power to force people to see your reactions to their comments is very hard to resist, and it changes the tone of the discourse.</blockquote>
 <p>Twitter is still a wonderful place to connect people across the world, and to weave the web of knowledge, jokes, phatic connections and news. 
-<p>I think by applying the theory I've talked about over the years, it can be made better still. Here's to the next decade, being part of Twitter's overlapping publics sharing mutual media.
-<div class="banner"><div class="birthday"></div><div class="birthday"></div></div>
-</article>
-<script id="webmention-hosted">
-  (function () {
-    var sn = document.createElement("script"), s = document.getElementsByTagName("script")[0], url;
-    url = document.querySelectorAll ? document.querySelectorAll("link[rel~=canonical]") : false;
-    url = url && url[0] ? url[0].href : false;
-    sn.type = "text/javascript"; sn.async = true;
-    sn.src = "//webmention.herokuapp.com/api/embed?version=cutting-edge&url=" + encodeURIComponent(url || window.location);
-    s.parentNode.insertBefore(sn, s);
-  }());
-</script>
+<p>I think by applying the theory I've talked about over the years, it can be made better still. Here's to the next decade, and being part of Twitter still.
 
-</body>
-</html>
+<p>It is a truth universally acknowledged that a website in possession of a large number of users, must be in want of a fix.
+<p>Over the last few months I have seen many thoughtful, reasoned suggestions for how Twitter can be fixed. The fixes of course depend on the diagnoses  people have.
+Some of these are quantitative - worrying about lack of user growth, especially in the US, or revenue, or engagement.
+This is the classic tech and financial analysis approach - come up with a metric that is measurbale, and hope that it correlates with future revenue.
+Others are more qualitative - more akin to anthropological reports from the field, or stories told by travellers. [Somolinski, cartoon]
+The challenge is always to distil the cultural direction from these very different signals, and make sense of how to change things. To do this you need a theory, a model to adjust and check with both these quantitative and qualitative measures.
+
+
+
+ <a herf="http://www.newyorker.com/tech/elements/the-end-of-twitter">made</a>: 
+“the growing wave of harassment and abuse that users of the service were dealing with…” 

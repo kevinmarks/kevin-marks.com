@@ -1,0 +1,62 @@
+
+#hackshackers @amandabee: I'm the senior fellow at Buzzfeed @OpenLab, and welcome to California College of the Arts
+#hackshackers @burtherman: We have more Hacks/Hackers connect coming up in Miami and Brussels
+#hackshackers @christinesunu: Here's a stuffed animal, pass it around, don't lose it
+#hackshackers @AAAinsley: I'm working on a project called Glance that is about desiging responsive environments in VR
+#hackshackers @AAAinsley: Before the oculus rift was the Stereograph, invented in the 1800s - the Stereograph as educator
+#hackshackers @AAAinsley: there is a popular narrative that movies displaced 3d images, but there is a parallel narrative where it survived
+#hackshackers @AAAinsley: There were also cycloramas that toured as art works
+#hackshackers @AAAinsley: but the panopticon is another model of spatial surveillance
+#hackshackers @AAAinsley: what is key that you are looking at the system and the system is looking at you
+#hackshackers @AAAinsley: even with a 3d panoramic video, the system is tracking your head movements and knows where you are looking
+#hackshackers @AAAinsley: we had a 360 interview with satya nadella, so I tried replacing the space they were within
+#hackshackers @AAAinsley: this is a demo where you navigate through a series of clips by tapping the space bar while watching
+#hackshackers @AAAinsley: an extension of this would let me annotate and markup the video for collboration
+#hackshackers @AAAinsley: I have a language learning demo where you hear a  conversation then play both parts
+#hackshackers @AAAinsley: there is a yellow cube that if it is in the frustrum, it will switch to the next clip
+#hackshackers @AAAinsley: instead of using raycasting, using frustrum presence makes it easier to interact
+#hackshackers @AAAinsley: part of this technique makes cutting more coherent as you can hold the cut until they're viewing the right spot
+#hackshackers @benkreimer: I have been using drones to 3d reconstruct archeaological sites that you can navigate
+#hackshackers @benkreimer: as well as viewing in the browser, we can make a 1st person view in Unity in a game environment
+#hackshackers @benkreimer: we also have 360 video with low cost drones and cameras - I used 2 gopros with aftermarket lenses
+#hackshackers @benkreimer: the Ricoh theta S is a lot cheaper, but you lose a lot of resolution; Jaunt uses specialised rigs
+#hackshackers @benkreimer: The Valley Fire Project used the dual gopro rig to cover the fire, and got t6 million views
+#hackshackers @benkreimer: the gopros are genlocked, and are automatically synced, so are easy to use 
+#hackshackers @benkreimer: we ahve a field kit available for buzzfeed reporters to use for this
+#hackshackers @benkreimer: we also have a drone that can capture 360 video with no camera in the shot 
+#hackshackers @WestleyArgentum: I'm working on using games in journalism for things that are hard to describe in words
+#hackshackers @WestleyArgentum: I have a fantasy football game based on influencing congress though money
+#hackshackers @WestleyArgentum: you build a team based in special interests that do well in a particular congress, and if bills get support
+#hackshackers @WestleyArgentum: I use data from Maplight at Berkeley to model different interest groups
+#hackshackers @WestleyArgentum: framing it as a game helps people concentrate on the details of legislation
+#hackshackers @WestleyArgentum: we have a game called @shit_vcs_say on an iphone now thta challenges you to guess who said what
+#hackshackers @WestleyArgentum: in the game, if you choose elmo it points out the bad premises of the tweets
+#hackshackers @WestleyArgentum: we are arguably holding the VCs accountable for the strange things they say
+#hackshackers @SaitoGroup: The Saito Group suppsrts the cybernetic persona of Saito that broadcasts testimony to the city
+#hackshackers @SaitoGroup: right now we are investigating the economic power of the tech industry and how it is reshaping market street
+#hackshackers @SaitoGroup: we are creating a projected adn geolocated form in the street that people interact with
+#hackshackers @SaitoGroup: we have software that lets you search for geolocated tweets for an area and help visualise it
+#hackshackers @SaitoGroup: we set up  on the street and remix tweets into poems that show the inequality in the street
+#hackshackers @SaitoGroup: you have to deaden yourself when walking to work along market street, but this reopens the conversation
+#hackshackers @SaitoGroup: we have a process of writing facilitated by machines, but now they suggest poetic gestures to our writers
+#hackshackers @SaitoGroup: we create a display on the street to change a conversation
+#hackshackers @SaitoGroup: the installation is along market street at different times , I set up in different places on different nights
+#hackshackers @christinesunu: I work on emotional storytelling with internet connected hardware, though I have a background in medicine
+#hackshackers @christinesunu: I am the GE IoT fellow at buzzfeed, so I wor on the Internet of Things, but not appliances and vehicles
+#hackshackers @christinesunu: I am interested in connecting things to the internet that evoke emotions
+#hackshackers @christinesunu: things made of fabric and stuffing, or metal and stone still affect our emotions
+#hackshackers @christinesunu: what fi we start with objects that already evoke emotions and augment them with technology
+#hackshackers @christinesunu: I have a series of stuffed animals called Buddy. this one has conductive yarn you can see when he is squeezed
+#hackshackers @christinesunu: I held buddy while I watched a scary movie, Perfume, and saw spikes where it was scary
+#hackshackers @christinesunu: given these inputs, how can we help people tell their emotional stories better?
+#hackshackers @christinesunu: what you can do is look at other sensors as well as the feedback one and see how you react to things
+#hackshackers @amandabee: we now have a call out for new fellows, deadline may 1st - come see us at http://www.buzzfeed.com/openlab
+#hackshackers @christinesunu: I would like to work with autistic children, but I woudl need someone to consult with me on this
+#hackshackers @amandabee: some fellows are working very closely with reporters, some are more disconnected - we're constantly brianstorming
+#hackshackers @mat: a lot of ad hoc things happen too - Westley helped track things in Edgar for example
+#hackshackers @mat: we want to have this collaboration and create new tools for media that other organisations can use
+#hackshackers @benkreimer: Ainsley and I work by shoot, stitch video and then work in Premiere, which lets you view it as a sphere
+#hackshackers @AAAinsley: we ahve worked mostly with video and spatial VR with buzzfeed - the valley fire one is a good example
+#hackshackers @AAAinsley: a lot fo video si driven by audio and voiceovers that gives a direction
+#hackshackers @AAAinsley: I want  to create space that is malleable and changes as you act
+#hackshackers @benkreimer: what i want to do is let you walk around an environment and then jump to a 3d video at that point
