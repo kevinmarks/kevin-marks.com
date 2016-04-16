@@ -1,0 +1,70 @@
+
+#indieweb @adactio: you'll notice there's an attribute on each of these links that says rel="me"
+#indieweb @adactio: that lets me use this clever thing called indieauth to log into my own site using twitter or facebook or something
+#indieweb @adactio: all I need to do is add a few characters to my own site to mark this up, as the silos link back
+#indieweb @adactio: from my perspective as a site owner I didn't need to do much to set this up, and I get lots of benefits
+#indieweb @adactio: something I decided to do a while ago was to post my tweets to my own site first
+#indieweb @adactio: now the point is not just to keep things to yourself on your own site, but to share them out to twitter or flickr too
+#indieweb @adactio: to get the responses back on my own site via webmention I use a service called brid.gy that sends them to me
+#indieweb @adactio: this is the idea of POSSE, which is a terrible acronym for Post on your Own Site, Share Elsewhere
+#indieweb @adactio: longer posts I share to medium for "Engagement" - you connect to the world
+#indieweb @t: this is my site tantek.com that does many of the same things as Jeremy
+#indieweb @t: one of the things that motivated me to use my own site rather than twitter was not having arrows for next post
+#indieweb @t: similar to Jeremy I copy my posts to twitter - if it's a photo I cross post to facebook as well as twitter
+#indieweb @t: something I did recently was make all my silo accounts private, so if you want to share my posts you use my url not theirs
+#indieweb @aaronpk: I'm Aaron of aaronpk.com - this is my website which is similar, short notes, blogposts, photos etc
+#indieweb @aaronpk: what I want to show is replies - Jeremy said he gets comments and replies back from twitter
+#indieweb @aaronpk: if someone likes a post I just show their faces with a heart, but if they reply I show the full post
+#indieweb @aaronpk: I'm signing in to https://quill.p3k.io/ with my own domain - I recently changed from indieauth.com to my site
+#indieweb @aaronpk: This means I can have fine-grained permissions for each micropub client
+#indieweb @aaronpk: I replied to a post of Jeremy's with a comment one my site, adn it sent a webmention, so his site shows the comment
+#indieweb @aaronpk: now I have a copy of my reply on my site, and Jeremy has one on his and we're not replying on twitter to converse
+#indieweb @aaronpk: so you saw Quill as an editor, that uses micropub to post to my site
+#indieweb @aaronpk: then when I reply to Jeremy's site it uses webmention to tell him I commented on his site
+#indieweb @voxpelli: I have built tools using webmention so you can have mentions on your static sites, like github pages
+#indieweb @voxpelli: this is at webmention.herokuapp.com and you sign up with github, and use it for your sites
+#indieweb @voxpelli: many people have used this including @kevinmarks - you can see I need to add pagination
+#indieweb @voxpelli: Kevin uses brid.gy so if anyone mentions kevin on twitter it shows up on his site
+#indieweb @voxpelli: I have micropub set up too so I can post to my site from my phone, which posts by doing a github pull
+#indieweb @voxpelli: so I can have micropub working even though I use Jekyll
+#indieweb @voxpelli: I have also made a crawler called relspider, but now I'm focusing on micropub and webmention for jekyll
+#indieweb @adactio: apart from the functionality of these tools, the other reason we use them is because they are well-defined and easy
+#indieweb @adactio: the technical stuff underneath is in a good state, but it is fun to work on the user interface as well
+#indieweb @voxpelli: the other thing I have is these 3 buttons on the bottom of my site that allow retweet, reply and like
+#indieweb @voxpelli: this enables an indieconfig that loads a configuration for you to use your own site, or fall back to twitter
+#indieweb @BarnabyWalters: I'm Barnaby and my website is regrettably https://waterpigs.co.uk
+#indieweb @BarnabyWalters: if you go to https://indiewebcamp.com/irc/today?beta#bottom we have great logs of the irc and you can join in by talking to us
+#indieweb @BarnabyWalters: irc is where a lot of the indieweb discussion goes on, and we have logs that go on forever
+#indieweb @t: we deliberately decided to not have a mailing list, to encourage people to be brief or post on their website
+#indieweb @BarnabyWalters: so what I want to demo is live audio streaming using my own server using PureData
+#indieweb @BarnabyWalters: I built this puredata patch that connects to an icecast server running on my website
+#indieweb @BarnabyWalters: so I can copy the m3u from this to my site and make a note that posts it
+#indieweb @BarnabyWalters: so I'm aadding a stream in an <audio> tag, and a geolocation
+#indieweb @BarnabyWalters: what I want is to archive this with a link to the recorded audio when I finish streaming
+#indieweb @BarnabyWalters: because micropub lets you update posts, I should be able to replace the m3u with an mp3 link
+#indieweb @jkphl: I use typo3 for my website http://jkphl.is because we use that for everything
+#indieweb @jkphl: I am accepting and even sending webmentions
+#indieweb @jkphl: I am collecting responses from sites using both brid.gy and my own code
+#indieweb @jkphl: i would like to post more status updates, photos and check-ins. It's too complicated rightnow
+#indieweb @jkphl: half a year ago I started writing a concept called apparat, and am building it as a set of libraries
+#indieweb @jkphl: I want to store them as simply as possible in text form in the filesystem
+#indieweb @jkphl: I have a ystem for storing files that are markdown based and I would like to get this in a browser this weekend
+#indieweb @LukasRosenstock: I am hosting my site on a silo called app.net, which is a twitter rival you pay for
+#indieweb @LukasRosenstock: my site takes all the post from the API and presents them in an interface
+#indieweb @LukasRosenstock: favorites, reposts and replies come from the app.net APi and I translate them into microformats 
+#indieweb @LukasRosenstock: I also accept indieweb replies via webmention, and I can send response to my site and app.net
+#indieweb @LukasRosenstock: my code is up at github.com/LukasRos/phpADNSite - it is PESOS rather than POSSE
+#indieweb @LukasRosenstock: but if app.net shuts down I can still serve from local storage
+#indieweb @aaronpk: I've been working on a tool to help you debug your webmentions - it's called http://webmention.rocks
+#indieweb @aaronpk: each test shows the webmentions received as comments, likes and emoji on the post
+#indieweb @aaronpk: webmention.rocks also sends very detailed error messages, unlike most practical webmention implementations
+#indieweb @aaronpk: If I click here to post a favorite, it shows up on the other site straight away
+#indieweb @aaronpk: once you get it working on 1, make sure you test on all 21 as it will find edge cases in your code
+#indieweb @t: one thing I added to photo posts this year is person tagging. I tag people on my post, and use brid.gy publish
+#indieweb @t: that shares it to other sites like facebook and twitter, and transfers the person tags 
+#indieweb @t: on my site I get to choose the poster frame for the video, not just the first frame like you get on twitter
+#indieweb @adactio: I want to show indiewebify.me
+#indieweb @adactio: if you're working on adding indieweb features to your app indiewebify.me helps a lot
+#indieweb @adactio: we've all gravitated to these technologies now, but the main thing is about having your own website
+#indieweb @adactio: there's lots of levels here - son't be overwhelmed, it builds up for simple building blocks
+#indieweb @adactio: this is a barcamp style event, which is basically organised chaos - we just have rooms and times
