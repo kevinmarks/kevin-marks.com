@@ -1,0 +1,53 @@
+#indieweb @voxpelli: I implemented a localstorage based indieconfig page so anyone can set up their indieconfig http://voxpelli.com/demo/indie-config/
+#indieweb @voxpelli: when I set this up I can click a reply button on an indie site and it will post to my site
+#indieweb @voxpelli: if you want to add web actions to your site to use indieconfig, the markup is at http://indiewebcamp.com/webactions
+#indieweb @egoexpress: dayoneapp.com is the app I use for to aggregate my stuff from around the web
+#indieweb @egoexpress: the tool I use for this is sifter redux which uses IFTTT to log actions to files in a dropbox, then posts to dayone
+#indieweb @egoexpress: I wanted to do this with my own Known site, so I built a Ruby app to parse these logs
+#indieweb @egoexpress: It then creates status entries using the Known api to log my youtube viewing and so on
+#indieweb @egoexpress: My Known site is at https://known.stierand.org
+#indieweb @fredericmarx: today I added webmentions to my static site thanks to @voxpelli's service webmention.herokuapp.com
+#indieweb @fredericmarx: I point my webmention endpoint to his service, and then add the javascript to embed these
+#indieweb @fredericmarx: I also implemented a very simple service worker so if I go offline and reload the page it comes from cache
+#indieweb @fredericmarx: for now it's just this article: https://fmarx.com/notes/webmentions/
+#indieweb Steffen Rademacker: I implemented a service worker, which was tricky at first as I had to get my dev environment running ssl
+#indieweb @webgefrickel: I set up a gulp script so that when I edit the site it loads a new service worker too
+#indieweb @webgefrickel: the hard part is getting the service worker to update its own copy of its script in its cache too
+#indieweb @webgefrickel: I receive webmentions through https://getkirby.com/  but I think I need to update the parser version 
+#indieweb @adactio: yesterday we had a really good discussion about homepages, and how silos show your history
+#indieweb @adactio: and I particularly liked github's display of your interaction over time, and I'm a fan fo sparklines
+#indieweb @adactio: if you look at the top of https://adactio.com/ you see sparklines for activity
+#indieweb @adactio: each sparkline is an SVG that generates the graph from a query string
+#indieweb @adactio: I show data for 100 points, so I divide time into 100 bins and pass in 75 numbers
+#indieweb @adactio: Initially I used google charts for sparklines, but they deprecated it, and I made one in Canvas
+#indieweb @adactio: but it really should be SVG, and @sil made me a script to generate these for me
+#indieweb @adactio: they don't currently have the same time axis, so I should adjust that for clarity
+#indieweb @t: my homepage is at http://tantek.com/ - and we debated about streams vs bios and taglines
+#indieweb @t: I changed my page to show icons for my organisations, not just text
+#indieweb @t: The bio is in the sidebar on a wide screen; on a narrow screen I put it under the name with a 'more info' link
+#indieweb @aaronpk: I fixed some bugs on my site - my sleep records weren't importing any more
+#indieweb @aaronpk: the umlaut in Nürnberg was breaking the import of the sleep script. so now I lookup latlong to city on my site
+#indieweb @aaronpk: so now You can see my sleep in Germany as well https://aaronparecki.com/sleep
+#indieweb @aaronpk: I hacked up an indieweb reader in IRC (using a website that connects to my irc client)
+#indieweb @aaronpk: I made a channel on my private server that follows several people in this room so I get notified when they post
+#indieweb @aaronpk: if I type !like in IRC, it makes a post on my site
+#indieweb @BarnabyWalters: I tried to create a Pure Data micropub client, but it didn't work
+#indieweb @BarnabyWalters: I can now post a link with <audio> so people can listen live on my site
+#indieweb @BarnabyWalters: and it has archiving too so that it will show up afterwards as well
+#indieweb @BarnabyWalters: I see I have a new audio file on my server, so I copy that somewhere public, and change src to it 
+#indieweb @BarnabyWalters: so now we have an audio file directly linked here: https://waterpigs.co.uk/notes/4goFfB/
+#indieweb @BarnabyWalters: Aaron took a great photo of me, which i wanted to use as a profile photo, but it shouldn't go back in time
+#indieweb @BarnabyWalters: so I made profile photos depend on post date
+#indieweb @BarnabyWalters:  new profile photo https://waterpigs.co.uk/notes/4goFYN/ taken by @iwontsignuphere
+#indieweb @t: I have updated webmention support, based on webmention.rocks tests
+#indieweb @t: to debug this I made a tool to show me what webmention endpoints it will send webmentions to
+#indieweb @t: the server does all the webmentions synchronously, so hopefully it completes before the browser times out
+#indieweb @justb3a: I set up webmentions for my site http://justonestep.de/ using processwire
+#indieweb @justb3a: I started this plugin last year at INdiewebcamp Dusseldorf, now they work, eg see https://justonestep.de/notes/20160416-1417/
+#indieweb @voxpelli: there are some exotic webmention types, and it an be hard to get people to send you webmentions
+#indieweb @voxpelli: I built node-webmention-testpinger to send you webmentions to test your webmention implementation
+#indieweb @voxpelli: if you can add examples of your site's markup when you send webmentions to https://github.com/voxpelli/node-webmention-testpinger others can test
+#indieweb @miklb: I got my site http://miklb.com set up on jekyll using https://github.com/miklb/jekyll-indieweb 
+#indieweb @webrocker: I updated my site http://www.webrocker.de with a service worker so it now works offline as well
+#indieweb @t: during the demo's I updated the indie-config on http://tantek.com/ - I had to change the Content Security Policy
+#indieweb @t: thank you to Julie @iwontsignuphere for taking so many great photos of the event

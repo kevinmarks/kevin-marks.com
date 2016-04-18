@@ -1,0 +1,94 @@
+<html>
+<head><title>IndieWebCamp Nürnberg Demos 2016-04-17</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="fragmention.js"></script>
+<script src="hovercards.js"></script>
+<link href="style.css" media="all" rel="stylesheet" type="text/css" />
+<link rel="webmention" href="https://webmention.herokuapp.com/api/webmention" />
+</head>
+<body>
+<article class="h-entry">
+<h1 class="p-name">IndieWebCamp Nürnberg Demos <time class="dt-published">2016-04-17</time></h1>
+<div class="e-content">
+<div class='h-cite'><a class='h-card p-category' href='http://voxpelli.com'>Pelle Wessman</a>:  <blockquote class='e-content'><p>I implemented a localstorage based indieconfig page so anyone can set up their indieconfig <a class="auto-link" href="http://voxpelli.com/demo/indie-config/">http://voxpelli.com/demo/indie-config/</a>
+<p>when I set this up I can click a reply button on an indie site and it will post to my site
+<p>if you want to add web actions to your site to use indieconfig, the markup is at <a class="auto-link" href="http://indiewebcamp.com/webactions">http://indiewebcamp.com/webactions</a>
+<p></blockquote></div>
+<div class='h-cite'><a class='h-card p-category' href='https://bjoern.stierand.org'>Björn Stierand</a>:  <blockquote class='e-content'><p><a class="auto-link" href="http://dayoneapp.com">dayoneapp.com</a> is the app I use for to aggregate my stuff from around the web
+<p>the tool I use for this is sifter redux which uses IFTTT to log actions to files in a dropbox, then posts to dayone
+<p>I wanted to do this with my own Known site, so I built a Ruby app to parse these logs
+<p>It then creates status entries using the Known api to log my youtube viewing and so on
+<p>My Known site is at <a class="auto-link" href="https://known.stierand.org">https://known.stierand.org</a>
+<p></blockquote></div>
+<div class='h-cite'><a class='h-card p-category' href='http://fmarx.com/'>Frederic Marx</a>:  <blockquote class='e-content'><p>today I added webmentions to my static site thanks to <a class="auto-link h-x-username" href="https://twitter.com/voxpelli">@voxpelli</a>'s service <a class="auto-link" href="http://webmention.herokuapp.com">webmention.herokuapp.com</a>
+<p>I point my webmention endpoint to his service, and then add the javascript to embed these
+<p>I also implemented a very simple service worker so if I go offline and reload the page it comes from cache
+<p>for now it's just this article: <a class="auto-link" href="https://fmarx.com/notes/webmentions/">https://fmarx.com/notes/webmentions/</a>
+<p></blockquote></div>
+<div class='h-cite'><a class='h-card p-category' href='https://webgefrickel.de'>Steffen Rademacker</a>:  <blockquote class='e-content'><p>I implemented a service worker, which was tricky at first as I had to get my dev environment running ssl
+<p>I set up a gulp script so that when I edit the site it loads a new service worker too
+<p>the hard part is getting the service worker to update its own copy of its script in its cache too
+<p>I receive webmentions through <a class="auto-link" href="https://getkirby.com/">https://getkirby.com/</a>  but I think I need to update the parser version 
+<p></blockquote></div>
+<div class='h-cite'><a class='h-card p-category' href='https://adactio.com'>Jeremy Keith</a>:  <blockquote class='e-content'><p>yesterday we had a really good discussion about homepages, and how silos show your history
+<p>and I particularly liked github's display of your interaction over time, and I'm a fan fo sparklines
+<p>if you look at the top of <a class="auto-link" href="https://adactio.com/">https://adactio.com/</a> you see sparklines for activity
+<p>each sparkline is an SVG that generates the graph from a query string
+<p>I show data for 100 points, so I divide time into 100 bins and pass in 75 numbers
+<p>Initially I used google charts for sparklines, but they deprecated it, and I made one in Canvas
+<p>but it really should be SVG, and <a class="auto-link h-x-username" href="https://twitter.com/sil">@sil</a> made me a script to generate these for me
+<p>they don't currently have the same time axis, so I should adjust that for clarity
+<p></blockquote></div>
+<div class='h-cite'><a class='h-card p-category' href='http://tantek.com/'>Tantek Çelik</a>:  <blockquote class='e-content'><p>my homepage is at <a class="auto-link" href="http://tantek.com/">http://tantek.com/</a> - and we debated about streams vs bios and taglines
+<p>I changed my page to show icons for my organisations, not just text
+<p>The bio is in the sidebar on a wide screen; on a narrow screen I put it under the name with a 'more info' link
+<p></blockquote></div>
+<div class='h-cite'><a class='h-card p-category' href='http://aaronparecki.com/'>Aaron Parecki</a>:  <blockquote class='e-content'><p>I fixed some bugs on my site - my sleep records weren't importing any more
+<p>the umlaut in Nürnberg was breaking the import of the sleep script. so now I lookup latlong to city on my site
+<p>so now You can see my sleep in Germany as well <a class="auto-link" href="https://aaronparecki.com/sleep">https://aaronparecki.com/sleep</a>
+<p>I hacked up an indieweb reader in IRC (using a website that connects to my irc client)
+<p>I made a channel on my private server that follows several people in this room so I get notified when they post
+<p>if I type !like in IRC, it makes a post on my site
+<p></blockquote></div>
+<div class='h-cite'><a class='h-card p-category' href='https://waterpigs.co.uk'>Barnaby Walters</a>:  <blockquote class='e-content'><p>I tried to create a Pure Data micropub client, but it didn't work
+<p>I can now post a link with <audio> so people can listen live on my site
+<p>and it has archiving too so that it will show up afterwards as well
+<p>I see I have a new audio file on my server, so I copy that somewhere public, and change src to it 
+<p>so now we have an audio file directly linked here: <a class="auto-link" href="https://waterpigs.co.uk/notes/4goFfB/">https://waterpigs.co.uk/notes/4goFfB/</a>
+<p>Julie took a great photo of me, which i wanted to use as a profile photo, but it shouldn't go back in time
+<p>so I made profile photos depend on post date
+<p> new profile photo <a class="auto-link" href="https://waterpigs.co.uk/notes/4goFYN/">https://waterpigs.co.uk/notes/4goFYN/</a> taken by <a class="auto-link h-x-username" href="https://twitter.com/iwontsignuphere">@iwontsignuphere</a>
+<p></blockquote></div>
+<div class='h-cite'><a class='h-card p-category' href='http://tantek.com/'>Tantek Çelik</a>:  <blockquote class='e-content'><p>I have updated webmention support, based on webmention.rocks tests
+<p>to debug this I made a tool to show me what webmention endpoints it will send webmentions to
+<p>the server does all the webmentions synchronously, so hopefully it completes before the browser times out
+<p></blockquote></div>
+<div class='h-cite'><a class='h-card p-category' href='http://justonestep.de/'>Bea Dav</a>:  <blockquote class='e-content'><p>I set up webmentions for my site <a class="auto-link" href="http://justonestep.de/">http://justonestep.de/</a> using processwire
+<p>I started this plugin last year at INdiewebcamp Dusseldorf, now they work, eg see <a class="auto-link" href="https://justonestep.de/notes/20160416-1417/">https://justonestep.de/notes/20160416-1417/</a>
+<p></blockquote></div>
+<div class='h-cite'><a class='h-card p-category' href='http://voxpelli.com'>Pelle Wessman</a>:  <blockquote class='e-content'><p>there are some exotic webmention types, and it an be hard to get people to send you webmentions
+<p>I built node-webmention-testpinger to send you webmentions to test your webmention implementation
+<p>if you can add examples of your site's markup when you send webmentions to <a class="auto-link" href="https://github.com/voxpelli/node-webmention-testpinger">https://github.com/voxpelli/node-webmention-testpinger</a> others can test
+<p></blockquote></div>
+<div class='h-cite'><a class='h-card p-category' href='http://miklb.com'>Michael Bishop</a>:  <blockquote class='e-content'><p>I got my site <a class="auto-link" href="http://miklb.com">http://miklb.com</a> set up on jekyll using <a class="auto-link" href="https://github.com/miklb/jekyll-indieweb">https://github.com/miklb/jekyll-indieweb</a> 
+<p></blockquote></div>
+<div class='h-cite'><a class='h-card p-category' href='http://www.webrocker.de'>Tinker Tom</a>:  <blockquote class='e-content'><p>I updated my site <a class="auto-link" href="http://www.webrocker.de">http://www.webrocker.de</a> with a service worker so it now works offline as well
+<p></blockquote></div>
+<div class='h-cite'><a class='h-card p-category' href='http://tantek.com/'>Tantek Çelik</a>:  <blockquote class='e-content'><p>during the demo's I updated the indie-config on <a class="auto-link" href="http://tantek.com/">http://tantek.com/</a> - I had to change the Content Security Policy
+<p>thank you to Julie <a class="auto-link h-x-username" href="https://twitter.com/iwontsignuphere">@iwontsignuphere</a> for taking so many great photos of the event</blockquote></div>
+</div>
+</article>
+<script id="webmention-hosted">
+  (function () {
+    var sn = document.createElement("script"), s = document.getElementsByTagName("script")[0], url;
+    url = document.querySelectorAll ? document.querySelectorAll("link[rel~=canonical]") : false;
+    url = url && url[0] ? url[0].href : false;
+    sn.type = "text/javascript"; sn.async = true;
+    sn.src = "//webmention.herokuapp.com/api/embed?version=cutting-edge&url=" + encodeURIComponent(url || window.location);
+    s.parentNode.insertBefore(sn, s);
+  }());
+</script>
+
+</body>
+</html>
