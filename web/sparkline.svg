@@ -1,0 +1,36 @@
+<svg version="1.1"
+     baseProfile="full"
+     xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:ev="http://www.w3.org/2001/xml-events"
+     width="100%" height="100%"
+     onload='draw()'>
+  <script><![CDATA[
+    function draw() {
+        var parts = [], mx = 0, mn = 999999;
+        location.search.substr(1).split(",").forEach(function(n) {
+            var integ = parseInt(n, 10);
+            parts.push(integ);
+            mx = Math.max(mx, integ);
+            mn = Math.min(mn, integ);
+        });
+        svgRoot = document.getElementsByTagName("svg")[0]
+        var ln = document.createElementNS ("http://www.w3.org/2000/svg", "polyline");
+        for (var i=0; i<parts.length; i++) {
+            var pt = svgRoot.createSVGPoint();
+            pt.x = i;
+            pt.y = parts[i];
+            ln.points.appendItem(pt);
+        }
+        ln.setAttribute("stroke", "rgba(0,0,0,1)");
+        ln.setAttribute("stroke-width", ".5");
+        ln.setAttribute("fill","none");
+        var height = mx-mn +2; // a little space above/below
+        var offset = height+mn*2-1; // flip co-ordinates and move back into frame
+        ln.setAttribute("transform","matrix(1 0 0 -1 0 " + offset +")");
+        svgRoot.appendChild(ln);
+        svgRoot.setAttribute("viewBox","0 " + mn +" "+ parts.length+ " " + height);
+    }   
+     
+  ]]></script>
+</svg>
