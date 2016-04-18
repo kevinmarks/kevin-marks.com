@@ -9,10 +9,12 @@
     function draw() {
         var parts = [], mx = 0, mn = 999999;
         location.search.substr(1).split(",").forEach(function(n) {
-            var integ = parseInt(n, 10);
-            parts.push(integ);
-            mx = Math.max(mx, integ);
-            mn = Math.min(mn, integ);
+            if (n !=='') {
+                var integ = parseInt(n, 10);
+                parts.push(integ);
+                mx = Math.max(mx, integ);
+                mn = Math.min(mn, integ);
+            }
         });
         svgRoot = document.getElementsByTagName("svg")[0]
         var ln = document.createElementNS ("http://www.w3.org/2000/svg", "polyline");
