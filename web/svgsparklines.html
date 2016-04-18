@@ -1,0 +1,56 @@
+<html><head><title>SVG Sparklines</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="fragmention.js"></script>
+<link href="style.css" media="all" rel="stylesheet" type="text/css" />
+<link rel="webmention" href="https://webmention.herokuapp.com/api/webmention" />
+<style>
+.imageblock {display:-webkit-flex;display:flex; flex-wrap: wrap; -webkit-flex-wrap: wrap; justify-content: space-around; -webkit-justify-content: space-around; max-width:100%;}
+figure img {width:100%; max-width:360px; min-width:240px; height:100px;}
+figure figcaption {font-family:"Gill Sans",Roboto,sans}
+</style></head>
+<body>
+<article class="h-entry">
+<h1 class="p-name">SVG Sparklines <time class="dt-published">2016-04-18</time></h1>
+<div class="e-content">
+<p>At <a href="http://www.kevinmarks.com/indiewebcampnuremberg2016demos.html#sparklines">IndieWebCamp Nürnberg</a> this weekend, <a href="https://adactio.com/">Jeremy</a> added <a href="http://www.edwardtufte.com/bboard/q-and-a-fetch-msg?msg_id=0001OR">sparklines</a> for his site's posting frequency. To do this he used <a href="http://kryogenix.org/days/2012/12/30/simple-svg-sparklines/">Stuart's SVG sparkline generator</a> (improving on <a href="https://adactio.com/journal/5941">previous efforts</a>). Here's an example:
+<div class="imageblock"><figure><a href="https://adactio.com/images/sparkline-min.svg?59,80,80,100,68,62,87,72,42,49,58,53,57,51,42,32,37,30,24,38,57,29,18,32,38,24,24,24,20,21,29,32,26,18,32,36,30,36,29,32,29,28,41,20,28,58,18,24,16,17,22,17,22,21,12,22,14,13,11,20,16,16,18,12,28,28,32,16,16,24,16,20,14,18,12,26,17,11,30,16,9,20,42,13,13,24,17,13,20,12,14,13,14,71,82,20,16,20,22,17,5"><img class="u-featured" src="silspark.svg"></a><figcaption>A 100-point sparkline.</figcaption></figure></div>
+<p>I'm enough of an SVG fan to have made <a href="http://svgur.com">svgur.com</a> to share them, so I was intrigued by this. I like the clarity of the data points being in the URL, but looking at the generated SVG, that clarity had gone. The point sequence <code>59,80,80,100</code> becomes instead
+<blockquote><code>
+&lt;line x1="0.49504950495049505%" x2="0.49504950495049505%" y1="39.1578947368421%" y2="39.1578947368421%" stroke="rgba(0,0,0,0.5)" stroke-width="1"/&gt;
+&lt;line x1="0.49504950495049505%" x2="1.4455445544554455%" y1="39.1578947368421%" y2="17.05263157894737%" stroke="rgba(0,0,0,0.5)" stroke-width="1"/&gt;
+&lt;line x1="1.4455445544554455%" x2="2.396039603960396%" y1="17.05263157894737%" y2="17.05263157894737%" stroke="rgba(0,0,0,0.5)" stroke-width="1"/&gt;
+&lt;line x1="2.396039603960396%" x2="3.3465346534653464%" y1="17.05263157894737%" y2="-4%" stroke="rgba(0,0,0,0.5)" stroke-width="1"/&gt;
+</code></blockquote>
+<p>You can see that the original data has been transformed with high precision into percentages, and that each datapoint occurs twice as the start and end of a line. This made me wonder if the SVG could use the datapoints directly, as it is after all a sequence of co-ordinates. So I adapted the code to generate a <code>polyline</code> directly, giving:
+<div class="imageblock"><figure><a href="http://kevinmarks.com/sparkline.svg?59,80,80,100,68,62,87,72,42,49,58,53,57,51,42,32,37,30,24,38,57,29,18,32,38,24,24,24,20,21,29,32,26,18,32,36,30,36,29,32,29,28,41,20,28,58,18,24,16,17,22,17,22,21,12,22,14,13,11,20,16,16,18,12,28,28,32,16,16,24,16,20,14,18,12,26,17,11,30,16,9,20,42,13,13,24,17,13,20,12,14,13,14,71,82,20,16,20,22,17,5"><img class="u-featured" src="kmspark.svg"></a><figcaption>The same 100 points in a sparkline.</figcaption></figure></div>
+
+<p>Now the points <code>59,80,80,100</code> becomes a clearer
+<blockquote><code>
+&lt;polyline points="0 59 1 80 2 80 3 100" stroke="rgba(0,0,0,1)" stroke-width=".25%" fill="none" transform="matrix(1 0 0 -1 0 105)" /&gt;</code></blockquote>
+<p>Indeed, the whole line now looks like this:
+<blockquote><code>&lt;polyline points="0 59 1 80 2 80 3 100 4 68 5 62 6 87 7 72 8 42 9 49 10 58 11 53 12 57 13 51 14 42 15 32 16 37 17 30 18 24 19 38 20 57 21 29 22 18 23 32 24 38 25 24 26 24 27 24 28 20 29 21 30 29 31 32 32 26 33 18 34 32 35 36 36 30 37 36 38 29 39 32 40 29 41 28 42 41 43 20 44 28 45 58 46 18 47 24 48 16 49 17 50 22 51 17 52 22 53 21 54 12 55 22 56 14 57 13 58 11 59 20 60 16 61 16 62 18 63 12 64 28 65 28 66 32 67 16 68 16 69 24 70 16 71 20 72 14 73 18 74 12 75 26 76 17 77 11 78 30 79 16 80 9 81 20 82 42 83 13 84 13 85 24 86 17 87 13 88 20 89 12 90 14 91 13 92 14 93 71 94 82 95 20 96 16 97 20 98 22 99 17 100 5" stroke="rgba(0,0,0,1)" stroke-width=".25%" fill="none" transform="matrix(1 0 0 -1 0 105)" /&gt;</code></blockquote>
+<p>With the datapoints directly readable, and not changed to arbitrary precision. 
+<p>To make this work, I had to do a little bit of mathematical trickery. I set the <code>viewBox</code> of the SVG to the bounding box of the co-ordinates (in this case <code>viewBox="0 5 100 95"</code>) and set the <code>stroke-width</code> as a percentage of the viewport. Also, as SVG co-ordinates go down the page, not up, I need the  matrix transformation there to invert the y axis and move the line back into the frame.
+<p>Like Stuart's original, to use these dynamically you need to use <code>&lt;embed&gt:</code> rather than <code>&lt;img&gt:</code>
+eg
+<blockquote><code>&lt;embed src="http://kevinmarks.com/sparkline.svg?2,0,1,1,4,6,9,6,5,0,1,2,5,2,2,3,4,5,2,2,2,3,6,3,5,3,7,6,5,2,3,2," width="200" height="15"&gt;</code></blockquote>
+<embed src="http://kevinmarks.com/sparkline.svg?2,0,1,1,4,6,9,6,5,0,1,2,5,2,2,3,4,5,2,2,2,3,6,3,5,3,7,6,5,2,3,2," width="200" height="15">
+
+
+
+
+<p>
+</article>
+<script id="webmention-hosted">
+  (function () {
+    var sn = document.createElement("script"), s = document.getElementsByTagName("script")[0], url;
+    url = document.querySelectorAll ? document.querySelectorAll("link[rel~=canonical]") : false;
+    url = url && url[0] ? url[0].href : false;
+    sn.type = "text/javascript"; sn.async = true;
+    sn.src = "//webmention.herokuapp.com/api/embed?version=cutting-edge&url=" + encodeURIComponent(url || window.location);
+    s.parentNode.insertBefore(sn, s);
+  }());
+</script>
+
+</body>
