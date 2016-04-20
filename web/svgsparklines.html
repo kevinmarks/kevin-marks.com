@@ -33,6 +33,16 @@ figure figcaption {font-family:"Gill Sans",Roboto,sans}
 <p>With the datapoints directly readable, and not changed to arbitrary precision. 
 <p>To make this work, I had to do a little bit of mathematical trickery. I set the <code>viewBox</code> of the SVG to the bounding box of the co-ordinates (in this case <code>viewBox="0 5 100 95"</code> where 0 is the lowest x value, 5 the lowest y value, 100 the width and 95 the height) and set the <code>stroke-width</code> as a percentage of the viewport, so it isn't dependent on the scale of the datapoints. 
 <p>So far so good, except that SVG co-ordinates go down the page, not up, so the sparkline is upside down. I need to invert the y axis. But if I do that, the line is outside the bounding box. So we need to move the line back into the frame by adding the height plus twice the lowest y value. Here's the javascript that does that:
+<code><pre>
+var height = mx-mn; 
+var width = x-1;
+var offset = height+mn*2; // flip co-ordinates and move back into frame
+ln.setAttribute("transform","matrix(1 0 0 -1 0 " + offset +")");
+svgRoot.appendChild(ln);
+svgRoot.setAttribute("viewBox","0 " + mn +" "+ width + " " + height);
+svgRoot.setAttribute("preserveAspectRatio","none");
+</pre></code>
+<p>Now, I could just set the y value of the viewBox to <code>-(height+mn*2)</code> but I think that this is clearer.
 <p>Like Stuart's original, to use these dynamically you need to use <code>&lt;embed&gt:</code> rather than <code>&lt;img&gt:</code>
 eg
 <blockquote><code>&lt;embed src="http://kevinmarks.com/sparkline.svg?2,0,1,1,4,6,9,6,5,0,1,2,5,2,2,3,4,5,2,2,2,3,6,3,5,3,7,6,5,2,3,2," width="200" height="15"&gt;</code></blockquote>
