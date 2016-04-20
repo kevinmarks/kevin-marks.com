@@ -7,28 +7,27 @@
      onload='draw()'>
   <script><![CDATA[
     function draw() {
-        var parts = [], mx = 0, mn = 999999;
-        location.search.substr(1).split(",").forEach(function(n) {
-            if (n !=='') {
-                var integ = parseInt(n, 10);
-                parts.push(integ);
-                mx = Math.max(mx, integ);
-                mn = Math.min(mn, integ);
-            }
-        });
+        var parts = [], mx = -99999999, mn = 9999999;
         svgRoot = document.getElementsByTagName("svg")[0]
         var ln = document.createElementNS ("http://www.w3.org/2000/svg", "polyline");
-        for (var i=0; i<parts.length; i++) {
-            var pt = svgRoot.createSVGPoint();
-            pt.x = i;
-            pt.y = parts[i];
-            ln.points.appendItem(pt);
-        }
+        var x=0;
+        location.search.substr(1).split(",").forEach(function(n) {
+            if (n !=='') {
+                var y = parseInt(n, 10);
+                var pt = svgRoot.createSVGPoint();
+                pt.x = x;
+                pt.y = y;
+                ln.points.appendItem(pt);
+                mx = Math.max(mx, y);
+                mn = Math.min(mn, y);
+                x=x+1;
+            }
+        });
         ln.setAttribute("stroke", "rgba(0,0,0,1)");
         ln.setAttribute("stroke-width", ".5%");
         ln.setAttribute("fill","none");
         var height = mx-mn; 
-        var width = parts.length-1;
+        var width = x-1;
         var offset = height+mn*2; // flip co-ordinates and move back into frame
         ln.setAttribute("transform","matrix(1 0 0 -1 0 " + offset +")");
         svgRoot.appendChild(ln);
