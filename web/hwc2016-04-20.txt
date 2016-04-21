@@ -1,0 +1,34 @@
+
+#indieweb @t: Welcome to Homebrew Website Club
+#indieweb @t: this last weekend was Indiewebcamp Nürnberg which had a good turnout http://indiewebcamp.com/2016/Nuremberg 
+#indieweb @t: A lot of the Nürnberg attendees had been to Indiewebcamp Dusseldorf last year, but about half were new
+#indieweb @t: There were a lot of additions to people's websites and new code read the demos here: http://indiewebcamp.com/2016/Nuremberg/Demos
+#indieweb @t: Pelle @voxpelli got a polyfill for web actions working so you can comment on other sites using your own
+#indieweb @t: A lot of people got service workers and offline pages working for their own sites
+#indieweb @t: We had a very good discussion about homepages and design, which inspired some changes
+#indieweb @t: @adactio added sparklines to his homepage to show activity of different kinds of posts
+#indieweb @t: a lot of homepages were a stream of recent posts; others were more of a bio
+#indieweb @t: I changed my homepage so that when on a narrow screen it links down to the bio stuff at the bottom
+#indieweb @t: there's a new site at webmention.rocks for testing webmention support on your site, as part of the @w3c webmention standards
+#indieweb @t: webmention.rocks is a validator too as it it gives detailed debugging information in the http response
+#indieweb @t: there are 12-13 implementations passing webmention.rocks from ~18 different peopl
+#indieweb @t: There are great photos from IndieWebCamp Nürnberg at https://www.flickr.com/photos/tollwerk/sets/72157664909577964/ by @iwontsignuphere
+#indieweb @t: Homebrew Website Club is a fortnightly catch-up where we talk about what we have done on our sites recently
+#indieweb @t: Indiewebcamp is a 2 day long event wheer we talk about ideas and build new things, usually over a weekend
+#indieweb @t: we just got a venue for a second Indiewebcamp NYC at the end of August http://indiewebcamp.com/2016/NYC2 - tell your NY friends
+#indieweb @t: the co-organiser of IWC NYC , Emma Hodge set up her own site http://emmahodge.org at an indiewebcamp
+#indieweb @IdentityWoman: I'm showing off Patchwork which is like peer-to-peer twitter - it's only on local machines, syncs when they're on
+#indieweb @IdentityWoman: the only persistent identifier is your public key- you can change your name; people can change their name for you
+#indieweb @IdentityWoman: this is built on top of another thing called Secure Scuttlebutt
+#indieweb @IdentityWoman: when I follow a friend on Patchwork I see all the people they follow too
+#indieweb @IdentityWoman: Next week: Internet Identity Workshop XXII  #iiw if indieweb people want to come I'll help http://www.internetidentityworkshop.com/
+#indieweb @IdentityWoman: Christopher Allen @christophera is organising Web of Trust 2 in NY on May 21-22 http://www.weboftrust.info/
+#indieweb @IdentityWoman: the UN has a development goal that everyone should have a legal identity by 2020 http://id2020summit.org/
+#indieweb @t: @BarnabyWalters sang a round with himself using his website as a looper https://waterpigs.co.uk/notes/4goFfB/
+#indieweb Jesus: I am setting up a site at https://jfrndz.com/, but now it is just a denied page, so it is secure
+#indieweb @aStateofKate: I just updated my portfolio site at http://www.katiejohnson.me/ during quiet writing hour
+#indieweb @kylewmahan: I'm moving deckchairs around on the titanic on my site
+#indieweb @kylewmahan: I switched my site to Known in January, but i just switched my main site back to redwind, so known.kylewm.com
+#indieweb @kylewmahan: I accidentally sent out webmentions to a lot of people because I changed URLs, so now we're testing Delete on 
+#indieweb @aStateofKate: Is anyone going to the Grey Area festival this weekend? it's about data visualisation and Art
+#indieweb @t: let's take another photo
