@@ -7,31 +7,29 @@
      onload='draw()'>
   <script><![CDATA[
     function draw() {
-        var parts = [], mx = -99999999, mn = 9999999;
+        var bars = [], mx = -99999999, mn = 9999999;
         svgRoot = document.getElementsByTagName("svg")[0]
-        var ln = document.createElementNS ("http://www.w3.org/2000/svg", "polyline");
+        var ln = document.createElementNS ("http://www.w3.org/2000/svg", "path");
         var x=0;
         location.search.substr(1).split(",").forEach(function(n) {
             if (n !=='') {
                 var y = parseInt(n, 10);
-                var pt = svgRoot.createSVGPoint();
-                pt.x = x;
-                pt.y = y;
-                ln.points.appendItem(pt);
+                bars.push("M " +x+ ",0 l 0," +y);
                 mx = Math.max(mx, y);
                 mn = Math.min(mn, y);
                 x=x+1;
             }
         });
+        ln.setAttribute("d", bars.join(" "));
         ln.setAttribute("stroke", "rgba(0,0,0,1)");
-        ln.setAttribute("stroke-width", ".5%");
+        ln.setAttribute("stroke-width", "1");
         ln.setAttribute("fill","none");
-        var height = mx-mn+1; 
+        var height = mx; 
         var width = x;
-        var offset = height+mn*2; // flip co-ordinates and move back into frame
+        var offset = height; // flip co-ordinates and move back into frame
         ln.setAttribute("transform","matrix(1 0 0 -1 0 " + offset +")");
         svgRoot.appendChild(ln);
-        svgRoot.setAttribute("viewBox","0 " + mn +" "+ width + " " + height);
+        svgRoot.setAttribute("viewBox","-0.5 0" +" "+ width + " " + height);
         svgRoot.setAttribute("preserveAspectRatio","none");
     }   
      
