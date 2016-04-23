@@ -1,0 +1,50 @@
+<html><head><title>Instant BCC</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="fragmention.js"></script>
+<link href="style.css" media="all" rel="stylesheet" type="text/css" />
+<link rel="webmention" href="https://webmention.herokuapp.com/api/webmention" />
+<style>
+.imageblock {display:-webkit-flex;display:flex; flex-wrap: wrap; -webkit-flex-wrap: wrap; justify-content: space-around; -webkit-justify-content: space-around; max-width:100%;}
+figure img {width:100%; max-width:360px; min-width:240px; height:100px;}
+figure figcaption {font-family:"Gill Sans",Roboto,sans}
+</style></head>
+<body>
+<article class="h-entry">
+<h1 class="p-name">Instant BCC <time class="dt-published">2016-04-22</time></h1>
+<div class="e-content">
+Today, Ashley had a problem:
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">The only innovation I want is to be able to start an email thread and bcc myself out of it at the same time.</p>&mdash; Ashley Mayer (@ashleymayer) <a href="https://twitter.com/ashleymayer/status/723651634094469121">April 22, 2016</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<p>Now, it would be possible to build a little app to do this easily enough; email can be sent from a 'do not reply' type address, with you BCC'd, but Ashley wants this in her email client, which is gmail. Fortunately there is a way:
+<ol><li> Go to the <a href="https://mail.google.com/mail/u/0/#settings/accounts">Settings > Accounts and Import</a> page
+<li>In the 'Send Mail as:' section, click 'Add another email address you own'
+<img src="sendmailas.png" />
+<li>In the popup, put BCC after your name and +bcc after your email address
+<li>uncheck 'Treat as an alias' 
+<li>set the Reply-to address to one that blackholes messages (I used that facebook one)
+<img src="addemail.png" />
+<li>click 'Next Step' and you're done.
+</ol>
+<p>Now, when you want to send a BCC mail:
+<ol><li>Click Compose as usual.
+<li>Choose the BCC address from the pop-down
+<img src="choosebcc.png" />
+<li>Address people as usual, and send
+<img src="addressit.png" />
+</ol>
+And if, like Rick, you want this on by default, make it your default address.
+</div>
+</article>
+<script id="webmention-hosted">
+  (function () {
+    var sn = document.createElement("script"), s = document.getElementsByTagName("script")[0], url;
+    url = document.querySelectorAll ? document.querySelectorAll("link[rel~=canonical]") : false;
+    url = url && url[0] ? url[0].href : false;
+    sn.type = "text/javascript"; sn.async = true;
+    sn.src = "//webmention.herokuapp.com/api/embed?version=cutting-edge&url=" + encodeURIComponent(url || window.location);
+    s.parentNode.insertBefore(sn, s);
+  }());
+</script>
+
+</body>
