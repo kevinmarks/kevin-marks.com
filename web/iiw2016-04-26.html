@@ -1,0 +1,201 @@
+<html>
+<head><title>Internet Identity Workshop 2016-04-26</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="fragmention.js"></script>
+<script src="hovercards.js"></script>
+<link href="style.css" media="all" rel="stylesheet" type="text/css" />
+<link rel="webmention" href="https://webmention.herokuapp.com/api/webmention" />
+</head>
+<body>
+<article class="h-entry">
+<h1 class="p-name">Internet Identity Workshop <time class="dt-published">2016-04-26</time></h1>
+<div class="e-content">
+<h2>Opening Circle</h2>
+<p><div class='h-cite'><a class='h-card p-category' href='http://www.identitywoman.net'>Kaliya-IdentityWoman</a>:  <blockquote class='e-content'><p>Welcome to IIW - we have a special guest keynote today
+<p></blockquote></div>
+<div class='h-cite'><a class='h-card p-category' href='http://www.windley.com'>Phil Windley</a>:  <blockquote class='e-content'><p>A couple of months ago at BYU <a class="auto-link h-x-username" href="https://twitter.com/dsearls">@dsearls</a> gave an opening talk, and that set the tone for the unconference -that worked
+<p>12 years ago Kim Cameron of Microsoft defined the 12 laws of identity - I asked him to talk and update these laws
+<p></blockquote></div>
+<div class='h-cite'><a class='h-card p-category' href='http://www.identityblog.com'>kim cameron</a>:  <blockquote class='e-content'><p>It's intimidating to be here with so many people who are key to my understanding of identity
+<p>The laws of identity weren't written by me but by a whole group of us <a class="auto-link" href="https://www.identityblog.com/?p=352">https://www.identityblog.com/?p=352</a>
+<p>the goal was to codify what I know by identity—Doc had just introduced me to the web through blogging, so I used my blog
+<p>at the time the world of identity was fragmented and talking on a blog helped have a conversation in public #indieweb
+<p>The internet was built without an identity system which is like building a house without plumbing
+<p>the internet was a patchwork quilt of identity one-offs - everyone went to their basement and hacked things up
+<p>at the same time the criminalisation of the internet was a huge growth industry
+<p>It was also clear that there wasn't a single identity panacea 
+<p>we wanted to have identity for the whole internet, not just for a Facebook, a Google  a Microsoft
+<p>So it had to be a metasystem, not a system; it had to incorporate previous systems
+<p>So we talked about "claims" - as opposed to the previous model of "assertions" that applied to a domain
+<p>the problem of determining what claims you believed was an important one
+<p>You can't just say you'll accept what identity providers say, you have to have of model of belief
+<p>All of the world works on claims now, which were baked into SAML and OpenID connect and so on
+<p>a digital subject is a person or thing in the digital world that is being dealt with
+<p>a digital identity is a set of claims made by one digital subject about itself or other digital subjects
+<p>self asserted claims are important - that is the basis of sovereign identity
+<p>I hate the past and ignore the present I live in the architectural conditional
+<p>I started as a physicist, so I propose laws with the goal of testing them to see if they apply
+<p>the 1st law we put forward was User control and consent - not drive by  actors in the sky but users
+<p>2nd law was minimal disclosure for constrained use - not splattering your information everywhere for everything
+<p>you just release what you need to do a transaction, not everything about you
+<p>3rd principle was justifiable parties to a transaction - only include parties that need to be there
+<p>4th principle: directed identity - don't use universal identifiers for a specific transaction
+<p>5th law is pluralism of operators and technologies - interact via claims to bridge both
+<p>6th law is Human Integration - be aware that humans are part of the system - people have protocols too; relate to them
+<p>7th law is Consistent experience across contexts - if every site works differently the users won't know how to use it
+<p>what I do on my website should not be connected to what I do professionally, or to my credit cards
+<p>My sympathies with the armed forces who are forced to use their social security numbers as their service numbers
+<p>combining information with a common key like a SSN violates lots of laws of identity at once
+<p>the big mistake I made was not understanding the asymmetric power of the parties
+<p>the user, the identity provider and the relying party (service provider) have different power dynamics
+<p>we had an idea of identity cards to choose from so that they can use their personal or business identities
+<p>Google has done a good job of making this model work for logging in
+<p>The Relying parties were busy counting clicks, and they didn't want to add one to log in remotely
+<p>I hadn't understood how much control the Relying Parties had over the expereince of the users
+<p>the 2nd thing I didn't understand was the multiplicity of the sources of claims - not single identity providers
+<p>the relying parties want lots of different claims from many different sources - user, location, own systems
+<p>they may want claims from attribute verifiers; they may want to send claims out to other systems
+<p>both identity providers and relying parties need relationship management - arbitrating claims between providers
+<p>the relying party needs someone to manage their relationships; equally important is managing it for the individual user
+<p>I mentioned the relying parties first because they have all the power, but we need to care about the user experience too
+<p>the level of complexity brought about by criminalisation is too high, so we need specialists
+<p>I expect there to be Personal Identity Managers to be run on behalf of users
+<p>because of the need for specialisation there will be concentration of systems for relying parties and for users
+<p>hopefully these systems will be content-free - not using their concntration to prevent innovation
+<p>this concentration creates a huge danger
+<p>decentralisation is a great counterforce to this
+<p>I'm encouraged by blockchain as the operator is disposable  - you  don't have to take the word of some VP
+<p></blockquote></div>
+<div class='h-cite'><a class='h-card p-category' href='http://www.heidinobantu.com'>Heidi Nobantu Saul</a>:  <blockquote class='e-content'><p>This unconference process realising that most of the interesting things at a conference happen outside formal talks
+<p></blockquote></div>
+<div class='h-cite'><a class='h-card p-category' href='http://kevinmarks.com'>Kevin Marks</a>:  <blockquote class='e-content'><p>I'm doing a session on Intro to the indieweb, and how Micropub and webmention are being standardised
+<p></blockquote></div>
+<div class='h-cite'><a class='h-card p-category' href='http://doc.searls.com'>Doc Searls</a>:  <blockquote class='e-content'><p>I want to talk about #CHEDDAR the successor to do not track, taking ad blocking into account
+<p></blockquote></div>
+<h2>What should we not put on the blockchain?</h2>
+<div class='h-cite'><a class='h-card p-category' href='http://www.LifeWithAlacrity.com'>Christopher Allen</a>:  <blockquote class='e-content'><p>I am deeply involved with blockchain but it is definitely overhyped. 
+<p>We really don't want to put identity on the blockchain
+<p>bitcoin is a permissionless system - no-one can stop you mining or transacting
+<p>on the permissioned side there are different groups that need permission for certain roles
+<p></blockquote></div>
+<div class='h-cite'><a class='h-card p-category' href='#'>Maria Vachna</a>:  <blockquote class='e-content'><p>the different consensus protocols are about who gets to be the leader: PAXOS, POET etc - blockchain it's mining
+<p></blockquote></div>
+<div class='h-cite'><a class='h-card p-category' href='http://www.LifeWithAlacrity.com'>Christopher Allen</a>:  <blockquote class='e-content'><p>what I need to know to suggest a consensus algorithm depends on the roles and number of players
+<p></blockquote></div>
+<div class='h-cite'><a class='h-card p-category' href='#'>Maria Vachna</a>:  <blockquote class='e-content'><p>if scale is locked in at the beginning, what happens when you mis-estimate it?
+<p></blockquote></div>
+<div class='h-cite'><a class='h-card p-category' href='http://www.LifeWithAlacrity.com'>Christopher Allen</a>:  <blockquote class='e-content'><p>if just you and I have a transaction, there's no reason to use a blockchain
+<p></blockquote></div>
+<div class='h-cite'><a class='h-card p-category' href='#'>Joaquin</a>:  <blockquote class='e-content'><p>Under your research, what did you find that blockchain wasn't suitable for?
+<p></blockquote></div>
+<div class='h-cite'><a class='h-card p-category' href='#'>John W</a>:  <blockquote class='e-content'><p>There are use cases for things that need to expire - must go away after 7 years - blockchain is too persistent
+<p></blockquote></div>
+<div class='h-cite'><a class='h-card p-category' href='#'>Maria Vachna</a>:  <blockquote class='e-content'><p>our identities do change, and we don't always want them to persist -think of refugees fleeing persecution
+<p></blockquote></div>
+<div class='h-cite'><a class='h-card p-category' href='http://www.LifeWithAlacrity.com'>Christopher Allen</a>:  <blockquote class='e-content'><p>there may be existing signing agencies, trust agencies that you would prefer to the blockchain
+<p></blockquote></div>
+<div class='h-cite'><a class='h-card p-category' href='#'>John W</a>:  <blockquote class='e-content'><p>if one of the requirements is compliance with the right to be forgotten or deleted, a persistent history is bad
+<p>if information has to be revocable, that doesn't imply that it will delete all copies
+<p></blockquote></div>
+<div class='h-cite'><a class='h-card p-category' href='#'>Shen</a>:  <blockquote class='e-content'><p>You could use blockchain for key distribution and unique identifiers, not for storing volatile information
+<p></blockquote></div>
+<div class='h-cite'><a class='h-card p-category' href='#'>Maria Vachna</a>:  <blockquote class='e-content'><p>if a database solves it, we don't need to be told about this - what new ideas are there?
+<p></blockquote></div>
+<div class='h-cite'><a class='h-card p-category' href='#'>?</a>:  <blockquote class='e-content'><p>a blockchain identity is first come, first based - bankers say you can't fix a mistake or reverse a transaction
+<p>a secure blockchain needs a very high amount of traffic - it may go away if there is too much bickering
+<p></blockquote></div>
+<div class='h-cite'><a class='h-card p-category' href='#'>Dale</a>:  <blockquote class='e-content'><p>Bitcoin is based on a proof of work that is hard to game, but the work provides no value in the world. Is there one that does?
+<p></blockquote></div>
+<div class='h-cite'><a class='h-card p-category' href='#'>Shen</a>:  <blockquote class='e-content'><p>Blockstack's system is blockchain agnostic - it can work on bitcoin or other chains
+<p>you don't necessarily want work that is useful, as that makes it more gamable
+<p></blockquote></div>
+<div class='h-cite'><a class='h-card p-category' href='http://www.LifeWithAlacrity.com'>Christopher Allen</a>:  <blockquote class='e-content'><p>blockchain can't do small trust - other things are a lot easier. 
+<p>zero-knowledge proofs can do a lot that don't require blockchain
+<p></blockquote></div>
+<div class='h-cite'><a class='h-card p-category' href='#'>John W</a>:  <blockquote class='e-content'><p>you can't use blockchain for ephemeral trust the same way that you can with OTR
+<p></blockquote></div>
+<div class='h-cite'><a class='h-card p-category' href='#'>Jack</a>:  <blockquote class='e-content'><p>where rely on an oracle you can't use blockchain as it adds an external dependency
+<p>say I have a website and I want future blocks to depend on that site - if that is removed blocks can't be validated
+<p></blockquote></div>
+<div class='h-cite'><a class='h-card p-category' href='http://www.LifeWithAlacrity.com'>Christopher Allen</a>:  <blockquote class='e-content'><p>we understand problems with very large like bitcoin and things under 50 where paxos works but there are edges
+<p>anything with latency requriements doesn't work on blockchain
+<p></blockquote></div>
+<div class='h-cite'><a class='h-card p-category' href='#'>Jason</a>:  <blockquote class='e-content'><p>do you rely on immutable ledger or consensus protocol? You could have a triple-signed receipt to reveal proof
+<p></blockquote></div>
+<div class='h-cite'><a class='h-card p-category' href='http://www.LifeWithAlacrity.com'>Christopher Allen</a>:  <blockquote class='e-content'><p>if you need to revert a transaction a year ago, you can't
+<p></blockquote></div>
+<div class='h-cite'><a class='h-card p-category' href='http://kevinmarks.com'>Kevin Marks</a>:  <blockquote class='e-content'><p>you can revert by creating a mirror transaction but it leaves a record.
+<p></blockquote></div>
+<div class='h-cite'><a class='h-card p-category' href='http://www.LifeWithAlacrity.com'>Christopher Allen</a>:  <blockquote class='e-content'><p>if you are logging a history, you can do things like certificate transparency rather than a blockchain.
+<p></blockquote></div>
+<div class='h-cite'><a class='h-card p-category' href='#'>Jack</a>:  <blockquote class='e-content'><p>turing complete computation is not necessary for the blockchain, but you can just log the verification
+<p></blockquote></div>
+<div class='h-cite'><a class='h-card p-category' href='#'>Jim Fenton</a>:  <blockquote class='e-content'><p>reading the board I see that blockchain is not good for small, trust, medium trust or large trust
+<p></blockquote></div>
+<div class='h-cite'><a class='h-card p-category' href='#'>John Best</a>:  <blockquote class='e-content'><p>I work with ledgers all the time, and a big issue is converting from one to another
+<p>if you take it from a go forward basis, migrating onto a blockchain means you don't have a creation history
+<p></blockquote></div>
+<div class='h-cite'><a class='h-card p-category' href='#'>John W</a>:  <blockquote class='e-content'><p>I have seen the size of storage be an issue so I am worried about the ever-growing size of the chain
+<p></blockquote></div>
+<div class='h-cite'><a class='h-card p-category' href='http://www.LifeWithAlacrity.com'>Christopher Allen</a>:  <blockquote class='e-content'><p>with Segregated Witness we are moving the signatures away from the transactions to use less data
+<p>there are models where you mark a point in time and forget everything before that and move on
+<p>the root of this capability is to have a ledger; if you have something done with a ledger it might be a candidate
+<p></blockquote></div>
+<div class='h-cite'><a class='h-card p-category' href='#'>Jason</a>:  <blockquote class='e-content'><p>if you have a distributed consensus you could just store hashes
+<p></blockquote></div>
+<div class='h-cite'><a class='h-card p-category' href='http://www.LifeWithAlacrity.com'>Christopher Allen</a>:  <blockquote class='e-content'><p>there are a lot of things implied by identity that don't belong on the blockchain
+<p>we're working to making sure that you can't put anything human readable in the blockchain itself
+<p></blockquote></div>
+<div class='h-cite'><a class='h-card p-category' href='#'>Drummond Reed</a>:  <blockquote class='e-content'><p>there are different kinds of blockchains that have different properties
+<p></blockquote></div>
+<div class='h-cite'><a class='h-card p-category' href='#'>Ryan Shea</a>:  <blockquote class='e-content'><p>you could replicate ICANN in blockchain by having a federated namespace that you delegate through for domains
+<p></blockquote></div>
+<div class='h-cite'><a class='h-card p-category' href='#'>Jack</a>:  <blockquote class='e-content'><p>what we are getting at here is the blockchain microkernel - what is the minimal thing we need for the blockchain to exist
+<p>I carea bout how big blocks are and how fast they propagate, and the federation model; we can simulate anything else
+<p></blockquote></div>
+<div class='h-cite'><a class='h-card p-category' href='http://www.LifeWithAlacrity.com'>Christopher Allen</a>:  <blockquote class='e-content'><p>other forms of leader election have problems when the parties are changing a lot - eg Stellar is vulnerable to changes
+<p></blockquote></div>
+<div class='h-cite'><a class='h-card p-category' href='#'>John W</a>:  <blockquote class='e-content'><p>if you roll your own encryption it's usually a bad idea; is the same true of a blockchain
+<p></blockquote></div>
+<div class='h-cite'><a class='h-card p-category' href='#'>Andy</a>:  <blockquote class='e-content'><p>last iiw the argument was blockchains was for everything, now we're seeing scepticism which is interesting
+<p></blockquote></div>
+<div class='h-cite'><a class='h-card p-category' href='#'>Maria Vachna</a>:  <blockquote class='e-content'><p>that was why I proposed this
+<p></blockquote></div>
+<div class='h-cite'><a class='h-card p-category' href='#'>Andy</a>:  <blockquote class='e-content'><p>What are the things that you can get with the blockchain that other tools provide
+<p></blockquote></div>
+<div class='h-cite'><a class='h-card p-category' href='http://www.LifeWithAlacrity.com'>Christopher Allen</a>:  <blockquote class='e-content'><p>don't be on the bleeding edge of blockchain; there are lots of things you can do without that
+<p>with 8 parties you could ahave a round robin consensus model and still have a blockchain ledger
+<p>if someone comes up with something better than proof of work we'll shift over
+<p></blockquote></div>
+<div class='h-cite'><a class='h-card p-category' href='http://kevinmarks.com'>Kevin Marks</a>:  <blockquote class='e-content'><p>Blockchain is not provably collusion resistant - the 2013 fork resolution was solved by collusion
+<p></blockquote></div>
+<div class='h-cite'><a class='h-card p-category' href='#'>Joaquin</a>:  <blockquote class='e-content'><p>is blockchain resistant to bad implementations?
+<p></blockquote></div>
+<div class='h-cite'><a class='h-card p-category' href='http://www.LifeWithAlacrity.com'>Christopher Allen</a>:  <blockquote class='e-content'><p>there's 7 billion dollars of reward if you can crack bitcoin
+<p></blockquote></div>
+<div class='h-cite'><a class='h-card p-category' href='http://kevinmarks.com'>Kevin Marks</a>:  <blockquote class='e-content'><p>well, there's the ability destroy 7 biillion dollars if you crack bitcoin; you don't get them
+<p></blockquote></div>
+<div class='h-cite'><a class='h-card p-category' href='http://www.LifeWithAlacrity.com'>Christopher Allen</a>:  <blockquote class='e-content'><p>bitcoin is arguably antifragile as it absorbs a lot of attacks
+<p></blockquote></div>
+<div class='h-cite'><a class='h-card p-category' href='#'>Ryan Shea</a>:  <blockquote class='e-content'><p>what blockchains are bad at is like what databases are bad at - they need to be part of a system.
+<p>some people have talked about storing data in the blockchain - that has always been a bad idea
+<p></blockquote></div>
+<div class='h-cite'><a class='h-card p-category' href='http://www.LifeWithAlacrity.com'>Christopher Allen</a>:  <blockquote class='e-content'><p>there are things created in blockchain that don't have to be used in it - multisig and hd signature are examples
+<p>Merkle Trees are cool
+</div>
+<a href="http://news.indiewebcamp.com/en" class="u-syndication">See IndieNews</a>
+</article>
+<script id="webmention-hosted">
+  (function () {
+    var sn = document.createElement("script"), s = document.getElementsByTagName("script")[0], url;
+    url = document.querySelectorAll ? document.querySelectorAll("link[rel~=canonical]") : false;
+    url = url && url[0] ? url[0].href : false;
+    sn.type = "text/javascript"; sn.async = true;
+    sn.src = "//webmention.herokuapp.com/api/embed?version=cutting-edge&url=" + encodeURIComponent(url || window.location);
+    s.parentNode.insertBefore(sn, s);
+  }());
+</script>
+
+</body>
+</html>
