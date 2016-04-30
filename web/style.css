@@ -11,6 +11,8 @@ blockquote.auto-mention a {text-decoration:none; color:black;}
 .splash {width:100%; max-width:100%; max-width: 100vw;}
 img,video {max-width: 100vw;} 
 
+aside {font-style: italic;}
+
 *{
 	transition: all 0.25s ease-out;
 }
