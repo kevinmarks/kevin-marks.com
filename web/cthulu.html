@@ -1,0 +1,49 @@
+<html><head><title>CTHULU beats CRUD</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="fragmention.js"></script>
+<link href="style.css" media="all" rel="stylesheet" type="text/css" />
+<link rel="webmention" href="https://webmention.herokuapp.com/api/webmention" />
+</head>
+<body>
+<article class="h-entry">
+<h1 class="p-name">CTHULU beats CRUD <time class="dt-published">2016-05-04</time></h1>
+<div class="e-content">
+The classic model for data in computing is known as CRUD for:
+<ul><li>Create
+<li>Read
+<li>Update
+<li>Delete
+</ul>
+<p>When you have a world model that has a single mutable current state on a single device, this makes a certain amount of sense; you need to be able to make things, read them back, change them and remove them. 
+<p>As soon as you step outside this worldview, you immediately hit a host of problems. The first one is atomicity - if there is more than one process acting on the data, then you are set up for race conditions. Not just simple create/read/delete ones, but the dreaded Read/Modify/Write one that is baked in by the common naïve implementation of Update.
+<p>In addition, you hit a granularity and comprehensiveness problem. With CRUD, you are assuming that any processes given permission have consistent understanding of the data structure - the Read/Update cycle implicitly assumes that the reader has wholly parsed the structure, modified it, and sent back a consistent version.
+<p>This can interact badly, even when both sides of the transaction are able to do this, if the user model is inconsistent. An example of this is when Google Contacts was first integrated with the iPhone address book. The iPhone fetched all the google contact entries and put them in the phone. However, gmail added any email address you had previously sent mail to to the contacts list for future autocomplete. The iPhone helpfully copied these across, filling the iPhone with stray addresses from years ago. Seeing this, iPhone users cleaned them up manually, grumbling about it as their phone app was no longer useful. Later, they tried to use gmail on the desktop and found that it no longer autocompleted.
+<p>With a 'keep all the versions' world view they could have rolled back.
+<p>This becomes even more difficult in the Indieweb POSSE world, where you expect to post in one place and have it replicated elsewhere. In this environment actually deleting information is tricky; remote copies are often made by pulling feeds or lists as well as by point publishing or edit events, and communicating an absence in a list is difficult, especially when the common model is to only show the most recent few updates.
+<p>Tantek has proposed CDURU for this, but that still has problems propagating the deleted entities. What we need is to send tombstones as well as death notices.
+<p>A tombstone is what we call it when we replace an actual data entry with a notice that it has been deleted. It keeps the same position in the list and unique identifier, but replaces the contents with empty versions or warning text, and adds a deleted date.
+<p>This brings me to the stages of CTHULU:
+<ul><li>Create (new entry)
+<li>Tombstone (replace the entry with a tombstone)
+<li>Hide (once the tombstone has propagated, suppress it from the list)
+<li>Unhide (if we want to restore the entry, revert it to the original)
+<li>List (the subscribed copy needs a list of entries to spot which ones are gone)
+<li>Update (old fashioned changing of the entry)
+</ul>
+
+
+</div>
+</article>
+<script id="webmention-hosted">
+  (function () {
+    var sn = document.createElement("script"), s = document.getElementsByTagName("script")[0], url;
+    url = document.querySelectorAll ? document.querySelectorAll("link[rel~=canonical]") : false;
+    url = url && url[0] ? url[0].href : false;
+    sn.type = "text/javascript"; sn.async = true;
+    sn.src = "//webmention.herokuapp.com/api/embed?version=cutting-edge&url=" + encodeURIComponent(url || window.location);
+    s.parentNode.insertBefore(sn, s);
+  }());
+</script>
+
+</body>
