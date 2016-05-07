@@ -1,0 +1,71 @@
+
+#indieweb @adactio: welcome to indiewebcamp - I'm jeremy my site is adactio.com
+#indieweb @aaronpk: I'm aaron and my website is http://aaronparecki.com/
+#indieweb @t: I'm tantek and my site is http://tantek.com/
+#indieweb @aaronpk: I think we know why we're here - we are making our own websites and helping each other
+#indieweb @aaronpk: there is a live stream at https://youtu.be/8SXNwRouvAE and a chatroom at https://indiewebcamp.com/irc/today
+#indieweb @aaronpk: our principles are at http://indiewebcamp.com/principles and #3 💪 Build tools for yourself, not for all of your friends. is key
+#indieweb @aaronpk: if you don't want to use your tools for your own site why would anyone else?
+#indieweb @adactio: today is a day of discussion and figuring stuff out, tomorrow for implementing
+#indieweb @adactio: I'm always amazed by how much gets done in a weekend by being in a space with other people who can help out
+#indieweb @aaronpk: we're going to do some demos, brief introductions and show your website and something you're proud of or working on
+#indieweb @t: my website is http://tantek.com/ I post photos and likes and notes and whatever I find that si interesting
+#indieweb @t: I have person tags working on my photos, so here's me and Julie, and it cross posts to twitter, facebook and flickr
+#indieweb @t: brid.gy does this for me - as the person tags are supported by bridgy they end up on the silo sites too
+#indieweb @t: what i want to work on this weekend is having deletes and updates go out to the copies on other sites
+#indieweb @adactio: my site is adactio.com - I have a blog, but more recently I added notes that I post and share out to twitter
+#indieweb @adactio: I can upload photos, so let me show that on my phone - when I'm logged in I get an interface
+#indieweb @adactio: what i might add is twitter posting wiht apis
+#indieweb @adactio: so I'm taking a photo here on my phone and uploading to my website
+#indieweb @adactio: here's a photo I uploaded earlier in the pub last night: https://adactio.com/notes/10610
+#indieweb @adactio: it gets uploaded to twitter and flickr as well, and brid.gy brings the comments  and likes back to my site
+#indieweb @adactio: this is using brid.gy which send you webmentions and you can get this up and running
+#indieweb @aaronpk: here is a photo on jeremy's site and I want to post a comment on it
+#indieweb @aaronpk: I'm using https://quill.p3k.io/ a tool for posting using micropub, and can post a reply to jeremy's note
+#indieweb @aaronpk: I am getting a beer emoji and posting it, and crossposting to twitter
+#indieweb @aaronpk: I made a tool to help you get webmention sending working at http://webmention.rocks
+#indieweb @aaronpk: we'll do a session on webmention later today and do some hacking on it tomorrow
+#indieweb @adactio: don't be shy, come up and say who you are and show your website
+#indieweb @jkphl: I'm Joschi and my site is http://jkphl.is - I set it up 2 years ago
+#indieweb @jkphl: I planned to make a lot of blog posts here, but I've done about 4
+#indieweb @jkphl: I do collect and send webmentions here, it's based on Typo3
+#indieweb @jkphl: I started a new library called apparat to make my own site but there is not much to see yet
+#indieweb @jkphl: what I'd like to work on is a first interface for this, using micropub
+#indieweb @fredericmarx: I'm Frederic Marx and my domain is http://fmarx.com/ - I made a static site at indiewebcamp Nürnberg 
+#indieweb @fredericmarx: even though it is a static site it has webmentions by using @voxpelli's webmention.herokuapp.com
+#indieweb @fredericmarx: so I have webmentions showing up on my post at https://fmarx.com/notes/webmentions/
+#indieweb @fredericmarx: I'm interested in emoji reactions as that is for the next millienium
+#indieweb @vandrijevik: I'm Vlad and my site is at https://andrijevik.net/ - I post flights and travel for my family
+#indieweb @vandrijevik: this is built though https://middlemanapp.com I'd like to add a better editor for my events
+#indieweb @aaronpk: I have a similar event post type and I'm working on an interface for it, so we should talk
+#indieweb @vandrijevik: there is a print stylesheet as my mum likes to print it out
+#indieweb @adactio: part of this is using your own site for things you'd use silo sites for - travel, photos, checkins
+#indieweb @sknebel: I'm Sven, sknebel on IRC. My site is http://www.svenknebel.de/ - I can receive webmentions but I don't display them yet
+#indieweb @sknebel: I am looking at databases but ti may be more work
+#indieweb @adactio: we should have a session about databases and static files
+#indieweb Kai Pahl: I'm Kia and my site is http://www.kaipahl.de but I want to talk about my site http://www.allesaussersport.de/
+#indieweb Kai Pahl: which is a big Sport site in germany, but I had to turn off comments because it was getting swamped
+#indieweb Kai Pahl: so I'd like to work out how we could use webmention for comments here
+#indieweb @walterebert: My name is Walter and my site is http://walterebert.com
+#indieweb @walterebert: my site is built in PHP; it used to be wordpress
+#indieweb @walterebert: I use YaCy to search, because not everything  in my database
+#indieweb @walterebert: I bring stuff in from slideshare, twitter and more through their APIs
+#indieweb @glennjones: I'm Glenn Jones and my site is http://glennjones.net/
+#indieweb @glennjones: my site runs on it's own backend system https://transmat.io and handles webmentiosn for me
+#indieweb @glennjones: I have a history of places I've been to to checkin quickly
+#indieweb @glennjones: another tool I made is http://microformatshiv.com/editor.html and makes it easy to live edit microformats and see parsed output
+#indieweb @EmmaGHodge: I'm Emma Hodge and my website is http://emmahodge.org which I made at indiewebcamp NYC in january
+#indieweb @EmmaGHodge: I'm a beginner and still working out what to use my website for - I'm excited to be here
+#indieweb @m_ott: my name is Matthias Ott and my website https://matthiasott.com went live last night 
+#indieweb @m_ott: the site is built in Craft CMS, and there is no webmention plugin for it yet, so I made my own
+#indieweb @nebu: I'm Andreas and did the bare minimum on my site which I resurrected form a few years ago http://andreasnebiker.com
+#indieweb @nebu: I want to get my data back from twitter and flickr, which is work as it is many gigabytes
+#indieweb @adactio: I've been doing my own photos on my site for the last 2 years, but I have 10 yeras more on flickr before that
+#indieweb @martinvdven: my site is at http://vanderven.se/martijn/ and links to all my silo accounts - I also have http://licit.li/ too
+#indieweb @sl007: Hi I'm Sebastian Lasse, my site is at http://sebastianlasse.de but it has not been updated in 10 years
+#indieweb @sl007: I'm interested in a decentralised CMS to upload to
+#indieweb @sl007: I looked into the tent protocol https://tent.io but didn't find much but decided to come here
+#indieweb @adactio: you might find CMS's that work in an indieweb way, like withknown.com
+#indieweb @eay: I'm Stefan Grund and my site is http://stefangrund.de/ and it aggregates my exercise and sleeping
+#indieweb @eay: my website is wordpress powered and I want to get into the indieweb
+#indieweb @aaronpk: we have 3 rooms and will have sessions today , 1 before lunch and 4 after
