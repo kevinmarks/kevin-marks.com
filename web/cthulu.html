@@ -31,8 +31,8 @@ The classic model for data in computing is known as CRUD for:
 <li>List (the subscribed copy needs a list of entries to spot which ones are gone)
 <li>Update (old fashioned changing of the entry)
 </ul>
-
-
+<p>For a concrete example, consider the common posting case for a personal site. You Create a post, and add it to the feed list on your homepage (and other feed formats, if you do that). Then you send out notice via PubSubHubbub or POSSE, and Webmention any linked pages so they see it too. Then Google, archive.org, woodwind.xyz and other crawlers fetch a copy of the post page and the feed page too.
+<p>In other words, your post now exists in many places online, cached by others. If you Update your post, you go through this process again, and the remote copies get updated too, eventually (some places, like archive.org keep a public history of them).
 </div>
 </article>
 <script id="webmention-hosted">
