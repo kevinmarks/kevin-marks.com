@@ -1,0 +1,61 @@
+
+#indieweb @jkphl: It's Demo time at Indiewebcamp Düsseldorf - live stream at https://youtu.be/8SXNwRouvAE chat at https://indiewebcamp.com/irc/today
+#indieweb @aaronpk: I have album posts now on my own site like flickr, which will collect comments
+#indieweb @aaronpk: so each photo that is in an album has links to the rest of the album
+#indieweb @aaronpk: I started working on the tiled layout of photos for the album - on flickr every row is full width
+#indieweb @aaronpk: the secret is that the rows aren't all the same height, os they can make it fit that way
+#indieweb @aaronpk: people who build this kind of thing don't tend to make it work without javascript
+#indieweb @aaronpk: I'm not going to use flexbox for this - I'm working on laying it out in JS
+#indieweb @t: the flickr library was open sourced a month ago, and the inputs are all the aspect ratios of the images
+#indieweb @adactio: I didn't end up doing what I said I was going to do, but I started fixing plumbing and never stopped
+#indieweb @adactio: my webmention handling wasn't very good, as I built it on a 15 year old db table for comments
+#indieweb @adactio: so now I have a custom table that stores responses, likes and so on better
+#indieweb @adactio: @aaronpk posted a beer yesterday, which now is parsed correctly
+#indieweb @adactio: I've been using a  deprecated twitter call for posting  images - so I updated
+#indieweb @adactio: so the demo that didn't work yesterday now does - it POSSEs to twitter and flickr
+#indieweb @vandrijevik: I did some cleanup and added things to my travel plans to show events at the top
+#indieweb @vandrijevik: and I made the stays an h-event not an h-card so it had duration too
+#indieweb @vandrijevik: and I cleaned up the markup
+#indieweb @adactio: It's OK to have more than one location for an event - that can be true [ie I'm not in Duusseldorf]
+#indieweb @fredericmarx: my site http://fmarx.com/ uses a static site generator, metalsmith.io
+#indieweb @fredericmarx: medium has a feature where it works out what a link on a line at its own means
+#indieweb @fredericmarx: for vimeo I don't want to put iframes in my markdown, so I expand links that are embedded
+#indieweb @fredericmarx: if href== text content I can auto-add richer links
+#indieweb @fredericmarx: and I have webmentions working too
+#indieweb @EmmaGHodge: I had 3 objectives today - organising homepage, layout and fonts, and photos
+#indieweb @EmmaGHodge: I have new fonts and played around with layouts, and got photos upload working
+#indieweb @EmmaGHodge: I downloaded the Mac github client and atom editor so that I have good tools for my site
+#indieweb @EmmaGHodge: Andreas describes himself as a notorious team player and I endorse that description
+#indieweb @m_ott: I am now receiving webmention successfully at https://matthiasott.com 
+#indieweb @m_ott: and I have likes and repost parsing working too
+#indieweb @m_ott: I have a webmention sending UI as well
+#indieweb @m_ott: I have a human friendly webmention endpoint here: https://matthiasott.com/webmention
+#indieweb Keith Andrews: I have an html slideshow linked from my talks using rSlidy
+#indieweb Keith Andrews: for example, i have sides at http://keithandrews.com/talks/2015/ddj-2015-11-26/ and I can control with my phone
+#indieweb Keith Andrews: can also navigate slides by tilting the phone
+#indieweb @glennjones: I had a look at an app called owntracks that runs in the background on the phone as web apps don't do that
+#indieweb @glennjones: this app logs your location and send events when you arrive at a geofenced location
+#indieweb @glennjones: it has a find your friends feature, which uses MQTT to send events that I can tap into
+#indieweb @glennjones: it sends lat long and time out via json to a webhook post
+#indieweb @glennjones: in future I want tot take it a bit further and do chrome notifications SO I can check in from those events
+#indieweb @bastianallgeier: I'm a  fan of Airtable - a google spreadsheet alternative that gives an api for everything
+#indieweb @bastianallgeier: it has a lot of prebuilt column types and layouts that are useful
+#indieweb @bastianallgeier: now airtable is a hosted service, so I wanted a backend for myself
+#indieweb @bastianallgeier: i wanted to make it file based as that is easier to back up
+#indieweb @bastianallgeier: I define a schema but with column types that are good for online use 
+#indieweb @bastianallgeier: the posts end up in YAML files so they are easy to back up
+#indieweb @jkphl: I did a lot of tidying up on my site and helped Julie
+#indieweb @iwontsignuphere: I made my nick name Julie Anne Noying a while ago, and this week a domain name was registered at the bar
+#indieweb @iwontsignuphere: so now I'm at http://julieannenoying.com/ 
+#indieweb @iwontsignuphere: I have rel me links to my twitter and flickr and an example photo from my collection
+#indieweb @iwontsignuphere: and this post is what @kevinmarks made based on my t-shirt this weekend http://www.kevinmarks.com/joyofsparks.html
+#indieweb Andreas Nebiker: my site is at  https://andreasnebiker.com
+#indieweb Andreas Nebiker: I got h-card working and started to get a service worker installed for offline use
+#indieweb Andreas Nebiker: so I show my face on the site when you're offline and replace with updates later
+#indieweb @webgefrickel: I have a service worker set up, and it can bring in infor from elsewhere
+#indieweb @webgefrickel: I'm now working on my micropub
+#indieweb @martinvdven: I added h-card to my site as a representative hcard
+#indieweb @martinvdven: if you're parsing h-card for phonenumber, I'm using urls so check if that works for youu
+#indieweb @martinvdven: I made an endpoint to retrieve pinboard tags for arbirtary URLs
+#indieweb @sknebel: I mostly did plumbing stuff for future posts so I can send webmentions once the post has actually been published
+#indieweb @t: I got deleting posts working on my site eg http://tantek.com/2016/129/t2 is gone, by setting a deleted date
