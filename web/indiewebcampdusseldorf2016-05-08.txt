@@ -54,8 +54,8 @@
 #indieweb Andreas Nebiker: so I show my face on the site when you're offline and replace with updates later
 #indieweb @webgefrickel: I have a service worker set up, and it can bring in infor from elsewhere
 #indieweb @webgefrickel: I'm now working on my micropub
-#indieweb @martinvdven: I added h-card to my site as a representative hcard
-#indieweb @martinvdven: if you're parsing h-card for phonenumber, I'm using urls so check if that works for youu
-#indieweb @martinvdven: I made an endpoint to retrieve pinboard tags for arbirtary URLs
+#indieweb @martijnvdven: I added h-card to my site as a representative hcard
+#indieweb @martijnvdven: if you're parsing h-card for phonenumber, I'm using urls so check if that works for youu
+#indieweb @martijnvdven: I made an endpoint to retrieve pinboard tags for arbirtary URLs
 #indieweb @sknebel: I mostly did plumbing stuff for future posts so I can send webmentions once the post has actually been published
 #indieweb @t: I got deleting posts working on my site eg http://tantek.com/2016/129/t2 is gone, by setting a deleted date

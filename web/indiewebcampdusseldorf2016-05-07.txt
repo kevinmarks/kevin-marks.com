@@ -61,7 +61,7 @@
 #indieweb @nebu: I'm Andreas and did the bare minimum on my site which I resurrected form a few years ago http://andreasnebiker.com
 #indieweb @nebu: I want to get my data back from twitter and flickr, which is work as it is many gigabytes
 #indieweb @adactio: I've been doing my own photos on my site for the last 2 years, but I have 10 yeras more on flickr before that
-#indieweb @martinvdven: my site is at http://vanderven.se/martijn/ and links to all my silo accounts - I also have http://licit.li/ too
+#indieweb @martijnvdven: my site is at http://vanderven.se/martijn/ and links to all my silo accounts - I also have http://licit.li/ too
 #indieweb @sl007: Hi I'm Sebastian Lasse, my site is at http://sebastianlasse.de but it has not been updated in 10 years
 #indieweb @sl007: I'm interested in a decentralised CMS to upload to
 #indieweb @sl007: I looked into the tent protocol https://tent.io but didn't find much but decided to come here
