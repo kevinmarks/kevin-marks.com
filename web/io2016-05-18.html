@@ -12,7 +12,7 @@
 <h1 class="p-name">Google I/O <time class="dt-published">2016-05-18</time></h1>
 <div class="e-content">
 
-
+<h2>Keynote - Sundar Pichai</h2>
 <div class='h-cite'><a class='h-card p-category' href='https://twitter.com/@sundarpichai'>sundarpichai</a>:  <blockquote class='e-content'><p>we've been doing io for 10 years, there are 7000 of you here in person we are livestreaming to 530 extended events
 <p>Over 1M people are tuning into the live stream from china
 <p>when google was founded there were only 300M people online; now there are 3bn and people live on their phones
@@ -181,6 +181,51 @@
 <p>Diabetic Retinopathy is the largest cause of blindness. You need to scan the eye and have a doctor identify symptoms
 <p>our computer vision systems are getting very good at detecting Diabetic Retinopathy early</blockquote></div>
 </div>
+<h2>What's New in Android N?</h2>
+
+</blockquote></div>
+<div class='h-cite'><a class='h-card p-category' href='http://chetchat.blogspot.com'>Chet Haase</a>:  <blockquote class='e-content'><p>We're going to talk about Android N preview 3 today [which my phone just offered to download]
+</blockquote></div>
+<div class='h-cite'><a class='h-card p-category' href='http://www.curious-creature.com'>Romain Guy</a>:  <blockquote class='e-content'><p>We designed the constraint based layout in conjunction with Android studio - we run the constraint code at 60fps
+<p>when you add a button to a guide position, it autocreates constraints for you. Constraint code works back to Gingerbread
+</blockquote></div>
+<div class='h-cite'><a class='h-card p-category' href='http://chetchat.blogspot.com'>Chet Haase</a>:  <blockquote class='e-content'><p>one of the more visible changes in N is multiwindow - long press on recents to split them
+<p>how split-screen works out of the box is based on the magic of android layouts - your app simply works
+<p>you are opted in by default, but you can opt out of it and specify minimum sizes
+<p>Picture in Picture mode is the other multiscreen model
+<p>Drag and Drop has been in Android for a while, but with multiscreen it makes a lot more sense, so try it out
+</blockquote></div>
+<div class='h-cite'><a class='h-card p-category' href='https://twitter.com/@dansandler'>Dan Sandler</a>:  <blockquote class='e-content'><p>Notifications now have new templates for the first time since honeycomb [why are they so low contrast?]
+<p>we have bundled notifications for multiples, and we also have direct reply - respond without opening the app
+<p>we now have quick settings, and the 5 top quick setting appear inline with notifications. 
+<p>Display size is a new setting replaces the font size accessibility. The SP part of font size didn't work well
+<p>the new Display Size setting changes the dpi size of the device at runtime - .85x to 1.45x to scale it at a lower level
+<p>do ensure your app works in sw320dp - if the user changes the density this will make you app need to cope
+</blockquote></div>
+<div class='h-cite'><a class='h-card p-category' href='http://chetchat.blogspot.com'>Chet Haase</a>:  <blockquote class='e-content'><p>Multi-Locale - outside of my country people speak more than one language [you don't know many Hispanic-Americans Chet?]
+<p>the User can now select multiple languages and order them, so they get localised apps when they exist
+<p>Doze mode on android M kicks in after a while, then it wakes up every so often, interval decaying exponentially
+<p>In N Doze mode you don't have to be stationary to trigger doze mode; apparently some people walk without using phones
+<p>we found that lots of apps were listening for network activity changes, and thrashing as you walk around wifi
+<p>we also got rid of the new photo and video actions
+<p>instead use the jobscheduler to find out about photos rather than thrashing every app on the phone
+<p>Data Saver now lets you restrict network access by app to stop apps costing  you money
+<p>there is a new api to find metered networks and for knowing when you have been restricted
+</blockquote></div>
+<div class='h-cite'><a class='h-card p-category' href='http://www.curious-creature.com'>Romain Guy</a>:  <blockquote class='e-content'><p>Direct Boot now boots until lockscreen until you enter pin code, so you don;t have to unlock to run apps
+<p>Up until now you had to ask permission for the entire storage -now you can use Scoped Directory for specific ones
+<p>You can now easily turn off apps that are in Work mode so you can take the weekend off
+<p>you can also have a Work challenge for authenticating into Work apps that applies across them
+<p>The new Runtime has a faster interpreter, a JIT and compilation ahead of time - lots fo ways it is sped up
+<p>we have new ICU4J unicode and globalization support that means you don't need external libs for this 
+<p>If you want lambdas in Java, we support those back to Gingerbread but you have to use the Jack compiler with Java 8
+<p>we have reduced autio latency in the lower levels - AudioTrack reduces latency 40-70ms
+<p>you have to set a flag AudioAttributes.FLAGLOWLATENCY to get low latency audio in your app
+<p>Switch to Clang, GCC is deprecated
+</blockquote></div>
+<div class='h-cite'><a class='h-card p-category' href='http://chetchat.blogspot.com'>Chet Haase</a>:  <blockquote class='e-content'><p>VR has a new setVRModeEnabled Activity - do not turn this on if you are not making a full VR app
+<p>Support Library 23.2 adds Night Mode, Bottom Sheets, and VectorDrawable - use this for smaller apps
+<p>VectorDrawable performance is 20%-90% faster now in both drawing and parsing.
 <a href="http://news.indiewebcamp.com/en" class="u-syndication">See IndieNews</a>
 </article>
 <script id="webmention-hosted">

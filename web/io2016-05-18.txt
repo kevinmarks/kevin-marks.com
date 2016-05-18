@@ -151,3 +151,40 @@
 #io16 @sundarpichai: the robot nudges the stapler away to pick up the yellow object - not a coded rule but learned
 #io16 @sundarpichai: Diabetic Retinopathy is the largest cause of blindness. You need to scan the eye and have a doctor identify symptoms
 #io16 @sundarpichai: our computer vision systems are getting very good at detecting Diabetic Retinopathy early
+
+#io16 @chethaase: We're going to talk about Android N preview 3 today [which my phone just offered to download]
+#io16 @romainguy: We designed the constraint based layout in conjunction with Android studio - we run the constraint code at 60fps
+#io16 @romainguy: when you add a button to a guide position, it autocreates constraints for you. Constraint code works back to Gingerbread
+#io16 @chethaase: one of the more visible changes in N is multiwindow - long press on recents to split them
+#io16 @chethaase: how split-screen works out of the box is based on the magic of android layouts - your app simply works
+#io16 @chethaase: you are opted in by default, but you can opt out of it and specify minimum sizes
+#io16 @chethaase: Picture in Picture mode is the other multiscreen model
+#io16 @chethaase: Drag and Drop has been in Android for a while, but with multiscreen it makes a lot more sense, so try it out
+#io16 @dansandler: Notifications now have new templates for the first time since honeycomb [why are they so low contrast?]
+#io16 @dansandler: we have bundled notifications for multiples, and we also have direct reply - respond without opening the app
+#io16 @dansandler: we now have quick settings, and the 5 top quick setting appear inline with notifications. 
+#io16 @dansandler: Display size is a new setting replaces the font size accessibility. The SP part of font size didn't work well
+#io16 @dansandler: the new Display Size setting changes the dpi size of the device at runtime - .85x to 1.45x to scale it at a lower level
+#io16 @dansandler: do ensure your app works in sw320dp - if the user changes the density this will make you app need to cope
+#io16 @chethaase: Multi-Locale - outside of my country people speak more than one language [you don't know many Hispanic-Americans Chet?]
+#io16 @chethaase: the User can now select multiple languages and order them, so they get localised apps when they exist
+#io16 @chethaase: Doze mode on android M kicks in after a while, then it wakes up every so often, interval decaying exponentially
+#io16 @chethaase: In N Doze mode you don't have to be stationary to trigger doze mode; apparently some people walk without using phones
+#io16 @chethaase: we found that lots of apps were listening for network activity changes, and thrashing as you walk around wifi
+#io16 @chethaase: we also got rid of the new photo and video actions
+#io16 @chethaase: instead use the jobscheduler to find out about photos rather than thrashing every app on the phone
+#io16 @chethaase: Data Saver now lets you restrict network access by app to stop apps costing  you money
+#io16 @chethaase: there is a new api to find metered networks and for knowing when you have been restricted
+#io16 @romainguy: Direct Boot now boots until lockscreen until you enter pin code, so you don;t have to unlock to run apps
+#io16 @romainguy: Up until now you had to ask permission for the entire storage -now you can use Scoped Directory for specific ones
+#io16 @romainguy: You can now easily turn off apps that are in Work mode so you can take the weekend off
+#io16 @romainguy: you can also have a Work challenge for authenticating into Work apps that applies across them
+#io16 @romainguy: The new Runtime has a faster interpreter, a JIT and compilation ahead of time - lots fo ways it is sped up
+#io16 @romainguy: we have new ICU4J unicode and globalization support that means you don't need external libs for this 
+#io16 @romainguy: If you want lambdas in Java, we support those back to Gingerbread but you have to use the Jack compiler with Java 8
+#io16 @romainguy: we have reduced autio latency in the lower levels - AudioTrack reduces latency 40-70ms
+#io16 @romainguy: you have to set a flag AudioAttributes.FLAGLOWLATENCY to get low latency audio in your app
+#io16 @romainguy: Switch to Clang, GCC is deprecated
+#io16 @chethaase: VR has a new setVRModeEnabled Activity - do not turn this on if you are not making a full VR app
+#io16 @chethaase: Support Library 23.2 adds Night Mode, Bottom Sheets, and VectorDrawable - use this for smaller apps
+#io16 @chethaase: VectorDrawable performance is 20%-90% faster now in both drawing and parsing.
