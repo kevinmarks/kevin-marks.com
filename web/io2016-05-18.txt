@@ -1,0 +1,153 @@
+
+#io16 @sundarpichai: we've been doing io for 10 years, there are 7000 of you here in person we are livestreaming to 530 extended events
+#io16 @sundarpichai: Over 1M people are tuning into the live stream from china
+#io16 @sundarpichai: when google was founded there were only 300M people online; now there are 3bn and people live on their phones
+#io16 @sundarpichai: today over 50% of our queries come from mobile phones; on android in the us  20% of queries are voice
+#io16 @sundarpichai: we no longer do 10 blue links, we do rich cards full of information on many topics
+#io16 @sundarpichai: if you search for hyperloop you get rich pages with AMP right in the search results
+#io16 @sundarpichai: we have been training our voice recognition deliberately with noise in the background to improve recognition
+#io16 @sundarpichai: we translate over 100 languages, with 140Bn words translated per day -we even do live visual transaltion
+#io16 @sundarpichai: today we are announcing the Google Assistant - we want to ask our users "hi, how can I help?"
+#io16 @sundarpichai: we want users to have an ongoing, 2-way dialogue with google, understanding you in the real world
+#io16 @sundarpichai: we already have elements of this working - those 20% of voice queries wiht OK google
+#io16 @sundarpichai: if you are in front of a landmark and ask "who designed this?" and google will know what you mean
+#io16 @sundarpichai: you can refer back to the results of a search with 'his' or it as part of a conversation
+#io16 @sundarpichai: we want to show you the kind of things we aspire to be able to do
+#io16 @sundarpichai: you should be able to ask google "what's playing tonight?" and get a list of 3, and say "we want to bring the kids"
+#io16 @sundarpichai: we think of the Google Assistant as an ambient experience that extends across multiple devices: phones, cars, rooms
+#io16 @sundarpichai: we have sold over 25M chromecast devices - we have been thinking about how to bring this to the home
+#io16 @sundarpichai: credit to Amazon for creating excitement in thsi space, we'll launch something later this year
+#io16 @marioqueiroz: We're creating Google Home, which will launch later this year. and will use speech primarily
+#io16 @marioqueiroz: we have lots of experience in far field voice recognition, and expect this to work bet
+#io16 @marioqueiroz: we will have a lot of different stylings to match your decor, as it has no buttons just a microphone and speakers
+#io16 @marioqueiroz: not long ago we introduced chromecast to play movies and videos on the biggest screen in your house, 
+#io16 @marioqueiroz: google home is a wifi speaker that streams directly from the cloud to a single speaker [so mono?]
+#io16 @marioqueiroz: Google Cast allows you to control other speakers in the house without complications by saying which one to use
+#io16 @marioqueiroz: it lets you control your video content too - just tell google home and it will appear on the biggest screen
+#io16 @marioqueiroz: as well as to do lists and shopping lists, we will integrate with your smart home devices, including Nest
+#io16 @marioqueiroz: Google home lets you Ask Google about anything - it builds on 17 years of experience in search
+#io16 @marioqueiroz: you can ask "what was the US population when NASA was established?" and it will know
+#io16 @marioqueiroz: Google Home will also get to know you and your packages deliveries and trips [the whole family?]
+#io16 Google Home: "turn the lights on in Kevin's room" [no scope for abuse there then]
+#io16 @sundarpichai: Thanks to advances in computer vision we approached Photos from a new perspective
+#io16 @sundarpichai: Google Photos has over 200M monthly active users - we have applied over 2 Trillion labels
+#io16 @sundarpichai: 24B of those labels are for selfies -we even have Pomeranian selfies
+#io16 Erik Kay: We have a new messaging app called "Allo" - it learns over time to make conversations better
+#io16 Erik Kay: Allo is based on your phone number, so it integrates wiht your address book [gah, why would you do that? ]
+#io16 Erik Kay: we have a great selection of stickers and emoji; but we added whisper/shout - slide send button up and dow to change size
+#io16 Erik Kay: no more yelling in all caps to get your point across.
+#io16 Erik Kay: we have "ink" to let you scribble on photos [this is dads learning to snapchat, isn't it]
+#io16 Erik Kay: we have suggested smart replies based on machine learning - Allo will suggest based on how you express yourself
+#io16 Erik Kay: smart replies contain stickers adn emojis too - as they say an emoji is worth 1000 words. do they say that?
+#io16 Erik Kay: Allo offers smart replies when someone sends a photo [suggests 'cute dog']
+#io16 Erik Kay: we can tell the breed of a dog and whether it is cute or not to suggest this [you're objectifying dogs with AI?]
+#io16 Erik Kay: we can recognise the linguine and clams in this pasta dish
+#io16 Rebecca: I'm going to show you how the assistant in Allo can help Amit and Joy [Rebecca doesn't get a surname or Name super]
+#io16 Rebecca Michael: the Assistant can converse with Amit about restaurants, book on open table, and stay in the group
+#io16 Rebecca Michael: just like any other conversation, google assistant picks up where you left off
+#io16 Rebecca Michael: you can ask "did my team win?" and the assistant will tell you Real Madrid's latest score 
+#io16 Rebecca Michael: it will show the team roster, and if Amit clicks on Ronaldo it show shim
+#io16 Rebecca Michael: if he then says "best tricks" it shows a youtube of Ronaldo's best tricks
+#io16 Rebecca Michael: theres a 'guess the movie from the emoji' game built in Allo, but we expect devs to do better [implict API promise]
+#io16 Erik Kay: Lets talk about privacy and security. sometimes people want to be incognito - there is an Incognito mode in Allo
+#io16 Erik Kay: while all messages are encrypted in Allo, incognito is end to end encrypted and you can set expiry time
+#io16 Erik Kay: Allo will be the first home for the Google Assistant
+#io16 Erik Kay: Allo is all about messaging, but Video Calling is great too
+#io16 Erik Kay: why don't we do video calling more often? [we do, but we do it in Facebook Messenger mate]
+#io16 Erik Kay: I'd like to introduce you to Duo, a simple video calling companion to Allo - it works on both Android and iOS
+#io16 Erik Kay: Duo has 'knock knock' you see a live video of the caller before you even pick up, and seamless joins the call
+#io16 Erik Kay: Here's a call from my daughter Eva - I use her for all my demos (shows daughter waving for a minute before answering)
+#io16 Erik Kay: Duo is built by the team that created WebRTC, the open technology that powers video chat
+#io16 Erik Kay: we use a new protocol called 'Quick' that optimises use of codecs and lag on WebRTC
+#io16 Erik Kay: Duo proactively monitors network quality multiple times a minute, and will switch quality or even cell to wifi automatically
+#io16 Erik Kay: Both Allo and Duo will be available this summer on iOS and Android [not laptops?]
+#io16 @davey_burke: it has been 10 years since we started working on Android - it's the most popular OS in the world
+#io16 @davey_burke: Android Wear now has 12 partner brands with watchmakers like Tag Heuer [no sales figures?]
+#io16 @davey_burke: There were 65Bn installs from Google Play in the last year alone
+#io16 @davey_burke: we released early previews on the N release before I/O this time - the response has been overwhelming
+#io16 @davey_burke: go to android.com/n and suggest names to us, but please don't call it Namey McNameface
+#io16 @davey_burke: In Android N, Vulkan is a modern 3D graphic API, that is more efficient than OpenGL
+#io16 @davey_burke: The compiler in N is much faster, and the JIT means app installs can be 75% faster, and saves app space by up to 50%
+#io16 @davey_burke: Android has a multilayered defense in depth security model. N introduces file based encryption, not just block based
+#io16 @davey_burke: we learned last year the importance of hardening the media framework - we separated out the codecs and components
+#io16 @davey_burke: N updates the system software without you having to do anything. Like Chrome it has 2 system images at any time
+#io16 @davey_burke: and the pesky 'Android is updating' dialog is gone thanks to the JIT
+#io16 @davey_burke: the best feeling in software is deleting code like that
+#io16 @davey_burke: Google Chrome protects users by warning before they go to a site that has malware or deceptive
+#io16 @davey_burke: Google Play Store puts apps through rigorous security testing before deploying
+#io16 @davey_burke: we have an App Security Improvement Program to teach Banks how to use https properly
+#io16 @davey_burke: We have SafetyNet to delete apps that misbehave  - we check 8Bn apps/day
+#io16 @davey_burke: we learned from user research that people normally switch between the last 7 apps in the list, so we delete old ones
+#io16 @davey_burke: if you double tap the recents button it swaps back to the last app you were in
+#io16 @davey_burke: we have 2 new window modes  - split screen and picture in picture
+#io16 @davey_burke: I can log-tap on the recents button and put a secondapp up
+#io16 @davey_burke: say I'm watching a live tv program - I can put the content into picture in picture and swap apps to search
+#io16 @davey_burke: we added a quick reply mode to messaging notifications without launching the app
+#io16 @davey_burke: Android is the first mobile platform to support Unicode 9 emoji standards [so you can facepalm 🤦]
+#io16 @davey_burke: Android N is the best android so far. I have to say that, but it is actually true.
+#io16 @davey_burke: go to android.com/beta to install N on your main device when it is ready
+#io16 @claybavor: Virtual reality is coming to Android N - it started with Cardboard 2 years ago, and are now 50M cardboard apps
+#io16 @claybavor: Cardboard was a start, but there is a limit to what you can do with phones not designed for VR
+#io16 @claybavor: to make VR comfortable you need to minimise motion to photon latency
+#io16 @claybavor: what we've built won't be available until this fall, We call it Daydream - it enables VR on Android
+#io16 @claybavor: in Daydream there are smartphones, a headset and controller, and apps designed for this
+#io16 @claybavor: we have made a set of specifications for conformance to Daydream VR specs and latency requirements
+#io16 @claybavor: We have introduced VR mode in Android N - latency down to under 20ms; and VR system UI so alerts come through
+#io16 @claybavor: Daydream is part of the core of Android N, and there will be a lot of phones available with it this fall
+#io16 @claybavor: VR headsets have to have great optics and be comfortable on you head. We made a reference design for this
+#io16 @claybavor: the controller is just as important as the headset for VR- it has 2 buttons and an orientationsensor
+#io16 @claybavor: (shows video of someone waving their hand around and 3d things following it) [I miss datagloves]
+#io16 @claybavor: We have built Google Play for VR - users can search, buy and install apps in VR
+#io16 @claybavor: (shows screen full of partner logos and promise great things to come)
+#io16 @claybavor: we have rebuilt YouTube from the ground up for VR - 3D audio, immersive video and a VR mode for standard videos too
+#io16 @claybavor: Daydream arrives this fall, but you can start developing fro it today with the latest Android N preview
+#io16 @dps: with Android Wear we have over 100 distinctive designs of watches - it works with Android and iPhones
+#io16 @dps: I'm showing a preview of Android Wear 2.0 - we learned a lot over the last 2 years
+#io16 @dps: the most important role of your watch is staying connected to what matters with timely information
+#io16 @dps: Now any watchface can show data from any app
+#io16 @dps: here's a watchface customised with info from different apps - clicking them goes right throgh to the app
+#io16 @dps: we now have smart reply, best in class handwriting recognition and a new keyboard
+#io16 @dps: Google Fit has automatic activity recognition that you can move information between apps
+#io16 @dps: now you don't even need a phone to combine with the watch - sending messages and streaming music can be standalone
+#io16 @dps: your android wear apps can be standalone; they can have direct access to the cloud  without a phone connected
+#io16 @dps: there is a preview of Android wear 2.0 today for developers to download
+#io16 @dps: (shows video of an app developed for Syrian refugees in Turkey)
+#io16 @jasontitus: the shift to mobile for the web platform is well underway -over 1Bn mobile chrome users per month
+#io16 @jasontitus: we have powerful new web standards in Chrome to make app-like web apps - Progressive Web Apps
+#io16 @jasontitus: We created the open source Accelerated Mobile Pages to build on web standards to be very fast
+#io16 Steph Cuthbertson: this morning we release Android Studio 2.2 preview - when you  hit Run we deploy changes directly.
+#io16 Steph Cuthbertson: the emulators are now 3x faster, and may eb faster than the physical device in your pocket
+#io16 Steph Cuthbertson: we make it easier to write tests- with test recording we write Espresso code for you
+#io16 Steph Cuthbertson: you can run the tests locally or on our cloud integrated test base for other devices
+#io16 Steph Cuthbertson: Layout Designer now has automated constraints for you, but without the need for nested layouts improving performance
+#io16 Steph Cuthbertson: we have an APK analyzer and a layout inspector to help you work out how your app behaves
+#io16 Steph Cuthbertson: we have been steadily building out C++ support   - as well as gradle we now support cmake and ndk build
+#io16 Steph Cuthbertson: g.co/androidstudio - get it now and send us feedback
+#io16 @jasontitus: 18 months ago we acquired Firebase - since then it has grown to have 450,000 developers
+#io16 @jasontitus: Firebase analytics works across android and IOS and is free and unlimited
+#io16 @jasontitus: if an ad crashes it's bad for your users, so we integrated crash reporting in firebase
+#io16 @jasontitus: with dynamic links NPR was able to take 13 taps down to 4
+#io16 @jasontitus: with Crash reporting you can see crashes as they are happening, and then notify users when you have a fix
+#io16 @jasontitus: Firebase is available today at firebase.google.com and we'll talk more this afternoon
+#io16 @ElliePowers: I'm going to show you a sneak peek of a new way to experience android apps
+#io16 @ElliePowers: we want to make it easier for users and developers to connect
+#io16 @ElliePowers: with the web you can just click on a link and get to any web page. what if you could run an app wiht one tap?
+#io16 @ElliePowers: with Android Instant Apps you can run an app instantly without installation
+#io16 @ElliePowers: my friend sends a link to buzzfeed video url; it goes stright to the buzzfeed android app and loads just the bits neede
+#io16 @ElliePowers: this is a real android app - it has been split into modules, so it downloaded only the module for this screen
+#io16 @ElliePowers: B&H Photo have a great android app I don't have installed. from search I can be in this app on my phone
+#io16 @ElliePowers: I walk up to a parking meter, tap my phone and it brings up the parking meter app immediately
+#io16 @ElliePowers: for the user it is totally seamless. As a developer, it's the same android APIs, but you modualarize your app for this
+#io16 @ElliePowers: the demo Ficus did was on a phone running KitKat - Instant Apps will work all the way back to Jellybean
+#io16 @ElliePowers: we are gradually rolling out access to developers for Instant Apps
+#io16 @sundarpichai: Firebase is the most comprehensive developer offering we have done to date
+#io16 @sundarpichai: We are opening up core components of our machine learning systems. tensorflow was open sourced last year
+#io16 @sundarpichai: last week we open sourced a natural language parser to extend Tensorflow
+#io16 @sundarpichai: we have computer vision, speech and machine learnign APIs in google cloud now as well
+#io16 @sundarpichai: by using the cloud machine learning APIs, you get access to the custom hardware we have built for machine learning
+#io16 @sundarpichai: These Tensor Processing Units  - TPUs are faster and better per watt than any graphics card used for AI now
+#io16 @sundarpichai: Move 37 by AlphaGo was widely seen as a very creative Go move, which is a new milestone in AI
+#io16 @sundarpichai: here is an example of robots picking up real objects using deep learning
+#io16 @sundarpichai: the robot nudges the stapler away to pick up the yellow object - not a coded rule but learned
+#io16 @sundarpichai: Diabetic Retinopathy is the largest cause of blindness. You need to scan the eye and have a doctor identify symptoms
+#io16 @sundarpichai: our computer vision systems are getting very good at detecting Diabetic Retinopathy early
