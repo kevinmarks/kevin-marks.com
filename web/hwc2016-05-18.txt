@@ -1,0 +1,55 @@
+
+#indieweb @t: Welcome to Homebrew Website Club SF - we'll talk about what we've done on our own sites
+#indieweb @t: Indiewebcamp Dusseldorf happened last weekend https://indiewebcamp.com/2016/D%C3%BCsseldorf https://c2.staticflickr.com/8/7043/26266222363_accec9b742_o.gif
+#indieweb @t: Homebrew Website Club is based on the Homebrew Computer Club that happened in the 1970s and seeded the computer revolution
+#indieweb @t: a lot of people just use social media, but there are some of us who hack on our websites, so we do it for the web
+#indieweb @t: Indiewebcamp is more based on Barcamp - a structured conference over 2 days where the agenda is made by who arrives
+#indieweb @t: We start indiewebcamp with demos and discussions. The 2nd day is hack day, and we end with demos
+#indieweb @t: Indieweb summit is coming up in Portland http://indiewebcamp.com/2016 followed by the w3c SocialWG meeting
+#indieweb @t: Webmention is going to w3c Candidate recommendation
+#indieweb @KathyEms: My app is at http://tranquil-caverns25242.herokuapp.com determining your outfit for your next adventure
+#indieweb @KathyEms: you enter your temperature and activity it filters your activities by temp and what you wore before
+#indieweb @KathyEms: currently the data is in a static variable, but I'll add it to a database soon
+#indieweb @t: can you save the outfit as a mini blog post - like instagram's #OOTD outfit post?
+#indieweb @KathyEms: I do take photos of my outfits so recording that too would make sense
+#indieweb @kevinmarks: noterlive.com is how Iive tweet events
+#indieweb @kevinmarks: I made a thing to show indiewebcamp irc logs in Joy Division Unknown pleasure style: http://www.kevinmarks.com/joyofsparks.html
+#indieweb @kevinmarks: I also made a custom parser to rescue http://www.bbc.co.uk/food/recipes/ into h-recipe
+#indieweb @kevinmarks: here's what they look like http://www.unmung.com/indiecard?url=http%3A%2F%2Fwww.bbc.co.uk%2Ffood%2Frecipes%2Fsteamedtreaclesponge_81747 from http://www.bbc.co.uk/food/recipes/steamedtreaclesponge_81747 raw  json http://www.unmung.com/mf2?url=http%3A%2F%2Fwww.bbc.co.uk%2Ffood%2Frecipes%2Fsteamedtreaclesponge_81747&html=&pretty=on
+#indieweb @rrrrrrrix: I rewrote my site backend again http://notes.whatthefuck.computer/ it exposes my weird quantified self data to the world
+#indieweb @rrrrrrrix: it generates static html on mysite from scratch so it take longer and longer each time
+#indieweb @rrrrrrrix: I have a lot of differnt posts types, waling reading and more - if I want to syndicate it uses brid.gy
+#indieweb @rrrrrrrix: it gets sent out to twitter and facebook, and I pull likes back too
+#indieweb @rrrrrrrix: so now I cna go and backfill the indiewebcamp pages to say thsi supports them
+#indieweb @rrrrrrrix: It's all static so I could theoretically host it on S3 or github, though it is on a page on my own site right now
+#indieweb @rrrrrrrix: I like low contrast type in my code as I work on it late at night - my primary OS is this crazy LISP environment
+#indieweb @rrrrrrrix: it's called Arcology- it's on my own git repository, not github
+#indieweb @rrrrrrrix: I'm probably going to have to stop usingg emacs lisp as I have over 100M of files to translate into this
+#indieweb @t: Static sites are great and more and more common, but you can't set response codes for redirects or 410
+#indieweb @t: one thing we came up with for webmentions is to delete a comment using an http 410 Gone
+#indieweb @t: and then send a webmention to the original place that you sent the webmention so it can delete the comment
+#indieweb @t: to enable 410 for static sites, we could use a Meta http-equiv for the status header http://indiewebcamp.com/meta_http-equiv_status
+#indieweb @t: I wrote this up as a spec on the indiewebcamp Wiki - you publish <meta http-equiv="Status" content="410 Gone"/>  in the head
+#indieweb @t: if you are serving the site, you should return this code. Similarly, if you receive this tag you should treat it as a 410
+#indieweb @t: I tweeted it at 5am this morning, and within an hour @tommorris implemented it for Django
+#indieweb @t: Never underestimate the power of going to the beach.
+#indieweb @aribadernatal: In s3 you can set headers for a page
+#indieweb @t: those look like the ones that meta http-equiv as specified at the moment, so we should push for adding new ones
+#indieweb @aribadernatal: on my website https://aribadernatal.com I have been trying to collect various things:  stars, likes and so on
+#indieweb @aribadernatal: 
+#indieweb @aribadernatal: 
+#indieweb @aribadernatal: I use IFTTTT to take posts frome the various silos and make it a post on my wordpress site
+#indieweb @aribadernatal: pocket, github, youtube, kickstarter and son on get fetched and posted ot my own site so I have a copy
+#indieweb @aribadernatal: I can search across all of the things I have collected; I have pages and feeds for each topic
+#indieweb @t: it looks like a personal Pinterest
+#indieweb @aribadernatal: after I built all this I showed my wife it and she said "isn't that Pinterest?"
+#indieweb @aribadernatal: I use Amber, a wordpress plugin that makes a snapshot of sites you link to on your own site 
+#indieweb @aribadernatal: I wrote a pst about using Amber to save links: https://aribadernatal.com/2016/02/15/saving-favorites-amber-edition/
+#indieweb @aribadernatal: 
+#indieweb @aribadernatal: 
+#indieweb @aribadernatal: 
+#indieweb @aribadernatal: amber has a dashboard of every page it tries to index - whenever someone links form twitter it is a t.co link
+#indieweb @aribadernatal: twitter robots.txt on t.co/robots.txt has User-agent: * Disallow: / so you can't spider links in tweets
+#indieweb @aribadernatal: most sites I link to don't actually work to be archived for various different reasons
+#indieweb @t: personal archives is broadly seen as a legitimate reason to ignore robots.txt—you aren't spidering, you're fetching as a user
+#indieweb @t: time for a photo http://known.kevinmarks.com/2016/homebrew-website-club-sf-2016-05-18in
