@@ -1,0 +1,42 @@
+
+#indieweb @t: Welcome to Homebrew Website Club - this month we have 3 meetings
+#indieweb @t: Webmention is now a Candidate Recommendation for w3c which is kind of a big deal
+#indieweb @t: we incubated and developed webmention in the indieweb community and brought it over to the SocialWG at w3c
+#indieweb @t: we have 27 implementations of webmention already and mow w3c is calling for more: https://www.w3.org/TR/webmention/
+#indieweb @t: if you have a webmention implementation, you can test it at webmention.rocks - both sending and receiving
+#indieweb @t: If you remeber PingBack, there was no test suite for that, so webmention is already better
+#indieweb @t: the other thing that webmention specifies is that you can update and delete comments and mentions too
+#indieweb @t: last week we added a new Homebrew Website Club in Nürnberg - adding to LA, DC, Göteborg, Portland and Brighton
+#indieweb @t: Nürnberg has an amazing photographer @iwontsignuphere who took photos that look so professional
+#indieweb @t: and @iwontsignuphere also has a Nimslo camera that means she can make twitchgifs of people too
+#indieweb @t: Indiewebcamp Summit this weekend has it's own site at http://2016.indieweb.org/  - it's $5 to attend or free if you indie RSVP
+#indieweb @t: apparently $5 is just enough to encourage people to code up RSVP support - look at Emma, Cassie, Kevin, Kyle, 
+#indieweb @kevinmarks: We may need a new RSVP value to mean 'remote attending Yes' -I'm worried I'm using a food slot
+#indieweb @t: the most individual RSVP was at http://tilde.town/~vilmibm/index.html
+#indieweb @t: we also have a travel assistance fund for under-represented people to come http://2016.indieweb.org/#travel-assistance
+#indieweb @t: you used to RSVP by adding yourself to the wiki page. Now it's a projects list if you want to say more http://indiewebcamp.com/2016/Guest_List
+#indieweb @t: there are 3 events happening in a row http://indiewebcamp.com/events Indiewebcamp, W3C Social Web and decentralisedweb 
+#indieweb @kevinmarks: part of decentralised Web is thinking about replacements for DNS and http
+#indieweb @t: we assume domain names are a given; they are thinking about layers below what we're worrying about
+#indieweb @t: if they give us a new way to look up a site, we can still decide how to process it and connect it
+#indieweb @kevinmarks: my hope with decentralised web is to make the composable versus substitable distinction to map ideas to us
+#indieweb @t: html is the one piece that is going to be very hard to displace
+#indieweb @kevinmarks: content hashing and URLs are in tension, as what URLs point to are mutable. 
+#indieweb @t: anyone want to demonstrate anything they got working since the last time you were here
+#indieweb @jfrndz: my site is http://jfrndz.com - I've been playing with a framework called Perfect 
+#indieweb @jfrndz: Perfect lets you write server-side apps in Swift - I built an IndieAuth handler in it to sign into my site
+#indieweb @jfrndz: I my extend this to do private posting; RSVPing to the summit made me want to do private RSVPs
+#indieweb @cw: my site is at http://massless.org/ - I haven't touched it for a while. What's a good starter project?
+#indieweb @jfrndz: setting up indieauth with rel=me links is a good first thing to do
+#indieweb @t: if you do that you can log into the wiki
+#indieweb @t: today I took the strikethrough style off the link to my upcoming.org profile
+#indieweb @t: in the last 24 hours @andybaio the creator of upcoming restored all the archives at the original permalinks
+#indieweb @t: so http://upcoming.org/user/6623 now maps to http://archive.upcoming.org/user/6623 - and all my events are back
+#indieweb @t: our last upcoming event was a microformats dinner http://archive.upcoming.org/event/microformats-dinner-8119684 
+#indieweb @t: there were also events in the then future like: http://archive.upcoming.org/event/back-to-the-future-ii-5390660
+#indieweb @t: this is a huge feat that andy did - this is an indie site that was built from the ground up to preserve web data
+#indieweb @t: I chose to wear my upcoming t-shirt today from the kickstarter https://www.kickstarter.com/projects/waxpancake/the-return-of-upcomingorg
+#indieweb @t: as the community grows, we'll build more community sites like this - upcoming is an example
+#indieweb @kevinmarks: I wanted to show off https://ben.thatmustbe.me/mobilepub/ which is Ben's posting site for micropub that works offline
+#indieweb @t: andy's twitter is @waxpancake and @upcomingorg is the sites
+#indieweb @t: @andybaio says: For every random jerk trashing you online, there are thousands of people that quietly love you.
