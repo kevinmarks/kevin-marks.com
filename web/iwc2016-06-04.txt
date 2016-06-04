@@ -1,0 +1,118 @@
+
+#indieweb @t: welcome to the indiewebcamp summit - this is our website http://indiewebcamp.com/
+#indieweb @t: you may notice that we have a new logo http://svgur.com/s/5F - @veganstraightedge redesigned @crystalbeasley's original
+#indieweb @t: we started out with "Show don't tell" "scratch your own itch" and "self-dogfooding"
+#indieweb @t: the real point is that it's your site, you are in control and you can do what you want with it
+#indieweb @t: all of this starts with one goal: self-empowerment. As we achieve different levels of that we can spread empowerment
+#indieweb @t: we ecnourage everyone to share what they have built whether on our wiki or a open source code on github or wherever
+#indieweb @t: we have a set of open formats which we have incubated and dogfooded ourselves, and then take them to standards bodies
+#indieweb @t: one of these is Webmention, which is now a w3c Candidate Recommendation https://www.w3.org/TR/webmention/ well done @aaronpk
+#indieweb @t: webmention is out looking for implementations, and you can test yours at webmention.rocks
+#indieweb @t: another spec, Micropub for posting to your site is a w3C Editors draft https://www.w3.org/TR/micropub/
+#indieweb @t: another great indieweb tool is brid.gy which will connect your site to the social silos so non-indie people can see
+#indieweb @t: this is a photo I posted last week of homebrew website club http://tantek.com/2016/154/t1/homebrew-website-club-mozilla-sf with people tags on
+#indieweb @t: with Brid.gy my photo was copied to flickr https://www.flickr.com/photos/tantek/27387113266/ and facebook https://www.facebook.com/10102317495976283
+#indieweb @t: and the facebook one had the person tags come through intact thanks to bridgy remapping them
+#indieweb @t: we have over 1000 users on the wiki and there are tens of 1000s of indieweb sites that are actively deploying building blocks
+#indieweb @t: many of those users are on withknown.com - so we have grown by 10x each year the number of indieweb sites
+#indieweb @t: we're probably at defcon3 for a large wbmention spam attack, so implementing http://indiewebcamp.com/Vouch would be good
+#indieweb @t: here's a video of indieweb passing the SWAT0 test last year: https://aaronparecki.com/notes/2015/07/14/1/swat0
+#indieweb @t: the key thing this weekend is make something, anything for your own site, however small
+#indieweb @t: and talk to people and see how you can collaborate - code, design, copywriting - work together
+#indieweb @t: don't let the pursuit of perfection stop you making progress. get something working, show it, iterate
+#indieweb @benwerd: hi everyone - I'm Ben Werdmüller - my website is werd.io which took me a year to realise people saw as weirdo
+#indieweb @benwerd: I am going to post a short note: http://werd.io/2016/really-happy-to-be-here-at-indiewebsummit
+#indieweb @aaronpk: so I have a bookmarklet in the browser that lets me reply to ben by clicking a link: https://aaronparecki.com/2016/06/04/8/
+#indieweb @aaronpk: and now you can see that my reply shows up on his site too: http://werd.io/2016/really-happy-to-be-here-at-indiewebsummit
+#indieweb @aaronpk: I post other things on my site, eg last nights sleep: https://aaronparecki.com/2016/06/04/3/ so you can see I may be a bit cranky today
+#indieweb @aaronpk: I also post my cycle rides: https://aaronparecki.com/rides
+#indieweb @benwerd: I'm going to reply on my site and link to aaron's, but not share it to twitter this time http://werd.io/2016/aw-i-miss-riding-bikes
+#indieweb @benwerd: I'm not logging bike rides, but I am going to check in here: http://werd.io/2016/checked-into-vadio-1 and could share to foursquare
+#indieweb @benwerd: the idea here is to make owning my own social content seamless, so I don't have to think about it
+#indieweb @benwerd: I have to think about it when I'm writing @withknown, but if you install code you shouldn't have to
+#indieweb @benwerd: now we shouldn't need to check each others' websites all the time to see if they have posted, but Kyle has an answer
+#indieweb @kylewmahan: I want to show http://woodwind.xyz which is a reader that I wrote for other people's websites
+#indieweb @kylewmahan: It shows them as a timeline, and has blogposts, short notes, replies and so on
+#indieweb @kylewmahan: here's a video that emma posted a few days ago, and I can repost that on my site https://kylewm.com/2016/06/repost-of-emma-kuo-alankara-jazzy-d-higher-love-fender
+#indieweb @kylewmahan: I can also like things, and reply
+#indieweb @kylewmahan: and my repost shows up on Emma's site too http://notenoughneon.com/2016/6/3/1
+#indieweb @kylewmahan: You can subscribe to indieweb sites that use microfromats for markup, or sites that use older feeds in Atom and RSS 
+#indieweb @benwerd: part of using the indieweb seamlessly is being able to post from anywhere so I'm posting from my phone
+#indieweb @benwerd: I'm going to post an audio file I recorded earlier via my phone http://werd.io/2016/im-a-bear
+#indieweb @benwerd: once it is posted it can be seen anywhere from mobile or desktop browser
+#indieweb @benwerd: one of the things I want to do is video, though doing that with a web browser is hard.
+#indieweb @benwerd: because I have an iphone I can't let you record audio from a web browser, but working on making that better
+#indieweb @aaronpk: I want to show you more about how my reply worked. I don't have a posting ui on my website
+#indieweb @aaronpk: I use woodwind.xyz, but mainly use quill.p3k.io which is a micropub client I wrote I log in with indieauth
+#indieweb @aaronpk: That worked almost too well  - I was already logged in so it just worked. let me log out and show the process
+#indieweb @aaronpk: so when I am asked to login I get an indieauth prompt asking for posting permissions via micropub
+#indieweb @aaronpk: q: if you have static files built from a static site generator, can you still use micropub?
+#indieweb @aaronpk: yes you can because people have built tools that let you post to git from micropub
+#indieweb @benwerd: you can just use wordpress and add indieweb plugins, or you can use withknown.com
+#indieweb @t: I'd like to introduce @dshanske and @willnorris who have made wordpress work
+#indieweb @benwerd: There is also silo.pub that Kyle has built to connect to existing blogging tools like blogger tumblr and wordpress
+#indieweb @aaronpk: there are also tools so you can add webmention support even to a static site
+#indieweb @t: all of these sites added indieweb features one at a time, and each one gets you something
+#indieweb @t: every thing you do give you one feature - it's not a giant computer sciency stack that requires you change it all
+#indieweb ?: you are using http and html on your site already, and all these tools and components built on this
+#indieweb ?: if you think about how the web behaves for a screen reader, it is like using an automated phone system - press 1 for headings
+#indieweb @benwerd: My demo of voice bot is using chrome for voice inout and rules on the backend to respond. no machine learning
+#indieweb @aaronpk: what happens if you post a comment and it ends up in these sites, how do you update ro delete?
+#indieweb @aaronpk: the webmention spec includes a way to propagate updates and deletes, and tests for that at webmention.rocks
+#indieweb @kylewmahan: updating text is just sending a webmention again, as the URL is the identifier
+#indieweb @aaronpk: I do want to have posts that only certain people can see - @benwerd and @veganstraightedge have this
+#indieweb @aaronpk: comments that are partially private are harder to share
+#indieweb @benwerd: Known is it's own open source project you can run or we can host it for you at withknown.con
+#indieweb @aaronpk: if you're trying to implement POSSE, how do you do that? Quill just tells your micropub endpoint what to do
+#indieweb @myriadmystic: I have installed both wordpress and known and known is very good at telling you what you need to install too
+#indieweb @aaronpk: one way to POSSE is to use brid.gy Publish by adding links which bridgy fills in
+#indieweb @aaronpk: the other is silo.pub which give a common micropub api to multiple silos in a standard form
+#indieweb @edrex: My site is http://eric.pdxhub.org and it is built from github
+#indieweb @edrex: I use hypothes.is to annotate other websites, which goes into a silo 
+#indieweb @edrex: this weekend I am working on camlistore which is good at sucking data in from lots of places
+#indieweb @edrex: I want to integrate these indieweb protocols with camlistore this weekend
+#indieweb Erik: My site is http://intelligentdesigns.net/ and I want to show off https://freeyourstuff.cc/ to bring your stuff from silos
+#indieweb Erik: https://freeyourstuff.cc/ uses your own login as a browser plugin and pull down just your stuff
+#indieweb Erik: what I'm working on right now is a way to bring your reviews back to your site
+#indieweb @notenoughneon: my site is http://notenoughneon.com and notenoughneon everywhere
+#indieweb @notenoughneon: I use Quill for posting - I don't have my own publishing interface and bridgy publish to posse to twitter,facebook
+#indieweb @notenoughneon: so her's my post, http://notenoughneon.com/2016/6/4/1 can you reply to that on your own site or twitter
+#indieweb @notenoughneon: this posting through my backend to s3 and github
+#indieweb @notenoughneon: this sues a technique called PURL which uses the HTML of the posts as a content store http://notenoughneon.com/2016/5/29/purl-a-portable-content-store
+#indieweb @altsalt: My website is http://www.altsalt.net indieweb is very new to me, but I've worked on my web site for decades
+#indieweb @altsalt: I started implementing h-entry stuff, but i want to show how I point my links to my profiles
+#indieweb @altsalt: I route profile links through a short link on my own site, but indieauth doesn't follow links like that
+#indieweb @veganstraightedge: Who has deployed something to heroku? my url is http://veganstraightedge.com
+#indieweb @veganstraightedge: I'm building software for myself called darkmatter and github is still a lot of stuff
+#indieweb @veganstraightedge: heroku shipped a feature called a deploy hook - link to deploy.heroku.com from a github repo to deploy
+#indieweb @veganstraightedge: I have a link on my site that lets you deploy your own darkmatter instance
+#indieweb @veganstraightedge: here's my talk on dark matter: http://veganstraightedge.com/articles/2016/05/12/dark-matter-and-the-indieweb
+#indieweb @willnorris: My site is https://willnorris.com/ - there's a soccer player in England called Will Norris and he can't get any url 
+#indieweb @willnorris: I use jekyll as my personal site - Id in't to anything fancy - I author all my posts in vim and push markdown
+#indieweb @willnorris: I have a little command line tool for inserting timestamps and one to insert the epoch as a newbase60
+#indieweb @willnorris: I do git push live to craet the post - here it is https://willnorris.com/2016/06/indieweb-demo
+#indieweb @willnorris: and I have a command line tool to send the webmentions from the link in my post
+#indieweb @willnorris: I'm using bridgy to do my outbound posse and it is very manual
+#indieweb @willnorris: I've built a lot of go libraries - the go webmention library includes this command line tool
+#indieweb @willnorris: so you  don't need a lot of infrastructure to get up and running
+#indieweb @dshanske: my site is https://david.shanske.com - I do a lot of work on the wordpress indieweb plugins
+#indieweb @dshanske: this theme is called bearbones named after bear in the chatroom who complains about the sparsity of his design
+#indieweb @dshanske: I have my test site where I can do example posts. I can reply to aaron by pasting in his post url
+#indieweb @dshanske: I am going to deploy rel-me links and syndication links as SVG as @kevinmarks keeps annoying me about it
+#indieweb @myriadmystic: I am Cassie at https://cassie.wtf and @myriadmystic on twitter 
+#indieweb @myriadmystic: my site is wordpress and I need to deploy more indieweb plugins - I post song of the day
+#indieweb @myriadmystic: I also have Known running on sensible.mn in 2 directories - one is private and one is the content we post on social media
+#indieweb William Madison: my site is http://blindinsight.com/ - I lost my vision 3 years ago, and I need tools to help me with it
+#indieweb William Madison: I need a platform to manage flow, relationships with people - a personal CRM that work when non-sighted
+#indieweb William Madison: I have hundreds of people in my contacts in gmail, and documents in gdrive that are hard to get to
+#indieweb William Madison: there si a twitter app for the blind called chicken nugget https://q-continuum.net/chicken_nugget/
+#indieweb William Madison: with amazon, the screen reader reads everything twice as the image and the link both are marked up
+#indieweb William Madison: when blind people use a screen reader and go to your website the headers get read out twice
+#indieweb Jim Pick: My website is https://jimpick.com/ and I built serverless which hooks up amazon lambda to your website
+#indieweb Jim Pick: I have a tool called lambda comments https://jimpick.com/2016/05/05/introducing-lambda-comments/ I'd like to add webmentions
+#indieweb @rhiaro: I'm Amy and my site is http://rhiaro.co.uk
+#indieweb @jjdelc: My site is http://isgeek.net/ and I want to talk about how people handle their personal photo storage
+#indieweb @scott_gruber: my site is https://scottgruber.me and I started trying indieweb a week ago -I'm a web producer not a coder
+#indieweb @scott_gruber: I was able to gte my RSVP webmention working on the 2016 site https://scottgruber.me/notes/indiewebcamp
+#indieweb @scott_gruber: 1st time I didn't have my h-card, but the slack channel helped me fix it so I show up at http://2016.indieweb.org/#Indie%20RSVPs
+#indieweb @scott_gruber: I wanted to demo to show that the barriers to entry are low, and you can get involved easily
