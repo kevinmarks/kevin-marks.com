@@ -1,0 +1,90 @@
+#indieweb @aaronpk: we're going to demo what we've done this weekend at #indiewebsummit - 5 minutes each
+#indieweb @veganstraightedge: My url is http://veganstraightedge.com - get your stickers of the new logo that I designed based on @crystalbeasley
+#indieweb @veganstraightedge: I published a series of blogposts that I've been writing for a while. I still plan to start a podcast
+#indieweb @veganstraightedge: http://veganstraightedge.com/indieweb is the table of contents for my article series
+#indieweb @veganstraightedge: the 1st 5 are What Where When How and Who of the indieweb
+#indieweb @veganstraightedge: I syndicated them all to tumblr, wordpress and medium too and linked back as canonical
+#indieweb @veganstraightedge: the medium ones like https://medium.com/@veganstraightedge/regarding-the-indie-web-where-92bfb4ddcd83#.7eaz3e51g get the built-in canonical link back too
+#indieweb @veganstraightedge: I like it that people have been writing longer form pieces again, and keep it up
+#indieweb @znmeb: I'm writing my book https://www.masteringdfsanalytics.com/ on line, so I added webmentions and bridgy
+#indieweb @znmeb: If you link to my book, on that URL https://www.masteringdfsanalytics.com/ I should see it.
+#indieweb @notenoughneon: My site is http://notenoughneon.com this is thready - a proof co concept of indieweb crawling technology
+#indieweb @notenoughneon: with indieweb readers you only see a small portion of a thread - I only see 3 posts in this thread
+#indieweb @notenoughneon: If I paste any of the links from these posts in her it will crawl the whole thread and sort by date
+#indieweb @notenoughneon: so you can see the entire thread [applause] Code is at github.com/notenoughneon/thready
+#indieweb @gRegorLove: my website is http://gRegorLove.com and I wanted to add local search my site today
+#indieweb @gRegorLove: so I can find all my portland posts with http://gregorlove.com/search/?q=portland&after_date=&before_date=&s=1
+#indieweb @anomalily: my url is http://www.anomalily.net - last year I tried to redesign my whole site, this year just the front page
+#indieweb @anomalily: this morning I checked  on archive.org and I hadn't changed my front page since 2012
+#indieweb @anomalily: so I updated it so it isn't just 8 year ago pictures, and now it has accurate contact info
+#indieweb @kylewmahan: my site is https://kylewm.com - my goal was to add a service worker to woodwind.xyz
+#indieweb @kylewmahan: it loaded the service worker, when I'm offline instead of an error it says "I'm offline and it feels so good"
+#indieweb @kylewmahan: If I'm on my phone when I open woodwind a couple of times, it prompts me to add to homescreen
+#indieweb @kylewmahan: then it pops up on the homescreen as an app and loads this sweet app-looking thing
+#indieweb @kylewmahan: next is adding offline reading and commenting, but that's as far as I got today
+#indieweb @sandhawke: My name is Sandro and I have a lot of URL but hawke.org is good enough
+#indieweb @sandhawke: I gathered Kyle and Amy and Aaron's likes to look for like-of and rel="prev"
+#indieweb @sandhawke: I sorted by liked by all 3, 2 or 1 and this is the top 20 http://hawke.org/indie-liked.html
+#indieweb @tomwiththeweath: my url is https://herestomwiththeweather.com and I wanted to auto-deploy when I edit it
+#indieweb @tomwiththeweath: I added a post receive hook to add a ruby script that updates the code then sends webmentions
+#indieweb @tomwiththeweath: I check if any new posts are in the feed and if so I send webmentions for the post
+#indieweb @myriadmystic: I'm Cassie and my url https://cassie.wtf but I worked on sensible.mn today
+#indieweb @myriadmystic: this morning the images didn't look right on sensible.mn, and now it works and shows images
+#indieweb @jfrndz: I'm Jesus, my url is http://jfrndz.com 
+#indieweb @jfrndz: I worked on improving my jekyll workflows. I moved all my images and media assets into git lfs
+#indieweb @jfrndz: I now have full timestamps wiht timezones, not just dates
+#indieweb @jimpick: I surveyed attendees to work out #indeweb best practices for urls and hosting
+#indieweb @jimpick: the most common thing was "don't use godaddy" - the next most common was "it depends"
+#indieweb @jimpick: if you have your own domain name you can start with tumblr or something, then switch it later
+#indieweb @jimpick: wordpress was quite a common thing; jekyll and other static sites were considered a bit more advanced
+#indieweb @jimpick: more advanced things like webmention and micropub were next on the list
+#indieweb @jimpick: my notes are at http://etherpad.indiewebcamp.com/onboarding-survey
+#indieweb @dshanske: my site is at https://david.shanske.com and I did something boring today
+#indieweb @dshanske: I updated the webmention endpoint URL so that if you call it without parameters it gives a form instead of an error
+#indieweb @iwontsignuphere: I'm Julie of http://julieannenoying.com and I took photos of you all and put them on my flickr
+#indieweb @iwontsignuphere: yesterdays photos are at https://www.flickr.com/photos/tollwerk/sets/72157669305156105
+#indieweb @aaronpk: I'm at aaronpk.com - my orignal plan was to screenshot my bookmarks
+#indieweb @aaronpk: but instead I update teacup to upload photos https://teacup.p3k.io/ because we need more photos of food online
+#indieweb @aaronpk: here's a photo of my coffee from this afternoon https://aaronparecki.com/2016/06/05/8/
+#indieweb @aaronpk: my bookmarks now look like this https://aaronparecki.com/bookmarks because I grab screenshots
+#indieweb @aaronpk: sometimes I get blank images, which I think is javascript problems
+#indieweb @aaronpk: it renders webpages to pdf and shows them
+#indieweb William Madison: I'm tantek http://tantek.com/ and this is William Madison of http://blindinsight.com/
+#indieweb @t: William pointed out that we had very bad alt text on our homepage, so now they read better 
+#indieweb @t: none of the content was marked up well, it was all <b> and <br> - so now they are h3's
+#indieweb William Madison: changing to h3's meant that I get the ability to navigate and know what is to come
+#indieweb William Madison: my screen reader is Talkback on android
+#indieweb @t: I heard talkback reading back 'column 1 row 1' - it was a table. So we fixed it and it is pure CSS
+#indieweb @t: I know a little bit about CSS so that helped.
+#indieweb William Madison: then we got to homebrew website club, and we got a picture that didn't tell me anything
+#indieweb @t: we used mediawiki's default way of linking to an image, and it was the name of the image - so the img is now below text
+#indieweb @t: and then we did one more thing
+#indieweb William Madison: link 1, what did it mean? then link 2 - but why would I want to click on that?
+#indieweb @t: if you put a link in with brackets around it, mediawiki maeks it [1] but it reads out as link 1
+#indieweb William Madison: read all will read up to a link and then stop. Wikipedia is bad at this as it footnotes all the links
+#indieweb @t: so we cut the redundant links from the homepage - we changed the alt of the photo to not repeat the caption
+#indieweb @t: so we changed alt text to 'photo of past event' and then read the caption.
+#indieweb William Madison:  Then I could click to the event, if i wanted to, but knew it was not the last event
+#indieweb @t: so we should put some guidlines up on how to author the wiki text  for accessibility
+#indieweb @t: but these accesibility edits improved the home page for everyone 
+#indieweb @anomalily: there is also a plugin for wordpress wp-accesibility that adds accessibility info
+#indieweb @t: the learning I got from this was to edit the alt text to make sense in context fo text before and after it
+#indieweb William Madison: 1 things for apps - If you're on android install 'accessibility screener' by google and it will warn you
+#indieweb @scott_gruber: I'm at https://scottgruber.me I was working on post types for articles and notes
+#indieweb @scott_gruber: I was able to sign in to the wiki with my domain, and add microformats on my articles and notes
+#indieweb @scott_gruber: I added a related articles link to match articles with the same category
+#indieweb @scott_gruber: I was able to validate my pages with indiewebify.me
+#indieweb @kylewmahan: Bridgy is a tool for sucking back your responses from social network sites back to your own site
+#indieweb @kylewmahan: @snarfed posted stats: bridgy has >3k users, ~500k webmentions sent (successfully) to ~1k unique domains,
+#indieweb @kylewmahan: and @snarfed said  >4M responses handled (likes, comments etc), 13k POSSEs, total cost of ~$.01/user/month
+#indieweb @kylewmahan: here's his link http://indiewebcamp.com/irc/2016-06-05/line/1465168146110
+#indieweb @t: those were some really good demos built in a day - great job everyone
+#indieweb @aaronpk: there are some indiewebcamp t-shirts left in medium for $20/each - we will do another run
+#indieweb @t: the next indiewebcamp is on August 27-28 in New York City
+#indieweb @t: nothing is yet planned for July, but if someone wants to organise an indiewebcamp go to indiewebcamp.com
+#indieweb @benwerd: I thought there was one in Edinburgh but I may be making that up
+#indieweb @dshanske: Please come to indiewebcamp New York - @t showed up last time
+#indieweb @t: last time there was a snowstorm
+#indieweb @dshanske: I can almost guarantee there won't be a snowstorm in New York in August
+#indieweb @dshanske: Strangely enough, a lot of airlines fly to New York - you can get there from most places
+#indieweb @veganstraightedge: LA is warm in november when nowhere else is so come to Indiewebcamp there
