@@ -1,0 +1,89 @@
+<html>
+<head><title>Homebrew Website Club 2016-06-29</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="fragmention.js"></script>
+<script src="hovercards.js"></script>
+<link href="style.css" media="all" rel="stylesheet" type="text/css" />
+<link rel="webmention" href="https://webmention.herokuapp.com/api/webmention" />
+</head>
+<body>
+<article class="h-entry">
+<h1 class="p-name">Homebrew Website Club <time class="dt-published">2016-06-29</time></h1>
+<div class="e-content">
+
+<div class='h-cite'><a class='h-card p-category' href='http://tantek.com/'>Tantek Çelik</a>:  <blockquote class='e-content'><p>welcome to Homebrew Website Club - this is the first one at Mozilla since the Indieweb Summit
+<p>This weekend we're going to change the main url from <a class="auto-link" href="http://indiewebcamp.com">indiewebcamp.com</a> to <a class="auto-link" href="http://indieweb.org">indieweb.org</a>
+<p>we discussed this on the wiki at <a class="auto-link" href="http://indiewebcamp.com/rename_to_IndieWeb">http://indiewebcamp.com/rename_to_IndieWeb</a> and how to move the chat logs
+<p>we're plannign on splitting the channels to indieweb, indieweb-dev and indieweb-chat
+</blockquote></div>
+<div class='h-cite'><a class='h-card p-category' href='https://dmitri.shuralyov.com'>Dmitri Shuralyov</a>:  <blockquote class='e-content'><p>I discovered indieweb a week ago, and the values and motivations were thinking along the same lines
+<p>I found indieweb through someone's personal website.
+<p>I used to make games to inspire people but now I make tools instead
+<p>I like simplicity and correctness -  I was using C++ up until a couple of years ago, but now I'm using go alone
+<p>my website is at <a class="auto-link" href="https://dmitri.shuralyov.com">https://dmitri.shuralyov.com</a> and is pretty basic, but I have a lot of go-based projects in github
+<p>so I wanted to make the github issue tracker for myself 
+</blockquote></div>
+<div class='h-cite'><a class='h-card p-category' href='http://veganstraightedge.com'>Shane Becker</a>:  <blockquote class='e-content'><p>During quiet writing hour I wrote that my girlfriend and I decided to live in SF for the summer
+<p>we base our wiki profiles on URLs at the moment, and it it a mess - the wiki is not good at structured data
+<p><a class="auto-link h-x-username" href="https://twitter.com/gregorlove">@gregorlove</a> made an infobox for users to use in the wiki, but it is dtll a ness
+</blockquote></div>
+<div class='h-cite'><a class='h-card p-category' href='http://tantek.com/'>Tantek Çelik</a>:  <blockquote class='e-content'><p>ythis kind of grew organicall
+</blockquote></div>
+<div class='h-cite'><a class='h-card p-category' href='http://veganstraightedge.com'>Shane Becker</a>:  <blockquote class='e-content'><p>so we adopted the sparlkine template model, but that means we end up wiht a DRY problem
+<p>if you go to <a class="auto-link" href="http://h-card-as-a-service.herokuapp.com/">http://h-card-as-a-service.herokuapp.com/</a> you can fill in your site and get an h-card back
+<p>as well as names we can specify pronouns so people can be addressed correctly by Loqi
+<p>I think editing a form is easier than filling in a wiki page
+<p>this link <a class="auto-link" href="http://h-card-as-a-service.herokuapp.com/chat-people">http://h-card-as-a-service.herokuapp.com/chat-people</a> is a replacement for the name lookup that we use for irc now
+<p>we need to work on making authorship work rather than just first h-card on the page eg <a class="auto-link" href="http://kevinmarks.com">kevinmarks.com</a> 
+</blockquote></div>
+<div class='h-cite'><a class='h-card p-category' href='https://dmitri.shuralyov.com'>Dmitri Shuralyov</a>:  <blockquote class='e-content'><p>I got github issues working on my own site: <a class="auto-link" href="http://gotools.org:34601/github.com/gorilla/mux/issues/174">http://gotools.org:34601/github.com/gorilla/mux/issues/174</a>
+<p>then I wrote an adaptor to turn my blog dump into the issue tracker interface
+<p>rather than build my own user registration system I enables github login for comments
+<p>my blog is at <a class="auto-link" href="https://dmitri.shuralyov.com/blog">https://dmitri.shuralyov.com/blog</a> and you can comment there with github logins
+<p>and I added emoji reactions too
+<p>after making emoji reactions work I imported LinkedIN data to my blog so you can react to my skills with emoji
+<p>after discovering what people are doing with webmentions my next job is for people to own their reactions
+<p>if you view source you see that my pages are compiled from go into javascript
+<p>ideally I'd render on the backend and show it as HTML too so you can parse it
+<p>I publish straight from my projects page to my site
+<p>all my personal stuff is open source so you can work on this 
+</blockquote></div>
+<div class='h-cite'><a class='h-card p-category' href='http://tantek.com/'>Tantek Çelik</a>:  <blockquote class='e-content'><p>we had the Indieweb summit in portland with about 50 people attending
+<p>a couple of days after that we had the w3c SocialWG meeting pushing Micropub and Webmention to CR
+<p>2 days after that we had the <a class="auto-link" href="http://decentralizedweb.net">decentralizedweb.net</a> summit at the internet archive that covered indieweb too
+<p>we organised a homebrew website club popup in London, and that is now supposed to be monthly
+<p>last week was Open Source Bridge in Portland, and <a class="auto-link h-x-username" href="https://twitter.com/aaronpk">@aaronpk</a> gave a talk on standardizing the social web
+<p>and Nuremburg held an Indieweb hack day last week
+</blockquote></div>
+
+<div class='h-cite'><a class='h-card p-category' href='http://kevinmarks.com/'>Kevin Marks</a>:  
+<blockquote class='e-content'><p>I've been doing some hacking on <a href="http://woodwind.xyz">Woodwind</a>, Kyle's indie reader
+<p> I made the posts and the subscription list use details/summary so they are collapsible
+<p>we were given a challenge by Holly Wood <a class="auto-link h-x-username" href="https://twitter.com/girlziplocked">@girlziplocked</a>: <a class="auto-link" href="https://twitter.com/girlziplocked/status/748009724910649348">https://twitter.com/girlziplocked/status/748009724910649348</a>
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Pitch: <br><br>Integrate Google Reader with Twitter.</p>&mdash; holly wood (@girlziplocked) <a href="https://twitter.com/girlziplocked/status/748009724910649348">June 29, 2016</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><p>and I realised that we can do this with indieweb. If you go to http://silo.pub and login with twitter, 
+<p>you get back a url like https://silo.pub/<a class="auto-link" href="http://twitter.com/kevinmarks">twitter.com/kevinmarks</a> (with your twitter handle instead of kevinmarks)
+<p>if you then go to http://woodwind.xyz and give it that URL, you have a feed reader logged in via twitter
+<p>If you go to settings and turn on micropub, you get reply, like and repost buttons under each entry. 
+<p>so I can reply to things in the feed like this <a class="auto-link" href="http://tantek.com/2016/182/t1/indieweb-how-to-open-web">http://tantek.com/2016/182/t1/indieweb-how-to-open-web</a>
+<p>and have the tweet show up like this: <a class="auto-link" href="https://twitter.com/kevinmarks/status/748659899517657093">https://twitter.com/kevinmarks/status/748659899517657093</a>
+<p>so <a class="auto-link h-x-username" href="https://twitter.com/kylewmahan">@kylewmahan</a>, should we add twitter etc nascar buttons to the woodwind.xyz homepage?
+</blockquote></div>
+
+</div>
+<a href="http://news.indiewebcamp.com/en" class="u-syndication">See IndieNews</a>
+</article>
+<script id="webmention-hosted">
+  (function () {
+    var sn = document.createElement("script"), s = document.getElementsByTagName("script")[0], url;
+    url = document.querySelectorAll ? document.querySelectorAll("link[rel~=canonical]") : false;
+    url = url && url[0] ? url[0].href : false;
+    sn.type = "text/javascript"; sn.async = true;
+    sn.src = "//webmention.herokuapp.com/api/embed?version=cutting-edge&url=" + encodeURIComponent(url || window.location);
+    s.parentNode.insertBefore(sn, s);
+  }());
+</script>
+
+</body>
+</html>

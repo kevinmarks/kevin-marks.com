@@ -1,0 +1,63 @@
+
+#indieweb @t: welcome to Homebrew Website Club - this is the first one at Mozilla since the Indieweb Summit
+#indieweb @t: This weekend we're going to change the main url from indiewebcamp.com to indieweb.org
+#indieweb @t: we discussed this on the wiki at http://indiewebcamp.com/rename_to_IndieWeb and how to move the chat logs
+#indieweb @t: we're plannign on splitting the channels to indieweb, indieweb-dev and indieweb-chat
+#indieweb @shurcooL: I discovered indieweb a week ago, and the values and motivations were thinking along the same lines
+#indieweb @shurcooL: I found indieweb through someone's personal website.
+#indieweb @shurcooL: I used to make games to inspire people but now I make tools instead
+#indieweb @shurcooL: I like simplicity and correctness -  I was using C++ up until a couple of years ago, but now I'm using go alone
+#indieweb @shurcooL: my website is at https://dmitri.shuralyov.com and is pretty basic, but I have a lot of go-based projects in github
+#indieweb @shurcooL: so I wanted to make the github issue tracker for myself 
+#indieweb @veganstraightedge: During quiet writing hour I wrote that my girlfriend and I decided to live in SF for the summer
+#indieweb @veganstraightedge: we base our wiki profiles on URLs at the moment, and it it a mess - the wiki is not good at structured data
+#indieweb @veganstraightedge: @gregorlove made an infobox for users to use in the wiki, but it is dtll a ness
+#indieweb @t: ythis kind of grew organicall
+#indieweb @veganstraightedge: so we adopted the sparlkine template model, but that means we end up wiht a DRY problem
+#indieweb @veganstraightedge: if you go to http://h-card-as-a-service.herokuapp.com/ you can fill in your site and get an h-card back
+#indieweb @veganstraightedge: as well as names we can specify pronouns so people can be addressed correctly by Loqi
+#indieweb @veganstraightedge: I think editing a form is easier than filling in a wiki page
+#indieweb @veganstraightedge: this link http://h-card-as-a-service.herokuapp.com/chat-people is a replacement for the name lookup that we use for irc now
+#indieweb @veganstraightedge: we need to work on making authorship work rather than just first h-card on the page eg kevinmarks.com 
+#indieweb @shurcooL: I got github issues working on my own site: http://gotools.org:34601/github.com/gorilla/mux/issues/174
+#indieweb @shurcooL: then I wrote an adaptor to turn my blog dump into the issue tracker interface
+#indieweb @shurcooL: rather than build my own user registration system I enables github login for comments
+#indieweb @shurcooL: my blog is at https://dmitri.shuralyov.com/blog and you can comment there with github logins
+#indieweb @shurcooL: and I added emoji reactions too
+#indieweb @shurcooL: after making emoji reactions work I imported LinkedIN data to my blog so you can react to my skills with emoji
+#indieweb @shurcooL: after discovering what people are doing with webmentions my next job is for people to own their reactions
+#indieweb @shurcooL: if you view source you see that my pages are compiled from go into javascript
+#indieweb @shurcooL: ideally I'd render on the backend and show it as HTML too so you can parse it
+#indieweb @shurcooL: I publish straight from my projects page to my site
+#indieweb @shurcooL: all my personal stuff is open source so you can work on this 
+#indieweb @t: we had the Indieweb summit in portland wiht about 50 people attending
+#indieweb @t: a couple of days after that we had the w3c SocialWG meeting pushing Micropub and Webmention to CR
+#indieweb @t: 2 days after that we had the decentralizedweb.net summit at the internet archive that covered indieweb too
+#indieweb @t: we organised a homebrew website club popup in London, and that is now supposed to be monthly
+#indieweb @t: last week was Open Source Bridge in Portland, and @aaronpk gave a talk on standardizing the social web
+#indieweb @t: and Nuremburg held an Indieweb hack day last week
+
+# 19:33 tantek kevinmarks: there's Woodwind that kylewm built
+# 19:33 tantek KevinMarks: I've done some hacking on it recently
+# 19:33 [shaners] joined #indiewebcamp
+# 19:33 [shaners] kevinmarks is demoing his changes to woodwind.xyz
+# 19:33 [shaners] kevinmarks: you can collapse posts
+# 19:34 tantek and subscriptions
+# 19:34 [shaners] kevinmarks: you can also expand whole feeds
+# 19:36 [shaners] kevinmarks: i was given a challenge by Holly Wood @girlziplocked:
+# 19:36 [shaners] “What if we can integrate Good Read with Twitter” @girlziplocked
+# 19:36 [shaners] kevinmarks: we can go to silo.pub, login, copy the URL from silo.pub.
+# 19:37 [shaners] kevinmarks: login to woodwind.xyz, paste that URL from silo.pub.
+# 19:37 Loqi [[Special:Log/upload]] upload * Gregorlove.com * uploaded "[[File:2016-06-29-hwc-bellingham.jpg]]"
+# 19:37 tantek challenge from Holly Wood: https://twitter.com/girlziplocked/status/748009724910649348
+# 19:37 @girlziplocked Pitch: Integrate Google Reader with Twitter. (twtr.io/1EDTQNgcT2U)
+# 19:39 gregorlove.com edited /events/2016-06-29-homebrew-website-club (+59) "/* Photos */ Bellingham" (view diff)
+# 19:39 gRegorLove Look tantek, I took a photo!
+# 19:40 [shaners] kevinmarks: follow people’s site (tantek in this example), reply from woodwind.xyz, discover the syndicated URL of the note on tantek’s site to Twitter, post a tweet (as Kevin), in reply to @t.
+# 19:40 [shaners] https://twitter.com/kevinmarks/status/748344643058708480
+# 19:40 @kevinmarks @t this street looks like it would fold up well in inception (twtr.io/1EFT2qBKCML)
+# 19:41 [shaners] @t’s tweet copy: https://twitter.com/t/status/748326335169196032
+# 19:41 @t Take me back to the pretty sunlit alleys of Paris. #latergram #nofilter #Paris #alley… http://tantek.com/2016/181/t3/sunlit-alleys-paris [photo] (twtr.io/1EFLWS5XTnC)
+# 19:41 [shaners] tantek’s original post on his site:
+# 19:41 [shaners] http://tantek.com/2016/181/t3/sunlit-alleys-paris
+# 19:41 Loqi [Tantek Çelik] a jpg. Take me back to the pretty sunlit alleys of Paris. #latergram #nofilter
