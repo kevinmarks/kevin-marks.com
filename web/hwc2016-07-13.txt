@@ -1,0 +1,29 @@
+
+#indieweb @t: welcome to homebrew website club SF - June was very eventful; this month we moved to http://indieweb.org 
+#indieweb @t: so if you go to indiewebcamp.com now you will get redirected to indieweb.org which looks less like a wiki
+#indieweb @t: this is the result of a lot of work by people filing issues and edit  the homepage - see the history https://indieweb.org/wiki/index.php?title=Main_Page&action=history
+#indieweb @t: this is a huge improvement over what we had before, especially on mobile
+#indieweb @t: we made the call to action clearer, and simplified the events sections
+#indieweb @t: also, the chat logging has been updated- to chat go to indiewebcamp.com/irc/today#bottom - to read chat got to https://chat.indieweb.org/
+#indieweb @t: we have move the more developer-related discussion to https://chat.indieweb.org/dev/
+#indieweb @t: wiki notifications moved to the dev channel, along with the protocol notifcations about webmention etc to dev
+#indieweb @t: related channels on microformats, bridgy and known are also show in the chat log page
+#indieweb @t: if a tab you are not in has an update the tab turns yellow
+#indieweb @t: if you have  any suggestions to improve the homepage further there is a github issues link: https://github.com/indieweb/wiki/issues
+#indieweb @t: Indiewebcamp Brighton is confirmed for September 24-25 https://indieweb.org/2016/Brighton
+#indieweb @t: if you want to organise or help with an indiewebcamp in your city go to https://indieweb.org/planning
+#indieweb Joe Nelson: I gave up twitter and move back to the original social network, email
+#indieweb Joe Nelson: I wrote a pots about setting up and understanding DNS and securing it https://begriffs.com/posts/2016-07-08-returning-original-social-network.html
+#indieweb Joe Nelson: you can set up SPF, DKIM and DMARC records in your DNS to secure your own email
+#indieweb Joe Nelson: Email I affectionately call the “cockroach of the internet,” because it is older than the web yet we still use it
+#indieweb Joe Nelson: I'm now wondering if I should set up a usenet server too, as that is even more decentralized than email
+#indieweb Joe Nelson: I can see how gmail makes thing more easy, but you can be penalised for good behaviour like unsubscribe headers
+#indieweb @t: thanks joe, you shouls add yourself to the https://indieweb.org/silo-quits paeg for leaving twitter
+#indieweb @t: I finally got around to blogging the text version of the keynote I gave at the indieweb summit http://tantek.com/2016/190/b1/state-of-indieweb-summit
+#indieweb Joe Nelson: do you  have webmention on your site?
+#indieweb @t: I have an rsvp on my site http://tantek.com/2016/194/t1/homebrew-website-club-mozsf that shows up on kevin's site http://known.kevinmarks.com/2016/homebrew-website-club-sf-2016-07-13 
+#indieweb Joe Nelson: haas there been much webmention spam?
+#indieweb @t: so far only through backfed spam from twitter via brid.gy Vouch will help with that.
+#indieweb @kevinmarks: you can set up dynamic webmentions on your static site with webmention.herokuapp.com
+#indieweb @t: webmention is now a w3c candidate implemention - webmention.rockshas test for you to try and report to w3c
+#indieweb @t: try your site with webmention.rocks then do an implementation report here https://github.com/w3c/webmention/tree/master/implementation-reports
