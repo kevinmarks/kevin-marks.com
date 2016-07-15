@@ -2,7 +2,8 @@
 body {font-family: "Hoefler Text", Georgia, serif; background-color: white; line-height: 1.2em; 
 display:webkit-flex; display:flex; webkit-flex-wrap:wrap; flex-wrap:wrap;}
 .h-card, .webmention-author { font-family: "Gill Sans", Roboto,Verdana, sans-serif; }
-.h-entry {max-width: 40em; line-height: 1.2em;}
+.h-entry {max-width: 40rem; line-height: 1.2em;}
+.featured {max-width: 40rem;}
 .webmention-summary,footer {max-width: 25em; }
 h1,h2,h3,.webmention-name { font-family: "Gill Sans", Roboto,Verdana, sans-serif; }
 div .h-cite {display:webkit-flex; display:flex;}
