@@ -1,0 +1,41 @@
+
+#indieweb @kevinmarks: It's homebrew website club time, get ready
+#indieweb @t: welcome to Homebrew Website Club at Mozilla - you can always check when it is at https://indieweb.org/next-hwc
+#indieweb @t: Nuremberg has a Homebrew Website club on the alternate weeks from us
+#indieweb @t: August 27-28 we have an Indiewebcamp New York City - the 2nd this year. Hopefully there won't be a blizzard this time.
+#indieweb @t: London and Brighton both had Homebrew Website Clubs earlier today - Göteborg is on summer break
+#indieweb @t: I added a minor thing on my website - I did my first bookmark post http://tantek.com/2016/209/t2/sf-webpeople-personalsites-indieweb with book mark emoji
+#indieweb @t: because I linked to Indienews https://news.indieweb.org/en - the post shows up on Indienews, the indie hacker news
+#indieweb @t: it shows up because I sent a webmention to indienews - webmention is general and different sites can interpret the meaning
+#indieweb @t: indienews is decentralized hacker news
+#indieweb @Johannes_Ernst: I have been making my own linux distro UBOS  meant to make sysadmin easier for you
+#indieweb @Johannes_Ernst: so for example it take s a single commmand to install @withknown - and a single command to update the whole thing
+#indieweb @Johannes_Ernst: I now have mattermost which is an open source slack implementation you can install
+#indieweb @Johannes_Ernst: we also have wordpress with the indieweb plugins and mediawiki
+#indieweb @Johannes_Ernst: we also have one-click offsite encrypted back up - it will zip up the whole server and put it on amazon s3
+#indieweb @Johannes_Ernst: so you can run one command on raspberry pi and one on amazon and move your entire server.
+#indieweb @Johannes_Ernst: it can now set up a website and get an ssl cert in one go
+#indieweb @Johannes_Ernst: there is an Amazon ec2 image and a virtualbox image if you want to try it
+#indieweb @kevinmarks: explaining how to livetweet myself, hoping someone will do it for me
+#indieweb @JakeHartnell: I'm Jake and my site is http://commongarden.org
+#indieweb @JakeHartnell: I'm really intersted in giving people more control over IoT
+#indieweb @JakeHartnell: http://commongarden.org is about giving people more control over agriculture 
+#indieweb @JakeHartnell: set up your own IoT server that lets you set up control over watering, lighting and pH for growing
+#indieweb @JakeHartnell: we started a project called GrowIoT -so you have  control
+#indieweb @JakeHartnell:  there is a bunch of bullshit out there that makes you go through their servers every time, we want you to control
+#indieweb @JakeHartnell: there is a Tessel 2 board designed to make this easier 
+#indieweb @JakeHartnell: GrowIoT is a meteor app at the moment, based on w3c's Web of things framework, using JSON representations
+#indieweb @JakeHartnell: the idea is to have a general UI and see data streaming in and put data into a database you own
+#indieweb @Johannes_Ernst: I want to have it on ubox - how do I get it?
+#indieweb @JakeHartnell: yes, we can make that work
+#indieweb @Johannes_Ernst: There was a thing today where a cat feeder company server went down, so cats aren't getting fed
+#indieweb @JakeHartnell: we're working with companies who are growing things like algae - they want their own data sets
+#indieweb @JakeHartnell: I'm growing a redwood tree in hydroponics - when they start out they are really tiny
+#indieweb @JakeHartnell: actually, a tree is a really good investment - if you start from seeds trees double in price every 2 years
+#indieweb @JakeHartnell: it's not as simple as just turning things on and off - hysteresis is a big thing here
+#indieweb @withknown: http://teach.kqed.org/ is a community space powered by Known, and there are more coming
+#indieweb @withknown: the way you pass courses is by posting on a social network, and comments are all indieweb
+#indieweb @withknown: Known is good for groups of people who either need to publish publicly or privately
+#indieweb @withknown: there is a lot of value in building communities, and it's not in opposition t people having their own sites
+#indieweb @withknown: also Known is hiring a PHP developer - so if you want to build communities on known contact us
+#indieweb @t: I have stickers fresh from portland - come get them
