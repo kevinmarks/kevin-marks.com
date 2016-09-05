@@ -1,0 +1,50 @@
+<html>
+<head>
+
+<body>
+<div id="box">😼</div>
+<script>
+var lasttime=null;
+var restitution =1.0
+var vx=81e-3;
+var x=0;
+var xmax=310;
+var xmin=0;
+var vy=73e-3;
+var y=0;
+var ymax=460;
+var ymin=0;
+var element = document.getElementById("box");
+element.style.position = 'absolute';
+
+function step(timestamp) {
+  if (!lasttime) lasttime = timestamp;
+  var elapsed = timestamp - lasttime;
+  x = x + vx*elapsed;
+  if (x>xmax) {
+    vx = -vx*restitution;
+    x = xmax - (x-xmax)*restitution;
+  }
+  if (x<xmin) {
+    vx = -vx*restitution;
+    x = xmin + (xmin-x)*restitution;
+  }
+  element.style.left = x + "px";
+  y = y + vy*elapsed;
+  if (y>ymax) {
+    vy = -vy*restitution;
+    y = ymax - (y-ymax)*restitution;
+  }
+  if (y<ymin) {
+    vy = -vy*restitution;
+    y = ymin + (ymin-y)*restitution;
+  }
+  element.style.left = x + "px";
+  element.style.top = y + "px";
+  lasttime = timestamp;
+  window.requestAnimationFrame(step);
+
+}
+
+window.requestAnimationFrame(step);
+</script>
