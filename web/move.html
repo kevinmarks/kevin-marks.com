@@ -1,18 +1,20 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>#box {font-size:3em;}</style>
 <body>
 <div id="box">😼</div>
 <script>
 var lasttime=null;
-var restitution =1.0
+var restitution =.95
+var ay = .1e-3;
 var vx=81e-3;
 var x=0;
-var xmax=310;
+var xmax=window.innerWidth;
 var xmin=0;
 var vy=73e-3;
 var y=0;
-var ymax=460;
+var ymax=window.innerHeight;
 var ymin=0;
 var element = document.getElementById("box");
 element.style.position = 'absolute';
@@ -21,9 +23,9 @@ function step(timestamp) {
   if (!lasttime) lasttime = timestamp;
   var elapsed = timestamp - lasttime;
   x = x + vx*elapsed;
-  if (x>xmax) {
+  if (x+element.offsetWidth>xmax) {
     vx = -vx*restitution;
-    x = xmax - (x-xmax)*restitution;
+    x = xmax-element.offsetWidth - (x+element.offsetWidth-xmax)*restitution;
   }
   if (x<xmin) {
     vx = -vx*restitution;
@@ -31,15 +33,15 @@ function step(timestamp) {
   }
   element.style.left = x + "px";
   y = y + vy*elapsed;
-  if (y>ymax) {
+  if (y+element.offsetHeight>ymax) {
     vy = -vy*restitution;
-    y = ymax - (y-ymax)*restitution;
+    y = ymax-element.offsetHeight - (y+element.offsetHeight-ymax)*restitution;
   }
   if (y<ymin) {
     vy = -vy*restitution;
     y = ymin + (ymin-y)*restitution;
   }
-  element.style.left = x + "px";
+  vy = vy+ay*elapsed;
   element.style.top = y + "px";
   lasttime = timestamp;
   window.requestAnimationFrame(step);
