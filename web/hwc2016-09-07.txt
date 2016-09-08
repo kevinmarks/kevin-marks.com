@@ -1,0 +1,36 @@
+
+#indieweb @sdepolo: what is the difference between a static site and a dynamic site?
+#indieweb @kevinmarks: I'd say that a dynamic site runs code on the server, but a static site doesn't
+#indieweb @Johannes_Ernst: from the user's point of view, a site that is the same every time you go there is static
+#indieweb @sdepolo: I'm Stacey, I'm with GoDaddy, and I've been building websites in San Francisco for 23 years
+#indieweb @sdepolo: My site is at http://staceydepolo.com/ and it is a minimal as can be, but I got rel="me" working
+#indieweb @sdepolo: I used to hate GoDaddy, so they hired people like me to tell them how to behave better
+#indieweb @Johannes_Ernst: Every business knows they want to be on the web, but nobody has the slightest idea how to do this 
+#indieweb @sdepolo: If you can see the info from other companies like you, we can advise people on what to do - we want to connect that
+#indieweb @danlyke: I wrote my first HTML browser in 1993 - I blogged before it was called blogging. 
+#indieweb @danlyke: I have 20,000 outbound links from my blog and most of them are dead and I want to fix that
+#indieweb @kevinmarks: this is where my hasing stuff at http://svgur.com/dweb?url=http%3A%2F%2Fsvgur.com%2Fi%2F80.svg comes in
+#indieweb @danlyke: we are no longer in place where we have self contained documents
+#indieweb @kevinmarks: I helped Christopher Allen set up a static old site at http://www.lifewithalacrity.com/previous/ and a new one at http://www.lifewithalacrity.com/
+#indieweb @kevinmarks: I also helped Dan Gillmor get his old sites static and working again http://citmedia.org/ and 
+#indieweb @sdepolo: how many people here have been twitter verified? (only @flm_girl) - who else wants it?
+#indieweb @kevinmarks: I also made a distributed verification tool to show rel-me links on my site kevinmarks.com it shows ticks
+#indieweb @kevinmarks: I also made a browser plugin to do this everywhere
+#indieweb @film_girl: verification was a media outreach thing or a celebrity thing, now anyone can ask for it
+#indieweb @film_girl: you used to have to lock your profile once verified and reverify if you changed it, but you could change emails
+#indieweb @film_girl: I wouldn't put a brand in my twitter handle - I know better
+#indieweb @kevinmarks: the point of rel="me" is saying that you have control over both websites and can point both ways
+#indieweb @film_girl: someone created a public page for me, and people followed it; facebook even made pages from wikipedia
+#indieweb @Johannes_Ernst: I'm building a linux distribution called UBOS - which is also Ugandan Bureau Of Statistics and I get their likes
+#indieweb @kevinmarks: ReadWriteWeb accidentally became the top link for "Facebook Login" and people tried to log into facebook and comment
+#indieweb @Johannes_Ernst: we write a lot of stuff and explain why we believe things- no-one gets to the conclusion. 
+#indieweb @Johannes_Ernst: what if I just wrote the conclusion first and make the arguments in smaller type - can we do that?
+#indieweb @kevinmarks: in effect you have the Inverted Pyramid structure that a classic New York Times article would use
+#indieweb @danlyke: If I were going to enable transclusion, you need to link to posts or paragraphs
+#indieweb @danlyke: the problem with semantic markup is that as no-one can see it so it gets broken
+#indieweb @danlyke: what if I put sha1 of every paragraph
+#indieweb @kevinmarks: that's why we use fragmention to link to the text we are quoting instead - see https://indieweb.org/fragmention
+#indieweb @sdepolo: are you using 2 factor auth for your accounts?
+#indieweb @kevinmarks: the problem is that you may not have your phone number any more -it happened to my son today: https://twitter.com/kevinmarks/status/773676072869040128
+#indieweb @film_girl: the other challenge is that your SMS can be sent to all your devices, and I've seen it hit the relay first
+#indieweb @Johannes_Ernst: if GPG didn't exist I wouldn't be married - I had to talk to my future wife in DC from Germany via encryption
