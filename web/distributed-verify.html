@@ -1,0 +1,38 @@
+<html><head><title>Distributed Verification</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="fragmention.js"></script>
+<link href="style.css" media="all" rel="stylesheet" type="text/css" />
+<link rel="webmention" href="https://webmention.herokuapp.com/api/webmention" />
+</head>
+<body>
+<article class="h-entry">
+<h1 class="p-name">Distributed Verification <svg xmlns="http://www.w3.org/2000/svg" width="1em" style="vertical-align:text-bottom" viewBox="0 0 40 40"><circle cx="20" cy="20" r="18" fill="green" stroke="lightgreen" stroke-width="3"></circle><path d="M 10,20 18,28 33,14" fill="none" stroke="white" stroke-width="6"></path></svg> <time class="dt-published">2016-09-22</time></h1>
+<div class="e-content">
+<p>There's been a lot of talk about verification recently, with Twitter making <a href="https://verification.twitter.com/welcome">their process</a> more <a href="https://blog.twitter.com/2016/announcing-an-application-process-for-verified-accounts-0">widely available</a>, and <a href="http://www.recode.net/2016/8/14/12467900/evolving-twitter-open-letter-harassment-leslie-jones-jason-calacanis-satire">Jason calling</a> for Twitter to verify everyone. However it's not exactly clear what is meant by verification, and how it has been done.
+<p>As currently codified, it is a centralized process, with <a href="https://verification.twitter.com/welcome">Twitter</a>, <a href="https://www.facebook.com/help/100168986860974">Facebook</a> and <a href="https://plus.google.com/+Wen-AiYu/posts/ZiXUSJQ3fGA">Google</a> all having their own methods. So I thought about how we could make distributed verification badges. 
+<p>Now, we already have the rel="me" standard for linking between different sites to show that you own them both. Its been around for 13 years, and is widely adopted. How about we make it into a badge?
+<p>So that's what I did. The site <a href="https://indiewebify.me">indiewebify.me</a> already had a rel="me" checker, so I wired that up into a bit of <a href="https://github.com/indieweb/verify-me/blob/master/chrome-extension/verify.js">client-side javascript</a> that looks for rel="me" links in the page, then asks indiewebify.me if they link back.
+<p><img src="km.com.ticks.png" /> <img src="twittertick.png" /> 
+<p>You can see there that Flickr, Twitter, Google+, Github, Huffduffer and GnuSocial all support rel="me" links natively. Facebook used to, but they got javascripted away.
+<p>Then, I put it into a <a href="https://chrome.google.com/webstore/detail/verify-me/nnefkajddpfponfnmaflddipljfdlcjb">Chrome browser extension</a>, so as you go around the web, it will show you if the rel="me" links you see are actually bidirectional, giving a green tick badge like this <svg xmlns="http://www.w3.org/2000/svg" width="1em" style="vertical-align:text-bottom" viewBox="0 0 40 40"><circle cx="20" cy="20" r="18" fill="green" stroke="lightgreen" stroke-width="3"></circle><path d="M 10,20 18,28 33,14" fill="none" stroke="white" stroke-width="6"></path></svg> if they are and a red cross badge like this <svg xmlns="http://www.w3.org/2000/svg" width="1em" style="vertical-align:text-bottom" viewBox="0 0 40 40"><circle cx="20" cy="20" r="18" fill="darkred" stroke="red" stroke-width="3"></circle><path d="M 10,10 30,30 M 10,30 30,10" fill="none" stroke="white" stroke-width="6"></path></svg> if they aren't.
+<img src="leo.tick.png" />  <img src="ev.tick.png" />
+<p>Now as I browse the web, I can see if people's links are mutual - it has helped me fix the links on my own sites already.
+
+<p>Try it out, see what you think. 
+</div>
+<a href="https://news.indieweb.org/en" class="u-syndication">See IndieNews</a>
+
+</article>
+<script id="webmention-hosted">
+  (function () {
+    var sn = document.createElement("script"), s = document.getElementsByTagName("script")[0], url;
+    url = document.querySelectorAll ? document.querySelectorAll("link[rel~=canonical]") : false;
+    url = url && url[0] ? url[0].href : false;
+    sn.type = "text/javascript"; sn.async = true;
+    sn.src = "//webmention.herokuapp.com/api/embed?version=cutting-edge&url=" + encodeURIComponent(url || window.location);
+    s.parentNode.insertBefore(sn, s);
+  }());
+</script>
+
+</body>
