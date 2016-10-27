@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="100%"
+   height="100%"
+   viewBox="0 0 100 100"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="SVGsharelogo.svg">
+  <metadata
+     id="metadata36">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>SVG Logo</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs34" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="916"
+     inkscape:window-height="700"
+     id="namedview32"
+     showgrid="false"
+     inkscape:zoom="4.98"
+     inkscape:cx="50"
+     inkscape:cy="49.46236"
+     inkscape:window-x="178"
+     inkscape:window-y="1162"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg2" />
+  <title
+     id="title4">SVG Logo</title>
+  <rect
+     style="fill:#ff9900"
+     y="0"
+     x="0"
+     ry="4"
+     rx="4"
+     height="100"
+     width="100"
+     id="background" />
+  <rect
+     style="fill:#ffb13b"
+     y="0"
+     x="0"
+     ry="4"
+     rx="4"
+     height="50"
+     width="50"
+     id="top-left" />
+  <rect
+     style="fill:#de8500"
+     ry="4"
+     rx="4"
+     height="50"
+     width="50"
+     y="50"
+     x="50"
+     id="bottom-right" />
+  <g
+     style="fill:#ff9900"
+     id="circles">
+    <circle
+       r="18.4"
+       cy="18.4"
+       cx="50"
+       id="n" />
+    <circle
+       r="18.4"
+       cy="27.6"
+       cx="72.400002"
+       id="ne" />
+    <circle
+       r="18.4"
+       cy="50"
+       cx="81.599998"
+       id="e" />
+    <circle
+       r="18.4"
+       cy="72.400002"
+       cx="72.400002"
+       id="se" />
+    <circle
+       r="18.4"
+       cy="81.599998"
+       cx="50"
+       id="s" />
+    <circle
+       r="18.4"
+       cy="72.400002"
+       cx="27.6"
+       id="sw" />
+    <circle
+       r="18.4"
+       cy="50"
+       cx="18.4"
+       id="w" />
+    <circle
+       r="18.4"
+       cy="27.6"
+       cx="27.6"
+       id="nw" />
+  </g>
+  <g
+     id="g4307"
+     transform="matrix(0.9,0,0,0.9,7.6405616,3.2911646)">
+    <path
+       inkscape:connector-curvature="0"
+       id="path4303"
+       d="M 58.032128,49.196787 94.979919,26.706827"
+       style="fill:#050505;fill-opacity:1;fill-rule:evenodd;stroke:#020202;stroke-width:16;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <ellipse
+       ry="11.445783"
+       rx="12.048192"
+       cy="28.11245"
+       cx="90.562248"
+       id="path4276"
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-opacity:1" />
+    <ellipse
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-opacity:1"
+       id="ellipse4280"
+       cx="90.963852"
+       cy="73.694778"
+       rx="12.048192"
+       ry="11.445783" />
+    <ellipse
+       ry="11.445783"
+       rx="12.048192"
+       cy="51.405621"
+       cx="53.815258"
+       id="ellipse4282"
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-opacity:1" />
+    <ellipse
+       style="fill:#f7f7f7;fill-opacity:1;stroke:none;stroke-opacity:1"
+       id="ellipse4284"
+       cx="90.562248"
+       cy="28.11245"
+       rx="8.6746979"
+       ry="8.240963" />
+    <path
+       style="fill:#050505;fill-opacity:1;fill-rule:evenodd;stroke:#020202;stroke-width:16;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 54.216867,53.012048 36.947791,22.48996"
+       id="path4305"
+       inkscape:connector-curvature="0" />
+    <ellipse
+       ry="8.240963"
+       rx="8.6746979"
+       cy="73.694778"
+       cx="90.963852"
+       id="ellipse4286"
+       style="fill:#f7f7f7;fill-opacity:1;stroke:none;stroke-opacity:1" />
+    <ellipse
+       style="fill:#f7f7f7;fill-opacity:1;stroke:none;stroke-opacity:1"
+       id="ellipse4288"
+       cx="53.815258"
+       cy="51.405621"
+       rx="8.6746979"
+       ry="8.240963" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path4299"
+       d="m 53.815261,51.807229 36.947791,22.48996"
+       style="fill:#ffffff;fill-rule:evenodd;stroke:#f9f9f9;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       style="fill:#ffffff;fill-rule:evenodd;stroke:#f9f9f9;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 58.032128,49.196787 94.979919,26.706827"
+       id="path4301"
+       inkscape:connector-curvature="0" />
+  </g>
+  <g
+     id="svg-textbox"
+     transform="matrix(0,-1,1,0,-46.51,100.49)">
+    <path
+       style="fill:#000000"
+       inkscape:connector-curvature="0"
+       d="m 5.3,50 89.38,0 0,40 q 0,5 -5,5 L 10.3,95 q -5,0 -5,-5 z"
+       id="text-backdrop" />
+    <path
+       style="fill:#3f3f3f"
+       inkscape:connector-curvature="0"
+       d="m 14.657,54.211 71.394,0 c 2.908,0 5.312,2.385 5.312,5.315 l 0,17.91 C 63.779,74.033 36.437,69.311 9.352,69.753 l 0,-10.227 c 10e-4,-2.93 2.391,-5.315 5.305,-5.315 l 0,0 z"
+       id="shine" />
+    <g
+       id="svg-text">
+      <title
+         id="title27">SVG</title>
+      <path
+         style="fill:#ffffff;stroke:#000000;stroke-width:0.50349998"
+         inkscape:connector-curvature="0"
+         d="m 18.312,72.927 c -2.103,-2.107 -3.407,-5.028 -3.407,-8.253 0,-6.445 5.223,-11.672 11.666,-11.672 6.446,0 11.667,5.225 11.667,11.672 l -6.832,0 c 0,-2.674 -2.168,-4.837 -4.835,-4.837 -2.663,0 -4.838,2.163 -4.838,4.837 0,1.338 0.549,2.536 1.415,3.42 l 0,0 c 0.883,0.874 2.101,1.405 3.423,1.405 l 0,0.012 c 3.232,0 6.145,1.309 8.243,3.416 l 0,0 c 2.118,2.111 3.424,5.034 3.424,8.248 0,6.454 -5.221,11.68 -11.667,11.68 -6.442,0 -11.666,-5.222 -11.666,-11.68 l 6.828,0 c 0,2.679 2.175,4.835 4.838,4.835 2.667,0 4.835,-2.156 4.835,-4.835 0,-1.329 -0.545,-2.527 -1.429,-3.407 l 0,0 C 29.113,76.888 27.895,76.35 26.571,76.35 l 0,0 c -3.23,0 -6.142,-1.314 -8.259,-3.423 l 0,0 0,0 z"
+         id="S" />
+      <polygon
+         style="fill:#ffffff;stroke:#000000;stroke-width:0.50349998"
+         points="45.082,53.005 49.92,76.342 54.755,53.005 61.588,53.005 53.344,92.854 46.494,92.854 38.236,53.005 "
+         id="V" />
+      <path
+         style="fill:#ffffff;stroke:#000000;stroke-width:0.50349998"
+         inkscape:connector-curvature="0"
+         d="m 73.255,69.513 11.683,0 0,11.664 0,0 c 0,6.452 -5.226,11.678 -11.669,11.678 -6.441,0 -11.666,-5.226 -11.666,-11.678 l 0,0 0,-16.501 -0.017,0 C 61.586,58.229 66.827,53 73.253,53 c 6.459,0 11.683,5.225 11.683,11.676 l -6.849,0 c 0,-2.674 -2.152,-4.837 -4.834,-4.837 -2.647,0 -4.82,2.163 -4.82,4.837 l 0,16.501 0,0 c 0,2.675 2.173,4.837 4.82,4.837 2.682,0 4.834,-2.162 4.834,-4.827 l 0,-0.012 0,-4.827 -4.834,0 0.002,-6.835 0,0 z"
+         id="G" />
+    </g>
+  </g>
+</svg>
