@@ -1,0 +1,29 @@
+<html><head><title>webmention test</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="fragmention.js"></script>
+<link href="style.css" media="all" rel="stylesheet" type="text/css" />
+<link rel="webmention" href="https://webmention.herokuapp.com/api/webmention" />
+</head>
+<body>
+<article class="h-entry">
+<h1 class="p-name">a note to demo webmentions <time class="dt-published">2016-11-01</time></h1>
+<div class="e-content">
+Webmention is a way to tell a url that you have linked to it.  
+See <a href="http://webmention.rocks">Webmention Rocks</a> for how to test it.
+This post is only really here so you can see webmentions arrive.
+</div>
+</article>
+<h3><img src="comments_side_bar_link.gif"></h3>
+<script id="webmention-hosted">
+  (function () {
+    var sn = document.createElement("script"), s = document.getElementsByTagName("script")[0], url;
+    url = document.querySelectorAll ? document.querySelectorAll("link[rel~=canonical]") : false;
+    url = url && url[0] ? url[0].href : false;
+    sn.type = "text/javascript"; sn.async = true;
+    sn.src = "//webmention.herokuapp.com/api/embed?version=cutting-edge&url=" + encodeURIComponent(url || window.location);
+    s.parentNode.insertBefore(sn, s);
+  }());
+</script>
+
+</body>
