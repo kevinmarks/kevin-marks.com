@@ -1,0 +1,33 @@
+<html><head><title>Day 4: Broke my Known site #100daysOfIndieWeb</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="fragmention.js"></script>
+<link href="style.css" media="all" rel="stylesheet" type="text/css" />
+<link rel="webmention" href="https://webmention.herokuapp.com/api/webmention" />
+</head>
+<body>
+<article class="h-entry">
+<h1 class="p-name">Day 4: Broke my Known site #100daysOfIndieWeb <time class="dt-published">2017-01-26 23:42-0800</time></h1>
+<div class="e-content">
+<p>What I was trying to do today was monkeypatch my <a href="http://known.kevinmarks.com">Known site</a> so that it used an updated version of fragmention rather than the old one on withknown.com. However, I typo'd the script include line so that it reads:
+<p><code>&lt;script src="http://www.kevinmarks.com/pushyfragmention.js&gt;&lt;/script </code>
+<p>This manages to put the rest of the page inside a script tag and so became blank.
+Because known includes this header prefix in the editing pages too, I can't undo this mistake. 
+<p>It also apparently breaks micropub posting, and certainly micropub auth and login.
+<p>You can however still read the site as <a href="http://known.kevinmarks.com/?_t=amp">AMP</a> or <a href="http://known.kevinmarks.com/?_t=rss">RSS</a>. Which has a certain irony. 
+<p>I think I extended the meaning of Tantek's <a href="http://tantek.com/2015/069/t1/js-dr-javascript-required-dead">js;dr</a> tonight anyway.
+<p><a href="http://known.kevinmarks.com/tag/100DaysOfIndieWeb?_t=amp" class="p-category" rel="tag">#100DaysOfIndieWeb</a>
+</div>
+</article>
+<script id="webmention-hosted">
+  (function () {
+    var sn = document.createElement("script"), s = document.getElementsByTagName("script")[0], url;
+    url = document.querySelectorAll ? document.querySelectorAll("link[rel~=canonical]") : false;
+    url = url && url[0] ? url[0].href : false;
+    sn.type = "text/javascript"; sn.async = true;
+    sn.src = "//webmention.herokuapp.com/api/embed?version=cutting-edge&url=" + encodeURIComponent(url || window.location);
+    s.parentNode.insertBefore(sn, s);
+  }());
+</script>
+
+</body>
