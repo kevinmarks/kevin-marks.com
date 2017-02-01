@@ -1,0 +1,538 @@
+<html>
+<head><title>Microservices Summit 2017-01-31</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="fragmention.js"></script>
+<script src="hovercards.js"></script>
+<link href="style.css" media="all" rel="stylesheet" type="text/css" />
+<link rel="webmention" href="https://webmention.herokuapp.com/api/webmention" />
+</head>
+<body>
+<article class="h-entry">
+<h1 class="p-name">Microservices Summit <time class="dt-published">2017-01-31</time></h1>
+<div class="e-content">
+
+<div class='notercite h-cite'><a class='h-card p-category' href='http://austingunter.com'>✏Austin W. Gunter</a>:  <blockquote class='e-content'><p>this is the 2nd microservices practitioners summit - there wasn't much from people who did it at scale
+<p>so we wanted to bring in people with that practical experience to talk to you today
+<p>20% people have 0 microservices in production - the rest are already running microservices
+<p>about 60% of people are interested in resiliency, 
+<p>We start teh day with technology with <a class="auto-link h-x-username" href="https://twitter.com/mattklein123">@mattklein123</a> and <a class="auto-link h-x-username" href="https://twitter.com/varungyan">@varungyan</a>
+<p>the hashtag for today is #msvsummit - look for that
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='https://twitter.com/@mattklein123'>Matt Klein</a>:  <blockquote class='e-content'><p>I'm Matt Klein, a software engineer at Lyft - I'm going to say how we got to a microservice mesh architecture
+<p>3-5 years ago Lyft had no SoA - an PHP/Apache monolith with MongoDB as the backing store with 1 load balancer
+<p>PHP/Apache's process per connection model doesn't talk to the load balancer, so we had problems there too
+<p>2 years ago we had an external LB, a php monolith wiht haproxy to call internal ELBs + a bunch of python services
+<p>we had problems with logging and tracing and understanding which layer something died in
+<p>in SoA now the industry  had tons of languages and frameworks - 3-5 different languages in one deployment
+<p>also, there are per-language libraries for making service calls - Php uses curl, Java uses finagle etc
+<p>we have multiple protocols - http http2 gRPC, databases etc
+<p>we even have multiple infrastructures IaaS CaaS on premise and more
+<p>we een have multiple heterogenous load balancers, and very different observability of stats, tarcing and logging
+<p>we also end up with multiple implementations of retry, circuit breaking and rate limiting, often partial ones
+<p>if you're using all of this stuff in your 5 langs it can be impossible to know what is calling what
+<p>and Authn and Authz is often an afterthought, with no key rotation 
+<p>People do not understand how all these components come together to build a reliable system
+<p>People are feeling a lot of hurt, especially around debugging
+<p>when I joined Lyft people were actually afraid of making service calls as they couldn't know what went wrong
+<p>you have limited visibility into different vendors logging and tracing models, so there is little trust
+<p>existing libraries often have partial implementations of best practices - 
+<p>when we were building Envoy, people would ask why they needed this for retry 
+<p>retry done wrong is the best way to bring down a system 
+<p>if you do have a good answer, you are using a library that locks you into a technology stack
+<p>if you're invested in JVM and you want to use Go services, you need to port the big library over
+<p>if you have a big standard library, upgrading it to a new version can be  a huge pain point
+<p>Robust observability and easy debugging are the most important thing - without that devs don't trust the system
+<p>we have not given people good tools in SoA to do this kind of debugging - so productivity goes down
+<p>when people don't trust the network of service calls, they rebuild monoliths with fixed libraries again
+<p>Envoy wants the network to be transparent to applications, which is really hard
+<p>Envoy is not a library, it is more like nginx or haproxy - it is its own process that is next to each application
+<p>the application talks to Envoy locally, Envoy does the work and moves stuff back to the applicaction
+<p>Envoy is in C++ and is a byte oriented proxy - it can be used for things other than HTTP - stunnel, redis, mongo 
+<p>as well as that L3/L4 filter stack we have an L7 http filter architecture that lets you do header work too
+<p>Envoy was built to be http2 first, but with an http 1.1 bridge - we can proxy gRPC which is http2 based
+<p>we have servoce discovery and active/passive health checking 
+<p>and advance load balancing with timeouts, circuit breaking rate limiting and so on
+<p>we have best in class observability of tracing and stas,
+<p>we have enough features to replace nginx as an edge proxy as well as in service to service mode
+<p>the model we have is many service clusters with an envoy instance with each service, talking to each other
+<p>and also using Envoy to call out to External services and discovery. 
+<p>your service is only aware of your local Envoy, so doesn't change whether in local, dev or production
+<p>Envoy sets up the environment so that dev, staging or production just works - can mix local and cloud abstactly
+<p>we have 2 kinds of edge proxies - one terminating TLS and connecting our internal services,
+<p>but we also use Envoy to proxy between different geographic datacenters
+<p>we have an edge proxy Envoy, which calls the Envoy on our legacy monolith and python and go services
+<p>services don't talk to anything without talking to Envoy - it proxies DynamoDB and MongoDB too
+<p>The way that most service discovery works is fully consistent systems like zookeeper and consul
+<p>
+<p>
+<p>but service discovery isn't fully consistent - it changes over time
+<p>if you have a fully consistent problem that can be eventually consistent, make it eventually consistent
+<p>
+<p>
+<p>
+<p>
+<p>because service discovery is an eventually consistent problem, we designed it that way
+<p>we have about 300 lines of python that checks each server once a minute into a dynamodb
+<p>we have active healtheck checks every 15 seconds, and passive restart on fail
+<p>we trust the active health check more than the discovery service as it is lossy
+<p>if the health check fails we don't route; if the health check fails and discovery shows absent we remove the node
+<p>we have not touched our discovery service in 6 months because it does converge
+<p>people who do use zookeeper and etcd fully consistent systems build eventually consistent discovery on top
+<p>we have multiple service discovery models, including zone aware load balancing - local first then remote
+<p>we can generate dynamic stats, and also do circuit breaking and rate limiting too
+<p>we plan to open source the rate limiting service next week
+<p>we support shadowing so you can fork traffic to a test server
+<p>we ahve built in retries, and inner (1 service) and outer (whole callchain) timeouts
+<p>you can have all these features, but without observability no-one will use them
+<p>by routing all traffic through Envoy, we can produce stats, but also sample entire request chains
+<p>because we have a stable requestID, we can trace and log across multiple systems and servers
+<p>you can have a dashboard that shows all connections between any 2 services
+<p>this lets you look at any 2 hops in the system and how they relate
+<p>for all of the data transited through envoy, you can see the flow of requests through services by default
+<p>our logging system kibana uses the stable request id to connect all the different components and what happened
+<p>a lot of people say 'performance only matters if you are google' - dev time is more important 
+<p>but latency matters, and people don't think about tail latency - the p99+ problem
+<p>we have a lot of tools that make programmers more productive, but much harder to see where time is being spent
+<p>throughput may not be the most important thing, but being abel to reason about where time is spent really matters
+<p>if the service proxy itself has tail latencies that are hard to reason about, you lose the debugging benefits
+<p>you don't want a proxy that adds latency variance and makes your debugging harder
+<p>Lyft has >100 services, >10,000 hosts and >2M RPS - we proxy gRPC, mongodb and dynamodb too
+<p>we sniff the mongodb and dynamodb traffic to generate stats on performance and latency
+<p>we are adding redis soon to reduce outliers
+<p>we are spending more time on outlier detection and rejection
+<p>we are working to standardize load balancing and rate limiting across services
+<p>Envoy has only been open source for about 4 months, but we have a lot of interest already
+<p>we want to build a larger community around Envoy
+<p>you can get the code at <a class="auto-link" href="http://lyft.github.io/envoy">lyft.github.io/envoy</a>
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='http://photos.kodachi.com'>Flynn</a>:  <blockquote class='e-content'><p>when you were getting lyft to switch over to Envoy, what was hard?
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='https://twitter.com/@mattklein123'>Matt Klein</a>:  <blockquote class='e-content'><p>we started incrementally - Envoy as front proxy first. then we added envoy to the monolith, then on mongodb
+<p>we are now fully deployed but it took a year to get concurrent development
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='https://twitter.com/q'>q</a>:  <blockquote class='e-content'><p>do you reserve a core for envoy?
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='https://twitter.com/@mattklein123'>Matt Klein</a>:  <blockquote class='e-content'><p>you can do that, but it can make things work. Envoy is non-blocking and parallel. so run 1 thread per core
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='https://twitter.com/q'>q</a>:  <blockquote class='e-content'><p>are data piplelines eg spark clusters integrated with Envoy?
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='https://twitter.com/@mattklein123'>Matt Klein</a>:  <blockquote class='e-content'><p>we do use them fro LB but we don't use it directly for Spark
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='https://twitter.com/q'>q</a>:  <blockquote class='e-content'><p>can you add filters?
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='https://twitter.com/@mattklein123'>Matt Klein</a>:  <blockquote class='e-content'><p>we don't have any public docs on filters yet, but multiple companies have written them from the code
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='https://twitter.com/q'>q</a>:  <blockquote class='e-content'><p>a disadvantage is bringing the work into the envoy team - how do you get it out again?
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='https://twitter.com/@mattklein123'>Matt Klein</a>:  <blockquote class='e-content'><p>that hasn't been a problem so far - "if the word 'car' appears in Envoy we have done it wrong"
+<p>the filtering model is extensible enough that we haven't needed to block on Envoy
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='https://twitter.com/q'>q</a>:  <blockquote class='e-content'><p>a lot of systems burn network bandwidth on health checks - do you watch response and health checks separetely?
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='https://twitter.com/@mattklein123'>Matt Klein</a>:  <blockquote class='e-content'><p>active and passive health checks are configurable so you can decide which to use.
+<p>there is perception that active health checking is wasteful, but with plaintext kept-alive http1 it is very low
+<p>we run health checks every 15-30s and it is noise in our traffic graph
+<p>if it does have scale issues we are working on subsetting these so the traffic does't transit so much
+<p>there is no reason that the service discovery system couldn't do health checks too
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='https://twitter.com/q'>q</a>:  <blockquote class='e-content'><p>I like to deploy microservices in docker containers, would that work for Envoy?
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='https://twitter.com/@mattklein123'>Matt Klein</a>:  <blockquote class='e-content'><p>we support hot restart in Envoy so it can new code deploy without losing connections-that works fine in containers
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='http://austingunter.com'>✏Austin W. Gunter</a>:  <blockquote class='e-content'><p>we are livestreaming at <a class="auto-link" href="http://microservices.com/livestream">microservices.com/livestream</a> - follow along there
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='https://twitter.com/@varungyan'>Varun Talwar</a>:  <blockquote class='e-content'><p>I'm Varun from Google - I'm here to talk about microservices at Google, but based on our gRPC experience
+<p>Stubby is an internal framework at Google for all service to service calls 
+<p>we want to bring what we learned from Stubby into the newer open source gRPC
+<p>people want Agility and Resilience, and that is why we use microservices,
+<p>but we also care about developer productivity - as <a class="auto-link h-x-username" href="https://twitter.com/mattklein123">@mattklein123</a> said observabilty is key to trust
+<p>even a 400ms delay can have a measurable impact on search quality and usability
+<p>Stubby was an RPC - Remote Procedure Call - framework written when google started, used for all google services
+<p>Stubby is a large framework, and parts of it are being made more open
+<p>Google's scale is about 10^10 RPCs per second in our microservices
+<p>every Googler defined datatypes and service contarcts and magic around load balancing, monitoring and scaling
+<p>making google magic available externally - Borg became Kubernetes; Stubby became gRPC
+<p>HTTP1.x/JSON doesn't cut it  at Google scale - stateless, text, loose contracts, TCP per request, nouns-based
+<p>a framework with tighter contracts, more efficient on the wire and with language bindings help a lot
+<p>when APIs are evolving at different rates, in classic REST this needs a lot of work in polyglot environments
+<p>from a pure compute perspective, having text on the wire isn;t most efficient
+<p>we needed to establish a lingua franca for strongly typed data - Protocol buffers released in 2003 
+<p>declare your data in a common description format, and generate code for any language with fwd/backward compatibility
+<p>at Google you are either doing Proto to Proto, or Proto to UI - that's it
+<p>protobufs incrementally number fields in order of creation, so you can evolve dat structures over time
+<p>the other big protobuf advantage is carrying binary on the wire, giving a 2-3x improvement over JSON
+<p>designing for fault tolerance and control is key - sync vs async; deadlines and cancellations; flow control, metadats
+<p>different languages default to doing these in different ways, so moving to the core helps
+<p>in GRPC we have deadlines, not timeouts - each service will add on time taken and abort if it exceeds deadline
+<p>deadlines are expected, but we also need unpredictable cancellations too, when result not needed
+<p>with services you need cascaded cancellations that clears all dependent calls too
+<p>flow control is not a common occurrence, but matching a fast sender to a slow receiver or vice versa does matter
+<p>with gRPC when there are too many requests or responses there is a signal sent to slow down
+<p>you can set up service configuration policies that specifies deadlines, LB policy and payload size
+<p>the SREs like having this config separately so they can control when things are surging
+<p>you don't just need an RPC contract, but also to send metadata for AuthN and trace contexts etc
+<p>this metadata helps keep the control flow out of the specific APIs
+<p>you want observability and stats - you need a common nomenclature to make sense of large call graphs
+<p>you can go to any service endpoint and see a browser dashboard in real time on how much traffic is flwoing
+<p>Tracing request through services is key - you can add arbitrary metadata such as client type and track it all
+<p>you often have 1 query out f 10,000 that is slow - you want to trace it through the whole call chain
+<p>you also want to look at aggregate info to see where the hotspots are
+<p>Load Balancing matters, and you need to communicate between the front end, back end and the load balncers
+<p>gRPC-lb is moving to a simpler model where the client has a round-robin list of endpoints and the backend models them
+<p>gRP is at 1.0 now, and has more platforms and languages now it is in open source
+<p>gRPC has service definitions and client side libraries that bridge multiple languages and platforms
+<p>http2 is the basis which give streaming and much better startup performance
+<p>coming soon: reflection; health checking; automated mock testing
+<p>it's at <a class="auto-link" href="http://grpc.io">grpc.io</a> and <a class="auto-link" href="http://github.com/grpc">github.com/grpc</a>
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='http://photos.kodachi.com'>Flynn</a>:  <blockquote class='e-content'><p>how did you switch from Stubby?
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='https://twitter.com/@varungyan'>Varun Talwar</a>:  <blockquote class='e-content'><p>that si still happening at google, as a lot of gRPC benefits are already in Stubby
+<p>we have to show RoI to service owners inside Google. If you don;t have Stubby, thev alue is clearer
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='https://twitter.com/q'>q</a>:  <blockquote class='e-content'><p>how do you do the proto sharing and distribution? one concept of 'user' or every service has one?
+<p>do you share contracts between services?
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='https://twitter.com/@varungyan'>Varun Talwar</a>:  <blockquote class='e-content'><p>every service defines its own, apart from things like tracing and logging 
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='https://twitter.com/q'>q</a>:  <blockquote class='e-content'><p>do you generate client and service code from protobufs? does it limit flexibility?
+<p>yes we generate both; all we generate are stubs i that language - whatever you define is what you get
+<p>we try to make our APIs as close as possible to the language you are using, so we have fututes in node etc
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='http://blog.christianposta.com'>Christian Posta</a>:  <blockquote class='e-content'><p>I'm Christian Posta from Redhat talking managing data inside microservices slides at <a class="auto-link" href="http://bit.ly/ceposta-hardest-part">bit.ly/ceposta-hardest-part</a>
+<p>I commit and contribute to apache projects like Camel, ActiveMQ and Kafka
+<p>I used to work at a large webscale microservices unicorn company, now I bring that to enterprise
+<p>when developers approach Microservices or what was called SoA, they ned to think about more than infrastructure
+<p>Adrian Cockcroft warns that you need to copy the Netflix process, not just the results of it
+<p>when Enterprise IT approaches this microservices world, there is a mismatch of culture
+<p>microservices is about focusing on speed - in terms of being abel to make changes to the system in production
+<p>IT in Enterprise has always been seen as a cost center, or as a way of automating paper processes
+<p>how do you change a system not designed with this kind of iteration in mind to go fast?
+<p>we need to think about managing dependencies between teams as well as services
+<p>the difficulty of data is that it is already a model of the world - it hasn't got the human context
+<p>even something as simple as a book ends up in multiple models - editions, physical copies, listings by author
+<p>each service looks at these things a little bit differently - Domain Driven design helps with this
+<p>domain driven design means breaking things into smaller understandable models & defining boundaries around them
+<p>enterprise models can end up more complex than purely virtual companies, as the models map to processes
+<p>if you write a lot of denormalised data into your databases, you need to plan for the queries you're running
+<p>Keep the ACID and relational conveniences as long as you can, but be aware of what they cost
+<p>with microservices we're saying "OK, database workhorse, we've go it form here"
+<p>saying "a microservice has its own database" sounds very worrying to an enterprise data modeller
+<p>microservices means taking concepts of time, delay and failure seriously rather than ignoring them
+<p>when we need to distributed writes to maintain consistency, we end up building a transaction manager
+<p>it is easy to accidentally build an n+1 problem into your services, and you end up adding extra calls to fix 
+<p>with CAP, you can't trade off P, so you have to pick C or A - but there are  lots of consistency models
+<p>you don't need strict linear consistency if there is no causal relationship between entities
+<p>in real life there is very little strict consistency—think how paper processes propagate updates over time
+<p>a sequential consistency is often a good answer - a log or queue to process data in order
+<p>when we do this, we have made the replication and indexing that databases did for us an explicit process
+<p>Yelp has mySQL Streamer, LinkedIN has Databus, Zendesk has Maxwell - all do this queue to DB model
+<p>There's a project <a class="auto-link" href="http://debezium.io">debezium.io</a> that captures database changes and streams them in a queue to something like Kafka
+<p>I'm going to do a live demo of <a class="auto-link" href="http://debezium.io">debezium.io</a>
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='https://twitter.com/q'>q</a>:  <blockquote class='e-content'><p>what were you going to demo?
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='http://blog.christianposta.com'>Christian Posta</a>:  <blockquote class='e-content'><p>I was going to start up kafka and a mysql database, and connect them with debezium
+<p>debezium captures the primary key of the table and uses this to send the before and after changes to the DB
+<p>so we can show a change to the database from mysql binlogs in a JSON form in a kafka queue
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='https://twitter.com/q'>q</a>:  <blockquote class='e-content'><p>how do we make this work in an environment without arbitrary extentions, like Postgres?
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='http://blog.christianposta.com'>Christian Posta</a>:  <blockquote class='e-content'><p>we are working on adding Postgres log support - there was a PR for that recently
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='https://twitter.com/q'>q</a>:  <blockquote class='e-content'><p>when you mentioned Domain driven design is CQRS in play?
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='http://blog.christianposta.com'>Christian Posta</a>:  <blockquote class='e-content'><p>CQRS is separating different read/write workloads into different data systems 
+<p>if your reads are simpler you could use this to transform data into a denormalised system
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='http://austingunter.com'>✏Austin W. Gunter</a>:  <blockquote class='e-content'><p>we've had around 1000 people tuned in to the stream at <a class="auto-link" href="https://www.microservices.com/livestream/">https://www.microservices.com/livestream/</a> and we're starting again
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='https://twitter.com/@jmholtzman'>Josh Holtzman</a>:  <blockquote class='e-content'><p>Microservices are the Future, and always will be
+<p><a class="auto-link" href="http://xoom.com">xoom.com</a> is a digital remittance company founded 2001, acquired bluekite in 2014, joined paypal 2016
+<p>remittance is sending money between countries - we go between 56 countries at the moment
+<p>as a finance company, we have very strict regulatory compliance, both in the US and the 55 other companies
+<p>we have 16 years of code and 16 years of data to migrate into our microservices
+<p>we have lots of code and lots of tables, and code that assumes all those tables are joinable
+<p>xoom was an all java shop, but bluekite made us polyglot - we have many languages and persistence techs now
+<p>Paypal acquiring us imposed new rules on us, but they also are used to a polyglot environment
+<p>we wanted to break up the monolith when we hit build time limits on our SQL based infrastructure
+<p>so a few years ago we started to decouple the teams to reduce the build times
+<p>we wanted to understand which parts of our stack were the bottlenecks, and scale them appropriately
+<p>moving to microservices we had to change a lot of programming paradigms and idioms
+<p>we needed service discovery and monitoring to understand performance
+<p>we had snowflake code all over the place in our load balancers and deploy path
+<p>we needed to switch to a unified build and deployment pipeline
+<p>and we needed to pick apart our databases and define the data ownership and contracts
+<p>microservices can be a distraction to our engineers - things like circuit breakers and throttles are hard
+<p>API designs need thought - the N+1 problem needs thinking about, and RPC vs REST adds complexity too
+<p>with API designs, response code granularity can be a huge issue too - do you pick just some http response codes?
+<p>Contracts are a key point if you are polyglot coders - you need strong contracts for packaging and metadata
+<p>we use docker containers for microservices; each service has metadata on the containers and runtime introspection
+<p>we include things like pager rota in the metadata so you can introspect them to know who to call
+<p>we can monitor and manage the instances uniformly with this model
+<p>Having polyglot code can slow you down; if you can stay in a single language and db, do it
+<p>our service discovery is similar to what Envoy is doing, 
+<p>we have a custom layer 7 load balancer - zoom.api resolves to the local network
+<p>so I can hit auth.2.zoom.api and get all the instances with reputation based routing
+<p>we have a zookeeper backend , but we have an eventually consistent layer on top of it
+<p>we have a service portal that shows the services and health checks adn routing for each one
+<p>if you integrate k8s, you need to think about external vs internal service discovery and ip routing
+<p>for monitoring we initially set up a graphite system and threw lots of data at it, and crashed it with load
+<p>we were trying to instrument time taken on every call, and this was enough to overwhelm graphite
+<p>we chose to use http and json for our internal calls between apis
+<p>a call that involves a post and a write as opoosed to a read, is much more complex to monitor
+<p>we built a time series for every endpoint and call, and that also created a  lot of traffic 
+<p>we used the dropwizard monitoring library which gave use gauges and histograms as well as counters
+<p>we were very worried about performance when we started on this journey - we were worried about extra net traffic
+<p>we spent a lot of time instrumenting our code before we made any changes, and I recommend that
+<p>we improved the throughput of our service dramatically, primarily because of the shift to accurate monitoring
+<p>this helped us reduce contention over shared resources, despite making more RPCs overall
+<p>the latency distribution is wider now - we adjusted latency sensitive APIs to be deployed nearby
+<p>infrastructure as code matters - TDD isn't just fro code, write tests for deployment too
+<p>don't treat deployment code and networking configurations as special - they all need tests too
+<p>by standardising app packaging, we can have contracts for deployment too
+<p>we use git-flow for new features, with a container per branch using docker-flow, automated+ self service deployments
+<p>by standardising deployment pipeline, we can have a portal to enable PMs to deploy versions withtout ops
+<p>data ownership is hardest  - we are eliminating cross-domain joins and adding apis to wrap them
+<p>we have about 100 different services now
+<p>the key is to measure everything, and be prepared to scale monitoring to cope
+<p>application packaging contracts and delivery pipelines are mandatory
+<p>staff a tooling team to build, test and deployment automation and bring in network ops
+<p>although our monolith is still partly there, the infrastructure and cultue has improved everything
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='http://photos.kodachi.com'>Flynn</a>:  <blockquote class='e-content'><p>what was the challenge you were least expecting?
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='https://twitter.com/@jmholtzman'>Josh Holtzman</a>:  <blockquote class='e-content'><p>the metric explosion caught us off guard - be prepared fro that
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='https://twitter.com/q'>q</a>:  <blockquote class='e-content'><p>how do you do integration testing when you have a large number of services?
+<p>we have ~200 clusters we can spinup and down in both amazon and our data center
+<p>the other integration testing is to create mocks so you can run those. also can run containers locally and route to cloud
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='https://twitter.com/@jmholtzman'>Josh Holtzman</a>:  <blockquote class='e-content'><p>for us, anyone who writes code can't touch the production network and vice versa - this is not very DevOps
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='https://twitter.com/q'>q</a>:  <blockquote class='e-content'><p>sounds like you built togetehr multiple solutions. how do you monitor end to end?
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='https://twitter.com/@jmholtzman'>Josh Holtzman</a>:  <blockquote class='e-content'><p>for our java applications we wrote a wrapper applications to give tracing for free
+<p>calico gives us the ability to have routable ip addresses per pod, which helps us with monitoring the whole system
+<p>we found that we had 2 services that constantly want to make joins, so they need to be one service not two 
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='https://twitter.com/q'>q</a>:  <blockquote class='e-content'><p>you mentioned that this was a cultural change, what was the impact?
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='https://twitter.com/@jmholtzman'>Josh Holtzman</a>:  <blockquote class='e-content'><p>our product managers have been very customer focused. The big change was getting them to think about SLA and contracts as well
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='https://twitter.com/q'>q</a>:  <blockquote class='e-content'><p>were there challenges in batch jobs?
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='https://twitter.com/@jmholtzman'>Josh Holtzman</a>:  <blockquote class='e-content'><p>putting the batch jobs with the domain that owns them makes more sense
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='https://www.datawire.io/about/'>Rafi Schloming</a>:  <blockquote class='e-content'><p>I'm Rafi Schloming from datawire - we founded it in 2014 to focus on microservcie from a distributed systems background
+<p>I participated in every version of AMQP and had built lots of distributed systems with them, so I thought it would be easy
+<p>I wanted to look back at my learning about microservices
+<p>wikipedia isn't helpful here - "there is no industry consensus" "Processese that communicate" "enforce modular naturally"
+<p>there are a lot of good essays about microservices, but also a lot of horror stories of going wrong
+<p>the 3 aspects I want to cover is the technology, the process and the people
+<p>we learned from experts, from bootstrapping ourselves and from people migrating to microservices from many origins
+<p>3 years ago it was very technically focused - a network of small services, hoping it would make better abstractions
+<p>we read every story of microservices, went to conferences, started the summit ourselves to share the ideas
+<p>the people picture: everyone  has a developer happiness/tooling/platform team and a service team that build features
+<p>technically we saw a control plane for instrumenting the services , the services and a traffic layer
+<p>it's a lot of work to build a control plane, so we decided to provide that as a service for the teams
+<p>so we ingest interesting application events - start, stop, heartbeat. log these and register services; transform & present
+<p>we were building a classic data processing pipe line of ingest, write source of truth, transform and present
+<p>for version 1 we built discovery - highly available, low throughput and latency; low complexity and able to survive restart
+<p>we started with vert.x and hazelcast and websockets with smart clients
+<p>for version2 we added tracing - high throughput , a bit higher latency was OK
+<p>version 3 we added persistence for tracing by adding elastic search
+<p>this was the 1st hint of pain - we had to reroute data pathways and had coupled changes, and this gave a big scary cutover
+<p>v4: we added persistence for discovery, using postgres for persistence, which was another scary cutover -lets fix our tools
+<p>Deployment was hard. we had tried docker, but that was hard to bootstrap; kubernetes required google not amazon
+<p>we redesigned our deployment system to define the system in git to bootstrap from scratch
+<p>this meant we could use minikube locally with postgres and redis in docker images
+<p>and then spin this up to production running in amazon with our own kubernetes cluster
+<p>we built tooling to make this work across the different dev and deployment environment
+<p>did we just reinvent DevOps the hard way? we were thinking about operational factors, we built a service not a server
+<p>rather than a Service Oriented Architecture, we had a Service Oriented Development
+<p>Architecture has lots of upfront thinking and a slow feedback cycle. Development is more incremental
+<p>Development is frequent small changes with quick feedback and measureable impact at each step
+<p>so microservices are a developmental methodology for systems, rather than an architectural one
+<p>small frequent changes and rapid feedback and visibility are given for a codebase, but harder for a whole system
+<p>so microservices are a way to gather rapid feedback - not just tests but live measurement
+<p>instead of build - test -deploy we want build - test - assess impact - deploy
+<p>so measure throughput, latency, and availability measured as error rate
+<p>the experts model of canary testing, circuit breakers and so on are ways of making sense of a running system
+<p>Technical: small services; scaffolding for changes Process: service oriented development People: tools and services
+<p>working with people migrating gave us much more information
+<p>migration is about people. Picking a technical stack for the entire Org is hard; refactoring has lots of org friction
+<p>creating an autonomous team to tackle a problem in the form of a service is much easier
+<p>some organisations hit a sticking point, others didn't slow down
+<p>the way to think about microservices is in dividing up the work: build features (dev) Keep it running (ops)
+<p>you can't easily divide along these lines - new features make it unstable. devops stops misaligned incentives
+<p>microservices divides up the work  - a big app made of smaller ones, that are easier to keep running, aligning incentives
+<p>if you think about microservices an an architecture you forget about the operational side of keeping them running
+<p>the easy way: start with principles of People and Process, and use that to select the technology
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='http://photos.kodachi.com'>Flynn</a>:  <blockquote class='e-content'><p>how would you boil this down to one statement?
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='https://www.datawire.io/about/'>Rafi Schloming</a>:  <blockquote class='e-content'><p>start with the people and think how to divide up the work first, let that lead to the technical perspective
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='https://twitter.com/q'>q</a>:  <blockquote class='e-content'><p>how much time did you spend on research and things that didn't make production?
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='https://www.datawire.io/about/'>Rafi Schloming</a>:  <blockquote class='e-content'><p>it's hard to quantify that time spent - it ended up as a fragmented and incremental view
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='https://twitter.com/q'>q</a>:  <blockquote class='e-content'><p>do you see Conways law affecting your team size?
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='https://www.datawire.io/about/'>Rafi Schloming</a>:  <blockquote class='e-content'><p>yes, there is an impact there - trying to fit the information into the picture
+<p>that the shape of the team drives he shape of the technology is true, but physics pushes the other way
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='http://nicbenders.com/'>Nic Benders</a>:  <blockquote class='e-content'><p>I'm Nic Benders, chief architect at New Relic, talking about Engineering and Autonomy in the Age of Microservices
+<p>I want to talk about that you can accomplish in an engineering org with microservices
+<p>New Relic started out with a data collection service and a data display service that started out micro and grew
+<p>we now have over 300 services in out production environment
+<p>Conway's law always is in play - our production environment reflects the communications & dependecies between teams
+<p>Conway's law is about how teams communicate, not the actual org chart. It's the edges, not the nodes that matter
+<p>Conway: Organisations are constrained to produce designs that are copies of the communication structures of the org
+<p>microservices is meant to define teams around each service - that is the core 
+<p>componetisation via teams organised around business capabilities - products not projects so long term ownership
+<p>smart teams and dumb communication pipes - use a lightweight tool like a wiki or blog
+<p>durable full-ownership teams organised on business capabilities w authority to choose tasks & complete independently
+<p>reduce central control - emphasising information flow from the center and decision making at the edge
+<p>Eliminate dependencies between teams as each dependency is an opportunity to fail
+<p>having a re-org seems like a good idea, but it doesn't really work well if you just rename and change reports
+<p>what if we look at an org structure as an engineering goal? Optimize for agility -not utilisation of a team
+<p>if you optimize teams for efficient usage of the team, you make sure that they have a backlog to keep busy
+<p>what we need are short work queues and decision making at the edge
+<p>as chief architect, I know far less than about the domain than the engineer working on the problem does
+<p>at new relic, we're data nerds. We should use data to make our changes, not VPs in offsites
+<p>the most important thing in our org change is to break our dependencies betwen teams
+<p>we drew the nodes as teams and the edges as dependencies, and simplified universal ones
+<p>we proposed some much simpler dependency diagrams, with fewer, stronger teams with full ownership
+<p>in a full stack team, you are missing a business ownership component, so we added PMs and tech leads for internal
+<p>for the team to work it needs more T-shaped people. with depth in one area, and breadth across others
+<p>we abolished architecture reviews, and made each team stand alone and own its decisions
+<p>we decided to allow team self-selection, as people know their skills better than we do
+<p>we put out all the jobs needed by the department and the engineers pick the ones to do. This is harder than it looks
+<p>Managers really didn't like this. Managers tend to follow instructions anyway, so it worked.
+<p>Engineers didn't like it either. They didn't trust us -they thought there would be fewer jobs that they wanted
+<p>they also worried that they would pick the wrong thing, or that the teams would gel without managers
+<p>We almost backed down. But we had to get the teams to self correct. We had failed to empathize with their concerns
+<p>we had to communicate over and over that this wasn't a stealth layoff or a job fair, but we would take care of them
+<p>we were not shifting the burden of being responsible to the employees but making sure we still looked after them 
+<p>we defined the teams & the skills they needed, not in terms of positions & got everyone in a room to find new teams
+<p>at this point we had at least made it clear that there were other teams that you could move to
+<p>about a third of the people there did switch teams - lots of new teams formed from scratch
+<p>working agreements per team were defined as "we work together best when…" for them to fill in
+<p>the insights team picked Continuous Deployment Weekly demos and Retros, and Mob Programming 
+<p>Mob Programming is like pair programming, but with 6 people sitting round the computer with 1 typing - huge agility
+<p>this reorg really worked - we shipped far more this year than expected, because they worked faster on what mattered
+<p>Teams understood their technical remit, but not what the boundaries were - we were used to side projects
+<p>we wrote a rights and responsibilities document - teams write own Minimal Marketable Features, but must listen too
+<p>maybe you aren't going to try a 6-month re-org, but there are takeaways
+<p>you hired smart engineers - trust them. We didn't do this with MBAs and VPs but with the teams themselves
+<p>my presentation is up at <a class="auto-link" href="http://nicbenders.com/presentations/microservices-2017/">http://nicbenders.com/presentations/microservices-2017/</a> and you can tweet me with comments
+<p>the main thing I was worried about tactically was making 300 people fit into 300 jobs and teams would not fit
+<p>there were a few people in critical roles that we had to keep in place, and we really owe them
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='https://twitter.com/q'>q</a>:  <blockquote class='e-content'><p>what does a manager do in this kind of team?
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='http://nicbenders.com/'>Nic Benders</a>:  <blockquote class='e-content'><p>regardless of org structure, managers need to look after their team and the teams' careers
+<p>we have spent more time encouraging the embedded PM to work with the team since
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='https://twitter.com/q'>q</a>:  <blockquote class='e-content'><p>what happened giving the teams total control of technology?
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='http://nicbenders.com/'>Nic Benders</a>:  <blockquote class='e-content'><p>I sometimes think "that's not the best tech really, it's just some hacker news thing" but if they can go faster…
+<p>we have some constraints - we are container based, but it you need, say, an Elixir agent you have to build that too
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='https://twitter.com/q'>q</a>:  <blockquote class='e-content'><p>you mentioned 6 months - was that how long it took to settle down?
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='http://nicbenders.com/'>Nic Benders</a>:  <blockquote class='e-content'><p>within the 1st month there were teams up and running, but the experience varied. 
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='https://twitter.com/q'>q</a>:  <blockquote class='e-content'><p>did the managers go and find new teams, or were they fixed?
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='http://nicbenders.com/'>Nic Benders</a>:  <blockquote class='e-content'><p>in general managers were the core of the team, and engineeers moved to them, which may be why they were unhappy
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='https://twitter.com/q'>q</a>:  <blockquote class='e-content'><p>how did this map to employee performance management?
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='http://nicbenders.com/'>Nic Benders</a>:  <blockquote class='e-content'><p>we did reset the performance history, and had a lot of success, and a modest turnover too close to annual average
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='https://twitter.com/q'>q</a>:  <blockquote class='e-content'><p>who owns the space between the teams? how do they call each others code?
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='http://nicbenders.com/'>Nic Benders</a>:  <blockquote class='e-content'><p>communication is owned by the architecture team, and we have cross-functional groups for each language etc
+<p>we have a product council to say what the key products and boundaries are  but no the detail which team does 
+<p>we mapped every product and service, including external ones, before we moved everyone
+<p>we had a 2 week transition to make the pager rotation handovers and deploy work.
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='https://twitter.com/q'>q</a>:  <blockquote class='e-content'><p>after this do the people feel they need another team change? how often do you redo this?
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='http://nicbenders.com/'>Nic Benders</a>:  <blockquote class='e-content'><p>it was such a production that we would rather have a continuous improvement rather than an annual scrambling
+<p>we have a quarterly review per team, but we want to make it possible for internal transfers be low friction
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='http://www.susanjfowler.com/'>Susan Fowler</a>:  <blockquote class='e-content'><p>I'm Susan Fowler here to talk about Microservice Standardization
+<p>I stared off thinking I would do particle physics forever, but there are no jobs in physics
+<p>I worked on the Atlas experiment at CERN, and then went to Uber to work on their 1000 microservices
+<p>there were some microservices that had lots of attention, but we were the SRE microservices consulting team
+<p>I also wrote a book called Production-Ready Microservices - there is a free summary version online
+<p>every microservice orgnaisation hits 6 challenges at scale
+<p>challenge 1: Organisation siloing and sprawl - microservices developers become like services and are very siloed
+<p>unless you standardise operational models and communication, they won't be abel to move teams
+<p>when you have too many microservices, you can't distribute ops easily, so the devs are fighting ops battles too
+<p>challenge 2: More ways to fail - more complex systems have more ways to fail. don't make each service a SPOF
+<p>challenge 3: competition for resources - a microservice ecosystem competes for hardware and eng resources
+<p>challenge 4: misconceptions about microservices - wild west; free reign; any lang; any db; silver bullet
+<p>myth: engineers can build a service that does one thing extraordinarily well, and do anything they want for it
+<p>a team will say "we heard cassandra is really great, we'll use that" the answer: "you are taking on the ops too"
+<p>microservices are a step in evolution, not a way out of problems of scale
+<p>challenge 5: technical sprawl and technical debt - favorite tools, custom scripts; custom infra; 1000 ways to do
+<p>people will move between teams and leave old services running  - no-one wants to clean up the old stuff
+<p>Challneg 6: inherent lack of trust - complex dependency chains that you can't know are reliable
+<p>you don't know that your dependencies will work, or that your clients won't overload you; no org trust
+<p>no way of knowing that the microservices can be trusted with production traffic
+<p>microservices aren't always as isolated from each other as their teams are isolated
+<p>The way around these challenges is standardization. Microservices aren't isolated systems
+<p>you need to standardize hardware (servers, dbs) Communication (network, dbs, rpc) app platform (dev tools, logs)
+<p>the microservices and service specific configs should be above these 3 standard levels
+<p>a microservice has upstream clients; a database and message broker; and downstream dependencies too
+<p>the solution is to hold microservices to high architectural, organisational and operational standards
+<p>determining standards on a microservice by microservice basis doesn't establish cross-team trust, adds debt
+<p>global standardization company wide - must be global and general; hard to determine from scratch & apply to all
+<p>the way to approach standards is to think of a goal - the best one to start with is availability
+<p>availability is a bit high level, map that to stability, reliability, scalability, performance, monitoring, docs
+<p>microservices increase developer velocity, so more changes, deployments, instability - need deploy stability 
+<p>if you have development, canary, staging, production deployment pipeline, it should be stable at the end
+<p>Scalability and Performance - need to scale with traffic and not compromise avaiabiliity
+<p>fault tolerance and catastrophe preparedness - they need to withstand internal and external failure modes
+<p>every failure mode you can think of - push it to that mode in production and see how it does fail in practice
+<p>Monitoring and Documentation standards mean knowing the state of the system, and very good logging to see bugs
+<p>Documentation removes technical debt-  organisational level understanding of it matters
+<p>implementing standardisation needs buy-in from all org levels; know production readiness reqs and make culture
+<p>my free guide is <a class="auto-link" href="http://www.oreilly.com/programming/free/microservices-in-production.csp">http://www.oreilly.com/programming/free/microservices-in-production.csp</a> and my book is at <a class="auto-link" href="http://shop.oreilly.com/product/0636920053675.do">http://shop.oreilly.com/product/0636920053675.do</a> 
+<p>when you have a set of answers to the standards  for the whole company, it makes it all easier
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='http://photos.kodachi.com'>Flynn</a>:  <blockquote class='e-content'><p>how long did it take to fix all the services?
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='http://www.susanjfowler.com/'>Susan Fowler</a>:  <blockquote class='e-content'><p>It's still going on; we started with the most urgent services and helped them understand what was around tem
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='https://twitter.com/q'>q</a>:  <blockquote class='e-content'><p>you mentioned proper documentation - how do you keep up with code changes?
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='http://www.susanjfowler.com/'>Susan Fowler</a>:  <blockquote class='e-content'><p>that's a good question - keep docs to what is actually useful and relevant. Describe arch and endpoints
+<p>documentation isn't a post mortem for an outage, but an understanding of what works
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='https://twitter.com/q'>q</a>:  <blockquote class='e-content'><p>is slicing up the layers a contradiction to devops?
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='http://www.susanjfowler.com/'>Susan Fowler</a>:  <blockquote class='e-content'><p>the microservices team should be on call for their own services' outages but need to be both?
+</blockquote></div>
+</div>
+<a href="https://news.indieweb.org/en" class="u-syndication">See IndieNews</a>
+</article>
+<script id="webmention-hosted">
+  (function () {
+    var sn = document.createElement("script"), s = document.getElementsByTagName("script")[0], url;
+    url = document.querySelectorAll ? document.querySelectorAll("link[rel~=canonical]") : false;
+    url = url && url[0] ? url[0].href : false;
+    sn.type = "text/javascript"; sn.async = true;
+    sn.src = "//webmention.herokuapp.com/api/embed?version=cutting-edge&url=" + encodeURIComponent(url || window.location);
+    s.parentNode.insertBefore(sn, s);
+  }());
+</script>
+
+</body>
+</html>
