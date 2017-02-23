@@ -1,0 +1,31 @@
+<html><head><title>Sharing SVG's</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="fragmention.js"></script>
+<link href="style.css" media="all" rel="stylesheet" type="text/css" />
+<link rel="webmention" href="https://webmention.herokuapp.com/api/webmention" />
+</head>
+<body>
+<article class="h-entry">
+<h1 class="p-name">Sharing SVG's <time class="dt-published">2016-12-14</time></h1>
+<div class="e-content">
+<p><img src="sharelogo.svg" style="float:left; height:3em"/>A couple of years ago, I was frustrated that no social network silo treated SVG as an image format, insisting it was made into a bitmap before sharing. So I made <a href="http://svgshare.com">svgshare.com</a> (formerly known as svgur.com ).
+<p>This makes it easy to upload SVGs and share a link, and includes the duelling facebook and twitter metadata and links to a PNG version so when you share a link on those sites, you see a PNG preview. 
+<p>A reason I'm given for SVG wariness is that they are HTML documents that you can embed <code>&lt;script&gt;</code> tags in, causing bad things to happen. While this is true, putting SVG in an <code>img</code> tag means that scripts don't run, and svgshare was built around this from the beginning. The only place I embed an SVG directly in the page is as part of the upload preview process, so the people who regularly upload SVGs with script in end up pwning themsleves, rather than my users. 
+<p>However, as these are getting more common, I added some code to filter out SVGs with scripts in. I used html5lib to parse them and <a href="https://github.com/kevinmarks/svgurl/blob/master/svgfix.py">strip out the script</a>.
+</div>
+<a href="https://news.indieweb.org/en" class="u-syndication">See IndieNews</a>
+
+</article>
+<script id="webmention-hosted">
+  (function () {
+    var sn = document.createElement("script"), s = document.getElementsByTagName("script")[0], url;
+    url = document.querySelectorAll ? document.querySelectorAll("link[rel~=canonical]") : false;
+    url = url && url[0] ? url[0].href : false;
+    sn.type = "text/javascript"; sn.async = true;
+    sn.src = "//webmention.herokuapp.com/api/embed?version=cutting-edge&url=" + encodeURIComponent(url || window.location);
+    s.parentNode.insertBefore(sn, s);
+  }());
+</script>
+
+</body>
