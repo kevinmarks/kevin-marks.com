@@ -1,0 +1,108 @@
+
+#Byte2017 Rivers: thank you for coming to hear my insane ramblings on innovation labs and why they fail
+#Byte2017 Rivers: I argue with myself whether innovation labs are a bigger waste of time or money, and I decided it was time
+#Byte2017 Rivers: I've been there at the beginning with excitement, and at the end where there is a smoking crater where your lab used to be
+#Byte2017 Rivers: Innovation is a filler word that means something else that we don't quite have a grasp on
+#Byte2017 Rivers: I think about my heroes - the leaders of the open source movement like Torvalds and Stallman
+#Byte2017 Rivers: they made people free to develop without being on a corporate roadmap
+#Byte2017 Rivers: Linus said "anybody can innovate. Don't do the big Think Different, 99% is getting the work done"
+#Byte2017 Rivers: I define innovation as translating an idea into a  good or service that creates value or that customers will pay for
+#Byte2017 Rivers: at 3pillar I inherited an innovation lab, and I shut it down. When I am an executive it was really easy to do
+#Byte2017 Rivers: but personally it as sad as it was the most interesting meeting of the week as I talked to smart people about ideas
+#Byte2017 Rivers: Innovation Theater - all the fancy gadgets in the lab to look cool - a MS surface table, a 3d printer for some reason
+#Byte2017 Rivers: there is more innovation in a stack of post-its than in a room full of fancy gadgets
+#Byte2017 Rivers: Success for too many people is when the lab puts out incremental 5% improvements - product teams should be doing that
+#Byte2017 Rivers: the senior execs need to own and be responsible for the output of the lab.
+#Byte2017 Rivers: you need to be hiring everyone for innovation and transformation, not just those in the labs
+#Byte2017 Rivers: Vision and strategy - how is your lab's startegy connected to your business's strategy?
+#Byte2017 Rivers: Vision and strategy: you need to be clear and purposeful about what the lab is supposed to be doing
+#Byte2017 Rivers: Vision and strategy - how is the lab going to deliver in time and impact?
+#Byte2017 Rivers: Vision and strategy - what support do you need to make the magic happen? Is it scraps left over, or is it business funding
+#Byte2017 Rivers: it's not just money it's resources -access to markets, access to your customers to get the information they need
+#Byte2017 Rivers: Vision and strategy - google glass versus snapchat is an interesting case
+#Byte2017 Rivers: Google glass- walking down the street surfing the internet. How is that connected to an advertising business?
+#Byte2017 Rivers: snapchat glasses are in complete alignment with the business - a new form of storytelling that fits their business
+#Byte2017 Rivers: snapchat glasses take away a barrier, and makes it easier to create content for their core business
+#Byte2017 Rivers: Real versus vanity mertrics: we were setting up a new service but hadn't thought about metrics
+#Byte2017 Rivers: our metric was "create 3 new product lines" not "create valuable products" and although we hit ti, it was a fail
+#Byte2017 Rivers: the goods or services from the lab need to be absorbed back into the business - which causes Power politics 
+#Byte2017 Rivers: I have seen more Game of Thrones stuff over new products because execs fighting over KPIs keep projects out of production
+#Byte2017 Rivers: turning a prototype into production matters - if it doesn't hit production it doesn't count
+#Byte2017 Rivers: labs don't fail because we don't have smart enough people, but because we don't run it as a business
+#Byte2017 Rivers: we need to do the work, not have labs as playgrounds for technologists
+#Byte2017 Jora Gill: how many of you are involved in technology? 80% hm, so is technology getting in the way of innovation? No.
+#Byte2017 Jora Gill: here's a graph of computing power in MIPS/$1000 - currently about the level of a spider
+#Byte2017 Jora Gill: give then moores law growth, the best thing you can do is do nothing for  3 years and wait  for technology to improve 
+#Byte2017 Jora Gill: 1 guy: our data centre is old, and wants $75m to upgrade it, vs we have overcapacity in our data centre, can we sell it?
+#Byte2017 Jora Gill: back in the 1990s we had the Y2k problem, which was the birth of offshoring
+#Byte2017 Jora Gill: technology was seen asa cost, so we would outsource it to india and make everyone happy 
+#Byte2017 Jora Gill: by treating tech as a cost, it created a reactive workforce worrying about costs first
+#Byte2017 Jora Gill: now, Agile, failing fast, big data, microservices are reactive because they are fashions everyone is doing
+#Byte2017 Jora Gill: copying what other people are doing is imitation, not innovation
+#Byte2017 Jora Gill: instead of Uber or Airbnb, lets talk about CVS - they used to sell tobacco, but decided it was against their values
+#Byte2017 Jora Gill: if you are aligned with your purpose, customers will recognise that and be more aligned with you
+#Byte2017 Jora Gill: the jackass fallacy: hit the donkey, donkey moves, work gets done
+#Byte2017 Jora Gill: Tel Aviv University did an experiment: people whose tests were looked at rather than shredded worked longer and harder
+#Byte2017 Jora Gill: Metro Bank opened in 2010 - the gap was that the big banks take customers for granted
+#Byte2017 Jora Gill: purpose hase to involve stakeholders, not just shareholders
+#Byte2017 Jora Gill: 
+#Byte2017 Jora Gill: 
+#Byte2017 Jora Gill: Ethics and values need to be at the center of the company's purpose
+#Byte2017 Jora Gill: we need conflict to grow, but conflict from a crtiical friend or trusted advisor
+#Byte2017 @blackp2: I'm Philip Black from Emergn and I want to talk about innovation acceleration- - I want to recap Jon's talk
+#Byte2017 @blackp2: Jon said Innovation is hard - companies doing innovation labs things, creating videos+lide decks, but don't build things
+#Byte2017 @blackp2: in the early 2000s, BT was doing a big transformation - the 21st century network, making it all IP inside
+#Byte2017 @blackp2: there was a process invented called hothousing - put the ceo, team and customers in a room for 3 days and build something
+#Byte2017 @blackp2: hothouses weren't a separate lab, they were part of the business process
+#Byte2017 @blackp2: at emergn we do this same process for other companies, such as walmart last year
+#Byte2017 Josh Hart: biggest blockers to innovation are people, ego, politics - used to doing things a certain way and don't want to change
+#Byte2017 Josh Hart: if you highlight that people will acquire skills to improve themselves it helps fight this
+#Byte2017 @YNotWhen: innovation is taken as a throwaway thing, but it is really hard work, and it needs to be tied into culture to work
+#Byte2017 @YNotWhen: if all the innovative ideas are published, the ROI is about 0.1%, as most of them will fail. 
+#Byte2017 Jora Gill: nobody really knows what innovation is  - it's about what models we have to think about
+#Byte2017 Jora Gill: in manchaester, bradford in the 19th century when they discovered electricity, for 20 years productivity flatlined
+#Byte2017 Jora Gill: it was only when they changed practices rather than using old models that productivity took off
+#Byte2017 Jora Gill: having existing corporate structures can be at odds with innovation compared to a startup's cross-functional teams
+#Byte2017 Josh Hart: a spark fo magic is needed to come up with ideas, but we can use a good process to prioritise and track them too
+#Byte2017 Josh Hart: a challenge can be is that you forget the paths that failed so you end up retrying them again
+#Byte2017 @YNotWhen: I think the informed accident model of innovation works better than the supposed scientific method
+#Byte2017 @YNotWhen: most innovations are happy accidents that work out - having a long list of innovations that you prioritise  can kill it
+#Byte2017 Jora Gill: most people don't believe in their company's mission statement, or even remember it. Purpose needs to be simpler
+#Byte2017 Jora Gill: when google floated, Brin said that they would experiment and make mistakes, not always grow. That did set purpose
+#Byte2017 Jora Gill: people are so focused on the politics of the organisation that they forget the customers
+#Byte2017 Jora Gill: CEOs want their technology department to be the centre of innovation, but they don't know how to convey it
+#Byte2017 @jodbod: I want to talk about "Learning to Listen" - we all think we're listening to customers, but we don't always do it 
+#Byte2017 @jodbod: the media industry is being disrupted - it is an overused word, but people do not buy newspapers any more
+#Byte2017 @jodbod: newspapers didn't know who the customer was, they just threw paper at them
+#Byte2017 @jodbod: The WSJ website looked like the paper, but it always did have a digital paywall
+#Byte2017 @jodbod: but with the website the WSJ still told you what was important and expected you to listen
+#Byte2017 @jodbod: we used to be obsessed with traffic not revenue. now its not how many people read my story, but how many people signed up
+#Byte2017 @jodbod: wsj moved from advertising at the core to subscription at the core
+#Byte2017 @jodbod: we found a lot of people shared articles from the WSJ to show hat they were smart enough to read it
+#Byte2017 @jodbod: our paywall was an opportunity - 40%-50% was free; section editors would decide what was free
+#Byte2017 @jodbod: success was measured by eyeballs, subscription conversion was a secondary KPI
+#Byte2017 @jodbod: we did work to understand our customers and what made them pay to subscribe 
+#Byte2017 @jodbod: we identified 6 segments in readership - print traditionalists, conservative retirees, mobile movers etc. 
+#Byte2017 @jodbod: we separately profiled the advertising readers and piped it into our paywall machine
+#Byte2017 @jodbod: we then had to decide how to open the paywall to maintain reach but keep conversion
+#Byte2017 @jodbod: old systems weren't necessarily built badly, but were built for a different purpose than we have now
+#Byte2017 @jodbod: first we wrapped an api round our old platform, then built a sidecar next to it, then an api around both
+#Byte2017 @jodbod: once we understood our data we reduced the steps to subscribe
+#Byte2017 @jodbod: we used to have a pitcure of our editor in the subscribe process, and it improved when we took it out.
+#Byte2017 @jodbod: we needed to model the customer and make dynamic subscription offers in real time
+#Byte2017 @jodbod: the decision between what is free and what is paid is no longer for newsroom editors, but for the machines
+#Byte2017 @jodbod: Data debt is one of the worst problems - everyone had a different view of it
+#Byte2017 @jodbod: we had to agree on a single customer view, so we could  discuss across teams
+#Byte2017 O'Rourke: The Rosetta mission started 20 years ago - the hardware was built in the late 1990s and launched in 2004
+#Byte2017 O'Rourke: after 10 years of travel in space we had to innovate in how to steer using these old rockets
+#Byte2017 O'Rourke: we built the spacecraft in Holland, operated in in Germany, and now we're in ESAC near Madrid
+#Byte2017 O'Rourke: the solar system formed 4.5B years ago, with the planets clearing their orbits of dust and gas, comets were left over
+#Byte2017 O'Rourke: there are 2 belts of comets outside our solar system - the Kuipe Belt and Oort cloud wiht billions of comets in
+#Byte2017 O'Rourke: Asteroids are big rocks, or metal chunks, comets are smaller and are made of snow and dirt - like a dirty snowman
+#Byte2017 O'Rourke: as the comet comes close to the sun, the ice melts and the dust streams outside as a tail
+#Byte2017 O'Rourke: Rosetta weighed 3 tons, with about 2 tons of that being fuel, with solar panels as wide as a 767s wingspan
+#Byte2017 O'Rourke: Rosetta flew past the earth 3 times and mars once, and then past asteroids Steins and Lutetia
+#Byte2017 O'Rourke: Rosetta arrived at the comet 6 August 2014, before it had a tail, so we could land on it
+#Byte2017 O'Rourke: we thought that the biggest problem flying around the comet would be gas, but it was dust
+#Byte2017 O'Rourke: comet gases smell of rotten eggs H₂S, Horse manure NH₃ and other bad smells
+#Byte2017 O'Rourke: we see explosions of gas coming off the comet as it heats and rotates, pushing out ice boulders and dust

@@ -1,0 +1,32 @@
+
+#NEdigital @Websand: sign up at www.websandhq.com say hello at hello@websand.co.uk - we have some domain issues
+#NEdigital @Websand: the biggest users of email are the social media companies - we try to do the same without them
+#NEdigital q: why email in the first place?
+#NEdigital @Websand: getting people to understand the value of their own data is key - that was what drove me into this
+#NEdigital @Websand: changing the mentality is key - businesses have processes for everything but marketing, where they have campaigns 
+#NEdigital @Websand: when you make it a process, it happens every day, so when a customers falls into a bucket they get the message
+#NEdigital @Websand: a lot of people want data that they don't need, so we incentivise them to get rid of it
+#NEdigital @Websand: importing data is horrible—when people make spreadsheets they are totally inconsistent. with integration it gets better
+#NEdigital @Websand: a lot of the time the database is half the size they think it is when we clean it.
+#NEdigital @Gospelware: In the design world, perfection doesn't exist. With user research we can identify their goals
+#NEdigital @Gospelware: With user testing we can make our process more iterative - we can fail, and then we can fix it
+#NEdigital @Gospelware: Realrider - https://www.gospelware.co.uk/work/realrider came to us and their main safety feature was hidden
+#NEdigital @Gospelware: real rider had a lot of ideas about what the app should do, but we did user testing to check these
+#NEdigital @Gospelware: realrider were reluctant to build a social network, but the users really wanted to connect to each other
+#NEdigital @Gospelware: we show the users the feature navigation and get them to rate it, and then keep the green and eliminate the red
+#NEdigital @Gospelware: we record everything the test users do, so it's not just the feedback but how they try to use it too
+#NEdigital @Gospelware: realrider monitors the motorbike rider's phone so if there is an accident it calls 999 for them
+#NEdigital @111Lynsey: the next company tonight is based at 55° North - they'll tell us about AI tom from Th_nk
+#NEdigital @th_nk: I want to talk about the difference between pre-internet and post internet an dhow it turned business upside down
+#NEdigital @th_nk: artificial intelligence is this kind of transition that will change things
+#NEdigital @th_nk: now AI sounds like killer robots, but we're already using it in spam filters, Spotify playlists and so on
+#NEdigital @th_nk: if we do make artificial general AI, it could take off as soon as we make it - from 2 year old to godlike in a day
+#NEdigital @th_nk: we don't have general AI, we have lots of little local Ads - an internet of AI things
+#NEdigital @th_nk: AI has moved from disappointing to disruptive because we now have parallel computation and some new algorithms
+#NEdigital @th_nk: when we taught computers to read we got google; what will we get when we teach them to see?
+#NEdigital @th_nk: we have taught them to listen too - speech recognition now lives in Alexa and so on, but ti will be omnipresent soon
+#NEdigital @th_nk: Get AI ready - use AI to improve customer experience, to assist your workforce
+#NEdigital @th_nk: AI could affect everyone from insurance to GPs to truck drivers - we want to assist people not replace them
+#NEdigital @th_nk: Start planning now - it may not solve your problems yet, but think how it could replace you
+#NEdigital q: AI was forcing systems to be gendered and racially biased - how do stop them reinforcing bias?
+#NEdigital @th_nk: when it learns from us it can get a bit weird. We need to pay attention to that feedback loop
