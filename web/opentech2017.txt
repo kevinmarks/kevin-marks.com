@@ -1,0 +1,432 @@
+
+#opentech @hadleybeeman: we assume that the net is dumb pipes and the smart stuff happens at the edges, but too often sites know you
+#opentech @hadleybeeman: you can be cookied, supercookied, browser fingerprinted and have your IP address tracked
+#opentech @hadleybeeman: we have some mitigations - Do Not Track headers, cookie masking, selectively disabling sites, ultimately TOR
+#opentech @hadleybeeman: but all the browsers have different versions of private browsing - Chrome has incognito and guest, ff has private
+#opentech @hadleybeeman: all of these do different thing. Chrome's incognito and guest modes wipe cookies on close, and separate permission
+#opentech @hadleybeeman: firefox private browsing doesn't create cookies
+#opentech @hadleybeeman: Safari won't update cookies, and stops recent searches being saved, 
+#opentech @hadleybeeman: Brave, when shields are up, protects against fingerprinting by blocking machine specific apis
+#opentech @hadleybeeman: IE/Edge will block cookies and also prevent 1 pixel gif tracking and blocks some ad networks
+#opentech @hadleybeeman: the good news is that browsers compete to improve private browsing,
+#opentech @hadleybeeman: the bad news is that its hard for users to remember which privacy features are in which browser
+#opentech @hadleybeeman: I worry that users will find it unclear what they are protected from, adn we shoudl standadrise more here
+#opentech @hadleybeeman: duckduckgo surveyed people about privacy, and they most wanted protection from embarrassing searches
+#opentech @hadleybeeman: safari is the only private browsing tool that says it hides recent searches in private mode
+#opentech @hadleybeeman: all the different specs for the different parts of the web interrelate - we have had 2 groups ask TAG for private
+#opentech @hadleybeeman: 
+#opentech @hadleybeeman: presentation API want the fullscreen mode toe change in private mode, and payments API wants to change in private
+#opentech @hadleybeeman: but there isn't a spec for private mode, so the apis can't describe how to interact with it
+#opentech @hadleybeeman: Conclusion: we need more data - more UX research to design interfaces so users are informed and safe
+#opentech @hadleybeeman: we need to know how this will interact with other parts of the web - once we define private mode, more will use it
+#opentech @rachelcoldicutt: I want to talk about fairness in the platform economy and talk about what we're doing at doteveryone
+#opentech @rachelcoldicutt: doteveryone is a think tank that focuses on fairness
+#opentech @rachelcoldicutt: "fighting for a fairer internet" is godd simple and slightly meaningless slogan that I want to see everywhere
+#opentech @rachelcoldicutt: the web was meant to be a big open space that brought us all together, but it is affected by economics
+#opentech @rachelcoldicutt: we want to take the web experience out of the black box so that people have a clearer view of what is happening
+#opentech @rachelcoldicutt: As the parent of a 4-year-old I hear a lot of "it's not fair" so fairness can sound like a whinge
+#opentech @rachelcoldicutt: we're not only voters or workers or learners, we are in many roles at once
+#opentech @rachelcoldicutt: I've been in technology for 20 years, and there is still lots of it I don't understand
+#opentech @rachelcoldicutt: the problem with the optimism of "this is for everyone" is that everyone has different values 
+#opentech @rachelcoldicutt: it's been too easy to ignore people whose values aren't the same as those making the web
+#opentech @rachelcoldicutt: If you're a government your values and norms are within your country, but a corporate norm can be global
+#opentech @rachelcoldicutt: if we don't have shared values, rather than respecting laws and values of nations we have corporate laws
+#opentech @rachelcoldicutt: Denmark appointed an ambassador to Silicon Valley to negotiate with the companies there
+#opentech @rachelcoldicutt: these are the 9 men who write the facebook timeline algorithm - they have more power than lots of legislators
+#opentech @rachelcoldicutt: there aren't good ways of opting out an challenging this, and even if you do opt out it carries on for others
+#opentech @rachelcoldicutt: there aren't that many ways of making money on the net - advertising only has so much time and clicks to sell
+#opentech @rachelcoldicutt: capitalism isn't the same thing as democracy - they have different incentives
+#opentech @rachelcoldicutt: there are more people using facebook every month than live in the biggest country in the world
+#opentech @rachelcoldicutt: anyone can have a point of view, it's harder to make people hear it and respond
+#opentech @rachelcoldicutt: we want to make it easier for everyone to understand the internet
+#opentech @rachelcoldicutt: we want to make it easier to know that a technology is responsible and good
+#opentech @rachelcoldicutt: and we need to stimulate and encourage new value models than just capital
+#opentech @rachelcoldicutt: For digital understanding we believe knowledge is power - we want to encourage critical thinking
+#opentech @rachelcoldicutt: We are defining a "fair trade" mark equivalent for tech so people can know its responsible
+#opentech @rachelcoldicutt: We have an Ethical Tech initiative directory
+#opentech @rachelcoldicutt: we want to lead by example with ethical technology
+#opentech @rachelcoldicutt: the person who digitises an organisation is often quite heroic, and need support
+#opentech @rachelcoldicutt: we are at @doteveryoneuk and https://doteveryone.org.uk
+#opentech q: you said private browisng doesn't prevent things from showing in search results, but form fields aren't preserved
+#opentech @hadleybeeman: not search results but search terms saved in the search field of the browser that prompts next time you search
+#opentech @hadleybeeman: autofill in chrome, autocomplete in safari - they will either not show autocomplete, or not save ones you enter
+#opentech q: the duckduckgo survey made me think about native apps and private browsing equivalents
+#opentech @hadleybeeman: I don't know, and I'd love to know how private modes work with apps
+#opentech @hadleybeeman: most people leave the defaults in internet behaviour, but we are seeing a lot of ad blocking
+#opentech q: you want the web to be understandable, but most people have given up understanding most things
+#opentech @hadleybeeman: a big part of building and designing software is making it understandable, and doing the user research
+#opentech @hadleybeeman: we do have more abstractions so we don't need to understand a car to drive it or the web to read it
+#opentech @hadleybeeman: but we can work things out as we use it
+#opentech @rachelcoldicutt: from a design perspective its about exposing things so that they are understandable
+#opentech @rachelcoldicutt: there are lots fo thinsg that people don't want to knopw until they have to
+#opentech @darkgreener: I'm Anna and I'm talking about mapping land ownership with private eye
+#opentech @darkgreener: this was a private eye special report into ownership of land and property in the uk by tax havens and companie
+#opentech @darkgreener: it's also a map at private-eye.co.uk/registry which I built - I'm not a journalist, I'm an engineer
+#opentech @darkgreener: it will show you properties nearby owned by companies in tax havens eg 99 Malet street is owned by a co in Virgin Is
+#opentech @darkgreener: you can't search the registry by name
+#opentech @darkgreener: the crown and church have been selling off land to foreign entities in tax havens
+#opentech @darkgreener: the Trocadero, which well know and hate, is owned by a company lined with the Mugabe regime in Zimbabwe
+#opentech @darkgreener: 2/3 of the companies found are offshore
+#opentech @darkgreener: we have polygons for freeholds and poitns for leaseholds on the map
+#opentech @darkgreener: people use offshore accounts to avoid tax - Capital gains used to be exempt, inheritance still is
+#opentech @darkgreener: the otehr reason is secrecy - to mask the actual ownership
+#opentech @darkgreener: Colonel Gadhaffi's son owns a nice house in highgate for example
+#opentech @darkgreener: the pernicious thing is that this has become normalised so people aren't even suprised by it any more
+#opentech @darkgreener: the Eye made a FoI request for land traded by foreign companies betwene 2004 and 2014
+#opentech @darkgreener: theys ent the info, then said "we shouldn't have released that, give it back" so we didn't
+#opentech @darkgreener: the land registry will turn a titl ID into a pdf for 3 quid, but that would be too much
+#opentech @darkgreener: so we scraped the land registry database, and joined that with INSPIRE land ownership polygons
+#opentech @darkgreener: INSPIRE is polygons, and each one has an ID - it is published as part of an EU directive in 2005 for environment
+#opentech @darkgreener: they released the minimum they could - just the freehold polygons and with a useless ID
+#opentech @darkgreener: you can download this, but you don't have a license to reuse it, so can't publish is
+#opentech @darkgreener: Christian paid the land registry to join INSPIRE IDs to title IDs at 2p a reord
+#opentech @darkgreener: the leaseholds we don't have polygons se we use points for them
+#opentech @darkgreener: we use fair dealing as to publish parts of INSPIRE as they are small excerpts for public interest
+#opentech @darkgreener: the Land Registry emailed me asking how we did this
+#opentech @darkgreener: the Eye said they were going to publish this; the day before the land registry published their own version
+#opentech @darkgreener: but they only published a snapshot, not ongoing status
+#opentech @darkgreener: the government than said they would publish ownership by UK companies as well as overseas ones but not Uk trusts
+#opentech @darkgreener: London has been an attractive place to hide money from overseas through these comanies
+#opentech @darkgreener: this would no longer be possible
+#opentech @darkgreener: now the land registry reject FOI requests as they are "reasonably" available (for £60m)
+#opentech @darkgreener: they will no longer sell title ID to INSPIRE lookups, so you have to pay £3 per property
+#opentech @darkgreener: the land registry has said they will release the addresses and company names - I want them to add INSPIRE IDs too
+#opentech @darkgreener: Ordnance Survey are legally required to make money from their data, would be better to fund from tax or land fees
+#opentech @darkgreener: we need a jolly serious economist to write a report about why this is harmful, to change OS rules anna@anna.ps
+#opentech q: what questions should we be putting to election candidates about this?
+#opentech @darkgreener: with candidates, this is such obscure stuff so ask for more transparency about offshore ownership
+#opentech @darkgreener: Local authorities have registries of what they own, encourage them to publish maps as well
+#opentech @darkgreener: there is a blog called "who owns england" https://whoownsengland.org/ that follows this
+#opentech @darkgreener: INSPIRE Ids are polygons and a title can have several, but they are mainly to obscure it
+#opentech q: they have now put a captcha on to stop scraping, and you need to register your name and address
+#opentech @darkgreener: the registration requirement is to prevent fraud
+#opentech q: is there any information on how much residential property is left empty?
+#opentech @darkgreener: this is in the private eye report - do read that
+#opentech @darkgreener: people seem to avoid renting about because they are more interested in the capital appreciation
+#opentech John Sheridan: I'm the Digital Director of the National Archives - we preserve information and provide access to it
+#opentech John Sheridan: if it's a physical archive, we put the box of papers on the shelf and have a reading room for you to see them
+#opentech John Sheridan: we also try to provide context for what the archived records mean
+#opentech John Sheridan: the records of the Alan Turing trial at the time would be viewed as a record of guilt and deviance
+#opentech John Sheridan: now the Turing trial records are seen as a record of state homophobia - the context changed
+#opentech John Sheridan: there are archives that hold evidence of significant human rights abuses, and people have tried to destroy them
+#opentech John Sheridan: our archives have historically been physical, but now we are increasingly digitising them
+#opentech John Sheridan: there is no long term form for storing data - digital preservation is hard compared to paper
+#opentech John Sheridan: hard disks last about 5 years; tape is bout 20 years, so you are relentlessly copying your records and checking
+#opentech John Sheridan: you need to understand what it is that you have so that you can produce the record when you need it
+#opentech John Sheridan: with physical this is easy; digitally you have to have code to make the data viewable as well
+#opentech John Sheridan: a digital archive needs to know what code it has to run to show the records in the data
+#opentech John Sheridan: Information that is encoded in an open standard format is easier to preserve, and more likely to remain usable
+#opentech John Sheridan: open standards both tend to have multiple implementations and document the form of the data for more in future
+#opentech John Sheridan: open source helps too by making the code able to be run without buying thousands of variations of licences
+#opentech John Sheridan: we don't have an equivalent for depositing copies of software, so open source software is a big advanttage
+#opentech John Sheridan: open source software that implements open standards for data formats is especially useful
+#opentech John Sheridan: Open data matters too - each document often depends on other data too - so they have dependencies on others
+#opentech John Sheridan: The British Library has a huge archive of websites; we have one of government sites which we can publish
+#opentech John Sheridan: the BL doesn't think it can publish this archive, as it doesn't have rights to ti
+#opentech John Sheridan: use of information is one of the best guarantors of continuing to make the data available in future
+#opentech John Sheridan: open standards, open source and open data all matter, and so does transparency of institutions
+#opentech John Sheridan: we are moving form being an organisation that provides a single repository to one that mitigates decay risk
+#opentech John Sheridan: what can we do beyond just keeping the 0's and 1's ? memory institutions have to make decisions on these
+#opentech John Sheridan: Memory institutions publishing hashes of records we have today, particularly closed ones
+#opentech John Sheridan: that will make it clear that records have not been tampered with between being archived and being made available
+#opentech John Sheridan: I want to stress the importance of the decisions being made now about what data is kept by archives
+#opentech John Sheridan: open standards, open source and open data all matter for archives, as does transparency of these decisions
+#opentech q: do you keep copies of a book rather than an ebook?
+#opentech John Sheridan: for what we have, most times here is only 1 copy which we can keep safe physically
+#opentech John Sheridan: by digitising we can keep multiple copies so it is potentially safer, but we need to have process to copy 
+#opentech John Sheridan: the copyright archives can force people to remove DRM before depositing
+#opentech q: I presume the national archives have digital media that won't be opened for 50-100 years. How?
+#opentech John Sheridan: you rely on institutional commitments, not on technology to encrypt it - rely on the chain of people handling it
+#opentech q: do you keep floppy disks in concrete vaults?
+#opentech John Sheridan: the physical media dies too fast so you have to have a process of copying the data not the media
+#opentech John Sheridan: Examples of lost data - the one we talk about is the BBC Domesday project - we have copies and the hardware
+#opentech John Sheridan: the rights issues make it quite difficult to just make a copy and make that available (ask @atsf)
+#opentech @psd: the national archive is located by a river - is it protected from flooding?
+#opentech John Sheridan: most of it is by the river, yes - the lovely water features in front of the building at Kew are flood defences
+#opentech John Sheridan: you can mitigate some of those risk by digitising them -we have only digitised about 2% so far
+#opentech John Sheridan: how much do you spend on temperature control is part of archiving management;
+#opentech @kevinmarks: the BL can't make web archives available, yet Internet Archive and Google both do. How come?
+#opentech John Sheridan: Brewster's approach is to copy it and make it available, and take it down if you complain; in extremis you cna sue
+#opentech John Sheridan: we're a crown body so suing us may be more attractive than a private entity
+#opentech q: archive.org said they won't obey robots.txt, are you tempted?
+#opentech John Sheridan: we don't obey robots.txt for govt websites
+#opentech q: could you archive open streetmap etc to get round the land registry and OS issues?
+#opentech John Sheridan: OS is under the records act to deposit, but it is closed
+#opentech John Sheridan: land registry is similarly public record
+#opentech q: every new year, 50 year old records are published - does that apply to Ordnance Survey?
+#opentech John Sheridan: yes it is - the Dacre review changed the period of availability - it was 50 years, then 30 years
+#opentech John Sheridan: now we are moving from 30 years to 20 years in 2 year steps, and releasing it digitally
+#opentech q: if people with AK47s did turn up what would you do?
+#opentech John Sheridan: you'd need to be lucky to find the right person to point a gun at
+#opentech q: I have about 6 terabytes of video from local councils in cambridge that I have been depositing on youtube
+#opentech q: as there is no standard for depositing video, what should we do?
+#opentech John Sheridan: if it has been published, then the BL will archive that too - there are good open source tools for that
+#opentech @jamesrbuk: one good things about the security folk being available with the NHS hack was shutting down journalist speculating
+#opentech q: the nutters used to grumble about the news in the village pub, now they set up a website and gather more nutters
+#opentech @jamesrbuk: I am tempted to agree with you there - there is a chain of causation as people get polarised and conspriracies spread
+#opentech @jamesrbuk: among democrat voters, about half think Russia hacked voting machines, and there's good evidence this didn't happen
+#opentech @jamesrbuk: when half of the electorate thinks russia is behind things, the other thinks it's the new world order
+#opentech @jamesrbuk: it's a great time for people who join dots into a narrative that seems plausible
+#opentech @jamesrbuk: conspiracy theories and witchhunts have been in politics for a long time - we can chase fake news to 1091
+#opentech @jamesrbuk: what was always widespread is a lot more visible now - you had no idea of what readers were like before
+#opentech @jamesrbuk: you could pretend before that your readers were nodding intelligently to your points
+#opentech @barefoot_techie: please welcome @wendyg to talk about headlines of 2022
+#opentech @wendyg: in 1997 I imagined the top ten new jobs of 2002: IP protection officer who investigated children for copyright
+#opentech @wendyg: Electronic image consultant who faked backdrops for video conferencing
+#opentech @wendyg: Real-time biographer we all do for oursleves
+#opentech @wendyg: computer therapist to help out disturbed computers -that will happen soon
+#opentech @wendyg: assumptions: no mass human extinction event; society or financial system hasn't collapsed; no singularity yet
+#opentech @wendyg: According to buzzfeed, the Trump supporters failed to hack the french election because no-one on 4chan spoke french
+#opentech @wendyg: I predicted human servants - @annalee wrote about the secret lives of google raters - humans who review youtube
+#opentech @wendyg: Google like to boast about their AI, but their AI is fed by people in the philippines
+#opentech @wendyg: Uber's self-driving cars need human intervention every 0.8 miles; Google's is every 5000, which may be scarier
+#opentech @wendyg: headline: 90% of internet of things traffic is pornography - Daily Mail insists on filtering out pink pixels
+#opentech @wendyg: HP did have a video camera that would fail to recognise black people's faces
+#opentech @wendyg: If you feed racist data into an AI you get a racist AI - sentencing algorithms in the US recommend more for black people
+#opentech @wendyg: The Sun said Facebook was addictive as nicotine or chocolate - which is odd as they are very different
+#opentech @wendyg: Headline: an app that synthesizes your voice, calls your mother and parses the responses for stuff you didn't know
+#opentech @wendyg: Headline: Mumsnet's top 10 signs your child has a secret computer
+#opentech @wendyg: The Beloit mindset list explains how the current 18 year olds think: https://www.beloit.edu/mindset/
+#opentech @wendyg: class of '35: britain has never been an EU member; GCHQ has always had bulk surveillance;
+#opentech @wendyg: a VC managed to lock himself out of his car in the desert because there was no ineternet connection to unlock it
+#opentech @wendyg: class of 35: software has always been able to affect the physical world
+#opentech @wendyg: there is no longer an offline/online distinction - you used to have to hear the modems mate first
+#opentech @wendyg: Beloit list for born 2008: "turn of the century" means 21st century
+#opentech @wendyg: class of 2026: video call or text, but audio only is weird
+#opentech @wendyg: policy questions for 2022: how do we redesign roads for the safety of people who don't look up from phones?
+#opentech @wendyg: 2022 policy: should video ads for malware be allowed on TV? (malware promotes itself on youtube)
+#opentech @wendyg: policy 2022: how long should manufacturers be required to patch code? Software is forever
+#opentech @wendyg: Policy 2022: what if IoT monitoring is required for NHS treatment?
+#opentech @barefoot_techie: does anyone have any real headlines of 2022?
+#opentech q: law to require IoT devices labelled with their patch lifetime?
+#opentech q: last security will be issued on or after this date
+#opentech @wendyg: this has been an issue with biometric systems vendors when they expire
+#opentech q: 999 replacement requires phone microphones are on all the time. What, you want people to die?
+#opentech q: 2022: last person on permanent contract retires
+#opentech @psd: Given Denmark's ambassador to silicon valley, company starts standing army
+#opentech q: Apple's fingerprint sensor allows you to find out Immigration status
+#opentech @agentGav: Bill has sent me a thing to read:
+#opentech @agentGav: how do we unfuck this? These are dangerous days - end to end encryption is being attacked as is due process
+#opentech @agentGav: we see the imminent debasement of net neutrality funded by corporate interests
+#opentech @agentGav: we also see all personal data becoming a commodity, not a personal right
+#opentech @agentGav: we see climate change threatening human civilisation
+#opentech @agentGav:  I'm Gavin Starks - my mood is different. Our threat model has changed
+#opentech @agentGav: we live in the world we buy into  - @rachelcoldicutt said democracy and capitalism aren't the same
+#opentech @agentGav: we're about halfway to collecting everyone on earth to the net 
+#opentech @agentGav: ecommerce is $350B/year, which is still only 6% of the US
+#opentech @agentGav: Google+Apple+Facebook+Amazon revenue now well ahead of Microsoft+Intel
+#opentech @agentGav: "we will move from mobile first to AI first" - @sundarpichai  - they did save 15% on data centre cooling with AI
+#opentech @agentGav: Economist: "the worlds most valuable resource is not oil but data" - it isn't. Data is not scarce, but abundant
+#opentech @agentGav: Data is not like Oil - it doesn't run out. It'ss more like solar
+#opentech @agentGav: Data gets more valuable the more it is connected
+#opentech @agentGav: unlike oil, Data doesn't directly cause climate change though it does use 10% of energy
+#opentech @tommorris: Mostly bitcoin though
+#opentech @agentGav: who is going to go round tidying up these databases? Data can be pollution
+#opentech @agentGav: new legislation requires every UK company that turns over more than 30,000 to check its supply chain for slavery
+#opentech @agentGav: we are starting to build a provenqnce model to track through the whole supply chain
+#opentech @agentGav: government petiton site says there are too many bees in Surrey "one chased my wife onto a bus"
+#opentech @agentGav: "compasses not maps" -@joi  -
+#opentech @agentGav: last year we managed to create the Open Banking standard surprisingly quickly
+#opentech @agentGav: to have impact at web scale, we need Policy, Infrastructure and Culture thinking
+#opentech @agentGav: there is something interesting between NGO and startup now - talk to me gavin@dgen.net
+#opentech @agentGav: the General Data Protection Regulations was pre-empted by the Open Banking agreement
+#opentech @agentGav: we created an innovation agenda as well as a compliance agenda, getting a better response from the groups
+#opentech @wendyg: Gavin, what help do you want from the people in this room?
+#opentech @agentGav: what is a tractable problem? I want to shorten the path between innovation and policy
+#opentech @agentGav: I want to create a federated network of people and organisations that can tackle a specific problems
+#opentech q: a few weeks ago we had the 1st day without coal in the UK - by 2020 we may be using none at all. what positive headlines?
+#opentech @jamesrbuk: as a journalist reporting on the general election I can't suggest headlines I might like.
+#opentech @agentGav: The UK is about to get a. $20M fine for air pollution in London.
+#opentech @agentGav: when we looked at provenance and supply chain management, we see gaps - banks lose ~10% on corrupt transactions
+#opentech @agentGav: I haven't found it very useful just sitting in Silicon Valley as hey just throw technology at it
+#opentech q: open banking goes live in 13th Jan 2018 - you can use 3rd party apps to access your bank then
+#opentech q: could we solve loneliness in the UK?
+#opentech @agentGav: all the NGOs are struggling how to respond to issues; small companies make things, govts write laws, NGOs need more
+#opentech @agentGav: a lot of charities in the UK got fined this year for misusing data to call people up for donations
+#opentech @barefoot_techie: the oligopoly of 4 technology companies have a lot to answer to 
+#opentech @wendyg: Becky: what are you thinking about the future and how to make it better?
+#opentech @barefoot_techie: Windows XP + the NHS is interesting: 10 years ago we were worried about MSFT, now we're worried about it dying
+#opentech @barefoot_techie: I look forward to the current GAFA oligopoliy is as irrelevant to our lives as Microsoft is
+#opentech @wendyg: it's not that MSFT is irrelevant, but that we don't see it any more as it is backgound
+#opentech @wendyg: Don Norman wrote about the Invisible Computer - they are not visible, but just in things
+#opentech q: nationalisation versus privatisation issues eg the petition site gives them control to reject them early, unlike paper ones
+#opentech q: as a social entrepreneur you're either trying to partner with the govt, or lobby them to do something
+#opentech @jamesrbuk: most collusion and problematic relationships start with something that does have good intentions
+#opentech @jamesrbuk: there are a lot of irritating relationships between the ministry of justice and legal document providers
+#opentech @jamesrbuk: we ahve NHS professionals selling NHS data to the NHS - we need to make govt open and free licensing as possible
+#opentech @agentGav: one of the ways we can fix things is by changing procurement rules in government so that data has free licences
+#opentech q: CSR is dying - we have to go intersectoral. NGOs are not the answer to very much, we need problem focused.
+#opentech q: We need a good digital director for London - get someone good into that role so London can fix things
+#opentech @agentGav: cities are good laboratories for this - if we can solve ti here we can apply it elsewhere
+#opentech @kevinmarks: we have a lot of new regional mayors who have budget and just have been elected - we should bring projects to them
+#opentech @jamesrbuk: a lot of the conservative proposals today incluse a right to delete all data on social networks
+#opentech @jamesrbuk: also a right to port data between social networks, which is very interesting
+#opentech @jamesrbuk: and also a liability if social networks inadvertently show people inappropriate information
+#opentech @jamesrbuk: The Labour Manifesto seems to think that they can do a lot, but westminster will be tied up with Brexit
+#opentech @wendyg: we will be in GDPR and we will trade with the EU - maybe PrivacyShield
+#opentech @wendyg: When May came into power I thought they wouldn;t have time to deal with DEB or IPB
+#opentech @wendyg: they will still put these through, just spend less time on it
+#opentech @steiny: I'm talking about The state of Public Interest technology, not fake news, hacking and filter bubbles
+#opentech @steiny: this si state of the little nation trying to make technology for public good
+#opentech @steiny: today I run the digital team at the Big lottery fund, but nothing I say today is their policy
+#opentech @steiny: Celebrating successes: Mumsnet gets 7M monthly users in the UK - this is a great resource. Not a nonprofit, but good
+#opentech @steiny: MoneySavingExpert has 15M monthly UK users - stops people getting ripped off by the bastards
+#opentech @steiny: Wikipedia - is used by All the People - even more obvious
+#opentech @steiny: all the annoying price comparison websites do help people not be ripped off by the bastards too
+#opentech @steiny: the Panama papers was good thing that got iceland's prime minister to resign among others
+#opentech @steiny: the panama papers was built on the open web and open source tools for making sense of 10TB of document dumps
+#opentech @steiny: So many people are excited by tech for good right now 5400 members in London, Techfugees 60o0 members
+#opentech @steiny: and then ether are things like code club that help people learn to code
+#opentech @steiny: the best tech story is that the government digital service did exist at all
+#opentech @steiny: the GDS getting 350,000 more organ donors by adding a link to gov.uk
+#opentech @steiny: here's a picture of VDLA from the air - you can see the truck bays that used to have trucks full of paper in
+#opentech @steiny: GDS is like any other religion, they have a period out in the cold, but liek all good religions they left a book behind
+#opentech @steiny: the gov.uk service manual is that book - https://www.gov.uk/service-manual it is stunningly helpful
+#opentech @steiny: being able to say "we as a bit of the government should do what the book says" is very useful indeed
+#opentech @steiny: this book is our single greatest legacy inside the UK
+#opentech @steiny: now some Buts - we are bing disrupted, after we did it to  everyone else
+#opentech @steiny: The Amazon Alexa is coming - new devices with closed platforms that are the opposite fo the open web
+#opentech @steiny: Yes, it listens all the time, it sends all the audio straight to Donald Trump
+#opentech @steiny: these platforms are closed, but they rule anyway - Echo, VR glasses, all the other silo techs
+#opentech @steiny: Do we work with what we have got, or do we fight?
+#opentech @steiny: I have had an Echo for 6 months, and other people's houses now feel broken
+#opentech @steiny: a house that doesn't listen to you will become a house with no water or electricty
+#opentech @steiny: the moment you abandon this new tech, you become a fax person in the web age
+#opentech @steiny: new people are coming along in public tech who don't share our assumptions
+#opentech @steiny: webroots democracy is saying young people won't vote because there is no online voting
+#opentech @steiny: he's a 24-year-old interent bloke who thinks we can fight the russians online for an online election, or put up with olds
+#opentech @steiny: Arik is you 15 years ago - think aboutthat
+#opentech @steiny: the biggest divide of all is between GAFA or everyone else (GAFA is  Google Apple Facebook Amazon)
+#opentech @steiny: GAFA are pretty ace at public interest tech projects - Google spreadsheets is a greta public interest tool
+#opentech @steiny: facebook and google remind people to vote
+#opentech @steiny: if you google for suicide, they inject links to get you to phone the samaritans
+#opentech @steiny: they know how to make products that do really well
+#opentech @steiny: so what are the rest of us all for then?
+#opentech @steiny: Goodsam is a great idea - people trained in CPR put an app on their phone, so do you,  see an heart attack, they come
+#opentech @steiny: this is a beautiful public interest tech idea
+#opentech @steiny: wouldn't this be better if it was in Android+iOS, not a special app
+#opentech @steiny: the reward here is people don't die, the case is rare enough
+#opentech @steiny: What wouldn't be better delivered natively by GAFA? They can integrate important things
+#opentech @steiny: GAFA have access to permissions that nobody else has
+#opentech @steiny: is the public interest tech future to be back end suppliers to GAFA?
+#opentech @steiny: If so, how do we a) talk to them b) pay for this c) build any reputation?
+#opentech @steiny: everyone should spend a lot of time talking to democracy club -they did work out how to get things into google's homepage
+#opentech @steiny: That's my big puzzle, how do we turn them?
+#opentech @Suw: I'm Suw Charman-Anderson, the founder of Ada Lovelace Day, and I want to give you an update on what's happening
+#opentech @Suw: Ada Lovelace Day is an international celebration of the achievements of women in Science Technology Engineering and Maths
+#opentech @Suw: we started out signing people up to blog about women in technology on the sadly defunct PledgeBank
+#opentech @Suw: blogging has fallen out of fashion these days, and the event has evolved to be more about events
+#opentech @Suw: we have a STEM cabaret each October in London
+#opentech @Suw: we've had talks about Why We Laugh, How to Build a Comet and much more
+#opentech @Suw: this is the 10th of October and come along
+#opentech @Suw: people have started organising Ada Lovelace Day events around the world - Hackathons, Pub Quizzes, even a Cream Tea
+#opentech @Suw: We have published two books "A passion for Science" about women in science
+#opentech @Suw: we have also produced some great careers posters for schools that do very well
+#opentech @Suw: last year we launched a podcast about women in STEM, where we talk to women about their work 
+#opentech @Suw: we also tell the story of historic women in tech
+#opentech @Suw: we have lots of resources and information at http://findingada.com/
+#opentech @Suw: there are very few inspirational dolls for young girls, so we have crochet patterns for women in STEM http://findingada.com/crochet/
+#opentech @Suw: we are looking at inspirational figures and finding ways to make your own dolls of women in STEM, because Mattell won't
+#opentech @Suw: There are so many things to deal with as a woman in STEM, so we need role models
+#opentech @Suw: We know that if a role model takes on too many stereotypes at once, it backfires
+#opentech @Suw: we're doing a big report on role models coming out in the autumn
+#opentech @Suw: We are looking at an online recruitment fair for women in STEM which we will run in November
+#opentech @Suw: we have shortages in certain skill sets, and we can't afford to let 50% of the workforce go to waste
+#opentech @Suw: Men are less likely to have a job directly after graduation than women, but women are more likely to get low quality jobs
+#opentech @Suw: we're not connecting women with the higher quality jobs
+#opentech @Suw: also, part fo the gender pay gap is that women are getting stuck with the lower quality jobs
+#opentech @Suw: women don't apply for a job if they don't meet all the criteria; men will wing it with 60% of the criteria
+#opentech @Suw: there is an issue with the language used to discuss STEM in the recruitment ads - gendered language predicts gender of hire
+#opentech @Suw: tech jobs are biased toward masculine language, and hence masculine hires
+#opentech @Suw: machine intelligence adverts are the most gendered ads
+#opentech @Suw: it's not just about connecitng, it's also about teaching firms how to talk to women
+#opentech @Suw: interest in salary saturates - they look for training, and opportunities for promotion and social worth
+#opentech @Suw: when you look at the gender split in STEM subjects - Medicine is 70% women, Vets are 77% women - Strong social worth
+#opentech @Suw: we need people to talk about their companies ethical values as well to attract women
+#opentech @Suw: while it is true that people can move from city to city, women are far less likely to want to move away
+#opentech @Suw: women are more likely to have domestic care duties, or be a trailing spouse
+#opentech @Suw: we need to do a better job of talking to women and graduates in general about how to cope with moving to a new town
+#opentech @Suw: what worked for recruiting Gen Xers isn't working for recruiting Milennials
+#opentech @Suw: We're always looking or new sponsors, if you might be interested
+#opentech q: thank you so much for that, Antarctic represent
+#opentech @monstris: We are 2/3rd of climate symphony - we take climate change datasets, extract stories and narratives and make a symphony
+#opentech @monstris: we want to collect everyone together and have a conversation - please call us out if you disagree with something
+#opentech @jamiepereramuso: Jamie, here's a timeline of arctic ice extent, we mapped it to a sound sequence
+#opentech @jamiepereramuso: next we have carbon dioxide , migration routes across the mediterranean 
+#opentech @jamiepereramuso: floods in Pakistan are kind of percussive
+#opentech @jamiepereramuso: we put it all togetehr, and it sounds like this
+#opentech @jamiepereramuso: here's what it sounds like: http://disobedientfilms.com/work/climate-symphony
+#opentech @jamiepereramuso: Migratory patterns are migrants going from north africa to greece, lampadusa and so on
+#opentech q: how come it sounds so good?
+#opentech @monstris: because it is the end of the world, and I feel fine
+#opentech @jamiepereramuso: we wanted it to sound good so we rounded up and down to fit the scales
+#opentech @monstris: we did also select the time period to get the correlations sounding good
+#opentech q: data is at risk of disappearing - is this a way to preserve it?
+#opentech @monstris: there is a threat to take away climate data in the US; this is a way too keep it in durable from
+#opentech @jamiepereramuso: we sonify as a mechanism to get past the conscious and engage the limbic system
+#opentech @monstris: we want to raise awareness globally
+#opentech @jamiepereramuso: I just want to make music from data
+#opentech q: you said things I hadn't heard before despite working in recruitment what our your sources
+#opentech @Suw: Higher Education Careers Service - I also have data from and personal communications
+#opentech @HelenArmfield: what you're going to get from me is a talk about being one of those people @suw put up on the wall
+#opentech @HelenArmfield: Electrocution for fun and profit - what does that being to mind?
+#opentech @HelenArmfield: what I have here is a variety of things that work as Leyden jars, and a kids toy that is a Van der Graaf generator
+#opentech @HelenArmfield: this is a leyden jar made of one metal cup and 2 plastic cups
+#opentech @HelenArmfield: I'm going to see if I can put an electrical charge through a Negroni - Campari, Gin, and bitters
+#opentech @HelenArmfield: I do a london geek festival called nine worlds that is about being geeky and being yourself
+#opentech @thoughtsymmetry: when we are stressed out we seek out beautiful places to increase our wellbeing
+#opentech @thoughtsymmetry: we looked at the data from the census in England and Wales, and compared health with beautiful areas
+#opentech @thoughtsymmetry: we control for income deprivation, economic and other variables and found beautiful places show better health
+#opentech @thoughtsymmetry: we also used an app called mappiness which tracks your happiness by prompting and location too
+#opentech @thoughtsymmetry: individuals report that they are happier when visiting places that are more scenic
+#opentech @thoughtsymmetry: what makes a place more beautiful? is there a collective understanding more than just natural is beautiful
+#opentech @thoughtsymmetry: we are probably spending too much time on the internet, but it is a great source of data
+#opentech @thoughtsymmetry: I used this app from MySociety that gets you to rate random images for beauty per 1km square 
+#opentech @thoughtsymmetry: deep learning is the technique that has done so well with image recognition recently
+#opentech @thoughtsymmetry: rather than try to write rules to distinguish images, you make a neural network and show it examples of images
+#opentech @thoughtsymmetry: as we add more layers, they extract more abstract images
+#opentech @thoughtsymmetry: the problem with a deep learning model it can overfit by preserving each image, not generalising
+#opentech @thoughtsymmetry: I used a network from MIT called Places that will describe scenes for you
+#opentech @thoughtsymmetry: the most scenic images have variety, and not just flat green fields
+#opentech @thoughtsymmetry: in built up areas, cottages and bridges are more scenic
+#opentech @thoughtsymmetry: in rurla areas we get Valley, Coast, Mountain, Urvban Canal Natural pond, Tees, but also cottage, castle, tower
+#opentech @thoughtsymmetry: Open Area, or no Horizon may trigger fear, or may just be a dull image
+#opentech @thoughtsymmetry: can I predict scenicness where I don't have crowdsourced data?
+#opentech @thoughtsymmetry: I can transfer knowledge from the MIT Place network to a neural network to predict scenicness based on names
+#opentech @thoughtsymmetry: beautiful places are benificial to wellbeing, flat places are less beautiful, built up places can be too
+#opentech q: you've been using beauty and scenic as synonyms, but some beautiful buildings aren't scenic
+#opentech @thoughtsymmetry: I have used scenic thought, just used beautiful for the talk
+#opentech @thoughtsymmetry: what I'm interested in is the green space debate-  we need green spaces that are scenic as well
+#opentech @JeniT: Sam asked me to round out the day with vision things, look at the future, be optimistic
+#opentech @JeniT: "The future belongs to those who believe in the beauty of their dreams" - Eleanor Roosevelt
+#opentech @JeniT: the attractor is the route you choose to take - we should focus on the good
+#opentech @JeniT: I work for the ODI, and I care bout the Open Data dream
+#opentech @JeniT: in our perfect open data future society recognises that data is infrastructure
+#opentech @JeniT: datasets that are useful for the future of the country will be funded, and addresses will be free
+#opentech @JeniT: if you look at roads, they are used by everyone for multiple purposes - data should be like that
+#opentech @JeniT: citizens, businesses, charities and governments can collaborate on strong reliable and useful data
+#opentech @JeniT: Data should be taught. Not just using it but understanding the power of data. we need a litearture of data too
+#opentech @JeniT: data should not just be the province of data scientists, but something everyone can do something with
+#opentech @JeniT: Data is used. People should be able to use data to make decisions and create understanding
+#opentech @JeniT: We need to trust in data for it to eb sued well.
+#opentech @JeniT: Data must be used ethically. We have discussions around how to use it, and listen to each other. Data creates trust.
+#opentech @JeniT: Data is used by everyone, it is used in consultation, we talk about it and use it, and discuss what it right and good.
+#opentech @JeniT: that dream is strong data infrastructure, skills at every level of society, we have trust in ethics and integrity of data
+#opentech @JeniT: This is the Republic numerique bill from France, saying that certain data is so important the state should fund it
+#opentech @JeniT: Citymapper is a good example - public data being innovated over by a private company making it more useful
+#opentech @JeniT: Godan is the global open data in agriculture and nutrition initiative - another community built on open data
+#opentech @JeniT: Godan people care about agriculture and nutrition, and open data is a means to achieve progress
+#opentech @JeniT: Open Street Map is gathering data form individual and also from companies, and sharing it back too
+#opentech @JeniT: OpenActive is a project at ODI to encourage people doing activities to share data to build up infrastructure
+#opentech @JeniT: We're starting to have the conversations with normal non data people - Co-op has an event on Friday on trust+transaprency
+#opentech @JeniT: I want to talk about avoiding  traps next
+#opentech @JeniT: avoid complacency - we thought the argument was won in the UK, but we need to keep making the case
+#opentech @JeniT: be careful of Open Washing - the Open Banking standard is not under a good licence - it is revocable and limited
+#opentech @JeniT: if we let our standards slip we don't get the benefits of true openness
+#opentech @JeniT: Failure to adapt is a big issue - we need to change our message to get round brick walls.
+#opentech @JeniT: we need to talk about the data economy and friction freee flows
+#opentech @JeniT: Giving up is a danger - you sometimes need to keep on banging against the brick wall
+#opentech @JeniT: "We did not come to fear the future, we came here to shape it"  - Barack Obama
+#opentech q: what metrics do you use to evaluate success of open data?
+#opentech @JeniT: you can use social, economic or environmental ones depending on what you want your goal to be, not data set counts
+#opentech @JeniT: so for OpenActive we need to measure people becoming more active
