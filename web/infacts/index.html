@@ -9,6 +9,7 @@
 		<link rel="stylesheet" type="text/css" media="all" href="http://danielpomlett.com/infacts/wp-content/themes/InFacts/style.css?v=4.6" />
         <link rel="stylesheet" href="awesomplete.css" />
         <script src="awesomplete.min.js" async></script>
+        <script src="panoname.js" async></script>
 		<!--[if lt IE 9]>
 			<link rel="stylesheet" type="text/css" media="all" href="http://danielpomlett.com/infacts/wp-content/themes/InFacts/css/ie_sheet.css" />
 			<link rel="stylesheet" type="text/css" media="all" href="http://danielpomlett.com/infacts/wp-content/themes/InFacts/ie_styles.css" />
@@ -1337,14 +1338,14 @@ jQuery('#postcodebutton').on('click', function(event) {
     }
     var postcode = encodeURIComponent(rawpostcode);
 	if (postcode) {
-        var url = "https://www.theyworkforyou.com/api/getConstituency?key=DwnyKLEYNfkFDDyRGAEsUE8a&output=js&postcode=" + postcode;
+        var url = "https://www.theyworkforyou.com/api/getConstituency?key=FfbEvUCaGDY3FwXYhsCyWU8i&output=js&postcode=" + postcode;
         output = jQuery.getJSON( url, function(data) {
             var constituency;
             var const_data;
             if(data.hasOwnProperty('error')){ 
-                alert('Error - I cannot recognise that postcode');
+                alert('unknown postcode');
             } else {
-                constituency = data.guardian_name;
+                constituency = panotoname[data.pa_id];
                 document.getElementById("constituency").value=constituency;
                 updatePage();
             }	
