@@ -1264,7 +1264,7 @@ var give_scripts = {"ajaxurl":"http:\/\/danielpomlett.com\/infacts\/wp-admin\/ad
 </body>
 <script>
 var URL = 'https://infacts.org/wp-content/themes/InFacts';
-    URL = '' // KM for staging to get around same-domain CORS
+    URL = window.location.href; // KM for staging to get around same-domain CORS
 var LAB = 'Labour';
 var CON = "Conservative";
 var GRN = "Green";
