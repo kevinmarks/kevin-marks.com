@@ -438,7 +438,10 @@ var give_scripts = {"ajaxurl":"http:\/\/danielpomlett.com\/infacts\/wp-admin\/ad
 </article>
 <script>
 var URL = 'http://danielpomlett.com/infacts/wp-content/themes/InFacts';
-    URL = '';  // KM for staging to get around same-domain CORS
+    if (window.location.href.indexOf('localhost') !== -1)
+        URL = '';  // KM for staging to get around same-domain CORS
+    if (window.location.href.indexOf('kevinmarks') !== -1)
+        URL = 'infacts';  // KM for hosting on my site to get around same-domain CORS
 var LAB = 'Labour';
 var CON = "Conservative";
 var GRN = "Green";
