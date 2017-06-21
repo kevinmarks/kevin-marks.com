@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no' ?>
+<opml version="2.0">
+  <head>
+    <title>AntennaPod Subscriptions</title>
+    <dateCreated>05 Jun 17 11:29:41 +0100</dateCreated>
+  </head>
+  <body>
+    <outline text="99% Invisible" title="99% Invisible" type="rss" xmlUrl="http://feeds.99percentinvisible.org/99percentinvisible" htmlUrl="http://99percentinvisible.org" />
+    <outline text="A History of the World in 100 Objects" title="A History of the World in 100 Objects" type="rss" xmlUrl="https://podcasts.files.bbci.co.uk/b00nrtd2.rss" htmlUrl="http://www.bbc.co.uk/programmes/b00nrtd2" />
+    <outline text="Ada Lovelace Day Podcast" title="Ada Lovelace Day Podcast" type="rss" xmlUrl="http://feeds.soundcloud.com/users/soundcloud:users:229938652/sounds.rss" htmlUrl="http://findingada.com/" />
+    <outline text="Analysis" title="Analysis" type="rss" xmlUrl="https://podcasts.files.bbci.co.uk/b006r4vz.rss" htmlUrl="http://www.bbc.co.uk/programmes/b006r4vz" />
+    <outline text="Answer Me This!" title="Answer Me This!" type="rss" xmlUrl="http://answermethis.libsyn.com/rss/" htmlUrl="http://answermethispodcast.com" />
+    <outline text="Arts and Ideas" title="Arts and Ideas" type="rss" xmlUrl="https://podcasts.files.bbci.co.uk/p02nrvk3.rss" htmlUrl="http://www.bbc.co.uk/programmes/p02nrvk3" />
+    <outline text="Comedy of the Week" title="Comedy of the Week" type="rss" xmlUrl="https://podcasts.files.bbci.co.uk/p02pc9x6.rss" htmlUrl="http://www.bbc.co.uk/programmes/p02pc9x6" />
+    <outline text="Drama of the Week" title="Drama of the Week" type="rss" xmlUrl="https://podcasts.files.bbci.co.uk/p02nrv5m.rss" htmlUrl="http://www.bbc.co.uk/programmes/p02nrv5m" />
+    <outline text="File on 4" title="File on 4" type="rss" xmlUrl="https://podcasts.files.bbci.co.uk/b006th08.rss" htmlUrl="http://www.bbc.co.uk/programmes/b006th08" />
+    <outline text="Friday Night Comedy from BBC Radio 4" title="Friday Night Comedy from BBC Radio 4" type="rss" xmlUrl="https://podcasts.files.bbci.co.uk/p02pc9pj.rss" htmlUrl="http://www.bbc.co.uk/programmes/p02pc9pj" />
+    <outline text="Funny from the Fringe" title="Funny from the Fringe" type="rss" xmlUrl="https://podcasts.files.bbci.co.uk/p042jdq5.rss" htmlUrl="http://www.bbc.co.uk/programmes/p042jdq5" />
+    <outline text="In Our Time" title="In Our Time" type="rss" xmlUrl="https://podcasts.files.bbci.co.uk/b006qykl.rss" htmlUrl="http://www.bbc.co.uk/programmes/b006qykl" />
+    <outline text="Invisibilia" title="Invisibilia" type="rss" xmlUrl="https://www.npr.org/rss/podcast.php?id=510307" htmlUrl="http://www.npr.org/programs/invisibilia" />
+    <outline text="kevinmarks on Huffduffer" title="kevinmarks on Huffduffer" type="atom" xmlUrl="https://huffduffer.com/kevinmarks/atom" htmlUrl="https://huffduffer.com/kevinmarks" />
+    <outline text="Mystery Show" title="Mystery Show" type="rss" xmlUrl="http://feeds.gimletmedia.com/mysteryshow" htmlUrl="www.gimletmedia.com/mysteryshow" />
+    <outline text="Newsjack" title="Newsjack" type="rss" xmlUrl="https://podcasts.files.bbci.co.uk/b00kvs8r.rss" htmlUrl="http://www.bbc.co.uk/programmes/b00kvs8r" />
+    <outline text="On the Media" title="On the Media" type="rss" xmlUrl="http://feeds.wnyc.org/onthemedia" htmlUrl="http://www.wnyc.org/series/media-podcast" />
+    <outline text="Planet Money" title="Planet Money" type="rss" xmlUrl="https://www.npr.org/rss/podcast.php?id=510289" htmlUrl="http://www.npr.org/planetmoney" />
+    <outline text="Radio 4 in Four Podcast" title="Radio 4 in Four Podcast" type="rss" xmlUrl="https://podcasts.files.bbci.co.uk/p0341sn8.rss" htmlUrl="http://www.bbc.co.uk/programmes/p0341sn8" />
+    <outline text="Radiolab" title="Radiolab" type="rss" xmlUrl="http://feeds.wnyc.org/radiolab" htmlUrl="http://www.radiolab.org/series/podcasts/" />
+    <outline text="Radiolab Presents: More Perfect" title="Radiolab Presents: More Perfect" type="rss" xmlUrl="http://feeds.wnyc.org/moreperfect" htmlUrl="http://www.wnyc.org/shows/radiolabmoreperfect" />
+    <outline text="Reply All" title="Reply All" type="rss" xmlUrl="http://feeds.gimletmedia.com/hearreplyall" htmlUrl="http://gimletmedia.com/shows/reply-all" />
+    <outline text="Rocket" title="Rocket" type="rss" xmlUrl="https://www.relay.fm/rocket/feed" htmlUrl="https://www.relay.fm/rocket" />
+    <outline text="Science Vs" title="Science Vs" type="rss" xmlUrl="http://feeds.gimletmedia.com/sciencevs" htmlUrl="https://gimletmedia.com/science-vs/" />
+    <outline text="Seriously..." title="Seriously..." type="rss" xmlUrl="https://podcasts.files.bbci.co.uk/p02pc9qx.rss" htmlUrl="http://www.bbc.co.uk/programmes/p02pc9qx" />
+    <outline text="Start the Week" title="Start the Week" type="rss" xmlUrl="https://podcasts.files.bbci.co.uk/b006r9xr.rss" htmlUrl="http://www.bbc.co.uk/programmes/b006r9xr" />
+    <outline text="StartUp Podcast" title="StartUp Podcast" type="rss" xmlUrl="http://feeds.hearstartup.com/hearstartup" htmlUrl="http://gimletmedia.com" />
+    <outline text="Tell Me I'm Funny" title="Tell Me I'm Funny" type="rss" xmlUrl="http://tellmeimfunnypodcast.squarespace.com/episodes?format=rss" htmlUrl="http://www.tellmeimfunnypodcast.org/episodes/" />
+    <outline text="The Allusionist" title="The Allusionist" type="rss" xmlUrl="http://feeds.theallusionist.org/Allusionist" htmlUrl="http://theallusionist.org" />
+    <outline text="The British Museum podcast" title="The British Museum podcast" type="rss" xmlUrl="http://britishmuseum.libsyn.com/rss" htmlUrl="http://britishmuseum.libsyn.com/podcast" />
+    <outline text="The Infinite Monkey Cage" title="The Infinite Monkey Cage" type="rss" xmlUrl="https://podcasts.files.bbci.co.uk/b00snr0w.rss" htmlUrl="http://www.bbc.co.uk/programmes/b00snr0w" />
+    <outline text="the memory palace" title="the memory palace" type="rss" xmlUrl="http://feeds.feedburner.com/thememorypalace" htmlUrl="http://thememorypalace.us" />
+    <outline text="This American Life" title="This American Life" type="rss" xmlUrl="http://feed.thisamericanlife.org/talpodcast" htmlUrl="https://www.thisamericanlife.org" />
+    <outline text="Wait Wait... Don't Tell Me!" title="Wait Wait... Don't Tell Me!" type="rss" xmlUrl="https://www.npr.org/rss/podcast.php?id=344098539" htmlUrl="http://www.npr.org/programs/wait-wait-dont-tell-me/" />
+  </body>
+</opml>
