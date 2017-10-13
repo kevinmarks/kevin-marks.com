@@ -1,0 +1,49 @@
+<html><head><title>Twitter's Nazi Filter</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="fragmention.js"></script>
+<link href="style.css" media="all" rel="stylesheet" type="text/css" />
+<link rel="webmention" href="https://webmention.herokuapp.com/api/webmention" />
+<style>
+.imageblock {display:-webkit-flex;display:flex; flex-wrap: wrap; -webkit-flex-wrap: wrap; justify-content: space-around; -webkit-justify-content: space-around; max-width:100%;}
+figure img {width:100%; max-width:360px;}
+figure figcaption {font-family:"Gill Sans",Roboto,sans}
+</style></head>
+<body>
+<article class="h-entry">
+<h1 class="p-name">Twitter’s Nazi Filter <time class="dt-published">2017-10-13</time></h1>
+<div class="e-content">
+It's not something that Twitter advertise, but they do have a built-in Nazi-blocking filter. It's enabled by default if Twitter detects that you are in Germany or France, as Nazi imagery and proselytising is illegal there. Originally due to US occupation as Lexi Alexander points out:
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">The best part about all of this is that the allied forces, led by an American, forbid Germany the use of Nazi symbols + hate speech forever</p>&mdash; Lexi Alexander ‎ (@Lexialex) <a href="https://twitter.com/Lexialex/status/918594783001632770?ref_src=twsrc%5Etfw">October 12, 2017</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<p>However, if you switch your country to Germany in Twitter's desktop web settings, the same rules will apply. 
+<figure><img src="countryswitch.png" /><figcaption>Jurisdiction migration</figcaption></figure>
+<p>The UI language and local trending topics will not be affected - this setting just changes your legal jurisdiction making Nazi accounts vanish:
+<div class="imageblock"><figure><img class="u-featured" src="nazibefore.png"><figcaption>The American Nazi Way</figcaption></figure>
+<figure><img src="naziafter.png"><figcaption>The German Nazi filter</figcaption></figure></div>
+<h2>Why is this here?</h2>
+<p>When Twitter put in <a href="https://blog.twitter.com/official/en_us/a/2012/tweets-still-must-flow.html">per-country content blocking</a>, they added a "choose your country" setting so users could get out of it. They had the opposite use case in mind - switching from a govt mandated block in, say, Turkey to "Worldwide" so activists could see what the rest of the world sees.
+<p>But it works as an opt in to German anti-Nazi laws too. 
+<p>If the <a href="https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/650949/Internet_Safety_Strategy_green_paper.pdf">UK Government's proposals</a> to ban online bullying and harmful content succeeds, maybe Twitter users will want to opt into that. As Twitter's former counsel noted, this is a new kind of jurisdiction shopping.
+<p><blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">hmmm, an interesting jurisdictional hack in the best sense of the word. Also, if you feel strongly about this, you could work to change law.</p>&mdash; Alex Macgillivray (@amac) <a href="https://twitter.com/amac/status/914903874602962949?ref_src=twsrc%5Etfw">October 2, 2017</a></blockquote>
+
+<p>Or maybe Twitter could be more radical, and create multiple jurisdictional options based on what their users have been asking them to do for years - filtering out the <a href="http://www.kevinmarks.com/twitterhatespeech.html">hate speech</a>.
+
+
+</div>
+<a href="/" class="h-card">Kevin Marks</a>
+<p><a href="https://news.indieweb.org/en" class="u-syndication">See IndieNews</a>
+
+</article>
+<script id="webmention-hosted">
+  (function () {
+    var sn = document.createElement("script"), s = document.getElementsByTagName("script")[0], url;
+    url = document.querySelectorAll ? document.querySelectorAll("link[rel~=canonical]") : false;
+    url = url && url[0] ? url[0].href : false;
+    sn.type = "text/javascript"; sn.async = true;
+    sn.src = "//webmention.herokuapp.com/api/embed?version=cutting-edge&url=" + encodeURIComponent(url || window.location);
+    s.parentNode.insertBefore(sn, s);
+  }());
+</script>
+
+</body>
