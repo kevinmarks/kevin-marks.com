@@ -1,0 +1,157 @@
+<html>
+<head><title>FHIR Dev Days Amsterdam 2017-11-15</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="fragmention.js"></script>
+<script src="hovercards.js"></script>
+<link href="style.css" media="all" rel="stylesheet" type="text/css" />
+<link rel="webmention" href="https://webmention.herokuapp.com/api/webmention" />
+</head>
+<body>
+<article class="h-entry">
+<h1 class="p-name">FHIR Dev Days Amsterdam <time class="dt-published">2017-11-15</time></h1>
+<div class="e-content">
+
+
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='https://twitter.com/@ewoutkramer'>Ewout Kramer</a>:  <blockquote class='e-content'><p>welcome to the 4th edition of FHIR DevDays - we have 330 participants from 27 countries and 140 organisations and 50% are here for the first time
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='http://healthintersections.com.au'>Grahame Grieve</a>:  <blockquote class='e-content'><p>What's new in release 4 - FHIR milestones are now named 1,2,3 and 4
+<p>a full standard is a normative standard, and commits to non-breaking changes. we have draft standards for trial use 
+<p>release 4 is due out about the end of next year - it's an 18 month cycle. When we're more stable we may speed up, but for now that is the rate
+<p>HL7's goal is to establish FHIR as the primary standard for global health interoperability. 
+<p>if you look at what data is actually exchanging, not many are using FHIR now, but it is changing as people implement it
+<p>FHIR R4 will be the first normative standard - parts will be normative Definition INfrstructure, Data types, xml and json fomrat, restful API, CodeSystem, ValueSet,ConceptMap,StructureDefinition, Patient, Observation
+<p>the rest of R4 will be Standard for Trial Use (STU) - Normative parts fall back to STU if they don't pass
+<p>Normative ballots can take 5 years - each change will reset the balloting process
+<p>we have some challenges in defining what constitutes a breaking change - 
+<p>We are intorducing FHIR certification - there is proficiency certificate for knowing the spec (R3) - there is a professional certification coming too which requires practical experience. This one is hard, the core team failed it 1st time 
+<p>We are formalising the Application Launch Protocol as a profile in OAuth /OpenID connect
+<p>in RL4 we are paying more attention to supporting multiple versions add a fhir-version to media type application/fhir+json; fhir-version=3.0
+<p>we have been working on GraphQL support - we have described how to use it with FHIR - currently supported by <a class="auto-link" href="http://test.fhir.org">test.fhir.org</a> and <a class="auto-link" href="http://hapi.fhir.org">hapi.fhir.org</a> the R client supports GraphQL
+<p>Bulk Data Support - we're expanding the API to support extartion of large data - API for long running request and a format for large amounts of data nd-json and semantics to request it
+<p>my servers already support nd-json, so give it a go
+<p>Breaking Chnages - renaming ValueSet.compose to ValueSte.definition - that failed
+<p>we are proposing switching to github flavoured markdown
+<p>there are lots of other breaking changes - look at the inter version maps
+<p>we have new content in the specification for case reporting, occupatopnal health, BiologicallyDerivedProduct for blood transfusion
+<p>we want to elevate w5 to a formal logical model - we are using RDF for quality and consistencey
+<p>we are mapping to more definitional tools eg SNOMED-CT
+<p>HL7 develops the FHIR standard; the FHIR foundation supports implementers with guides, collboration groups  and runs <a class="auto-link" href="http://registry.fhir.org">registry.fhir.org</a> 
+<p>we need to improve support for national and domain specific adoption programs. Adoption in Europe is mostly informal - plenty of use but no formal requirements
+<p>thre is very little use of FHIR in Africa - I'd like to see that change.
+<p>We need more support for Aggregate data reporting - we haven't seen this in production yet. 
+<p>I'd like to broaden cds-hooks - get release 1 out the door then expand it further
+<p>there is a lot more that needs to be done with <a class="auto-link" href="http://fhir.org">fhir.org</a>
+<p>I want a reusable formal review process - like a CKM review or of a national profile as a pattern for multidisicplanary case review
+<p>we don't have end point discovery nailed - how do we build a national endpoint registry? What do we need to do to govern and implement these?
+<p>Bundle is solid as a rock, everyone has implemented, except the signature part which nobody has used - we need to look at that, maybe drop it
+<p>how we measure maturity is a spreadsheet which tracks adoption, maturity, - accessed from the FMG page on the wiki - 50-60 datapoints
+<p>this isn't a mathematical safe process, it's a social thing - it is hard to get out of trial use
+<p>given that all the fields have minimum cardinality of 0, it is hard to see what is required - not every patient has a name after all
+<p>being able to release is conditional on meeting our procedural and technical goals - we can't set a fixed date to meet those.
+<p>we have very little experience of signatures on non-static documents
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='https://twitter.com/@jamesagnew'>jamesagnew</a>:  <blockquote class='e-content'><p>my slides for Java Developers are up at <a class="auto-link" href="http://goo.gl/MQVf6s">goo.gl/MQVf6s</a> and are creative commons sharealike licensed
+<p>code samples are at <a class="auto-link" href="http://github.com/furore-fhir/fhirstarters">github.com/furore-fhir/fhirstarters</a>
+<p>I'm a software developer and project lead for HAPI, and CTO for Smile CDR, which is built on HAPI
+<p>HAPI started in 2001 as a HL7 v2 library and picked up FHIR support in 2012
+<p>FHIR has XML and JSON formats, and there is an RDF version in turtle, but nobody has asked for that yet, so HAPI doesn't implement it
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='https:/linkedin.com/in/vadimperetokin'>Vadim Peretokin</a>:  <blockquote class='e-content'><p>before you make new profiles, check the FHIR registry (<a class="auto-link" href="http://registry.fhir.org">registry.fhir.org</a>) first and reuse where you can. check the extensions list and Simplifier
+<p>you can constrain profiles, but not expand them - for example you can't grow the cardinality of a 0..1 resource, but you can set it to 0
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='http://smartplatforms.org'>Josh Mandel</a>:  <blockquote class='e-content'><p>SMART began before there was FHIR  - asking "how can we plug apps and services into a variety of health record systems?"
+<p>apps were interested in accessing EHR, but the EHR vendors were less interested until we approached via standards - hence FHIR
+<p>we want to enable apps to plug into different clinical systems. This needs UX integration; Authorization, Single Sign-On and Clinical Data
+<p>SMART stands for Substitutable medical applications - the goal is app choice. 
+<p>this also means that apps can run in systems by different vendors, and in different contexts
+<p>the point is to make the EHR into a platform to handle general things so apps can specialise 
+<p>we use FHIR for data OAuth for authorization and OpenID Connect for single sign on
+<p>SMART can launch an app either as an EHR Portal launch - inside an EHR or Standalone - app launches first then user picks EHR
+<p>app can ask for authorization, and for identity of the user. This uses the OpenID Connect OAuth profile
+<p>when the app launches, it asks for data access with scopes, gets an auth token back and returns display info
+<p>SMART Authorization scopes tay what access an app needs - eg patient/Immunization.read - patient/*.read for whole record 
+<p>you can ask at the single patient/*.read level or at the user/*.read level - to get the same scope as that user has access to
+<p><a class="auto-link" href="http://docs.smarthealthit.org/fhir-support/">http://docs.smarthealthit.org/fhir-support/</a> shows what features are supported by which environment
+<p>we have app developer libraries for javascript, puthon and swift, but also for Ruby, .Net and Java
+<p>we focused on helping app developers, not EHR ones - we have public sandboxes and commercial ones
+<p>the FHIR API has some variations on how you can express data - pick one sandbox first then try on others.
+<p>you're building a web app, so you can do any web calls, we focus on connecting to EHR
+<p>we have sandboxes for you to test in: <a class="auto-link" href="http://docs.smarthealthit.org/sandbox/">http://docs.smarthealthit.org/sandbox/</a> and an App gallery too
+<p>the app gallery has a "try it" button to let you run an app in the sandbox
+<p>our sandbox supports FHIR 2 and 3 - some apps only support 2 - the auth is the same between versions
+<p>if you want to connect to multiple sources you need to auth multiple times - we have seen developers implement this
+<p>if you have multiplel EHRs it may make more sense to build a FHIR  bridge so the apps can auth once not twice
+<p>we have gone a long way with single purpose apps, and people switching between them. we don't have a way for apps to message each other
+<p>could you use a national identity service? you could make each system rely on national ID directly, but getting agreement is a challege
+<p>we are working to bring the SMART APIs to the HL7 process. Standalone launch is variable
+<p>sneak peek of a development tool - we have a smart app launcher set up that wraps up  \choices into a service into a FHIR service URL
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='http://healthintersections.com.au'>Grahame Grieve</a>:  <blockquote class='e-content'><p>We're here to talk about Subscriptions - <a class="auto-link" href="https://www.hl7.org/fhir/subscription.html">https://www.hl7.org/fhir/subscription.html</a> how many here have implemented Subscriptions? More than a handful
+<p>Subscriptions leans on indexing methods - you ask about resources that matcha search criteria - you can get a ping each time it is created or changed
+<p>there is a problem with for example emergency departments where you get a ping when patients are admitted but not when discharged
+<p>we're planning more here: <a class="auto-link" href="http://wiki.hl7.org/index.php?title=201801_FHIR_Subscriptions">http://wiki.hl7.org/index.php?title=201801_FHIR_Subscriptions</a> 
+<p>in the event definition  you can specify the trigger and timing, and set SQL or FHIRpath queries <a class="auto-link" href="http://build.fhir.org/eventdefinition.html">http://build.fhir.org/eventdefinition.html</a>
+<p>I prefer an event definition based subscription over a search based one
+<p>I don't like search because if things fall out you don't get notified; you would have to keep versions
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href=''>q</a>:  <blockquote class='e-content'><p>searching is more intuitive for the user
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='https://github.com/jkiddo'>Jens Kristian Villadsen</a>:  <blockquote class='e-content'><p>I have implemented something like this elsewhere - as soon as you set a criterion, return all current matches immediately
+<p>if the client wants to track all events then you need to fetch the previous ones and get all notifications
+<p>if we have eventual consistency we need ordering of the resources - we may not get all of them in the right order
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='http://healthintersections.com.au'>Grahame Grieve</a>:  <blockquote class='e-content'><p>every version that supports subscriptions should support versioning
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='https://github.com/jkiddo'>Jens Kristian Villadsen</a>:  <blockquote class='e-content'><p>the server should logically timestamp it's resources
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='http://healthintersections.com.au'>Grahame Grieve</a>:  <blockquote class='e-content'><p>the specification should discuss this
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='https://twitter.com/q'>q</a>:  <blockquote class='e-content'><p>if you have 2 versions of a fhir resources you don't know what order they are in
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='http://healthintersections.com.au'>Grahame Grieve</a>:  <blockquote class='e-content'><p>my server will try 10 tieme over 10 minutes, and if it still gets errors it turns off the subscription
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='https://github.com/jkiddo'>Jens Kristian Villadsen</a>:  <blockquote class='e-content'><p>webhooks aren't always good in firewalled environments - can use server-sent events
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='https://github.com/niquola'>niquola</a>:  <blockquote class='e-content'><p>with a lot of FHIR servers coming up we have a distributed system and need to integrate
+<p>we have the History API, and Subscriptions used to propagate state - it's a problme of change detection
+<p>bulk updates and system to system is part of this too - append only transaction log eg postgres, kafka API etc replicate
+<p>we have almost everything in FHIR to do transaction log - we need a changes feed - snapshot; subscribe changes; replay changes
+<p>we need a snapshot method for FHIR - base backup 
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='http://healthintersections.com.au'>Grahame Grieve</a>:  <blockquote class='e-content'><p>have a look at the bulk transfer api
+<p>we could wrap everything in transaction and serialize them
+<p>HL7v2 still provides this - FHIR needs this
+<p>we could have a transactionid with a sequence number and you can build based on that
+<p>I would like a watch subscription based on the search api - with a transcationid so you get future ones
+<p>the history spec almost does this, but transactions aren't explicit in it.
+<p>Kevin provided a link to Websub <a class="auto-link" href="https://www.w3.org/TR/websub/">https://www.w3.org/TR/websub/</a> - we should look at it to see how it maps
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='https://twitter.com/q'>q</a>:  <blockquote class='e-content'><p>assuming we publish an admission trigger definition - can we filter that as well - event with a filter
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='http://rolfhut.nl'>Rolf Hut</a>:  <blockquote class='e-content'><p>I'm Rolf Hut - I mainly do sensor design in water management and hydrology - I'm not a programmer
+<p>I talk about how technology is always accessible to everyone - I am a tinkerer
+<p>you make beautiful applications in the medical world, and thats not a pace where tinkering is appreciated
+<p>I wrote my book at my kitchen table - I wanted a fancy standing desk. At IKEA they are 700 Euros, so I did a chapter on making a standing desk fro less than 100 euros
+<p>you get 2 ironing boards and 2 bookshelves, and then bolt the bookshelves to the ironing boards and it costs 80 euros
+<p>I saw on Dirk Gently a lamp that goes on when you pick it up, and I wanted to make one. I added an adafruit capacitive touch sensor to a lamp to do it
+<p>I looked up the datasheet and maxwell's equations and so on, but in the end I found that there were documents saying "we don't know how this works"
+
+</blockquote></div>
+</div>
+<a href="https://news.indieweb.org/en" class="u-syndication">See IndieNews</a>
+</article>
+<script id="webmention-hosted">
+  (function () {
+    var sn = document.createElement("script"), s = document.getElementsByTagName("script")[0], url;
+    url = document.querySelectorAll ? document.querySelectorAll("link[rel~=canonical]") : false;
+    url = url && url[0] ? url[0].href : false;
+    sn.type = "text/javascript"; sn.async = true;
+    sn.src = "//webmention.herokuapp.com/api/embed?version=cutting-edge&url=" + encodeURIComponent(url || window.location);
+    s.parentNode.insertBefore(sn, s);
+  }());
+</script>
+
+</body>
+</html>
