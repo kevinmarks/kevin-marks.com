@@ -12,8 +12,6 @@
 <h1 class="p-name">FHIR Dev Days Amsterdam <time class="dt-published">2017-11-15</time></h1>
 <div class="e-content">
 
-
-</blockquote></div>
 <div class='notercite h-cite'><a class='h-card p-category' href='https://twitter.com/@ewoutkramer'>Ewout Kramer</a>:  <blockquote class='e-content'><p>welcome to the 4th edition of FHIR DevDays - we have 330 participants from 27 countries and 140 organisations and 50% are here for the first time
 </blockquote></div>
 <div class='notercite h-cite'><a class='h-card p-category' href='http://healthintersections.com.au'>Grahame Grieve</a>:  <blockquote class='e-content'><p>What's new in release 4 - FHIR milestones are now named 1,2,3 and 4
@@ -137,6 +135,68 @@
 <p>you get 2 ironing boards and 2 bookshelves, and then bolt the bookshelves to the ironing boards and it costs 80 euros
 <p>I saw on Dirk Gently a lamp that goes on when you pick it up, and I wanted to make one. I added an adafruit capacitive touch sensor to a lamp to do it
 <p>I looked up the datasheet and maxwell's equations and so on, but in the end I found that there were documents saying "we don't know how this works"
+<p>Kwell in dutch is more focused than the English word seepage - if you live below sea level then the ground water is under pressure and goes up
+<p>an API is ultimately a way for developers to communicate - you're talking to each other without having to see each other's code
+<p>when you're having conversations with colleagues in different departments, you have an API
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='http://fhir.furore.com'>Marten Smits</a>:  <blockquote class='e-content'><p>We have come to the point where we need to version our profiles as we are about to change them around
+<p>a breaking change to one resource can potentially cascade to the others that reference it
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='https://twitter.com/@ewoutkramer'>Ewout Kramer</a>:  <blockquote class='e-content'><p>if you had a profile on HumanName then you would have the same issues
+<p>if you have a resource that conforms to a canonical URL without a | sign, it will converge tot he current version
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='https://de.linkedin.com/in/simone-heckmann-16a96179/en'>Simone Heckmann</a>:  <blockquote class='e-content'><p>in our case the latest version will always be the unstable version - it should go to the latest published version
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='http://fhir.furore.com'>Marten Smits</a>:  <blockquote class='e-content'><p>there is a final or draft version in the structure definition that we could use
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='http://healthintersections.com.au'>Grahame Grieve</a>:  <blockquote class='e-content'><p>you shoudl change the URL if there is a breaking change to the profile - what counts as breaking - if you change the intent or details?
+<p>up to this point we have assumed that things should change
+<p>there is a task to make all our canonical urls version specific
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='https://twitter.com/@ewoutkramer'>Ewout Kramer</a>:  <blockquote class='e-content'><p>I put this task in never expecting that we would do that
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='http://healthintersections.com.au'>Grahame Grieve</a>:  <blockquote class='e-content'><p>you can version your structure definition without making breaking changes. You don't want to change the canonical url with non-breaking changes
+<p>what we do in the FHR spec is reset everything when we publish a new version
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='https://twitter.com/@ewoutkramer'>Ewout Kramer</a>:  <blockquote class='e-content'><p>the canonical url should the the url plus the major part of the version element
+<p>wherever we put the version number it will still be a breaking change
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='https://de.linkedin.com/in/simone-heckmann-16a96179/en'>Simone Heckmann</a>:  <blockquote class='e-content'><p>we have to consider derived profiles too - If I make a derived profile I want to point to a version
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='https://twitter.com/@ewoutkramer'>Ewout Kramer</a>:  <blockquote class='e-content'><p>we have reference by canonical URL that are unversioned - what do we do? picking newest can have problems
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='https://de.linkedin.com/in/simone-heckmann-16a96179/en'>Simone Heckmann</a>:  <blockquote class='e-content'><p>if I have valuesets that are regularly updated - I don't want to change my profile each time it updates
+<p>in my profile I would say 'bind to this valueset' and it means all versions of that code set
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='http://www.kevinmarks.com'>Kevin Marks</a>:  <blockquote class='e-content'><p>the classic case is country codes - countries cease to exist, but that doesn't mean you can update them all
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='https://twitter.com/@ewoutkramer'>Ewout Kramer</a>:  <blockquote class='e-content'><p>adding a category could be seen as a breaking change if it would affect a choice now
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='http://healthintersections.com.au'>Grahame Grieve</a>:  <blockquote class='e-content'><p>we only recommend semver, we didn't require it
+<p>if you put the major version in the canonical URL, then breaking changes will need to be tracked
+<p>we know from our experience with version 3 and decomposed structures, and users hated it - we have a single milestone release now
+<p>I can totally break something without changing the external API
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='https://twitter.com/q'>q</a>:  <blockquote class='e-content'><p>Simplifier presents itself as your registry - everything you put on that can be depended on by somebody else
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='https://de.linkedin.com/in/simone-heckmann-16a96179/en'>Simone Heckmann</a>:  <blockquote class='e-content'><p>it could make sense for Simplifier to enforce semver changes
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='http://healthintersections.com.au'>Grahame Grieve</a>:  <blockquote class='e-content'><p>one of the advantages of putting the major version in the canonical URL then you can take minor or major changes
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='https://github.com/niquola'>niquola</a>:  <blockquote class='e-content'><p>you could take the git approach by taking a hash and that is the version - it's immutable
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='https://de.linkedin.com/in/simone-heckmann-16a96179/en'>Simone Heckmann</a>:  <blockquote class='e-content'><p>could we have a version that is |2.* which says we want minor changes
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='https://twitter.com/@ewoutkramer'>Ewout Kramer</a>:  <blockquote class='e-content'><p>we have a way to redirect references in IG - make HumanName to <a class="auto-link" href="http://HumanName.de">HumanName.de</a> update to go to <a class="auto-link" href="http://HumanName.de">HumanName.de</a>|2
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='https://github.com/niquola'>niquola</a>:  <blockquote class='e-content'><p>what id the reason to derive profiles - inheritance is evil, so why not just copy?
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='https://de.linkedin.com/in/simone-heckmann-16a96179/en'>Simone Heckmann</a>:  <blockquote class='e-content'><p>if you derive from version specific url that doesn't change, that is like copying
+<p>by not using a version specific URL, I can make the choice
+<p>I only want the version specific reference when I freeze and I want to publish
+<p>we could declare which version the unversioned ones would resolve to
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='http://healthintersections.com.au'>Grahame Grieve</a>:  <blockquote class='e-content'><p>in this scheme it is "I will take anything" or "i will take nothing" - we need a middle ground
 
 </blockquote></div>
 </div>
