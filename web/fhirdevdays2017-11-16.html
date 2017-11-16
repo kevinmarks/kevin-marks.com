@@ -1,0 +1,179 @@
+<html>
+<head><title>FHIR Dev Days Amsterdam 2017-11-16</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="fragmention.js"></script>
+<script src="hovercards.js"></script>
+<link href="style.css" media="all" rel="stylesheet" type="text/css" />
+<link rel="webmention" href="https://webmention.herokuapp.com/api/webmention" />
+</head>
+<body>
+<article class="h-entry">
+<h1 class="p-name">FHIR Dev Days Amsterdam <time class="dt-published">2017-11-16</time></h1>
+<div class="e-content">
+
+
+<a class='h-card p-category' href='http://healthintersections.com.au'>Grahame Grieve</a>:  <blockquote class='e-content'><p>OAuth is about delegating authorisation, but most non server devs think it is about authentication. That's because you have to work out who it is before what they can do. 
+<p>In corporate environments, the user will likely not see the authentication as it is an organisational choice 
+<p>2 layer OAuth is when you separate the authentication from the authorisation - eg logging in with Facebook, then separately making permission choices 
+<p>This means that the server doesn't have to handle passwords. I have an option where I can give you a token directly over Skype so you don't have to authenticate [this sounds like indieauth] 
+<p>HL7 publishes a profile of OAuth <a class="auto-link" href="http://hl7.org/fhir/smart-app-launch">hl7.org/fhir/smart-app-launch</a> -  you should use this 
+<p>SMART on FHIR defines a set of scopes class/type.mode eg patient/*.read 
+<p>These scopes are easy to understand for a server dev, but hard to explain to the user
+<p>We need a good set of research on this to explain what is comprehensible to the user and useful for the server
+<p>More recently we have looked at a consent model where the patient creates a consent agreement with the server, and updates these over time. This may be tested in January 
+<p>How we manage the process of consent is hard - the scopes are too simple please now, but making them clear is hard 
+<p>The OAuth scopes interact with access control - scopes, what data, what scopes are allowed what other consents are applicable 
+<p>FHIR does not specify the access control layer - you can use SCIM Gwent should discuss whether we should to this further 
+<p>As part of security you should maintain an extremely comprehensive audit trail. AuditEvent is how we model this typically is create  only append. Consider signing the audit trail - putting the hash in a public blockchain could be good 
+<p>The most skilled insider attacks involve hacking the data and then hacking the audit trail too
+<p>The Provenance resource gives information about the source of information - who what when where and why 
+<p>This information is demoralised as lots of servers don't track provenance, but we should do this more 
+<p>We have a Signature resource that covers digital signature, scans of physical signatures and more. You can use this to carry a png of a paper signature or a digital one 
+<p>We have canonicalisation of resources so that you can sign a resource that survives format transformations 
+<p>Bundle has a signature that signs the resources in the bundle, given canonical rules 
+<p>There is not much point signing an individual resource, as the related resources matter too. 
+<p>If you move resources between servers it will reidentify the resources, changing the canonical structure and breaking the signature 
+<p>Security labels are for resources that need special handling - vip patients, confidential records etc. Every resource has a slot for a security label. 
+<p>This labelling is to help the access control layer. You can also label an http request - eg break the glass protocol to get emergency access 
+<p>We have defined some core labels: purpose of use (treatment, research, legal, claims) 
+<p>There are confidentiality codes unrestricted, normal, restricted, very restricted 
+<p>There is also a "delete after use" label 
+<p>You should use markdown processors that ignore html
+<p>There is another spec called UMA but it still means that the resource server needs to do the token management 
+<p>Whenever you talk about data ownership you are still talking about the person you are authenticating
+
+</blockquote></div>
+<hr>
+<div class='notercite h-cite'><a class='h-card p-category' href='https://twitter.com/@ahenket'>Alexander Henket</a>:  <blockquote class='e-content'><p>In the Netherlands MedMij is about creating an EHR environment without developing an EHR - an exchange for digital health data between patients and professionals
+<p>Trust is vital for this goal MedMij is not a network in itself, it uses existing networks  - the national spine uses FHIR to bridge the patient domain and the healthcare domain
+<p>the healthcare domain is a v3 CDA model so we have some challenges in building this 
+<p>we have ZorgDomein that handles lab requests, referalls and consultation - they are now switching this to have aFHIR api
+<p>Koppeltaal is working on serious gaming for healthcare mainly for autism spectrum - they use SMART on FHIR
+<p>what happens if everyone is building profiles all over the place - we have put together a HL7 NL FHIR council and team to share profiles using Simplifier
+<p>we have large scale investments in FHIR STU3 - not planned 4 transition yet. links:  <a class="auto-link" href="http://medmij.nl">medmij.nl</a> <a class="auto-link" href="http://zorgdomein.nl">zorgdomein.nl</a> koppeltaal,nl
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='http://www.ahdis.ch'>Oliver Egger</a>:  <blockquote class='e-content'><p>In Switzerland there is not yet much adoption of FHIR 0 we are focusing on IHE XDS/CDA-CH V2
+<p>in HL7 Switzerland we have a FHIR group that meets regularly and developing profiles
+<p>we have a lot of primary systems that connect to each other - connecting cloud to local systems - these primary systems are staring to use FHIR to exchange data
+<p>the immunization database is CDA based but is also building a FHIR interface
+<p>the IHE ORF Profile for form exchange was not working so we are modelling this in FHIR as Questionnaire and we want to bring this to standard
+<p>eMediplan on FHIR is for making a current medication list for patients - we make a MedicationPlan bundle of MedicationPlans
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='https://de.linkedin.com/in/simone-heckmann-16a96179/en'>Simone Heckmann</a>:  <blockquote class='e-content'><p>we founded the German hl7 fhir committee about 3 years ago - we wanted to gather the German community first
+<p>we have a German stream on Zulip, which is the living room for the German community
+<p>we are using Simplifier to host our german based profiles, and use the webhook to a github repository for issues, and link these from Zulip
+<p>we published an Implementation Guide too and are gathering feedback
+<p>we have the Medication plan that <a class="auto-link h-x-username" href="https://twitter.com/oliveregger">@oliveregger</a> already described - with a printed list and a barcode to scan to get the data
+<p>we have a simplifier hosted profile to describe that medication plan
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='http://smartplatforms.org'>Josh Mandel</a>:  <blockquote class='e-content'><p>I want to talk about FHIR n the US realm <a class="auto-link" href="http://bit.ly/us-realm-devdays">bit.ly/us-realm-devdays</a>
+<p>Argonaut is a project of EHR vendors, HL7 and others - part fo this was the way of launching apps in SMART
+<p>we now have a FHIR US Core and now an International model
+<p>we are defining a common data set of 20 types that are now US Core profiles in FHIR
+<p>in 2017 we have focused on Scheduing and clinical decision support
+<p><a class="auto-link" href="http://hl7.org/fhir/us/core">hl7.org/fhir/us/core</a> defines minimum conformance requirements for accessing patient data - this is built on STU3
+<p>most of these profiles are locking down vocabularies and coding systems
+<p>the sync for science protocol lets research participants share EHR with researchers <a class="auto-link" href="http://bit.ly/s4s-overview-2017">bit.ly/s4s-overview-2017</a>
+<p>Dav Vinci Project is encouraging the shift from pay for treatment to pay for outcome - we need clinical data not procedural data
+<p>we need a common approach for measuring clinical data so that we can compare outcomes
+<p>we have ONC funded improvement to FHIR infrastructure, including bulk data access  
+<p>we are working to integrate CIMI clinical models with FHIR and dealing with terminology management and integration
+<p>we are working to use FHIR to model clinical trials and representing drug products and substances
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href=''>Lloyd Mackenzie</a>:  <blockquote class='e-content'><p>FHIR has been slowet than the us as we wore ourselevs out adopting HL7 v3, but it is picking up now
+<p>Ontario had issues that delayed v3, so they are adopting FHIR instead
+<p>we have a FHIR Working Group which is the most active - building Use cases for business drivers
+<p>we also have URI strategy and tooling groups
+<p>we are analysing requirements for e referrrals but not implementations yet
+<p>Ontario had immunisations on FHIT in 2016 and prescribing and consultation in 2017 - working on patient, organisation and practitioner registries
+<p>we have a national FHIR registry on Simplifier, and are mapping terminology services to FHIR
+<p>we are also mapping OIDs frim version 3 to URIs for FHIR
+<hr>
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='https://twitter.com/@jamesagnew'>jamesagnew</a>:  <blockquote class='e-content'><p>this is the HAPI FHIR advanced session, covering various  aspects see <a class="auto-link" href="http://goog.gl/MQVf6s">goog.gl/MQVf6s</a>
+<p><a class="auto-link" href="http://fhirtest.uhn.ca">fhirtest.uhn.ca</a> is our webpage test overlay - it will let you search for patients and other resources - this isn't using special hooks, it uses the HAPI FHIR model
+<p>you can talk to any FHIR server you want using the test page overlay, its not HAPI specific
+<p>It loads the FHIR capability statement from the server and uses it that way
+<p>if you're trying to solve any real world problem you probably have extra requirements - eg adding eye color for opthalmology
+<p>you can add extensions by  AddExtension with a URI and a value, or you can do it with custom classes which gives you compile time checking
+<p>Validation is an age old question - how strict to be; whether to reject invalid data on the way in, potentially causing data loss
+<p>The Parser Error Handler catches structural errors and calls the hook on Error. The Semantic Validator checks invariants and required resources too 
+<p>The Schama and Schematron validators check cardinality, optionality, Required bindings Datatype rules
+<p>Profile validation uses the StructureDefinition, ValueSet and CodeSystem resources that tighten resource definitions - eg require name
+<p>it can also constrain to allow only certain codes in the system - eg LOINC subsets 
+<p>to get help documentation is at <a class="auto-link" href="http://hapifhir.io">http://hapifhir.io</a> We also have a Google Group / Mailing List <a class="auto-link" href="https://groups.google.com/d/forum/hapi-fhir">https://groups.google.com/d/forum/hapi-fhir</a>
+<p>we really welcome pull requests and issue requests on HAPI FHIR <a class="auto-link" href="https://github.com/jamesagnew/hapi-fhir">https://github.com/jamesagnew/hapi-fhir</a>
+<hr>
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='https://www.linkedin.com/in/eyaloren/'>Eyal Oren</a>:  <blockquote class='e-content'><p>I'm a product manager on the Brain team at google that works on machine learning with FHIR - I don't have to explain FHIR to this audience
+<p>there are other teams at google working on healthcare data as well as Brain
+<p>a lot fo people search medical conditions on google - we curate content with medical expert to provide high quality results
+<p>Deepmind is part of Google in the UK - you may know them for being the world's best Go player - they also build an app called Streams built on FIHR
+<p>Verily is a sister company of Google that works on life sciences - there is precision medicine initiative and they use FHIR too
+<p>The Google Cloud platform has BigQuery, Dataflow and Datasets - this is HIPAA compliant and lot of healthcare datasets are on google cloud 
+<p>The Brain team focuses on deep learning with neural nets I'm going to build a net onstage to explain this
+<p>A classic example is having a lot of spammy emails and good emails, and deciding how to categorise them
+<p>say we count capital letters and the amount of money mentioned, would they divide the set
+<p>go to <a class="auto-link" href="http://playground.tensorflow.org">playground.tensorflow.org</a> and train this model with me 
+<p>what do we use this for? we use it for finding cats and dog on YouTube
+<p>the vast majority of emails sent are spam  - gmail now uses a neural net for spam; we use them to translate languages too
+<p>the last example is Smart Reply for Inbox - we autogenerate 3 replies to choose from, and people pick these about 10% of the time
+<p>as well as using this for products, we release the code - Tensorflow is the #1 machine learning repository on github
+<p>we also release models as well as code
+<p>one in four patients have an adverse event in hospital - something that could have been prevented
+<p>90% of us hospitals use EHRs but most of this is never used; almost all models ignore notes, and have poor accuracy
+<p>most predictive models don't use much of the data in the EHR. Our goal is to use the entire EHR to make accurate predictions
+<p>the problem is that the data is really messy
+<p>data is in many different schemas; there are many coding systems - there are also a lot of variables to look at as well
+<p>we looked at lots of medical records, and decide to use FHIR internally and translate into it
+<p>Standards work is hard -if you do it right, nobody notices your work; if you do it wrong, nobody uses it and doesn't see your work
+<p>any term like glucose or levophed has many different ways of spelling it, including "levoped"
+<p>deep learning can place words in a vector space and give you examples of related mappings eg country  to capital
+<p>I did the smae for disease and drug - diabetes - metformin hypertension - metprolol
+<p>we can also find nearest neighbours eg hd/crrt/hemo/cvvhd/esrd
+<p>how we handle data: convert data schemas to FHIR; many coding systems and codes - keep all and learn embeddings
+<p>we like that FHIR has lots of possible coding systems, so we like having all of them to correlate
+<p>internally at Google we use Protocol buffers for everything, so we mapped FHIR into Protobufs
+<p>we translate the structure definitions for all STU3 resources into protobuffers, and we intend to open source these in months
+<p>we loaded a lot of this data in protobufs and can run BigQuery over it - we have a publicly available deidentified data set
+<p>having protobufs means we can manipulate FHIR data in memory in python, Go etc
+<p>we added 2 extensions to FHIR - Labels to say what to train against and Predictions for what the model says
+<p>we would like to share these extensions with other developers
+<p>we think Deep Learning can be relevant for EHR data; we use FHIR as core data internally and built tools that we want to share
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='https://twitter.com/q'>q</a>:  <blockquote class='e-content'><p>what is easier to process - the codes or the text?
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='https://www.linkedin.com/in/eyaloren/'>Eyal Oren</a>:  <blockquote class='e-content'><p>we look at the data as a timeline of events that occur to the patient. Notes normally describe things that happened earlier
+<p>the timestamp of the note is not the timestamp of the observation
+<p>machine generated readings have more accurate timestamps and are more often
+<p>coded data has value but not because it has coded so much as because it is automated
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='https://twitter.com/q'>q</a>:  <blockquote class='e-content'><p>the tools for turning data into FHIR - could those speed up our processes for this too?
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='https://www.linkedin.com/in/eyaloren/'>Eyal Oren</a>:  <blockquote class='e-content'><p>we have those tools available, we would like to make them available, but we use internal infrastructure so need to work out how to share
+<p>we have a lot of infrastructure at google for changing data from one format to another, so we could help that
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='https://twitter.com/q'>q</a>:  <blockquote class='e-content'><p>what about privacy?
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='https://www.linkedin.com/in/eyaloren/'>Eyal Oren</a>:  <blockquote class='e-content'>
+<p>this is all deidentified medical records from research partners, not google customer data. it's all encrypted and kept safe
+<p>the BigQuery I showed ran on encrypted data, decrypting as we read it and returning the result
+
+</blockquote></div>
+</div>
+<a href="https://news.indieweb.org/en" class="u-syndication">See IndieNews</a>
+</article>
+<script id="webmention-hosted">
+  (function () {
+    var sn = document.createElement("script"), s = document.getElementsByTagName("script")[0], url;
+    url = document.querySelectorAll ? document.querySelectorAll("link[rel~=canonical]") : false;
+    url = url && url[0] ? url[0].href : false;
+    sn.type = "text/javascript"; sn.async = true;
+    sn.src = "//webmention.herokuapp.com/api/embed?version=cutting-edge&url=" + encodeURIComponent(url || window.location);
+    s.parentNode.insertBefore(sn, s);
+  }());
+</script>
+
+</body>
+</html>
