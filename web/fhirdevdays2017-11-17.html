@@ -1,0 +1,121 @@
+<html>
+<head><title>FHIR Dev Days Amsterdam 2017-11-17</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="fragmention.js"></script>
+<script src="hovercards.js"></script>
+<link href="style.css" media="all" rel="stylesheet" type="text/css" />
+<link rel="webmention" href="https://webmention.herokuapp.com/api/webmention" />
+</head>
+<body>
+<article class="h-entry">
+<h1 class="p-name">FHIR Dev Days Amsterdam <time class="dt-published">2017-11-17</time></h1>
+<div class="e-content">
+
+
+<div class='notercite h-cite'><a class='h-card p-category' href='https://twitter.com/@RKavanagh'>Richard Kavanagh</a>:  <blockquote class='e-content'><p>All our FHIR developments are in the open on github <a class="auto-link" href="https://github.com/nhsconnect">https://github.com/nhsconnect</a>
+<p>we have had to create our own tools, as well as using Forge for FHIR - we have open sourced the tools
+<p>we were guilty of creating our own version of v3, but we arenot going to do that with FHIR, we aren't going to fork it
+<p>for profiling we use Forge from furore - for validation we use both .NET for Authoring and HAPI for Accreditation
+<p>our implementation guides are published in jekyll and our reference server is HAPI
+<p>In comparison to v3, the FHIR toolset is much better
+<hr>
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='http://www.ringholm.com'>Rene Spronk</a>:  <blockquote class='e-content'><p>Messaging is the unloved paradigm in FHIR as most people relate FHIR to REST
+<p>FHIR is about interoperability and it supports all modes, not just REST and databases
+<p>when we talk about messaging we have loosley coupled systems - I may not know how to reach a source
+<p>Messaging is always trigger event based, and each message is acknowledged by a response
+<p>when we do exchanges, they have to support both synchronous and asynchronous messages
+<p>the most common category of messaging exchange is notification
+<p>the other 10% of reasons for messaging are queries or commands
+<p>the list of trigger events in the standard is very small
+<p>a trigger event could be 'here is a list of all known allergies' - if you change the list you need to send it again
+<p>messaging does not define the transport model -
+
+<p>the FHIR Subscription mechanism lets you subscribe to changes on all types
+<p>a message is a contract - when I send a message I expect you to act on it
+<p>Message as defined in <a class="auto-link" href="https://www.hl7.org/fhir/messagedefinition.html">https://www.hl7.org/fhir/messagedefinition.html</a> 
+<p>NHS England uses messaging
+<p>There is more messaging in healthcare than REST
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='https://twitter.com/q'>q</a>:  <blockquote class='e-content'><p>is there any initiative for blockchain in messages? If you have messages that cross domains
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='http://healthintersections.com.au'>Grahame Grieve</a>:  <blockquote class='e-content'><p>there are people interested in blockchain in FHIR on <a class="auto-link" href="https://chat.fhir.org">https://chat.fhir.org</a>, though they are moving away from documents on the blockchain. they haven't talked about messaging
+<hr>
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='https://mohamedalkady.com'>Mohamed Alkady</a>:  <blockquote class='e-content'><p>I'm from the Open API Foundation
+<p>there are 17,000+ APIs available
+<p>developers are bad at keeping their api documentation up to date - or writing it at all
+<p>the Open API Initiative is a set of specificatons for REST APIs
+<p>in 2010 Tony Tam <a class="auto-link h-x-username" href="https://twitter.com/wordnick">@wordnick</a> came up with Swagger and Open API Initiative became part of linux foundation
+<p>the docs are built by processing the API spec
+<p>if you start with the framework at the beginning it will generate code for you
+<p>a big problem is that custom APIs are seen as a competitive edge
+<p>we're at <a class="auto-link" href="http://openapis.org">openapis.org</a> and the spec is at <a class="auto-link" href="http://github.com/oai">github.com/oai</a>
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='http://healthintersections.com.au'>Grahame Grieve</a>:  <blockquote class='e-content'><p>some of you know that json schema is not our friend - Mo and I are planning to get them in a room and fix things
+<hr>
+<p>I love Dev Days - I'm going to comment on the keynotes - I'm going to start with tinkering
+<p>looking at <a class="auto-link h-x-username" href="https://twitter.com/jamesagnew">@jamesagnew</a>'s plot of HAPI calls by latlong there is a huge circle around India, so we should ramp up the Indian community
+<p>I got Simone to bring an old bit of tinkering back to life
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='https://de.linkedin.com/in/simone-heckmann-16a96179/en'>Simone Heckmann</a>:  <blockquote class='e-content'><p>this dates back to 2015 at the Atlanta connectathon -look at the twitter stream and create a patient resource when anyone tweets #fhir
+<p>if you go to the R2 endpoint of grahame's server you can find your patient record for your tweets
+<p>it's running on my laptop, so it will vanish when I close it. 
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='http://healthintersections.com.au'>Grahame Grieve</a>:  <blockquote class='e-content'><p>from <a class="auto-link h-x-username" href="https://twitter.com/rolfhut">@rolfhut</a>'s presentation I wanted to repeat that APIs are interfaces to people
+<p>Then we heard from Eyal about Google Brain, and have heard a lot of commentary about it
+<p>we talk about paradigms of exchange in FHIR - REST, Document, Messaging paradigms we need to add a Database paradigm too
+<p>It was great seeing Eyal doing live SQL queries against a FHIR backed - we want to get that up for other people to use too
+<p>a few people commented about Dev Days being a technical thing, but it is more a community
+<p>I wanted to thank Morita for organising and all the <a class="auto-link h-x-username" href="https://twitter.com/fhir_furore">@fhir_furore</a> team
+<p>There are Dev Days in Boston next year in the spring and back in Amsterdam in the Autumn
+<p>our current focus is on finishing off and publishing release 4, which will be the first Normative release of FHIR, where parts go normative
+<p>we need to get this done in the next 2 weeks before the ballot in December. Things can get dropped from normative, but they can't get made normative after that
+<p>I want you to go to the coverage resource on my server and fill out info about what coverage is in your country
+<p>The FHIR foundation <a class="auto-link" href="http://www.fhir.org">www.fhir.org</a> is a partner to HL7 - they publish highly reviewed documents - the FHIR foundation is for the other things that make the community
+<p>I'd like to  thank Google for support for all FHIR foundations cloud computing requirements - 
+<p>you can now become an individual member of <a class="auto-link" href="http://fhir.org">fhir.org</a> you get a badge, a newsletter and access to a marketplace - I post contracts there
+<p>It's $250 US a year to be an individual member of the FHIR Foundation - we are looking for corporate sponsorship for specific things
+<p>I do want to talk about certification - you can go to <a class="auto-link" href="https://www.hl7.org/implement/certification.cfm">https://www.hl7.org/implement/certification.cfm</a> and pass a test and become certified FHIR proficient
+<p>another thing we run is the FHIR registry <a class="auto-link" href="https://registry.fhir.org/">https://registry.fhir.org/</a> which lists resources for FHIR, we are nailing down the data in it
+<p>whenever I talk about FHIR to communities around the world - people focus on FHIR as a technical spec, but it is a community first
+<p>all of us, not just those here but those who follow along online too. We believe that getting involved with FHIR is a worthy endeavour
+<p>when people find problems with FHIR they come to us, and it isn't whining, it is showing that they care
+<p>The next HL7 meeting is in New Orleans, and we're holding a connectathon <a class="auto-link" href="http://wiki.hl7.org/index.php?title=FHIR_Connectathon_17">http://wiki.hl7.org/index.php?title=FHIR_Connectathon_17</a>
+<p>here are the connectathon proposals: <a class="auto-link" href="http://wiki.hl7.org/index.php?title=Category:201801_FHIR_Connectathon_Track_Proposals">http://wiki.hl7.org/index.php?title=Category:201801_FHIR_Connectathon_Track_Proposals</a>
+<p>we currently support old version of the code, and it is up to 6 versions now - have a look at the <a class="auto-link" href="http://wiki.hl7.org/index.php?title=201801_Versioned_API">http://wiki.hl7.org/index.php?title=201801_Versioned_API</a> track
+<p>I want you all to be aware ofr the FHIR code of conduct - do read it and make sure you comply <a class="auto-link" href="http://wiki.hl7.org/index.php?title=FHIR_Code_of_Conduct">http://wiki.hl7.org/index.php?title=FHIR_Code_of_Conduct</a>
+<p>I wrote a post on my blog about "why participate in the FHIR community?" do read it <a class="auto-link" href="http://www.healthintersections.com.au/?p=2665">http://www.healthintersections.com.au/?p=2665</a>
+<p>you give us your treasure. you all give to us your time, your energy and your passion and we share that treasure with everyone
+<p>we live in a world where zero sum thinking seems to dominate - that's not how we work. 
+<p>You're going to see, I fear, zero sum thinking in the healthcare data industry in the next year. 
+<p>We went for a very strong open source license - the creative commons licence we use is there to protect the treasure of the community
+<p>it's always important to pay attention to the provenance of information  - how many people have written or created a FHIR Provenance resource?
+<p>when we set up FHIR we realised If we did FHIR well it would lead to outcomes in Health, not just Health IT
+<p>the implementation process for FHIR went much faster than we expected - we are building onthose to make the formal standard
+<p>implementation first for FHIR has worked well— learning how to do things before you bake them in stone is a good idea
+<p>we can't control the hype part of the hype cycle - we don't want inflated expectations
+<p>obviously I believe in FHIR, but we know that healthcare is hard. interoperability helps but it is still hard
+<p>I think we have now transformed the expectations - people now see there is a workable health data ecosystem to use if they want to
+<p>in the last few weeks I have felt that we are reaching the tipping point where we start to change health too
+<p>I will keep doing what I am doing until the care provider to my family changes
+<p>as a community we need to focus on how to transform health
+</blockquote></div>
+
+</div>
+<a href="https://news.indieweb.org/en" class="u-syndication">See IndieNews</a>
+</article>
+<script id="webmention-hosted">
+  (function () {
+    var sn = document.createElement("script"), s = document.getElementsByTagName("script")[0], url;
+    url = document.querySelectorAll ? document.querySelectorAll("link[rel~=canonical]") : false;
+    url = url && url[0] ? url[0].href : false;
+    sn.type = "text/javascript"; sn.async = true;
+    sn.src = "//webmention.herokuapp.com/api/embed?version=cutting-edge&url=" + encodeURIComponent(url || window.location);
+    s.parentNode.insertBefore(sn, s);
+  }());
+</script>
+
+</body>
+</html>
