@@ -12,7 +12,7 @@
 <h1 class="p-name">FHIR Dev Days Amsterdam <time class="dt-published">2017-11-16</time></h1>
 <div class="e-content">
 
-
+<h2>Overview over security in FHIR / security labels</h2>
 <a class='h-card p-category' href='http://healthintersections.com.au'>Grahame Grieve</a>:  <blockquote class='e-content'><p>OAuth is about delegating authorisation, but most non server devs think it is about authentication. That's because you have to work out who it is before what they can do. 
 <p>In corporate environments, the user will likely not see the authentication as it is an organisational choice 
 <p>2 layer OAuth is when you separate the authentication from the authorisation - eg logging in with Facebook, then separately making permission choices 
@@ -44,7 +44,8 @@
 <p>Whenever you talk about data ownership you are still talking about the person you are authenticating
 
 </blockquote></div>
-<hr>
+<h2>FHIR usage in countries</h2>
+<h3>Netherlands</h3>
 <div class='notercite h-cite'><a class='h-card p-category' href='https://twitter.com/@ahenket'>Alexander Henket</a>:  <blockquote class='e-content'><p>In the Netherlands MedMij is about creating an EHR environment without developing an EHR - an exchange for digital health data between patients and professionals
 <p>Trust is vital for this goal MedMij is not a network in itself, it uses existing networks  - the national spine uses FHIR to bridge the patient domain and the healthcare domain
 <p>the healthcare domain is a v3 CDA model so we have some challenges in building this 
@@ -53,6 +54,7 @@
 <p>what happens if everyone is building profiles all over the place - we have put together a HL7 NL FHIR council and team to share profiles using Simplifier
 <p>we have large scale investments in FHIR STU3 - not planned 4 transition yet. links:  <a class="auto-link" href="http://medmij.nl">medmij.nl</a> <a class="auto-link" href="http://zorgdomein.nl">zorgdomein.nl</a> koppeltaal,nl
 </blockquote></div>
+<h3>Switzerland</h3>
 <div class='notercite h-cite'><a class='h-card p-category' href='http://www.ahdis.ch'>Oliver Egger</a>:  <blockquote class='e-content'><p>In Switzerland there is not yet much adoption of FHIR 0 we are focusing on IHE XDS/CDA-CH V2
 <p>in HL7 Switzerland we have a FHIR group that meets regularly and developing profiles
 <p>we have a lot of primary systems that connect to each other - connecting cloud to local systems - these primary systems are staring to use FHIR to exchange data
@@ -60,6 +62,7 @@
 <p>the IHE ORF Profile for form exchange was not working so we are modelling this in FHIR as Questionnaire and we want to bring this to standard
 <p>eMediplan on FHIR is for making a current medication list for patients - we make a MedicationPlan bundle of MedicationPlans
 </blockquote></div>
+<h3>Germany</h3>
 <div class='notercite h-cite'><a class='h-card p-category' href='https://de.linkedin.com/in/simone-heckmann-16a96179/en'>Simone Heckmann</a>:  <blockquote class='e-content'><p>we founded the German hl7 fhir committee about 3 years ago - we wanted to gather the German community first
 <p>we have a German stream on Zulip, which is the living room for the German community
 <p>we are using Simplifier to host our german based profiles, and use the webhook to a github repository for issues, and link these from Zulip
@@ -67,6 +70,7 @@
 <p>we have the Medication plan that <a class="auto-link h-x-username" href="https://twitter.com/oliveregger">@oliveregger</a> already described - with a printed list and a barcode to scan to get the data
 <p>we have a simplifier hosted profile to describe that medication plan
 </blockquote></div>
+<h3>USA</h3>
 <div class='notercite h-cite'><a class='h-card p-category' href='http://smartplatforms.org'>Josh Mandel</a>:  <blockquote class='e-content'><p>I want to talk about FHIR n the US realm <a class="auto-link" href="http://bit.ly/us-realm-devdays">bit.ly/us-realm-devdays</a>
 <p>Argonaut is a project of EHR vendors, HL7 and others - part fo this was the way of launching apps in SMART
 <p>we now have a FHIR US Core and now an International model
@@ -81,6 +85,7 @@
 <p>we are working to integrate CIMI clinical models with FHIR and dealing with terminology management and integration
 <p>we are working to use FHIR to model clinical trials and representing drug products and substances
 </blockquote></div>
+<h3>Canada</h3>
 <div class='notercite h-cite'><a class='h-card p-category' href=''>Lloyd Mackenzie</a>:  <blockquote class='e-content'><p>FHIR has been slowet than the us as we wore ourselevs out adopting HL7 v3, but it is picking up now
 <p>Ontario had issues that delayed v3, so they are adopting FHIR instead
 <p>we have a FHIR Working Group which is the most active - building Use cases for business drivers
@@ -89,8 +94,8 @@
 <p>Ontario had immunisations on FHIT in 2016 and prescribing and consultation in 2017 - working on patient, organisation and practitioner registries
 <p>we have a national FHIR registry on Simplifier, and are mapping terminology services to FHIR
 <p>we are also mapping OIDs frim version 3 to URIs for FHIR
-<hr>
 </blockquote></div>
+<h2>Advanced Java API</h2>
 <div class='notercite h-cite'><a class='h-card p-category' href='https://twitter.com/@jamesagnew'>jamesagnew</a>:  <blockquote class='e-content'><p>this is the HAPI FHIR advanced session, covering various  aspects see <a class="auto-link" href="http://goog.gl/MQVf6s">goog.gl/MQVf6s</a>
 <p><a class="auto-link" href="http://fhirtest.uhn.ca">fhirtest.uhn.ca</a> is our webpage test overlay - it will let you search for patients and other resources - this isn't using special hooks, it uses the HAPI FHIR model
 <p>you can talk to any FHIR server you want using the test page overlay, its not HAPI specific
@@ -104,8 +109,8 @@
 <p>it can also constrain to allow only certain codes in the system - eg LOINC subsets 
 <p>to get help documentation is at <a class="auto-link" href="http://hapifhir.io">http://hapifhir.io</a> We also have a Google Group / Mailing List <a class="auto-link" href="https://groups.google.com/d/forum/hapi-fhir">https://groups.google.com/d/forum/hapi-fhir</a>
 <p>we really welcome pull requests and issue requests on HAPI FHIR <a class="auto-link" href="https://github.com/jamesagnew/hapi-fhir">https://github.com/jamesagnew/hapi-fhir</a>
-<hr>
 </blockquote></div>
+<h2>Keynote - Google Brain</h2>
 <div class='notercite h-cite'><a class='h-card p-category' href='https://www.linkedin.com/in/eyaloren/'>Eyal Oren</a>:  <blockquote class='e-content'><p>I'm a product manager on the Brain team at google that works on machine learning with FHIR - I don't have to explain FHIR to this audience
 <p>there are other teams at google working on healthcare data as well as Brain
 <p>a lot fo people search medical conditions on google - we curate content with medical expert to provide high quality results
@@ -161,7 +166,7 @@
 <p>the BigQuery I showed ran on encrypted data, decrypting as we read it and returning the result
 
 </blockquote></div>
-<hr>
+<h2>R on FHIR BoF</h2>
 <div class='notercite h-cite'><a class='h-card p-category' href='https://github.com/slaverman'>Sander Laverman</a>:  <blockquote class='e-content'><p>I built the R on FHIR library to pull FHIR data into R for manipulation
 <p>I'm connecting to the <a class="auto-link" href="http://vonk.furore.com">http://vonk.furore.com</a> public data and reading an example patient into a dataframe
 <p>the resources are all nested - we are looking at how to flatten this into useful tables
