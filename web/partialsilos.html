@@ -21,6 +21,8 @@
 <meta property="og:image" content="http://www.kevinmarks.com/facebookdecay.jpg" />
 <meta property="og:image:alt" content="facebook logo on decaying storefront" />
 
+<meta name="Description" content="Google search users see a fragment of truth; reading the original is best" />
+
 <script type="application/ld+json">
 {
   "@context": "http://schema.org",
@@ -52,19 +54,28 @@
 <article class="h-entry">
 <h1 class="p-name">Partial Silos <time class="dt-published">2018-01-15</time></h1>
 <div class="e-content">
-<span class="p-summary"><a href="https://www.behance.net/gallery/52646779/Social-Decay">Social Decay</a> by <a href="https://www.behance.net/andreilacatusu"">Andrei Lacatsu</a> changes the metaphor for the big social sites that we call silos in indieweb. Instead, he renders them as decaying storefronts.</span>
+<span class="p-summary"><a href="https://www.behance.net/gallery/52646779/Social-Decay">Social Decay</a> by <a href="https://www.behance.net/andreilacatusu"">Andrei Lacatsu</a> changes the metaphor for the big social sites that indieweb calls <a href="https://indieweb.org/silo">silos</a>. Instead, he renders them as decaying storefronts.</span>
 <div class="stores" >
 <img src="facebooksmall.jpg" width="400">
 <img src="twittersmall.jpg" width="400">
 <img src="googlesmall.jpg" width="400">
 <img src="pinterestsmall.jpg" width="400">
 </div>
-<p>Decaying malls that used to be the place to be seen but are now disrupted by the open web is a good metaphor for the coming transition. It reminds me of the old Yahoo billboard in SF, and MySpace’s Trailer Park:
+<p>Decaying malls that used to be the place to be seen but are now losing out to the open web is a good metaphor for the coming transition. It reminds me of the old Yahoo billboard in SF, and MySpace’s Trailer Park:
 <div class="stores" ><a href="https://laughingsquid.com/san-francisco-multimedia-gulch-nostalgia-via-yahoo-maps/"><img src="yahoosmall.jpg" width="400"></a><a href="https://techcrunch.com/2007/04/10/myspace-trailerpark-dedicated-movie-trailer-site/"><img src="myspacesmall.jpg" width="400"></a>
 </div>
-<p>Because this is where we are with Facebook now - it has always felt like a mall, as <a hrfe="http://www.vulture.com/2010/09/vulture_transcript_william_gib.html">Gibson said</a><blockquote><p>I was never interested in Facebook or MySpace because the environment seemed too top-down mediated. They feel like malls to me. <p></blockquote><p>Now we want a more organic, handmade web again. 
+<p>Because this is where we are with Facebook now - it has always felt like a mall, as <a href="http://www.vulture.com/2010/09/vulture_transcript_william_gib.html">Gibson said:</a>
+<blockquote><p>I was never interested in Facebook or MySpace because the environment seemed too top-down mediated. They feel like malls to me. </p></blockquote>
+<p>Now we want a more organic, handmade web again. 
 <p> This also made me think about how the silos degrade our view of the web, insisting that we give them custom markup so our posts fit into their rigid worldviews, each one with a photo preview and title, interchangeable, fitting into their product racks.
 <p>So I thought I'd use his images to give each silo a custom preview of this post.
+<p>If you share this on twitter, you'll see the <a href="https://cards-dev.twitter.com/validator">twitter</a> image.
+<p>On <a href="https://developers.facebook.com/tools/debug/sharing/?q=http%3A%2F%2Fwww.kevinmarks.com%2Fpartialsilos.html">facebook</a> the soi-disant Open Graph is desired - both of these demand separate metadata to work.
+<p>Pinterest has a <a href="https://developers.pinterest.com/docs/widgets/save/" >share button</a> that wants further data in its markup.
+<p>Google won't agree what it wants. G+ says "use <a href="https://developers.google.com/+/web/snippet/">microdata</a>", but will use facebook matkup if no google is there.
+<p>Google search leads you down the <a href="http://schema.org/Article">endless void of schema.org</a> (but also wants a meta tag for description). 
+<p>So each silo wants it's own special custom markup  - mostly to display the same image-heavy degraded view of the real site.
+
 </div>
 <p><a href="https://www.pinterest.com/pin/create/button/" data-pin-do="buttonPin" data-pin-media="http://www.kevinmarks.com/pinterestdecay.jpg" data-pin-description="Pinterest users never read the original" data-pin-url="http://www.kevinmarks.com/partialsilos.html"></a>
 <script src="https://apis.google.com/js/platform.js" async defer>
@@ -77,7 +88,6 @@
 <p>
 <a href="http://kevinmarks.com" rel="me" class="h-card">Kevin Marks</a>
 <p><a href="https://news.indieweb.org/en" class="u-syndication">See IndieNews</a>
-
 </article>
 <div style="display:none" itemscope itemtype="http://schema.org/Article">
   <span itemprop="name">Google+ users see tiny pieces</span>
