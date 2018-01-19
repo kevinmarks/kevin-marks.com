@@ -1,0 +1,12 @@
+{
+	"version": "1.0",
+	"type": "photo",
+	"width": 400,
+	"height": 200,
+	"title": "Slack users get oldschool yahoo metadata",
+	"url": "http://www.kevinmarks.com/yahoosmall.jpg",
+	"author_name": "Kevin Marks",
+	"author_url": "http://www.kevinmarks.com",
+	"provider_name": "Indieweb",
+	"provider_url": "http://www.indieweb.org"
+}
