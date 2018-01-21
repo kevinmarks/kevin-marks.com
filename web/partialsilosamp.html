@@ -24,8 +24,29 @@
     <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
   </head>
   <body>
-    <h1>Google users see a fragment of truth</h1>
-    <h2>they'll skip reading it all</h2>
-    <amp-img src="http://www.kevinmarks.com/googledecay.jpg" alt="Welcome" height="600" width="1200"></amp-img>
-  </body>
+<div class="e-content">
+<p><span class="p-summary"><a href="https://www.behance.net/gallery/52646779/Social-Decay">Social Decay</a> by <a href="https://www.behance.net/andreilacatusu"">Andrei Lacatsu</a> changes the metaphor for the big social sites that indieweb calls <a href="https://indieweb.org/silo">silos</a>. Instead, he renders them as decaying storefronts.</span>
+<p><amp-img src="facebooksmall.jpg" width="400" height="200"></amp-img>
+<p><amp-img src="twittersmall.jpg" width="400" height="200"></amp-img>
+<p><amp-img src="googlesmall.jpg" width="400" height="200"></amp-img>
+<p><amp-img src="pinterestsmall.jpg" width="400" height="200"></amp-img>
+<p>Decaying malls that used to be the place to be seen but are now losing out to the open web is a good metaphor for the coming transition. It reminds me of the old Yahoo billboard in SF, and MySpace’s Trailer Park:
+<div class="stores" ><p><a href="https://laughingsquid.com/san-francisco-multimedia-gulch-nostalgia-via-yahoo-maps/"><amp-img src="yahoosmall.jpg" width="400" height="200"></amp-img></a>
+<p><a href="https://techcrunch.com/2007/04/10/myspace-trailerpark-dedicated-movie-trailer-site/"><amp-img src="myspacesmall.jpg" width="400" height="200"></amp-img></a>
+</div>
+<p>Because this is where we are with Facebook now - it has always felt like a mall, as <a href="http://www.vulture.com/2010/09/vulture_transcript_william_gib.html">Gibson said:</a>
+<blockquote><p>I was never interested in Facebook or MySpace because the environment seemed too top-down mediated. They feel like malls to me. </p></blockquote>
+<p>Now we want a more organic, handmade web again. 
+<p> This also made me think about how the silos degrade our view of the web, insisting that we give them custom markup so our posts fit into their rigid worldviews, each one with a photo preview and title, interchangeable, fitting into their product racks.
+<p>So I thought I'd use his images to give each silo a custom preview of this post.
+<p>If you share this on twitter, you'll see the <a href="https://cards-dev.twitter.com/validator">twitter</a> image.
+<p>On <a href="https://developers.facebook.com/tools/debug/sharing/?q=http%3A%2F%2Fwww.kevinmarks.com%2Fpartialsilos.html">facebook</a> the soi-disant Open Graph is desired - both of these demand separate metadata to work.
+<p>Pinterest has a <a href="https://developers.pinterest.com/docs/widgets/save/" >share button</a> that wants further data in its markup.
+<p>Google won't agree what it wants. G+ says "use <a href="https://developers.google.com/+/web/snippet/">microdata</a>", but will use facebook markup if no google mandated markup is there, and it ignores JSON-LD.
+<p>Google search leads you down the <a href="http://schema.org/Article">endless JSON-LD void of schema.org</a> (but also wants a meta tag for description). 
+<p>So each silo wants it's own special custom markup  - mostly to display the same image-heavy degraded view of the real site.
+<p>Even Slack gets in on the act - it wants <a href="https://medium.com/slack-developer-blog/everything-you-ever-wanted-to-know-about-unfurling-but-were-afraid-to-ask-or-how-to-make-your-e64b4bb9254">oEmbed markup</a> with a separate URL to fetch, a retro format from Yahoo and Pownce, so I made that too.
+<p>Now, this post also has <a href="http://microformats.org/wiki/microformats-2">microformats 2</a> markup, so if you use indieweb tools, and <a href="https://www.w3.org/TR/post-type-discovery/">post type discovery</a> you'll see that microformats make you smile.
+<div class="stores" ><amp-img class="u-featured" src="microformatsmiles.jpg" width="600" height="341"></amp-img></div>
+</div>  </body>
 </html>
