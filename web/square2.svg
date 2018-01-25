@@ -1,0 +1,23 @@
+<svg width="100%" viewBox="0 0 12 3"
+     xmlns="http://www.w3.org/2000/svg" version="1.1">
+<style>
+.grid rect {width:1;height:1; }
+.r1 rect {y:1;}
+.r2 rect {y:2;}
+</style>
+  
+<g class="grid" stroke="white" stroke-width="0.025" fill="green">
+  <g class="r0" >
+  <rect x="0" />
+  <rect x="1" fill="blue"  />
+  <rect x="2" /></g>
+  <g class="r1" >
+  <rect x="0" fill="blue" />
+  <rect x="1" fill="blue"  />
+  <rect x="2"  /></g>
+ <g class="r2" >
+  <rect x="0"  />
+  <rect x="1" fill="blue"  />
+  <rect x="2" /></g>
+  </g>
+</svg>
