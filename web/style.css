@@ -9,6 +9,8 @@ p {margin-top:0.25em;}
 .h-card, .webmention-author { font-family: "Gill Sans", Roboto,Verdana, sans-serif; }
 section {clear:both;}
 .h-entry { line-height: 1.2em; clear:both;}
+.h-entry h1 { max-width: 40rem;}
+.h-entry h2 { max-width: 40rem;}
 .h-entry p { max-width: 40rem;}
 .h-entry blockquote { max-width: 36rem;}
 .featured {max-width: 40rem;}
