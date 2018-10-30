@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<entry xmlns="http://www.w3.org/2005/Atom" xmlns:thr="http://purl.org/syndication/thread/1.0" xmlns:activity="http://activitystrea.ms/spec/1.0/" xmlns:poco="http://portablecontacts.net/spec/1.0" xmlns:ostatus="http://ostatus.org/schema/1.0">
+<feed><entry xmlns="http://www.w3.org/2005/Atom" xmlns:thr="http://purl.org/syndication/thread/1.0" xmlns:activity="http://activitystrea.ms/spec/1.0/" xmlns:poco="http://portablecontacts.net/spec/1.0" xmlns:ostatus="http://ostatus.org/schema/1.0">
 <activity:object-type>http://activitystrea.ms/schema/1.0/note</activity:object-type>
 <activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
 <id>https://pleroma.site/objects/921a1c93-189f-4743-a6fe-cf373799b154</id>
@@ -21,8 +21,8 @@
 <poco:note>i develop a lot of stuff (&lt;a href='https://pleroma.site/tag/pleroma' rel='tag'&gt;#pleroma&lt;/a&gt;, &lt;a href='https://pleroma.site/tag/alpine' rel='tag'&gt;#alpine&lt;/a&gt; linux, &lt;a href='https://pleroma.site/tag/pkgconf' rel='tag'&gt;#pkgconf&lt;/a&gt;, etc.), run an ISP, and run this pleroma.site thingy.&lt;br&gt;&lt;br&gt;i also write a lot about &lt;a href='https://pleroma.site/tag/psychology' rel='tag'&gt;#psychology&lt;/a&gt;, because i am pursuing a psychology doctorate.&lt;br&gt;&lt;br&gt;they/them pronouns are preferred, please.</poco:note>
 <activity:summary>i develop a lot of stuff (&lt;a href='https://pleroma.site/tag/pleroma' rel='tag'&gt;#pleroma&lt;/a&gt;, &lt;a href='https://pleroma.site/tag/alpine' rel='tag'&gt;#alpine&lt;/a&gt; linux, &lt;a href='https://pleroma.site/tag/pkgconf' rel='tag'&gt;#pkgconf&lt;/a&gt;, etc.), run an ISP, and run this pleroma.site thingy.&lt;br&gt;&lt;br&gt;i also write a lot about &lt;a href='https://pleroma.site/tag/psychology' rel='tag'&gt;#psychology&lt;/a&gt;, because i am pursuing a psychology doctorate.&lt;br&gt;&lt;br&gt;they/them pronouns are preferred, please.</activity:summary>
 <name>kaniini</name>
-<link rel="avatar" href="https://s3.wasabisys.com/pleroma-site/c63f3ddb-0a86-4a84-a392-ea9054f21c6a/d5def9b1f5da688ad3d5e0f7b89f6e1577ae963264f8ba8ac5ff20321eb57fb0.png"/>
-<link rel="header" href="https://s3.wasabisys.com/pleroma-site/d89557bd-0cb6-4066-9b5a-61160be4e0aa/bc599bd9fcebbc67474d082dded5ed9347e482ada48085480e81c4b3a9f5cdfb.jpeg"/>
+<activity:link rel="avatar" href="https://s3.wasabisys.com/pleroma-site/c63f3ddb-0a86-4a84-a392-ea9054f21c6a/d5def9b1f5da688ad3d5e0f7b89f6e1577ae963264f8ba8ac5ff20321eb57fb0.png"/>
+<activity:link rel="header" href="https://s3.wasabisys.com/pleroma-site/d89557bd-0cb6-4066-9b5a-61160be4e0aa/bc599bd9fcebbc67474d082dded5ed9347e482ada48085480e81c4b3a9f5cdfb.jpeg"/>
 <ostatus:ap_enabled>true</ostatus:ap_enabled>
 </author>
 <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/collection" href="http://activityschema.org/collection/public"/>
@@ -30,3 +30,4 @@
 <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/person" href="https://xoxo.zone/users/KevinMarks"/>
 <link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/person" href="https://playvicious.social/users/jalcine"/>
 </entry>
+</feed>
