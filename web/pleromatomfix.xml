@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<entry xmlns="http://www.w3.org/2005/Atom" xmlns:thr="http://purl.org/syndication/thread/1.0" xmlns:activity="http://activitystrea.ms/spec/1.0/" xmlns:poco="http://portablecontacts.net/spec/1.0" xmlns:ostatus="http://ostatus.org/schema/1.0">
+<activity:object-type>
+http://activitystrea.ms/schema/1.0/note</activity:object-type>
+<activity:verb>
+http://activitystrea.ms/schema/1.0/post</activity:verb>
+<id>
+https://pleroma.site/objects/921a1c93-189f-4743-a6fe-cf373799b154</id>
+<title>
+New note by kaniini</title>
+<content type="html">
+&lt;span&gt;&lt;a class='mention' href='https://social.wxcafe.net/@riking'&gt;@&lt;span&gt;riking&lt;/span&gt;&lt;/a&gt;&lt;/span&gt; &lt;span&gt;&lt;a class='mention' href='https://xoxo.zone/@KevinMarks'&gt;@&lt;span&gt;KevinMarks&lt;/span&gt;&lt;/a&gt;&lt;/span&gt; &lt;span&gt;&lt;a class='mention' href='https://playvicious.social/@jalcine'&gt;@&lt;span&gt;jalcine&lt;/span&gt;&lt;/a&gt;&lt;/span&gt; &lt;br&gt;&lt;br&gt;google seems to have no issue indexing pleroma fe as it is</content>
+<published>
+2018-10-29T22:53:55.890337Z</published>
+<updated>
+2018-10-29T22:53:55.890337Z</updated>
+<ostatus:conversation ref="https://pleroma.site/contexts/ae4e3673-40c5-4f5b-8fd6-db3c115dd4c9">
+https://pleroma.site/contexts/ae4e3673-40c5-4f5b-8fd6-db3c115dd4c9</ostatus:conversation>
+<link href="https://pleroma.site/contexts/ae4e3673-40c5-4f5b-8fd6-db3c115dd4c9" rel="ostatus:conversation"/>
+<link type="application/atom+xml" href="https://pleroma.site/objects/921a1c93-189f-4743-a6fe-cf373799b154" rel="self"/>
+<link type="text/html" href="https://pleroma.site/objects/921a1c93-189f-4743-a6fe-cf373799b154" rel="alternate"/>
+<thr:in-reply-to ref="https://social.wxcafe.net/users/riking/statuses/100981380670496729" href="https://social.wxcafe.net/users/riking/statuses/100981380670496729"/>
+<author>
+<poco:id>
+https://pleroma.site/users/kaniini</poco:id>
+<activity:object>
+http://activitystrea.ms/schema/1.0/person</activity:object>
+<uri>
+https://pleroma.site/users/kaniini</uri>
+<poco:preferredUsername>
+kaniini</poco:preferredUsername>
+<poco:displayName>
+❤️ kaniini! ❤️</poco:displayName>
+<poco:note>
+i develop a lot of stuff (&lt;a href='https://pleroma.site/tag/pleroma' rel='tag'&gt;#pleroma&lt;/a&gt;, &lt;a href='https://pleroma.site/tag/alpine' rel='tag'&gt;#alpine&lt;/a&gt; linux, &lt;a href='https://pleroma.site/tag/pkgconf' rel='tag'&gt;#pkgconf&lt;/a&gt;, etc.), run an ISP, and run this pleroma.site thingy.&lt;br&gt;&lt;br&gt;i also write a lot about &lt;a href='https://pleroma.site/tag/psychology' rel='tag'&gt;#psychology&lt;/a&gt;, because i am pursuing a psychology doctorate.&lt;br&gt;&lt;br&gt;they/them pronouns are preferred, please.</poco:note>
+<activity:summary>
+i develop a lot of stuff (&lt;a href='https://pleroma.site/tag/pleroma' rel='tag'&gt;#pleroma&lt;/a&gt;, &lt;a href='https://pleroma.site/tag/alpine' rel='tag'&gt;#alpine&lt;/a&gt; linux, &lt;a href='https://pleroma.site/tag/pkgconf' rel='tag'&gt;#pkgconf&lt;/a&gt;, etc.), run an ISP, and run this pleroma.site thingy.&lt;br&gt;&lt;br&gt;i also write a lot about &lt;a href='https://pleroma.site/tag/psychology' rel='tag'&gt;#psychology&lt;/a&gt;, because i am pursuing a psychology doctorate.&lt;br&gt;&lt;br&gt;they/them pronouns are preferred, please.</activity:summary>
+<name>
+kaniini</name>
+<link rel="avatar" href="https://s3.wasabisys.com/pleroma-site/c63f3ddb-0a86-4a84-a392-ea9054f21c6a/d5def9b1f5da688ad3d5e0f7b89f6e1577ae963264f8ba8ac5ff20321eb57fb0.png"/>
+<link rel="header" href="https://s3.wasabisys.com/pleroma-site/d89557bd-0cb6-4066-9b5a-61160be4e0aa/bc599bd9fcebbc67474d082dded5ed9347e482ada48085480e81c4b3a9f5cdfb.jpeg"/>
+<ap_enabled>
+true</ap_enabled>
+</author>
+<link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/collection" href="http://activityschema.org/collection/public"/>
+<link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/person" href="https://social.wxcafe.net/users/riking"/>
+<link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/person" href="https://xoxo.zone/users/KevinMarks"/>
+<link rel="mentioned" ostatus:object-type="http://activitystrea.ms/schema/1.0/person" href="https://playvicious.social/users/jalcine"/>
+</entry>
