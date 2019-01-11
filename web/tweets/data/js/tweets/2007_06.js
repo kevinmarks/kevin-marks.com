@@ -107,6 +107,61 @@ Grailbird.data.tweets_2007_06 =
     "urls" : [ ]
   },
   "geo" : { },
+  "id_str" : "126657302",
+  "text" : "Why are Cringely and Andreesson praising closed technologies when thye know open ones win? http:\/\/tinyurl.com\/2ar4cj",
+  "id" : 126657302,
+  "created_at" : "2007-06-29 00:00:00 +0000",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ {
+      "name" : "Tom Morris  \uD83C\uDFF3\uFE0F\u200D\uD83C\uDF08",
+      "screen_name" : "tommorris",
+      "indices" : [ 0, 10 ],
+      "id_str" : "25583",
+      "id" : 25583
+    } ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "in_reply_to_status_id_str" : "126794702",
+  "geo" : { },
+  "id_str" : "126803282",
+  "in_reply_to_user_id" : 25583,
+  "text" : "@tommorris look at html5lib and what Sam Ruby does in Planet Venus too",
+  "id" : 126803282,
+  "in_reply_to_status_id" : 126794702,
+  "created_at" : "2007-06-29 00:00:00 +0000",
+  "in_reply_to_screen_name" : "tommorris",
+  "in_reply_to_user_id_str" : "25583",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "geo" : { },
   "id_str" : "125489872",
   "text" : "riding the VTA light rail from Mountain vie to San Jose, which goes through loads of neighbourhoods I've never seen before",
   "id" : 125489872,
@@ -155,61 +210,6 @@ Grailbird.data.tweets_2007_06 =
   "text" : "Dendritic arbours as measurement of class differnce in monkey - I love Radiolab",
   "id" : 126456252,
   "created_at" : "2007-06-29 00:00:00 +0000",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "geo" : { },
-  "id_str" : "126657302",
-  "text" : "Why are Cringely and Andreesson praising closed technologies when thye know open ones win? http:\/\/tinyurl.com\/2ar4cj",
-  "id" : 126657302,
-  "created_at" : "2007-06-29 00:00:00 +0000",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ {
-      "name" : "Tom Morris  \uD83C\uDFF3\uFE0F\u200D\uD83C\uDF08",
-      "screen_name" : "tommorris",
-      "indices" : [ 0, 10 ],
-      "id_str" : "25583",
-      "id" : 25583
-    } ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "in_reply_to_status_id_str" : "126794702",
-  "geo" : { },
-  "id_str" : "126803282",
-  "in_reply_to_user_id" : 25583,
-  "text" : "@tommorris look at html5lib and what Sam Ruby does in Planet Venus too",
-  "id" : 126803282,
-  "in_reply_to_status_id" : 126794702,
-  "created_at" : "2007-06-29 00:00:00 +0000",
-  "in_reply_to_screen_name" : "tommorris",
-  "in_reply_to_user_id_str" : "25583",
   "user" : {
     "name" : "Kevin Marks",
     "screen_name" : "kevinmarks",
@@ -361,13 +361,13 @@ Grailbird.data.tweets_2007_06 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "Dave Winer",
+      "name" : "scripting.com",
       "screen_name" : "davewiner",
       "indices" : [ 109, 119 ],
       "id_str" : "3839",
       "id" : 3839
     }, {
-      "name" : "Robert Scoble: VR\/AR",
+      "name" : "Robert Scoble",
       "screen_name" : "Scobleizer",
       "indices" : [ 124, 135 ],
       "id_str" : "13348",
@@ -504,28 +504,6 @@ Grailbird.data.tweets_2007_06 =
 }, {
   "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
   "entities" : {
-    "user_mentions" : [ ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "geo" : { },
-  "id_str" : "118927102",
-  "text" : "Just uploaded my boys \"dog playing the guitar\" video to youtube http:\/\/tinyurl.com\/yo7upj  and blog http:\/\/funnystories.blogspot.com\/",
-  "id" : 118927102,
-  "created_at" : "2007-06-24 00:00:00 +0000",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
     "user_mentions" : [ {
       "name" : "Alice Taylor",
       "screen_name" : "crystaltips",
@@ -568,6 +546,28 @@ Grailbird.data.tweets_2007_06 =
   "id_str" : "118745392",
   "text" : "Listening to Glenn Goulds piano version of Beethovens 5th - the way he brings out the tension in the second movement makes me hold my breath",
   "id" : 118745392,
+  "created_at" : "2007-06-24 00:00:00 +0000",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "geo" : { },
+  "id_str" : "118927102",
+  "text" : "Just uploaded my boys \"dog playing the guitar\" video to youtube http:\/\/tinyurl.com\/yo7upj  and blog http:\/\/funnystories.blogspot.com\/",
+  "id" : 118927102,
   "created_at" : "2007-06-24 00:00:00 +0000",
   "user" : {
     "name" : "Kevin Marks",
@@ -1236,78 +1236,6 @@ Grailbird.data.tweets_2007_06 =
     "urls" : [ ]
   },
   "geo" : { },
-  "id_str" : "108494132",
-  "text" : "Getting ready to head up to RoboGames with the boys this morning. First, bagels.",
-  "id" : 108494132,
-  "created_at" : "2007-06-17 00:00:00 +0000",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "geo" : { },
-  "id_str" : "108568252",
-  "text" : "Steve Jobs WWDC keynote in chapters:  http:\/\/tinyurl.com\/28zp3q",
-  "id" : 108568252,
-  "created_at" : "2007-06-17 00:00:00 +0000",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ {
-      "name" : "Cameo\uD83D\uDD1CFilmQuestFest",
-      "screen_name" : "cameo",
-      "indices" : [ 83, 89 ],
-      "id_str" : "659243",
-      "id" : 659243
-    } ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "geo" : { },
-  "id_str" : "108663702",
-  "text" : "heading up to robogames, listening to \"and none of them knew they were robots\" ta, @cameo",
-  "id" : 108663702,
-  "created_at" : "2007-06-17 00:00:00 +0000",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "geo" : { },
   "id_str" : "108713632",
   "text" : "stuck in the 19th street shuffle in sf",
   "id" : 108713632,
@@ -1347,7 +1275,7 @@ Grailbird.data.tweets_2007_06 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "Dave Winer",
+      "name" : "scripting.com",
       "screen_name" : "davewiner",
       "indices" : [ 0, 10 ],
       "id_str" : "3839",
@@ -1432,6 +1360,78 @@ Grailbird.data.tweets_2007_06 =
   "id_str" : "108921282",
   "text" : "Walking back through fort mason to robogames after a touristy lunch at fishermans wharf",
   "id" : 108921282,
+  "created_at" : "2007-06-17 00:00:00 +0000",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "geo" : { },
+  "id_str" : "108494132",
+  "text" : "Getting ready to head up to RoboGames with the boys this morning. First, bagels.",
+  "id" : 108494132,
+  "created_at" : "2007-06-17 00:00:00 +0000",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "geo" : { },
+  "id_str" : "108568252",
+  "text" : "Steve Jobs WWDC keynote in chapters:  http:\/\/tinyurl.com\/28zp3q",
+  "id" : 108568252,
+  "created_at" : "2007-06-17 00:00:00 +0000",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ {
+      "name" : "Cameo Wood",
+      "screen_name" : "cameo",
+      "indices" : [ 83, 89 ],
+      "id_str" : "659243",
+      "id" : 659243
+    } ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "geo" : { },
+  "id_str" : "108663702",
+  "text" : "heading up to robogames, listening to \"and none of them knew they were robots\" ta, @cameo",
+  "id" : 108663702,
   "created_at" : "2007-06-17 00:00:00 +0000",
   "user" : {
     "name" : "Kevin Marks",
@@ -1798,7 +1798,7 @@ Grailbird.data.tweets_2007_06 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "Denise Howell",
+      "name" : "Denise H\uD83E\uDD89",
       "screen_name" : "dhowell",
       "indices" : [ 0, 8 ],
       "id_str" : "732773",
@@ -2315,138 +2315,6 @@ Grailbird.data.tweets_2007_06 =
     "urls" : [ ]
   },
   "geo" : { },
-  "id_str" : "91541342",
-  "text" : "Blogged for the first time in two months http:\/\/tinyurl.com\/2bpjn2",
-  "id" : 91541342,
-  "created_at" : "2007-06-05 00:00:00 +0000",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ {
-      "name" : "Cris Pearson",
-      "screen_name" : "atariboy",
-      "indices" : [ 0, 9 ],
-      "id_str" : "763803",
-      "id" : 763803
-    } ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "in_reply_to_status_id_str" : "91652052",
-  "geo" : { },
-  "id_str" : "91677832",
-  "in_reply_to_user_id" : 763803,
-  "text" : "@atariboy - it needs to be more random than just blur, so Photoshop unsharp mask won't bring it back. I want a highlighter too. And a pony.",
-  "id" : 91677832,
-  "in_reply_to_status_id" : 91652052,
-  "created_at" : "2007-06-05 00:00:00 +0000",
-  "in_reply_to_screen_name" : "atariboy",
-  "in_reply_to_user_id_str" : "763803",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ {
-      "name" : "Cris Pearson",
-      "screen_name" : "atariboy",
-      "indices" : [ 0, 9 ],
-      "id_str" : "763803",
-      "id" : 763803
-    } ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "in_reply_to_status_id_str" : "91679732",
-  "geo" : { },
-  "id_str" : "91684102",
-  "in_reply_to_user_id" : 763803,
-  "text" : "@atariboy, hm, close but not right - real highlighters don't wash out the blacks. There used to be a quickdraw mode that did this right...",
-  "id" : 91684102,
-  "in_reply_to_status_id" : 91679732,
-  "created_at" : "2007-06-05 00:00:00 +0000",
-  "in_reply_to_screen_name" : "atariboy",
-  "in_reply_to_user_id_str" : "763803",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/www.cloudhopper.com\/\" rel=\"nofollow\"\u003ECloudhopper\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "geo" : { },
-  "id_str" : "92098062",
-  "text" : "Listening to In Our Time on William of Ockham - his attack on universalism sounds like the shelving principle",
-  "id" : 92098062,
-  "created_at" : "2007-06-05 00:00:00 +0000",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "geo" : { },
-  "id_str" : "92296052",
-  "text" : "Andrew Keen talking at Google - he says he's a polemicist and a nostalgist for big media. I think he's a troll like Nick Carr.",
-  "id" : 92296052,
-  "created_at" : "2007-06-05 00:00:00 +0000",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "geo" : { },
   "id_str" : "92300712",
   "text" : "Andrew Keen says the web is not a viable economy for artists, and we need middlemen. Talent is scarce - the value is finding talent.",
   "id" : 92300712,
@@ -2687,6 +2555,138 @@ Grailbird.data.tweets_2007_06 =
   "id_str" : "92393392",
   "text" : "Andrew Keen's real sleight of hand is that he evokes the best of newspapers and contrasts that with the worst of the web. Gets him in print.",
   "id" : 92393392,
+  "created_at" : "2007-06-05 00:00:00 +0000",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "geo" : { },
+  "id_str" : "91541342",
+  "text" : "Blogged for the first time in two months http:\/\/tinyurl.com\/2bpjn2",
+  "id" : 91541342,
+  "created_at" : "2007-06-05 00:00:00 +0000",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ {
+      "name" : "Cris Pearson",
+      "screen_name" : "atariboy",
+      "indices" : [ 0, 9 ],
+      "id_str" : "763803",
+      "id" : 763803
+    } ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "in_reply_to_status_id_str" : "91652052",
+  "geo" : { },
+  "id_str" : "91677832",
+  "in_reply_to_user_id" : 763803,
+  "text" : "@atariboy - it needs to be more random than just blur, so Photoshop unsharp mask won't bring it back. I want a highlighter too. And a pony.",
+  "id" : 91677832,
+  "in_reply_to_status_id" : 91652052,
+  "created_at" : "2007-06-05 00:00:00 +0000",
+  "in_reply_to_screen_name" : "atariboy",
+  "in_reply_to_user_id_str" : "763803",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ {
+      "name" : "Cris Pearson",
+      "screen_name" : "atariboy",
+      "indices" : [ 0, 9 ],
+      "id_str" : "763803",
+      "id" : 763803
+    } ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "in_reply_to_status_id_str" : "91679732",
+  "geo" : { },
+  "id_str" : "91684102",
+  "in_reply_to_user_id" : 763803,
+  "text" : "@atariboy, hm, close but not right - real highlighters don't wash out the blacks. There used to be a quickdraw mode that did this right...",
+  "id" : 91684102,
+  "in_reply_to_status_id" : 91679732,
+  "created_at" : "2007-06-05 00:00:00 +0000",
+  "in_reply_to_screen_name" : "atariboy",
+  "in_reply_to_user_id_str" : "763803",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/www.cloudhopper.com\/\" rel=\"nofollow\"\u003ECloudhopper\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "geo" : { },
+  "id_str" : "92098062",
+  "text" : "Listening to In Our Time on William of Ockham - his attack on universalism sounds like the shelving principle",
+  "id" : 92098062,
+  "created_at" : "2007-06-05 00:00:00 +0000",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "geo" : { },
+  "id_str" : "92296052",
+  "text" : "Andrew Keen talking at Google - he says he's a polemicist and a nostalgist for big media. I think he's a troll like Nick Carr.",
+  "id" : 92296052,
   "created_at" : "2007-06-05 00:00:00 +0000",
   "user" : {
     "name" : "Kevin Marks",

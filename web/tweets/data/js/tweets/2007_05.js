@@ -119,39 +119,6 @@ Grailbird.data.tweets_2007_05 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "Suw",
-      "screen_name" : "Suw",
-      "indices" : [ 0, 4 ],
-      "id_str" : "73843",
-      "id" : 73843
-    } ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "in_reply_to_status_id_str" : "84187492",
-  "geo" : { },
-  "id_str" : "84196572",
-  "in_reply_to_user_id" : 73843,
-  "text" : "@suw http:\/\/technorati.com\/blogs\/ - that has keyword-based blog listing you can self-add to, though it's more of a star than a ring.",
-  "id" : 84196572,
-  "in_reply_to_status_id" : 84187492,
-  "created_at" : "2007-05-30 00:00:00 +0000",
-  "in_reply_to_screen_name" : "Suw",
-  "in_reply_to_user_id_str" : "73843",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ {
       "name" : "Blaine Cook",
       "screen_name" : "blaine",
       "indices" : [ 0, 7 ],
@@ -216,6 +183,39 @@ Grailbird.data.tweets_2007_05 =
   "text" : "Microformats BoF at where 2.0 is at 8.30 in l:Terrace Room, Fairmont Hotel, San Jose, CA",
   "id" : 83396992,
   "created_at" : "2007-05-30 00:00:00 +0000",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ {
+      "name" : "Suw",
+      "screen_name" : "Suw",
+      "indices" : [ 0, 4 ],
+      "id_str" : "73843",
+      "id" : 73843
+    } ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "in_reply_to_status_id_str" : "84187492",
+  "geo" : { },
+  "id_str" : "84196572",
+  "in_reply_to_user_id" : 73843,
+  "text" : "@suw http:\/\/technorati.com\/blogs\/ - that has keyword-based blog listing you can self-add to, though it's more of a star than a ring.",
+  "id" : 84196572,
+  "in_reply_to_status_id" : 84187492,
+  "created_at" : "2007-05-30 00:00:00 +0000",
+  "in_reply_to_screen_name" : "Suw",
+  "in_reply_to_user_id_str" : "73843",
   "user" : {
     "name" : "Kevin Marks",
     "screen_name" : "kevinmarks",
@@ -1031,6 +1031,28 @@ Grailbird.data.tweets_2007_05 =
     "verified" : false
   }
 }, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "geo" : { },
+  "id_str" : "67469952",
+  "text" : "Why is Media Guardian now demanding I tell it who I work for before it lets me read articles? Seems self-defeating",
+  "id" : 67469952,
+  "created_at" : "2007-05-17 00:00:00 +0000",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
   "source" : "\u003Ca href=\"http:\/\/www.cloudhopper.com\/\" rel=\"nofollow\"\u003ECloudhopper\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ ],
@@ -1076,28 +1098,6 @@ Grailbird.data.tweets_2007_05 =
   "created_at" : "2007-05-17 00:00:00 +0000",
   "in_reply_to_screen_name" : "missrogue",
   "in_reply_to_user_id_str" : "1192",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "geo" : { },
-  "id_str" : "67469952",
-  "text" : "Why is Media Guardian now demanding I tell it who I work for before it lets me read articles? Seems self-defeating",
-  "id" : 67469952,
-  "created_at" : "2007-05-17 00:00:00 +0000",
   "user" : {
     "name" : "Kevin Marks",
     "screen_name" : "kevinmarks",
@@ -1352,6 +1352,50 @@ Grailbird.data.tweets_2007_05 =
 }, {
   "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
   "entities" : {
+    "user_mentions" : [ ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "geo" : { },
+  "id_str" : "59613652",
+  "text" : "After the boys played Robin Hood and the Sherriff of Nottingham in the end of term play, the Brittania Arms was de rigeur",
+  "id" : 59613652,
+  "created_at" : "2007-05-11 00:00:00 +0000",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "geo" : { },
+  "id_str" : "60334732",
+  "text" : "Eating 2 oranges from my garden on the train for breakfast",
+  "id" : 60334732,
+  "created_at" : "2007-05-11 00:00:00 +0000",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
     "user_mentions" : [ {
       "name" : "Betsy Devine",
       "screen_name" : "betsythedevine",
@@ -1494,50 +1538,6 @@ Grailbird.data.tweets_2007_05 =
   "created_at" : "2007-05-11 00:00:00 +0000",
   "in_reply_to_screen_name" : "garyturner",
   "in_reply_to_user_id_str" : "421523",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "geo" : { },
-  "id_str" : "59613652",
-  "text" : "After the boys played Robin Hood and the Sherriff of Nottingham in the end of term play, the Brittania Arms was de rigeur",
-  "id" : 59613652,
-  "created_at" : "2007-05-11 00:00:00 +0000",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "geo" : { },
-  "id_str" : "60334732",
-  "text" : "Eating 2 oranges from my garden on the train for breakfast",
-  "id" : 60334732,
-  "created_at" : "2007-05-11 00:00:00 +0000",
   "user" : {
     "name" : "Kevin Marks",
     "screen_name" : "kevinmarks",
@@ -1964,7 +1964,7 @@ Grailbird.data.tweets_2007_05 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "\u26A1\uFE0FJason Shellen",
+      "name" : "Jason Shellen",
       "screen_name" : "shellen",
       "indices" : [ 16, 24 ],
       "id_str" : "422",
@@ -2179,7 +2179,7 @@ Grailbird.data.tweets_2007_05 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "Dave Winer",
+      "name" : "scripting.com",
       "screen_name" : "davewiner",
       "indices" : [ 0, 10 ],
       "id_str" : "3839",
@@ -2212,7 +2212,7 @@ Grailbird.data.tweets_2007_05 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "Dave Winer",
+      "name" : "scripting.com",
       "screen_name" : "davewiner",
       "indices" : [ 0, 10 ],
       "id_str" : "3839",
@@ -2343,72 +2343,6 @@ Grailbird.data.tweets_2007_05 =
 }, {
   "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
   "entities" : {
-    "user_mentions" : [ {
-      "name" : "Euan Semple",
-      "screen_name" : "euan",
-      "indices" : [ 0, 5 ],
-      "id_str" : "13098",
-      "id" : 13098
-    } ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "in_reply_to_status_id_str" : "49378502",
-  "geo" : { },
-  "id_str" : "49383642",
-  "in_reply_to_user_id" : 13098,
-  "text" : "@euan use your own page, and let us know so we can surprise your audience",
-  "id" : 49383642,
-  "in_reply_to_status_id" : 49378502,
-  "created_at" : "2007-05-04 00:00:00 +0000",
-  "in_reply_to_screen_name" : "euan",
-  "in_reply_to_user_id_str" : "13098",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ {
-      "name" : "factoryjoe",
-      "screen_name" : "factoryjoe",
-      "indices" : [ 0, 11 ],
-      "id_str" : "21826529",
-      "id" : 21826529
-    } ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "in_reply_to_status_id_str" : "49382722",
-  "geo" : { },
-  "id_str" : "49384432",
-  "in_reply_to_user_id" : 1186,
-  "text" : "@factoryjoe sounds like a tagging system to me - tag your friends",
-  "id" : 49384432,
-  "in_reply_to_status_id" : 49382722,
-  "created_at" : "2007-05-04 00:00:00 +0000",
-  "in_reply_to_screen_name" : "chrismessina",
-  "in_reply_to_user_id_str" : "1186",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
     "user_mentions" : [ ],
     "media" : [ ],
     "hashtags" : [ ],
@@ -2507,6 +2441,72 @@ Grailbird.data.tweets_2007_05 =
   "created_at" : "2007-05-04 00:00:00 +0000",
   "in_reply_to_screen_name" : "michaelocc",
   "in_reply_to_user_id_str" : "10792",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ {
+      "name" : "Euan Semple",
+      "screen_name" : "euan",
+      "indices" : [ 0, 5 ],
+      "id_str" : "13098",
+      "id" : 13098
+    } ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "in_reply_to_status_id_str" : "49378502",
+  "geo" : { },
+  "id_str" : "49383642",
+  "in_reply_to_user_id" : 13098,
+  "text" : "@euan use your own page, and let us know so we can surprise your audience",
+  "id" : 49383642,
+  "in_reply_to_status_id" : 49378502,
+  "created_at" : "2007-05-04 00:00:00 +0000",
+  "in_reply_to_screen_name" : "euan",
+  "in_reply_to_user_id_str" : "13098",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ {
+      "name" : "factoryjoe",
+      "screen_name" : "factoryjoe",
+      "indices" : [ 0, 11 ],
+      "id_str" : "21826529",
+      "id" : 21826529
+    } ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "in_reply_to_status_id_str" : "49382722",
+  "geo" : { },
+  "id_str" : "49384432",
+  "in_reply_to_user_id" : 1186,
+  "text" : "@factoryjoe sounds like a tagging system to me - tag your friends",
+  "id" : 49384432,
+  "in_reply_to_status_id" : 49382722,
+  "created_at" : "2007-05-04 00:00:00 +0000",
+  "in_reply_to_screen_name" : "chrismessina",
+  "in_reply_to_user_id_str" : "1186",
   "user" : {
     "name" : "Kevin Marks",
     "screen_name" : "kevinmarks",

@@ -3,108 +3,6 @@ Grailbird.data.tweets_2010_01 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "Jolie O'Dell",
-      "screen_name" : "jolieodell",
-      "indices" : [ 5, 16 ],
-      "id_str" : "19417850",
-      "id" : 19417850
-    }, {
-      "name" : "Brian",
-      "screen_name" : "Zisk",
-      "indices" : [ 75, 80 ],
-      "id_str" : "1132291",
-      "id" : 1132291
-    } ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "geo" : { },
-  "id_str" : "8519279150",
-  "text" : "says @jolieodell you can't use the real-time web to spin individual users. @zisk says he has had rapid response that then peters out",
-  "id" : 8519279150,
-  "created_at" : "2010-02-01 00:00:00 +0000",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ {
-      "name" : "Jeremy Toeman",
-      "screen_name" : "jtoeman",
-      "indices" : [ 5, 13 ],
-      "id_str" : "14422705",
-      "id" : 14422705
-    }, {
-      "name" : "Brian",
-      "screen_name" : "Zisk",
-      "indices" : [ 64, 69 ],
-      "id_str" : "1132291",
-      "id" : 1132291
-    } ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "geo" : { },
-  "id_str" : "8519331317",
-  "text" : "says @jtoeman with realtime web you can placate people quickly; @zisk: but if your product sucks you can't hide that for long",
-  "id" : 8519331317,
-  "created_at" : "2010-02-01 00:00:00 +0000",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ {
-      "name" : "Jolie O'Dell",
-      "screen_name" : "jolieodell",
-      "indices" : [ 5, 16 ],
-      "id_str" : "19417850",
-      "id" : 19417850
-    }, {
-      "name" : "Brian",
-      "screen_name" : "Zisk",
-      "indices" : [ 47, 52 ],
-      "id_str" : "1132291",
-      "id" : 1132291
-    } ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "geo" : { },
-  "id_str" : "8519415055",
-  "text" : "asks @jolieodell is twitter here to stay? Says @zisk we have the MySpace feed, which is 5 times as big as twitter, lots of growth out there",
-  "id" : 8519415055,
-  "created_at" : "2010-02-01 00:00:00 +0000",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ {
       "name" : "Google Maps",
       "screen_name" : "googlemaps",
       "indices" : [ 10, 21 ],
@@ -462,7 +360,7 @@ Grailbird.data.tweets_2010_01 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "Andy Clarke \uD83C\uDDE6\uD83C\uDDFA",
+      "name" : "Andy Clarke",
       "screen_name" : "Malarkey",
       "indices" : [ 0, 9 ],
       "id_str" : "34163",
@@ -619,6 +517,108 @@ Grailbird.data.tweets_2010_01 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
+      "name" : "Jolie O'Dell",
+      "screen_name" : "jolieodell",
+      "indices" : [ 5, 16 ],
+      "id_str" : "19417850",
+      "id" : 19417850
+    }, {
+      "name" : "Brian",
+      "screen_name" : "Zisk",
+      "indices" : [ 75, 80 ],
+      "id_str" : "1132291",
+      "id" : 1132291
+    } ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "geo" : { },
+  "id_str" : "8519279150",
+  "text" : "says @jolieodell you can't use the real-time web to spin individual users. @zisk says he has had rapid response that then peters out",
+  "id" : 8519279150,
+  "created_at" : "2010-02-01 00:00:00 +0000",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ {
+      "name" : "Jeremy Toeman",
+      "screen_name" : "jtoeman",
+      "indices" : [ 5, 13 ],
+      "id_str" : "14422705",
+      "id" : 14422705
+    }, {
+      "name" : "Brian",
+      "screen_name" : "Zisk",
+      "indices" : [ 64, 69 ],
+      "id_str" : "1132291",
+      "id" : 1132291
+    } ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "geo" : { },
+  "id_str" : "8519331317",
+  "text" : "says @jtoeman with realtime web you can placate people quickly; @zisk: but if your product sucks you can't hide that for long",
+  "id" : 8519331317,
+  "created_at" : "2010-02-01 00:00:00 +0000",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ {
+      "name" : "Jolie O'Dell",
+      "screen_name" : "jolieodell",
+      "indices" : [ 5, 16 ],
+      "id_str" : "19417850",
+      "id" : 19417850
+    }, {
+      "name" : "Brian",
+      "screen_name" : "Zisk",
+      "indices" : [ 47, 52 ],
+      "id_str" : "1132291",
+      "id" : 1132291
+    } ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "geo" : { },
+  "id_str" : "8519415055",
+  "text" : "asks @jolieodell is twitter here to stay? Says @zisk we have the MySpace feed, which is 5 times as big as twitter, lots of growth out there",
+  "id" : 8519415055,
+  "created_at" : "2010-02-01 00:00:00 +0000",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ {
       "name" : "Book Oven",
       "screen_name" : "bookoven",
       "indices" : [ 0, 9 ],
@@ -658,7 +658,7 @@ Grailbird.data.tweets_2010_01 =
       "id_str" : "11848",
       "id" : 11848
     }, {
-      "name" : "Missing @tedr",
+      "name" : "Heather Gold",
       "screen_name" : "heathr",
       "indices" : [ 80, 87 ],
       "id_str" : "678033",
@@ -692,195 +692,11 @@ Grailbird.data.tweets_2010_01 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "Joe Smith",
-      "screen_name" : "paulcarr",
+      "name" : "Paul Carr",
+      "screen_name" : "PaulCarr",
       "indices" : [ 0, 9 ],
-      "id_str" : "3225966229",
-      "id" : 3225966229
-    } ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "geo" : { },
-  "id_str" : "8390499207",
-  "text" : "@paulcarr TED is Technology Education Design, so EDWARD is Education Design Waffling Antiquarianism Rhubarb Drivel? UK version missing tech",
-  "id" : 8390499207,
-  "created_at" : "2010-01-30 00:00:00 +0000",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ {
-      "name" : "Lisa Barone",
-      "screen_name" : "LisaBarone",
-      "indices" : [ 0, 11 ],
-      "id_str" : "9524712",
-      "id" : 9524712
-    } ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "in_reply_to_status_id_str" : "8390294279",
-  "geo" : { },
-  "id_str" : "8390624232",
-  "in_reply_to_user_id" : 9524712,
-  "text" : "@LisaBarone the point of California is, no matter what you wear, you won't die just from being outdoors.  Scott Adams: http:\/\/bit.ly\/bV1tVr",
-  "id" : 8390624232,
-  "in_reply_to_status_id" : 8390294279,
-  "created_at" : "2010-01-30 00:00:00 +0000",
-  "in_reply_to_screen_name" : "LisaBarone",
-  "in_reply_to_user_id_str" : "9524712",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ {
-      "name" : "Kristina Halvorson",
-      "screen_name" : "halvorson",
-      "indices" : [ 0, 10 ],
-      "id_str" : "14335160",
-      "id" : 14335160
-    }, {
-      "name" : "David Armano",
-      "screen_name" : "armano",
-      "indices" : [ 11, 18 ],
-      "id_str" : "755452",
-      "id" : 755452
-    }, {
-      "name" : "Foursquare",
-      "screen_name" : "Foursquare",
-      "indices" : [ 68, 79 ],
-      "id_str" : "804341497441255424",
-      "id" : 804341497441255424
-    } ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "in_reply_to_status_id_str" : "8390864409",
-  "geo" : { },
-  "id_str" : "8392402445",
-  "in_reply_to_user_id" : 14335160,
-  "text" : "@halvorson @Armano you two are in the bay area now - you should use @foursquare for optimal stalking",
-  "id" : 8392402445,
-  "in_reply_to_status_id" : 8390864409,
-  "created_at" : "2010-01-30 00:00:00 +0000",
-  "in_reply_to_screen_name" : "halvorson",
-  "in_reply_to_user_id_str" : "14335160",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ {
-      "name" : "Jennifer Jeffrey",
-      "screen_name" : "jenniferjeffrey",
-      "indices" : [ 0, 16 ],
-      "id_str" : "15486236",
-      "id" : 15486236
-    }, {
-      "name" : "Dennis Crowley",
-      "screen_name" : "dens",
-      "indices" : [ 35, 40 ],
-      "id_str" : "418",
-      "id" : 418
-    } ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "in_reply_to_status_id_str" : "8392447338",
-  "geo" : { },
-  "id_str" : "8392515763",
-  "in_reply_to_user_id" : 15486236,
-  "text" : "@jenniferjeffrey no, that would be @dens, he's an accessory to all kinds of things",
-  "id" : 8392515763,
-  "in_reply_to_status_id" : 8392447338,
-  "created_at" : "2010-01-30 00:00:00 +0000",
-  "in_reply_to_screen_name" : "jenniferjeffrey",
-  "in_reply_to_user_id_str" : "15486236",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ {
-      "name" : "Adina Levin",
-      "screen_name" : "alevin",
-      "indices" : [ 0, 7 ],
-      "id_str" : "853821",
-      "id" : 853821
-    }, {
-      "name" : "Michael Leis",
-      "screen_name" : "mleis",
-      "indices" : [ 8, 14 ],
-      "id_str" : "14118793",
-      "id" : 14118793
-    } ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "in_reply_to_status_id_str" : "8393012783",
-  "geo" : { },
-  "id_str" : "8393274108",
-  "in_reply_to_user_id" : 853821,
-  "text" : "@alevin @mleis who's going to be first with the iPad Ouija Board?",
-  "id" : 8393274108,
-  "in_reply_to_status_id" : 8393012783,
-  "created_at" : "2010-01-30 00:00:00 +0000",
-  "in_reply_to_screen_name" : "alevin",
-  "in_reply_to_user_id_str" : "853821",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ {
-      "name" : "Joe Smith",
-      "screen_name" : "paulcarr",
-      "indices" : [ 0, 9 ],
-      "id_str" : "3225966229",
-      "id" : 3225966229
+      "id_str" : "201568456",
+      "id" : 201568456
     } ],
     "media" : [ ],
     "hashtags" : [ ],
@@ -968,7 +784,7 @@ Grailbird.data.tweets_2010_01 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "Cory Doctorow",
+      "name" : "son of an asylum seeker, father of an immigrant",
       "screen_name" : "doctorow",
       "indices" : [ 3, 12 ],
       "id_str" : "2729061",
@@ -1151,7 +967,7 @@ Grailbird.data.tweets_2010_01 =
       "id_str" : "740983",
       "id" : 740983
     }, {
-      "name" : "Om Malik",
+      "name" : "OM",
       "screen_name" : "om",
       "indices" : [ 31, 34 ],
       "id_str" : "989",
@@ -1397,26 +1213,21 @@ Grailbird.data.tweets_2010_01 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "Don Park",
-      "screen_name" : "donpark",
-      "indices" : [ 0, 8 ],
-      "id_str" : "892821",
-      "id" : 892821
+      "name" : "Paul Carr",
+      "screen_name" : "PaulCarr",
+      "indices" : [ 0, 9 ],
+      "id_str" : "201568456",
+      "id" : 201568456
     } ],
     "media" : [ ],
     "hashtags" : [ ],
     "urls" : [ ]
   },
-  "in_reply_to_status_id_str" : "8383541739",
   "geo" : { },
-  "id_str" : "8383753326",
-  "in_reply_to_user_id" : 892821,
-  "text" : "@donpark sorry about that. Logging into facebook from facebook was irresistible. Following up with FB security team",
-  "id" : 8383753326,
-  "in_reply_to_status_id" : 8383541739,
-  "created_at" : "2010-01-29 00:00:00 +0000",
-  "in_reply_to_screen_name" : "donpark",
-  "in_reply_to_user_id_str" : "892821",
+  "id_str" : "8390499207",
+  "text" : "@paulcarr TED is Technology Education Design, so EDWARD is Education Design Waffling Antiquarianism Rhubarb Drivel? UK version missing tech",
+  "id" : 8390499207,
+  "created_at" : "2010-01-30 00:00:00 +0000",
   "user" : {
     "name" : "Kevin Marks",
     "screen_name" : "kevinmarks",
@@ -1430,210 +1241,26 @@ Grailbird.data.tweets_2010_01 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "Steve Gillmor",
-      "screen_name" : "stevegillmor",
-      "indices" : [ 21, 34 ],
-      "id_str" : "1454021",
-      "id" : 1454021
-    } ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "geo" : { },
-  "id_str" : "8383800482",
-  "text" : "http:\/\/bit.ly\/aSUeH2 @stevegillmor on iPad, Flash, HTML5 and so on (includes link to yesterdays Gillmor Gang)",
-  "id" : 8383800482,
-  "created_at" : "2010-01-29 00:00:00 +0000",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ {
-      "name" : "Mark Pilgrim",
-      "screen_name" : "diveintomark",
-      "indices" : [ 55, 68 ],
-      "id_str" : "793238882",
-      "id" : 793238882
-    }, {
-      "name" : "Steven Frank",
-      "screen_name" : "stevenf",
-      "indices" : [ 88, 96 ],
-      "id_str" : "733813",
-      "id" : 733813
-    } ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "geo" : { },
-  "id_str" : "8384317637",
-  "text" : "two interesting follow-ups on the iPad hacking debate: @diveintomark http:\/\/is.gd\/7jvEk @stevenf http:\/\/bit.ly\/cOhuQ9",
-  "id" : 8384317637,
-  "created_at" : "2010-01-29 00:00:00 +0000",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "geo" : { },
-  "id_str" : "8384957398",
-  "text" : "Google canteen feels like University;  Facebook feels like high school. (And I feel old)",
-  "id" : 8384957398,
-  "created_at" : "2010-01-29 00:00:00 +0000",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ {
-      "name" : "We have moved!",
-      "screen_name" : "oneforty",
-      "indices" : [ 102, 111 ],
-      "id_str" : "469721437",
-      "id" : 469721437
-    } ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "geo" : { },
-  "id_str" : "8386962531",
-  "text" : "Interesting mashable article on more open app stores:  http:\/\/bit.ly\/b4wKgy - helps explain whyI like @oneforty",
-  "id" : 8386962531,
-  "created_at" : "2010-01-29 00:00:00 +0000",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ {
-      "name" : "Wendy M. Grossman",
-      "screen_name" : "wendyg",
-      "indices" : [ 0, 7 ],
-      "id_str" : "2228471",
-      "id" : 2228471
-    }, {
-      "name" : "Tom Watson",
-      "screen_name" : "tom_watson",
-      "indices" : [ 8, 19 ],
-      "id_str" : "14190551",
-      "id" : 14190551
-    } ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "in_reply_to_status_id_str" : "8387267565",
-  "geo" : { },
-  "id_str" : "8387363165",
-  "in_reply_to_user_id" : 2228471,
-  "text" : "@wendyg @tom_watson unless all the sugar in the placebo pills affects a diabetic...",
-  "id" : 8387363165,
-  "in_reply_to_status_id" : 8387267565,
-  "created_at" : "2010-01-29 00:00:00 +0000",
-  "in_reply_to_screen_name" : "wendyg",
-  "in_reply_to_user_id_str" : "2228471",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ {
-      "name" : "Alex Payne",
-      "screen_name" : "al3x",
-      "indices" : [ 0, 5 ],
-      "id_str" : "18713",
-      "id" : 18713
-    } ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "in_reply_to_status_id_str" : "8387198985",
-  "geo" : { },
-  "id_str" : "8387709037",
-  "in_reply_to_user_id" : 18713,
-  "text" : "@al3x I got the Droid, and find I barely use the mechanical keyboard (mostly 'cos its so much worse than the G1 one)",
-  "id" : 8387709037,
-  "in_reply_to_status_id" : 8387198985,
-  "created_at" : "2010-01-29 00:00:00 +0000",
-  "in_reply_to_screen_name" : "al3x",
-  "in_reply_to_user_id_str" : "18713",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ {
-      "name" : "Tom Watson",
-      "screen_name" : "tom_watson",
+      "name" : "Lisa Barone",
+      "screen_name" : "LisaBarone",
       "indices" : [ 0, 11 ],
-      "id_str" : "14190551",
-      "id" : 14190551
+      "id_str" : "9524712",
+      "id" : 9524712
     } ],
     "media" : [ ],
     "hashtags" : [ ],
     "urls" : [ ]
   },
-  "in_reply_to_status_id_str" : "8387847716",
+  "in_reply_to_status_id_str" : "8390294279",
   "geo" : { },
-  "id_str" : "8387961262",
-  "in_reply_to_user_id" : 14190551,
-  "text" : "@tom_watson political trephination is a good description of the Digital Economy Bill",
-  "id" : 8387961262,
-  "in_reply_to_status_id" : 8387847716,
-  "created_at" : "2010-01-29 00:00:00 +0000",
-  "in_reply_to_screen_name" : "tom_watson",
-  "in_reply_to_user_id_str" : "14190551",
+  "id_str" : "8390624232",
+  "in_reply_to_user_id" : 9524712,
+  "text" : "@LisaBarone the point of California is, no matter what you wear, you won't die just from being outdoors.  Scott Adams: http:\/\/bit.ly\/bV1tVr",
+  "id" : 8390624232,
+  "in_reply_to_status_id" : 8390294279,
+  "created_at" : "2010-01-30 00:00:00 +0000",
+  "in_reply_to_screen_name" : "LisaBarone",
+  "in_reply_to_user_id_str" : "9524712",
   "user" : {
     "name" : "Kevin Marks",
     "screen_name" : "kevinmarks",
@@ -1647,26 +1274,38 @@ Grailbird.data.tweets_2010_01 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "Jeff Nolan",
-      "screen_name" : "jeffnolan",
+      "name" : "Kristina Halvorson",
+      "screen_name" : "halvorson",
       "indices" : [ 0, 10 ],
-      "id_str" : "5885772",
-      "id" : 5885772
+      "id_str" : "14335160",
+      "id" : 14335160
+    }, {
+      "name" : "David Armano",
+      "screen_name" : "armano",
+      "indices" : [ 11, 18 ],
+      "id_str" : "755452",
+      "id" : 755452
+    }, {
+      "name" : "Foursquare",
+      "screen_name" : "Foursquare",
+      "indices" : [ 68, 79 ],
+      "id_str" : "804341497441255424",
+      "id" : 804341497441255424
     } ],
     "media" : [ ],
     "hashtags" : [ ],
     "urls" : [ ]
   },
-  "in_reply_to_status_id_str" : "8388182182",
+  "in_reply_to_status_id_str" : "8390864409",
   "geo" : { },
-  "id_str" : "8388481175",
-  "in_reply_to_user_id" : 5885772,
-  "text" : "@jeffnolan I don't see any evidence in that article, just speculation.",
-  "id" : 8388481175,
-  "in_reply_to_status_id" : 8388182182,
-  "created_at" : "2010-01-29 00:00:00 +0000",
-  "in_reply_to_screen_name" : "jeffnolan",
-  "in_reply_to_user_id_str" : "5885772",
+  "id_str" : "8392402445",
+  "in_reply_to_user_id" : 14335160,
+  "text" : "@halvorson @Armano you two are in the bay area now - you should use @foursquare for optimal stalking",
+  "id" : 8392402445,
+  "in_reply_to_status_id" : 8390864409,
+  "created_at" : "2010-01-30 00:00:00 +0000",
+  "in_reply_to_screen_name" : "halvorson",
+  "in_reply_to_user_id_str" : "14335160",
   "user" : {
     "name" : "Kevin Marks",
     "screen_name" : "kevinmarks",
@@ -1680,27 +1319,71 @@ Grailbird.data.tweets_2010_01 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "gapingvoid",
-      "screen_name" : "gapingvoid",
-      "indices" : [ 2, 13 ],
-      "id_str" : "72982024",
-      "id" : 72982024
+      "name" : "Jennifer Jeffrey",
+      "screen_name" : "jenniferjeffrey",
+      "indices" : [ 0, 16 ],
+      "id_str" : "15486236",
+      "id" : 15486236
     }, {
-      "name" : "katherine mendoza",
-      "screen_name" : "kathysierra",
-      "indices" : [ 15, 27 ],
-      "id_str" : "286520092",
-      "id" : 286520092
+      "name" : "Dennis Crowley",
+      "screen_name" : "dens",
+      "indices" : [ 35, 40 ],
+      "id_str" : "418",
+      "id" : 418
     } ],
     "media" : [ ],
     "hashtags" : [ ],
     "urls" : [ ]
   },
+  "in_reply_to_status_id_str" : "8392447338",
   "geo" : { },
-  "id_str" : "8388719688",
-  "text" : "\u00BB @gapingvoid: @KathySierra is a hero to thousands of people. The fact that she's not a hero to ten times that number is criminal... \u00AB yes!",
-  "id" : 8388719688,
-  "created_at" : "2010-01-29 00:00:00 +0000",
+  "id_str" : "8392515763",
+  "in_reply_to_user_id" : 15486236,
+  "text" : "@jenniferjeffrey no, that would be @dens, he's an accessory to all kinds of things",
+  "id" : 8392515763,
+  "in_reply_to_status_id" : 8392447338,
+  "created_at" : "2010-01-30 00:00:00 +0000",
+  "in_reply_to_screen_name" : "jenniferjeffrey",
+  "in_reply_to_user_id_str" : "15486236",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ {
+      "name" : "Adina Levin",
+      "screen_name" : "alevin",
+      "indices" : [ 0, 7 ],
+      "id_str" : "853821",
+      "id" : 853821
+    }, {
+      "name" : "Michael Leis",
+      "screen_name" : "mleis",
+      "indices" : [ 8, 14 ],
+      "id_str" : "14118793",
+      "id" : 14118793
+    } ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "in_reply_to_status_id_str" : "8393012783",
+  "geo" : { },
+  "id_str" : "8393274108",
+  "in_reply_to_user_id" : 853821,
+  "text" : "@alevin @mleis who's going to be first with the iPad Ouija Board?",
+  "id" : 8393274108,
+  "in_reply_to_status_id" : 8393012783,
+  "created_at" : "2010-01-30 00:00:00 +0000",
+  "in_reply_to_screen_name" : "alevin",
+  "in_reply_to_user_id_str" : "853821",
   "user" : {
     "name" : "Kevin Marks",
     "screen_name" : "kevinmarks",
@@ -1885,7 +1568,7 @@ Grailbird.data.tweets_2010_01 =
       "id_str" : "286520092",
       "id" : 286520092
     }, {
-      "name" : "Missing @tedr",
+      "name" : "Heather Gold",
       "screen_name" : "heathr",
       "indices" : [ 80, 87 ],
       "id_str" : "678033",
@@ -2216,7 +1899,7 @@ Grailbird.data.tweets_2010_01 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "Laura Fitton",
+      "name" : "Laura pls read White Fragility before u @me Fitton",
       "screen_name" : "Pistachio",
       "indices" : [ 0, 10 ],
       "id_str" : "3533231",
@@ -2321,7 +2004,7 @@ Grailbird.data.tweets_2010_01 =
       "id_str" : "286520092",
       "id" : 286520092
     }, {
-      "name" : "Missing @tedr",
+      "name" : "Heather Gold",
       "screen_name" : "heathr",
       "indices" : [ 65, 72 ],
       "id_str" : "678033",
@@ -2502,7 +2185,7 @@ Grailbird.data.tweets_2010_01 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "Missing @tedr",
+      "name" : "Heather Gold",
       "screen_name" : "heathr",
       "indices" : [ 3, 10 ],
       "id_str" : "678033",
@@ -2683,7 +2366,7 @@ Grailbird.data.tweets_2010_01 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "BBC Technology",
+      "name" : "BBC News Technology",
       "screen_name" : "BBCTech",
       "indices" : [ 2, 10 ],
       "id_str" : "621583",
@@ -2929,6 +2612,396 @@ Grailbird.data.tweets_2010_01 =
   "text" : "just logged into facebook at fb HQ and got phished by an app called 'pictures' that impersonates built-in photos. Ignore any from me.",
   "id" : 8382833003,
   "created_at" : "2010-01-29 00:00:00 +0000",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ {
+      "name" : "Don Park",
+      "screen_name" : "donpark",
+      "indices" : [ 0, 8 ],
+      "id_str" : "892821",
+      "id" : 892821
+    } ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "in_reply_to_status_id_str" : "8383541739",
+  "geo" : { },
+  "id_str" : "8383753326",
+  "in_reply_to_user_id" : 892821,
+  "text" : "@donpark sorry about that. Logging into facebook from facebook was irresistible. Following up with FB security team",
+  "id" : 8383753326,
+  "in_reply_to_status_id" : 8383541739,
+  "created_at" : "2010-01-29 00:00:00 +0000",
+  "in_reply_to_screen_name" : "donpark",
+  "in_reply_to_user_id_str" : "892821",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ {
+      "name" : "Steve Gillmor",
+      "screen_name" : "stevegillmor",
+      "indices" : [ 21, 34 ],
+      "id_str" : "1454021",
+      "id" : 1454021
+    } ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "geo" : { },
+  "id_str" : "8383800482",
+  "text" : "http:\/\/bit.ly\/aSUeH2 @stevegillmor on iPad, Flash, HTML5 and so on (includes link to yesterdays Gillmor Gang)",
+  "id" : 8383800482,
+  "created_at" : "2010-01-29 00:00:00 +0000",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ {
+      "name" : "Mark Pilgrim",
+      "screen_name" : "diveintomark",
+      "indices" : [ 55, 68 ],
+      "id_str" : "793238882",
+      "id" : 793238882
+    }, {
+      "name" : "Steven Frank",
+      "screen_name" : "stevenf",
+      "indices" : [ 88, 96 ],
+      "id_str" : "733813",
+      "id" : 733813
+    } ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "geo" : { },
+  "id_str" : "8384317637",
+  "text" : "two interesting follow-ups on the iPad hacking debate: @diveintomark http:\/\/is.gd\/7jvEk @stevenf http:\/\/bit.ly\/cOhuQ9",
+  "id" : 8384317637,
+  "created_at" : "2010-01-29 00:00:00 +0000",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "geo" : { },
+  "id_str" : "8384957398",
+  "text" : "Google canteen feels like University;  Facebook feels like high school. (And I feel old)",
+  "id" : 8384957398,
+  "created_at" : "2010-01-29 00:00:00 +0000",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ {
+      "name" : "We have moved!",
+      "screen_name" : "oneforty",
+      "indices" : [ 102, 111 ],
+      "id_str" : "469721437",
+      "id" : 469721437
+    } ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "geo" : { },
+  "id_str" : "8386962531",
+  "text" : "Interesting mashable article on more open app stores:  http:\/\/bit.ly\/b4wKgy - helps explain whyI like @oneforty",
+  "id" : 8386962531,
+  "created_at" : "2010-01-29 00:00:00 +0000",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ {
+      "name" : "Wendy M. Grossman",
+      "screen_name" : "wendyg",
+      "indices" : [ 0, 7 ],
+      "id_str" : "2228471",
+      "id" : 2228471
+    }, {
+      "name" : "Tom Watson",
+      "screen_name" : "tom_watson",
+      "indices" : [ 8, 19 ],
+      "id_str" : "14190551",
+      "id" : 14190551
+    } ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "in_reply_to_status_id_str" : "8387267565",
+  "geo" : { },
+  "id_str" : "8387363165",
+  "in_reply_to_user_id" : 2228471,
+  "text" : "@wendyg @tom_watson unless all the sugar in the placebo pills affects a diabetic...",
+  "id" : 8387363165,
+  "in_reply_to_status_id" : 8387267565,
+  "created_at" : "2010-01-29 00:00:00 +0000",
+  "in_reply_to_screen_name" : "wendyg",
+  "in_reply_to_user_id_str" : "2228471",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ {
+      "name" : "Alex Payne",
+      "screen_name" : "al3x",
+      "indices" : [ 0, 5 ],
+      "id_str" : "18713",
+      "id" : 18713
+    } ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "in_reply_to_status_id_str" : "8387198985",
+  "geo" : { },
+  "id_str" : "8387709037",
+  "in_reply_to_user_id" : 18713,
+  "text" : "@al3x I got the Droid, and find I barely use the mechanical keyboard (mostly 'cos its so much worse than the G1 one)",
+  "id" : 8387709037,
+  "in_reply_to_status_id" : 8387198985,
+  "created_at" : "2010-01-29 00:00:00 +0000",
+  "in_reply_to_screen_name" : "al3x",
+  "in_reply_to_user_id_str" : "18713",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ {
+      "name" : "Tom Watson",
+      "screen_name" : "tom_watson",
+      "indices" : [ 0, 11 ],
+      "id_str" : "14190551",
+      "id" : 14190551
+    } ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "in_reply_to_status_id_str" : "8387847716",
+  "geo" : { },
+  "id_str" : "8387961262",
+  "in_reply_to_user_id" : 14190551,
+  "text" : "@tom_watson political trephination is a good description of the Digital Economy Bill",
+  "id" : 8387961262,
+  "in_reply_to_status_id" : 8387847716,
+  "created_at" : "2010-01-29 00:00:00 +0000",
+  "in_reply_to_screen_name" : "tom_watson",
+  "in_reply_to_user_id_str" : "14190551",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ {
+      "name" : "Jeff Nolan",
+      "screen_name" : "jeffnolan",
+      "indices" : [ 0, 10 ],
+      "id_str" : "5885772",
+      "id" : 5885772
+    } ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "in_reply_to_status_id_str" : "8388182182",
+  "geo" : { },
+  "id_str" : "8388481175",
+  "in_reply_to_user_id" : 5885772,
+  "text" : "@jeffnolan I don't see any evidence in that article, just speculation.",
+  "id" : 8388481175,
+  "in_reply_to_status_id" : 8388182182,
+  "created_at" : "2010-01-29 00:00:00 +0000",
+  "in_reply_to_screen_name" : "jeffnolan",
+  "in_reply_to_user_id_str" : "5885772",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ {
+      "name" : "gapingvoid culture design group",
+      "screen_name" : "gapingvoid",
+      "indices" : [ 2, 13 ],
+      "id_str" : "72982024",
+      "id" : 72982024
+    }, {
+      "name" : "katherine mendoza",
+      "screen_name" : "kathysierra",
+      "indices" : [ 15, 27 ],
+      "id_str" : "286520092",
+      "id" : 286520092
+    } ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "geo" : { },
+  "id_str" : "8388719688",
+  "text" : "\u00BB @gapingvoid: @KathySierra is a hero to thousands of people. The fact that she's not a hero to ten times that number is criminal... \u00AB yes!",
+  "id" : 8388719688,
+  "created_at" : "2010-01-29 00:00:00 +0000",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ {
+      "name" : "Ed Finkler",
+      "screen_name" : "funkatron",
+      "indices" : [ 3, 13 ],
+      "id_str" : "65583",
+      "id" : 65583
+    } ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "geo" : { },
+  "id_str" : "8343721765",
+  "text" : "RT @funkatron: \"Does anyone doubt that Apple would not create a locked down desktop platform if they felt they could get away w it?\" htt ...",
+  "retweeted_status" : {
+    "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+    "entities" : {
+      "user_mentions" : [ ],
+      "media" : [ ],
+      "hashtags" : [ ],
+      "urls" : [ ]
+    },
+    "geo" : { },
+    "id_str" : "8339433961",
+    "text" : "\"Does anyone doubt that Apple would not create a locked down desktop platform if they felt they could get away w it?\" http:\/\/bit.ly\/92KlpT",
+    "id" : 8339433961,
+    "created_at" : "2010-01-28 21:39:13 +0000",
+    "user" : {
+      "name" : "Ed Finkler",
+      "screen_name" : "funkatron",
+      "protected" : false,
+      "id_str" : "65583",
+      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/1066135803749900289\/K7rPwOBU_normal.jpg",
+      "id" : 65583,
+      "verified" : false
+    }
+  },
+  "id" : 8343721765,
+  "created_at" : "2010-01-28 00:00:00 +0000",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "geo" : { },
+  "id_str" : "8304995516",
+  "text" : "Stephen King had a really weird metric - he refused to continue unless x% of people paid, rather than setting a... re: http:\/\/ff.im\/eXw3B",
+  "id" : 8304995516,
+  "created_at" : "2010-01-28 00:00:00 +0000",
   "user" : {
     "name" : "Kevin Marks",
     "screen_name" : "kevinmarks",
@@ -3234,7 +3307,7 @@ Grailbird.data.tweets_2010_01 =
       "id_str" : "3339171",
       "id" : 3339171
     }, {
-      "name" : "Robert Scoble: VR\/AR",
+      "name" : "Robert Scoble",
       "screen_name" : "Scobleizer",
       "indices" : [ 44, 55 ],
       "id_str" : "13348",
@@ -3334,7 +3407,7 @@ Grailbird.data.tweets_2010_01 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "Kaliya-IdentityWoman",
+      "name" : "Kaliya-Identity Woman",
       "screen_name" : "IdentityWoman",
       "indices" : [ 3, 17 ],
       "id_str" : "2355181",
@@ -3364,7 +3437,7 @@ Grailbird.data.tweets_2010_01 =
     "id" : 8340328097,
     "created_at" : "2010-01-28 22:05:00 +0000",
     "user" : {
-      "name" : "Kaliya-IdentityWoman",
+      "name" : "Kaliya-Identity Woman",
       "screen_name" : "IdentityWoman",
       "protected" : false,
       "id_str" : "2355181",
@@ -3408,79 +3481,6 @@ Grailbird.data.tweets_2010_01 =
   "created_at" : "2010-01-28 00:00:00 +0000",
   "in_reply_to_screen_name" : "DivaDanese",
   "in_reply_to_user_id_str" : "6998432",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ {
-      "name" : "Ed Finkler",
-      "screen_name" : "funkatron",
-      "indices" : [ 3, 13 ],
-      "id_str" : "65583",
-      "id" : 65583
-    } ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "geo" : { },
-  "id_str" : "8343721765",
-  "text" : "RT @funkatron: \"Does anyone doubt that Apple would not create a locked down desktop platform if they felt they could get away w it?\" htt ...",
-  "retweeted_status" : {
-    "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-    "entities" : {
-      "user_mentions" : [ ],
-      "media" : [ ],
-      "hashtags" : [ ],
-      "urls" : [ ]
-    },
-    "geo" : { },
-    "id_str" : "8339433961",
-    "text" : "\"Does anyone doubt that Apple would not create a locked down desktop platform if they felt they could get away w it?\" http:\/\/bit.ly\/92KlpT",
-    "id" : 8339433961,
-    "created_at" : "2010-01-28 21:39:13 +0000",
-    "user" : {
-      "name" : "Ed Finkler",
-      "screen_name" : "funkatron",
-      "protected" : false,
-      "id_str" : "65583",
-      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/837305666964500481\/J1wqMIxD_normal.jpg",
-      "id" : 65583,
-      "verified" : false
-    }
-  },
-  "id" : 8343721765,
-  "created_at" : "2010-01-28 00:00:00 +0000",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "geo" : { },
-  "id_str" : "8304995516",
-  "text" : "Stephen King had a really weird metric - he refused to continue unless x% of people paid, rather than setting a... re: http:\/\/ff.im\/eXw3B",
-  "id" : 8304995516,
-  "created_at" : "2010-01-28 00:00:00 +0000",
   "user" : {
     "name" : "Kevin Marks",
     "screen_name" : "kevinmarks",
@@ -3694,7 +3694,7 @@ Grailbird.data.tweets_2010_01 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "Missing @tedr",
+      "name" : "Heather Gold",
       "screen_name" : "heathr",
       "indices" : [ 3, 10 ],
       "id_str" : "678033",
@@ -3733,11 +3733,11 @@ Grailbird.data.tweets_2010_01 =
     "id" : 8273906045,
     "created_at" : "2010-01-27 10:09:58 +0000",
     "user" : {
-      "name" : "Missing @tedr",
+      "name" : "Heather Gold",
       "screen_name" : "heathr",
       "protected" : false,
       "id_str" : "678033",
-      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/554444482507063298\/85l1bTdv_normal.jpeg",
+      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/951017193579278336\/y2Tu-cT9_normal.jpg",
       "id" : 678033,
       "verified" : false
     }
@@ -3834,7 +3834,7 @@ Grailbird.data.tweets_2010_01 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "Robert Scoble: VR\/AR",
+      "name" : "Robert Scoble",
       "screen_name" : "Scobleizer",
       "indices" : [ 80, 91 ],
       "id_str" : "13348",
@@ -4126,7 +4126,7 @@ Grailbird.data.tweets_2010_01 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "Brent Simmons",
+      "name" : "inessential.com",
       "screen_name" : "brentsimmons",
       "indices" : [ 0, 13 ],
       "id_str" : "652293",
@@ -4159,7 +4159,7 @@ Grailbird.data.tweets_2010_01 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "barb dybwad",
+      "name" : "\u2B1B\u2B1B\u2B1B\u2B1B\u2B1B\u2B1B\u2B1B",
       "screen_name" : "doctorparadox",
       "indices" : [ 0, 14 ],
       "id_str" : "1133701",
@@ -4455,7 +4455,7 @@ Grailbird.data.tweets_2010_01 =
       "screen_name" : "tom_watson",
       "protected" : false,
       "id_str" : "14190551",
-      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/884126195968823296\/EMP5rwZt_normal.jpg",
+      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/989856510183444480\/rpa78X3h_normal.jpg",
       "id" : 14190551,
       "verified" : true
     }
@@ -4487,7 +4487,7 @@ Grailbird.data.tweets_2010_01 =
       "id_str" : "286520092",
       "id" : 286520092
     }, {
-      "name" : "Missing @tedr",
+      "name" : "Heather Gold",
       "screen_name" : "heathr",
       "indices" : [ 70, 77 ],
       "id_str" : "678033",
@@ -4519,7 +4519,7 @@ Grailbird.data.tweets_2010_01 =
         "id_str" : "286520092",
         "id" : 286520092
       }, {
-        "name" : "Missing @tedr",
+        "name" : "Heather Gold",
         "screen_name" : "heathr",
         "indices" : [ 60, 67 ],
         "id_str" : "678033",
@@ -4608,6 +4608,34 @@ Grailbird.data.tweets_2010_01 =
   "text" : "my Apple tablet wishlist from last year: http:\/\/bit.ly\/cPWFtD high pixel-density means a 7\" HD screen and 2560x1600 12\" one",
   "id" : 8255969258,
   "created_at" : "2010-01-26 00:00:00 +0000",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ {
+      "name" : "techdirt",
+      "screen_name" : "techdirt",
+      "indices" : [ 2, 11 ],
+      "id_str" : "11382292",
+      "id" : 11382292
+    } ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "geo" : { },
+  "id_str" : "8202405327",
+  "text" : "\u00BB @techdirt: The Future Of Music Business Models (And Those Who Are Already There) http:\/\/dlvr.it\/pVw \u00AB great roundup",
+  "id" : 8202405327,
+  "created_at" : "2010-01-25 00:00:00 +0000",
   "user" : {
     "name" : "Kevin Marks",
     "screen_name" : "kevinmarks",
@@ -4823,7 +4851,7 @@ Grailbird.data.tweets_2010_01 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "A K M Adam",
+      "name" : "Days Getting Longer Again!",
       "screen_name" : "AKMA",
       "indices" : [ 0, 5 ],
       "id_str" : "646663",
@@ -5029,95 +5057,6 @@ Grailbird.data.tweets_2010_01 =
     "verified" : false
   }
 }, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ {
-      "name" : "techdirt",
-      "screen_name" : "techdirt",
-      "indices" : [ 2, 11 ],
-      "id_str" : "11382292",
-      "id" : 11382292
-    } ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "geo" : { },
-  "id_str" : "8202405327",
-  "text" : "\u00BB @techdirt: The Future Of Music Business Models (And Those Who Are Already There) http:\/\/dlvr.it\/pVw \u00AB great roundup",
-  "id" : 8202405327,
-  "created_at" : "2010-01-25 00:00:00 +0000",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ {
-      "name" : "Dare Obasanjo",
-      "screen_name" : "Carnage4Life",
-      "indices" : [ 0, 13 ],
-      "id_str" : "11336782",
-      "id" : 11336782
-    }, {
-      "name" : "schneier",
-      "screen_name" : "schneier",
-      "indices" : [ 24, 33 ],
-      "id_str" : "16574481",
-      "id" : 16574481
-    } ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "in_reply_to_status_id_str" : "8155654240",
-  "geo" : { },
-  "id_str" : "8156453981",
-  "in_reply_to_user_id" : 11336782,
-  "text" : "@Carnage4Life the point @schneier is making is that if you mandate insecurity, others will take advantage of it",
-  "id" : 8156453981,
-  "in_reply_to_status_id" : 8155654240,
-  "created_at" : "2010-01-24 00:00:00 +0000",
-  "in_reply_to_screen_name" : "Carnage4Life",
-  "in_reply_to_user_id_str" : "11336782",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/foursquare.com\" rel=\"nofollow\"\u003EFoursquare\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "geo" : { },
-  "id_str" : "8157647786",
-  "text" : "Skating in the brief dry spell this morning (@ Kirk Park) http:\/\/4sq.com\/8cF8rf",
-  "id" : 8157647786,
-  "created_at" : "2010-01-24 00:00:00 +0000",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
   "source" : "\u003Ca href=\"http:\/\/www.cloudhopper.com\/\" rel=\"nofollow\"\u003ECloudhopper\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ ],
@@ -5305,7 +5244,7 @@ Grailbird.data.tweets_2010_01 =
       "screen_name" : "zephoria",
       "protected" : false,
       "id_str" : "633",
-      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/2613209217\/7in0v6wan5bq1rjbhdoz_normal.jpeg",
+      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/1005181261017567232\/tRU1yGhT_normal.jpg",
       "id" : 633,
       "verified" : true
     }
@@ -5333,6 +5272,67 @@ Grailbird.data.tweets_2010_01 =
   "id_str" : "8155723187",
   "text" : "Our family movie last night was 'Gremlins' http:\/\/bit.ly\/8CHXDx - still brilliant. A christmas classic.",
   "id" : 8155723187,
+  "created_at" : "2010-01-24 00:00:00 +0000",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ {
+      "name" : "Dare Obasanjo",
+      "screen_name" : "Carnage4Life",
+      "indices" : [ 0, 13 ],
+      "id_str" : "11336782",
+      "id" : 11336782
+    }, {
+      "name" : "schneier",
+      "screen_name" : "schneier",
+      "indices" : [ 24, 33 ],
+      "id_str" : "16574481",
+      "id" : 16574481
+    } ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "in_reply_to_status_id_str" : "8155654240",
+  "geo" : { },
+  "id_str" : "8156453981",
+  "in_reply_to_user_id" : 11336782,
+  "text" : "@Carnage4Life the point @schneier is making is that if you mandate insecurity, others will take advantage of it",
+  "id" : 8156453981,
+  "in_reply_to_status_id" : 8155654240,
+  "created_at" : "2010-01-24 00:00:00 +0000",
+  "in_reply_to_screen_name" : "Carnage4Life",
+  "in_reply_to_user_id_str" : "11336782",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/foursquare.com\" rel=\"nofollow\"\u003EFoursquare\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "geo" : { },
+  "id_str" : "8157647786",
+  "text" : "Skating in the brief dry spell this morning (@ Kirk Park) http:\/\/4sq.com\/8cF8rf",
+  "id" : 8157647786,
   "created_at" : "2010-01-24 00:00:00 +0000",
   "user" : {
     "name" : "Kevin Marks",
@@ -5414,7 +5414,7 @@ Grailbird.data.tweets_2010_01 =
       "id_str" : "11848",
       "id" : 11848
     }, {
-      "name" : "Missing @tedr",
+      "name" : "Heather Gold",
       "screen_name" : "heathr",
       "indices" : [ 121, 128 ],
       "id_str" : "678033",
@@ -5460,7 +5460,7 @@ Grailbird.data.tweets_2010_01 =
       "id_str" : "57203",
       "id" : 57203
     }, {
-      "name" : "Missing @tedr",
+      "name" : "Heather Gold",
       "screen_name" : "heathr",
       "indices" : [ 121, 128 ],
       "id_str" : "678033",
@@ -5492,7 +5492,7 @@ Grailbird.data.tweets_2010_01 =
         "id_str" : "57203",
         "id" : 57203
       }, {
-        "name" : "Missing @tedr",
+        "name" : "Heather Gold",
         "screen_name" : "heathr",
         "indices" : [ 111, 118 ],
         "id_str" : "678033",
@@ -5797,7 +5797,7 @@ Grailbird.data.tweets_2010_01 =
       "id_str" : "1454021",
       "id" : 1454021
     }, {
-      "name" : "Robert Scoble: VR\/AR",
+      "name" : "Robert Scoble",
       "screen_name" : "Scobleizer",
       "indices" : [ 56, 67 ],
       "id_str" : "13348",
@@ -5976,16 +5976,25 @@ Grailbird.data.tweets_2010_01 =
 }, {
   "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
   "entities" : {
-    "user_mentions" : [ ],
+    "user_mentions" : [ {
+      "name" : "DAVE MORIN",
+      "screen_name" : "davemorin",
+      "indices" : [ 0, 10 ],
+      "id_str" : "3475",
+      "id" : 3475
+    } ],
     "media" : [ ],
     "hashtags" : [ ],
     "urls" : [ ]
   },
   "geo" : { },
   "id_str" : "8085228146",
+  "in_reply_to_user_id" : 3475,
   "text" : "@davemorin great to hear you're stepping out - looking forward to what you'll invent",
   "id" : 8085228146,
   "created_at" : "2010-01-22 00:00:00 +0000",
+  "in_reply_to_screen_name" : "davemorin",
+  "in_reply_to_user_id_str" : "3475",
   "user" : {
     "name" : "Kevin Marks",
     "screen_name" : "kevinmarks",
@@ -6224,7 +6233,7 @@ Grailbird.data.tweets_2010_01 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "Tom Scott",
+      "name" : "\uD83D\uDC68\uD83C\uDFFB\u200D\uD83D\uDCBB\uD83C\uDFDBTom Scott",
       "screen_name" : "derivadow",
       "indices" : [ 0, 10 ],
       "id_str" : "7160462",
@@ -6302,13 +6311,13 @@ Grailbird.data.tweets_2010_01 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "Missing @tedr",
+      "name" : "Heather Gold",
       "screen_name" : "heathr",
       "indices" : [ 3, 10 ],
       "id_str" : "678033",
       "id" : 678033
     }, {
-      "name" : "NicoleLazzaro \uD83C\uDF0E",
+      "name" : "Nicole Lazzaro #VRX2018",
       "screen_name" : "NicoleLazzaro",
       "indices" : [ 76, 90 ],
       "id_str" : "7315732",
@@ -6337,7 +6346,7 @@ Grailbird.data.tweets_2010_01 =
     "source" : "\u003Ca href=\"http:\/\/www.brizzly.com\" rel=\"nofollow\"\u003EBrizzly\u003C\/a\u003E",
     "entities" : {
       "user_mentions" : [ {
-        "name" : "NicoleLazzaro \uD83C\uDF0E",
+        "name" : "Nicole Lazzaro #VRX2018",
         "screen_name" : "NicoleLazzaro",
         "indices" : [ 64, 78 ],
         "id_str" : "7315732",
@@ -6365,11 +6374,11 @@ Grailbird.data.tweets_2010_01 =
     "id" : 8030324283,
     "created_at" : "2010-01-21 15:16:46 +0000",
     "user" : {
-      "name" : "Missing @tedr",
+      "name" : "Heather Gold",
       "screen_name" : "heathr",
       "protected" : false,
       "id_str" : "678033",
-      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/554444482507063298\/85l1bTdv_normal.jpeg",
+      "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/951017193579278336\/y2Tu-cT9_normal.jpg",
       "id" : 678033,
       "verified" : false
     }
@@ -6656,7 +6665,7 @@ Grailbird.data.tweets_2010_01 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "Hugh Jifftroo",
+      "name" : "@MonkiGras Hustling",
       "screen_name" : "monkchips",
       "indices" : [ 103, 113 ],
       "id_str" : "61233",
@@ -6949,7 +6958,7 @@ Grailbird.data.tweets_2010_01 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "\uD83C\uDF08",
+      "name" : "Tantek \u00C7elik",
       "screen_name" : "t",
       "indices" : [ 44, 46 ],
       "id_str" : "11628",
@@ -7032,7 +7041,7 @@ Grailbird.data.tweets_2010_01 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "Missing @tedr",
+      "name" : "Heather Gold",
       "screen_name" : "heathr",
       "indices" : [ 57, 64 ],
       "id_str" : "678033",
@@ -7044,7 +7053,7 @@ Grailbird.data.tweets_2010_01 =
       "id_str" : "11848",
       "id" : 11848
     }, {
-      "name" : "NicoleLazzaro \uD83C\uDF0E",
+      "name" : "Nicole Lazzaro #VRX2018",
       "screen_name" : "NicoleLazzaro",
       "indices" : [ 81, 95 ],
       "id_str" : "7315732",
@@ -7655,8 +7664,195 @@ Grailbird.data.tweets_2010_01 =
 }, {
   "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
   "entities" : {
+    "user_mentions" : [ ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "geo" : { },
+  "id_str" : "7763624746",
+  "text" : "Come along to http:\/\/tummelvision.tv on twit.tv tonight re: http:\/\/ff.im\/ejzKf",
+  "id" : 7763624746,
+  "created_at" : "2010-01-14 00:00:00 +0000",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/foursquare.com\" rel=\"nofollow\"\u003EFoursquare\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "geo" : { },
+  "id_str" : "7763882525",
+  "text" : "Activity Streams hackathon (@ MySpace w\/ 6 others) http:\/\/4sq.com\/7ly8Vy",
+  "id" : 7763882525,
+  "created_at" : "2010-01-14 00:00:00 +0000",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "geo" : { },
+  "id_str" : "7764075061",
+  "text" : "a thought for geolocation - if the browser doesn't know your loc from HW, when the website asks, put up a map UI to set it",
+  "id" : 7764075061,
+  "created_at" : "2010-01-14 00:00:00 +0000",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
     "user_mentions" : [ {
-      "name" : "Farhad Manjoo \uD83C\uDDFA\uD83C\uDDF8",
+      "name" : "Robert Hazard",
+      "screen_name" : "junkbit",
+      "indices" : [ 0, 8 ],
+      "id_str" : "26508285",
+      "id" : 26508285
+    } ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "in_reply_to_status_id_str" : "7764912899",
+  "geo" : { },
+  "id_str" : "7765224027",
+  "in_reply_to_user_id" : 26508285,
+  "text" : "@junkbit hence the 16:9 claim, not HD 1024x480 is SD",
+  "id" : 7765224027,
+  "in_reply_to_status_id" : 7764912899,
+  "created_at" : "2010-01-14 00:00:00 +0000",
+  "in_reply_to_screen_name" : "junkbit",
+  "in_reply_to_user_id_str" : "26508285",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "geo" : { },
+  "id_str" : "7765283938",
+  "text" : "Location shortener http:\/\/loc.is makes URLs you can truncate for less precision - nice idea",
+  "id" : 7765283938,
+  "created_at" : "2010-01-14 00:00:00 +0000",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ {
+      "name" : "Now @sampullara",
+      "screen_name" : "spullara",
+      "indices" : [ 0, 9 ],
+      "id_str" : "133032773",
+      "id" : 133032773
+    } ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "in_reply_to_status_id_str" : "7764270200",
+  "geo" : { },
+  "id_str" : "7765718977",
+  "in_reply_to_user_id" : 668473,
+  "text" : "@spullara I mean \"user settable location Ui \" as a fallback when auto fails. Address box is fine",
+  "id" : 7765718977,
+  "in_reply_to_status_id" : 7764270200,
+  "created_at" : "2010-01-14 00:00:00 +0000",
+  "in_reply_to_screen_name" : "sampullara",
+  "in_reply_to_user_id_str" : "668473",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ {
+      "name" : "Farhad Manjoo",
+      "screen_name" : "fmanjoo",
+      "indices" : [ 0, 8 ],
+      "id_str" : "2195241",
+      "id" : 2195241
+    } ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "in_reply_to_status_id_str" : "7728138188",
+  "geo" : { },
+  "id_str" : "7728222616",
+  "in_reply_to_user_id" : 2195241,
+  "text" : "@fmanjoo run a disk and cpu exercising program while it's under heat or cold stress - ie sub-freezing temps, or heated in an oven",
+  "id" : 7728222616,
+  "in_reply_to_status_id" : 7728138188,
+  "created_at" : "2010-01-14 00:00:00 +0000",
+  "in_reply_to_screen_name" : "fmanjoo",
+  "in_reply_to_user_id_str" : "2195241",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ {
+      "name" : "Farhad Manjoo",
       "screen_name" : "fmanjoo",
       "indices" : [ 0, 8 ],
       "id_str" : "2195241",
@@ -7711,7 +7907,7 @@ Grailbird.data.tweets_2010_01 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "Farhad Manjoo \uD83C\uDDFA\uD83C\uDDF8",
+      "name" : "Farhad Manjoo",
       "screen_name" : "fmanjoo",
       "indices" : [ 0, 8 ],
       "id_str" : "2195241",
@@ -7916,7 +8112,7 @@ Grailbird.data.tweets_2010_01 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "Laura Fitton",
+      "name" : "Laura pls read White Fragility before u @me Fitton",
       "screen_name" : "Pistachio",
       "indices" : [ 2, 12 ],
       "id_str" : "3533231",
@@ -7950,7 +8146,7 @@ Grailbird.data.tweets_2010_01 =
       "id_str" : "11848",
       "id" : 11848
     }, {
-      "name" : "Missing @tedr",
+      "name" : "Heather Gold",
       "screen_name" : "heathr",
       "indices" : [ 13, 20 ],
       "id_str" : "678033",
@@ -8087,16 +8283,728 @@ Grailbird.data.tweets_2010_01 =
 }, {
   "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
   "entities" : {
-    "user_mentions" : [ ],
+    "user_mentions" : [ {
+      "name" : "Charlene Li",
+      "screen_name" : "charleneli",
+      "indices" : [ 5, 16 ],
+      "id_str" : "839321",
+      "id" : 839321
+    } ],
     "media" : [ ],
     "hashtags" : [ ],
     "urls" : [ ]
   },
   "geo" : { },
-  "id_str" : "7763624746",
-  "text" : "Come along to http:\/\/tummelvision.tv on twit.tv tonight re: http:\/\/ff.im\/ejzKf",
-  "id" : 7763624746,
-  "created_at" : "2010-01-14 00:00:00 +0000",
+  "id_str" : "7695433624",
+  "text" : "says @charleneli: verizon FiOS integrates your twitter and FB into the tv, so you can discuss what you're watching",
+  "id" : 7695433624,
+  "created_at" : "2010-01-13 00:00:00 +0000",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ {
+      "name" : "Charlene Li",
+      "screen_name" : "charleneli",
+      "indices" : [ 5, 16 ],
+      "id_str" : "839321",
+      "id" : 839321
+    }, {
+      "name" : "debs",
+      "screen_name" : "debs",
+      "indices" : [ 21, 26 ],
+      "id_str" : "11848",
+      "id" : 11848
+    }, {
+      "name" : "Foursquare",
+      "screen_name" : "Foursquare",
+      "indices" : [ 37, 48 ],
+      "id_str" : "804341497441255424",
+      "id" : 804341497441255424
+    } ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "geo" : { },
+  "id_str" : "7695476227",
+  "text" : "says @charleneli: as @debs would say @foursquare is a gesture to your friends - to show what you're doing. 4square now has coupon Ads",
+  "id" : 7695476227,
+  "created_at" : "2010-01-13 00:00:00 +0000",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ {
+      "name" : "Charlene Li",
+      "screen_name" : "charleneli",
+      "indices" : [ 5, 16 ],
+      "id_str" : "839321",
+      "id" : 839321
+    } ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "geo" : { },
+  "id_str" : "7695527971",
+  "text" : "says @charleneli: location by itself is not enough - need to add people and time too. Objects+location +time+friends",
+  "id" : 7695527971,
+  "created_at" : "2010-01-13 00:00:00 +0000",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ {
+      "name" : "Charlene Li",
+      "screen_name" : "charleneli",
+      "indices" : [ 5, 16 ],
+      "id_str" : "839321",
+      "id" : 839321
+    } ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "geo" : { },
+  "id_str" : "7695590363",
+  "text" : "says @charleneli: plancast.com signifies future intent - place and future time. Not just events like fb, but a skiing weekend too",
+  "id" : 7695590363,
+  "created_at" : "2010-01-13 00:00:00 +0000",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ {
+      "name" : "Charlene Li",
+      "screen_name" : "charleneli",
+      "indices" : [ 5, 16 ],
+      "id_str" : "839321",
+      "id" : 839321
+    } ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "geo" : { },
+  "id_str" : "7695634366",
+  "text" : "says @charleneli: imagine if the ski resort knew I was coming, and could guide me to an apr\u00E8s ski bar or restaurant",
+  "id" : 7695634366,
+  "created_at" : "2010-01-13 00:00:00 +0000",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ {
+      "name" : "Charlene Li",
+      "screen_name" : "charleneli",
+      "indices" : [ 5, 16 ],
+      "id_str" : "839321",
+      "id" : 839321
+    } ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "geo" : { },
+  "id_str" : "7695669569",
+  "text" : "says @charleneli: some sites have social, some have place, few have time. Google made its money from intention. Plans and decisions.",
+  "id" : 7695669569,
+  "created_at" : "2010-01-13 00:00:00 +0000",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ {
+      "name" : "Charlene Li",
+      "screen_name" : "charleneli",
+      "indices" : [ 46, 57 ],
+      "id_str" : "839321",
+      "id" : 839321
+    } ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "geo" : { },
+  "id_str" : "7695730239",
+  "text" : "Q: \"direct marketing is about intention\" says @charleneli: beyond psychographic and behavioural is socialgraphic marketing",
+  "id" : 7695730239,
+  "created_at" : "2010-01-13 00:00:00 +0000",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ {
+      "name" : "Charlene Li",
+      "screen_name" : "charleneli",
+      "indices" : [ 5, 16 ],
+      "id_str" : "839321",
+      "id" : 839321
+    } ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "geo" : { },
+  "id_str" : "7695765603",
+  "text" : "says @charleneli: engagement pyramid watching &lt; sharing &lt; commenting &lt; producing &lt; curating",
+  "id" : 7695765603,
+  "created_at" : "2010-01-13 00:00:00 +0000",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ {
+      "name" : "Stephen Collins is also @trib@mastodon.social",
+      "screen_name" : "trib",
+      "indices" : [ 0, 5 ],
+      "id_str" : "24113",
+      "id" : 24113
+    }, {
+      "name" : "Charlene Li",
+      "screen_name" : "charleneli",
+      "indices" : [ 6, 17 ],
+      "id_str" : "839321",
+      "id" : 839321
+    } ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "in_reply_to_status_id_str" : "7695649300",
+  "geo" : { },
+  "id_str" : "7695790734",
+  "in_reply_to_user_id" : 24113,
+  "text" : "@trib @charleneli said personal use is ubiquitous; business use is still nascent",
+  "id" : 7695790734,
+  "in_reply_to_status_id" : 7695649300,
+  "created_at" : "2010-01-13 00:00:00 +0000",
+  "in_reply_to_screen_name" : "trib",
+  "in_reply_to_user_id_str" : "24113",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ {
+      "name" : "Charlene Li",
+      "screen_name" : "charleneli",
+      "indices" : [ 5, 16 ],
+      "id_str" : "839321",
+      "id" : 839321
+    } ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "geo" : { },
+  "id_str" : "7695854684",
+  "text" : "says @charleneli: curating is more selective than sharing; collating the best. Since groundswell a culture of sharing has grown",
+  "id" : 7695854684,
+  "created_at" : "2010-01-13 00:00:00 +0000",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ {
+      "name" : "Charlene Li",
+      "screen_name" : "charleneli",
+      "indices" : [ 5, 16 ],
+      "id_str" : "839321",
+      "id" : 839321
+    } ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "geo" : { },
+  "id_str" : "7695887796",
+  "text" : "says @charleneli: people share because they think someone else will benefit from it. Email went to a handful; twitter to a multitude",
+  "id" : 7695887796,
+  "created_at" : "2010-01-13 00:00:00 +0000",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ {
+      "name" : "Charlene Li",
+      "screen_name" : "charleneli",
+      "indices" : [ 5, 16 ],
+      "id_str" : "839321",
+      "id" : 839321
+    } ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "geo" : { },
+  "id_str" : "7695977659",
+  "text" : "says @charleneli: focus on relationships, not technologies. How do you move from transactional to intimate)",
+  "id" : 7695977659,
+  "created_at" : "2010-01-13 00:00:00 +0000",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ {
+      "name" : "Charlene Li",
+      "screen_name" : "charleneli",
+      "indices" : [ 5, 16 ],
+      "id_str" : "839321",
+      "id" : 839321
+    } ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "geo" : { },
+  "id_str" : "7696086474",
+  "text" : "says @charleneli: roi on sns is tricky. Decide if you want to learn, dialog, help or innovate, and measure an appropriate metric",
+  "id" : 7696086474,
+  "created_at" : "2010-01-13 00:00:00 +0000",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ {
+      "name" : "Charlene Li",
+      "screen_name" : "charleneli",
+      "indices" : [ 5, 16 ],
+      "id_str" : "839321",
+      "id" : 839321
+    } ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "geo" : { },
+  "id_str" : "7696155246",
+  "text" : "says @charleneli: if you have social data on referrals, comments, support, ideas you can understand customer lifetime value better",
+  "id" : 7696155246,
+  "created_at" : "2010-01-13 00:00:00 +0000",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ {
+      "name" : "Charlene Li",
+      "screen_name" : "charleneli",
+      "indices" : [ 5, 16 ],
+      "id_str" : "839321",
+      "id" : 839321
+    } ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "geo" : { },
+  "id_str" : "7696219445",
+  "text" : "says @charleneli: social technologies create new workflows both within and across companies and customers",
+  "id" : 7696219445,
+  "created_at" : "2010-01-13 00:00:00 +0000",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ {
+      "name" : "Charlene Li",
+      "screen_name" : "charleneli",
+      "indices" : [ 5, 16 ],
+      "id_str" : "839321",
+      "id" : 839321
+    } ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "geo" : { },
+  "id_str" : "7696294858",
+  "text" : "says @charleneli: respond to customer comments in the place they are asked",
+  "id" : 7696294858,
+  "created_at" : "2010-01-13 00:00:00 +0000",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ {
+      "name" : "Charlene Li",
+      "screen_name" : "charleneli",
+      "indices" : [ 5, 16 ],
+      "id_str" : "839321",
+      "id" : 839321
+    } ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "geo" : { },
+  "id_str" : "7696362673",
+  "text" : "says @charleneli: you think someone fresh out of college knows how to represent a company in a personal space? No",
+  "id" : 7696362673,
+  "created_at" : "2010-01-13 00:00:00 +0000",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ {
+      "name" : "Charlene Li",
+      "screen_name" : "charleneli",
+      "indices" : [ 5, 16 ],
+      "id_str" : "839321",
+      "id" : 839321
+    } ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "geo" : { },
+  "id_str" : "7696394953",
+  "text" : "says @charleneli: think about relationships, as they never stay static. Give up the idea that you are in control.",
+  "id" : 7696394953,
+  "created_at" : "2010-01-13 00:00:00 +0000",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ {
+      "name" : "Charlene Li",
+      "screen_name" : "charleneli",
+      "indices" : [ 5, 16 ],
+      "id_str" : "839321",
+      "id" : 839321
+    } ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "geo" : { },
+  "id_str" : "7696425463",
+  "text" : "says @charleneli: you need a Sandbox covenant - give employees a sense of boundaries",
+  "id" : 7696425463,
+  "created_at" : "2010-01-13 00:00:00 +0000",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ {
+      "name" : "Charlene Li",
+      "screen_name" : "charleneli",
+      "indices" : [ 5, 16 ],
+      "id_str" : "839321",
+      "id" : 839321
+    } ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "geo" : { },
+  "id_str" : "7696578807",
+  "text" : "says @charleneli: summary: social networks are like air; social context makes relevance; be ready to give up control.",
+  "id" : 7696578807,
+  "created_at" : "2010-01-13 00:00:00 +0000",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ {
+      "name" : "Shireen, Harlem's Shuri, In Political Mecca!",
+      "screen_name" : "digitalsista",
+      "indices" : [ 0, 13 ],
+      "id_str" : "14268957",
+      "id" : 14268957
+    }, {
+      "name" : "Charlene Li",
+      "screen_name" : "charleneli",
+      "indices" : [ 14, 25 ],
+      "id_str" : "839321",
+      "id" : 839321
+    } ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "in_reply_to_status_id_str" : "7696708359",
+  "geo" : { },
+  "id_str" : "7696817375",
+  "in_reply_to_user_id" : 14268957,
+  "text" : "@digitalsista @charleneli \"social networks like air\" or \"social cloud\" means they permeate the world. Not completely free, agreed.",
+  "id" : 7696817375,
+  "in_reply_to_status_id" : 7696708359,
+  "created_at" : "2010-01-13 00:00:00 +0000",
+  "in_reply_to_screen_name" : "digitalsista",
+  "in_reply_to_user_id_str" : "14268957",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ {
+      "name" : "Shireen, Harlem's Shuri, In Political Mecca!",
+      "screen_name" : "digitalsista",
+      "indices" : [ 0, 13 ],
+      "id_str" : "14268957",
+      "id" : 14268957
+    }, {
+      "name" : "Charlene Li",
+      "screen_name" : "charleneli",
+      "indices" : [ 14, 25 ],
+      "id_str" : "839321",
+      "id" : 839321
+    } ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "in_reply_to_status_id_str" : "7696767073",
+  "geo" : { },
+  "id_str" : "7696876911",
+  "in_reply_to_user_id" : 14268957,
+  "text" : "@digitalsista @charleneli I think the outgrouping and self-segmentation is a stronger divide than cost. Http:\/\/bit.ly\/socialbigot",
+  "id" : 7696876911,
+  "in_reply_to_status_id" : 7696767073,
+  "created_at" : "2010-01-13 00:00:00 +0000",
+  "in_reply_to_screen_name" : "digitalsista",
+  "in_reply_to_user_id_str" : "14268957",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ {
+      "name" : "Elisa Camahort Page",
+      "screen_name" : "ElisaC",
+      "indices" : [ 3, 10 ],
+      "id_str" : "10336",
+      "id" : 10336
+    } ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "geo" : { },
+  "id_str" : "7697047668",
+  "text" : "RT @ElisaC: Many links to how to help Haiti Earthquake victims: http:\/\/bit.ly\/7tqLwv",
+  "id" : 7697047668,
+  "created_at" : "2010-01-13 00:00:00 +0000",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ {
+      "name" : "Shireen, Harlem's Shuri, In Political Mecca!",
+      "screen_name" : "digitalsista",
+      "indices" : [ 0, 13 ],
+      "id_str" : "14268957",
+      "id" : 14268957
+    }, {
+      "name" : "Charlene Li",
+      "screen_name" : "charleneli",
+      "indices" : [ 14, 25 ],
+      "id_str" : "839321",
+      "id" : 839321
+    }, {
+      "name" : "danah boyd",
+      "screen_name" : "zephoria",
+      "indices" : [ 46, 55 ],
+      "id_str" : "633",
+      "id" : 633
+    } ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "in_reply_to_status_id_str" : "7697025331",
+  "geo" : { },
+  "id_str" : "7697294881",
+  "in_reply_to_user_id" : 14268957,
+  "text" : "@digitalsista @charleneli the recent posts by @zephoria discuss access as well as outgroups http:\/\/bit.ly\/6z9CUT",
+  "id" : 7697294881,
+  "in_reply_to_status_id" : 7697025331,
+  "created_at" : "2010-01-13 00:00:00 +0000",
+  "in_reply_to_screen_name" : "digitalsista",
+  "in_reply_to_user_id_str" : "14268957",
   "user" : {
     "name" : "Kevin Marks",
     "screen_name" : "kevinmarks",
@@ -8115,32 +9023,10 @@ Grailbird.data.tweets_2010_01 =
     "urls" : [ ]
   },
   "geo" : { },
-  "id_str" : "7763882525",
-  "text" : "Activity Streams hackathon (@ MySpace w\/ 6 others) http:\/\/4sq.com\/7ly8Vy",
-  "id" : 7763882525,
-  "created_at" : "2010-01-14 00:00:00 +0000",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "geo" : { },
-  "id_str" : "7764075061",
-  "text" : "a thought for geolocation - if the browser doesn't know your loc from HW, when the website asks, put up a map UI to set it",
-  "id" : 7764075061,
-  "created_at" : "2010-01-14 00:00:00 +0000",
+  "id_str" : "7697666840",
+  "text" : "Looks like demo time (@ SF New Tech w\/ 12 others) http:\/\/4sq.com\/4LUyD6",
+  "id" : 7697666840,
+  "created_at" : "2010-01-13 00:00:00 +0000",
   "user" : {
     "name" : "Kevin Marks",
     "screen_name" : "kevinmarks",
@@ -8154,81 +9040,32 @@ Grailbird.data.tweets_2010_01 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "Robert Hazard",
-      "screen_name" : "junkbit",
-      "indices" : [ 0, 8 ],
-      "id_str" : "26508285",
-      "id" : 26508285
-    } ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "in_reply_to_status_id_str" : "7764912899",
-  "geo" : { },
-  "id_str" : "7765224027",
-  "in_reply_to_user_id" : 26508285,
-  "text" : "@junkbit hence the 16:9 claim, not HD 1024x480 is SD",
-  "id" : 7765224027,
-  "in_reply_to_status_id" : 7764912899,
-  "created_at" : "2010-01-14 00:00:00 +0000",
-  "in_reply_to_screen_name" : "junkbit",
-  "in_reply_to_user_id_str" : "26508285",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "geo" : { },
-  "id_str" : "7765283938",
-  "text" : "Location shortener http:\/\/loc.is makes URLs you can truncate for less precision - nice idea",
-  "id" : 7765283938,
-  "created_at" : "2010-01-14 00:00:00 +0000",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ {
-      "name" : "Now @sampullara",
-      "screen_name" : "spullara",
+      "name" : "chanezon",
+      "screen_name" : "chanezon",
       "indices" : [ 0, 9 ],
-      "id_str" : "133032773",
-      "id" : 133032773
+      "id_str" : "10650562",
+      "id" : 10650562
+    }, {
+      "name" : "Mark Pilgrim",
+      "screen_name" : "diveintomark",
+      "indices" : [ 10, 23 ],
+      "id_str" : "793238882",
+      "id" : 793238882
     } ],
     "media" : [ ],
     "hashtags" : [ ],
     "urls" : [ ]
   },
-  "in_reply_to_status_id_str" : "7764270200",
+  "in_reply_to_status_id_str" : "7715006716",
   "geo" : { },
-  "id_str" : "7765718977",
-  "in_reply_to_user_id" : 668473,
-  "text" : "@spullara I mean \"user settable location Ui \" as a fallback when auto fails. Address box is fine",
-  "id" : 7765718977,
-  "in_reply_to_status_id" : 7764270200,
-  "created_at" : "2010-01-14 00:00:00 +0000",
-  "in_reply_to_screen_name" : "sampullara",
-  "in_reply_to_user_id_str" : "668473",
+  "id_str" : "7715098156",
+  "in_reply_to_user_id" : 10650562,
+  "text" : "@chanezon @diveintomark it is an ex-web, it is nailed to its perch",
+  "id" : 7715098156,
+  "in_reply_to_status_id" : 7715006716,
+  "created_at" : "2010-01-13 00:00:00 +0000",
+  "in_reply_to_screen_name" : "chanezon",
+  "in_reply_to_user_id_str" : "10650562",
   "user" : {
     "name" : "Kevin Marks",
     "screen_name" : "kevinmarks",
@@ -8242,26 +9079,265 @@ Grailbird.data.tweets_2010_01 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "Farhad Manjoo \uD83C\uDDFA\uD83C\uDDF8",
-      "screen_name" : "fmanjoo",
-      "indices" : [ 0, 8 ],
-      "id_str" : "2195241",
-      "id" : 2195241
+      "name" : "Rochelle",
+      "screen_name" : "rmazar",
+      "indices" : [ 0, 7 ],
+      "id_str" : "5943672",
+      "id" : 5943672
+    }, {
+      "name" : "son of an asylum seeker, father of an immigrant",
+      "screen_name" : "doctorow",
+      "indices" : [ 11, 20 ],
+      "id_str" : "2729061",
+      "id" : 2729061
+    }, {
+      "name" : "Quinn \"kind of here\" Norton",
+      "screen_name" : "quinnnorton",
+      "indices" : [ 57, 69 ],
+      "id_str" : "38975663",
+      "id" : 38975663
     } ],
     "media" : [ ],
     "hashtags" : [ ],
     "urls" : [ ]
   },
-  "in_reply_to_status_id_str" : "7728138188",
+  "in_reply_to_status_id_str" : "7707961204",
   "geo" : { },
-  "id_str" : "7728222616",
-  "in_reply_to_user_id" : 2195241,
-  "text" : "@fmanjoo run a disk and cpu exercising program while it's under heat or cold stress - ie sub-freezing temps, or heated in an oven",
-  "id" : 7728222616,
-  "in_reply_to_status_id" : 7728138188,
-  "created_at" : "2010-01-14 00:00:00 +0000",
-  "in_reply_to_screen_name" : "fmanjoo",
-  "in_reply_to_user_id_str" : "2195241",
+  "id_str" : "7716030254",
+  "in_reply_to_user_id" : 5943672,
+  "text" : "@rmazar At @doctorow's NY reading of Makers, both he and @quinnnorton said that losing the flow by editing midstream stops you finishing",
+  "id" : 7716030254,
+  "in_reply_to_status_id" : 7707961204,
+  "created_at" : "2010-01-13 00:00:00 +0000",
+  "in_reply_to_screen_name" : "rmazar",
+  "in_reply_to_user_id_str" : "5943672",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ {
+      "name" : "Dave McClure",
+      "screen_name" : "davemcclure",
+      "indices" : [ 11, 23 ],
+      "id_str" : "1081",
+      "id" : 1081
+    } ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "geo" : { },
+  "id_str" : "7717235999",
+  "text" : "Looks like @davemcclure has an interesting evening tonight: http:\/\/bit.ly\/7MsjuV",
+  "id" : 7717235999,
+  "created_at" : "2010-01-13 00:00:00 +0000",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ {
+      "name" : "Marlooz",
+      "screen_name" : "marlooz",
+      "indices" : [ 0, 8 ],
+      "id_str" : "6614602",
+      "id" : 6614602
+    } ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "in_reply_to_status_id_str" : "7717476271",
+  "geo" : { },
+  "id_str" : "7718035932",
+  "in_reply_to_user_id" : 6614602,
+  "text" : "@marlooz if only you took a photo of yourself every day. oh, wait.",
+  "id" : 7718035932,
+  "in_reply_to_status_id" : 7717476271,
+  "created_at" : "2010-01-13 00:00:00 +0000",
+  "in_reply_to_screen_name" : "marlooz",
+  "in_reply_to_user_id_str" : "6614602",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ {
+      "name" : "Marlooz",
+      "screen_name" : "marlooz",
+      "indices" : [ 0, 8 ],
+      "id_str" : "6614602",
+      "id" : 6614602
+    } ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "in_reply_to_status_id_str" : "7718203553",
+  "geo" : { },
+  "id_str" : "7718439740",
+  "in_reply_to_user_id" : 6614602,
+  "text" : "@marlooz thats the trouble with being the one behind the camera...",
+  "id" : 7718439740,
+  "in_reply_to_status_id" : 7718203553,
+  "created_at" : "2010-01-13 00:00:00 +0000",
+  "in_reply_to_screen_name" : "marlooz",
+  "in_reply_to_user_id_str" : "6614602",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ {
+      "name" : "Rochelle",
+      "screen_name" : "rmazar",
+      "indices" : [ 0, 7 ],
+      "id_str" : "5943672",
+      "id" : 5943672
+    } ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "in_reply_to_status_id_str" : "7719303647",
+  "geo" : { },
+  "id_str" : "7719486172",
+  "in_reply_to_user_id" : 5943672,
+  "text" : "@rmazar email is sent in the clear, so anyone inbetween can see it; people seem to forget this",
+  "id" : 7719486172,
+  "in_reply_to_status_id" : 7719303647,
+  "created_at" : "2010-01-13 00:00:00 +0000",
+  "in_reply_to_screen_name" : "rmazar",
+  "in_reply_to_user_id_str" : "5943672",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ {
+      "name" : "Tracy",
+      "screen_name" : "limedaring",
+      "indices" : [ 0, 11 ],
+      "id_str" : "1081282169002180608",
+      "id" : 1081282169002180608
+    }, {
+      "name" : "ribbitmobile",
+      "screen_name" : "ribbitmobile",
+      "indices" : [ 33, 46 ],
+      "id_str" : "708316480396337153",
+      "id" : 708316480396337153
+    } ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "in_reply_to_status_id_str" : "7720382325",
+  "geo" : { },
+  "id_str" : "7720479991",
+  "in_reply_to_user_id" : 10267352,
+  "text" : "@limedaring sounds like you need @ribbitmobile",
+  "id" : 7720479991,
+  "in_reply_to_status_id" : 7720382325,
+  "created_at" : "2010-01-13 00:00:00 +0000",
+  "in_reply_to_screen_name" : "tracymakes",
+  "in_reply_to_user_id_str" : "10267352",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ {
+      "name" : "Monica Wilkinson",
+      "screen_name" : "ciberch",
+      "indices" : [ 0, 8 ],
+      "id_str" : "16513061",
+      "id" : 16513061
+    } ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "in_reply_to_status_id_str" : "7723698817",
+  "geo" : { },
+  "id_str" : "7723729376",
+  "in_reply_to_user_id" : 16513061,
+  "text" : "@ciberch I'm planning to come to myspace devjam, yes (any chance of being able to do a gillmor gang from there?)",
+  "id" : 7723729376,
+  "in_reply_to_status_id" : 7723698817,
+  "created_at" : "2010-01-13 00:00:00 +0000",
+  "in_reply_to_screen_name" : "ciberch",
+  "in_reply_to_user_id_str" : "16513061",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ {
+      "name" : "Rebecca MacKinnon",
+      "screen_name" : "rmack",
+      "indices" : [ 2, 8 ],
+      "id_str" : "810129",
+      "id" : 810129
+    } ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "geo" : { },
+  "id_str" : "7726107083",
+  "text" : "\u00BB @rmack: My piece in the Guardian CIF: Will Google stand up to France and Italy, too? http:\/\/bit.ly\/8tEYXg \u00AB UK digital economy bill?",
+  "id" : 7726107083,
+  "created_at" : "2010-01-13 00:00:00 +0000",
   "user" : {
     "name" : "Kevin Marks",
     "screen_name" : "kevinmarks",
@@ -8315,7 +9391,7 @@ Grailbird.data.tweets_2010_01 =
       "id_str" : "56833",
       "id" : 56833
     }, {
-      "name" : "Christine Lu",
+      "name" : "Christine",
       "screen_name" : "christinelu",
       "indices" : [ 74, 86 ],
       "id_str" : "7782442",
@@ -8669,1255 +9745,6 @@ Grailbird.data.tweets_2010_01 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "Charlene Li",
-      "screen_name" : "charleneli",
-      "indices" : [ 5, 16 ],
-      "id_str" : "839321",
-      "id" : 839321
-    } ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "geo" : { },
-  "id_str" : "7695433624",
-  "text" : "says @charleneli: verizon FiOS integrates your twitter and FB into the tv, so you can discuss what you're watching",
-  "id" : 7695433624,
-  "created_at" : "2010-01-13 00:00:00 +0000",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ {
-      "name" : "Charlene Li",
-      "screen_name" : "charleneli",
-      "indices" : [ 5, 16 ],
-      "id_str" : "839321",
-      "id" : 839321
-    }, {
-      "name" : "debs",
-      "screen_name" : "debs",
-      "indices" : [ 21, 26 ],
-      "id_str" : "11848",
-      "id" : 11848
-    }, {
-      "name" : "Foursquare",
-      "screen_name" : "Foursquare",
-      "indices" : [ 37, 48 ],
-      "id_str" : "804341497441255424",
-      "id" : 804341497441255424
-    } ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "geo" : { },
-  "id_str" : "7695476227",
-  "text" : "says @charleneli: as @debs would say @foursquare is a gesture to your friends - to show what you're doing. 4square now has coupon Ads",
-  "id" : 7695476227,
-  "created_at" : "2010-01-13 00:00:00 +0000",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ {
-      "name" : "Charlene Li",
-      "screen_name" : "charleneli",
-      "indices" : [ 5, 16 ],
-      "id_str" : "839321",
-      "id" : 839321
-    } ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "geo" : { },
-  "id_str" : "7695527971",
-  "text" : "says @charleneli: location by itself is not enough - need to add people and time too. Objects+location +time+friends",
-  "id" : 7695527971,
-  "created_at" : "2010-01-13 00:00:00 +0000",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ {
-      "name" : "Charlene Li",
-      "screen_name" : "charleneli",
-      "indices" : [ 5, 16 ],
-      "id_str" : "839321",
-      "id" : 839321
-    } ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "geo" : { },
-  "id_str" : "7695590363",
-  "text" : "says @charleneli: plancast.com signifies future intent - place and future time. Not just events like fb, but a skiing weekend too",
-  "id" : 7695590363,
-  "created_at" : "2010-01-13 00:00:00 +0000",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ {
-      "name" : "Charlene Li",
-      "screen_name" : "charleneli",
-      "indices" : [ 5, 16 ],
-      "id_str" : "839321",
-      "id" : 839321
-    } ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "geo" : { },
-  "id_str" : "7695634366",
-  "text" : "says @charleneli: imagine if the ski resort knew I was coming, and could guide me to an apr\u00E8s ski bar or restaurant",
-  "id" : 7695634366,
-  "created_at" : "2010-01-13 00:00:00 +0000",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ {
-      "name" : "Charlene Li",
-      "screen_name" : "charleneli",
-      "indices" : [ 5, 16 ],
-      "id_str" : "839321",
-      "id" : 839321
-    } ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "geo" : { },
-  "id_str" : "7695669569",
-  "text" : "says @charleneli: some sites have social, some have place, few have time. Google made its money from intention. Plans and decisions.",
-  "id" : 7695669569,
-  "created_at" : "2010-01-13 00:00:00 +0000",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ {
-      "name" : "Charlene Li",
-      "screen_name" : "charleneli",
-      "indices" : [ 46, 57 ],
-      "id_str" : "839321",
-      "id" : 839321
-    } ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "geo" : { },
-  "id_str" : "7695730239",
-  "text" : "Q: \"direct marketing is about intention\" says @charleneli: beyond psychographic and behavioural is socialgraphic marketing",
-  "id" : 7695730239,
-  "created_at" : "2010-01-13 00:00:00 +0000",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ {
-      "name" : "Charlene Li",
-      "screen_name" : "charleneli",
-      "indices" : [ 5, 16 ],
-      "id_str" : "839321",
-      "id" : 839321
-    } ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "geo" : { },
-  "id_str" : "7695765603",
-  "text" : "says @charleneli: engagement pyramid watching &lt; sharing &lt; commenting &lt; producing &lt; curating",
-  "id" : 7695765603,
-  "created_at" : "2010-01-13 00:00:00 +0000",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ {
-      "name" : "Stephen Collins",
-      "screen_name" : "trib",
-      "indices" : [ 0, 5 ],
-      "id_str" : "24113",
-      "id" : 24113
-    }, {
-      "name" : "Charlene Li",
-      "screen_name" : "charleneli",
-      "indices" : [ 6, 17 ],
-      "id_str" : "839321",
-      "id" : 839321
-    } ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "in_reply_to_status_id_str" : "7695649300",
-  "geo" : { },
-  "id_str" : "7695790734",
-  "in_reply_to_user_id" : 24113,
-  "text" : "@trib @charleneli said personal use is ubiquitous; business use is still nascent",
-  "id" : 7695790734,
-  "in_reply_to_status_id" : 7695649300,
-  "created_at" : "2010-01-13 00:00:00 +0000",
-  "in_reply_to_screen_name" : "trib",
-  "in_reply_to_user_id_str" : "24113",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ {
-      "name" : "Charlene Li",
-      "screen_name" : "charleneli",
-      "indices" : [ 5, 16 ],
-      "id_str" : "839321",
-      "id" : 839321
-    } ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "geo" : { },
-  "id_str" : "7695854684",
-  "text" : "says @charleneli: curating is more selective than sharing; collating the best. Since groundswell a culture of sharing has grown",
-  "id" : 7695854684,
-  "created_at" : "2010-01-13 00:00:00 +0000",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ {
-      "name" : "Charlene Li",
-      "screen_name" : "charleneli",
-      "indices" : [ 5, 16 ],
-      "id_str" : "839321",
-      "id" : 839321
-    } ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "geo" : { },
-  "id_str" : "7695887796",
-  "text" : "says @charleneli: people share because they think someone else will benefit from it. Email went to a handful; twitter to a multitude",
-  "id" : 7695887796,
-  "created_at" : "2010-01-13 00:00:00 +0000",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ {
-      "name" : "Charlene Li",
-      "screen_name" : "charleneli",
-      "indices" : [ 5, 16 ],
-      "id_str" : "839321",
-      "id" : 839321
-    } ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "geo" : { },
-  "id_str" : "7695977659",
-  "text" : "says @charleneli: focus on relationships, not technologies. How do you move from transactional to intimate)",
-  "id" : 7695977659,
-  "created_at" : "2010-01-13 00:00:00 +0000",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ {
-      "name" : "Charlene Li",
-      "screen_name" : "charleneli",
-      "indices" : [ 5, 16 ],
-      "id_str" : "839321",
-      "id" : 839321
-    } ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "geo" : { },
-  "id_str" : "7696086474",
-  "text" : "says @charleneli: roi on sns is tricky. Decide if you want to learn, dialog, help or innovate, and measure an appropriate metric",
-  "id" : 7696086474,
-  "created_at" : "2010-01-13 00:00:00 +0000",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ {
-      "name" : "Charlene Li",
-      "screen_name" : "charleneli",
-      "indices" : [ 5, 16 ],
-      "id_str" : "839321",
-      "id" : 839321
-    } ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "geo" : { },
-  "id_str" : "7696155246",
-  "text" : "says @charleneli: if you have social data on referrals, comments, support, ideas you can understand customer lifetime value better",
-  "id" : 7696155246,
-  "created_at" : "2010-01-13 00:00:00 +0000",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ {
-      "name" : "Charlene Li",
-      "screen_name" : "charleneli",
-      "indices" : [ 5, 16 ],
-      "id_str" : "839321",
-      "id" : 839321
-    } ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "geo" : { },
-  "id_str" : "7696219445",
-  "text" : "says @charleneli: social technologies create new workflows both within and across companies and customers",
-  "id" : 7696219445,
-  "created_at" : "2010-01-13 00:00:00 +0000",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ {
-      "name" : "Charlene Li",
-      "screen_name" : "charleneli",
-      "indices" : [ 5, 16 ],
-      "id_str" : "839321",
-      "id" : 839321
-    } ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "geo" : { },
-  "id_str" : "7696294858",
-  "text" : "says @charleneli: respond to customer comments in the place they are asked",
-  "id" : 7696294858,
-  "created_at" : "2010-01-13 00:00:00 +0000",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ {
-      "name" : "Charlene Li",
-      "screen_name" : "charleneli",
-      "indices" : [ 5, 16 ],
-      "id_str" : "839321",
-      "id" : 839321
-    } ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "geo" : { },
-  "id_str" : "7696362673",
-  "text" : "says @charleneli: you think someone fresh out of college knows how to represent a company in a personal space? No",
-  "id" : 7696362673,
-  "created_at" : "2010-01-13 00:00:00 +0000",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ {
-      "name" : "Charlene Li",
-      "screen_name" : "charleneli",
-      "indices" : [ 5, 16 ],
-      "id_str" : "839321",
-      "id" : 839321
-    } ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "geo" : { },
-  "id_str" : "7696394953",
-  "text" : "says @charleneli: think about relationships, as they never stay static. Give up the idea that you are in control.",
-  "id" : 7696394953,
-  "created_at" : "2010-01-13 00:00:00 +0000",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ {
-      "name" : "Charlene Li",
-      "screen_name" : "charleneli",
-      "indices" : [ 5, 16 ],
-      "id_str" : "839321",
-      "id" : 839321
-    } ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "geo" : { },
-  "id_str" : "7696425463",
-  "text" : "says @charleneli: you need a Sandbox covenant - give employees a sense of boundaries",
-  "id" : 7696425463,
-  "created_at" : "2010-01-13 00:00:00 +0000",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ {
-      "name" : "Charlene Li",
-      "screen_name" : "charleneli",
-      "indices" : [ 5, 16 ],
-      "id_str" : "839321",
-      "id" : 839321
-    } ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "geo" : { },
-  "id_str" : "7696578807",
-  "text" : "says @charleneli: summary: social networks are like air; social context makes relevance; be ready to give up control.",
-  "id" : 7696578807,
-  "created_at" : "2010-01-13 00:00:00 +0000",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ {
-      "name" : "Shireen Mitchell",
-      "screen_name" : "digitalsista",
-      "indices" : [ 0, 13 ],
-      "id_str" : "14268957",
-      "id" : 14268957
-    }, {
-      "name" : "Charlene Li",
-      "screen_name" : "charleneli",
-      "indices" : [ 14, 25 ],
-      "id_str" : "839321",
-      "id" : 839321
-    } ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "in_reply_to_status_id_str" : "7696708359",
-  "geo" : { },
-  "id_str" : "7696817375",
-  "in_reply_to_user_id" : 14268957,
-  "text" : "@digitalsista @charleneli \"social networks like air\" or \"social cloud\" means they permeate the world. Not completely free, agreed.",
-  "id" : 7696817375,
-  "in_reply_to_status_id" : 7696708359,
-  "created_at" : "2010-01-13 00:00:00 +0000",
-  "in_reply_to_screen_name" : "digitalsista",
-  "in_reply_to_user_id_str" : "14268957",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ {
-      "name" : "Shireen Mitchell",
-      "screen_name" : "digitalsista",
-      "indices" : [ 0, 13 ],
-      "id_str" : "14268957",
-      "id" : 14268957
-    }, {
-      "name" : "Charlene Li",
-      "screen_name" : "charleneli",
-      "indices" : [ 14, 25 ],
-      "id_str" : "839321",
-      "id" : 839321
-    } ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "in_reply_to_status_id_str" : "7696767073",
-  "geo" : { },
-  "id_str" : "7696876911",
-  "in_reply_to_user_id" : 14268957,
-  "text" : "@digitalsista @charleneli I think the outgrouping and self-segmentation is a stronger divide than cost. Http:\/\/bit.ly\/socialbigot",
-  "id" : 7696876911,
-  "in_reply_to_status_id" : 7696767073,
-  "created_at" : "2010-01-13 00:00:00 +0000",
-  "in_reply_to_screen_name" : "digitalsista",
-  "in_reply_to_user_id_str" : "14268957",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ {
-      "name" : "Elisa Camahort Page",
-      "screen_name" : "ElisaC",
-      "indices" : [ 3, 10 ],
-      "id_str" : "10336",
-      "id" : 10336
-    } ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "geo" : { },
-  "id_str" : "7697047668",
-  "text" : "RT @ElisaC: Many links to how to help Haiti Earthquake victims: http:\/\/bit.ly\/7tqLwv",
-  "id" : 7697047668,
-  "created_at" : "2010-01-13 00:00:00 +0000",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ {
-      "name" : "Shireen Mitchell",
-      "screen_name" : "digitalsista",
-      "indices" : [ 0, 13 ],
-      "id_str" : "14268957",
-      "id" : 14268957
-    }, {
-      "name" : "Charlene Li",
-      "screen_name" : "charleneli",
-      "indices" : [ 14, 25 ],
-      "id_str" : "839321",
-      "id" : 839321
-    }, {
-      "name" : "danah boyd",
-      "screen_name" : "zephoria",
-      "indices" : [ 46, 55 ],
-      "id_str" : "633",
-      "id" : 633
-    } ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "in_reply_to_status_id_str" : "7697025331",
-  "geo" : { },
-  "id_str" : "7697294881",
-  "in_reply_to_user_id" : 14268957,
-  "text" : "@digitalsista @charleneli the recent posts by @zephoria discuss access as well as outgroups http:\/\/bit.ly\/6z9CUT",
-  "id" : 7697294881,
-  "in_reply_to_status_id" : 7697025331,
-  "created_at" : "2010-01-13 00:00:00 +0000",
-  "in_reply_to_screen_name" : "digitalsista",
-  "in_reply_to_user_id_str" : "14268957",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/foursquare.com\" rel=\"nofollow\"\u003EFoursquare\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "geo" : { },
-  "id_str" : "7697666840",
-  "text" : "Looks like demo time (@ SF New Tech w\/ 12 others) http:\/\/4sq.com\/4LUyD6",
-  "id" : 7697666840,
-  "created_at" : "2010-01-13 00:00:00 +0000",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ {
-      "name" : "chanezon",
-      "screen_name" : "chanezon",
-      "indices" : [ 0, 9 ],
-      "id_str" : "10650562",
-      "id" : 10650562
-    }, {
-      "name" : "Mark Pilgrim",
-      "screen_name" : "diveintomark",
-      "indices" : [ 10, 23 ],
-      "id_str" : "793238882",
-      "id" : 793238882
-    } ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "in_reply_to_status_id_str" : "7715006716",
-  "geo" : { },
-  "id_str" : "7715098156",
-  "in_reply_to_user_id" : 10650562,
-  "text" : "@chanezon @diveintomark it is an ex-web, it is nailed to its perch",
-  "id" : 7715098156,
-  "in_reply_to_status_id" : 7715006716,
-  "created_at" : "2010-01-13 00:00:00 +0000",
-  "in_reply_to_screen_name" : "chanezon",
-  "in_reply_to_user_id_str" : "10650562",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ {
-      "name" : "Rochelle",
-      "screen_name" : "rmazar",
-      "indices" : [ 0, 7 ],
-      "id_str" : "5943672",
-      "id" : 5943672
-    }, {
-      "name" : "Cory Doctorow",
-      "screen_name" : "doctorow",
-      "indices" : [ 11, 20 ],
-      "id_str" : "2729061",
-      "id" : 2729061
-    }, {
-      "name" : "Quinn's internet \uD83D\uDC7B",
-      "screen_name" : "quinnnorton",
-      "indices" : [ 57, 69 ],
-      "id_str" : "38975663",
-      "id" : 38975663
-    } ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "in_reply_to_status_id_str" : "7707961204",
-  "geo" : { },
-  "id_str" : "7716030254",
-  "in_reply_to_user_id" : 5943672,
-  "text" : "@rmazar At @doctorow's NY reading of Makers, both he and @quinnnorton said that losing the flow by editing midstream stops you finishing",
-  "id" : 7716030254,
-  "in_reply_to_status_id" : 7707961204,
-  "created_at" : "2010-01-13 00:00:00 +0000",
-  "in_reply_to_screen_name" : "rmazar",
-  "in_reply_to_user_id_str" : "5943672",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ {
-      "name" : "Dave McClure",
-      "screen_name" : "davemcclure",
-      "indices" : [ 11, 23 ],
-      "id_str" : "1081",
-      "id" : 1081
-    } ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "geo" : { },
-  "id_str" : "7717235999",
-  "text" : "Looks like @davemcclure has an interesting evening tonight: http:\/\/bit.ly\/7MsjuV",
-  "id" : 7717235999,
-  "created_at" : "2010-01-13 00:00:00 +0000",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ {
-      "name" : "Marlooz",
-      "screen_name" : "marlooz",
-      "indices" : [ 0, 8 ],
-      "id_str" : "6614602",
-      "id" : 6614602
-    } ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "in_reply_to_status_id_str" : "7717476271",
-  "geo" : { },
-  "id_str" : "7718035932",
-  "in_reply_to_user_id" : 6614602,
-  "text" : "@marlooz if only you took a photo of yourself every day. oh, wait.",
-  "id" : 7718035932,
-  "in_reply_to_status_id" : 7717476271,
-  "created_at" : "2010-01-13 00:00:00 +0000",
-  "in_reply_to_screen_name" : "marlooz",
-  "in_reply_to_user_id_str" : "6614602",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ {
-      "name" : "Marlooz",
-      "screen_name" : "marlooz",
-      "indices" : [ 0, 8 ],
-      "id_str" : "6614602",
-      "id" : 6614602
-    } ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "in_reply_to_status_id_str" : "7718203553",
-  "geo" : { },
-  "id_str" : "7718439740",
-  "in_reply_to_user_id" : 6614602,
-  "text" : "@marlooz thats the trouble with being the one behind the camera...",
-  "id" : 7718439740,
-  "in_reply_to_status_id" : 7718203553,
-  "created_at" : "2010-01-13 00:00:00 +0000",
-  "in_reply_to_screen_name" : "marlooz",
-  "in_reply_to_user_id_str" : "6614602",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ {
-      "name" : "Rochelle",
-      "screen_name" : "rmazar",
-      "indices" : [ 0, 7 ],
-      "id_str" : "5943672",
-      "id" : 5943672
-    } ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "in_reply_to_status_id_str" : "7719303647",
-  "geo" : { },
-  "id_str" : "7719486172",
-  "in_reply_to_user_id" : 5943672,
-  "text" : "@rmazar email is sent in the clear, so anyone inbetween can see it; people seem to forget this",
-  "id" : 7719486172,
-  "in_reply_to_status_id" : 7719303647,
-  "created_at" : "2010-01-13 00:00:00 +0000",
-  "in_reply_to_screen_name" : "rmazar",
-  "in_reply_to_user_id_str" : "5943672",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ {
-      "name" : "Tracy Osborn",
-      "screen_name" : "limedaring",
-      "indices" : [ 0, 11 ],
-      "id_str" : "10267352",
-      "id" : 10267352
-    }, {
-      "name" : "ribbitmobile",
-      "screen_name" : "ribbitmobile",
-      "indices" : [ 33, 46 ],
-      "id_str" : "708316480396337153",
-      "id" : 708316480396337153
-    } ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "in_reply_to_status_id_str" : "7720382325",
-  "geo" : { },
-  "id_str" : "7720479991",
-  "in_reply_to_user_id" : 10267352,
-  "text" : "@limedaring sounds like you need @ribbitmobile",
-  "id" : 7720479991,
-  "in_reply_to_status_id" : 7720382325,
-  "created_at" : "2010-01-13 00:00:00 +0000",
-  "in_reply_to_screen_name" : "limedaring",
-  "in_reply_to_user_id_str" : "10267352",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ {
-      "name" : "Monica Wilkinson",
-      "screen_name" : "ciberch",
-      "indices" : [ 0, 8 ],
-      "id_str" : "16513061",
-      "id" : 16513061
-    } ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "in_reply_to_status_id_str" : "7723698817",
-  "geo" : { },
-  "id_str" : "7723729376",
-  "in_reply_to_user_id" : 16513061,
-  "text" : "@ciberch I'm planning to come to myspace devjam, yes (any chance of being able to do a gillmor gang from there?)",
-  "id" : 7723729376,
-  "in_reply_to_status_id" : 7723698817,
-  "created_at" : "2010-01-13 00:00:00 +0000",
-  "in_reply_to_screen_name" : "ciberch",
-  "in_reply_to_user_id_str" : "16513061",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ {
-      "name" : "Rebecca MacKinnon",
-      "screen_name" : "rmack",
-      "indices" : [ 2, 8 ],
-      "id_str" : "810129",
-      "id" : 810129
-    } ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "geo" : { },
-  "id_str" : "7726107083",
-  "text" : "\u00BB @rmack: My piece in the Guardian CIF: Will Google stand up to France and Italy, too? http:\/\/bit.ly\/8tEYXg \u00AB UK digital economy bill?",
-  "id" : 7726107083,
-  "created_at" : "2010-01-13 00:00:00 +0000",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ {
-      "name" : "Google",
-      "screen_name" : "Google",
-      "indices" : [ 34, 41 ],
-      "id_str" : "20536157",
-      "id" : 20536157
-    } ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "geo" : { },
-  "id_str" : "7688216120",
-  "text" : "Impressed that David Drummond and @google took this stance on China http:\/\/bit.ly\/cngoogle",
-  "id" : 7688216120,
-  "created_at" : "2010-01-12 00:00:00 +0000",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "in_reply_to_status_id_str" : "7688311994",
-  "geo" : { },
-  "id_str" : "7688378023",
-  "in_reply_to_user_id" : 20622555,
-  "text" : "@marketella sorry about that - should I get a new picture? I did a talk about not changing it...",
-  "id" : 7688378023,
-  "in_reply_to_status_id" : 7688311994,
-  "created_at" : "2010-01-12 00:00:00 +0000",
-  "in_reply_to_screen_name" : "k_mcilroy",
-  "in_reply_to_user_id_str" : "20622555",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ {
-      "name" : "TheBloggess",
-      "screen_name" : "TheBloggess",
-      "indices" : [ 0, 12 ],
-      "id_str" : "14345566",
-      "id" : 14345566
-    } ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "in_reply_to_status_id_str" : "7648449516",
-  "geo" : { },
-  "id_str" : "7648680483",
-  "in_reply_to_user_id" : 14345566,
-  "text" : "@TheBloggess thats because he didn't have a cat on his turban",
-  "id" : 7648680483,
-  "in_reply_to_status_id" : 7648449516,
-  "created_at" : "2010-01-12 00:00:00 +0000",
-  "in_reply_to_screen_name" : "TheBloggess",
-  "in_reply_to_user_id_str" : "14345566",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ {
-      "name" : "Dare Obasanjo",
-      "screen_name" : "Carnage4Life",
-      "indices" : [ 0, 13 ],
-      "id_str" : "11336782",
-      "id" : 11336782
-    } ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "in_reply_to_status_id_str" : "7648032269",
-  "geo" : { },
-  "id_str" : "7648774811",
-  "in_reply_to_user_id" : 11336782,
-  "text" : "@Carnage4Life is that \"Openness as a Google plot\" or  anti-competitive as it's pro co-operative?",
-  "id" : 7648774811,
-  "in_reply_to_status_id" : 7648032269,
-  "created_at" : "2010-01-12 00:00:00 +0000",
-  "in_reply_to_screen_name" : "Carnage4Life",
-  "in_reply_to_user_id_str" : "11336782",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ {
-      "name" : "William Gibson",
-      "screen_name" : "GreatDismal",
-      "indices" : [ 2, 14 ],
-      "id_str" : "28049003",
-      "id" : 28049003
-    } ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "geo" : { },
-  "id_str" : "7648835100",
-  "text" : "\u00BB @GreatDismal: First Twitter-related homicide? http:\/\/bit.ly\/63tCV8 \u00AB First Twitter cup of tea problem http:\/\/bit.ly\/cupoftea",
-  "id" : 7648835100,
-  "created_at" : "2010-01-12 00:00:00 +0000",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ {
-      "name" : "Dare Obasanjo",
-      "screen_name" : "Carnage4Life",
-      "indices" : [ 0, 13 ],
-      "id_str" : "11336782",
-      "id" : 11336782
-    } ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "in_reply_to_status_id_str" : "7648939666",
-  "geo" : { },
-  "id_str" : "7649132510",
-  "in_reply_to_user_id" : 11336782,
-  "text" : "@Carnage4Life companies tend to solve problems with what they're used to. for GOOG, an open spec; for MSFT a Windows extension;",
-  "id" : 7649132510,
-  "in_reply_to_status_id" : 7648939666,
-  "created_at" : "2010-01-12 00:00:00 +0000",
-  "in_reply_to_screen_name" : "Carnage4Life",
-  "in_reply_to_user_id_str" : "11336782",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ {
       "name" : "Danny Sullivan",
       "screen_name" : "dannysullivan",
       "indices" : [ 0, 14 ],
@@ -10040,7 +9867,7 @@ Grailbird.data.tweets_2010_01 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "Laura Fitton",
+      "name" : "Laura pls read White Fragility before u @me Fitton",
       "screen_name" : "Pistachio",
       "indices" : [ 0, 10 ],
       "id_str" : "3533231",
@@ -10112,7 +9939,7 @@ Grailbird.data.tweets_2010_01 =
       "id_str" : "15023866",
       "id" : 15023866
     }, {
-      "name" : "Laura Fitton",
+      "name" : "Laura pls read White Fragility before u @me Fitton",
       "screen_name" : "Pistachio",
       "indices" : [ 11, 21 ],
       "id_str" : "3533231",
@@ -10151,7 +9978,7 @@ Grailbird.data.tweets_2010_01 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "((((Peter Sagal))))",
+      "name" : "Peter Sagal",
       "screen_name" : "petersagal",
       "indices" : [ 0, 11 ],
       "id_str" : "14985228",
@@ -10302,7 +10129,7 @@ Grailbird.data.tweets_2010_01 =
       "id_str" : "607",
       "id" : 607
     }, {
-      "name" : "Robert Scoble: VR\/AR",
+      "name" : "Robert Scoble",
       "screen_name" : "Scobleizer",
       "indices" : [ 64, 75 ],
       "id_str" : "13348",
@@ -10476,7 +10303,7 @@ Grailbird.data.tweets_2010_01 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "Cameo\uD83D\uDD1CFilmQuestFest",
+      "name" : "Cameo Wood",
       "screen_name" : "cameo",
       "indices" : [ 0, 6 ],
       "id_str" : "659243",
@@ -10507,7 +10334,7 @@ Grailbird.data.tweets_2010_01 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "techstars",
+      "name" : "Techstars @ CES",
       "screen_name" : "techstars",
       "indices" : [ 2, 12 ],
       "id_str" : "14277276",
@@ -10684,11 +10511,11 @@ Grailbird.data.tweets_2010_01 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "Anita Borg Institute",
+      "name" : "Nikolai Green",
       "screen_name" : "anitaborg_org",
       "indices" : [ 103, 117 ],
-      "id_str" : "14075836",
-      "id" : 14075836
+      "id_str" : "909170702032543744",
+      "id" : 909170702032543744
     } ],
     "media" : [ ],
     "hashtags" : [ {
@@ -10705,7 +10532,7 @@ Grailbird.data.tweets_2010_01 =
   "id" : 7678553114,
   "in_reply_to_status_id" : 7678091380,
   "created_at" : "2010-01-12 00:00:00 +0000",
-  "in_reply_to_screen_name" : "anitaborg_org",
+  "in_reply_to_screen_name" : "AnitaB_org",
   "in_reply_to_user_id_str" : "14075836",
   "user" : {
     "name" : "Kevin Marks",
@@ -10742,12 +10569,6 @@ Grailbird.data.tweets_2010_01 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "Matt Jones",
-      "screen_name" : "moleitau",
-      "indices" : [ 2, 11 ],
-      "id_str" : "821",
-      "id" : 821
-    }, {
       "name" : "Dennis Crowley",
       "screen_name" : "dens",
       "indices" : [ 46, 51 ],
@@ -10788,7 +10609,7 @@ Grailbird.data.tweets_2010_01 =
       "id_str" : "418",
       "id" : 418
     }, {
-      "name" : "Missing @tedr",
+      "name" : "Heather Gold",
       "screen_name" : "heathr",
       "indices" : [ 29, 36 ],
       "id_str" : "678033",
@@ -10947,7 +10768,7 @@ Grailbird.data.tweets_2010_01 =
       "id_str" : "5391882",
       "id" : 5391882
     }, {
-      "name" : "TheBloggess",
+      "name" : "Jenny Lawson",
       "screen_name" : "TheBloggess",
       "indices" : [ 70, 82 ],
       "id_str" : "14345566",
@@ -11026,7 +10847,7 @@ Grailbird.data.tweets_2010_01 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "Missing @tedr",
+      "name" : "Heather Gold",
       "screen_name" : "heathr",
       "indices" : [ 3, 10 ],
       "id_str" : "678033",
@@ -11088,26 +10909,21 @@ Grailbird.data.tweets_2010_01 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "Tom Coates",
-      "screen_name" : "tomcoates",
-      "indices" : [ 0, 10 ],
-      "id_str" : "12514",
-      "id" : 12514
+      "name" : "Google",
+      "screen_name" : "Google",
+      "indices" : [ 34, 41 ],
+      "id_str" : "20536157",
+      "id" : 20536157
     } ],
     "media" : [ ],
     "hashtags" : [ ],
     "urls" : [ ]
   },
-  "in_reply_to_status_id_str" : "7638825715",
   "geo" : { },
-  "id_str" : "7639126353",
-  "in_reply_to_user_id" : 12514,
-  "text" : "@tomcoates try searching for 'mitosis'",
-  "id" : 7639126353,
-  "in_reply_to_status_id" : 7638825715,
-  "created_at" : "2010-01-11 00:00:00 +0000",
-  "in_reply_to_screen_name" : "tomcoates",
-  "in_reply_to_user_id_str" : "12514",
+  "id_str" : "7688216120",
+  "text" : "Impressed that David Drummond and @google took this stance on China http:\/\/bit.ly\/cngoogle",
+  "id" : 7688216120,
+  "created_at" : "2010-01-12 00:00:00 +0000",
   "user" : {
     "name" : "Kevin Marks",
     "screen_name" : "kevinmarks",
@@ -11125,11 +10941,16 @@ Grailbird.data.tweets_2010_01 =
     "hashtags" : [ ],
     "urls" : [ ]
   },
+  "in_reply_to_status_id_str" : "7688311994",
   "geo" : { },
-  "id_str" : "7640637266",
-  "text" : "Wow, NYT 'Bay Area' map manages to omit San Jose completely...  http:\/\/bit.ly\/6pYJHk - how parochial of them",
-  "id" : 7640637266,
-  "created_at" : "2010-01-11 00:00:00 +0000",
+  "id_str" : "7688378023",
+  "in_reply_to_user_id" : 20622555,
+  "text" : "@marketella sorry about that - should I get a new picture? I did a talk about not changing it...",
+  "id" : 7688378023,
+  "in_reply_to_status_id" : 7688311994,
+  "created_at" : "2010-01-12 00:00:00 +0000",
+  "in_reply_to_screen_name" : "k_mcilroy",
+  "in_reply_to_user_id_str" : "20622555",
   "user" : {
     "name" : "Kevin Marks",
     "screen_name" : "kevinmarks",
@@ -11143,181 +10964,9 @@ Grailbird.data.tweets_2010_01 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "Ross Mayfield",
-      "screen_name" : "Ross",
-      "indices" : [ 0, 5 ],
-      "id_str" : "885",
-      "id" : 885
-    } ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "in_reply_to_status_id_str" : "7640723753",
-  "geo" : { },
-  "id_str" : "7640767938",
-  "in_reply_to_user_id" : 885,
-  "text" : "@Ross ah, if I'd seen zoom controls I'd have guessed that...",
-  "id" : 7640767938,
-  "in_reply_to_status_id" : 7640723753,
-  "created_at" : "2010-01-11 00:00:00 +0000",
-  "in_reply_to_screen_name" : "Ross",
-  "in_reply_to_user_id_str" : "885",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ {
-      "name" : "Laura Fitton",
-      "screen_name" : "Pistachio",
-      "indices" : [ 2, 12 ],
-      "id_str" : "3533231",
-      "id" : 3533231
-    }, {
-      "name" : "Innovation Nights",
-      "screen_name" : "MassInno",
-      "indices" : [ 89, 98 ],
-      "id_str" : "23877960",
-      "id" : 23877960
-    } ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "geo" : { },
-  "id_str" : "7641079693",
-  "text" : "\u00BB @Pistachio: ooops! apparently we're supposed to campaign for votes to demo oneforty at @massinno. http:\/\/14t.me\/4L3ZW8 how about some love",
-  "id" : 7641079693,
-  "created_at" : "2010-01-11 00:00:00 +0000",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "geo" : { },
-  "id_str" : "7641137835",
-  "text" : "Sorry, NYT, your visualization does include San Jose, if I scroll: http:\/\/bit.ly\/6pYJHk - how about making it zoomable...",
-  "id" : 7641137835,
-  "created_at" : "2010-01-11 00:00:00 +0000",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ {
-      "name" : "ManoMarks",
-      "screen_name" : "ManoMarks",
-      "indices" : [ 0, 10 ],
-      "id_str" : "17394561",
-      "id" : 17394561
-    } ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "in_reply_to_status_id_str" : "7641605081",
-  "geo" : { },
-  "id_str" : "7641678429",
-  "in_reply_to_user_id" : 17394561,
-  "text" : "@ManoMarks I realized that eventually, but no UX cues there (hand cursor missing, no zoom buttons) nice visualization though",
-  "id" : 7641678429,
-  "in_reply_to_status_id" : 7641605081,
-  "created_at" : "2010-01-11 00:00:00 +0000",
-  "in_reply_to_screen_name" : "ManoMarks",
-  "in_reply_to_user_id_str" : "17394561",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ {
-      "name" : "Matt Cutts",
-      "screen_name" : "mattcutts",
-      "indices" : [ 8, 18 ],
-      "id_str" : "3080761",
-      "id" : 3080761
-    } ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "geo" : { },
-  "id_str" : "7641708810",
-  "text" : "You and @mattcutts both gave up Twitter? re: http:\/\/ff.im\/e6J3z",
-  "id" : 7641708810,
-  "created_at" : "2010-01-11 00:00:00 +0000",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "geo" : { },
-  "id_str" : "7642898998",
-  "text" : "so who's going to do the reverse mashup, where you share your netflix activity stream and it tells you where to live?",
-  "id" : 7642898998,
-  "created_at" : "2010-01-11 00:00:00 +0000",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ {
-      "name" : "TheBloggess",
+      "name" : "Jenny Lawson",
       "screen_name" : "TheBloggess",
-      "indices" : [ 2, 14 ],
+      "indices" : [ 0, 12 ],
       "id_str" : "14345566",
       "id" : 14345566
     } ],
@@ -11325,11 +10974,16 @@ Grailbird.data.tweets_2010_01 =
     "hashtags" : [ ],
     "urls" : [ ]
   },
+  "in_reply_to_status_id_str" : "7648449516",
   "geo" : { },
-  "id_str" : "7645761298",
-  "text" : "\u00BB @TheBloggess: http:\/\/thebloggess.com\/?p=5352 I honestly can't believe I'm having to do this. \u00AB best disclaimer ever",
-  "id" : 7645761298,
-  "created_at" : "2010-01-11 00:00:00 +0000",
+  "id_str" : "7648680483",
+  "in_reply_to_user_id" : 14345566,
+  "text" : "@TheBloggess thats because he didn't have a cat on his turban",
+  "id" : 7648680483,
+  "in_reply_to_status_id" : 7648449516,
+  "created_at" : "2010-01-12 00:00:00 +0000",
+  "in_reply_to_screen_name" : "TheBloggess",
+  "in_reply_to_user_id_str" : "14345566",
   "user" : {
     "name" : "Kevin Marks",
     "screen_name" : "kevinmarks",
@@ -11343,21 +10997,54 @@ Grailbird.data.tweets_2010_01 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "SydneyPadua",
-      "screen_name" : "sydneypadua",
-      "indices" : [ 3, 15 ],
-      "id_str" : "32487867",
-      "id" : 32487867
+      "name" : "Dare Obasanjo",
+      "screen_name" : "Carnage4Life",
+      "indices" : [ 0, 13 ],
+      "id_str" : "11336782",
+      "id" : 11336782
+    } ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "in_reply_to_status_id_str" : "7648032269",
+  "geo" : { },
+  "id_str" : "7648774811",
+  "in_reply_to_user_id" : 11336782,
+  "text" : "@Carnage4Life is that \"Openness as a Google plot\" or  anti-competitive as it's pro co-operative?",
+  "id" : 7648774811,
+  "in_reply_to_status_id" : 7648032269,
+  "created_at" : "2010-01-12 00:00:00 +0000",
+  "in_reply_to_screen_name" : "Carnage4Life",
+  "in_reply_to_user_id_str" : "11336782",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ {
+      "name" : "William Gibson",
+      "screen_name" : "GreatDismal",
+      "indices" : [ 2, 14 ],
+      "id_str" : "28049003",
+      "id" : 28049003
     } ],
     "media" : [ ],
     "hashtags" : [ ],
     "urls" : [ ]
   },
   "geo" : { },
-  "id_str" : "7647433861",
-  "text" : "RT @sydneypadua: Just under the Lovelace and Babbage vs The Organist! Part one! http:\/\/bit.ly\/7X3cBd goodnight!",
-  "id" : 7647433861,
-  "created_at" : "2010-01-11 00:00:00 +0000",
+  "id_str" : "7648835100",
+  "text" : "\u00BB @GreatDismal: First Twitter-related homicide? http:\/\/bit.ly\/63tCV8 \u00AB First Twitter cup of tea problem http:\/\/bit.ly\/cupoftea",
+  "id" : 7648835100,
+  "created_at" : "2010-01-12 00:00:00 +0000",
   "user" : {
     "name" : "Kevin Marks",
     "screen_name" : "kevinmarks",
@@ -11371,24 +11058,26 @@ Grailbird.data.tweets_2010_01 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "NadjaB",
-      "screen_name" : "NadjaB",
-      "indices" : [ 2, 9 ],
-      "id_str" : "14216951",
-      "id" : 14216951
+      "name" : "Dare Obasanjo",
+      "screen_name" : "Carnage4Life",
+      "indices" : [ 0, 13 ],
+      "id_str" : "11336782",
+      "id" : 11336782
     } ],
     "media" : [ ],
-    "hashtags" : [ {
-      "text" : "crunchies",
-      "indices" : [ 95, 105 ]
-    } ],
+    "hashtags" : [ ],
     "urls" : [ ]
   },
+  "in_reply_to_status_id_str" : "7648939666",
   "geo" : { },
-  "id_str" : "7647465186",
-  "text" : "\u00BB @NadjaB: Oh how I love the Richter Scales - A Song of Silicon Valley - http:\/\/nyti.ms\/5cIx7x #crunchies \u00AB very funny",
-  "id" : 7647465186,
-  "created_at" : "2010-01-11 00:00:00 +0000",
+  "id_str" : "7649132510",
+  "in_reply_to_user_id" : 11336782,
+  "text" : "@Carnage4Life companies tend to solve problems with what they're used to. for GOOG, an open spec; for MSFT a Windows extension;",
+  "id" : 7649132510,
+  "in_reply_to_status_id" : 7648939666,
+  "created_at" : "2010-01-12 00:00:00 +0000",
+  "in_reply_to_screen_name" : "Carnage4Life",
+  "in_reply_to_user_id_str" : "11336782",
   "user" : {
     "name" : "Kevin Marks",
     "screen_name" : "kevinmarks",
@@ -11430,7 +11119,7 @@ Grailbird.data.tweets_2010_01 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "Cameo\uD83D\uDD1CFilmQuestFest",
+      "name" : "Cameo Wood",
       "screen_name" : "cameo",
       "indices" : [ 33, 39 ],
       "id_str" : "659243",
@@ -11458,7 +11147,7 @@ Grailbird.data.tweets_2010_01 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "Mark and Marie-Laure",
+      "name" : "weloveit",
       "screen_name" : "weloveit",
       "indices" : [ 0, 9 ],
       "id_str" : "15871863",
@@ -11686,6 +11375,320 @@ Grailbird.data.tweets_2010_01 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
+      "name" : "Tom Coates",
+      "screen_name" : "tomcoates",
+      "indices" : [ 0, 10 ],
+      "id_str" : "12514",
+      "id" : 12514
+    } ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "in_reply_to_status_id_str" : "7638825715",
+  "geo" : { },
+  "id_str" : "7639126353",
+  "in_reply_to_user_id" : 12514,
+  "text" : "@tomcoates try searching for 'mitosis'",
+  "id" : 7639126353,
+  "in_reply_to_status_id" : 7638825715,
+  "created_at" : "2010-01-11 00:00:00 +0000",
+  "in_reply_to_screen_name" : "tomcoates",
+  "in_reply_to_user_id_str" : "12514",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "geo" : { },
+  "id_str" : "7640637266",
+  "text" : "Wow, NYT 'Bay Area' map manages to omit San Jose completely...  http:\/\/bit.ly\/6pYJHk - how parochial of them",
+  "id" : 7640637266,
+  "created_at" : "2010-01-11 00:00:00 +0000",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ {
+      "name" : "Ross Mayfield",
+      "screen_name" : "Ross",
+      "indices" : [ 0, 5 ],
+      "id_str" : "885",
+      "id" : 885
+    } ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "in_reply_to_status_id_str" : "7640723753",
+  "geo" : { },
+  "id_str" : "7640767938",
+  "in_reply_to_user_id" : 885,
+  "text" : "@Ross ah, if I'd seen zoom controls I'd have guessed that...",
+  "id" : 7640767938,
+  "in_reply_to_status_id" : 7640723753,
+  "created_at" : "2010-01-11 00:00:00 +0000",
+  "in_reply_to_screen_name" : "Ross",
+  "in_reply_to_user_id_str" : "885",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ {
+      "name" : "Laura pls read White Fragility before u @me Fitton",
+      "screen_name" : "Pistachio",
+      "indices" : [ 2, 12 ],
+      "id_str" : "3533231",
+      "id" : 3533231
+    }, {
+      "name" : "Innovation Nights",
+      "screen_name" : "MassInno",
+      "indices" : [ 89, 98 ],
+      "id_str" : "23877960",
+      "id" : 23877960
+    } ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "geo" : { },
+  "id_str" : "7641079693",
+  "text" : "\u00BB @Pistachio: ooops! apparently we're supposed to campaign for votes to demo oneforty at @massinno. http:\/\/14t.me\/4L3ZW8 how about some love",
+  "id" : 7641079693,
+  "created_at" : "2010-01-11 00:00:00 +0000",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "geo" : { },
+  "id_str" : "7641137835",
+  "text" : "Sorry, NYT, your visualization does include San Jose, if I scroll: http:\/\/bit.ly\/6pYJHk - how about making it zoomable...",
+  "id" : 7641137835,
+  "created_at" : "2010-01-11 00:00:00 +0000",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ {
+      "name" : "ManoMarks",
+      "screen_name" : "ManoMarks",
+      "indices" : [ 0, 10 ],
+      "id_str" : "17394561",
+      "id" : 17394561
+    } ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "in_reply_to_status_id_str" : "7641605081",
+  "geo" : { },
+  "id_str" : "7641678429",
+  "in_reply_to_user_id" : 17394561,
+  "text" : "@ManoMarks I realized that eventually, but no UX cues there (hand cursor missing, no zoom buttons) nice visualization though",
+  "id" : 7641678429,
+  "in_reply_to_status_id" : 7641605081,
+  "created_at" : "2010-01-11 00:00:00 +0000",
+  "in_reply_to_screen_name" : "ManoMarks",
+  "in_reply_to_user_id_str" : "17394561",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ {
+      "name" : "Matt Cutts",
+      "screen_name" : "mattcutts",
+      "indices" : [ 8, 18 ],
+      "id_str" : "3080761",
+      "id" : 3080761
+    } ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "geo" : { },
+  "id_str" : "7641708810",
+  "text" : "You and @mattcutts both gave up Twitter? re: http:\/\/ff.im\/e6J3z",
+  "id" : 7641708810,
+  "created_at" : "2010-01-11 00:00:00 +0000",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "geo" : { },
+  "id_str" : "7642898998",
+  "text" : "so who's going to do the reverse mashup, where you share your netflix activity stream and it tells you where to live?",
+  "id" : 7642898998,
+  "created_at" : "2010-01-11 00:00:00 +0000",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ {
+      "name" : "Jenny Lawson",
+      "screen_name" : "TheBloggess",
+      "indices" : [ 2, 14 ],
+      "id_str" : "14345566",
+      "id" : 14345566
+    } ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "geo" : { },
+  "id_str" : "7645761298",
+  "text" : "\u00BB @TheBloggess: http:\/\/thebloggess.com\/?p=5352 I honestly can't believe I'm having to do this. \u00AB best disclaimer ever",
+  "id" : 7645761298,
+  "created_at" : "2010-01-11 00:00:00 +0000",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ {
+      "name" : "SydneyPadua",
+      "screen_name" : "sydneypadua",
+      "indices" : [ 3, 15 ],
+      "id_str" : "32487867",
+      "id" : 32487867
+    } ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "geo" : { },
+  "id_str" : "7647433861",
+  "text" : "RT @sydneypadua: Just under the Lovelace and Babbage vs The Organist! Part one! http:\/\/bit.ly\/7X3cBd goodnight!",
+  "id" : 7647433861,
+  "created_at" : "2010-01-11 00:00:00 +0000",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ {
+      "name" : "NadjaB",
+      "screen_name" : "NadjaB",
+      "indices" : [ 2, 9 ],
+      "id_str" : "14216951",
+      "id" : 14216951
+    } ],
+    "media" : [ ],
+    "hashtags" : [ {
+      "text" : "crunchies",
+      "indices" : [ 95, 105 ]
+    } ],
+    "urls" : [ ]
+  },
+  "geo" : { },
+  "id_str" : "7647465186",
+  "text" : "\u00BB @NadjaB: Oh how I love the Richter Scales - A Song of Silicon Valley - http:\/\/nyti.ms\/5cIx7x #crunchies \u00AB very funny",
+  "id" : 7647465186,
+  "created_at" : "2010-01-11 00:00:00 +0000",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ {
       "name" : "Jeff Clavier",
       "screen_name" : "jeff",
       "indices" : [ 0, 5 ],
@@ -11780,7 +11783,7 @@ Grailbird.data.tweets_2010_01 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "Missing @tedr",
+      "name" : "Heather Gold",
       "screen_name" : "heathr",
       "indices" : [ 0, 7 ],
       "id_str" : "678033",
@@ -11813,7 +11816,7 @@ Grailbird.data.tweets_2010_01 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "Dave Winer",
+      "name" : "scripting.com",
       "screen_name" : "davewiner",
       "indices" : [ 0, 10 ],
       "id_str" : "3839",
@@ -11918,7 +11921,7 @@ Grailbird.data.tweets_2010_01 =
       "id_str" : "17150441",
       "id" : 17150441
     }, {
-      "name" : "Dave Winer",
+      "name" : "scripting.com",
       "screen_name" : "davewiner",
       "indices" : [ 8, 18 ],
       "id_str" : "3839",
@@ -12465,6 +12468,34 @@ Grailbird.data.tweets_2010_01 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
+      "name" : "Paul Kedrosky",
+      "screen_name" : "pkedrosky",
+      "indices" : [ 2, 12 ],
+      "id_str" : "1717291",
+      "id" : 1717291
+    } ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "geo" : { },
+  "id_str" : "7525013520",
+  "text" : "\u00BB @pkedrosky: I need someone to do a short coding project involving twitter api + python\/perl. A day's work. email me. pkedrosky at gmail",
+  "id" : 7525013520,
+  "created_at" : "2010-01-08 00:00:00 +0000",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ {
       "name" : "Jolie O'Dell",
       "screen_name" : "jolieodell",
       "indices" : [ 0, 11 ],
@@ -12625,21 +12656,654 @@ Grailbird.data.tweets_2010_01 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "Paul Kedrosky",
-      "screen_name" : "pkedrosky",
-      "indices" : [ 2, 12 ],
-      "id_str" : "1717291",
-      "id" : 1717291
+      "name" : "Heather Taylor",
+      "screen_name" : "heatherAtaylor",
+      "indices" : [ 0, 15 ],
+      "id_str" : "17082556",
+      "id" : 17082556
+    } ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "in_reply_to_status_id_str" : "7451868224",
+  "geo" : { },
+  "id_str" : "7459394685",
+  "in_reply_to_user_id" : 17082556,
+  "text" : "@heatherataylor are you free to talk between now and 6pm? I'm in San Jose and could come to you.",
+  "id" : 7459394685,
+  "in_reply_to_status_id" : 7451868224,
+  "created_at" : "2010-01-07 00:00:00 +0000",
+  "in_reply_to_screen_name" : "heatherAtaylor",
+  "in_reply_to_user_id_str" : "17082556",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "geo" : { },
+  "id_str" : "7471727034",
+  "text" : "Well done Bindu! re: http:\/\/ff.im\/dTLuL",
+  "id" : 7471727034,
+  "created_at" : "2010-01-07 00:00:00 +0000",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ {
+      "name" : "Heather Taylor",
+      "screen_name" : "heatherAtaylor",
+      "indices" : [ 0, 15 ],
+      "id_str" : "17082556",
+      "id" : 17082556
+    } ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "in_reply_to_status_id_str" : "7461621328",
+  "geo" : { },
+  "id_str" : "7472672182",
+  "in_reply_to_user_id" : 17082556,
+  "text" : "@heatherataylor I'm in Mountain View tomorrow; could meet later afternoon in SJ - are you at Whitman or 1st St tomorrow pm?",
+  "id" : 7472672182,
+  "in_reply_to_status_id" : 7461621328,
+  "created_at" : "2010-01-07 00:00:00 +0000",
+  "in_reply_to_screen_name" : "heatherAtaylor",
+  "in_reply_to_user_id_str" : "17082556",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ {
+      "name" : "Adriaan Tijsseling",
+      "screen_name" : "_ado",
+      "indices" : [ 0, 5 ],
+      "id_str" : "628903",
+      "id" : 628903
+    } ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "in_reply_to_status_id_str" : "7472702240",
+  "geo" : { },
+  "id_str" : "7472754795",
+  "in_reply_to_user_id" : 628903,
+  "text" : "@_ado thats where TDD is soothing - write tests, refactor, test still pass, happy coder",
+  "id" : 7472754795,
+  "in_reply_to_status_id" : 7472702240,
+  "created_at" : "2010-01-07 00:00:00 +0000",
+  "in_reply_to_screen_name" : "_ado",
+  "in_reply_to_user_id_str" : "628903",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ {
+      "name" : "Zoe Keating",
+      "screen_name" : "zoecello",
+      "indices" : [ 49, 58 ],
+      "id_str" : "15473413",
+      "id" : 15473413
+    }, {
+      "name" : "Radiolab",
+      "screen_name" : "Radiolab",
+      "indices" : [ 97, 106 ],
+      "id_str" : "28583197",
+      "id" : 28583197
     } ],
     "media" : [ ],
     "hashtags" : [ ],
     "urls" : [ ]
   },
   "geo" : { },
-  "id_str" : "7525013520",
-  "text" : "\u00BB @pkedrosky: I need someone to do a short coding project involving twitter api + python\/perl. A day's work. email me. pkedrosky at gmail",
-  "id" : 7525013520,
-  "created_at" : "2010-01-08 00:00:00 +0000",
+  "id_str" : "7472834332",
+  "text" : "Buying 'In C remixed' from iTunes, I notice that @zoecello's Zinc maxes out the popularity meter @radiolab explains: http:\/\/bit.ly\/6Gcm0y",
+  "id" : 7472834332,
+  "created_at" : "2010-01-07 00:00:00 +0000",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ {
+      "name" : "Ewan Spence",
+      "screen_name" : "Ewan",
+      "indices" : [ 1, 6 ],
+      "id_str" : "65233",
+      "id" : 65233
+    }, {
+      "name" : "Doc Searls",
+      "screen_name" : "dsearls",
+      "indices" : [ 44, 52 ],
+      "id_str" : "3339171",
+      "id" : 3339171
+    } ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "in_reply_to_status_id_str" : "7473535162",
+  "geo" : { },
+  "id_str" : "7473597782",
+  "in_reply_to_user_id" : 65233,
+  "text" : ".@Ewan nexus \"I'm feeling lucky'sounds like @dsearls iPhone Shuffle from 3 years ago: http:\/\/blogs.zdnet.com\/BTL\/?p=4271",
+  "id" : 7473597782,
+  "in_reply_to_status_id" : 7473535162,
+  "created_at" : "2010-01-07 00:00:00 +0000",
+  "in_reply_to_screen_name" : "Ewan",
+  "in_reply_to_user_id_str" : "65233",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ {
+      "name" : "John Gruber",
+      "screen_name" : "gruber",
+      "indices" : [ 0, 7 ],
+      "id_str" : "33423",
+      "id" : 33423
+    }, {
+      "name" : "Craig Hockenberry",
+      "screen_name" : "chockenberry",
+      "indices" : [ 8, 21 ],
+      "id_str" : "36183",
+      "id" : 36183
+    }, {
+      "name" : "Steve Gillmor",
+      "screen_name" : "stevegillmor",
+      "indices" : [ 88, 101 ],
+      "id_str" : "1454021",
+      "id" : 1454021
+    } ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "in_reply_to_status_id_str" : "7482786350",
+  "geo" : { },
+  "id_str" : "7482879395",
+  "in_reply_to_user_id" : 33423,
+  "text" : "@gruber @chockenberry didn't MSFT demonstrate transcoding to h264 fir iPhone at update? @stevegillmor keeps saying so",
+  "id" : 7482879395,
+  "in_reply_to_status_id" : 7482786350,
+  "created_at" : "2010-01-07 00:00:00 +0000",
+  "in_reply_to_screen_name" : "gruber",
+  "in_reply_to_user_id_str" : "33423",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ {
+      "name" : "RB",
+      "screen_name" : "ribbit",
+      "indices" : [ 3, 10 ],
+      "id_str" : "191508527",
+      "id" : 191508527
+    }, {
+      "name" : "James Williams",
+      "screen_name" : "ecspike",
+      "indices" : [ 18, 26 ],
+      "id_str" : "2102341",
+      "id" : 2102341
+    } ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "geo" : { },
+  "id_str" : "7487027655",
+  "text" : "RT @Ribbit: Catch @ecspike at BarCamp San Diego on January 16th and 17th. http:\/\/su.pr\/28aQK7",
+  "id" : 7487027655,
+  "created_at" : "2010-01-07 00:00:00 +0000",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ {
+      "name" : "Google",
+      "screen_name" : "Google",
+      "indices" : [ 19, 26 ],
+      "id_str" : "20536157",
+      "id" : 20536157
+    }, {
+      "name" : "\uD835\uDE72\uD835\uDE91\uD835\uDE9B\uD835\uDE92\uD835\uDE9C \uD835\uDE7C\uD835\uDE8E\uD835\uDE9C\uD835\uDE9C\uD835\uDE92\uD835\uDE97\uD835\uDE8A",
+      "screen_name" : "chrismessina",
+      "indices" : [ 37, 50 ],
+      "id_str" : "1186",
+      "id" : 1186
+    } ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "geo" : { },
+  "id_str" : "7487979144",
+  "text" : "Congratulations to @google on hiring @chrismessina as an Open Web Advocate http:\/\/j.mp\/fj_birthday",
+  "id" : 7487979144,
+  "created_at" : "2010-01-07 00:00:00 +0000",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ {
+      "name" : "Dan Martell",
+      "screen_name" : "danmartell",
+      "indices" : [ 0, 11 ],
+      "id_str" : "10638782",
+      "id" : 10638782
+    }, {
+      "name" : "Google",
+      "screen_name" : "Google",
+      "indices" : [ 101, 108 ],
+      "id_str" : "20536157",
+      "id" : 20536157
+    } ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "in_reply_to_status_id_str" : "7488049587",
+  "geo" : { },
+  "id_str" : "7488502392",
+  "in_reply_to_user_id" : 10638782,
+  "text" : "@danmartell similar - I was a Developer Advocate, with  focus on OpenSocial; lots of good people  at @google working on Open Web",
+  "id" : 7488502392,
+  "in_reply_to_status_id" : 7488049587,
+  "created_at" : "2010-01-07 00:00:00 +0000",
+  "in_reply_to_screen_name" : "danmartell",
+  "in_reply_to_user_id_str" : "10638782",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ {
+      "name" : "Heather Taylor",
+      "screen_name" : "heatherAtaylor",
+      "indices" : [ 0, 15 ],
+      "id_str" : "17082556",
+      "id" : 17082556
+    } ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "in_reply_to_status_id_str" : "7461621328",
+  "geo" : { },
+  "id_str" : "7488663698",
+  "in_reply_to_user_id" : 17082556,
+  "text" : "@heatherataylor whereabouts in SJ are you this afternoon?",
+  "id" : 7488663698,
+  "in_reply_to_status_id" : 7461621328,
+  "created_at" : "2010-01-07 00:00:00 +0000",
+  "in_reply_to_screen_name" : "heatherAtaylor",
+  "in_reply_to_user_id_str" : "17082556",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ {
+      "name" : "Anil Dash \uD83E\uDD6D",
+      "screen_name" : "anildash",
+      "indices" : [ 3, 12 ],
+      "id_str" : "36823",
+      "id" : 36823
+    }, {
+      "name" : "Michael Arrington",
+      "screen_name" : "arrington",
+      "indices" : [ 70, 80 ],
+      "id_str" : "37570179",
+      "id" : 37570179
+    } ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "geo" : { },
+  "id_str" : "7489078735",
+  "text" : "as @anildash's Suggested User List post http:\/\/bit.ly\/6rUWwf backs up @arrington's http:\/\/bit.ly\/61u3DA we need unSULlied counts?",
+  "id" : 7489078735,
+  "created_at" : "2010-01-07 00:00:00 +0000",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ {
+      "name" : "mary hodder",
+      "screen_name" : "MaryHodder",
+      "indices" : [ 0, 11 ],
+      "id_str" : "649",
+      "id" : 649
+    } ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "in_reply_to_status_id_str" : "7489242752",
+  "geo" : { },
+  "id_str" : "7489346211",
+  "in_reply_to_user_id" : 649,
+  "text" : "@MaryHodder mostly I couldn't resist the pun. The difference between phatic + parasocial followers means the number was always meaningless",
+  "id" : 7489346211,
+  "in_reply_to_status_id" : 7489242752,
+  "created_at" : "2010-01-07 00:00:00 +0000",
+  "in_reply_to_screen_name" : "MaryHodder",
+  "in_reply_to_user_id_str" : "649",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ {
+      "name" : "mary hodder",
+      "screen_name" : "MaryHodder",
+      "indices" : [ 0, 11 ],
+      "id_str" : "649",
+      "id" : 649
+    } ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "in_reply_to_status_id_str" : "7489391995",
+  "geo" : { },
+  "id_str" : "7489666564",
+  "in_reply_to_user_id" : 649,
+  "text" : "@MaryHodder very true - sadly, people (especially media people) like simple numbers to point to - we had that at technorati too",
+  "id" : 7489666564,
+  "in_reply_to_status_id" : 7489391995,
+  "created_at" : "2010-01-07 00:00:00 +0000",
+  "in_reply_to_screen_name" : "MaryHodder",
+  "in_reply_to_user_id_str" : "649",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "geo" : { },
+  "id_str" : "7489807880",
+  "text" : "I read 'Ender in Exile' last night http:\/\/bit.ly\/4BBFJU - is twitter our ansible?",
+  "id" : 7489807880,
+  "created_at" : "2010-01-07 00:00:00 +0000",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ {
+      "name" : "mary hodder",
+      "screen_name" : "MaryHodder",
+      "indices" : [ 0, 11 ],
+      "id_str" : "649",
+      "id" : 649
+    } ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "in_reply_to_status_id_str" : "7489735095",
+  "geo" : { },
+  "id_str" : "7489974813",
+  "in_reply_to_user_id" : 649,
+  "text" : "@MaryHodder I agree, but it is very hard to resist media people's simplistic views - I wrote about this a while back  http:\/\/bit.ly\/8WdJJd",
+  "id" : 7489974813,
+  "in_reply_to_status_id" : 7489735095,
+  "created_at" : "2010-01-07 00:00:00 +0000",
+  "in_reply_to_screen_name" : "MaryHodder",
+  "in_reply_to_user_id_str" : "649",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ {
+      "name" : "Heather Taylor",
+      "screen_name" : "heatherAtaylor",
+      "indices" : [ 0, 15 ],
+      "id_str" : "17082556",
+      "id" : 17082556
+    } ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "in_reply_to_status_id_str" : "7489797788",
+  "geo" : { },
+  "id_str" : "7490012809",
+  "in_reply_to_user_id" : 17082556,
+  "text" : "@heatherataylor I have a car, can come see you there - let me know which building",
+  "id" : 7490012809,
+  "in_reply_to_status_id" : 7489797788,
+  "created_at" : "2010-01-07 00:00:00 +0000",
+  "in_reply_to_screen_name" : "heatherAtaylor",
+  "in_reply_to_user_id_str" : "17082556",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ {
+      "name" : "Making Light",
+      "screen_name" : "makinglight",
+      "indices" : [ 126, 138 ],
+      "id_str" : "99534480",
+      "id" : 99534480
+    } ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "geo" : { },
+  "id_str" : "7490608710",
+  "text" : "Arctic Britain -  http:\/\/bit.ly\/79yv6p UK is north of Toronto +  the Gulf Stream went to Greenland:  http:\/\/bit.ly\/8bHkfZ via @makinglight",
+  "id" : 7490608710,
+  "created_at" : "2010-01-07 00:00:00 +0000",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ {
+      "name" : "Igor Schwarzmann",
+      "screen_name" : "zeigor",
+      "indices" : [ 0, 7 ],
+      "id_str" : "5717752",
+      "id" : 5717752
+    } ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "in_reply_to_status_id_str" : "7490531041",
+  "geo" : { },
+  "id_str" : "7490649092",
+  "in_reply_to_user_id" : 5717752,
+  "text" : "@zeigor it fills in the gaps between Enders Game and Speaker for the Dead, and ties up some loose ends from the Shadow sequence too",
+  "id" : 7490649092,
+  "in_reply_to_status_id" : 7490531041,
+  "created_at" : "2010-01-07 00:00:00 +0000",
+  "in_reply_to_screen_name" : "zeigor",
+  "in_reply_to_user_id_str" : "5717752",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ {
+      "name" : "Pamela Dingle",
+      "screen_name" : "pamelarosiedee",
+      "indices" : [ 0, 15 ],
+      "id_str" : "9644562",
+      "id" : 9644562
+    } ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "in_reply_to_status_id_str" : "7490818459",
+  "geo" : { },
+  "id_str" : "7490907696",
+  "in_reply_to_user_id" : 9644562,
+  "text" : "@pamelarosiedee  the slideshow button does that",
+  "id" : 7490907696,
+  "in_reply_to_status_id" : 7490818459,
+  "created_at" : "2010-01-07 00:00:00 +0000",
+  "in_reply_to_screen_name" : "pamelarosiedee",
+  "in_reply_to_user_id_str" : "9644562",
   "user" : {
     "name" : "Kevin Marks",
     "screen_name" : "kevinmarks",
@@ -12675,7 +13339,7 @@ Grailbird.data.tweets_2010_01 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "Robert Scoble: VR\/AR",
+      "name" : "Robert Scoble",
       "screen_name" : "Scobleizer",
       "indices" : [ 25, 36 ],
       "id_str" : "13348",
@@ -12837,7 +13501,7 @@ Grailbird.data.tweets_2010_01 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "Shireen Mitchell",
+      "name" : "Shireen, Harlem's Shuri, In Political Mecca!",
       "screen_name" : "digitalsista",
       "indices" : [ 0, 13 ],
       "id_str" : "14268957",
@@ -12951,1026 +13615,6 @@ Grailbird.data.tweets_2010_01 =
   "text" : "\u00BB @zeroinfluencer: \"Ford developed its own Web browser, which can be operated only while the car is parked.\" http:\/\/ff.im\/dXQlZ \u00AB",
   "id" : 7496268623,
   "created_at" : "2010-01-07 00:00:00 +0000",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ {
-      "name" : "Heather Taylor",
-      "screen_name" : "heatherAtaylor",
-      "indices" : [ 0, 15 ],
-      "id_str" : "17082556",
-      "id" : 17082556
-    } ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "in_reply_to_status_id_str" : "7451868224",
-  "geo" : { },
-  "id_str" : "7459394685",
-  "in_reply_to_user_id" : 17082556,
-  "text" : "@heatherataylor are you free to talk between now and 6pm? I'm in San Jose and could come to you.",
-  "id" : 7459394685,
-  "in_reply_to_status_id" : 7451868224,
-  "created_at" : "2010-01-07 00:00:00 +0000",
-  "in_reply_to_screen_name" : "heatherAtaylor",
-  "in_reply_to_user_id_str" : "17082556",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "geo" : { },
-  "id_str" : "7471727034",
-  "text" : "Well done Bindu! re: http:\/\/ff.im\/dTLuL",
-  "id" : 7471727034,
-  "created_at" : "2010-01-07 00:00:00 +0000",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ {
-      "name" : "Heather Taylor",
-      "screen_name" : "heatherAtaylor",
-      "indices" : [ 0, 15 ],
-      "id_str" : "17082556",
-      "id" : 17082556
-    } ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "in_reply_to_status_id_str" : "7461621328",
-  "geo" : { },
-  "id_str" : "7472672182",
-  "in_reply_to_user_id" : 17082556,
-  "text" : "@heatherataylor I'm in Mountain View tomorrow; could meet later afternoon in SJ - are you at Whitman or 1st St tomorrow pm?",
-  "id" : 7472672182,
-  "in_reply_to_status_id" : 7461621328,
-  "created_at" : "2010-01-07 00:00:00 +0000",
-  "in_reply_to_screen_name" : "heatherAtaylor",
-  "in_reply_to_user_id_str" : "17082556",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ {
-      "name" : "Adriaan Tijsseling",
-      "screen_name" : "_ado",
-      "indices" : [ 0, 5 ],
-      "id_str" : "628903",
-      "id" : 628903
-    } ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "in_reply_to_status_id_str" : "7472702240",
-  "geo" : { },
-  "id_str" : "7472754795",
-  "in_reply_to_user_id" : 628903,
-  "text" : "@_ado thats where TDD is soothing - write tests, refactor, test still pass, happy coder",
-  "id" : 7472754795,
-  "in_reply_to_status_id" : 7472702240,
-  "created_at" : "2010-01-07 00:00:00 +0000",
-  "in_reply_to_screen_name" : "_ado",
-  "in_reply_to_user_id_str" : "628903",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ {
-      "name" : "Zoe Keating",
-      "screen_name" : "zoecello",
-      "indices" : [ 49, 58 ],
-      "id_str" : "15473413",
-      "id" : 15473413
-    }, {
-      "name" : "Radiolab \uD83D\uDD2C",
-      "screen_name" : "Radiolab",
-      "indices" : [ 97, 106 ],
-      "id_str" : "28583197",
-      "id" : 28583197
-    } ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "geo" : { },
-  "id_str" : "7472834332",
-  "text" : "Buying 'In C remixed' from iTunes, I notice that @zoecello's Zinc maxes out the popularity meter @radiolab explains: http:\/\/bit.ly\/6Gcm0y",
-  "id" : 7472834332,
-  "created_at" : "2010-01-07 00:00:00 +0000",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ {
-      "name" : "Ewan Spence",
-      "screen_name" : "Ewan",
-      "indices" : [ 1, 6 ],
-      "id_str" : "65233",
-      "id" : 65233
-    }, {
-      "name" : "Doc Searls",
-      "screen_name" : "dsearls",
-      "indices" : [ 44, 52 ],
-      "id_str" : "3339171",
-      "id" : 3339171
-    } ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "in_reply_to_status_id_str" : "7473535162",
-  "geo" : { },
-  "id_str" : "7473597782",
-  "in_reply_to_user_id" : 65233,
-  "text" : ".@Ewan nexus \"I'm feeling lucky'sounds like @dsearls iPhone Shuffle from 3 years ago: http:\/\/blogs.zdnet.com\/BTL\/?p=4271",
-  "id" : 7473597782,
-  "in_reply_to_status_id" : 7473535162,
-  "created_at" : "2010-01-07 00:00:00 +0000",
-  "in_reply_to_screen_name" : "Ewan",
-  "in_reply_to_user_id_str" : "65233",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ {
-      "name" : "John Gruber",
-      "screen_name" : "gruber",
-      "indices" : [ 0, 7 ],
-      "id_str" : "33423",
-      "id" : 33423
-    }, {
-      "name" : "Craig Hockenberry",
-      "screen_name" : "chockenberry",
-      "indices" : [ 8, 21 ],
-      "id_str" : "36183",
-      "id" : 36183
-    }, {
-      "name" : "Steve Gillmor",
-      "screen_name" : "stevegillmor",
-      "indices" : [ 88, 101 ],
-      "id_str" : "1454021",
-      "id" : 1454021
-    } ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "in_reply_to_status_id_str" : "7482786350",
-  "geo" : { },
-  "id_str" : "7482879395",
-  "in_reply_to_user_id" : 33423,
-  "text" : "@gruber @chockenberry didn't MSFT demonstrate transcoding to h264 fir iPhone at update? @stevegillmor keeps saying so",
-  "id" : 7482879395,
-  "in_reply_to_status_id" : 7482786350,
-  "created_at" : "2010-01-07 00:00:00 +0000",
-  "in_reply_to_screen_name" : "gruber",
-  "in_reply_to_user_id_str" : "33423",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ {
-      "name" : "RB",
-      "screen_name" : "ribbit",
-      "indices" : [ 3, 10 ],
-      "id_str" : "191508527",
-      "id" : 191508527
-    }, {
-      "name" : "James Williams",
-      "screen_name" : "ecspike",
-      "indices" : [ 18, 26 ],
-      "id_str" : "2102341",
-      "id" : 2102341
-    } ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "geo" : { },
-  "id_str" : "7487027655",
-  "text" : "RT @Ribbit: Catch @ecspike at BarCamp San Diego on January 16th and 17th. http:\/\/su.pr\/28aQK7",
-  "id" : 7487027655,
-  "created_at" : "2010-01-07 00:00:00 +0000",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ {
-      "name" : "Google",
-      "screen_name" : "Google",
-      "indices" : [ 19, 26 ],
-      "id_str" : "20536157",
-      "id" : 20536157
-    }, {
-      "name" : "\u2317ChrisMessina",
-      "screen_name" : "chrismessina",
-      "indices" : [ 37, 50 ],
-      "id_str" : "1186",
-      "id" : 1186
-    } ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "geo" : { },
-  "id_str" : "7487979144",
-  "text" : "Congratulations to @google on hiring @chrismessina as an Open Web Advocate http:\/\/j.mp\/fj_birthday",
-  "id" : 7487979144,
-  "created_at" : "2010-01-07 00:00:00 +0000",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ {
-      "name" : "Dan Martell",
-      "screen_name" : "danmartell",
-      "indices" : [ 0, 11 ],
-      "id_str" : "10638782",
-      "id" : 10638782
-    }, {
-      "name" : "Google",
-      "screen_name" : "Google",
-      "indices" : [ 101, 108 ],
-      "id_str" : "20536157",
-      "id" : 20536157
-    } ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "in_reply_to_status_id_str" : "7488049587",
-  "geo" : { },
-  "id_str" : "7488502392",
-  "in_reply_to_user_id" : 10638782,
-  "text" : "@danmartell similar - I was a Developer Advocate, with  focus on OpenSocial; lots of good people  at @google working on Open Web",
-  "id" : 7488502392,
-  "in_reply_to_status_id" : 7488049587,
-  "created_at" : "2010-01-07 00:00:00 +0000",
-  "in_reply_to_screen_name" : "danmartell",
-  "in_reply_to_user_id_str" : "10638782",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ {
-      "name" : "Heather Taylor",
-      "screen_name" : "heatherAtaylor",
-      "indices" : [ 0, 15 ],
-      "id_str" : "17082556",
-      "id" : 17082556
-    } ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "in_reply_to_status_id_str" : "7461621328",
-  "geo" : { },
-  "id_str" : "7488663698",
-  "in_reply_to_user_id" : 17082556,
-  "text" : "@heatherataylor whereabouts in SJ are you this afternoon?",
-  "id" : 7488663698,
-  "in_reply_to_status_id" : 7461621328,
-  "created_at" : "2010-01-07 00:00:00 +0000",
-  "in_reply_to_screen_name" : "heatherAtaylor",
-  "in_reply_to_user_id_str" : "17082556",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ {
-      "name" : "Anil Dash",
-      "screen_name" : "anildash",
-      "indices" : [ 3, 12 ],
-      "id_str" : "36823",
-      "id" : 36823
-    }, {
-      "name" : "Michael Arrington",
-      "screen_name" : "arrington",
-      "indices" : [ 70, 80 ],
-      "id_str" : "37570179",
-      "id" : 37570179
-    } ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "geo" : { },
-  "id_str" : "7489078735",
-  "text" : "as @anildash's Suggested User List post http:\/\/bit.ly\/6rUWwf backs up @arrington's http:\/\/bit.ly\/61u3DA we need unSULlied counts?",
-  "id" : 7489078735,
-  "created_at" : "2010-01-07 00:00:00 +0000",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ {
-      "name" : "Mary Hodder",
-      "screen_name" : "MaryHodder",
-      "indices" : [ 0, 11 ],
-      "id_str" : "649",
-      "id" : 649
-    } ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "in_reply_to_status_id_str" : "7489242752",
-  "geo" : { },
-  "id_str" : "7489346211",
-  "in_reply_to_user_id" : 649,
-  "text" : "@MaryHodder mostly I couldn't resist the pun. The difference between phatic + parasocial followers means the number was always meaningless",
-  "id" : 7489346211,
-  "in_reply_to_status_id" : 7489242752,
-  "created_at" : "2010-01-07 00:00:00 +0000",
-  "in_reply_to_screen_name" : "MaryHodder",
-  "in_reply_to_user_id_str" : "649",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ {
-      "name" : "Mary Hodder",
-      "screen_name" : "MaryHodder",
-      "indices" : [ 0, 11 ],
-      "id_str" : "649",
-      "id" : 649
-    } ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "in_reply_to_status_id_str" : "7489391995",
-  "geo" : { },
-  "id_str" : "7489666564",
-  "in_reply_to_user_id" : 649,
-  "text" : "@MaryHodder very true - sadly, people (especially media people) like simple numbers to point to - we had that at technorati too",
-  "id" : 7489666564,
-  "in_reply_to_status_id" : 7489391995,
-  "created_at" : "2010-01-07 00:00:00 +0000",
-  "in_reply_to_screen_name" : "MaryHodder",
-  "in_reply_to_user_id_str" : "649",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "geo" : { },
-  "id_str" : "7489807880",
-  "text" : "I read 'Ender in Exile' last night http:\/\/bit.ly\/4BBFJU - is twitter our ansible?",
-  "id" : 7489807880,
-  "created_at" : "2010-01-07 00:00:00 +0000",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ {
-      "name" : "Mary Hodder",
-      "screen_name" : "MaryHodder",
-      "indices" : [ 0, 11 ],
-      "id_str" : "649",
-      "id" : 649
-    } ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "in_reply_to_status_id_str" : "7489735095",
-  "geo" : { },
-  "id_str" : "7489974813",
-  "in_reply_to_user_id" : 649,
-  "text" : "@MaryHodder I agree, but it is very hard to resist media people's simplistic views - I wrote about this a while back  http:\/\/bit.ly\/8WdJJd",
-  "id" : 7489974813,
-  "in_reply_to_status_id" : 7489735095,
-  "created_at" : "2010-01-07 00:00:00 +0000",
-  "in_reply_to_screen_name" : "MaryHodder",
-  "in_reply_to_user_id_str" : "649",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ {
-      "name" : "Heather Taylor",
-      "screen_name" : "heatherAtaylor",
-      "indices" : [ 0, 15 ],
-      "id_str" : "17082556",
-      "id" : 17082556
-    } ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "in_reply_to_status_id_str" : "7489797788",
-  "geo" : { },
-  "id_str" : "7490012809",
-  "in_reply_to_user_id" : 17082556,
-  "text" : "@heatherataylor I have a car, can come see you there - let me know which building",
-  "id" : 7490012809,
-  "in_reply_to_status_id" : 7489797788,
-  "created_at" : "2010-01-07 00:00:00 +0000",
-  "in_reply_to_screen_name" : "heatherAtaylor",
-  "in_reply_to_user_id_str" : "17082556",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ {
-      "name" : "Making Light",
-      "screen_name" : "makinglight",
-      "indices" : [ 126, 138 ],
-      "id_str" : "99534480",
-      "id" : 99534480
-    } ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "geo" : { },
-  "id_str" : "7490608710",
-  "text" : "Arctic Britain -  http:\/\/bit.ly\/79yv6p UK is north of Toronto +  the Gulf Stream went to Greenland:  http:\/\/bit.ly\/8bHkfZ via @makinglight",
-  "id" : 7490608710,
-  "created_at" : "2010-01-07 00:00:00 +0000",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ {
-      "name" : "Igor Schwarzmann",
-      "screen_name" : "zeigor",
-      "indices" : [ 0, 7 ],
-      "id_str" : "5717752",
-      "id" : 5717752
-    } ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "in_reply_to_status_id_str" : "7490531041",
-  "geo" : { },
-  "id_str" : "7490649092",
-  "in_reply_to_user_id" : 5717752,
-  "text" : "@zeigor it fills in the gaps between Enders Game and Speaker for the Dead, and ties up some loose ends from the Shadow sequence too",
-  "id" : 7490649092,
-  "in_reply_to_status_id" : 7490531041,
-  "created_at" : "2010-01-07 00:00:00 +0000",
-  "in_reply_to_screen_name" : "zeigor",
-  "in_reply_to_user_id_str" : "5717752",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ {
-      "name" : "Pamela Dingle",
-      "screen_name" : "pamelarosiedee",
-      "indices" : [ 0, 15 ],
-      "id_str" : "9644562",
-      "id" : 9644562
-    } ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "in_reply_to_status_id_str" : "7490818459",
-  "geo" : { },
-  "id_str" : "7490907696",
-  "in_reply_to_user_id" : 9644562,
-  "text" : "@pamelarosiedee  the slideshow button does that",
-  "id" : 7490907696,
-  "in_reply_to_status_id" : 7490818459,
-  "created_at" : "2010-01-07 00:00:00 +0000",
-  "in_reply_to_screen_name" : "pamelarosiedee",
-  "in_reply_to_user_id_str" : "9644562",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ {
-      "name" : "Alex Howard",
-      "screen_name" : "digiphile",
-      "indices" : [ 0, 10 ],
-      "id_str" : "1175221",
-      "id" : 1175221
-    }, {
-      "name" : "Gigaom",
-      "screen_name" : "gigaom",
-      "indices" : [ 11, 18 ],
-      "id_str" : "2893971",
-      "id" : 2893971
-    } ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "in_reply_to_status_id_str" : "7448888751",
-  "geo" : { },
-  "id_str" : "7449076556",
-  "in_reply_to_user_id" : 1175221,
-  "text" : "@digiphile @gigaom has a live stream, as does fcc apparently. I don't have urls",
-  "id" : 7449076556,
-  "in_reply_to_status_id" : 7448888751,
-  "created_at" : "2010-01-06 00:00:00 +0000",
-  "in_reply_to_screen_name" : "digiphile",
-  "in_reply_to_user_id_str" : "1175221",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "geo" : { },
-  "id_str" : "7449129455",
-  "text" : "Genachowski: the fcc national broadband plan will tackle deployment gap, adoption gap, need to get 35% non adopter figure down",
-  "id" : 7449129455,
-  "created_at" : "2010-01-06 00:00:00 +0000",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "geo" : { },
-  "id_str" : "7449181504",
-  "text" : "Genachowski: a robust, open broadband neetwork is the platform for future economy. Its also the foundation for social advances _ remote med",
-  "id" : 7449181504,
-  "created_at" : "2010-01-06 00:00:00 +0000",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "geo" : { },
-  "id_str" : "7449265386",
-  "text" : "Genachowski: an internet that allows an eBay to develop creates small businesses across the country. All net job growth is from small biz",
-  "id" : 7449265386,
-  "created_at" : "2010-01-06 00:00:00 +0000",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "geo" : { },
-  "id_str" : "7449291040",
-  "text" : "Genachowski: startups and small businesses are the same thing; have similar needs",
-  "id" : 7449291040,
-  "created_at" : "2010-01-06 00:00:00 +0000",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "geo" : { },
-  "id_str" : "7449352213",
-  "text" : "Genachowski: we can play a role in making people aware of this new industrial revolution; electric grid is the analogy",
-  "id" : 7449352213,
-  "created_at" : "2010-01-06 00:00:00 +0000",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "geo" : { },
-  "id_str" : "7449387025",
-  "text" : "Btw live stream at http:\/\/fcc.gov\/live of Genachowski event",
-  "id" : 7449387025,
-  "created_at" : "2010-01-06 00:00:00 +0000",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ {
-      "name" : "Stacey Higginbotham",
-      "screen_name" : "gigastacey",
-      "indices" : [ 5, 16 ],
-      "id_str" : "19575406",
-      "id" : 19575406
-    } ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "geo" : { },
-  "id_str" : "7449461142",
-  "text" : "Saya @gigastacey quality of broadband is key - electricity is more universal Genachowski: broadband isn't as binary as electricity",
-  "id" : 7449461142,
-  "created_at" : "2010-01-06 00:00:00 +0000",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "geo" : { },
-  "id_str" : "7449505397",
-  "text" : "Genachowski: broadband needs more ongoing investment than electricity or telephones did - they didn't need upgrading so often",
-  "id" : 7449505397,
-  "created_at" : "2010-01-06 00:00:00 +0000",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ {
-      "name" : "Om Malik",
-      "screen_name" : "om",
-      "indices" : [ 5, 8 ],
-      "id_str" : "989",
-      "id" : 989
-    } ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "geo" : { },
-  "id_str" : "7449556346",
-  "text" : "Says @om we have a duopoly that doesn't compete Genachowski: competition is core part of our vision. Best tool for growth",
-  "id" : 7449556346,
-  "created_at" : "2010-01-06 00:00:00 +0000",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "geo" : { },
-  "id_str" : "7449605923",
-  "text" : "Genachowski: we don't have a monopoly or unfettered low barrier competition; we don't have known answers for competing on confusion",
-  "id" : 7449605923,
-  "created_at" : "2010-01-06 00:00:00 +0000",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "geo" : { },
-  "id_str" : "7449648682",
-  "text" : "Genachowski: we need better information so consumers can avoid the duopolists confusing them. Consumer Reports person now in FCC",
-  "id" : 7449648682,
-  "created_at" : "2010-01-06 00:00:00 +0000",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "geo" : { },
-  "id_str" : "7449706537",
-  "text" : "Genachowski: did not expect how much time id spend on spectrum policy. Biggest risk is running out of spectrum for mobile broadband",
-  "id" : 7449706537,
-  "created_at" : "2010-01-06 00:00:00 +0000",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "geo" : { },
-  "id_str" : "7449752827",
-  "text" : "Genachowski: we have 3x spectrum coming on line, but usage of smartphones is up 30x - smartphones use 50x data compared to dumb ones",
-  "id" : 7449752827,
-  "created_at" : "2010-01-06 00:00:00 +0000",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "geo" : { },
-  "id_str" : "7449779027",
-  "text" : "Genachowski: more unlicensed spectrum could be an answer. We need both wired and wireless components",
-  "id" : 7449779027,
-  "created_at" : "2010-01-06 00:00:00 +0000",
   "user" : {
     "name" : "Kevin Marks",
     "screen_name" : "kevinmarks",
@@ -14297,7 +13941,7 @@ Grailbird.data.tweets_2010_01 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "Laura Fitton",
+      "name" : "Laura pls read White Fragility before u @me Fitton",
       "screen_name" : "Pistachio",
       "indices" : [ 3, 13 ],
       "id_str" : "3533231",
@@ -14431,7 +14075,7 @@ Grailbird.data.tweets_2010_01 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "Ben Ward",
+      "name" : "Ben",
       "screen_name" : "benward",
       "indices" : [ 2, 10 ],
       "id_str" : "12249",
@@ -14564,7 +14208,7 @@ Grailbird.data.tweets_2010_01 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "\u2317ChrisMessina",
+      "name" : "\uD835\uDE72\uD835\uDE91\uD835\uDE9B\uD835\uDE92\uD835\uDE9C \uD835\uDE7C\uD835\uDE8E\uD835\uDE9C\uD835\uDE9C\uD835\uDE92\uD835\uDE97\uD835\uDE8A",
       "screen_name" : "chrismessina",
       "indices" : [ 0, 13 ],
       "id_str" : "1186",
@@ -14876,7 +14520,7 @@ Grailbird.data.tweets_2010_01 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "Om Malik",
+      "name" : "OM",
       "screen_name" : "om",
       "indices" : [ 5, 8 ],
       "id_str" : "989",
@@ -14992,7 +14636,7 @@ Grailbird.data.tweets_2010_01 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "Om Malik",
+      "name" : "OM",
       "screen_name" : "om",
       "indices" : [ 5, 8 ],
       "id_str" : "989",
@@ -15048,203 +14692,164 @@ Grailbird.data.tweets_2010_01 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "Shannon Rosa",
-      "screen_name" : "shannonrosa",
-      "indices" : [ 0, 12 ],
-      "id_str" : "14497828",
-      "id" : 14497828
-    } ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "in_reply_to_status_id_str" : "7407826598",
-  "geo" : { },
-  "id_str" : "7408072998",
-  "in_reply_to_user_id" : 14497828,
-  "text" : "@shannonrosa I got on at San Jose, so no fraiche for me today",
-  "id" : 7408072998,
-  "in_reply_to_status_id" : 7407826598,
-  "created_at" : "2010-01-05 00:00:00 +0000",
-  "in_reply_to_screen_name" : "shannonrosa",
-  "in_reply_to_user_id_str" : "14497828",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/foursquare.com\" rel=\"nofollow\"\u003EFoursquare\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "geo" : { },
-  "id_str" : "7408988242",
-  "text" : "Brekkie (@ The Creamery) http:\/\/4sq.com\/8eu2jJ",
-  "id" : 7408988242,
-  "created_at" : "2010-01-05 00:00:00 +0000",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "geo" : { },
-  "id_str" : "7409821906",
-  "text" : "Google Friend Connect works with several existing social networks, and uses OpenID, Portable Contacts, and... re: http:\/\/ff.im\/dOqIf",
-  "id" : 7409821906,
-  "created_at" : "2010-01-05 00:00:00 +0000",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ {
-      "name" : "irina slutsky",
-      "screen_name" : "irinaslutsky",
-      "indices" : [ 0, 13 ],
-      "id_str" : "13352",
-      "id" : 13352
-    } ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "in_reply_to_status_id_str" : "7409513791",
-  "geo" : { },
-  "id_str" : "7409841610",
-  "in_reply_to_user_id" : 13352,
-  "text" : "@irinaslutsky how long are you there for? I'm walking up that way in about an hour (in Creamery at 4th+ king now)",
-  "id" : 7409841610,
-  "in_reply_to_status_id" : 7409513791,
-  "created_at" : "2010-01-05 00:00:00 +0000",
-  "in_reply_to_screen_name" : "irinaslutsky",
-  "in_reply_to_user_id_str" : "13352",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ {
-      "name" : "Brit Morin",
-      "screen_name" : "brit",
-      "indices" : [ 15, 20 ],
-      "id_str" : "3476",
-      "id" : 3476
-    } ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "geo" : { },
-  "id_str" : "7409904831",
-  "text" : "\u00BB @davemorin: .@brit said yes. http:\/\/tumblr.com\/xo559jaw2 \u00AB Congratulations to you both",
-  "id" : 7409904831,
-  "created_at" : "2010-01-05 00:00:00 +0000",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ {
-      "name" : "Xeni Jardin",
-      "screen_name" : "xenijardin",
-      "indices" : [ 0, 11 ],
-      "id_str" : "397364819",
-      "id" : 397364819
-    } ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "in_reply_to_status_id_str" : "7410013471",
-  "geo" : { },
-  "id_str" : "7410108846",
-  "in_reply_to_user_id" : 767,
-  "text" : "@xenijardin it's the perceptual asymmetry of http:\/\/bit.ly\/publics - your mental model is the 350 you follow, not the 27k followers or GOOG",
-  "id" : 7410108846,
-  "in_reply_to_status_id" : 7410013471,
-  "created_at" : "2010-01-05 00:00:00 +0000",
-  "in_reply_to_screen_name" : "xeni",
-  "in_reply_to_user_id_str" : "767",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ {
-      "name" : "Tim Bray",
-      "screen_name" : "timbray",
-      "indices" : [ 0, 8 ],
-      "id_str" : "1235521",
-      "id" : 1235521
+      "name" : "Alex Howard",
+      "screen_name" : "digiphile",
+      "indices" : [ 0, 10 ],
+      "id_str" : "1175221",
+      "id" : 1175221
     }, {
-      "name" : "Peter Keane",
-      "screen_name" : "pkeane",
-      "indices" : [ 98, 105 ],
-      "id_str" : "1711171",
-      "id" : 1711171
+      "name" : "GigaOm",
+      "screen_name" : "gigaom",
+      "indices" : [ 11, 18 ],
+      "id_str" : "2893971",
+      "id" : 2893971
     } ],
     "media" : [ ],
     "hashtags" : [ ],
     "urls" : [ ]
   },
-  "in_reply_to_status_id_str" : "7410315774",
+  "in_reply_to_status_id_str" : "7448888751",
   "geo" : { },
-  "id_str" : "7410373020",
-  "in_reply_to_user_id" : 1235521,
-  "text" : "@timbray The output of Universal Feed Parser is a reasonable JSONificaton of Atom; GData isn't cc @pkeane",
-  "id" : 7410373020,
-  "in_reply_to_status_id" : 7410315774,
-  "created_at" : "2010-01-05 00:00:00 +0000",
-  "in_reply_to_screen_name" : "timbray",
-  "in_reply_to_user_id_str" : "1235521",
+  "id_str" : "7449076556",
+  "in_reply_to_user_id" : 1175221,
+  "text" : "@digiphile @gigaom has a live stream, as does fcc apparently. I don't have urls",
+  "id" : 7449076556,
+  "in_reply_to_status_id" : 7448888751,
+  "created_at" : "2010-01-06 00:00:00 +0000",
+  "in_reply_to_screen_name" : "digiphile",
+  "in_reply_to_user_id_str" : "1175221",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "geo" : { },
+  "id_str" : "7449129455",
+  "text" : "Genachowski: the fcc national broadband plan will tackle deployment gap, adoption gap, need to get 35% non adopter figure down",
+  "id" : 7449129455,
+  "created_at" : "2010-01-06 00:00:00 +0000",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "geo" : { },
+  "id_str" : "7449181504",
+  "text" : "Genachowski: a robust, open broadband neetwork is the platform for future economy. Its also the foundation for social advances _ remote med",
+  "id" : 7449181504,
+  "created_at" : "2010-01-06 00:00:00 +0000",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "geo" : { },
+  "id_str" : "7449265386",
+  "text" : "Genachowski: an internet that allows an eBay to develop creates small businesses across the country. All net job growth is from small biz",
+  "id" : 7449265386,
+  "created_at" : "2010-01-06 00:00:00 +0000",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "geo" : { },
+  "id_str" : "7449291040",
+  "text" : "Genachowski: startups and small businesses are the same thing; have similar needs",
+  "id" : 7449291040,
+  "created_at" : "2010-01-06 00:00:00 +0000",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "geo" : { },
+  "id_str" : "7449352213",
+  "text" : "Genachowski: we can play a role in making people aware of this new industrial revolution; electric grid is the analogy",
+  "id" : 7449352213,
+  "created_at" : "2010-01-06 00:00:00 +0000",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "geo" : { },
+  "id_str" : "7449387025",
+  "text" : "Btw live stream at http:\/\/fcc.gov\/live of Genachowski event",
+  "id" : 7449387025,
+  "created_at" : "2010-01-06 00:00:00 +0000",
   "user" : {
     "name" : "Kevin Marks",
     "screen_name" : "kevinmarks",
@@ -15258,26 +14863,43 @@ Grailbird.data.tweets_2010_01 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "Chris DiBona",
-      "screen_name" : "cdibona",
-      "indices" : [ 0, 8 ],
-      "id_str" : "44423",
-      "id" : 44423
+      "name" : "Stacey Higginbotham",
+      "screen_name" : "gigastacey",
+      "indices" : [ 5, 16 ],
+      "id_str" : "19575406",
+      "id" : 19575406
     } ],
     "media" : [ ],
     "hashtags" : [ ],
     "urls" : [ ]
   },
-  "in_reply_to_status_id_str" : "7410502065",
   "geo" : { },
-  "id_str" : "7410537069",
-  "in_reply_to_user_id" : 44423,
-  "text" : "@cdibona Does that include the Archos and other non-Google apps androids?",
-  "id" : 7410537069,
-  "in_reply_to_status_id" : 7410502065,
-  "created_at" : "2010-01-05 00:00:00 +0000",
-  "in_reply_to_screen_name" : "cdibona",
-  "in_reply_to_user_id_str" : "44423",
+  "id_str" : "7449461142",
+  "text" : "Saya @gigastacey quality of broadband is key - electricity is more universal Genachowski: broadband isn't as binary as electricity",
+  "id" : 7449461142,
+  "created_at" : "2010-01-06 00:00:00 +0000",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "geo" : { },
+  "id_str" : "7449505397",
+  "text" : "Genachowski: broadband needs more ongoing investment than electricity or telephones did - they didn't need upgrading so often",
+  "id" : 7449505397,
+  "created_at" : "2010-01-06 00:00:00 +0000",
   "user" : {
     "name" : "Kevin Marks",
     "screen_name" : "kevinmarks",
@@ -15291,26 +14913,21 @@ Grailbird.data.tweets_2010_01 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "Tim Bray",
-      "screen_name" : "timbray",
-      "indices" : [ 0, 8 ],
-      "id_str" : "1235521",
-      "id" : 1235521
+      "name" : "OM",
+      "screen_name" : "om",
+      "indices" : [ 5, 8 ],
+      "id_str" : "989",
+      "id" : 989
     } ],
     "media" : [ ],
     "hashtags" : [ ],
     "urls" : [ ]
   },
-  "in_reply_to_status_id_str" : "7410315774",
   "geo" : { },
-  "id_str" : "7410607592",
-  "in_reply_to_user_id" : 1235521,
-  "text" : "@timbray The best thinking on JSON in an AtomPub world is JSONC - http:\/\/youtu.be\/W68XQEiPjEA",
-  "id" : 7410607592,
-  "in_reply_to_status_id" : 7410315774,
-  "created_at" : "2010-01-05 00:00:00 +0000",
-  "in_reply_to_screen_name" : "timbray",
-  "in_reply_to_user_id_str" : "1235521",
+  "id_str" : "7449556346",
+  "text" : "Says @om we have a duopoly that doesn't compete Genachowski: competition is core part of our vision. Best tool for growth",
+  "id" : 7449556346,
+  "created_at" : "2010-01-06 00:00:00 +0000",
   "user" : {
     "name" : "Kevin Marks",
     "screen_name" : "kevinmarks",
@@ -15323,27 +14940,16 @@ Grailbird.data.tweets_2010_01 =
 }, {
   "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
   "entities" : {
-    "user_mentions" : [ {
-      "name" : "Peter Keane",
-      "screen_name" : "pkeane",
-      "indices" : [ 1, 8 ],
-      "id_str" : "1711171",
-      "id" : 1711171
-    } ],
+    "user_mentions" : [ ],
     "media" : [ ],
     "hashtags" : [ ],
     "urls" : [ ]
   },
-  "in_reply_to_status_id_str" : "7410737964",
   "geo" : { },
-  "id_str" : "7410856521",
-  "in_reply_to_user_id" : 1711171,
-  "text" : ".@pkeane JSONC is only available for Picasa and Youtube at the moment AFIAK. The GData team seem to have dropped the ball on docs",
-  "id" : 7410856521,
-  "in_reply_to_status_id" : 7410737964,
-  "created_at" : "2010-01-05 00:00:00 +0000",
-  "in_reply_to_screen_name" : "pkeane",
-  "in_reply_to_user_id_str" : "1711171",
+  "id_str" : "7449605923",
+  "text" : "Genachowski: we don't have a monopoly or unfettered low barrier competition; we don't have known answers for competing on confusion",
+  "id" : 7449605923,
+  "created_at" : "2010-01-06 00:00:00 +0000",
   "user" : {
     "name" : "Kevin Marks",
     "screen_name" : "kevinmarks",
@@ -15356,27 +14962,16 @@ Grailbird.data.tweets_2010_01 =
 }, {
   "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
   "entities" : {
-    "user_mentions" : [ {
-      "name" : "irina slutsky",
-      "screen_name" : "irinaslutsky",
-      "indices" : [ 0, 13 ],
-      "id_str" : "13352",
-      "id" : 13352
-    } ],
+    "user_mentions" : [ ],
     "media" : [ ],
     "hashtags" : [ ],
     "urls" : [ ]
   },
-  "in_reply_to_status_id_str" : "7410919655",
   "geo" : { },
-  "id_str" : "7410942624",
-  "in_reply_to_user_id" : 13352,
-  "text" : "@irinaslutsky I'll definitely bring you a coffee when I leave - what kind do you like?",
-  "id" : 7410942624,
-  "in_reply_to_status_id" : 7410919655,
-  "created_at" : "2010-01-05 00:00:00 +0000",
-  "in_reply_to_screen_name" : "irinaslutsky",
-  "in_reply_to_user_id_str" : "13352",
+  "id_str" : "7449648682",
+  "text" : "Genachowski: we need better information so consumers can avoid the duopolists confusing them. Consumer Reports person now in FCC",
+  "id" : 7449648682,
+  "created_at" : "2010-01-06 00:00:00 +0000",
   "user" : {
     "name" : "Kevin Marks",
     "screen_name" : "kevinmarks",
@@ -15389,27 +14984,16 @@ Grailbird.data.tweets_2010_01 =
 }, {
   "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
   "entities" : {
-    "user_mentions" : [ {
-      "name" : "Brit Morin",
-      "screen_name" : "brit",
-      "indices" : [ 0, 5 ],
-      "id_str" : "3476",
-      "id" : 3476
-    } ],
+    "user_mentions" : [ ],
     "media" : [ ],
     "hashtags" : [ ],
     "urls" : [ ]
   },
-  "in_reply_to_status_id_str" : "7410861914",
   "geo" : { },
-  "id_str" : "7410982354",
-  "in_reply_to_user_id" : 3476,
-  "text" : "@brit you two are upstaging the nexus one launch... congrats",
-  "id" : 7410982354,
-  "in_reply_to_status_id" : 7410861914,
-  "created_at" : "2010-01-05 00:00:00 +0000",
-  "in_reply_to_screen_name" : "brit",
-  "in_reply_to_user_id_str" : "3476",
+  "id_str" : "7449706537",
+  "text" : "Genachowski: did not expect how much time id spend on spectrum policy. Biggest risk is running out of spectrum for mobile broadband",
+  "id" : 7449706537,
+  "created_at" : "2010-01-06 00:00:00 +0000",
   "user" : {
     "name" : "Kevin Marks",
     "screen_name" : "kevinmarks",
@@ -15422,58 +15006,16 @@ Grailbird.data.tweets_2010_01 =
 }, {
   "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
   "entities" : {
-    "user_mentions" : [ {
-      "name" : "Mark Pilgrim",
-      "screen_name" : "diveintomark",
-      "indices" : [ 0, 13 ],
-      "id_str" : "793238882",
-      "id" : 793238882
-    } ],
-    "media" : [ ],
-    "hashtags" : [ {
-      "text" : "nexus1",
-      "indices" : [ 117, 124 ]
-    } ],
-    "urls" : [ ]
-  },
-  "geo" : { },
-  "id_str" : "7411160830",
-  "text" : "@diveintomark like you need a weather widget in Mountain View... 'sunny again, in other news, gravity still working' #nexus1",
-  "id" : 7411160830,
-  "created_at" : "2010-01-05 00:00:00 +0000",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ {
-      "name" : "Blaine Cook",
-      "screen_name" : "blaine",
-      "indices" : [ 0, 7 ],
-      "id_str" : "246",
-      "id" : 246
-    } ],
+    "user_mentions" : [ ],
     "media" : [ ],
     "hashtags" : [ ],
     "urls" : [ ]
   },
-  "in_reply_to_status_id_str" : "7414328921",
   "geo" : { },
-  "id_str" : "7415256281",
-  "in_reply_to_user_id" : 246,
-  "text" : "@blaine a URL might not resolve to anything useful if you're unlucky; a URI is designed not to. Its a passive aggressive namespace.",
-  "id" : 7415256281,
-  "in_reply_to_status_id" : 7414328921,
-  "created_at" : "2010-01-05 00:00:00 +0000",
-  "in_reply_to_screen_name" : "blaine",
-  "in_reply_to_user_id_str" : "246",
+  "id_str" : "7449752827",
+  "text" : "Genachowski: we have 3x spectrum coming on line, but usage of smartphones is up 30x - smartphones use 50x data compared to dumb ones",
+  "id" : 7449752827,
+  "created_at" : "2010-01-06 00:00:00 +0000",
   "user" : {
     "name" : "Kevin Marks",
     "screen_name" : "kevinmarks",
@@ -15486,30 +15028,16 @@ Grailbird.data.tweets_2010_01 =
 }, {
   "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
   "entities" : {
-    "user_mentions" : [ {
-      "name" : "Christine Lu",
-      "screen_name" : "christinelu",
-      "indices" : [ 76, 88 ],
-      "id_str" : "7782442",
-      "id" : 7782442
-    } ],
+    "user_mentions" : [ ],
     "media" : [ ],
-    "hashtags" : [ {
-      "text" : "tummler",
-      "indices" : [ 67, 75 ]
-    } ],
+    "hashtags" : [ ],
     "urls" : [ ]
   },
-  "in_reply_to_status_id_str" : "7415196254",
   "geo" : { },
-  "id_str" : "7415355793",
-  "in_reply_to_user_id" : 7782442,
-  "text" : "Very interesting chat with China \/Hawaii \/[insert cool place here] #tummler @christinelu",
-  "id" : 7415355793,
-  "in_reply_to_status_id" : 7415196254,
-  "created_at" : "2010-01-05 00:00:00 +0000",
-  "in_reply_to_screen_name" : "christinelu",
-  "in_reply_to_user_id_str" : "7782442",
+  "id_str" : "7449779027",
+  "text" : "Genachowski: more unlicensed spectrum could be an answer. We need both wired and wireless components",
+  "id" : 7449779027,
+  "created_at" : "2010-01-06 00:00:00 +0000",
   "user" : {
     "name" : "Kevin Marks",
     "screen_name" : "kevinmarks",
@@ -15750,7 +15278,7 @@ Grailbird.data.tweets_2010_01 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "Ben Ward",
+      "name" : "Ben",
       "screen_name" : "benward",
       "indices" : [ 0, 8 ],
       "id_str" : "12249",
@@ -15816,7 +15344,7 @@ Grailbird.data.tweets_2010_01 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "Ben Ward",
+      "name" : "Ben",
       "screen_name" : "benward",
       "indices" : [ 0, 8 ],
       "id_str" : "12249",
@@ -16182,7 +15710,7 @@ Grailbird.data.tweets_2010_01 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "Mitch Benn",
+      "name" : "Mitch Benn \uD83C\uDDEA\uD83C\uDDFA",
       "screen_name" : "MitchBenn",
       "indices" : [ 0, 10 ],
       "id_str" : "20291015",
@@ -16257,7 +15785,7 @@ Grailbird.data.tweets_2010_01 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "Phil Wolff \u9A6C\u7231\u72FC",
+      "name" : "Phil Wolff \u9A6C\u7231\u72FC \uD83D\uDC3A",
       "screen_name" : "evanwolf",
       "indices" : [ 0, 9 ],
       "id_str" : "13407",
@@ -16503,7 +16031,7 @@ Grailbird.data.tweets_2010_01 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "Phil Wolff \u9A6C\u7231\u72FC",
+      "name" : "Phil Wolff \u9A6C\u7231\u72FC \uD83D\uDC3A",
       "screen_name" : "evanwolf",
       "indices" : [ 0, 9 ],
       "id_str" : "13407",
@@ -16536,7 +16064,488 @@ Grailbird.data.tweets_2010_01 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "Urusei Yotsuba",
+      "name" : "Shannon Des Roches Rosa",
+      "screen_name" : "shannonrosa",
+      "indices" : [ 0, 12 ],
+      "id_str" : "14497828",
+      "id" : 14497828
+    } ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "in_reply_to_status_id_str" : "7407826598",
+  "geo" : { },
+  "id_str" : "7408072998",
+  "in_reply_to_user_id" : 14497828,
+  "text" : "@shannonrosa I got on at San Jose, so no fraiche for me today",
+  "id" : 7408072998,
+  "in_reply_to_status_id" : 7407826598,
+  "created_at" : "2010-01-05 00:00:00 +0000",
+  "in_reply_to_screen_name" : "shannonrosa",
+  "in_reply_to_user_id_str" : "14497828",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/foursquare.com\" rel=\"nofollow\"\u003EFoursquare\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "geo" : { },
+  "id_str" : "7408988242",
+  "text" : "Brekkie (@ The Creamery) http:\/\/4sq.com\/8eu2jJ",
+  "id" : 7408988242,
+  "created_at" : "2010-01-05 00:00:00 +0000",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "geo" : { },
+  "id_str" : "7409821906",
+  "text" : "Google Friend Connect works with several existing social networks, and uses OpenID, Portable Contacts, and... re: http:\/\/ff.im\/dOqIf",
+  "id" : 7409821906,
+  "created_at" : "2010-01-05 00:00:00 +0000",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ {
+      "name" : "Emo Luments",
+      "screen_name" : "irinaslutsky",
+      "indices" : [ 0, 13 ],
+      "id_str" : "13352",
+      "id" : 13352
+    } ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "in_reply_to_status_id_str" : "7409513791",
+  "geo" : { },
+  "id_str" : "7409841610",
+  "in_reply_to_user_id" : 13352,
+  "text" : "@irinaslutsky how long are you there for? I'm walking up that way in about an hour (in Creamery at 4th+ king now)",
+  "id" : 7409841610,
+  "in_reply_to_status_id" : 7409513791,
+  "created_at" : "2010-01-05 00:00:00 +0000",
+  "in_reply_to_screen_name" : "irinaslutsky",
+  "in_reply_to_user_id_str" : "13352",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ {
+      "name" : "DAVE MORIN",
+      "screen_name" : "davemorin",
+      "indices" : [ 2, 12 ],
+      "id_str" : "3475",
+      "id" : 3475
+    }, {
+      "name" : "Brit Morin",
+      "screen_name" : "brit",
+      "indices" : [ 15, 20 ],
+      "id_str" : "3476",
+      "id" : 3476
+    } ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "geo" : { },
+  "id_str" : "7409904831",
+  "text" : "\u00BB @davemorin: .@brit said yes. http:\/\/tumblr.com\/xo559jaw2 \u00AB Congratulations to you both",
+  "id" : 7409904831,
+  "created_at" : "2010-01-05 00:00:00 +0000",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ {
+      "name" : "Xeni Jardin",
+      "screen_name" : "xenijardin",
+      "indices" : [ 0, 11 ],
+      "id_str" : "397364819",
+      "id" : 397364819
+    } ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "in_reply_to_status_id_str" : "7410013471",
+  "geo" : { },
+  "id_str" : "7410108846",
+  "in_reply_to_user_id" : 767,
+  "text" : "@xenijardin it's the perceptual asymmetry of http:\/\/bit.ly\/publics - your mental model is the 350 you follow, not the 27k followers or GOOG",
+  "id" : 7410108846,
+  "in_reply_to_status_id" : 7410013471,
+  "created_at" : "2010-01-05 00:00:00 +0000",
+  "in_reply_to_screen_name" : "xeni",
+  "in_reply_to_user_id_str" : "767",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ {
+      "name" : "Tim Bray",
+      "screen_name" : "timbray",
+      "indices" : [ 0, 8 ],
+      "id_str" : "1235521",
+      "id" : 1235521
+    }, {
+      "name" : "Peter Keane",
+      "screen_name" : "pkeane",
+      "indices" : [ 98, 105 ],
+      "id_str" : "1711171",
+      "id" : 1711171
+    } ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "in_reply_to_status_id_str" : "7410315774",
+  "geo" : { },
+  "id_str" : "7410373020",
+  "in_reply_to_user_id" : 1235521,
+  "text" : "@timbray The output of Universal Feed Parser is a reasonable JSONificaton of Atom; GData isn't cc @pkeane",
+  "id" : 7410373020,
+  "in_reply_to_status_id" : 7410315774,
+  "created_at" : "2010-01-05 00:00:00 +0000",
+  "in_reply_to_screen_name" : "timbray",
+  "in_reply_to_user_id_str" : "1235521",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ {
+      "name" : "Chris DiBona",
+      "screen_name" : "cdibona",
+      "indices" : [ 0, 8 ],
+      "id_str" : "44423",
+      "id" : 44423
+    } ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "in_reply_to_status_id_str" : "7410502065",
+  "geo" : { },
+  "id_str" : "7410537069",
+  "in_reply_to_user_id" : 44423,
+  "text" : "@cdibona Does that include the Archos and other non-Google apps androids?",
+  "id" : 7410537069,
+  "in_reply_to_status_id" : 7410502065,
+  "created_at" : "2010-01-05 00:00:00 +0000",
+  "in_reply_to_screen_name" : "cdibona",
+  "in_reply_to_user_id_str" : "44423",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ {
+      "name" : "Tim Bray",
+      "screen_name" : "timbray",
+      "indices" : [ 0, 8 ],
+      "id_str" : "1235521",
+      "id" : 1235521
+    } ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "in_reply_to_status_id_str" : "7410315774",
+  "geo" : { },
+  "id_str" : "7410607592",
+  "in_reply_to_user_id" : 1235521,
+  "text" : "@timbray The best thinking on JSON in an AtomPub world is JSONC - http:\/\/youtu.be\/W68XQEiPjEA",
+  "id" : 7410607592,
+  "in_reply_to_status_id" : 7410315774,
+  "created_at" : "2010-01-05 00:00:00 +0000",
+  "in_reply_to_screen_name" : "timbray",
+  "in_reply_to_user_id_str" : "1235521",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ {
+      "name" : "Peter Keane",
+      "screen_name" : "pkeane",
+      "indices" : [ 1, 8 ],
+      "id_str" : "1711171",
+      "id" : 1711171
+    } ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "in_reply_to_status_id_str" : "7410737964",
+  "geo" : { },
+  "id_str" : "7410856521",
+  "in_reply_to_user_id" : 1711171,
+  "text" : ".@pkeane JSONC is only available for Picasa and Youtube at the moment AFIAK. The GData team seem to have dropped the ball on docs",
+  "id" : 7410856521,
+  "in_reply_to_status_id" : 7410737964,
+  "created_at" : "2010-01-05 00:00:00 +0000",
+  "in_reply_to_screen_name" : "pkeane",
+  "in_reply_to_user_id_str" : "1711171",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ {
+      "name" : "Emo Luments",
+      "screen_name" : "irinaslutsky",
+      "indices" : [ 0, 13 ],
+      "id_str" : "13352",
+      "id" : 13352
+    } ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "in_reply_to_status_id_str" : "7410919655",
+  "geo" : { },
+  "id_str" : "7410942624",
+  "in_reply_to_user_id" : 13352,
+  "text" : "@irinaslutsky I'll definitely bring you a coffee when I leave - what kind do you like?",
+  "id" : 7410942624,
+  "in_reply_to_status_id" : 7410919655,
+  "created_at" : "2010-01-05 00:00:00 +0000",
+  "in_reply_to_screen_name" : "irinaslutsky",
+  "in_reply_to_user_id_str" : "13352",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ {
+      "name" : "Brit Morin",
+      "screen_name" : "brit",
+      "indices" : [ 0, 5 ],
+      "id_str" : "3476",
+      "id" : 3476
+    } ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "in_reply_to_status_id_str" : "7410861914",
+  "geo" : { },
+  "id_str" : "7410982354",
+  "in_reply_to_user_id" : 3476,
+  "text" : "@brit you two are upstaging the nexus one launch... congrats",
+  "id" : 7410982354,
+  "in_reply_to_status_id" : 7410861914,
+  "created_at" : "2010-01-05 00:00:00 +0000",
+  "in_reply_to_screen_name" : "brit",
+  "in_reply_to_user_id_str" : "3476",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ {
+      "name" : "Mark Pilgrim",
+      "screen_name" : "diveintomark",
+      "indices" : [ 0, 13 ],
+      "id_str" : "793238882",
+      "id" : 793238882
+    } ],
+    "media" : [ ],
+    "hashtags" : [ {
+      "text" : "nexus1",
+      "indices" : [ 117, 124 ]
+    } ],
+    "urls" : [ ]
+  },
+  "geo" : { },
+  "id_str" : "7411160830",
+  "text" : "@diveintomark like you need a weather widget in Mountain View... 'sunny again, in other news, gravity still working' #nexus1",
+  "id" : 7411160830,
+  "created_at" : "2010-01-05 00:00:00 +0000",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ {
+      "name" : "Blaine Cook",
+      "screen_name" : "blaine",
+      "indices" : [ 0, 7 ],
+      "id_str" : "246",
+      "id" : 246
+    } ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "in_reply_to_status_id_str" : "7414328921",
+  "geo" : { },
+  "id_str" : "7415256281",
+  "in_reply_to_user_id" : 246,
+  "text" : "@blaine a URL might not resolve to anything useful if you're unlucky; a URI is designed not to. Its a passive aggressive namespace.",
+  "id" : 7415256281,
+  "in_reply_to_status_id" : 7414328921,
+  "created_at" : "2010-01-05 00:00:00 +0000",
+  "in_reply_to_screen_name" : "blaine",
+  "in_reply_to_user_id_str" : "246",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ {
+      "name" : "Christine",
+      "screen_name" : "christinelu",
+      "indices" : [ 76, 88 ],
+      "id_str" : "7782442",
+      "id" : 7782442
+    } ],
+    "media" : [ ],
+    "hashtags" : [ {
+      "text" : "tummler",
+      "indices" : [ 67, 75 ]
+    } ],
+    "urls" : [ ]
+  },
+  "in_reply_to_status_id_str" : "7415196254",
+  "geo" : { },
+  "id_str" : "7415355793",
+  "in_reply_to_user_id" : 7782442,
+  "text" : "Very interesting chat with China \/Hawaii \/[insert cool place here] #tummler @christinelu",
+  "id" : 7415355793,
+  "in_reply_to_status_id" : 7415196254,
+  "created_at" : "2010-01-05 00:00:00 +0000",
+  "in_reply_to_screen_name" : "christinelu",
+  "in_reply_to_user_id_str" : "7782442",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ {
+      "name" : "Weird Gex But OK",
       "screen_name" : "jephjacques",
       "indices" : [ 0, 12 ],
       "id_str" : "7670202",
@@ -16568,13 +16577,7 @@ Grailbird.data.tweets_2010_01 =
 }, {
   "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
   "entities" : {
-    "user_mentions" : [ {
-      "name" : "Matt Jones",
-      "screen_name" : "moleitau",
-      "indices" : [ 3, 12 ],
-      "id_str" : "821",
-      "id" : 821
-    } ],
+    "user_mentions" : [ ],
     "media" : [ ],
     "hashtags" : [ ],
     "urls" : [ ]
@@ -16663,7 +16666,7 @@ Grailbird.data.tweets_2010_01 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "Robert Scoble: VR\/AR",
+      "name" : "Robert Scoble",
       "screen_name" : "Scobleizer",
       "indices" : [ 0, 11 ],
       "id_str" : "13348",
@@ -16696,7 +16699,7 @@ Grailbird.data.tweets_2010_01 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "Robert Scoble: VR\/AR",
+      "name" : "Robert Scoble",
       "screen_name" : "Scobleizer",
       "indices" : [ 10, 21 ],
       "id_str" : "13348",
@@ -16817,149 +16820,6 @@ Grailbird.data.tweets_2010_01 =
   "created_at" : "2010-01-04 00:00:00 +0000",
   "in_reply_to_screen_name" : "marcusbrig",
   "in_reply_to_user_id_str" : "81859985",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/foursquare.com\" rel=\"nofollow\"\u003EFoursquare\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "geo" : { },
-  "id_str" : "7317948787",
-  "text" : "Avatar 3D (@ Camera 7 Pruneyard) http:\/\/4sq.com\/4R8MxC",
-  "id" : 7317948787,
-  "created_at" : "2010-01-03 00:00:00 +0000",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ {
-      "name" : "Kevin Burton",
-      "screen_name" : "burtonator",
-      "indices" : [ 0, 11 ],
-      "id_str" : "62763",
-      "id" : 62763
-    } ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "in_reply_to_status_id_str" : "7325722757",
-  "geo" : { },
-  "id_str" : "7325811178",
-  "in_reply_to_user_id" : 62763,
-  "text" : "@burtonator multi-proc always scales better , as you can take it to multiple machines",
-  "id" : 7325811178,
-  "in_reply_to_status_id" : 7325722757,
-  "created_at" : "2010-01-03 00:00:00 +0000",
-  "in_reply_to_screen_name" : "burtonator",
-  "in_reply_to_user_id_str" : "62763",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ {
-      "name" : "Tim Burks \uD83C\uDF08\uD83D\uDDFD\u2696\uFE0F",
-      "screen_name" : "timburks",
-      "indices" : [ 0, 9 ],
-      "id_str" : "7305712",
-      "id" : 7305712
-    } ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "in_reply_to_status_id_str" : "7324298695",
-  "geo" : { },
-  "id_str" : "7325863353",
-  "in_reply_to_user_id" : 7305712,
-  "text" : "@timburks you forgot braveheart - blue-painted rebel speechifying",
-  "id" : 7325863353,
-  "in_reply_to_status_id" : 7324298695,
-  "created_at" : "2010-01-03 00:00:00 +0000",
-  "in_reply_to_screen_name" : "timburks",
-  "in_reply_to_user_id_str" : "7305712",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ {
-      "name" : "Silona",
-      "screen_name" : "Silona",
-      "indices" : [ 0, 7 ],
-      "id_str" : "82363",
-      "id" : 82363
-    } ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "in_reply_to_status_id_str" : "7325371677",
-  "geo" : { },
-  "id_str" : "7325945801",
-  "in_reply_to_user_id" : 82363,
-  "text" : "@Silona with a list of prior experience - dates, methods used to slay vampires",
-  "id" : 7325945801,
-  "in_reply_to_status_id" : 7325371677,
-  "created_at" : "2010-01-03 00:00:00 +0000",
-  "in_reply_to_screen_name" : "Silona",
-  "in_reply_to_user_id_str" : "82363",
-  "user" : {
-    "name" : "Kevin Marks",
-    "screen_name" : "kevinmarks",
-    "protected" : false,
-    "id_str" : "57203",
-    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
-    "id" : 57203,
-    "verified" : false
-  }
-}, {
-  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
-  "entities" : {
-    "user_mentions" : [ ],
-    "media" : [ ],
-    "hashtags" : [ ],
-    "urls" : [ ]
-  },
-  "geo" : { },
-  "id_str" : "7326652196",
-  "text" : "\"Psychic? That sounds like science fiction. \" \"You live in a spaceship, dear\"",
-  "id" : 7326652196,
-  "created_at" : "2010-01-03 00:00:00 +0000",
   "user" : {
     "name" : "Kevin Marks",
     "screen_name" : "kevinmarks",
@@ -17142,11 +17002,11 @@ Grailbird.data.tweets_2010_01 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "Joe Smith",
-      "screen_name" : "paulcarr",
+      "name" : "Paul Carr",
+      "screen_name" : "PaulCarr",
       "indices" : [ 0, 9 ],
-      "id_str" : "3225966229",
-      "id" : 3225966229
+      "id_str" : "201568456",
+      "id" : 201568456
     } ],
     "media" : [ ],
     "hashtags" : [ ],
@@ -17156,6 +17016,149 @@ Grailbird.data.tweets_2010_01 =
   "id_str" : "7345481693",
   "text" : "@paulcarr can't you send them to nick Carr?",
   "id" : 7345481693,
+  "created_at" : "2010-01-03 00:00:00 +0000",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/foursquare.com\" rel=\"nofollow\"\u003EFoursquare\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "geo" : { },
+  "id_str" : "7317948787",
+  "text" : "Avatar 3D (@ Camera 7 Pruneyard) http:\/\/4sq.com\/4R8MxC",
+  "id" : 7317948787,
+  "created_at" : "2010-01-03 00:00:00 +0000",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ {
+      "name" : "Kevin Burton",
+      "screen_name" : "burtonator",
+      "indices" : [ 0, 11 ],
+      "id_str" : "62763",
+      "id" : 62763
+    } ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "in_reply_to_status_id_str" : "7325722757",
+  "geo" : { },
+  "id_str" : "7325811178",
+  "in_reply_to_user_id" : 62763,
+  "text" : "@burtonator multi-proc always scales better , as you can take it to multiple machines",
+  "id" : 7325811178,
+  "in_reply_to_status_id" : 7325722757,
+  "created_at" : "2010-01-03 00:00:00 +0000",
+  "in_reply_to_screen_name" : "burtonator",
+  "in_reply_to_user_id_str" : "62763",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ {
+      "name" : "timburks",
+      "screen_name" : "timburks",
+      "indices" : [ 0, 9 ],
+      "id_str" : "7305712",
+      "id" : 7305712
+    } ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "in_reply_to_status_id_str" : "7324298695",
+  "geo" : { },
+  "id_str" : "7325863353",
+  "in_reply_to_user_id" : 7305712,
+  "text" : "@timburks you forgot braveheart - blue-painted rebel speechifying",
+  "id" : 7325863353,
+  "in_reply_to_status_id" : 7324298695,
+  "created_at" : "2010-01-03 00:00:00 +0000",
+  "in_reply_to_screen_name" : "timburks",
+  "in_reply_to_user_id_str" : "7305712",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ {
+      "name" : "Silona",
+      "screen_name" : "Silona",
+      "indices" : [ 0, 7 ],
+      "id_str" : "82363",
+      "id" : 82363
+    } ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "in_reply_to_status_id_str" : "7325371677",
+  "geo" : { },
+  "id_str" : "7325945801",
+  "in_reply_to_user_id" : 82363,
+  "text" : "@Silona with a list of prior experience - dates, methods used to slay vampires",
+  "id" : 7325945801,
+  "in_reply_to_status_id" : 7325371677,
+  "created_at" : "2010-01-03 00:00:00 +0000",
+  "in_reply_to_screen_name" : "Silona",
+  "in_reply_to_user_id_str" : "82363",
+  "user" : {
+    "name" : "Kevin Marks",
+    "screen_name" : "kevinmarks",
+    "protected" : false,
+    "id_str" : "57203",
+    "profile_image_url_https" : "https:\/\/pbs.twimg.com\/profile_images\/826300294136868864\/bB22s4pc_normal.jpg",
+    "id" : 57203,
+    "verified" : false
+  }
+}, {
+  "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
+  "entities" : {
+    "user_mentions" : [ ],
+    "media" : [ ],
+    "hashtags" : [ ],
+    "urls" : [ ]
+  },
+  "geo" : { },
+  "id_str" : "7326652196",
+  "text" : "\"Psychic? That sounds like science fiction. \" \"You live in a spaceship, dear\"",
+  "id" : 7326652196,
   "created_at" : "2010-01-03 00:00:00 +0000",
   "user" : {
     "name" : "Kevin Marks",
@@ -17198,17 +17201,17 @@ Grailbird.data.tweets_2010_01 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "Laura Fitton",
+      "name" : "Laura pls read White Fragility before u @me Fitton",
       "screen_name" : "Pistachio",
       "indices" : [ 0, 10 ],
       "id_str" : "3533231",
       "id" : 3533231
     }, {
-      "name" : "Dr. Mark Drapeau",
+      "name" : "MIX",
       "screen_name" : "cheeky_geeky",
       "indices" : [ 11, 24 ],
-      "id_str" : "14445542",
-      "id" : 14445542
+      "id_str" : "998085637235359744",
+      "id" : 998085637235359744
     }, {
       "name" : "Clive Thompson",
       "screen_name" : "pomeranian99",
@@ -17243,7 +17246,7 @@ Grailbird.data.tweets_2010_01 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "Dave Winer",
+      "name" : "scripting.com",
       "screen_name" : "davewiner",
       "indices" : [ 0, 10 ],
       "id_str" : "3839",
@@ -17298,7 +17301,7 @@ Grailbird.data.tweets_2010_01 =
   "source" : "\u003Ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003ETwitter Web Client\u003C\/a\u003E",
   "entities" : {
     "user_mentions" : [ {
-      "name" : "susan wu",
+      "name" : "sw",
       "screen_name" : "sw",
       "indices" : [ 0, 3 ],
       "id_str" : "893211",
