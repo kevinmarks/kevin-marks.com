@@ -1,0 +1,34 @@
+<html><head><title>Indieweb for Linux Journal</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="fragmention.js"></script>
+<link href="style.css" media="all" rel="stylesheet" type="text/css" />
+<link rel="webmention" href="https://webmention.herokuapp.com/api/webmention" />
+<style>
+.imageblock {display:-webkit-flex;display:flex; flex-wrap: wrap; -webkit-flex-wrap: wrap; justify-content: space-around; -webkit-justify-content: space-around; max-width:100%;}
+figure img {width:100%; max-width:360px;}
+figure figcaption {font-family:"Gill Sans",Roboto,sans}
+</style></head>
+<body>
+<article class="h-entry">
+<h1 class="p-name">Indieweb for Linux Journal <time class="dt-published">2017-11-07</time></h1>
+<div class="e-content">
+<p>As the pernicious effects of handing over our attention to algorithms bent on maximising engagement at all costs become clear, having control over our own writing and reading online becomes vital. The IndieWeb is a community of people who believe the web is ours, and that we should keep it that way.
+<p>If you have your own website, blog or homepage, you are already part of the IndieWeb. If you don't, it's easy to set up your own, whether static pages on hosting, or blog software. But a single site isn't a web. To be part of a the web you. need to connect to people and their websites too. Linking between pages is the 
+</div>
+<a href="/" class="h-card">Kevin Marks</a>
+<p><a href="https://news.indieweb.org/en" class="u-syndication">See IndieNews</a>
+
+</article>
+<script id="webmention-hosted">
+  (function () {
+    var sn = document.createElement("script"), s = document.getElementsByTagName("script")[0], url;
+    url = document.querySelectorAll ? document.querySelectorAll("link[rel~=canonical]") : false;
+    url = url && url[0] ? url[0].href : false;
+    sn.type = "text/javascript"; sn.async = true;
+    sn.src = "//webmention.herokuapp.com/api/embed?version=cutting-edge&url=" + encodeURIComponent(url || window.location);
+    s.parentNode.insertBefore(sn, s);
+  }());
+</script>
+
+</body>
