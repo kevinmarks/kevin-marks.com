@@ -1,0 +1,11 @@
+/* Do not edit or override these styles! The system will likely break if you do. */
+
+div#header, div#footer, div#controls, .slide {position: absolute;}
+.presentation,.slide { display:block; margin:0; padding:0; list-style:none }
+html>body div#header, html>body div#footer, 
+  html>body div#controls, html>body .slide {position: fixed;}
+.handout {display: none;}
+.layout {display: block;}
+.slide, .hideme, .incremental {visibility: hidden;}
+#slide0 {visibility: visible;}
+:link img,:visited img { border:none }

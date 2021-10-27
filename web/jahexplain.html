@@ -1,0 +1,5 @@
+﻿<p>With all the <a href="http://technorati.com/tag/AJAX" rel="tag">AJAX</a> excitement, it's worth pointing out a simple technique I call <a href="http://technorati.com/tag/JAH" rel="tag">JAH</a> - which can be Just Async HTML, or Javascript Async HTML to taste.</p>
+
+<p>This works on the <a href="http://developers.technorati.com/wiki/MicroFormat">microformat</a> principle that XHTML is XML, but with the added advantage that Javascript already knows how to handle XHTML DOM's so no xml parsing is required.</p>
+
+<p>You just include <code>&lt;script language="javascript1.3" src="jah.js" &gt;&lt;/script&gt;</code> in the <code>&lt;head&gt;</code> and then link to dynamic pages with <code>&lt;a href="javascript:jah('kevin.html','<code>target</code>');"&gt;kevin&lt;/a&gt;</code> where <code>target</code> is the <code>id</code> of the HTML element you want to replace.</p>
