@@ -1,0 +1,56 @@
+<html><head><title>Twitter Edits You</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="fragmention.js"></script>
+<link href="style.css" media="all" rel="stylesheet" type="text/css" />
+<link rel="webmention" href="https://webmention.herokuapp.com/api/webmention" />
+<style> blockquote,pre {background:cornsilk;}</style>
+</head>
+<body>
+<article class="h-entry">
+<h1 class="p-name">Twitter Edits You <time class="dt-published">2022-04-06</time></h1>
+<main class="e-content">
+<p>With all the fuss about Twitter's promised edit button, and how they might design it, we're missing a disturbing development 
+— Twitter is using it's embedded javascript to edit other people's sites.
+<p>When a site embeds a tweet like this:
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">we are working on an edit button</p>&mdash; Twitter (@Twitter) <a href="https://twitter.com/Twitter/status/1509951255388504066?ref_src=twsrc%5Etfw">April 1, 2022</a></blockquote> 
+<p> the code looks like this:
+<pre>&lt;blockquote class="twitter-tweet"&gt;
+&lt;p lang="en" dir="ltr"&gt;we are working on an edit button&lt;/p&gt;
+&mdash; Twitter (@Twitter) &lt;a href="https://twitter.com/Twitter/status/1509951255388504066?ref_src=twsrc%5Etfw"&gt;April 1, 2022&lt;/a&gt;
+&lt;/blockquote&gt; 
+&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+</pre>
+<p>That <code>widgets.js</code> script looks for blockquotes with the <code>class="twitter-tweet"</code> on, 
+and replaces them with a Twitter branded iframe to confirm that it is a real tweet (and encourage you to click through to Twitter).
+<p>Without the script it would look like this:
+<blockquote class="not-twitter-tweet"><p lang="en" dir="ltr">we are working on an edit button</p>&mdash; Twitter (@Twitter) <a href="https://twitter.com/Twitter/status/1509951255388504066?ref_src=twsrc%5Etfw">April 1, 2022</a></blockquote> 
+<p>Until recently, if the tweet or account had been deleted, then Twitter would leave the blockquote alone, so the embedded text would still show, but without Twitter's validation.
+<p>This was by design, so that the act of quoting would still work. As Ben Ward, who wrote the orginal code said:
+<blockquote class="twitter-tweet" data-conversation="none"><p lang="en" dir="ltr"><a href="https://twitter.com/benward?ref_src=twsrc%5Etfw">@BenWard</a> what happens if you embed a tweet and the user deletes it? does it show up as blank &quot;linkrot&quot; on your site, then?</p>&mdash; Ariel Waldman (@arielwaldman) <a href="https://twitter.com/arielwaldman/status/144855414633271296?ref_src=twsrc%5Etfw">December 8, 2011</a></blockquote>
+<blockquote class="twitter-tweet" data-conversation="none"><p lang="en" dir="ltr"><a href="https://twitter.com/arielwaldman?ref_src=twsrc%5Etfw">@arielwaldman</a> The embed code is a &lt;blockquote&gt; containing the Tweet content. If it&#39;s deleted, or 1000 years in the future, the text remains.</p>&mdash; Ben (@benward) <a href="https://twitter.com/benward/status/144855762836013056?ref_src=twsrc%5Etfw">December 8, 2011</a></blockquote> 
+<p>And the API documentation still <a href="https://developer.twitter.com/en/docs/twitter-for-websites/embedded-tweets/faq">says this</a>:
+<img src="embed-api-delete.png">
+<p>However, Twitter has broken this API contract. Here's a tweet that was deleted:
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Personally, the most frustrating part of Reddoric™ is how desperately it needs to create false, reductionist binaries to work.</p>&mdash; holly wood (@girlziplocked) <a href="https://twitter.com/girlziplocked/status/693537287297114112">January 30, 2016</a></blockquote>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">In Soviet Russia, Twitter edits you.</p>&mdash; Kevin Marks (@kevinmarks) <a href="https://twitter.com/kevinmarks/status/1511531902385197062">April 6, 2022</a></blockquote>
+<p>Notice that it doesn't show as a blockquote fallback, but as an empty white blob. Twitter is not confirming the tweet, but it is erasing my citation of it.
+<p>Twitter has used it's javascript to edit my webpage text.
+
+<blockquote class="twitter-tweet" data-conversation="none"><p lang="en" dir="ltr">Steven Pinker's books are like "people say that life is unjust and intolerable under neoliberal capitalism. But in fact, mean global consumption of fruit-by-the-foot is up 300x when compared to our 19th century counterparts"</p>&mdash; chris marks (@christophamarks) <a href="https://twitter.com/christophamarks/status/1274635073367744512">December 8, 2011</a></blockquote> 
+</main>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+</article>
+<script id="webmention-hosted">
+  (function () {
+    var sn = document.createElement("script"), s = document.getElementsByTagName("script")[0], url;
+    url = document.querySelectorAll ? document.querySelectorAll("link[rel~=canonical]") : false;
+    url = url && url[0] ? url[0].href : false;
+    sn.type = "text/javascript"; sn.async = true;
+    sn.src = "//webmention.herokuapp.com/api/embed?version=cutting-edge&url=" + encodeURIComponent(url || window.location);
+    s.parentNode.insertBefore(sn, s);
+  }());
+</script>
+
+</body>
