@@ -4,7 +4,7 @@
 <script src="fragmention.js"></script>
 <link href="style.css" media="all" rel="stylesheet" type="text/css" />
 <link rel="webmention" href="https://webmention.herokuapp.com/api/webmention" />
-<style> blockquote,pre {background:cornsilk;} img {max-width:100%;}</style>
+<style> blockquote,pre {background:cornsilk;} img {max-width:100%;} pre {font-size:0.8em;}</style>
 <link rel="canonical" href="http://www.kevinmarks.com/twittereditsyou.html" />
 <meta name="twitter:card" content="summary">
 <meta name="twitter:site" content="@kevinmarks">
@@ -25,22 +25,25 @@
 <h1 class="p-name">Twitter Edits You <time class="dt-published">2022-04-06</time></h1>
 <main class="e-content">
 <p>With all the fuss about Twitter’s promised edit button, and how they might design it, we’re missing a disturbing development 
-— Twitter is using its embedded javascript to edit other people's sites.
+— Twitter is using its embedded javascript to edit other people‘s sites.
 <p>When a site embeds a tweet like this:
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">we are working on an edit button</p>&mdash; Twitter (@Twitter) <a href="https://twitter.com/Twitter/status/1509951255388504066?ref_src=twsrc%5Etfw">April 1, 2022</a></blockquote> 
 <p> the code looks like this:
 <pre>&lt;blockquote class="twitter-tweet"&gt;
 &lt;p lang="en" dir="ltr"&gt;we are working on an edit button&lt;/p&gt;
-&mdash; Twitter (@Twitter) &lt;a href="https://twitter.com/Twitter/status/1509951255388504066?ref_src=twsrc%5Etfw"&gt;April 1, 2022&lt;/a&gt;
+&mdash; Twitter (@Twitter) 
+&lt;a href="https://twitter.com/Twitter/status/1509951255388504066"&gt;
+April 1, 2022&lt;/a&gt;
 &lt;/blockquote&gt; 
-&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;
+&lt;/script&gt;
 </pre>
 <p>That <code>widgets.js</code> script looks for blockquotes with the <code>class="twitter-tweet"</code> on, 
-and replaces them with a Twitter branded iframe to confirm that it is a real tweet (and encourage you to click through to Twitter).
+and replaces them with a Twitter-branded iframe to confirm that it is a real tweet (and to encourage you to click through to Twitter).
 <p>Without the script it would look like this:
 <blockquote class="not-twitter-tweet"><p lang="en" dir="ltr">we are working on an edit button</p>&mdash; Twitter (@Twitter) <a href="https://twitter.com/Twitter/status/1509951255388504066?ref_src=twsrc%5Etfw">April 1, 2022</a></blockquote> 
 <p>Until recently, if the tweet or account had been deleted, then Twitter would leave the blockquote alone, so the embedded text would still show, but without Twitter’s validation.
-<p>This was by design, so that the act of quoting would still work. As Ben Ward, who wrote the orginal code said:
+<p>This was by design, so that the act of quoting would still work. As Ben Ward, who wrote the original code said:
 <blockquote class="twitter-tweet" data-conversation="none"><p lang="en" dir="ltr"><a href="https://twitter.com/benward?ref_src=twsrc%5Etfw">@BenWard</a> what happens if you embed a tweet and the user deletes it? does it show up as blank &quot;linkrot&quot; on your site, then?</p>&mdash; Ariel Waldman (@arielwaldman) <a href="https://twitter.com/arielwaldman/status/144855414633271296?ref_src=twsrc%5Etfw">December 8, 2011</a></blockquote>
 <blockquote class="twitter-tweet" data-conversation="none"><p lang="en" dir="ltr"><a href="https://twitter.com/arielwaldman?ref_src=twsrc%5Etfw">@arielwaldman</a> The embed code is a &lt;blockquote&gt; containing the Tweet content. If it&#39;s deleted, or 1000 years in the future, the text remains.</p>&mdash; Ben (@benward) <a href="https://twitter.com/benward/status/144855762836013056?ref_src=twsrc%5Etfw">December 8, 2011</a></blockquote> 
 <p>And the API documentation still <a href="https://developer.twitter.com/en/docs/twitter-for-websites/embedded-tweets/faq">says this</a>:
