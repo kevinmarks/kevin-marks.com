@@ -4,7 +4,7 @@
 <script src="fragmention.js"></script>
 <link href="style.css" media="all" rel="stylesheet" type="text/css" />
 <link rel="webmention" href="https://webmention.herokuapp.com/api/webmention" />
-<style> blockquote,pre {background:cornsilk;}</style>
+<style> blockquote,pre {background:cornsilk;} img {max-width:100%;}</style>
 </head>
 <body>
 <article class="h-entry">
@@ -34,9 +34,15 @@ and replaces them with a Twitter branded iframe to confirm that it is a real twe
 <p>However, Twitter has broken this API contract. Here's a tweet that I deleted:
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">In Soviet Russia, Twitter edits you.</p>&mdash; Kevin Marks (@kevinmarks) <a href="https://twitter.com/kevinmarks/status/1511531902385197062">April 6, 2022</a></blockquote>
 <p>Notice that it doesn't show as a blockquote fallback, but as an empty white blob. Twitter is not confirming the tweet, but it is erasing my citation of it.
-<p>Twitter has used it's javascript to edit my webpage text.
-
-<blockquote class="twitter-tweet" data-conversation="none"><p lang="en" dir="ltr">Steven Pinker's books are like "people say that life is unjust and intolerable under neoliberal capitalism. But in fact, mean global consumption of fruit-by-the-foot is up 300x when compared to our 19th century counterparts"</p>&mdash; chris marks (@christophamarks) <a href="https://twitter.com/christophamarks/status/1274635073367744512">December 8, 2011</a></blockquote> 
+<p>Twitter has used it's javascript to edit my webpage text. When I pointed this out to Twitter Engineering:
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Here&#39;s an old example post of mine. Notice how the 2 deleted tweets are blank, making nonsense of the narrative: <a href="https://t.co/6exFMCeS0Y">https://t.co/6exFMCeS0Y</a><br>It first looked like this, then showed deleted ones as HTML, now it&#39;s blobs. <a href="https://t.co/eYw1hx5jYk">pic.twitter.com/eYw1hx5jYk</a></p>&mdash; Kevin Marks (@kevinmarks) <a href="https://twitter.com/kevinmarks/status/1508754959591956481?ref_src=twsrc%5Etfw">March 29, 2022</a></blockquote>
+<p>The response was that this was 'to better respect when people have chosen to delete their Tweets':
+<blockquote class="twitter-tweet" data-conversation="none"><p lang="en" dir="ltr">Hey Kevin! We&#39;re doing this to better respect when people have chosen to delete their Tweets. Very soon it&#39;ll have better messaging that explains why the content is no longer available :) my DMs are open if you&#39;d like to chat more about this</p>&mdash; Eleanor Harding (@tweetanor) <a href="https://twitter.com/tweetanor/status/1508876355873738752?ref_src=twsrc%5Etfw">March 29, 2022</a></blockquote>
+<p> This is tampering with the public record. Any news article that cited a tweet from the former president,  <a href="https://www.vox.com/policy-and-politics/2018/4/13/17233422/donald-trump-james-comey-twitter-slime-ball">like this vox one</a>, will now have an incoherent hole in it:
+<img src="comeyhole.png">
+<p>Rather than the cited text:
+<img src="comeyfallback.png">
+<p>I don't think Twitter should edit other people's webpages to remove tweets that have subsequently been deleted. Do you?
 </main>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
