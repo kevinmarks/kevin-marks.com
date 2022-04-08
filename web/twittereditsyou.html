@@ -60,6 +60,11 @@ and replaces them with a Twitter-branded iframe to confirm that it is a real twe
 <p>Rather than the cited text:
 <img src="comeyfallback.png">
 <p>I don’t think Twitter should edit other people’s webpages to remove tweets that have subsequently been deleted. Do you?
+<h4>Update <time class="dt-updated">2022-04-08</time></h4>
+<p>Mark Jaquith has a protection script that runs before Twitter’s, checks for deleted or hidden tweets and removes the <code>class="twitter-tweet"</code> from the blockquotes so they don’t get stomped.
+<blockquote class="twitter-tweet" data-conversation="none" data-cards="hidden"><p lang="en" dir="ltr">Yep! Unfortunately they use CORS so I had to proxy that check through a Cloudflare Worker. Here&#39;s a proof of concept of a Tweet Saver script that only renders tweets that still exist. 404 ones will keep the blockquote. <a href="https://codepen.io/markjaquith/pen/gOovNPR?editors=1010">https://codepen.io/markjaquith/pen/gOovNPR?editors=1010</a></p>&mdash; Mark Jaquith (@markjaquith) <a href="https://twitter.com/markjaquith/status/1512156984774213639?ref_src=twsrc%5Etfw">April 7, 2022</a></blockquote> 
+<blockquote class="twitter-tweet" data-conversation="none"><p lang="en" dir="ltr">Happy to be of service (this decision by them really annoyed me).<br><br>Here’s the source of the Worker: <a href="https://github.com/markjaquith/stabletweet/">https://github.com/markjaquith/stabletweet/</a></p>&mdash; Mark Jaquith (@markjaquith) <a href="https://twitter.com/markjaquith/status/1512201578203291654?ref_src=twsrc%5Etfw">April 7, 2022</a></blockquote> 
+
 </main>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 <footer>
