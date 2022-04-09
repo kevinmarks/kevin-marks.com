@@ -4,7 +4,8 @@
 <script src="fragmention.js"></script>
 <link href="style.css" media="all" rel="stylesheet" type="text/css" />
 <link rel="webmention" href="https://webmention.herokuapp.com/api/webmention" />
-<style> blockquote,pre {background:cornsilk;} img {max-width:100%;} pre {font-size:calc(min(2vw,1rem));}</style>
+<style> blockquote,pre {background:cornsilk;} img {max-width:100%;} pre {font-size:calc(min(2vw,1rem));}
+.update {background: #fffae7; border: darkolivegreen 1px dashed;}</style>
 <link rel="canonical" href="http://www.kevinmarks.com/twittereditsyou.html" />
 <meta name="twitter:card" content="summary">
 <meta name="twitter:site" content="@kevinmarks">
@@ -51,6 +52,11 @@ and replaces them with a Twitter-branded iframe to confirm that it is a real twe
 <p>However, Twitter has broken this API contract. Here’s a tweet that I deleted:
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">In Soviet Russia, Twitter edits you.</p>&mdash; Kevin Marks (@kevinmarks) <a href="https://twitter.com/kevinmarks/status/1511531902385197062">April 6, 2022</a></blockquote>
 <p>Notice that it doesn’t show as a blockquote fallback, but as an empty white blob. Twitter is not confirming the tweet, but it is erasing my citation of it.
+<div class="update"><h4>Update <time class="dt-updated">2022-04-09</time></h4>
+<p>Twitter has now reverted the change. <q>“[W]e’re rolling back this change for now while we explore different options” Twitter spokesperson Remi Duhé said</q> according to <a href="https://www.theverge.com/2022/4/9/23018126/twitter-reverts-change-left-blank-spaces-websites-embedded-tweets">Emma Roth of The Verge</a>.
+<p> Before this, the tweet above looked like this:
+<div  style="display: flex; max-width: 550px; width: 100%; margin-top: 10px; margin-bottom: 10px;"><img src="whiteblog.png" ></div>
+</div>
 <p>Twitter has used its javascript to edit my webpage text. When I pointed this out to Twitter Engineering:
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Here&#39;s an old example post of mine. Notice how the 2 deleted tweets are blank, making nonsense of the narrative: <a href="https://t.co/6exFMCeS0Y">https://t.co/6exFMCeS0Y</a><br>It first looked like this, then showed deleted ones as HTML, now it&#39;s blobs. <a href="https://t.co/eYw1hx5jYk">pic.twitter.com/eYw1hx5jYk</a></p>&mdash; Kevin Marks (@kevinmarks) <a href="https://twitter.com/kevinmarks/status/1508754959591956481?ref_src=twsrc%5Etfw">March 29, 2022</a></blockquote>
 <p>The response was that this was “to better respect when people have chosen to delete their Tweets”:
@@ -60,12 +66,13 @@ and replaces them with a Twitter-branded iframe to confirm that it is a real twe
 <p>Rather than the cited text:
 <img src="comeyfallback.png">
 <p>I don’t think Twitter should edit other people’s webpages to remove tweets that have subsequently been deleted. Do you?
-<h4>Update <time class="dt-updated">2022-04-08</time></h4>
+<div class="update"><h4>Update <time class="dt-updated">2022-04-08</time></h4>
 <p>Mark Jaquith has a protection script that runs before Twitter’s, checks for deleted or hidden tweets and removes the <code>class="twitter-tweet"</code> from the blockquotes so they don’t get stomped.
 <blockquote class="twitter-tweet" data-conversation="none" data-cards="hidden"><p lang="en" dir="ltr">Yep! Unfortunately they use CORS so I had to proxy that check through a Cloudflare Worker. Here&#39;s a proof of concept of a Tweet Saver script that only renders tweets that still exist. 404 ones will keep the blockquote. <a href="https://codepen.io/markjaquith/pen/gOovNPR?editors=1010">https://codepen.io/markjaquith/pen/gOovNPR?editors=1010</a></p>&mdash; Mark Jaquith (@markjaquith) <a href="https://twitter.com/markjaquith/status/1512156984774213639?ref_src=twsrc%5Etfw">April 7, 2022</a></blockquote> 
 <blockquote class="twitter-tweet" data-conversation="none"><p lang="en" dir="ltr">Happy to be of service (this decision by them really annoyed me).<br><br>Here’s the source of the Worker: <a href="https://github.com/markjaquith/stabletweet/">https://github.com/markjaquith/stabletweet/</a></p>&mdash; Mark Jaquith (@markjaquith) <a href="https://twitter.com/markjaquith/status/1512201578203291654?ref_src=twsrc%5Etfw">April 7, 2022</a></blockquote> 
 <p>I spoke to Tech News Weekly about this:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/BJS6kS-_Hog?start=240" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+</div>
 </main>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 <footer>
