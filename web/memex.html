@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><title>The Quest for a Memex</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="fragmention.js"></script>
+<script src="hovercards.js"></script>
+<link href="style.css" media="all" rel="stylesheet" type="text/css" />
+<style>
+body {
+  display: grid;
+  grid-template-rows: 1.5em auto 1.5em ;
+  grid-template-columns: 1fr auto 1fr;
+  grid-column-gap:.25rem;
+  grid-row-gap:.25rem;
+  grid-template-areas: 
+    'h h h'
+    'w t l'
+    'f f f' 
+    ;
+  height:100%;
+}
+header {grid-area:h; background:aliceblue;}
+article {grid-area:t; background:ivory;}
+aside {grid-area:w; background:bisque;}
+section {grid-area:l; background:lightgoldenrodyellow;}
+footer {grid-area:f; background:lavenderblush;}
+</style>
+<link rel="webmention" href="https://webmention.herokuapp.com/api/webmention" />
+</head>
+<body>
+<header>Experimenting with a memex</header>
+<article class="h-entry">
+<h1 class="p-name">The Quest for a Memex <time class="dt-published">2022-07-31</time></h1>
+<div class="e-content">
+<p>One of the oldest ideas for a hypertext machine is the Memex, from Vannevar Bush's <a href="https://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/">1945 Atlantic article “As We May Think”</a> where he almost describes Social Media and the problem of feed overload:
+    <blockquote><p>Such machines will have enormous appetites. One of them will take instructions and data from a whole roomful of girls armed with simple key board punches, and will deliver sheets of computed results every few minutes. There will always be plenty of things to compute in the detailed affairs of millions of people doing complicated things. </blockquote>
+<p>But what he was really wanting was a kind of <a href="https://indieweb.org/Zettelk%C3%A4sten">Zettelkästen</a>:
+    <blockquote><p>Consider a future device for individual use, which is a sort of mechanized private file and library. It needs a name, and, to coin one at random, "memex" will do. A memex is a device in which an individual stores all his books, records, and communications, and which is mechanized so that it may be consulted with exceeding speed and flexibility. It is an enlarged intimate supplement to his memory.</p>[…]<p>As he has several projection positions, he can leave one item in position while he calls up another. He can add marginal notes and comments,</p></blockquote>
+    <p>And once he had this, he wanted to make links, whcih he called trails (think tagging multiple items):<blockquote>…a provision whereby any item may be caused at will to select immediately and automatically another. This is the essential feature of the memex. The process of tying two items together is the important thing.
+
+        <p></p>When the user is building a trail, he names it, inserts the name in his code book, and taps it out on his keyboard. Before him are the two items to be joined, projected onto adjacent viewing positions. At the bottom of each there are a number of blank code spaces, and a pointer is set to indicate one of these on each item. The user taps a single key, and the items are permanently joined. In each code space appears the code word. </blockquote></p>
+</p>
+</div>
+</article>
+<aside><h2>Inbound</h2><script id="webmention-hosted">
+  (function () {
+    var sn = document.createElement("script"), s = document.getElementsByTagName("script")[0], url;
+    url = document.querySelectorAll ? document.querySelectorAll("link[rel~=canonical]") : false;
+    url = url && url[0] ? url[0].href : false;
+    sn.type = "text/javascript"; sn.async = true;
+    sn.src = "//webmention.herokuapp.com/api/embed?version=cutting-edge&url=" + encodeURIComponent(url || window.location);
+    s.parentNode.insertBefore(sn, s);
+  }());
+</script>
+</aside>
+<section><h2>Outbound</h2></section>
+<footer>An experiment by Kevin Marks</footer>
+</body>
+</html>
