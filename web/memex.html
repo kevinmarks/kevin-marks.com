@@ -25,6 +25,37 @@ article {grid-area:t; background:ivory;}
 aside {grid-area:w; background:bisque; font-style: normal;}
 section {grid-area:l; background:lightgoldenrodyellow;}
 footer {grid-area:f; background:lavenderblush;}
+.indiecard {
+  padding:.25rem;
+  box-shadow:0 1px 2px #aaa;
+  background:white;
+  font-size: smaller;
+  max-width:25em;
+  margin:0 1rem 1rem;
+  border-radius:3px;
+  user-select:none;
+  animation:fly-in-from-left .5s 1s ease both;
+  transform-origin:top left;
+}
+.indiecard:nth-child(even){
+  animation-name:fly-in-from-right;
+  animation-delay:1.1s;
+ transform-origin:top right;
+}
+.indiecard h1 {font-size: 1rem;text-decoration: none;}
+@keyframes fly-in-from-left {
+  from {
+    transform:translateY(15rem) rotate(15deg);
+    opacity:0;
+  }
+}
+
+@keyframes fly-in-from-right {
+  from {
+    transform:translateY(15rem) rotate(-15deg);
+    opacity:0;
+  }
+}
 </style>
 <link rel="webmention" href="https://webmention.herokuapp.com/api/webmention" />
 </head>
@@ -56,7 +87,25 @@ footer {grid-area:f; background:lavenderblush;}
   }());
 </script>
 </aside>
-<section><h2>Outbound</h2></section>
+<section><h2>Outbound</h2>
+    <div class="h-entry indiecard ">
+        <div class="webmention-author"><a href="https://medium.com/@Borthwick"><img loading="lazy" src="https://miro.medium.com/fit/c/96/96/0*omUm_GJ10LV6j590.jpeg" class="webmention-error">John Borthwick</a></div>
+        <h1><a class="u-url p-name fn" href="https://render.betaworks.com/thinkcamp-a-betaworks-accelerator-program-for-tools-for-thinking-de7e18bf5682">Tools for Thinking: a Conference and a Camp</a></h1>
+        
+        <p class="p-summary summary">For many people their primary tool for thinking is a writing tool since writing itself is a tool for thought. Writing documents, note taking and memorization tools made up much of the first generation of tools for thinking
+    </div>
+    <div class="h-entry indiecard ">
+        <div class="webmention-author"><a href="https://en.wikipedia.org/wiki/Vannevar_Bush"><img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Vannevar_Bush_portrait.jpg/440px-Vannevar_Bush_portrait.jpg" class="webmention-error">Vannevar Bush</a></div>
+        <h1><a class="u-url p-name fn" href="https://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/">As We May Think</a></h1>
+        
+        <p class="p-summary summary">For years inventions have extended man's physical powers rather than the powers of his mind. Trip hammers that multiply the fists, microscopes that sharpen the eye, and engines of destruction and detection are new results, but not the end results, of modern science. Now, says Dr. Bush, instruments are at hand which, if properly developed, will give man access to and command over the inherited knowledge of the ages. The perfection of these pacific instruments should be the first objective of our scientists as they emerge from their war work.
+    </div>
+    <div class="h-entry indiecard ">
+        <h1><a class="u-url p-name fn" href="https://indieweb.org/Zettelk%C3%A4sten">Zettelkästen</a></h1>
+        
+        <p class="p-summary summary">A zettelkasten is note taking system featuring atomic notes which are densely interlinked and are used primarily for writing and acting as an external memory.
+    </div>
+    </section>
 <footer>An experiment by Kevin Marks</footer>
 </body>
 </html>
