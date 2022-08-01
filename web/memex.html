@@ -45,10 +45,11 @@ footer {grid-area:f; background:lavenderblush;}
  transform-origin:top right;
 }
 .indiecard h1 {
-    font-size: 1rem;text-decoration: none;
+    font-size: 1rem;
     margin-block-start: 0.2em;
     margin-block-end: 0.2em;
 }
+.indiecard a {text-decoration: none;}
 @keyframes fly-in-from-left {
   from {
     transform:translateY(15rem) rotate(15deg);
@@ -82,6 +83,7 @@ footer {grid-area:f; background:lavenderblush;}
         <p>When the user is building a trail, he names it, inserts the name in his code book, and taps it out on his keyboard. Before him are the two items to be joined, projected onto adjacent viewing positions. At the bottom of each there are a number of blank code spaces, and a pointer is set to indicate one of these on each item. The user taps a single key, and the items are permanently joined. In each code space appears the code word. </blockquote>
 <p>This made me think about making a new view of a post, where the inbound and outbound links are shown in the margins of the page, and the flow is more dynamic. The inbound links can be found with <a href="https://indieweb.org/Webmention">Webmention</a>, which is already here, but scanning the outbound links and making previews for them is a separate task. It seems related though - if a webmention tool can provide a prevew for inbound lnks, why not for outbound ones too?
 <p>So, I'm going to try to revive my mention-tech toolkit to do this, but the Yak shaving involved there is to  port it from Appengine Python 2.7 to new AppEngine, and there are lots of fiddly steps involved.
+    <p>This page is a mock-up — the left colun is using my existing <a href="https://webmention.herokuapp.com">webmention handler</a>, and the right column is hand made for now.</p>
 </div>
 </article>
 <aside><h2>Inbound</h2><script id="webmention-hosted">
@@ -119,8 +121,13 @@ footer {grid-area:f; background:lavenderblush;}
         
         
         <p class="p-summary summary">Webmention is a web standard for conversations and interactions across the web, a powerful building block used for a growing distributed network of peer-to-peer comments, likes, reposts, and other responses across the web.</p>
-</div>
-    </section>
+    </div>
+    <div class="h-x-app indiecard">
+        <h1>
+        <a class="u-url p-name fn" href="https://webmention.herokuapp.com/">A WebMention Endpoint</a></h1>
+        <p class="p-summary summary">Easily accept and embed WebMentions on all type of sites</p>
+    </div>
+</section>
 <footer>An experiment by Kevin Marks</footer>
 </body>
 </html>
