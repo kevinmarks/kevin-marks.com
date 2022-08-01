@@ -25,11 +25,13 @@ article {grid-area:t; background:ivory;}
 aside {grid-area:w; background:bisque; font-style: normal;}
 section {grid-area:l; background:lightgoldenrodyellow;}
 footer {grid-area:f; background:lavenderblush;}
+.webmention-container {font-size: 0.8em;}
+.webmention-mention {box-shadow:0 1px 2px #aaa; background:white;}
 .indiecard {
   padding:.25rem;
   box-shadow:0 1px 2px #aaa;
   background:white;
-  font-size: smaller;
+  font-size: 0.8em;
   max-width:25em;
   margin:0 1rem 1rem;
   border-radius:3px;
@@ -42,7 +44,11 @@ footer {grid-area:f; background:lavenderblush;}
   animation-delay:1.1s;
  transform-origin:top right;
 }
-.indiecard h1 {font-size: 1rem;text-decoration: none;}
+.indiecard h1 {
+    font-size: 1rem;text-decoration: none;
+    margin-block-start: 0.2em;
+    margin-block-end: 0.2em;
+}
 @keyframes fly-in-from-left {
   from {
     transform:translateY(15rem) rotate(15deg);
@@ -84,7 +90,7 @@ footer {grid-area:f; background:lavenderblush;}
     url = document.querySelectorAll ? document.querySelectorAll("link[rel~=canonical]") : false;
     url = url && url[0] ? url[0].href : false;
     sn.type = "text/javascript"; sn.async = true;
-    sn.src = "//webmention.herokuapp.com/api/embed?version=cutting-edge&url=" + encodeURIComponent(url || window.location);
+    sn.src = "//webmention.herokuapp.com/api/embed?version=cutting-edge&url=" + encodeURIComponent(url || window.location)+"&url=https://kevinmarks.com/memex.html";
     s.parentNode.insertBefore(sn, s);
   }());
 </script>
