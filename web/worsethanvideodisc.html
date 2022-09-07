@@ -1,0 +1,50 @@
+<html><head><title>Worse than Videodiscs?</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="fragmention.js"></script>
+    <link href="style.css" media="all" rel="stylesheet" type="text/css" />
+    <link rel="webmention" href="https://webmention.herokuapp.com/api/webmention" />
+    </head>
+    <body>
+    <article class="h-entry">
+    <h1 class="p-name">Worse than Videodiscs? <time class="dt-published">2022-09-07</time></h1>
+    <main class="e-content">
+        <p>Terence Eden has written a <a href="https://shkspr.mobi/blog/2022/09/writing-an-app-is-like-coding-for-laserdisc/">post</a> today looking back on a claim by Jeremy Keith in 2011</p>
+        <blockquote><p>11 years ago to the day, I was at a tech conference. It was 3 year after the iPhone had launched its app SDK. Those of us who had been in the mobile game a while had already spent years developing apps for Symbian, BlackBerry, Windows CE, and at least a dozen other OSes which I've since scrubbed from my memory.
+<p>But apps were the hip "new" thing, apparently. And there were a lot of people who were passionately invested in the idea the Steve Jobs™️ would save us all.
+<p>And, some of us, thought this was bunkum. With this memorable comparison being made:
+
+    <blockquote class="twitter-tweet"><p lang="en" dir="ltr">.<a href="https://twitter.com/adactio?ref_src=twsrc%5Etfw">@adactio</a> &quot;writing an app is like coding for LaserDisc&quot;<a href="https://twitter.com/aral?ref_src=twsrc%5Etfw">@Aral</a>: &quot;that&#39;s not fair!&quot;<a href="https://twitter.com/adactio?ref_src=twsrc%5Etfw">@adactio</a>: &quot;give it time&quot;<br>*audience applauds*<a href="https://twitter.com/hashtag/update2011?src=hash&amp;ref_src=twsrc%5Etfw">#update2011</a></p>&mdash; Terence Eden (@edent) <a href="https://twitter.com/edent/status/110664429921771520?ref_src=twsrc%5Etfw">September 5, 2011</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+11 years later, and I think Jeremy Keith (@adactio) was right.
+</blockquote>
+<p>Now, I am old enough to have coded for LaserDiscs - I worked at the BBC Interactive Television Unit that had built the Domesday Project, and
+     later at the MultiMedia Corporation that it became after spinning out from the BBC. I built museum installations that used multiple lasrdisc players to provide widescreen interactive TV. 
+     I also worked on porting one of the BBC Laserdiscs to CD-ROM, and worked on CD-ROM native titles like 3D Atlas.</p>
+     <p>The thing is, the Domesday project, and CD-ROMs, because they were standalone, can still be run through emulation. There is a <a href="https://domesday.computinghistory.org.uk/">full emulation available:</a></p>
+     <img src="domesdayemu.png" />
+     <p>Web pages are still available, and are archived by the Internet Archive as Terry says, but Videodics and CD-ROMs are too. 
+        You can download an ISO image of <a href="https://archive.org/details/Electronic_Arts_3D_Atlas_Version_1.1_Macintosh_CRDM1244300_Electronic_Arts_1994">3D Atlas 1.1</a>, which I also worked on at MMC in 1993-4,
+         and run it in an emulator. </p>
+         <img src="3datlashome.png" width="640" />
+         <img src="3datlasstats.png" width="640" />
+    <p>They also have <a href="https://archive.org/details/apkarchive">Android</a> binaries too, which you may be able to run in emulation, if they're sufficiently standalone.
+    <p>The standalone part is the rub - most iOS and Android apps are in effect specialised browsers that only work with a single site, and depend on server-side code to be running.
+        A lot of websites do too, and the Internet Archive can't capture the server-side logic of these more complex sites, so they get added to the <a href="https://indieweb.org/site-deaths">Site Deaths</a> pile too.
+    <p>Even sites where the server-side code is available can wind up undeployable as their dependencies vanish from npm or if they overbuilt using the React SPA worldview.</p>
+    <p>If you want <a href="https://indieweb.org/longevity">longevity</a>, you need to code with it in mind and have a statically servable fallback. Which isn't a contradiction of what Terry and Jeremy are saying, but taking on board Alex's advice too.</p>
+    <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Upcoming conference talks have me once again thinking about the ways in which the frontend community has entirely lost the plot.<br><br>Until and unless you have hard data of long sessions with many &quot;fiddly&quot; interactions, your content should *not* be an &quot;SPA&quot; or JS-first. <a href="https://t.co/H5FCYNpfo4">https://t.co/H5FCYNpfo4</a></p>&mdash; Alex Russell (@slightlylate) <a href="https://twitter.com/slightlylate/status/1567184926038183938?ref_src=twsrc%5Etfw">September 6, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <pclass="p-summary">So Videodiscs aren't the worst things to archive, networks of servers running code that isn't available or archivable are, and we are building a lot more of those these days, whether onthe web or in apps.</p>
+    </main>
+    </article>
+    <script id="webmention-hosted">
+      (function () {
+        var sn = document.createElement("script"), s = document.getElementsByTagName("script")[0], url;
+        url = document.querySelectorAll ? document.querySelectorAll("link[rel~=canonical]") : false;
+        url = url && url[0] ? url[0].href : false;
+        sn.type = "text/javascript"; sn.async = true;
+        sn.src = "//webmention.herokuapp.com/api/embed?version=cutting-edge&url=" + encodeURIComponent(url || window.location);
+        s.parentNode.insertBefore(sn, s);
+      }());
+    </script>
+    
+    </body>
