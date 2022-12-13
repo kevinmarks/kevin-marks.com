@@ -2,7 +2,7 @@
   "name": "kevin-marks",
   "version": "0.0.2",
   "dependencies": {
-    "express": "4.17.1"
+    "express": "4.17.3"
   },
   "engines": {
     "node": "10.x",
