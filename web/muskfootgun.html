@@ -1,0 +1,48 @@
+<html><head><title>Twitter shoots itself in the foot</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="fragmention.js"></script>
+    <link href="style.css" media="all" rel="stylesheet" type="text/css" />
+    <link rel="webmention" href="https://webmention.herokuapp.com/api/webmention" />
+    <style> blockquote,pre {background:cornsilk;} img {max-width:100%;} pre {font-size:calc(min(2vw,1rem));}
+    .update {background: #fffae7; border: darkolivegreen 1px dashed;}</style>
+    <link rel="canonical" href="http://www.kevinmarks.com/muskfootgun.html" />
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@kevinmarks">
+    <meta name="twitter:creator" content="@kevinmarks">
+    <meta name="twitter:title" content="Twitter shoots itself in the foot ">
+    <meta name="twitter:description" content="Twitter is now rate limiting users, because it has DDoSed itself with its own website and app.">
+    <meta property="twitter:url"                content="http://www.kevinmarks.com/muskfootgun.html" />
+    
+    <meta property="og:url"                content="http://www.kevinmarks.com/muskfootgun.html" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Twitter shoots itself in the foot" />
+    <meta property="og:description" content="Twitter is now rate limiting users, because it has DDoSed itself with its own website and app." />
+    
+    
+    </head>
+    <body>
+    <article class="h-entry">
+    <h1 class="p-name">Twitter shoots itself in the foot <time class="dt-published">2023-07-01</time></h1>
+    <main class="e-content">
+    <blockquote class="twitter-tweet"><p lang="en" dir="ltr">To address extreme levels of data scraping &amp; system manipulation, we’ve applied the following temporary limits:<br><br>- Verified accounts are limited to reading 6000 posts/day<br>- Unverified accounts to 600 posts/day<br>- New unverified accounts to 300/day</p>&mdash; Elon Musk (@elonmusk) <a href="https://twitter.com/elonmusk/status/1675187969420828672?ref_src=twsrc%5Etfw">July 1, 2023</a></blockquote>
+    <a href="https://sfba.social/@sysop408/110639435788921057">Sheldon Chang</a> shows that this is likely related to Twitters client app and website continuously retrying fetches to twitter that it is itself denying.
+    </main>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <footer>
+    Want to improve this page? <a href="https://github.com/kevinmarks/kevin-marks.com/edit/master/web/muskfootgun.html">Edit it here</a>
+    </footer>
+    </article>
+    
+    <script id="webmention-hosted">
+      (function () {
+        var sn = document.createElement("script"), s = document.getElementsByTagName("script")[0], url;
+        url = document.querySelectorAll ? document.querySelectorAll("link[rel~=canonical]") : false;
+        url = url && url[0] ? url[0].href : false;
+        sn.type = "text/javascript"; sn.async = true;
+        sn.src = "//webmention.herokuapp.com/api/embed?version=cutting-edge&url=" + encodeURIComponent(url || window.location);
+        s.parentNode.insertBefore(sn, s);
+      }());
+    </script>
+    
+    </body>
