@@ -5,10 +5,15 @@
 <link href="style.css" media="all" rel="stylesheet" type="text/css" />
 <link rel="webmention" href="https://webmention.herokuapp.com/api/webmention" /> 
 <script src="perilrolls.js"></script>
+<style>p {max-width: 40em;}</style>
 </head>
 <body>
     <main>
     <h1>Peril Rolls</h1>
+    <blockquote><p>Peril is resolved by rolling dice over a number of rounds starting with 6d6. The number of rounds is determined by the difficulty of the original action (between 1 and 4). If none of the dice in a Peril roll shows a Success, the Teller is lost.
+
+        <p>If there is at least one Success, that round of Peril is cleared, but all failure dice are removed from the pool for the next round. If a player successfully resolves their Peril, everyone's breathing can return to normal, and the ability check fails without any mortal impact. 
+        </blockquote>
     <h2>try them out live</h2>
     <form onsubmit="result=peril_roll(parseInt(rounds.value),parseInt(dice.value)); survived.value=result.survived;history.value=result.history.join('\n'); odds.value=fmt.format(100*peril_odds(parseInt(rounds.value),parseInt(dice.value)))" method="dialog">
         <input type="number" id="rounds" name="rounds" value="1" /><label for="rounds">Rounds</label> of <input type="number" id="dice" name="dice" value="6" /><label for="dice">dice</label> <input type="submit" value="Roll" id="roll" name="roll" />
