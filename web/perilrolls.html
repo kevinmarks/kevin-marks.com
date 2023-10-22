@@ -7,6 +7,7 @@
 <script src="perilrolls.js"></script>
 </head>
 <body>
+    <main>
     <h1>Peril Rolls</h1>
     <h2>try them out live</h2>
     <form onsubmit="result=peril_roll(parseInt(rounds.value),parseInt(dice.value)); survived.value=result.survived;history.value=result.history.join('\n'); odds.value=fmt.format(100*peril_odds(parseInt(rounds.value),parseInt(dice.value)))" method="dialog">
@@ -15,6 +16,7 @@
         <p><pre><output name="history" for="rounds roll dice"></output></pre>
         <p>Survival Odds <output name="odds" for="rounds roll dice"></output>%
       </form>
+    
     <h2>odds calculation</h2>
     <table>
         <thead><th>Rounds</th><th>Dice</th><th>Survival odds</th></thead>
@@ -25,6 +27,8 @@
             <tr><td>4</td><td>6</td><td id="o4r6d"></td></tr>
         </tbody>
     </table>
+</main>
+
     <script>
         const fmt =new Intl.NumberFormat("en-GB", { maximumSignificantDigits: 3 })
         document.getElementById("o1r6d").innerHTML = fmt.format(100*peril_odds(1,6))+"%";
