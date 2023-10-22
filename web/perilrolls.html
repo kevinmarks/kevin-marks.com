@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<head><title>Peril Rolls</title>
+<script src="perilrolls.js"></script>
+</head>
+<body>
+    <h1>Peril Rolls</h1>
+    <h2>try them out live</h2>
+    <form onsubmit="result=peril_roll(parseInt(rounds.value),parseInt(dice.value)); survived.value=result.survived;history.value=result.history.join('\n'); odds.value=fmt.format(100*peril_odds(parseInt(rounds.value),parseInt(dice.value)))" method="dialog">
+        <input type="number" id="rounds" name="rounds" value="1" /><label for="rounds">Rounds</label> of <input type="number" id="dice" name="dice" value="6" /><label for="dice">dice</label> <input type="submit" value="Roll" id="roll" name="roll" />
+        <p><output name="survived" for="rounds roll dice"></output>
+        <p><pre><output name="history" for="rounds roll dice"></output></pre>
+        <p>Survival Odds <output name="odds" for="rounds roll dice"></output>%
+      </form>
+    <h2>odds calculation</h2>
+    <table>
+        <thead><th>Rounds</th><th>Dice</th><th>Survival odds</th></thead>
+        <tbody>
+            <tr><td>1</td><td>6</td><td id="o1r6d"></td></tr>
+            <tr><td>2</td><td>6</td><td id="o2r6d"></td></tr>
+            <tr><td>3</td><td>6</td><td id="o3r6d"></td></tr>
+            <tr><td>4</td><td>6</td><td id="o4r6d"></td></tr>
+        </tbody>
+    </table>
+    <script>
+        const fmt =new Intl.NumberFormat("en-GB", { maximumSignificantDigits: 3 })
+        document.getElementById("o1r6d").innerHTML = fmt.format(100*peril_odds(1,6))+"%";
+        document.getElementById("o2r6d").innerHTML = fmt.format(100*peril_odds(2,6))+"%";
+        document.getElementById("o3r6d").innerHTML = fmt.format(100*peril_odds(3,6))+"%";
+        document.getElementById("o4r6d").innerHTML = fmt.format(100*peril_odds(4,6))+"%";
+    </script>
+</body>
