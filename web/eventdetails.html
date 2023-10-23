@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<head><title>Event flow</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="style.css" media="all" rel="stylesheet" type="text/css" />
+<link rel="webmention" href="https://webmention.herokuapp.com/api/webmention" /> 
+<script src="perilrolls.js"></script>
+<style>p {max-width: 40em;}</style>
+</head>
+<body>
+    <main>
+    <h1>things go awry</h1>
+    <details><summary>The title here with a footnote:<a class="footnote" data-note="secret footnote">*</a></summary>
+        A long essay about how the thing in the link could be very interesting, but not about the footnote which it doesn't want to expand this as the footnote might get covered up 
+    </details>
+    <output id="footy"></output>
+</main>
+
+    <script>
+    const show_foot = function(event) {
+        const note = this.getAttribute("data-note");
+        event.preventDefault();
+        // event.stopImmediatePropagation();
+        footy.value=note;
+
+    };
+    const elements = document.getElementsByClassName("footnote");
+    for (const elem of elements ){
+        elem.addEventListener('click', show_foot);
+    }
+
+        
+
+    </script>
+</body>
