@@ -11,9 +11,10 @@
     <main>
     <h1>hotlinking mp3</h1>
     <p>Tantek explains POSSE:
-    <audio src="https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/chtbl.com/track/524GE/traffic.megaphone.fm/VMP7029501931.mp3?updated=1697826191#t=296,335" controls></audio>
-    alternatively: <audio class="u-audio" src="https://traffic.megaphone.fm/VMP7029501931.mp3#t=296,335" controls="" preload="none">
-    </audio>
+    <p><audio src="https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/chtbl.com/track/524GE/traffic.megaphone.fm/VMP7029501931.mp3?updated=1697826191#t=296,335" controls></audio>
+    <p>The above was a hotlink directly to the url I found in the podcast page, which presumably tells the host that it was played somehow; this one is to a simpler URL to the same podcsst found via huffduffer:
+    <p><audio class="u-audio" src="https://traffic.megaphone.fm/VMP7029501931.mp3#t=296,335" controls="" preload="none"></audio>
+    <p>Presentation will depend on the browser you are using. There may be a way to give a more detailed view by using a video tag and defining a <a href="https://www.w3.org/TR/webvtt1/#chapter-cues">chapter track with WEBVTT</a>, but I haven't experimented with that recently.
 </main>
 
 </body>
