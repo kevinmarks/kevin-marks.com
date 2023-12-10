@@ -1,4 +1,4 @@
-function peril_roll(rounds=1,dice_count=6) {
+function peril_roll(rounds=1,dice_count=6,success=0.5) {
     let wins=0
     const result={"survived":"well, duh",history:[]}
     while (rounds>0){
@@ -6,7 +6,7 @@ function peril_roll(rounds=1,dice_count=6) {
         wins=0
         for (let die=0; die<dice_count; die++){
             const roll=Math.random()
-            if (roll>0.5){
+            if (roll>success){
                 this_round.push("win")
                 wins+=1;
             } else {
@@ -49,21 +49,22 @@ function permute(n){
     return op
 }
 
-function odds (n) {
-    const outcomes = 1<<n;
-    return (outcomes-1)/outcomes;
+function odds (n,success) {
+    return 1-Math.pow(success,n)
+    // const outcomes = 1<<n; // was 1<<n as they were binary outcomes
+    // return (outcomes-1)/outcomes;
 }
 
-function peril_odds(r,n){
+function peril_odds(r,n,success=0.5){
     if (r==1){
-        return odds(n)
+        return odds(n,success)
     } else {
         let p=permute(n)
         let total=0
         let cumulative_odds=0
         for (i in p) {
             total+=p[i]
-            cumulative_odds+=p[i]*peril_odds(r-1,i)
+            cumulative_odds+=p[i]*peril_odds(r-1,i,success)
         }
         return cumulative_odds/total
 
