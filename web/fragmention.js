@@ -1,5 +1,15 @@
 'use strict';
-
+window.addEventListener("load", (event) => {
+	const entries= document.getElementsByClassName('h-entry');
+	const names =  entries &&  entries[0]? entries[0].getElementsByClassName('p-name'):undefined;
+	if (names && names[0]){
+		const link = document.createElement("a");
+		link.setAttribute("href",'https://shareopenly.org/share/?url='+encodeURIComponent(location.href)+'&text\='+encodeURIComponent(document.getSelection().toString()||document.title));
+		link.setAttribute("target","_blank");
+		link.innerHTML="<img src='shareopenlylogo.svg'>";
+		names[0].after(link);
+	}
+});
 // detect native/existing fragmention support
 if (!('fragmention' in window.location)) (function () {
 	// populate fragmention
