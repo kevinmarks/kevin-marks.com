@@ -1,0 +1,34 @@
+<!doctype html>
+<html><head>
+    <title>Find Region</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        function findregion() {
+            const form = document.getElementById("lookup");
+            const pc = form.elements["postcode"];
+            return fetch("https://api.receptiontool.co.uk/public/vulcan?postcode="+pc.value)
+            .then (c => c.json())
+            .then( v => {
+                const regions=[]
+                for (const [i,tx] of Object.entries(v.dtt)) {
+                    regions.push(tx.region)
+                }
+                form.elements["regions"].value=regions.join(", ")
+                return false;
+            }).catch (err => {
+                    console.error(err);
+                    return false;
+            })
+        }
+    </script>
+    </head>
+    <body>
+        <h1>Find region</h1>
+        <form name="lookup" id="lookup" onsubmit="event.preventDefault(); findregion();">
+            <label>Postcode:<input name=postcode id=postcode value=W1A1AA></label>
+            <p><input type="submit" value="Lookup"></input>
+            <p><label>Regions:<output name=regions></output></label>
+        </form>
+  </body>
+  </html>
