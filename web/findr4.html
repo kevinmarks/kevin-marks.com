@@ -1,0 +1,62 @@
+<!doctype html>
+<html><head>
+    <title>Find Radio 4</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        function findoptions() {
+            const form = document.getElementById("lookup");
+            const pc = form.elements["postcode"];
+            return fetch("https://api.receptiontool.co.uk/public/vulcan?postcode="+pc.value)
+            .then (c => c.json())
+            .then( v => {
+                const options=[]
+                if (v.fm) {
+                    for (const [i,tx] of Object.entries(v.fm)) {
+                        if (tx.senders) {
+                             for (const [j,s] of Object.entries(tx.senders)) {
+                                if (s.sender=="BBC Radio 4"){
+                                    options.push('FM '+tx.txname+' '+s.frequency+s.unit);
+                                    break;
+                                }
+                             }
+                        }
+                        if (options.length>0){
+                            break;
+                        }
+                    }
+                }
+                if (v.dab) {
+                    for (const [i,tx] of Object.entries(v.dab)) {
+                        if (tx.senders && tx.senders[0].sender=="BBC National DAB/DAB+"){
+                            options.push('DAB '+tx.txname);
+                            break;
+                        }
+                    }
+                }
+                if (v.dtt) {
+                    for (const [i,tx] of Object.entries(v.dtt)) {
+                        if (tx.senders && tx.senders[0].sender=="BBC A"){
+                            options.push('DTT '+tx.txname);
+                            break;
+                        }
+                    }
+                }
+                form.elements["options"].value=options.join(", ")
+                return false;
+            }).catch (err => {
+                    console.error(err);
+                    return false;
+            })
+        }
+    </script>
+    </head>
+    <body>
+        <h1>Radio 4 options</h1>
+        <form name="lookup" id="lookup" onsubmit="event.preventDefault(); findoptions();">
+            <label>Postcode:<input name=postcode id=postcode value=W1A1AA></label>
+            <p><input type="submit" value="Lookup"></input>
+            <p><label>options:<output name=options></output></label>
+        </form>
+  </body>
+  </html>
