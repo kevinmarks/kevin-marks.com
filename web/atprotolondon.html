@@ -1,0 +1,116 @@
+<html>
+<head><title>ATProto London</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="fragmention.js"></script>
+<script src="hovercards.js"></script>
+<link href="style.css" media="all" rel="stylesheet" type="text/css" />
+<link rel="webmention" href="https://webmention.herokuapp.com/api/webmention" />
+</head>
+<body>
+<article class="h-entry">
+<h1 class="p-name">ATProto London <time class="dt-published">2026-01-28</time></h1>
+<div class="e-content">
+<div class='notercite h-cite'><a class='h-card p-category' href='https://bsky.app/profile/oyin.bo'> Mihailiк ᵖᵒ⁶ᵒᵐᵃ</a>:  <blockquote class='e-content'><p>I made. a musical visualiser of the bsky feed <a class="auto-link" href="https://fi.reho.se">https://fi.reho.se</a> based on bsky.network - I smoothed the frquency transitions, made the Falling Down in CSS
+<p>I had to work to make the emoji's green rather than coloured
+<p>I made a space filling animation<a class="auto-link" href="http://oyin.bo/maviy-graph">http://oyin.bo/maviy-graph</a> to show the firehose
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='https://danabra.mov/'>Dan Abramov</a>:  <blockquote class='e-content'><p>I have a canvas which has an inlaid window on the page showing my profile
+<p>you can see my friend circles and my recent plays - you can explore otehr people's profiles too - I have a schema in the lexicon to represent this layout. - it's kinda hypercardy
+<p>each of the separate pieces in my view can be pulled out and rendered individually - underneath it has Stack, Link, Post elements that use at URLs to render atproto data
+<p>because the Skircle component is flexible I can drag a person url into it and it shows them, making it browsable; and profile renderes can be written by other people too
+<p>so I can switch between a bluesky-ish profile to an instagram-ish profile
+<p>I am using atproto to map the content types to the package that renders that content, with multiple possible viewers for a given type
+<p>Post, PostFeed aren't endpoints; they're lexicons so they are the source to render which is seperate from the packages, so we can compose UI components from differen sources easily
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='https://bsky.app/profile/alex.bsky.team'>Alex</a>:  <blockquote class='e-content'><p>this shows what is great about the lexicon as it is structure and data and permisssions all bundled up
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='https://danabra.mov/'>Dan Abramov</a>:  <blockquote class='e-content'><p>This thing is called Inlay and will be at that when I make it more public
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='https://bsky.app/profile/alex.bsky.team'>Alex Garnett</a>:  <blockquote class='e-content'><p>I'm Alex, I'm devrel at bluesky - I'm newer than a lot of you, and I want to give an overview
+<p>we have a new docs site that I am building out for bsky and cove the atmosphere as well as the bsky docs with nice structures
+<p>Bluesky is big world social, and has a modle of the social network that people recognise - atproto is the most important thign we make rather than bsky
+<p>bsky is one appview, one set of lexicons and one collection of PDS's but there is more to ti thna thet
+<p>we are trying to make it easier to undestand AT reads and writes, and which are bsky specific and which re generic
+<p>PDS's are how we store user date in atproto - you have. PDS inside SQLite. You can migrate your data to your own PDS, or to a different PDs host- which is smaller than ActivityPub
+<p>the thing people's want to self-host is the PDS - we have arepository of multiple ways to deploy the PDS or even relay we'll link to it too
+<p>we don't have a web admin interface for PDS hosters yet - we have a new commandline tool called goat go AT goat CLI tool [goatse li tool oh boy]
+<p>Firehose is how you get data from the network - I worked for a twitter firehose API company in 2012 I had to write Hadoop queries to get data out. We just have a website you cna get the data from
+<p>you might get rate liimited if you hit us really hard; it' a relay flow. You can host your own relay, and some people do, but they have the same API.
+<p>you may not want to hit the full firehose - we also have jetstream if you want. a simpler view
+<p>websocat will pull the firehose to the commandline
+<p>Backfilling means syncing the history of the firehose, or part of it. It's not fun to write this code, but we have done it. All of Bsky lexicons is 25 TB, so have some storage ready
+<p>if you just want some users or to filter the data on the way in you can have less storage.
+<p>we have a new tool called tap that will backfill some data and then cutover to the firehose and give you each entry you want exactly once
+<p>Custom feeds are a list of bsky posts that match some criteria or algorithm. tap makes doing this a lot easier as you can just get the bits of the feed you want to filter
+<p>I rewrote the basic feed generator with tap and it went down to 200 lines of code from a huge repo managing fetching
+<p>graze.social is a site that enables the building of custom feeds 
+<p>the atmosphere conference is going to be in vancouver in march and will have a media day before the web one.
+<p>what if you want to use this billion-edge social network without doign your own backfill?  this is where microcosm comes in - they have an index of record backlinks that you can explore to see things
+<p>PDSls https://pdsls.dev visualises everything in your PDS - any atmosphere app that has written any kind of record
+<p>Lexicon is schema system that provide interoperability by definiing data models, endpoints and permission sets all in one
+<p>The data you are posting is exactly the same format in your PDS, as <a class="auto-link figure" href="https://bsky.app/profile/atproto/danabra.mov">Dan</a> said earlier
+<p>if you npm-install -g <a class="auto-link h-cassis-username" href="https://bsky.app/profile/atproto">@atproto/</a>lex you can lex install app.bsky.feed.post etc and get the lexicons you need in typescript. Go isn't there yet, but we're working on it
+<p>goat has more tools for publishing new lexicons
+<p>we now have a Lexicon Style Guide to help you write lexicons
+<p>we'r hoping to improve the Claude experience with this new docs site
+<p>lexicon garden is a 3rd party browser for lexicons
+<p>leaflet is a blogging platform built on atproto that's worth a look
+<p><a class="auto-link" href="http://anisota.net">anisota.net</a> is a gamified bsky client that reads the bsky lexicon and adds it's own metadata to track the interactions
+<p>Social Graphs - we only maintin Go and typescript, but ther ea re go, python and rust ones too
+<p>you can easliy get the social graph with the getfollows call to get the users' social grpah
+<p>i just wanted to include https://bridgy.fed which connects bluesky and mastodon and indieweb  
+<p>bridgy is a way for apps to work on both atproto and mastodon at once and we sites doing that
+<p>the non-bsky PDS postng is a bit more than 1% - mostly via bridgy
+<p>why build on ATProto? no need to architect data models, SDK codegen for all lexicons; existing social graph
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='q'>q</a>:  <blockquote class='e-content'><p>is there a way to gradually move away from X etc into bsky ?
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='https://bsky.app/profile/alex.bsky.team'>Alex</a>:  <blockquote class='e-content'><p>there are some 3rd party chrome extensions that will let you find followers etc - Twitter is making this harder by making the API more expensive
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='q'>q</a>:  <blockquote class='e-content'><p>if you're designing a new app shoudl you make it more app shaped or more interoperable?
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='https://bsky.app/profile/alex.bsky.team'>Alex</a>:  <blockquote class='e-content'><p>always remeber that you cna pick and mix - you shouldn't reinvent followers for example, but you cna mke your own lexicons - you don't need to force interop with another 
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='q'>q</a>:  <blockquote class='e-content'><p>thank you for doing tap which was somethign that was very painful for us
+<p>how much interop depends on IETF?
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='https://bsky.app/profile/alex.bsky.team'>Alex</a>:  <blockquote class='e-content'><p>the ietf is now adopting at (as in at: urls) as a standard that can transcend us
+<p>join the at mailing list at IETF to take part
+<p>active users is ~3M posting weekly of ~40M users
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='q'>q</a>:  <blockquote class='e-content'><p>how do publish a lexicon, and can I update or change one?
+<p>lexicon garden is the best place to look until our docs ship https://lexicon.garden/
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='https://danabra.mov/'>Dan Abramov</a>:  <blockquote class='e-content'><p>if you have to ship a breaking change make a new lexicon
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='https://bsky.app/profile/alex.bsky.team'>Alex</a>:  <blockquote class='e-content'><p>one thing I wish we talked about more is how we do our own infra. It's been a lot more economical for us to use our own racks rather than running on other people's clouds
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='q'>q</a>:  <blockquote class='e-content'><p>could bsky help with mirroring slef-hosted PDS's ?
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='https://bsky.app/profile/alex.bsky.team'>Alex</a>:  <blockquote class='e-content'><p>that's a way to make an open source company fall over and die with support requests
+<p>there are going to be other PDS offerings, and we expect people to build that out. One example would be a PDS for atmosphere app allowing their users to have a clearer login
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='https://danabra.mov/'>Dan Abramov</a>:  <blockquote class='e-content'><p>the bsky PDS implementation means each user has a separate SQLite instance so it scales horizontally very easily
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='q'>q</a>:  <blockquote class='e-content'><p>everything scales well apart from the firehose
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='https://bsky.app/profile/alex.bsky.team'>Alex</a>:  <blockquote class='e-content'><p>if you're relying on the jetsteam firehose now it will saturate a cheap VPS now, so that will get worse. But the For You feed is run by one guy on his gaming desktop
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='https://kevinmarks.com'>Kevin Marks</a>:  <blockquote class='e-content'><p>Should we be encouraging civil society orgs to host parallel relay eg Wikimedia, <a class="auto-link" href="http://Archive.org">Archive.org</a>, British Library, the BBC?
+</blockquote></div>
+<div class='notercite h-cite'><a class='h-card p-category' href='https://bsky.app/profile/alex.bsky.team'>Alex</a>:  <blockquote class='e-content'><p>yes, that would be great
+</article>
+<script id="webmention-hosted">
+  (function () {
+    var sn = document.createElement("script"), s = document.getElementsByTagName("script")[0], url;
+    url = document.querySelectorAll ? document.querySelectorAll("link[rel~=canonical]") : false;
+    url = url && url[0] ? url[0].href : false;
+    sn.type = "text/javascript"; sn.async = true;
+    sn.src = "//webmention.herokuapp.com/api/embed?version=cutting-edge&url=" + encodeURIComponent(url || window.location);
+    s.parentNode.insertBefore(sn, s);
+  }());
+</script>
+
+</body>
+</html>
